@@ -5,8 +5,7 @@
             "Earth": "Earth",
             "Necrotic": "Necrotic",
             "Radiant": "Radiant",
-            "Water": "Water",
-
+            "Water": "Water"
         },
         "Language": {
             "NewRogalian": "New Rogalian",
@@ -38,8 +37,7 @@
             "Remin": "Remin",
             "Garrungan": "Garrungan",
             "Irilynko": "Irilynko",
-            "Murcielan": "Murcielan",
-
+            "Murcielan": "Murcielan"
         },
         "Trait": {
             "Aelkhazak": "Aelkhazak",
@@ -81,7 +79,7 @@
             "Telluric": "Telluric",
             "Therian": "Therian",
             "Vashlad": "Vashlad",
-            "Vesperan": "Vesperan",
+            "Vesperan": "Vesperan"
         },
         "TraitDescription": {
             "Aelkhazak": "Aelkhazak",
@@ -120,7 +118,7 @@
             "Telluric": "",
             "Therian": "",
             "Vashlad": "",
-            "Vesperan": "",
+            "Vesperan": ""
         },
         "BaseWeapon": {
             "Hornblade": "Hornblade",
@@ -152,7 +150,7 @@
             "GolemGauntlet": "Golem Gauntlet",
             "VoltaicFist": "Voltaic Fist",
             "SickleRifle": "Sickle Rifle",
-            "Magistar": "Magistar",
+            "Magistar": "Magistar"
         },
         "WeaponGroups": {
             "Scepter": "Scepter"
