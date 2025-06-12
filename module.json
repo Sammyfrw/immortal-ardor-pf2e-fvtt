@@ -469,8 +469,7 @@
           "vesperan": {
             "label": "IA.Trait.Vesperan",
             "description": "IA.TraitDescription.Vesperan"
-          },
-
+          }
         },
         "spellTraits": {
           "ascended": {
