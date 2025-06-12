@@ -7,7 +7,9 @@
     "verified": "12"
   },
   "description": "A module that contains all data necessary for Immortal Ardor and its related games",
-  "url": "https://github.com/ExampleRepo/PF2e-Example",
+  "url": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt",
+  "manifest": "https://raw.githubusercontent.com/sammyfrw/immortal-ardor-pf2e-fvtt/master/module.json",
+  "download": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt/archive/refs/heads/main.zip",
   "relationships": {
     "systems": [
         {
@@ -39,9 +41,9 @@
         "backgrounds",
         "classes",
         "class-features",
-        "archetypes"
+        "archetypes",
         "spells",
-        "actions"
+        "actions",
         "equipment",
         "effects",
         "deities",
