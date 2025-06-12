@@ -3,13 +3,21 @@
   "title": "Immortal Ardor",
   "version": "0.1.0",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "12.331",
+    "verified": "12.331"
   },
   "description": "A module that contains all data necessary for Immortal Ardor and its related games",
   "url": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt",
   "manifest": "https://raw.githubusercontent.com/sammyfrw/immortal-ardor-pf2e-fvtt/master/module.json",
   "download": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt/archive/refs/heads/main.zip",
+  "authors": [
+    {
+      "name": "Sammy Rachman",
+      "email": "sammyfrw@gmail.com",
+      "discord": "Rainwhisker",
+      "flags": {}
+    }
+  ],
   "relationships": {
     "systems": [
       {
@@ -22,21 +30,13 @@
       }
     ]
   },
-  "authors": [
-    {
-      "name": "Sammy Rachman",
-      "email": "sammyfrw@gmail.com",
-      "discord": "Rainwhisker",
-      "flags": {}
-    }
-  ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
     }
-  ],  
+  ],
   "packFolders": [
     {
       "name": "Immortal Ardor",
@@ -248,7 +248,7 @@
           "golem-gauntlet": "IA.BaseWeapon.GolemGauntlet",
           "voltaic-fist": "IA.BaseWeapon.VoltaicFist",
           "sickle-rifle": "IA.BaseWeapon.SickleRifle",
-          "magistar": "IA.BaseWeapon.Magistar",
+          "magistar": "IA.BaseWeapon.Magistar"
         },
         "languages": {
           "new-rogalian": "IA.Language.NewRogalian",
@@ -280,7 +280,7 @@
           "remin": "IA.Language.Remin",
           "garrungan": "IA.Language.Garrungan",
           "irilynko": "IA.Language.Irilynko",
-          "murcielan": "IA.Language.Murcielan",
+          "murcielan": "IA.Language.Murcielan"
         },
         "creatureTraits": {
           "aelkhazak": {
@@ -539,6 +539,7 @@
           }
         }
       }
+
     }
   }
 }
