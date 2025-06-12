@@ -12,13 +12,13 @@
   "download": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt/archive/refs/heads/main.zip",
   "relationships": {
     "systems": [
-        {
-          "id": "pf2e",
-          "type": "system",
-          "compatibility": {
-            "minimum": "6.10"
-          },
-          "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "6.10"
+        }
       }
     ]
   },
@@ -30,6 +30,13 @@
       "flags": {}
     }
   ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]  
   "packFolders": [
     {
       "name": "Immortal Ardor",
@@ -534,12 +541,5 @@
         }
       }
     }
-  },
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
-  ]  
+  }
 }
