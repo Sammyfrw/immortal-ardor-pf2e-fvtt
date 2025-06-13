@@ -1,16 +1,16 @@
 {
     "PF2E": {
-        "TraitHuman": "Sapien",
-        "TraitElf": "Sapien",
-        "TraitDwarf": "Sapien",
-        "TraitOrc": "Azoph-fer",
-        "TraitHobgoblin": "Azoph-fer",
-        "TraitGoblin": "Azoph-fer",
-        "TraitCatfolk": "Lyncan",
-        "TraitShoony": "Loupain",
-        "TraitTengu": "Avekiri",
-        "TraitStrix": "Avekiri",
-        "TraitNagaji": "Aelkhazak"
+        "TraitHuman": "Sapien-Piedan",
+        "TraitElf": "Sapien-Liefen",
+        "TraitDwarf": "Sapien-Saltan",
+        "TraitOrc": "Azoph-fer-Hezonkhai",
+        "TraitHobgoblin": "Azoph-fer-Erankhai",
+        "TraitGoblin": "Azoph-fer-Fironkhai",
+        "TraitBugbear": "Azoph-fer-Agurunkhai",
+        "TraitCatfolk": "Lyncan-Hearthcat",
+        "TraitShoony": "Loupain-Pugnax",
+        "TraitTengu": "Avekiri-Corvis",
+        "TraitNagaji": "Aelkhazak-Pythos"
     },
     "IA": {
         "DamageType": {
