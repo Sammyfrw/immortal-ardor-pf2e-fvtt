@@ -1,3 +1,5 @@
-2025/06/18-09:53:50.489 7700 Recovering log #33
-2025/06/18-09:53:50.502 7700 Delete type=0 #33
-2025/06/18-09:53:50.502 7700 Delete type=3 #32
+2025/06/19-13:48:22.451 4d00 Log #39: 0 ops saved to Table #43 OK
+2025/06/19-13:48:22.451 4d00 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\archetypes/000039.log: OK
+2025/06/19-13:48:22.452 4d00 Table #42: 213 entries OK
+2025/06/19-13:48:22.457 4d00 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\archetypes/MANIFEST-000036: OK
+2025/06/19-13:48:22.462 4d00 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\archetypes; recovered 1 files; 198122 bytes. Some data may have been lost. ****

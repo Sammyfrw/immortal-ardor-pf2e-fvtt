@@ -1,3 +1,5 @@
-2025/06/18-09:53:50.444 7ba8 Recovering log #25
-2025/06/18-09:53:50.458 7ba8 Delete type=0 #25
-2025/06/18-09:53:50.458 7ba8 Delete type=3 #24
+2025/06/19-13:48:22.391 4d00 Log #30: 0 ops saved to Table #33 OK
+2025/06/19-13:48:22.392 4d00 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\spells/000030.log: OK
+2025/06/19-13:48:22.393 4d00 Table #32: 23 entries OK
+2025/06/19-13:48:22.397 4d00 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\spells/MANIFEST-000028: OK
+2025/06/19-13:48:22.403 4d00 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\spells; recovered 1 files; 31544 bytes. Some data may have been lost. ****

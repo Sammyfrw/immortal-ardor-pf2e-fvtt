@@ -1,5 +1,5 @@
-2025/06/18-09:53:50.632 4d54 Recovering log #22
-2025/06/18-09:53:50.633 4d54 Level-0 table #25: started
-2025/06/18-09:53:50.641 4d54 Level-0 table #25: 411298 bytes OK
-2025/06/18-09:53:50.655 4d54 Delete type=0 #22
-2025/06/18-09:53:50.656 4d54 Delete type=3 #20
+2025/06/19-13:48:22.621 8364 Log #30: 0 ops saved to Table #34 OK
+2025/06/19-13:48:22.622 8364 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\actions/000030.log: OK
+2025/06/19-13:48:22.622 8364 Table #33: 58 entries OK
+2025/06/19-13:48:22.627 8364 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\actions/MANIFEST-000027: OK
+2025/06/19-13:48:22.632 8364 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\actions; recovered 1 files; 64014 bytes. Some data may have been lost. ****

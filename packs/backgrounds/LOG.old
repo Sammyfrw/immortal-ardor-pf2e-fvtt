@@ -1,3 +1,4 @@
-2025/06/18-09:53:50.725 4d54 Recovering log #21
-2025/06/18-09:53:50.738 4d54 Delete type=0 #21
-2025/06/18-09:53:50.738 4d54 Delete type=3 #20
+2025/06/19-13:48:22.737 8398 Log #26: 0 ops saved to Table #27 OK
+2025/06/19-13:48:22.737 8398 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\backgrounds/000026.log: OK
+2025/06/19-13:48:22.741 8398 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\backgrounds/MANIFEST-000024: OK
+2025/06/19-13:48:22.746 8398 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\backgrounds; recovered 0 files; 0 bytes. Some data may have been lost. ****

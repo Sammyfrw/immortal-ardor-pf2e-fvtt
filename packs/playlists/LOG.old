@@ -1,3 +1,4 @@
-2025/06/18-09:53:50.588 7ba8 Recovering log #25
-2025/06/18-09:53:50.602 7ba8 Delete type=0 #25
-2025/06/18-09:53:50.602 7ba8 Delete type=3 #24
+2025/06/19-13:48:22.591 8398 Log #30: 0 ops saved to Table #31 OK
+2025/06/19-13:48:22.591 8398 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\playlists/000030.log: OK
+2025/06/19-13:48:22.596 8398 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\playlists/MANIFEST-000028: OK
+2025/06/19-13:48:22.601 8398 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\playlists; recovered 0 files; 0 bytes. Some data may have been lost. ****
