@@ -1,4 +1,5 @@
-2025/06/19-13:48:22.591 8398 Log #30: 0 ops saved to Table #31 OK
-2025/06/19-13:48:22.591 8398 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\playlists/000030.log: OK
-2025/06/19-13:48:22.596 8398 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\playlists/MANIFEST-000028: OK
-2025/06/19-13:48:22.601 8398 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\playlists; recovered 0 files; 0 bytes. Some data may have been lost. ****
+2025/06/19-13:48:22.611 8398 Delete type=3 #1
+2025/06/19-13:49:12.780 4f10 Level-0 table #35: started
+2025/06/19-13:49:12.780 4f10 Level-0 table #35: 0 bytes OK
+2025/06/19-13:49:12.784 4f10 Delete type=0 #33
+2025/06/19-13:49:12.798 4f10 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)

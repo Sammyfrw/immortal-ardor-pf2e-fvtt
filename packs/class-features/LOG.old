@@ -1,4 +1,5 @@
-2025/06/19-13:48:22.710 8364 Log #26: 0 ops saved to Table #27 OK
-2025/06/19-13:48:22.710 8364 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\class-features/000026.log: OK
-2025/06/19-13:48:22.716 8364 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\class-features/MANIFEST-000024: OK
-2025/06/19-13:48:22.721 8364 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\class-features; recovered 0 files; 0 bytes. Some data may have been lost. ****
+2025/06/19-13:48:22.732 8364 Delete type=3 #1
+2025/06/19-13:49:12.809 4f10 Level-0 table #31: started
+2025/06/19-13:49:12.809 4f10 Level-0 table #31: 0 bytes OK
+2025/06/19-13:49:12.814 4f10 Delete type=0 #29
+2025/06/19-13:49:12.822 4f10 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)
