@@ -469,6 +469,14 @@
           "vesperan": {
             "label": "IA.Trait.Vesperan",
             "description": "IA.TraitDescription.Vesperan"
+          },
+          "zeal": {
+            "label": "IA.Trait.Zeal",
+            "description": "IA.TraitDescription.Zeal"
+          },
+          "zenith": {
+            "label": "IA.Trait.Zenith",
+            "description": "IA.TraitDescription.Zenith"
           }
         },
         "spellTraits": {
@@ -491,6 +499,10 @@
           "constellation": {
             "label": "IA.Trait.Constellation",
             "description": "IA.TraitDescription.Constellation"
+          },
+          "meditation": {
+            "label": "IA.Trait.Meditation",
+            "description": "IA.TraitDescription.Meditation"
           },
           "order": {
             "label": "IA.Trait.Order",
