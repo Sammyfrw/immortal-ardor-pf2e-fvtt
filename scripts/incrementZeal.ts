@@ -12,12 +12,11 @@ async function incrementZeal() {
 	if (!zealResourceIndex) {
 		return ui.notifications.warn("Selected actor does not have the Zeal resource.");
 	}
-	
+
 	const actorZeal = selectedActor.rules[zealResourceIndex].value ?? 0;
 	const newZeal = showZealPopup(actorZeal);
 
 	selectedActor.updateResource('zeal', newZeal);
-
 }
 
 function showZealPopup(actorZeal: int): int {
