@@ -1,11 +1,13 @@
 async function incrementZeal() {
+  const MAX_ZEAL = 5;
+
   // get the selected actor and make sure there's only one selected
   const actors = canvas.tokens.controlled;
   if (actors.length != 1) {
     return ui.notifications.warn("Please select only one actor.");
   }
 
-  selectedActor = actors[0];
+  const selectedActor = actors[0];
 
   // next, check if the actor has the Zeal resource.
   const zealResourceIndex = selectedActor.rules.findIndex(rule => rule.slug === "zeal")
@@ -13,16 +15,34 @@ async function incrementZeal() {
     return ui.notifications.warn("Selected actor does not have the Zeal resource.");
   }
 
-  const actorZeal = selectedActor.rules[zealResourceIndex].value ?? 0;
-  const newZeal = showZealPopup(actorZeal);
+  const actorCurrentZeal = selectedActor.rules[zealResourceIndex].value ?? 0;
+  const addedZeal = showZealPopup(actorCurrentZeal);
+  const totalZeal = actorCurrentZeal + addedZeal;
 
-  selectedActor.updateResource('zeal', newZeal);
-}
+  // Get actor data
+  const token = selectedActor.getActiveTokens;
+  const name = token?.name ?? selectedActor.name;
+  const speaker = ChatMessagePF2e.getSpeaker({ token, selectedActor });
 
-function showZealPopup(actorZeal: int): int {
+  if (totalZeal >= MAX_ZEAL) {
+    selectedActor.updateResource('zeal', MAX_ZEAL);
+    await ChatMessagePF2e.create({
+        speaker,
+        content: `${name} gains ${addedZeal} Zeal, exceeding ${MAX_ZEAL}. Zeal set to ${MAX_ZEAL}.`,
+    });
+  } else {
+    selectedActor.updateResource('zeal', totalZeal);
+    await ChatMessagePF2e.create({
+        speaker,
+        content: `${name} gains ${addedZeal} Zeal. Zeal set to ${totalZeal}.`,
+    });
+  }
+} 
+
+function showZealPopup(actorCurrentZeal: int): int {
   new foundry.appv1.api.Dialog({
     title: "Award Zeal",
-    content: askZealPopupOption(actorZeal),
+    content: askZealPopupOption(actorCurrentZeal),
     buttons: {
       no: {
         icon: fontAwesomeIcon("times").outerHTML,
@@ -47,7 +67,7 @@ function askZealPopupOption(zeal: int): string {
     return `
     <form>
     <div class="form-group">
-        <label>New Zeal Amount</label>
+        <label>Gained Zeal</label>
         <input type="number" name="zeal" value="${currentZeal}">
     </div>
     </form>
