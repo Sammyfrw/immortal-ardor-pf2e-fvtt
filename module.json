@@ -10,6 +10,9 @@
   "url": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt",
   "manifest": "https://raw.githubusercontent.com/sammyfrw/immortal-ardor-pf2e-fvtt/master/module.json",
   "download": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt/archive/refs/heads/main.zip",
+  "esmodules": [
+    "immortal-ardor-pf2e-fvtt.js"
+  ],
   "authors": [
     {
       "name": "Sammy Rachman",
@@ -23,10 +26,14 @@
       {
         "id": "pf2e",
         "type": "system",
-        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-        "compatibility": {
-          "minimum": "6.9"
-        }
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "socketlib",
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
@@ -34,7 +41,8 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -56,7 +64,9 @@
         "deities",
         "journals",
         "playlists"
-      ]
+      ],
+      "color": null,
+      "folders": []
     }
   ],
   "packs": [
@@ -164,55 +174,55 @@
       "label": "Actions",
       "path": "packs/actions",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "ancestry-features",
       "label": "Ancestry Features",
       "path": "packs/ancestry-features",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "deities",
       "label": "Deities",
       "path": "packs/deities",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "class-features",
       "label": "Class Features",
       "path": "packs/class-features",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "backgrounds",
       "label": "Backgrounds",
       "path": "packs/backgrounds",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ],
   "flags": {
@@ -551,7 +561,6 @@
           }
         }
       }
-
     }
   }
 }
