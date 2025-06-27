@@ -1,0 +1,59 @@
+{
+  "type": "action",
+  "name": "Lucid Flash",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You emit an emotion that can influence a dreaming entity. This action behaves as one of the following maneuvers, but you cannot get any result except for a <strong>Success </strong>or a <strong>Failure</strong>. A creature cannot be under the effect of multiple Lucid Flash effects at a time. In the event a second effect affects a creature, the older effect is removed.</p><ul><li><p><strong>Fear</strong>: You attempt to @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} a creature within 30 feet of you.</p></li><li><p><strong>Anxiety: </strong>You attempt to @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} against a single creature adjacent to you. You can do this without any requirements for cover or needing to be outside their field of detection. On a success, you appear to them as something that is just out of the corner of their eye, distracting them enough that they lose one reaction until your next turn.</p></li><li><p><strong>Lethargy</strong>: You attempt to @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} a creature you are adjacent to. A creature can attempt a Will save to escape in addition to the usual methods.</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "lucid-flash",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lucid"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "folder": "DL1Cx22P0pj4GTgy",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "jonT64W4oWaxJkqd",
+  "sort": 200000,
+  "_key": "!items!jonT64W4oWaxJkqd"
+}

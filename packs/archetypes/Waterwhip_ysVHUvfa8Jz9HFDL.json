@@ -1,0 +1,90 @@
+{
+  "_id": "ysVHUvfa8Jz9HFDL",
+  "name": "Waterwhip",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/control-water.webp",
+  "effects": [],
+  "folder": "30WU2IO6iK4SSU4s",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create a rapid flow of water beneath a creature’s feet, carrying them in a single direction you wish. An unwilling creature needs to make a Fortitude saving throw, while a willing creature can choose to take the failure or critical failure effect. Casting this spell with 2 actions creates a single 5-foot wide line that can move a single creature from the origin point of the spell, while casting this spell with 3 actions creates a 15-foot wide line that can affect three adjacent creatures who are side by side.</p>\n<p> </p>\n<p class=\"MsoNormal\"><strong>Critical Success</strong> The creature is unaffected.</p>\n<p class=\"MsoNormal\"><strong>Success</strong> The creature moves 5 feet.</p>\n<p class=\"MsoNormal\"><strong>Failure</strong> The creature moves 5 to 10 feet (your choice).</p>\n<p class=\"MsoNormal\"><strong>Critical Failure </strong>The creature moves 5 to 15 feet (your choice).</p>\n<p class=\"MsoNormal\" style=\"text-indent:.5in\"> </p>\n<p class=\"MsoNormal\"><strong>Heightened(5<sup>th</sup>)</strong> The width of the line increases by 10 feet, and the maximum distance you can move a creature on a success, failure or critical failure increases by 10 feet.</p>\n<p class=\"MsoNormal\"><strong><span style=\"font-size:12.0pt;font-family:'Calibri',sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">Heightened(8<sup>th</sup>) </span></strong>The width of the line increases by 20 feet, and the maximum distance you can move a creature on a success, failure or critical failure increases by 20 feet.</p>"
+    },
+    "rules": [],
+    "slug": "waterwhip",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "water"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2 to 3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "passive": null,
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ysVHUvfa8Jz9HFDL",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!ysVHUvfa8Jz9HFDL"
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Armiger's Strike",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "vyy8rQSagb0icXNs",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You become versed in the art of channeling magic through your primed weapon, and you are able to use it as a focus to deliver your spell.</span></p><p>You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll, a saving throw, movement, or teleportation as part of its effects. The effects of the spell don't occur immediately but are imbued into your weapon instead. Make a Strike with your primed weapon, or, if movement or teleportation is part of the spell, you cast the spell as normal, and Strike at the end of the movement. Your spell is coupled with your attack, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Armiger’s Strike. The infusion of spell energy grants your Strike the Arcane trait, making it magical.</p><p> </p><p><strong>Armiger Strike Specifics</strong></p><ul><li>The spell must take 1 or 2 actions to cast and must target something other than yourself.</li><li>The spell used for this must possess at least one trait correlating to a Priming element (fire, cold, electricity, acid, air, earth, water, wood or metal).</li><li>For a spell attack spell, it uses your attack roll to determine its chance to hit.</li><li>For any saving throws, the strike must be successful, and it uses your spell DC.</li><li>The range for the spell becomes touch and targets only the target of your strike.</li><li>If Armiger Strike is made with a melee attack and the spell features a Burst or Emanation area effect, it becomes a cone expanding out from you.</li><li>Any ancillary effects of the spell still occur on a successful Strike, taking effect the moment you hit.</li><li>f the target is immune to your attack but not the spell, the target can still be affected.</li></ul>"
+    },
+    "rules": [],
+    "slug": "armigers-strike",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "flourish"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Armiger Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.PrEkSqNqDrttiKdr",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "PrEkSqNqDrttiKdr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!PrEkSqNqDrttiKdr"
+}

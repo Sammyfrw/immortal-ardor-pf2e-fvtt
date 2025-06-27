@@ -1,0 +1,64 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Dragon Dive",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p><strong>Requirements</strong> You are in the air or your last action was to Leap or Fly, and you have Zeal.</p><hr /></div><p>You channel the surging might of the drachiri, and manifest ethereal wings to carry your force forward into a crippling strike. You Fly up to your Speed, or your fly speed if you have it. At the end of your flight, you Strike with a +2 circumstance bonus to your attack. If you hit, the target becomes Clumsy 1 (Clumsy 2 on a critical hit).</p><p>After the Strike, if you are in the air, you glide safely downwards up to a distance equal to the speed you used for thqis action by taking a move action during your turn or automatically at the end of your turn. If you are still in the air afterward, you fall. If you can fly, you can choose to stay airborne.</p><p><strong>Special</strong> If your last action was a Flourish action that included a Leap or Fly action, or left you in the air, you can ignore the Flourish trait for this action.</p>"
+    },
+    "rules": [],
+    "slug": "dragon-dive",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "flourish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "I6CIBRElgNNrotJV",
+  "_key": "!items!I6CIBRElgNNrotJV"
+}

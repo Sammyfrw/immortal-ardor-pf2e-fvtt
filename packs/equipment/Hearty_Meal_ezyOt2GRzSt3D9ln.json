@@ -1,0 +1,103 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Hearty Meal",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> — (this recipe is available automatically)<br /><strong>Ingredients</strong> 4 basic<br /><strong>Preparation</strong> DC 14 </span>Cooking Lore or DC 16 Survival<br /><strong>Favorite Meal</strong> The eater recovers an additional amount of Hit Points equal to their level when they rest.</p><hr /><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">By taking extra time to prepare a meal, adding extra spices, and supplementing the meal with additional ingredients, you can turn a regular meal into a hearty one. Unlike other special meals, anyone can attempt to cook a hearty meal— no recipe is required.</span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">The meal grants the eater a +1 status bonus to the next saving throw they attempt during the next 24 hours.</span></p><p>@UUID[Compendium.immortal-ardor.equipment.Item.ezyOt2GRzSt3D9ln]{Hearty Meal}</p>"
+    },
+    "rules": [],
+    "slug": "hearty-meal",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "consumable",
+        "meal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 5
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/consumables/food/pot-soup-white.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "img": "icons/consumables/food/pot-soup-white.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ezyOt2GRzSt3D9ln",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "ezyOt2GRzSt3D9ln",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!ezyOt2GRzSt3D9ln"
+}

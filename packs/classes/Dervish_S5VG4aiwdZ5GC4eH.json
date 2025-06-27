@@ -1,0 +1,19 @@
+{
+  "name": "Dervish",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "S5VG4aiwdZ5GC4eH",
+  "description": "",
+  "sort": 0,
+  "color": "#c9af4f",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!S5VG4aiwdZ5GC4eH"
+}

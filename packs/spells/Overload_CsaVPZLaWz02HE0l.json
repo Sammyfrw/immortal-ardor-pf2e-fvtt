@@ -1,0 +1,103 @@
+{
+  "folder": "mpWiWjUlSr3Cmm4k",
+  "name": "Overload",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You unleash a salvo of energy pulses that overpowers shields, tech and equipment. The target needs to make a basic Fortitude saving throw. This spell deals @Damage[2d8[electricity]] damage to temporary hit points, shields or barriers that the target may have from itself, from tech items, implants or similar, or that the target is granting to another creature based on the outcome of the saving throw.</p><p>If this reduces temporary hit points or destroys a shield or barrier, the source of the effect becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.6A2QDy8wRGCVQsSd]{Glitching 1} or increases any existing Glitching value by 1.</p><p>Based on the outcome of the saving throw, the following effects occur.</p><p><strong>Critical Success </strong>The target is unaffected.</p><p><strong>Success </strong>The target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.6A2QDy8wRGCVQsSd]{Glitching 1} for 1 round.</p><p><strong>Failure </strong>The target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.6A2QDy8wRGCVQsSd]{Glitching 1}.</p><p><strong>Critical Failure </strong>The target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.6A2QDy8wRGCVQsSd]{Glitching 2}.</p><p></p><p>The number of actions you spend casting this spell determines the range and targets of this spell.</p><p><span class=\"action-glyph\">1 - </span>The spell sparks from your fingertips, and it has a range of touch on a single target.</p><p><span class=\"action-glyph\">2 - </span>The spell flies out from you, and the spell has a range of 30 feet.</p><p><span class=\"action-glyph\">3 </span>- As per 2-actions, but the spell bounces after the first impact, targeting a second creature within 30 feet of the target.</p><hr /><p><strong>Heightened (+1) </strong>Increase the damage to temporary hit points or barriers by 1d8.</p>"
+    },
+    "rules": [],
+    "slug": "overload",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "constellation",
+        "electricity",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "a tech creature or a tech item"
+    },
+    "range": {
+      "value": "varies"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "ni29R8DhbBWRdQ1n": {
+        "formula": "2d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "electricity",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "ni29R8DhbBWRdQ1n": "1d8"
+      },
+      "area": 0
+    }
+  },
+  "_id": "CsaVPZLaWz02HE0l",
+  "img": "systems/pf2e/icons/spells/shock-to-the-system.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.CsaVPZLaWz02HE0l",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!CsaVPZLaWz02HE0l"
+}

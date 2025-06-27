@@ -1,0 +1,91 @@
+{
+  "folder": "93K9wkPgvxSslyms",
+  "name": "Music Disc - Tides of Darkness",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A series of CRUNCHY, GRIMY, NAIL-INCHING songs, there for the fights against the dark. Whether its you, your trusty buddies against a horde of darkness, or a troop of grim occultists, there's certainly a track here for you. Infiltrating a citadel? You got it. They say there's a second volume out there and it was SO SICK, moms all around the galaxy threw it out of their kids homes for their safety.</p><p>Are you brave enough, or are you a wimp?</p>"
+    },
+    "rules": [],
+    "slug": "music-disc-tides-of-darkness",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 200
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Ancient Compact Disk",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/TM_Disk%20(1).png",
+        "data": {
+          "description": {
+            "value": "<p>An unidentified compact disk.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/TM_Disk%20(1).png",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.F7CCaWsbCdpvsqNF",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "F7CCaWsbCdpvsqNF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!F7CCaWsbCdpvsqNF"
+}

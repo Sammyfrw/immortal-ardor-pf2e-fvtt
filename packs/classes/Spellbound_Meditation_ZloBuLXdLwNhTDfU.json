@@ -1,0 +1,78 @@
+{
+  "folder": "haPxeGTHw8Wbkkx8",
+  "name": "Spellbound Meditation",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You trace the depths of magic in your trance. All forms of magic in the world flow and touch upon each other, where the lines between the traditions touch and intersect. You find yourself contemplating the journeys to travel between them, beginning from the point of the divine.</p><p>When you cast this spell, you gain 2 Zeal and magic coalesces at your fingertips. As you make gestures with your body, the mirage of spells weave and paint the world around you. Once per round when you cast this spell and when you sustain this spell, you pull a shard of a tradition of magic and tap into it.</p><p>Once per round when you cast this spell or sustain this spell, choose one of the following recitations and target a creature within 30 feet of you, and they need to make the listed saving throw against your Dervish class DC. A creature can only have one of these effects at a time. If you afflict a creature with second effect, the previous effect ends.</p><ul><li><p><strong>Arcane Corrosion (Reflex)</strong>: You lash arcane power to corrode the weave of your target, stripping their physical resistance. Creatures who fail the saving throw suffer a -1 status penalty to Fortitude saves for 2 rounds (1 round on success, -2 status penalty on critical failure). This is an Arcane and Curse effect.</p></li><li><p><strong>Primal Haze (Fortitude)</strong>: You create a ring of flowers that release a puff of pollen at your target, clouding and distracting their thoughts. Creatures who fail the saving throw suffer a -1 status penalty to Will saves for 2 rounds (1 round on success, -2 status penalty on critical failure). This is a Primal and Poison effect.</p></li><li><p><strong>Occult Shock (Will):</strong> You blast the mind of your target, causing their limbs to go limp and respond slowly. Creatures who fail the saving throw suffer a -1 status penalty to Reflex saves for 2 rounds (1 round on success, -2 status penalty on critical failure). This is an Occult and Mental effect.</p></li></ul><hr /><p><strong>Heightened (7th)</strong>: A creature can have two of these effects at a time.</p><p><strong>Heightened (9th)</strong>: A creature can have three of these effects at a time.</p>"
+    },
+    "rules": [],
+    "slug": "spellbound-meditation",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "meditation",
+        "subtle"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.LgJRHt96RKvOMKhF",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "ZloBuLXdLwNhTDfU",
+  "_key": "!items!ZloBuLXdLwNhTDfU"
+}

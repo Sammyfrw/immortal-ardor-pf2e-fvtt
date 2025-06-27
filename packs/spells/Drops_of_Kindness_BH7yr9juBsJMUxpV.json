@@ -1,0 +1,144 @@
+{
+  "folder": "mpWiWjUlSr3Cmm4k",
+  "name": "Drops of Kindness",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You bare forth the Rune of Water, and from it materialize the healing drop of kindness. When you cast this spell, your target gains the benefit of either @UUID[Compendium.pf2e.spells-srd.Et8RSCLx8w7uOLvo]{Sound Body}, @UUID[Compendium.pf2e.spells-srd.EfFMLVbmkBWmzoLF]{Clear Mind} or @UUID[Compendium.pf2e.spells-srd.BCuHKrDeJ4eq53M6]{Sure Footing}. If you succeed on your counteract check to cure an ailment, the target is healed for 5d6 hit points.</p><p>If you cast this spell with 3 actions instead, you target a 20 foot burst and can heal creatures within the area of their ailments. You choose one of the three spells to affect all of the targets. If you succeed on a counteract check to cure an ailment on a creature, they are instead healed for 3d6 hit points.</p><p></p><hr /><p><strong>Heightened (+1)</strong> The healing increases by 2d6 for both 2-action and 3-action versions of the spell.</p>"
+    },
+    "rules": [],
+    "slug": "drops-of-kindness",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "constellation",
+        "focus",
+        "healing",
+        "manipulate",
+        "water"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 willing creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "njWgWtZ25qHgcAxT": {
+        "formula": "5d6",
+        "kinds": [
+          "healing"
+        ],
+        "type": "vitality",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {
+      "9qh3TsS3BiyBDOX2": {
+        "system": {
+          "target": {
+            "value": "willing creatures in the area"
+          },
+          "area": {
+            "value": 20,
+            "type": "burst"
+          },
+          "time": {
+            "value": "3"
+          },
+          "damage": {
+            "njWgWtZ25qHgcAxT": {
+              "category": null
+            },
+            "FLDEziaBXQbeXnJC": {
+              "formula": "3d6",
+              "kinds": [
+                "healing"
+              ],
+              "type": "vitality",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": null,
+          "heightening": {
+            "damage": {
+              "FLDEziaBXQbeXnJC": "2d6"
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      }
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "njWgWtZ25qHgcAxT": "2d6"
+      },
+      "area": 0
+    }
+  },
+  "_id": "BH7yr9juBsJMUxpV",
+  "img": "systems/pf2e/icons/spells/waters-of-prediction.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.BH7yr9juBsJMUxpV",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!BH7yr9juBsJMUxpV"
+}

@@ -1,0 +1,68 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "See My Flame!",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>With roaring flame and a cry of exultation, you unleash the pinnacle of the great show that is life. The flame latches at your enemies’ very being, and burst in flame in a similar fashion. Up to 5 enemy creatures within 30 feet of you need to make a Will saving throw against your Dervish Class DC to avoid becoming Fascinated. Each round a creature remains fascinated from this Zenith, or when their fascination ends, they take 5d8 fire damage as the flame within them erupts, though this damage does not end the fascination. The amount of Zeal you spend determines the duration of their fascination:</p><ul><li><p>1-2 Zeal: Fascinated for 1 round</p></li><li><p>3-4 Zeal: Fascinated for 2 rounds</p></li><li><p>5 Zeal: Fascinated for 2 rounds and takes an additional 3d8 persistent fire damage when fascination ends</p></li></ul><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> If 3-5 Zeal is used, the creature only becomes fascinated for 1 round. Otherwise, they are unaffected.</p><p><strong>Failure</strong> The creature becomes fascinated for the number of rounds based on Zeal spent.</p><p><strong>Critical Failure</strong> As Failure, but creatures remain fascinated regardless of hostile actions against allies.</p><p><strong>Level (+2)</strong> The damage from fascination increases by 2d8 and the persistent fire damage increases by 1d8.</p>"
+    },
+    "rules": [],
+    "slug": "see-my-flame",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "divine",
+        "emotion",
+        "fire",
+        "incapacitation",
+        "zenith"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "M4ZO6frxNBpewsf7",
+  "_key": "!items!M4ZO6frxNBpewsf7"
+}

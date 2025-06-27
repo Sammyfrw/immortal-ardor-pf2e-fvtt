@@ -1,0 +1,63 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Wayward Chant",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">Even through conversation, witty retorts and damning declarations, you speak with the wisdom and metaphor of your parables. If you roll initiative with Diplomacy, Deception or Intimidation, or roll initiative within a reasonable timeframe after you Make an Impression, Lie or Coerce, you gain 1 Zeal. At a GM’s discretion, other Diplomacy, Deception or Intimidation checks made shortly before rolling initiative can also qualify.</span></p>"
+    },
+    "rules": [],
+    "slug": "wayward-chant",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "pWNf8K2kaXBemNTz",
+  "_key": "!items!pWNf8K2kaXBemNTz"
+}

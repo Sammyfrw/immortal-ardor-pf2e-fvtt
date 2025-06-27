@@ -1,0 +1,106 @@
+{
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/grains/waffle-golden-yellow.webp",
+  "name": "Waffle Spread",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> 25 sp<br /><strong>Ingredients</strong> 2 basic 1 special<br /><strong>Preparation</strong> DC 16 Cooking Lore, DC 18 Survival</span>.<br /><strong>Requirements</strong> Basic Kitchen<br /><strong>Favorite Meal</strong> As a follower, you can be linked to multiple leads at a time. As an Expert, you can be the lead for as many people as your waffle spread allows.</p><hr /><p>Flash-cooked on a waffle iron and drizzled with alchemical syrups and compound butter, cooperative waffles bolster the supportive spirit of those who share the batch.</p><p>A waffle spread is a batch of cooperative waffles meant to be shared: when ordered, the person who orders the meal designates the flavor and syrup, and offers pieces of the waffle to their companions. After you and up to 6 other companions eat the waffles, you Activate them.</p><p>As the person who orders it, you are the Expert; and anytime those you share the meal with uses Follow the Expert to follow you, the circumstance bonus granted is 1 higher.</p><p>The waffles' bonus lasts 24 hours or until you next make your daily preparations, whichever comes first. You can only be linked to one lead in this way at a time; if you order or take part in a waffle spread again, the effect of your previous waffles ends.</p><p>@UUID[Compendium.immortal-ardor.equipment.Item.5aX7cMGdFu32Bz7Z]{Effect: Waffle Spread (Follower)}</p><p>@UUID[Compendium.immortal-ardor.equipment.Item.dwl5GM8v16V9wJX2]{Effect: Waffle Spread (Leader)}</p>"
+    },
+    "rules": [],
+    "slug": "waffle-spread",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "alchemical",
+        "consumable",
+        "meal",
+        "processed"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 50
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/grains/waffle-golden-yellow.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "type": "consumable",
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.yaePvRZpsrqK1GxN",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "effects": [],
+  "folder": "I3N0LWkmyhk7xTuc",
+  "flags": {},
+  "_id": "yaePvRZpsrqK1GxN",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!yaePvRZpsrqK1GxN"
+}

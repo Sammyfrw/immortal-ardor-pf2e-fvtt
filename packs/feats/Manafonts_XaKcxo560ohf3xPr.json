@@ -1,0 +1,19 @@
+{
+  "_id": "XaKcxo560ohf3xPr",
+  "name": "Manafonts",
+  "type": "Item",
+  "sort": 100000,
+  "flags": {},
+  "sorting": "a",
+  "color": "#001061",
+  "folder": null,
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!XaKcxo560ohf3xPr"
+}

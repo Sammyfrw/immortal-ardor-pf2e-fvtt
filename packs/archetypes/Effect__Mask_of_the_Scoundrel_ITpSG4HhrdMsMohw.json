@@ -1,0 +1,85 @@
+{
+  "name": "Effect: Mask of the Scoundrel",
+  "type": "effect",
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/mask-of-the-banshee.webp",
+  "effects": [],
+  "folder": "HBf2BPOjZuyZr335",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.Item.CTrTF3Z1yIKzKS2A]{Noble's Mask}</p><hr /><p>You wear the Mask of the Scoundrel, granting you a bonus to Deception.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenEffectIcon"
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Mask of the Scoundrel",
+        "selector": "deception",
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "slug": "effect-mask-of-the-scoundrel",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "hours",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "rarity": {
+      "value": "common"
+    },
+    "unidentified": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "ITpSG4HhrdMsMohw",
+  "sort": 300000,
+  "_key": "!items!ITpSG4HhrdMsMohw"
+}

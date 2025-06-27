@@ -1,0 +1,59 @@
+{
+  "type": "action",
+  "name": "Lucid Order",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This Figment is a Druid; as a result, it can cast the Order spell that was granted by its initial Order, once every minute. The spell gains the Lucid trait. It can also designate one ally its aware of. So long as that ally and the Figment persists in the dream, it gains the benefits of the Order's granted feat.</p>"
+    },
+    "rules": [],
+    "slug": "lucid-order",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lucid"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "folder": "DL1Cx22P0pj4GTgy",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "HfiHeVXG30SYhDgc",
+  "sort": 0,
+  "_key": "!items!HfiHeVXG30SYhDgc"
+}

@@ -1,0 +1,82 @@
+{
+  "folder": "scRkkbziDxqsiAqB",
+  "name": "The Jesters",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h4>The Twins / The Jesters</h4><p class=\"MsoNormal\"><strong>Personality </strong>Curious, elusive, unpredictable, changeable, versatile, childlike, romantic, playful, friendly, talkative, and keen.</p><p class=\"MsoNormal\"><strong>Astral Attribute </strong>Dexterity or Wisdom</p><p class=\"MsoNormal\"><strong>Astral Element </strong>Air</p><p class=\"MsoNormal\"><strong>Astral Gemstone </strong>Emerald</p><p class=\"MsoNormal\"><strong>Astral Colors </strong>Black, White</p><p class=\"MsoNormal\"><strong>Astral Brand </strong>Twintones - Simple color-coded styles that can easily mix-and-match</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong><span style=\"text-decoration:underline\">Cosmic Benefits</span></strong></p><p class=\"MsoNormal\"><strong>Cleric Spells</strong></p><p class=\"MsoNormal\"><strong>Divine Font </strong>Heal or Harm</p><p class=\"MsoNormal\"><strong>Divine Sanctification </strong>Must choose chaos, can choose holy or unholy</p><p class=\"MsoNormal\"><strong>Divine Skill </strong>Deception</p><p class=\"MsoNormal\"><strong>Domains</strong> Air, Cities, Luck, Travel</p><p class=\"MsoNormal\"><strong>Favored Weapon Group</strong> Sling</p><p class=\"MsoNormal\"><strong>Favored Classes </strong>Alchemist, Swashbuckler, Ranger, Rogue, Sorcerer, Summoner</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "covenant",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "air",
+        "cities",
+        "luck",
+        "travel"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "dex",
+      "wis"
+    ],
+    "skill": [
+      "deception"
+    ],
+    "weapons": [
+      "sling",
+      "card-slinger"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/spells/tricksters-twin.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.59KPAoFVEU0Vbo1f",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "59KPAoFVEU0Vbo1f",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!59KPAoFVEU0Vbo1f"
+}

@@ -1,0 +1,120 @@
+{
+  "folder": "vNNCZvYm7kP625cN",
+  "name": "Breath of the Earth",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You channel a fraction of the will of Ardor itself, and speak through the voice of the Heirophant of eld. Pure magic of primal forces unveils itself at the target area, bringing with it the resolve of the planet to protect those who would fight for it and break those who would harm it.</p><p class=\"MsoNormal\">When you cast this spell, ephemeral wisps of primal magic taking the form of translucent roots erupts from the ground. They move in unison; collectively they have a land and burrow speed of 50 feet.</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Arrive </strong><span style=\"mso-bidi-font-weight:bold\">(healing) <em>From the Earth I Sigh</em> The wisps </span>cleanse your allies with gentle caresses. Each ally in the burst gains the benefit of a cast of @UUID[Compendium.pf2e.spells-srd.EfFMLVbmkBWmzoLF]{Clear Mind}, @UUID[Compendium.pf2e.spells-srd.Et8RSCLx8w7uOLvo]{Sound Body} and @UUID[Compendium.pf2e.spells-srd.BCuHKrDeJ4eq53M6]{Sure Footing} at 8<sup>th</sup> rank. If a creature is @UUID[Compendium.pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}, @UUID[Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying}or @UUID[Compendium.pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded}, these effects are removed and they gain 1 HP and wake up if they were unconscious. For each successful counteract, removal or suppression effect, the roots pull out their ailments and create a clear mote of water-like magic.</p><p class=\"MsoNormal\"><strong>Depart </strong>(wood) <em>In Your Hands I Leave</em> The wisps lash out violently and strike at all enemies in the burst, dealing 8d8 slashing damage (basic Reflex save) as they burrow back into the ground. For each clear mote generated during the previous turn, the wisps can inflict a condition on each creature damaged by this spell with a Fortitude save:</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong>Critical Success </strong>The creature is unaffected</p><p class=\"MsoNormal\"><strong>Success </strong>The creature gains your choice of @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}1, @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} 1, @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} 1, @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy}1, @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied} 1 or @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} 1 for 1 round. Each mote allows you to choose one condition.</p><p class=\"MsoNormal\"><strong>Failure </strong>As success, but the conditions last for 1 minute.</p><p class=\"MsoNormal\"><strong>Critical Failure </strong>As failure, but the condition values are increased to 2.</p><p class=\"MsoNormal\"><strong> </strong></p><p class=\"MsoNormal\">Once an ally has benefited from this spell, they cannot be affected by it for 24 hours.</p>"
+    },
+    "rules": [],
+    "slug": "breath-of-the-earth",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "incarnate",
+        "manipulate"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120"
+    },
+    "area": {
+      "value": 30,
+      "type": "burst"
+    },
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "until the end of your next turn",
+      "sustained": false
+    },
+    "damage": {
+      "sy6X34RwQqGurbn9": {
+        "formula": "8d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "slashing",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "passive": null,
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": true,
+    "overlays": {
+      "ZXNcmIDow1Nqk4SO": {
+        "name": "Breath of the Earth (Depart)",
+        "system": {
+          "damage": {
+            "sy6X34RwQqGurbn9": {
+              "category": null
+            }
+          },
+          "defense": {
+            "passive": null,
+            "save": {
+              "statistic": "fortitude",
+              "basic": false
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      }
+    }
+  },
+  "_id": "R4QC56Y0g9qszgho",
+  "img": "systems/pf2e/icons/spells/hellfire-plume.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.R4QC56Y0g9qszgho",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!R4QC56Y0g9qszgho"
+}

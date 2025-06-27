@@ -1,0 +1,19 @@
+{
+  "name": "Ardorean Spells",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "fNyvBi1FuzhzXM05",
+  "description": "",
+  "sort": 0,
+  "color": "#4d003c",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!fNyvBi1FuzhzXM05"
+}

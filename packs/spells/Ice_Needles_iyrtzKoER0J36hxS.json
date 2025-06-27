@@ -1,0 +1,93 @@
+{
+  "folder": "mpWiWjUlSr3Cmm4k",
+  "name": "Ice Needles",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Icicles form around you that you can call upon to strike out at your enemies at a whim. When you cast this spell, three icicles hover behind you. If you cast this spell again, any previous instance of this spell on you ends. They are objects with an AC equal to your spellcasting DC, and have 1 hit point and are immune to cold damage and other object immunities. It deals @Damage[1d6[cold]] damage on a hit.</p><p>At any point during your turn for the duration, you can use 1 to 3 actions to launch a number of needles equal to the actions you spend to a creature within 60 feet of you. Or, if a creature within 60 feet of you damages you, you can use a reaction to launch up to 2 needles against that creature. You cannot launch more needles than you have currently.</p><p>Make a spell attack against your target for each needle launched. If you target a single creature with multiple needles, combine the damage for the purposes of damage resistances and weaknesses, and you do not increase your multiple attack penalty for these attacks until all actions are spent. The needles are destroyed after the attack, regardless of its outcome.</p><p>@UUID[Compendium.immortal-ardor.spells.Item.9DjeRMluIHC7Pzi6]{Effect: Ice Needles}</p><hr /><p><strong>Heightened (+1) </strong>You spawn an additional icicle.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "constellation",
+        "focus"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "U6HutfF6gGnckYCc": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "cold",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "passive": {
+        "statistic": "ac"
+      },
+      "save": null
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "iyrtzKoER0J36hxS",
+  "img": "systems/pf2e/icons/spells/ice-storm.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.iyrtzKoER0J36hxS",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!iyrtzKoER0J36hxS"
+}

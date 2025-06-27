@@ -1,0 +1,97 @@
+{
+  "_id": "ZES9hXkLCnMLXpnC",
+  "name": "Azophite Dervish Ferocity",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "effects": [],
+  "folder": "zhOMSFBLyPZXVedB",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p> </p>\n<p>You wield the weapons of your ancestors with sheer ferocity. Whenever you score a critical hit with the @Compendium[pf2e.equipment-srd.8COlYvHe6hKCXY8x]{Greataxe}, azoph-fer fleshcarver, @Compendium[pf2e.equipment-srd.UX71GkWBL9g41VwM]{Greatsword}, @Compendium[pf2e.equipment-srd.Mv2I6M70bagbaBPn]{Starknife}and any azoph-fer weapon, you apply the weapon’s critical specialization effect.</p>\n<p></p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "selector": "greatsword-damage",
+        "text": "The target is made off-balance by your attack, becoming @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.",
+        "title": "PF2E.Actor.Creature.CriticalSpecialization"
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "selector": "greataxe-damage",
+        "text": "Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its potency rune, if any). This amount isn't doubled, and no bonuses or other additional dice apply to this damage.",
+        "title": "PF2E.Actor.Creature.CriticalSpecialization"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "azoph-fer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Azophite Dervish Familiarity"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ZES9hXkLCnMLXpnC",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!ZES9hXkLCnMLXpnC"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "angoRJds455FnBOV",
+  "name": "Antivitae",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "effects": [],
+  "folder": "mauTcJIuIRuuub9E",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> Once per turn</p>\n<p><strong>Trigger</strong> You cast a non-focus spell of 1st level or higher that directly inflicts positive/radiant or negative/necrotic damage.</p>\n<hr />\n<p>You create a feedback of opposing energy when you use your powers of life and death to inflict harm. When you cast the triggering spell, you are enveloped in a healing energy of the opposite type, which you can then channel to yourself or a nearby target within 30 feet of you.</p>\n<p>If you inflict negative damage, the resulting energy is positive healing; if you inflict positive damage, the energy is negative healing. When you channel this energy to a target, they are healed with the appropriate type by an amount equal to half the damage you dealt with the triggering spell. If you do not channel the energy, it dissipates at the end of your turn.</p>"
+    },
+    "rules": [],
+    "slug": "antivitae",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "healing",
+        "vitality",
+        "void"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.angoRJds455FnBOV",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!angoRJds455FnBOV"
+}

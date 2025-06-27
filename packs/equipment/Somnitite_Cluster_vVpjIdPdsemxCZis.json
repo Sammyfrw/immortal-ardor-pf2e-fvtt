@@ -1,0 +1,102 @@
+{
+  "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/equipment/treasure/gems/lesser-semiprecious-stones/azurite.webp",
+  "name": "Somnitite Cluster",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Somnitite is a recently discovered and rare crystal that has untapped potential. While not aspected to any particular elemental ether, these crystals are planar in nature - being aligned with the Astral Fringes. Very few places have Somnitite crystals naturally occur, usually these fragments only start appearing in domains inundated in these planar forces.</p>\n<p>Somnitite's uses are still being discovered, but it has seen some fair use in crafting armaments as well as a material for magical jewelry. While fairly brittle, it possesses a density an aetherical conductivity that lets it be worth wielding as an implement or wearing it as armor. Most creatures in direct contact with somnitite frequently have bouts of drowsiness or lack of concentration, which provides a great deal of use when wielded offensively or defensively.</p>\n<ul>\n<li><strong>Weapons:</strong> Somnitite weapons deal additional damage to creatures weak to somnitite, which are typically extralanar entities that are aligned with the Astral Fringes, such as nightmares. When you critically hit a creature with a Somnitite weapon, you leave them @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</li>\n<li><strong>Armor: </strong>Somnitite laced or coated armor doesn't receive any substantial improvements to its hardness (sometimes even weakening it, in some aspects), but often can be used as a defensive measure. As a reaction to being the target of an attack, you can reflect its light against your attacker, causing them to treat you as @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} if sight is their only precise sense. You can also get restful sleep in somnitite armor, as if your armor had the Comfort trait.</li>\n<li><strong>Shields: </strong>Somnitite shields are rarely used due to how brittle they are, but they possess strong properties when its light is reflected back at attackers. When you Raise a Somnitite shield, you are considered as if you are using the @Compendium[pf2e.actionspf2e.UWdRX1VelipCzrCg]{Avert Gaze} action. When you @Compendium[pf2e.classfeatures.eZNCckLzbH3GyncH]{Shield Block} against an attack or if a creature uses a gaze attack against you, the attacking creature needs to make a Will saving throw (DC 30 for standard grade or DC 40 for high grade shields) or become @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} (@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} on a critical failure).</li>\n<li> </li>\n</ul>\n<h2>Somnitite Items</h2>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>Somnitite Items</th>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Thin Items</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade</td>\n<td>3</td>\n<td>20</td>\n<td>10</td>\n</tr>\n<tr>\n<td>High-grade</td>\n<td>5</td>\n<td>32</td>\n<td>16</td>\n</tr>\n<tr>\n<td>Items</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade\n<p> </p>\n</td>\n<td>6</td>\n<td>36</td>\n<td>18</td>\n</tr>\n<tr>\n<td>High-grade\n<p> </p>\n</td>\n<td>9</td>\n<td>48</td>\n<td>24</td>\n</tr>\n<tr>\n<td>Structure</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>Standard-grade\n<p> </p>\n</td>\n<td>10</td>\n<td>72</td>\n<td>36</td>\n</tr>\n<tr>\n<td>High-grade\n<p> </p>\n</td>\n<td>16</td>\n<td>96</td>\n<td>48</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
+    },
+    "rules": [],
+    "slug": "somnitite-cluster",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "precious"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 4500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Crystal",
+        "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/equipment/treasure/gems/lesser-semiprecious-stones/azurite.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.B0gbs7xKQc2J7AiV"
+    }
+  },
+  "effects": [],
+  "folder": "HAq0nFzLkyiSDiPm",
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.vVpjIdPdsemxCZis",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "vVpjIdPdsemxCZis",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!vVpjIdPdsemxCZis"
+}

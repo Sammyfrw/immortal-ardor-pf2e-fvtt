@@ -1,0 +1,100 @@
+{
+  "folder": "1tgwp9ZT6x5G4tFB",
+  "name": "Stardust of Arrow's Folly (Minor)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Arrow represents the journey; the travels needed to reach a destination, through all factors of life. The Arrow's Folly depicts their failure, and the natural instinct to shy away from hardship to remarkable degrees.</p><p><strong>Constellation</strong> @UUID[Compendium.immortal-ardor.deities.Item.bQJ4eQKF50ofQdGr]{The Arrow}</p><hr /><p><strong>First Asterism </strong>(Level 5): You can cast the @UUID[Compendium.immortal-ardor.spells.Item.iyrtzKoER0J36hxS]{Ice Needles} constellation spell.</p>"
+    },
+    "rules": [],
+    "slug": "stardust-of-arrows-folly-minor",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "facet",
+        "invested",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 2500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Stardust Facet",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Stardust_Fragment_HD.png",
+        "data": {
+          "description": {
+            "value": "<p>An unidentified stardust facet.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "bonded"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Stardust_Fragment_HD.png",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.MPqLrJn6dk1PqScT",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "MPqLrJn6dk1PqScT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!MPqLrJn6dk1PqScT"
+}

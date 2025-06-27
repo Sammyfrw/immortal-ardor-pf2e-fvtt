@@ -1,0 +1,107 @@
+{
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/food/bowl-stew-tofu-potato-red.webp",
+  "name": "Artisan's Soup Pot",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> 25 sp<br /><strong>Ingredients</strong> 4 basic<br /><strong>Preparation</strong> DC 16 Cooking Lore, DC 18 Survival</span><br /><strong>Requirements</strong> Basic Kitchen<br /><strong>Favorite Meal</strong> You conserve the soup you eat, doubling the number of servings.</p><hr /><p>This hot, broth-based soup typically contains tubers, leeks, zesty spices, reagents, and if desired, the meat of livestock. Civic authorities commission batches of artisan soup for workers if a tricky job is on the agenda.</p><p>A whole pot of soup is typically able to be savored for the duration of a project, with a serving per workday, and a number of servings equal to the level of the soup.</p><p>After you eat a serving of soup, its effects last 24 hours or until you make your next daily preparations, whichever comes first. You gain a +1 item bonus to checks made to Craft or Repair, or increase any existing item bonus for these checks by 1. You also restore an additional 5 Hit Points per item bonus to items you successfully Repair during this time.</p><p>If you eat a serving of Artisan's Soup for each workday required to attempt a check to Craft, the item bonus from the soup can be applied to that check, too.</p><p>@UUID[Compendium.immortal-ardor.equipment.Item.7QO9a9Xy5QLAvGlr]{Effect: Artisan's Soup Pot}</p>"
+    },
+    "rules": [],
+    "slug": "artisans-soup-pot",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "alchemical",
+        "consumable",
+        "meal",
+        "processed"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 2,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 50
+      },
+      "per": 2
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/food/bowl-stew-tofu-potato-red.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "type": "consumable",
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.yKMUD1HOmeOgBCq4",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "effects": [],
+  "folder": "I3N0LWkmyhk7xTuc",
+  "flags": {},
+  "_id": "yKMUD1HOmeOgBCq4",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!yKMUD1HOmeOgBCq4"
+}

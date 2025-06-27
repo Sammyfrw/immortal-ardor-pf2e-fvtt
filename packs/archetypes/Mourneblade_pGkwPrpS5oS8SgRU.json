@@ -1,0 +1,19 @@
+{
+  "name": "Mourneblade",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "pGkwPrpS5oS8SgRU",
+  "sort": 100000,
+  "color": "#4d003c",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "description": "",
+  "_key": "!folders!pGkwPrpS5oS8SgRU"
+}

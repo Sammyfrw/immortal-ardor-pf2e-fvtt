@@ -1,0 +1,79 @@
+{
+  "folder": "haPxeGTHw8Wbkkx8",
+  "name": "Springwater Meditation",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You hold fast to the concept of pure spring water on a mountain. Ever flowing, replenishing and sustaining all as it pours from the sky to the earth below. Your motions are cascading, and spiritual power flows with your every gesture.</p><p>When you cast this spell, you gain 2 Zeal and water pools at your feet. As you move, refreshing water cascades along your heels. Once per round when you cast this spell or when you sustain this spell, the water surges with your movements. Choose one of the following recitations:</p><ul><li><p><strong>Purge the Ills</strong>: Attempt a Medicine check against an adjacent creature that is taking persistent damage. The DC of this check is that of the effect that caused it, or an appropriate DC for its level. On a success, you reduce the DC of the flat check as if you provided appropriate assistance. On a critical success, you end the condition.</p></li><li><p><strong>Contemplation of Purity</strong>: You grant an ally of your choice within 30 feet a +1 status bonus to their next Fortitude or Will saving throw within the next round.</p></li><li><p><strong>Touch of Vitality</strong>: You gather vigorous waters into your fingertips, and press it against yourself or an adjacent ally. The target heals for 1d8 hit points.</p></li></ul><hr /><p><strong>Heightened (5th)</strong>: The healing from Touch of Vitality increases to 2d8 hit points.</p><p><strong>Heightened (6th)</strong>: The status bonus from Contemplation of Purity increases to +2.</p><div><p><strong>Heightened (7th)</strong>: When you use Purge the Ills, you can attempt to reduce the Clumsy, Enfeebled or Sickened condition instead of persistent damage. On a success, you reduce the value by 1 (2 on a critical success). Continuously applied conditions due to certain circumstances cannot be treated as long as the circumstances continue.</p><p><strong>Heightened (8th)</strong>: The healing from Touch of Vitality increases to 3d8 hit points.</p></div>"
+    },
+    "rules": [],
+    "slug": "springwater-meditation",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "meditation",
+        "subtle",
+        "water"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/water/wave-water-explosion.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.LgJRHt96RKvOMKhF",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "XWmcDUgGuNKni0YA",
+  "_key": "!items!XWmcDUgGuNKni0YA"
+}

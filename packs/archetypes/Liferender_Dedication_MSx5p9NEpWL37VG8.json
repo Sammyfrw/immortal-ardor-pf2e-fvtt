@@ -1,0 +1,80 @@
+{
+  "_id": "MSx5p9NEpWL37VG8",
+  "name": "Liferender Dedication",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "Zn3umUGZGEcERDki",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You walk the path of the Liferender, specially attuned to manipulating the essence of life energy; you are capable of flipping both sides of the coin to control the flow of life or death in the directions you desire.</p><p>You gain the @UUID[Compendium.immortal-ardor.archetypes.Item.angoRJds455FnBOV]{Antivitae} free action. You become trained in Medicine. If you are already trained in Medicine, you become trained in a skill of your choice. You gain resistance equal to half your level to negative damage; if you have the negative healing feature, you gain resistance equal to half your level to positive damage instead.</p><p>Your source of power is determined by which of the two spellcasting traditions you have access to at the time you take this dedication, choosing either Occult or Divine if you have both. You use your chosen spellcasting tradition’s proficiency for spell attack rolls and DCs, and if you gain a spell from this archetype, they are of this tradition. </p>"
+    },
+    "rules": [],
+    "slug": "liferender-dedication",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication",
+        "manafont"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Arcane, Divine or Occult spellcasting tradition"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.MSx5p9NEpWL37VG8",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!MSx5p9NEpWL37VG8"
+}

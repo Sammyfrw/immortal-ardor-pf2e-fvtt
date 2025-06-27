@@ -1,0 +1,61 @@
+{
+  "_id": "t1n5Cd3d3LaGxRK3",
+  "name": "Song of Respite",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "effects": [],
+  "folder": "YYuzZpGLFr9SM79a",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You take ten minutes to channel a gentle hymn of healing, speeding the recovery of you and up to ten creatures who are listening within 120 feet of you. For every two minutes they hear you, a creature recovers hit points equal to your level. At the end of this activity, they are temporarily immune to healing from Song of Respite for an hour.</p>"
+    },
+    "rules": [],
+    "slug": "song-of-respite",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "exploration",
+        "healing"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.t1n5Cd3d3LaGxRK3",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!t1n5Cd3d3LaGxRK3"
+}

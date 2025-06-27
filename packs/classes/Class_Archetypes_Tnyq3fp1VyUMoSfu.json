@@ -1,0 +1,19 @@
+{
+  "name": "Class Archetypes",
+  "sorting": "a",
+  "folder": "S5VG4aiwdZ5GC4eH",
+  "type": "Item",
+  "_id": "Tnyq3fp1VyUMoSfu",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!Tnyq3fp1VyUMoSfu"
+}

@@ -1,0 +1,70 @@
+{
+  "folder": "nlddAp9WBxBssNGg",
+  "name": "All Things Within",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">One life nourishes the next; and one’s story passes onto those who come after. This lesson espouses that all things live within each other, and all strength and wisdom is connected. Spend your Zeal. You channel the powers that reside within you and all your companions, and channel it into your active companion. The target companion gains a +2 status bonus to its next attack roll or skill check within the next minute. This Zenith gains additional bonuses depending on the amount of Zeal spent:</span></p><ul><li><p><span lang=\"EN\" style=\"color:black\">1 Zeal: No additional benefit.</span></p></li><li><p><span lang=\"EN\" style=\"color:black\">2-3 Zeal: These benefits last for 1 minute.</span></p></li><li><p><span lang=\"EN\" style=\"color:black\">4-5 Zeal: Your active companion also gains a +2 status bonus to their AC and saving throws for 1 minute.</span></p></li></ul>"
+    },
+    "rules": [],
+    "slug": "all-things-within",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "healing",
+        "primal",
+        "zenith"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Sojourner Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "nVn2nbHnfJjy1blX",
+  "_key": "!items!nVn2nbHnfJjy1blX"
+}

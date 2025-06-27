@@ -1,0 +1,19 @@
+{
+  "name": "Cazic-fer",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 100000,
+  "color": "#5a0202",
+  "flags": {},
+  "_id": "B0ZgDcdPa1rzXawP",
+  "folder": "ATH7f7KulVUS4Gc8",
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!B0ZgDcdPa1rzXawP"
+}

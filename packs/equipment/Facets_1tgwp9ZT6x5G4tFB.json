@@ -1,0 +1,19 @@
+{
+  "name": "Facets",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "1tgwp9ZT6x5G4tFB",
+  "description": "",
+  "sort": 100000,
+  "color": "#806a00",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!1tgwp9ZT6x5G4tFB"
+}

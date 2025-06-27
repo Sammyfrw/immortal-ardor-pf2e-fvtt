@@ -1,0 +1,94 @@
+{
+  "folder": "mpWiWjUlSr3Cmm4k",
+  "name": "Hellhound Stride",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your feet erupt in flame and you gain great speed, leaving fire as you charge past opponents. You gain a +10-foot status bonus to all Speeds you have, and any creature you travel past during your turn from a move action you take must make a basic Reflex saving throw or take @Damage[3d6[fire]] damage as the blaze singes them. A creature can only take this damage once per turn.</p><p>@UUID[Compendium.immortal-ardor.spells.Item.S0oPgOYuo3ayG1cI]{Effect: Hellhound Stride}</p><hr /><p><strong>Heightened (7th)</strong> You become @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for the duration of the spell. You can only use the additional action to Stride, Fly or Burrow.</p>"
+    },
+    "rules": [],
+    "slug": "hellhound-stride",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "constellation",
+        "fire",
+        "focus"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "BDwE6XEw2rrAKsR6": {
+        "formula": "3d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "SZs2mNnvFoBFCyc6",
+  "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/eat-fire.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.SZs2mNnvFoBFCyc6",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!SZs2mNnvFoBFCyc6"
+}

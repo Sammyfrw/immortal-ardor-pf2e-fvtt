@@ -1,0 +1,130 @@
+{
+  "type": "spell",
+  "name": "Toll the Dead",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You ring a mystical bell that signals the target's imminent demise. The target creature needs to make a basic Will saving throw or take @Damage[1d8[void]] damage. A creature who is already injured and is missing hit points takes @Damage[1d12[void]] damage instead.</p><hr /><p><strong>Heightened (+1) </strong>The damage dealt increases by 1d8, or 1d12 if the target is injured.</p>"
+    },
+    "rules": [],
+    "slug": "toll-the-dead",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.10.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "constellation",
+        "focus",
+        "void"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "Mw0AdymnZQ2eZqoq": {
+        "formula": "1d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "void",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {
+      "1VPFy8UmDjZ7hZJr": {
+        "name": "Toll the Dead (Weakened)",
+        "system": {
+          "target": {
+            "value": "1 creature that is missing hit points"
+          },
+          "damage": {
+            "Mw0AdymnZQ2eZqoq": {
+              "formula": "1d12",
+              "category": null
+            }
+          },
+          "heightening": {
+            "damage": {
+              "Mw0AdymnZQ2eZqoq": "1d12"
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      }
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "Mw0AdymnZQ2eZqoq": "1d8"
+      },
+      "area": 0
+    }
+  },
+  "effects": [],
+  "_id": "3NOdyhYuxnagbTHF",
+  "img": "icons/tools/instruments/bell-silver.webp",
+  "folder": "mpWiWjUlSr3Cmm4k",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.3NOdyhYuxnagbTHF",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!3NOdyhYuxnagbTHF"
+}

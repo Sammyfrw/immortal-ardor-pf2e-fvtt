@@ -1,0 +1,79 @@
+{
+  "_id": "JZQ3QlyVQ7wFkyLh",
+  "name": "Hymnal March",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "sqBBD4DisZnxsBqQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You time your movements and your focus with your steps, allowing you to concentrate on spells as you move. You can Sustain a Spell and then Stride half your speed.</p>\n<p><span style=\"text-decoration:underline\"> Special:</span> If you have the Tempo Spell feat, you can contribute 1 action for Tempo Spell as long as it is not the last action to complete casting the spell, and then Stride half your speed.</p>"
+    },
+    "rules": [],
+    "slug": "hymnal-march",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "concentrate"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Cragweaver Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.JZQ3QlyVQ7wFkyLh",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!JZQ3QlyVQ7wFkyLh"
+}

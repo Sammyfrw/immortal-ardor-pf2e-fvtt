@@ -1,0 +1,155 @@
+{
+  "name": "Spookzwaard",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/equipment/weapons/sword-cane.webp",
+  "effects": [],
+  "folder": "FpNLrqP4hhllM1lT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.VitLIpdIAmKlGb7i"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A beautiful cold-iron sword cane with blackened leather grip with a red spinel in the pommel in the shape of bat talon's clutching it. It emanates a somewhat terrifying aura when brandished as a weapon.</p>\n<p>Spookzwaard adds the following effect:</p>\n<p><span class=\"pf2-icon\">f </span><strong>Haunting Presence </strong>(Free Action activation)</p>\n<p>On a critical hit with this weapon, you may attempt to Demoralize your opponent as a free action.</p>\n<p><strong>Shadow's Cling </strong></p>\n<p>Shadows seem to wrap and collect around your form. As long as you're in dim light or darkness, you can attempt a Stealth check to hide, even if you aren't concealed against a creature. In addition, you gain the @Compendium[pf2e.spells-srd.SE0fbgBj7atuukdv]{Cloak of Shadow} focus spell.</p>\n<p> </p>\n<hr />\n<p>This slender, rapier-like sword is concealed within a wooden or metal cane that serves as a sheath, making it an inconspicuous weapon easy to slip past inspections or into high-society events. A sword cane is typically 4 feet long when sheathed, and its hilt is usually capped with a wooden or metal decoration.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "rules": [],
+    "slug": "spookzwaard",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agile",
+        "concealable",
+        "finesse"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "sword-cane",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 250
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": "cold-iron",
+      "grade": "standard"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Sword Cane",
+        "img": "systems/pf2e/icons/equipment/weapons/sword-cane.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null,
+      "value": ""
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "reload": {
+      "value": ""
+    },
+    "runes": {
+      "potency": 1,
+      "striking": 1,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "criticalConditionType": "",
+      "criticalConditionValue": null,
+      "strikeConditionType": "",
+      "strikeConditionValue": null
+    },
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.VitLIpdIAmKlGb7i",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "6A1wVJAcb18bKWB7",
+  "sort": 0,
+  "_key": "!items!6A1wVJAcb18bKWB7"
+}

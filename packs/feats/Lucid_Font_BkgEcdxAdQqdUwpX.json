@@ -1,0 +1,59 @@
+{
+  "type": "action",
+  "name": "Lucid Font",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This Figment is a Cleric; as a result, it can use @UUID[Compendium.pf2e.spells-srd.rfZpqmj0AIIdkVIs]{Heal} or @UUID[Compendium.pf2e.spells-srd.wdA52JJnsuQWeyqz]{Harm} once per minute, and cast it with its actions. The spell gains the Lucid trait. Whenever a creature drops to 0 hit points, it can immediately regain its use of this action.</p>"
+    },
+    "rules": [],
+    "slug": "lucid-font",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lucid"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "folder": "DL1Cx22P0pj4GTgy",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "BkgEcdxAdQqdUwpX",
+  "sort": 0,
+  "_key": "!items!BkgEcdxAdQqdUwpX"
+}

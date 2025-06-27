@@ -1,0 +1,63 @@
+{
+  "folder": "waw4cAmWKG7S0Jqw",
+  "name": "Parable of the Whirling Sands",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\"><em style=\"mso-bidi-font-style:normal\">As the winds blow across the desert, the sand shifts and the world is carried in its cradle. The grains blind and coat the body. From the smallest ant to the greatest lion, the sands take and sweep all away. Yet no one fights it. At the center is peace. The swirling sands are at peace. As a grain of sand swept in the wind, you can be at peace.</em></span></p><p class=\"MsoNormal\"><span lang=\"EN\">The Whirling Sands embodies the concept of peace in the storm, and the path of acceptance of the world. To those who fight against reality blindly and unreasonably, it is an impenetrable and unyielding force that blinds all who dare try. But to accept one’s place and understand it, the way becomes clear and you too can become the storm that can shape reality.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Dervishes of the Whirling Sands find solace and courage that things outside their control are irrelevant and can be taken in stride. As a force of your own, you can always move forward in acceptance. In meditation or in combat, you are a blur of movement, with numerous whirls and spins, preferring loose and flowing clothes that flutter with you; such a combination sometimes obscure the swings of your weapons, often in a relentless and unyielding fashion. During zeniths, you find tranquility despite the chaos that might be around you, and you carve your own space despite it.</span></p><p class=\"MsoNormal\"></p><p class=\"MsoNormal\"><span lang=\"EN\">You gain the following benefits:</span></p><ul><li><p class=\"MsoNormal\"><span lang=\"EN\" style=\"color:black\"><span style=\"text-decoration:underline\">Zeal action</span>: Once per round, you gain Zeal when using actions with the Press trait, or when you Step, Reposition, Shove or Trip.</span></p></li><li><p class=\"MsoNormal\"><span lang=\"EN\" style=\"color:black\"><span style=\"text-decoration:underline\">Bonus Feat</span>: You gain the <em style=\"mso-bidi-font-style:normal\">Strike the Earth</em> dervish feat.</span></p></li><li><p class=\"MsoNormal\"><span lang=\"EN\" style=\"color:black\"><span style=\"text-decoration:underline\">Focus Spell</span>: You gain the Zephyr Meditation focus spell.</span></p></li></ul>"
+    },
+    "rules": [],
+    "slug": "parable-of-the-whirling-sands",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.VbeX8mJUhn9o7taQ",
+    "duplicateSource": "Item.VbeX8mJUhn9o7taQ",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "oi71qk9xj2UQ7WR8",
+  "_key": "!items!oi71qk9xj2UQ7WR8"
+}

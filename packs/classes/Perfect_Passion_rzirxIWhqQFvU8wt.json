@@ -1,0 +1,64 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Perfect Passion",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p><strong>Requirements</strong> You are wielding a ranged or thrown weapon, and you have Zeal.</p><hr /></div><p>In your fervor, you find the perfect moment to take the perfect shot, and unleash it. Stride, and make a Ranged Strike. You ignore half the target’s resistances to physical damage or hardness. If you manage to deal damage to a creature that has resistances or hardness to your attack, the target becomes Enfeebled 1 (Enfeebled 2 on a critical hit).</p>"
+    },
+    "rules": [],
+    "slug": "perfect-passion",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "emotion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "rzirxIWhqQFvU8wt",
+  "_key": "!items!rzirxIWhqQFvU8wt"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Basic Garden",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a collection of plants, seeds, tools and more that one can use to create a garden of their own. A garden is a meaningful part of a proper home, providing ingredients and soothing comforts, but specialized gardens are able to be properly set up as ritual locations and places of magical power, as well.</p><p>A garden lets you harvest specific materials, including special ingredients with a Crafting, Cooking Lore or Nature check to contribute to a meal being prepared with a DC matching the meal's DC. </p><p>For a basic garden, you gain 2 special ingredients on a Critical Success, or 1 on a Success.</p>"
+    },
+    "rules": [],
+    "slug": "basic-garden",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "housing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/sundries/misc/plant-potted.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "icons/sundries/misc/plant-potted.webp",
+  "folder": "iXGkmB3fcc3NZU0j",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.BOUXhw7pwAswisuT",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "BOUXhw7pwAswisuT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!BOUXhw7pwAswisuT"
+}

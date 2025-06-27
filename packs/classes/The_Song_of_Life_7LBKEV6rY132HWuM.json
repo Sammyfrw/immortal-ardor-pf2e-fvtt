@@ -1,0 +1,67 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "The Song of Life",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">The fire represents the multifaceted elements of life. Fire is life; this fact is central to the Roaring Flame. Whether to burn, entrance, heal or invigorate, fire is the root of it all.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">While you have Zeal, any time you use an Emotion effect on an ally, you can heal them for 2d8 hit points. Any time you use an Emotion effect on an enemy that deals damage, you add an additional 2d8 fire damage.</span></p>"
+    },
+    "rules": [],
+    "slug": "the-song-of-life",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Parable of the Roaring Flame"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "7LBKEV6rY132HWuM",
+  "_key": "!items!7LBKEV6rY132HWuM"
+}

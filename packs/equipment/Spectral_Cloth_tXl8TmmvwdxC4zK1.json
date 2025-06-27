@@ -1,0 +1,103 @@
+{
+  "name": "Spectral Cloth",
+  "type": "treasure",
+  "img": "systems/pf2e/icons/equipment/held-items/alluring-scarf.webp",
+  "effects": [],
+  "folder": "jvHnMyGMKge5vIpO",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Spectral cloth is a bizarre imbuement of ghostly energies, worn and draped over remnants. These cloths are often sought after by specialty craftsmen who seek the powerful necromantic energies imbued within for very specific purposes.</p>"
+    },
+    "rules": [],
+    "slug": "spectral-cloth",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 550
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Treasure",
+        "img": "systems/pf2e/icons/equipment/held-items/alluring-scarf.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {
+        "name": "Misidentified Item",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": "This treasure is misidentified."
+          }
+        }
+      }
+    },
+    "stackGroup": null,
+    "identified": {
+      "value": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.tXl8TmmvwdxC4zK1",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "tXl8TmmvwdxC4zK1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!tXl8TmmvwdxC4zK1"
+}

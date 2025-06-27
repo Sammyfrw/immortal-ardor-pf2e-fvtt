@@ -1,0 +1,71 @@
+{
+  "name": "Effect: Clear Tranquil",
+  "type": "effect",
+  "img": "systems/pf2e/icons/spells/waters-of-prediction.webp",
+  "effects": [],
+  "folder": "Z5wYPJkkCxDJ8Cwg",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.Item.Ps8KWOrtYELWhl9A]{Clear Tranquil}</p>"
+    },
+    "rules": [],
+    "slug": "effect-clear-tranquil",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": true
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "ICtp7HhZhAn9ASUR",
+  "sort": 200000,
+  "_key": "!items!ICtp7HhZhAn9ASUR"
+}

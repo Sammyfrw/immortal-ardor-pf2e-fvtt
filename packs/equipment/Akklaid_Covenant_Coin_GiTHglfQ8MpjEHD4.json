@@ -1,0 +1,100 @@
+{
+  "name": "Akklaid Covenant Coin",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/equipment/treasure/art-objects/greater-art-object/jet-and-white-gold-game-set.webp",
+  "effects": [],
+  "folder": "EbpGyDFGHnarXF7q",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>These sets of coins are important tender for members of the Akklaid Covenant. The symbol on it is a curious set of filigrees, but is otherwise worthless except to those who are in the know.</p>\n<p>Each coin seems to be used to designate a contract between two people. When used in a negotiation, a sphere envelops the area where those present can discuss terms in absolute secrecy preventing any sort of prying eyes and ears from looking in. Upon an accepted contract, an exchange of blood is made and the person taking the contracted job will be sworn to secrecy, after which they must complete it in order to acquire the coin's accumulated power. </p>\n<hr />\n<p> </p>\n<p> </p>"
+    },
+    "rules": [],
+    "slug": "akklaid-covenant-coin",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/equipment/treasure/art-objects/greater-art-object/jet-and-white-gold-game-set.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": [],
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "GiTHglfQ8MpjEHD4",
+  "sort": 300000,
+  "_key": "!items!GiTHglfQ8MpjEHD4"
+}

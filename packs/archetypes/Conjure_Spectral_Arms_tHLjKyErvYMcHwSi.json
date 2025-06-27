@@ -1,0 +1,90 @@
+{
+  "name": "Conjure Spectral Arms",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/ghostly-weapon.webp",
+  "effects": [],
+  "folder": "gkiUEZAVZc8J8ihW",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": 1,
+      "min": 0,
+      "max": 0,
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You tap into the powers of creation and conjure two of the Mourneblade’s spectral arms, a set of fiend-hunting weaponry or tools. These weapons or consumables can be found at the end of the Mourneblade ether feats section. You determine each weapon being summoned by this spell.</p>\n<p class=\"MsoNormal\" style=\"text-indent:.5in\">Upon summoning, you create two weapons. They appear on a surface, on your person or in a container you are holding or wearing. They remain until your next daily preparations or until they are consumed, and you can only have up to two Spectral Arms at a time.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Heightened (+2):</span></strong><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> You can conjure and carry one additional Spectral Arm at a time.</span></p>"
+    },
+    "rules": [],
+    "slug": "conjure-spectral-arms",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Sammy Rachman",
+      "authors": "Immortal Ardor",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "until your next daily preparations",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.tHLjKyErvYMcHwSi",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "tHLjKyErvYMcHwSi",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!tHLjKyErvYMcHwSi"
+}

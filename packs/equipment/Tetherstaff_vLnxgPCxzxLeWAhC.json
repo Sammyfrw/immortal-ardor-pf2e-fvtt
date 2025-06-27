@@ -1,0 +1,145 @@
+{
+  "name": "Tetherstaff",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Sometimes known as a Binding Rod, these staves take the concept of the Glaivethrower and give it more practical effects at the cost of range. Tetherstaves, as implied by their name, attach to a given projectile through a tensile cord made of strong fibers, and feature the ability to launch the projectiles through its mechanisms rather than being dependent on the wielder’s ability to pull on the strands. The tensile cord can retract the fired projectiles, and as a result the shooter can use less ammunition. Most tetherstaves have four outlets for these tethers, allowing them to carry four hooked thrown weapons at a time, though for typical and practical use, weapons are loaded to two of the cords, while grapples or hooks are loaded on the other.</p><p>Tetherstaves have the Tethered Trait, but it applies to the projectiles that are launched from it. It takes an action to retrieve all launched projectiles of your choice at once. With a Returning Rune or similar upgrade, the staff retrieves its projectiles as a free action.</p>"
+    },
+    "rules": [],
+    "slug": "tetherstaff",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "finesse",
+        "launching",
+        "spellcrux",
+        "tech",
+        "tethered"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "tetherstaff",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 40
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/equipment/weapons/halfling-sling-staff.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-plus-hands"
+    },
+    "category": "advanced",
+    "group": "sling",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 60,
+    "reload": {
+      "value": "0"
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    },
+    "selectedAmmoId": "LuoKz9o1hktjCuBO"
+  },
+  "img": "systems/pf2e/icons/equipment/weapons/halfling-sling-staff.webp",
+  "folder": "dYFsDc53urGscphr",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "vLnxgPCxzxLeWAhC",
+  "sort": 100000,
+  "_key": "!items!vLnxgPCxzxLeWAhC"
+}

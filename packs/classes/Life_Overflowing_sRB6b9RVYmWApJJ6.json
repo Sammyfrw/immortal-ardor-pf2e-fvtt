@@ -1,0 +1,67 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Life Overflowing",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You invoke the finality of a life-giving spring, and water sprouts at your feet and springs forth in all its vitality. You grant temporary hit points to a number of creatures within 30 feet of you that lasts for 1 minute. The amount of Zeal you spend determines the number of targets and the amount of temporary hit points:</p><ul><li><p>1 Zeal: 1 ally for half your level’s worth of temporary hit points</p></li><li><p>2-3 Zeal: 3 allies for half your level’s worth of temporary hit points</p></li><li><p>4-5 Zeal: 3 allies for your level’s worth of temporary hit points.</p></li></ul><p>At 18th level, you target 3 allies when you spend 1 Zeal and any number of creatures when you spend 2 to 5 Zeal.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "divine",
+        "healing",
+        "water",
+        "zenith"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "sRB6b9RVYmWApJJ6",
+  "_key": "!items!sRB6b9RVYmWApJJ6"
+}

@@ -1,0 +1,116 @@
+{
+  "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/equipment/alchemical-items/drugs/refined-pesh.webp",
+  "name": "White Herb",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Supposedly a rare medicinal herb that grows in faraway mountains. This white herb happens to enhance and empower the effect of any restoratives when mixed together. By using an interact action to mix with a healing potion, healing elixir or similar restorative item, for the next minute consuming that item will allow you to roll the maximum amount on any dice for healing for that item.</p>"
+    },
+    "rules": [],
+    "slug": "white-herb",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable",
+        "healing",
+        "magical",
+        "vitality"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 800
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Herb",
+        "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/equipment/alchemical-items/drugs/refined-pesh.webp",
+        "data": {
+          "description": {
+            "value": "<p>The nature of this herb is unclear.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "potion",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": {
+      "formula": "6d8+20",
+      "kind": "healing",
+      "type": "vitality"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "type": "consumable",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.TSrbwHW8zm0mhkwb"
+    }
+  },
+  "effects": [],
+  "folder": "CjslDIg6fx8t1SbY",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.TSrbwHW8zm0mhkwb",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "1aHFSFIdvmKH2hlv",
+  "sort": 0,
+  "_key": "!items!1aHFSFIdvmKH2hlv"
+}

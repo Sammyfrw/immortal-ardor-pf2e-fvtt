@@ -1,0 +1,19 @@
+{
+  "name": "Materials",
+  "type": "Item",
+  "sort": 100000,
+  "flags": {},
+  "sorting": "a",
+  "color": null,
+  "_id": "HAq0nFzLkyiSDiPm",
+  "folder": null,
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!HAq0nFzLkyiSDiPm"
+}

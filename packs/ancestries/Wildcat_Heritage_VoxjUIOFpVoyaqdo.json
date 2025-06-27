@@ -1,0 +1,60 @@
+{
+  "_id": "VoxjUIOFpVoyaqdo",
+  "name": "Wildcat Heritage",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "7dIiOgpkHEMhcPJT",
+  "flags": {
+    "core": {
+      "sourceId": "Item.nSXubQ3vGwgsYSAw"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You come from a line of lyncan that are born from medium-sized wildcats, such as lynxes, leopards and cougars and you possess a hunter’s range of senses. You gain imprecise scent with a range of 30 feet. The GM will usually double the range if you’re downwind from the creature or halve the range if you’re upwind. In addition, you are not considered off-guard against creatures that are hidden if you can hear them.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Lyncan",
+      "uuid": "Item.TkMmXr68NCBuE4jA",
+      "slug": "lyncan"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.VoxjUIOFpVoyaqdo",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!VoxjUIOFpVoyaqdo"
+}

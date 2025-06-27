@@ -1,0 +1,67 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Be The Approaching Storm",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The earth trembles with a resounding step, and you gather a brewing storm of sand and wind and assume the center of it. All around you will take heed, and find tranquility or be rebuked. When you use this Zenith, a divine storm surrounds you in a 30-foot radius, and you Fly up to 60 feet. During your Stride, creatures you move past that end up in your aura need to make a basic Reflex saving throw against your Dervish Class DC or take 8d8 bludgeoning damage.</p><p>You can choose creatures to automatically critically succeed this saving throw. Once you arrive at the destination, the storm ceases. The amount of Zeal you spend determines any additional effects to the saving throw.</p><ul><li><p>1 Zeal: On a Failure, you can move a creature 10 feet in any direction. If they are moved into the air, they fall unless they can Fly. On a Critical Failure, they are knocked prone at the end of the movement. If they would already be knocked prone (such as if they fall and take damage), they remain off-guard until the end of their turn.</p></li><li><p>2-3 Zeal: As 1 Zeal, but you can move a creature 20 feet.</p></li><li><p>4-5 Zeal: As 1 Zeal, but you can move a creature 30 feet.</p></li></ul><p><strong>Level (+2)</strong> The damage increases by 2d8.</p>"
+    },
+    "rules": [],
+    "slug": "be-the-approaching-storm",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "air",
+        "dervish",
+        "divine",
+        "earth",
+        "zenith"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "iR2F8xCDbCQHRMs3",
+  "_key": "!items!iR2F8xCDbCQHRMs3"
+}

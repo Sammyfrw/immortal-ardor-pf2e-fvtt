@@ -1,0 +1,73 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Effect: Waffle Spread (Follower)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.equipment.Item.yaePvRZpsrqK1GxN]{Waffle Spread}</p><p>Anytime you Follow the Expert to the lead who ordered the Waffle Spread you shared the meal with, you increase your circumstance bonus for following them by 1 higher.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "self:effect:follow-the-expert"
+        ],
+        "selector": "skill-check",
+        "value": 1
+      }
+    ],
+    "slug": "effect-waffle-spread-follower",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/grains/waffle-golden-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.5aX7cMGdFu32Bz7Z",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "5aX7cMGdFu32Bz7Z",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!5aX7cMGdFu32Bz7Z"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Sanctify Armaments",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "3bsGBfWSWgyRh6xc",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>            You have learned to sanctify your armaments, coating them and the powers you wield with the nature of your connection to Senna.</p>\n<p>When you take this feat, choose an affinity that represents the connection you have with Senna: Radiance, Gloom or Spirit. All your spectral arms and focus spells gains the Sanctified trait, and gains a quality based on this connection:</p>\n<ul>\n<li><strong>Radiance</strong>: Your spectral arms and focus spells gain the Sanctified and Holy trait.</li>\n<li><strong>Gloom</strong>: Your spectral arms and focus spells gain the Sanctified and Unholy trait.</li>\n<li><strong>Spirit</strong>: Your spectral arms and focus spells have the ghost-touch property.</li>\n</ul>"
+    },
+    "rules": [],
+    "slug": "sanctify-armaments",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Mourneblade Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.XEApC2ASA9ZGSSZ8",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "XEApC2ASA9ZGSSZ8",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!XEApC2ASA9ZGSSZ8"
+}

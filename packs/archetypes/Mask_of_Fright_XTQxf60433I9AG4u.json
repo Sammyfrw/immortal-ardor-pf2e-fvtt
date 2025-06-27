@@ -1,0 +1,81 @@
+{
+  "_id": "XTQxf60433I9AG4u",
+  "name": "Mask of Fright",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AavGVqmE65s8lAG5",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div>\n<p><strong>Trigger </strong>You are under the effects of Noble’s Mask and you succeed an Intimidation skill check</p>\n<hr /></div>\n<p>When you exert your domineering will with your Noble’s Mask on, you can ensure your influence bears down on your target. Whenever you succeed an Intimidation check, you can sacrifice your Noble’s Mask to make it a critical success.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Courtier Dedication"
+        },
+        {
+          "value": "Expert in Intimidation"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.XTQxf60433I9AG4u",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!XTQxf60433I9AG4u"
+}

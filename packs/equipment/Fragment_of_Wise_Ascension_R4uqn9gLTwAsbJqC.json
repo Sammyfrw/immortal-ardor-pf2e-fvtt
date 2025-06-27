@@ -1,0 +1,104 @@
+{
+  "folder": "RHXyQahkUnITbcoJ",
+  "name": "Fragment of Wise Ascension",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A small fragment of imagined possibility, crystalized. Within, it gleams with potential; one of growth, of exceeding one's possible limits.</p><p>When a person capable of ascension brings two fragments together and uses them, it grants them a proof of ascension in the form of the @UUID[Compendium.immortal-ardor.actions.Item.MMGcmpZYT2Mblajo]{Ascension Bonus: Attribute} ascension feat. As it is an ascension item, the user can only benefit from one pair of attribute fragments of ascension; using another pair would overwrite their previously granted attribute boost.</p><p>Two fragments of Wise Ascension grants its user an attribute boost to Wisdom. </p>"
+    },
+    "rules": [],
+    "slug": "fragment-of-wise-ascension",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ascension",
+        "consumable"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/commodities/gems/gem-faceted-rough-purple.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 0,
+      "max": 1,
+      "autoDestroy": false
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "img": "icons/commodities/gems/gem-faceted-rough-purple.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.R4uqn9gLTwAsbJqC",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "R4uqn9gLTwAsbJqC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!R4uqn9gLTwAsbJqC"
+}

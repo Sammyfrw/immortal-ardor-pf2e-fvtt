@@ -1,0 +1,64 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Victorious Sweep",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p><strong>Requirements</strong> You are wielding a two-handed melee weapon, and you have Zeal.</p><hr /></div><p>With one swing, you return for a second swing with the intent on striking two targets. Make two Strikes against two separate targets in your reach at your current multi attack penalty, but you do not increase your penalty until both Strikes. If both Strikes hit, you cannot be off-guard for 1 round. This Strike has the following Failure effect.</p><p><strong>Failure</strong> You cannot be flanked by the creatures you attempted to Strike.</p>"
+    },
+    "rules": [],
+    "slug": "victorious-sweep",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "press"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "K1kzSzdv5dNa5XDn",
+  "_key": "!items!K1kzSzdv5dNa5XDn"
+}

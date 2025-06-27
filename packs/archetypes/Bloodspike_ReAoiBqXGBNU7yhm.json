@@ -1,0 +1,111 @@
+{
+  "type": "spell",
+  "name": "Bloodspike",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You focus your blood magic upon a creature's bleeding injury, and you cause the blood at the injury to cut and lash against them, causing them harm and potentially worsening the wound. The target needs to make a Fortitude saving throw.</p>\n<p><strong>Critical Success </strong>The creature is unaffected.</p>\n<p><strong>Success </strong>The target takes damage equal to their existing persistent bleed damage. You can then choose to do an additional 1d6 bleed damage, but this ends the persistent bleed effect.</p>\n<p><strong>Failure </strong>You worsen the target's bleeding injury, raising their existing persistent bleed damage by an additional 1d6. This can't increase the persistent bleed damage beyond a number of d6s equal to the spell's rank. Then, they take damage equal to their persistent bleed damage. You can then choose to deal an additional 1d6 bleed damage, but this ends the persistent bleed effect.</p>\n<p><strong>Critical Failure</strong> As failure, but you cause them to take an additional 1d6 damage without ending the persistent bleed effect.</p>\n<hr />\n<p><strong>Heightened </strong>(+2) Increase the amount of persistent bleed damage you raise and can additionally cause by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "bloodspike",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "a bleeding creature"
+    },
+    "range": {
+      "value": "60 ft"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "7vx5pnRFdO209Jx6": {
+        "applyMod": false,
+        "formula": "1d6",
+        "type": "bleed",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
+      }
+    },
+    "defense": {
+      "passive": null,
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "7vx5pnRFdO209Jx6": "1d6"
+      }
+    }
+  },
+  "effects": [],
+  "_id": "ReAoiBqXGBNU7yhm",
+  "img": "systems/pf2e/icons/spells/bloodspray-curse.webp",
+  "folder": "ZcN0puSEDW5UKCXd",
+  "flags": {
+    "core": {
+      "sourceId": "Actor.jWSCUAIpmfxW5LcC.Item.0Goi2jPNLZeUQFSs"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ReAoiBqXGBNU7yhm",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!ReAoiBqXGBNU7yhm"
+}

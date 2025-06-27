@@ -1,0 +1,19 @@
+{
+  "name": "Versatile Heritages",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "ATH7f7KulVUS4Gc8",
+  "description": "",
+  "sort": 0,
+  "color": "#800000",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!ATH7f7KulVUS4Gc8"
+}

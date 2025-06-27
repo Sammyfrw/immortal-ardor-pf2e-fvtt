@@ -1,0 +1,89 @@
+{
+  "name": "Premonitory Parry",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/protective-ward.webp",
+  "effects": [],
+  "folder": "gkiUEZAVZc8J8ihW",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": null,
+      "elevation": null,
+      "depth": null,
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You are the target of a Strike, and you are wielding a melee weapon or Mantle of Deflection</p>\n<hr />\n<p class=\"MsoNormal\" style=\"text-indent:.5in\">Using powers of premonition, you raise your weapon or Mantle of Deflection to deflect or otherwise help dodge an incoming attack before it even reaches you. You gain a +2 status bonus to your AC until the end of your next turn. If this would make the attack become a critical miss, you can make a Strike against the target as part of this reaction.</p>\n<p class=\"MsoNormal\"><u>Special</u>: If you use a Mantle of Deflection for this spell, you can choose to turn a critical hit against you into a regular hit. Using the mantle in this way breaks the mantle, causing it to dissipate.</p>"
+    },
+    "rules": [],
+    "slug": "premonitory-parry",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "The triggering attacker"
+    },
+    "range": {
+      "value": "Touch"
+    },
+    "area": null,
+    "time": {
+      "value": "Reaction"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.wmjn6ywTxdgEKzQG",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "wmjn6ywTxdgEKzQG",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!wmjn6ywTxdgEKzQG"
+}

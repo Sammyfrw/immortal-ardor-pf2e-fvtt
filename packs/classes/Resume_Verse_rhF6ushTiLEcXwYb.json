@@ -1,0 +1,60 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Resume Verse",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You turn ends and you are about to lose your Zeal</p><p><strong>Frequency</strong> Once per hour</p><hr /><p><span lang=\"EN\">You pick up where you lapsed in your meditations and mantras. Your Zeal carries over into your next turn.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "resume-verse",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "dervish"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "defensive",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H",
+      "value": 1
+    }
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.nHzt7nngZjuYzmZC",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "rhF6ushTiLEcXwYb",
+  "_key": "!items!rhF6ushTiLEcXwYb"
+}

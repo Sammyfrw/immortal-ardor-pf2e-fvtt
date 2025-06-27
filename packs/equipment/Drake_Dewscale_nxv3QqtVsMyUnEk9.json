@@ -1,0 +1,92 @@
+{
+  "_id": "nxv3QqtVsMyUnEk9",
+  "name": "Drake Dewscale",
+  "type": "treasure",
+  "img": "systems/pf2e/icons/equipment/consumables/talismans/dragon-turtle-scale.webp",
+  "effects": [],
+  "folder": "jvHnMyGMKge5vIpO",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Drake Dewscales are uncommon, but they serve an essential part for many arcane implements, armor or tools. They bear an elemental affinity for whichever scale of Drachiri they inherited, which specializes their uses. While Dragon Dewcales are far more potent and powerful by comparison, they are far rarer to come by.</p>\n<p>It is a common misconception that scalemail made from drachenkind scales utilize their scales exclusively, but in actuality there are few, if any special properties when their scales are used in armor; it is the dewscale that serves to fuel the power in drachen mail. This is the true cause of their rarity, as drachenkind only have a few in select parts of their body -- any armor marketed as pure dragon scalemail is a sign of an armorsmith who lack knowledge or are a fraud.</p>"
+    },
+    "rules": [],
+    "slug": "drake-dewscale",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 40
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Treasure",
+        "img": "systems/pf2e/icons/equipment/consumables/talismans/dragon-turtle-scale.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "stackGroup": null
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.nxv3QqtVsMyUnEk9",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!nxv3QqtVsMyUnEk9"
+}

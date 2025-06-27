@@ -1,0 +1,82 @@
+{
+  "name": "Wheel of Elements",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "vyy8rQSagb0icXNs",
+  "flags": {
+    "core": {
+      "sourceId": "Item.FZDEpDqW3vY5NMte"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You’ve become adept at shifting imbued elements within primed armaments, realizing that all priming elements are simply cycles of natural energy. Whenever you use Elementshift, you can use Enchanted Strike and Elementshift again, as long as the element you shift into is not one you have primed or shifted to this round. Each time you Elementshift, your primed weapon retains all the elemental traits it had shifted away from until the end of your turn.</p>"
+    },
+    "rules": [],
+    "slug": "wheel-of-elements",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Elementshift"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ZUghxNaAPibtWce6",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "ZUghxNaAPibtWce6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!ZUghxNaAPibtWce6"
+}

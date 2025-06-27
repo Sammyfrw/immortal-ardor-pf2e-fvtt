@@ -1,0 +1,103 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Grimmy Cheesesteak",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> 75 sp<br /><strong>Ingredients</strong> 2 basic, 2 special<br /><strong>Preparation</strong> DC 19 Cooking Lore, DC 21 Survival</span><br /><strong>Requirements</strong> Basic Kitchen<br /><strong>Favorite Meal</strong> The bonuses includes checks to @UUID[Compendium.pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request}, @UUID[Compendium.pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint}, and @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize}.</p><hr /><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">A local favorite of folks in Grimcity, a Grimmy Cheesesteak is typically a toasted, buttered baguette that is loaded with marinated, grilled meat (usually beef, but many variants exist), then melted cheese, onions and a variety of ingredients, served with fries. The meal is fast and simple, but a staple for coworkers to commiserate over fond times. It is also said to really stoke the emotions in its consumer.</span></p><p>Upon eating the meal, you gain a +1 item bonus to Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression}, Deception checks to @UUID[Compendium.pf2e.actionspf2e.ewwCglB7XOPLUz72]{Lie}, and Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.tHCqgwjtQtzNqVvd]{Coerce}, or increase any existing item bonus by that amount. Its effects last for 24 hours, or until you make your next daily preparations, whichever comes first.</p><p>@UUID[Compendium.immortal-ardor.equipment.Item.k7ZpVt68eBugVMMK]{Effect: Grimmy Cheesesteak}</p><p>@UUID[Compendium.immortal-ardor.equipment.Item.yHIf9Q1LorL8nLWy]{Effect: Grimmy Cheesesteak (Favorite)}</p>"
+    },
+    "rules": [],
+    "slug": "grimmy-cheesesteak",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "consumable",
+        "meal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/consumables/meat/chicken-breast-raw-pink.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "img": "icons/consumables/grains/pastry-bread-brown.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.prjnfSci1Xhp6qKj",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "prjnfSci1Xhp6qKj",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!prjnfSci1Xhp6qKj"
+}

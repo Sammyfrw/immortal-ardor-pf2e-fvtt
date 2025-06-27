@@ -1,0 +1,63 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Harrier's Grasp",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">Spiritual power lies at your fingertips, and you can use them in your art as well as any weapon. The damage die for your fist unarmed attacks becomes 1d6 instead of 1d4. You don’t take the -2 circumstance penalty for making a lethal attack with your nonlethal unarmed attacks.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">When you have Zeal, your unarmed attacks gain the divine trait, making them magical. Having a free hand qualifies as wielding a melee weapon and having two free hands qualifies as wielding a two-handed melee weapon for the purposes of any dervish feats.</span></p>"
+    },
+    "rules": [],
+    "slug": "harriers-grasp",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "lVvjT0S7xucJ357q",
+  "_key": "!items!lVvjT0S7xucJ357q"
+}

@@ -1,0 +1,72 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Pinnacle Leap",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p><strong>Requirements</strong> Your last action was a Zenith action that resulted in the end of your meditation.</p><hr /></div><p>You travel the route of Meditation to Zenith, then begin anew in immediate haste. If your next action is to cast a Meditation spell, you can cast that spell with 1 fewer actions.</p>"
+    },
+    "rules": [],
+    "slug": "pinnacle-leap",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "dervish",
+        "spellshape"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Meditation Spell"
+        },
+        {
+          "value": "Zenith feat"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "7V82vLCQ2infqfuF",
+  "_key": "!items!7V82vLCQ2infqfuF"
+}

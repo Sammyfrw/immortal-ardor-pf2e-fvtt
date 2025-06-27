@@ -1,0 +1,92 @@
+{
+  "_id": "Ps8KWOrtYELWhl9A",
+  "name": "Clear Tranquil",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/waters-of-prediction.webp",
+  "effects": [],
+  "folder": "vNNCZvYm7kP625cN",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": null,
+      "elevation": null,
+      "depth": null,
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Grants @UUID[Compendium.immortal-ardor.archetypes.Item.ICtp7HhZhAn9ASUR]{Effect: Clear Tranquil}</p><p class=\"MsoNormal\">You gather yourself and generate an aura of clarity, tempering your emotions and entering a state of momentary calm, but you keep your rage just within surface level.</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\">When you cast this spell, you enter a state where you gain a +1 status bonus to Will saving throws for the spell’s duration and can attempt to counteract a magic effect affecting you or a willing creature within 60 feet of you. Each time you Sustain this spell, you can either Stride up to your speed or attempt another counteract check. If it is an emotion effect, the counteract check gains a +1 status bonus. You can dismiss this effect as a free action. If you attempt to enter Earthen Rage while you are under the effects of this spell, this spell ends immediately.</p><p class=\"MsoNormal\"><span style=\"text-decoration:none\"><span style=\"text-decoration:underline\"> </span></span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special</span>: If you are in Earthen Rage when you cast this spell, you suspend your Earthen Rage until the spell is dismissed or wears off. When it ends, you resume your Earthen Rage. If it is dismissed during one of your next turns after you cast this spell, you immediately gain two actions with which you can only use to Stride, Strike and/or Cast a Spell.</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong>Heightened (6</strong><sup><strong>th</strong></sup><strong>) </strong>You grant your bonus to Will saving throws to creatures within 30 feet of you.</p><p class=\"MsoNormal\"><strong>Heightened (8</strong><sup><strong>th</strong></sup><strong>) </strong>The status bonus to Will saving throws and Emotion effect counteract checks becomes +2.</p>"
+    },
+    "rules": [],
+    "slug": "clear-tranquil",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "emotion",
+        "focus",
+        "manipulate",
+        "water"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.Ps8KWOrtYELWhl9A",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!Ps8KWOrtYELWhl9A"
+}

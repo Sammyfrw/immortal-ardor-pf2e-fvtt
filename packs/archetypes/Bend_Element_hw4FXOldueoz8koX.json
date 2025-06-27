@@ -1,0 +1,83 @@
+{
+  "_id": "hw4FXOldueoz8koX",
+  "name": "Bend Element",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "QEOGeTA827v053r8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p>Your bond with the elements of flux or stagnancy is such that you can leverage it into shifting your spells. If your next action is to Cast a spell that deals damage with the Fire, Cold, Electricity, Earth, Air or Water traits, you can change the damage type of the spell to one of the elements in the set you selected for your elemental affinity. It gains that element’s trait, and loses the old trait. If your spell has multiple traits that qualify, you only remove one. When describing how your spell’s damage type changes, you can be creative in how it adjusts. For Terran element damage types, the damage is typically slashing for Air, bludgeoning for Earth, and piercing for Water, but these may differ depending on how the spell is altered.</p>"
+    },
+    "rules": [],
+    "slug": "bend-element",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "rage",
+        "spellshape"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Earthfury Dedication"
+        },
+        {
+          "value": "Earthfury Instinct"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.hw4FXOldueoz8koX",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!hw4FXOldueoz8koX"
+}

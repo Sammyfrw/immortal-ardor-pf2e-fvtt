@@ -1,0 +1,113 @@
+{
+  "img": "https://assets.forge-vtt.com/bazaar/modules/kctg-common/assets/images/Strudel.PNG",
+  "name": "Frostbee Custard Pie",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> 10 minutes (Interact)</p><p>A specialty of Grendt, taking advantage of the Frostbee Apiary's offerings is a sweet treat that any Grendt citizen would appreciate. It combines the delicious freshness of Borvir's famous charstreaked loaves, Minuet's melange custard, and poured in with the slightly bitter and cooled Frostbee honey from Dorylla's apiary. The result? A warm explosion of flavor that is sure to treat one's soul long after its eaten. </p><p>When you eat the pie, you are protected from the effects of moderate cold for the next 24 hours. Additionally, any time you recover hit points, you gain an additional 10.</p>"
+    },
+    "rules": [],
+    "slug": "frostbee-custard-pie",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "alchemical",
+        "consumable",
+        "processed"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 5
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "https://assets.forge-vtt.com/bazaar/modules/kctg-common/assets/images/Strudel.PNG",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "type": "consumable",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.oZBafUU1tk4tgwye"
+    }
+  },
+  "effects": [],
+  "folder": "I3N0LWkmyhk7xTuc",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.oZBafUU1tk4tgwye",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "SogTMegVDoFKJYyp",
+  "sort": 1300000,
+  "_key": "!items!SogTMegVDoFKJYyp"
+}

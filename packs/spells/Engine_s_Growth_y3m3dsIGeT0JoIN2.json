@@ -1,0 +1,121 @@
+{
+  "folder": "mpWiWjUlSr3Cmm4k",
+  "name": "Engine's Growth",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You conjure a machine that closely resembles a construct of the Engine's Growth. The device manifests a massive growth of tangling roots and shrubs, and brings forth progress.</p><p></p><p><strong>Machine of the Engine's Growth </strong>Speed 80 feet, burrow 80 feet</p><p><strong>Arrive </strong><em>The Rise of Nature </em>The machine whirrs to life and creates a great tangled mess of roots and shrubs in an instant. All enemies within the @Template[distance:30|type:emanation] need to attempt a Reflex saving throw. The terrain is difficult terrain to all enemies until the spell ends.</p><p><strong>Critical Success </strong>No effect.</p><p><strong>Success </strong>The creature has a -10 circumstance penalty to its land speed.</p><p><strong>Failure </strong>The creature is @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} by the tangled roots until the spell ends, unless it manages to @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape}. If the creature was flying when grabbed, it remains stuck in place.</p><p><strong>Critical Failure </strong>As Failure, but the creature cannot Escape to break free.</p><p><strong>Depart </strong><em>The Price of Progress </em>The machine flashes red and releases a gout of flame all around it. All enemies in a @Template[distance:30|type:emanation] area need to attempt a basic Reflex saving throw or take @Damage[4d8[fire]] damage. Creatures who are @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} treat their result as one degree worse.</p><p></p><hr /><p><strong>Heightened (+1) </strong>The damage from <em>The Price of Progress </em>increases by 2d8 damage.</p>"
+    },
+    "rules": [],
+    "slug": "engines-growth",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "constellation",
+        "fire",
+        "focus",
+        "incarnate",
+        "manipulate",
+        "wood"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": {
+      "value": 30,
+      "type": "burst"
+    },
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "until the end of your next turn",
+      "sustained": false
+    },
+    "damage": {
+      "3HV0sdEkFuvip9xR": {
+        "formula": "4d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "3HV0sdEkFuvip9xR": "2d8"
+      },
+      "area": 0
+    },
+    "overlays": {
+      "o92aliivMSKnuzwd": {
+        "name": "Engine's Growth (Arrival)",
+        "sort": 1,
+        "overlayType": "override"
+      }
+    }
+  },
+  "img": "systems/pf2e/icons/spells/ignite-fireworks.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.y3m3dsIGeT0JoIN2",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "y3m3dsIGeT0JoIN2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!y3m3dsIGeT0JoIN2"
+}

@@ -1,0 +1,107 @@
+{
+  "folder": "HXrnWTJw2wWuoDYT",
+  "name": "Iskra",
+  "type": "armor",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A dazzling, but masterfully crafted set of semi-dense chain that feels warm to the touch and gently sparks with a soft orange glow. With powerful emotions and volatile ether, the armor seems to flare, causing an almost ripple-like wave across the chain-links. It invokes a deep, primal affinity to the fires that forged new bonds and a new, blossoming person, free of the past that once kept her heart grounded and unable to soar. By default, as part of the enchantment of the armor, it takes the form of either the Abundance dress, or Brimstone dress - both crafted to fit Aerith, or Eldren - in whatever form they decide to take. You can swap between the dresses by twirling in place as an action, letting the enchantment burn away, or regrow into the other form.</p>\n<p>This armor is a +2 Resilient Hellgleam Chain Shirt, which bears the following additional abilities. While invested, Aerith gains the following benefits:</p>\n<ul>\n<li>While Invested, Aerith gains the @Item[6kFHSZVaGnbYBDu5]{Survival Instinct} reaction.</li>\n<li>Aerith also gains the <strong>Transitional Elements</strong> activity.\n<ul>\n<li>\n<div class=\"blockquoteContainer-3VtvI1\">That life might be in the past, now, but the knowledge you gained during it is still something you can use. During daily preparation, you can choose one element from the opposite of your choice of Elemental Affinity. Until the next daily preparation, you treat that element as though it were part of your Elemental Affinity.</div>\n</li>\n</ul>\n</li>\n<li>Hellgleam Armor is imbued with the warmth of fire and protects you from celestial entities. You are protected from severe cold while wearing Hellgleam Armor, and as a reaction to a Strike from a creature weak to Hellgleam, you can grant yourself a +1 circumstance bonus to your AC.</li>\n</ul>"
+    },
+    "rules": [],
+    "slug": "iskra",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flexible",
+        "noisy"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "quantity": 1,
+    "baseItem": "chain-shirt",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/energy-robe-of-fire.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "light",
+    "group": "chain",
+    "acBonus": 2,
+    "strength": 1,
+    "dexCap": 3,
+    "checkPenalty": -1,
+    "speedPenalty": 0,
+    "runes": {
+      "potency": 2,
+      "resilient": 1,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/energy-robe-of-fire.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "ZelAHfecQg8ELAEV",
+  "sort": 100000,
+  "_key": "!items!ZelAHfecQg8ELAEV"
+}

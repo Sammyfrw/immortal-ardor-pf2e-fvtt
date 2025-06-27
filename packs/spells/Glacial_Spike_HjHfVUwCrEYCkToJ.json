@@ -1,0 +1,105 @@
+{
+  "folder": "fNyvBi1FuzhzXM05",
+  "name": "Glacial Spike",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You launch a spear of ice in the direction of a target you can see in range. On a hit, the target takes [[/r 6d10[cold]]] damage and is covered in freezing rime and ice and must make a Fortitude saving throw.</p><p><strong>Critical Success </strong>The target suffers no additional effects.</p><p><strong>Success </strong>The target suffers a -10 foot penalty to all its Speeds for 1 minute. It can spend an action to shake off the buildup of rime to end this penalty early.</p><p><strong>Failure </strong>The target becomes @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minute. It can spend an action to remove this effect.</p><p><strong>Critical Failure </strong>As failure, but the target is @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 minute. To end the effect early, it must spend an action to remove a layer of frost, reducing the value of Slowed to 1, and spend another action to remove the effect entirely.</p><p></p><p><strong>Heightened </strong>(+1) The damage increases by 1d10.</p>"
+    },
+    "rules": [],
+    "slug": "glacial-spike",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cold",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "rare",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "120"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "GrTPqZdADsPIJNfu": {
+        "formula": "6d10",
+        "kinds": [
+          "damage"
+        ],
+        "type": "cold",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "GrTPqZdADsPIJNfu": "1d10"
+      },
+      "area": 0
+    }
+  },
+  "img": "systems/pf2e/icons/spells/purifying-icicle.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "HjHfVUwCrEYCkToJ",
+  "sort": 200000,
+  "_key": "!items!HjHfVUwCrEYCkToJ"
+}

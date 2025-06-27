@@ -1,0 +1,59 @@
+{
+  "type": "action",
+  "name": "Lucid Aid",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The entity guides the dream in its favor. This acts as preparing to @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} another creature in the dream; using the skills and modifiers of the original dreamer it is tied to. </p>"
+    },
+    "rules": [],
+    "slug": "lucid-aid",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lucid"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "folder": "DL1Cx22P0pj4GTgy",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "rNZbAgDXawOGkHnG",
+  "sort": 500000,
+  "_key": "!items!rNZbAgDXawOGkHnG"
+}

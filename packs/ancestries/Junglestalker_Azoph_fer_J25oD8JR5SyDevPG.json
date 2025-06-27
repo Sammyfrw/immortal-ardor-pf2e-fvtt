@@ -1,0 +1,56 @@
+{
+  "_id": "J25oD8JR5SyDevPG",
+  "name": "Junglestalker Azoph-fer",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "vdrE5IURf9W3E57H",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your ancestors favored the jungles of the world, acclimating to the humid air and the dense foliage. You can @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Step} into natural difficult terrain, and when you @Compendium[pf2e.actionspf2e.49y9Ec4bDii8pcD3]{Subsist} in a Forest or similar biome your gain a +2 circumstance bonus to Survival checks.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Azoph-fer",
+      "uuid": "Item.6JAXzYb9Jg9SjoNk",
+      "slug": "azoph-fer"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.J25oD8JR5SyDevPG",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!J25oD8JR5SyDevPG"
+}

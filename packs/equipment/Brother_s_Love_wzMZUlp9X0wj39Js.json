@@ -1,0 +1,151 @@
+{
+  "name": "Brother's Love",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/equipment/weapons/hand-crossbow.webp",
+  "effects": [],
+  "folder": "FpNLrqP4hhllM1lT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.XyA6PKV46aNlLXOd"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span class=\"sheet-inv-notes sheet-collapse\">An Intricately carved hand crossbow of Avekiri make, designed to fit onto the back of the hand when equipped with a cord attached to the firing mechanism that settles around three digits, allowing the weapon to be fired by the Avekiri's unique hand structure by making a sharp yank with all three digits, creating a sort of 'safety' mechanism to prevent accidental misfires. </span></p>\n<p><span class=\"sheet-inv-notes sheet-collapse\">It is designed with a carving of a corvis avekiri family along the side length of the barrel on top of which the bolt rests, on one side showing them enjoying one another's company and general revelry, and on the other a larger avekiri male hugging a smaller avekiri female.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "rules": [],
+    "slug": "brothers-love",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "hand-crossbow",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 3
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Hand Crossbow",
+        "img": "systems/pf2e/icons/equipment/weapons/hand-crossbow.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "simple",
+    "group": "crossbow",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null,
+      "value": ""
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 60,
+    "reload": {
+      "value": "1"
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": null,
+      "die": "",
+      "damageType": "",
+      "critDice": null,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "criticalConditionType": "",
+      "criticalConditionValue": null,
+      "strikeConditionType": "",
+      "strikeConditionValue": null
+    },
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.XyA6PKV46aNlLXOd",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "wzMZUlp9X0wj39Js",
+  "sort": 200000,
+  "_key": "!items!wzMZUlp9X0wj39Js"
+}

@@ -1,0 +1,268 @@
+{
+  "folder": "S5VG4aiwdZ5GC4eH",
+  "name": "Dervish",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\"><em style=\"mso-bidi-font-style:normal\">You seek to become more than what you are. In the heat of battle or in life’s most tranquil moments, you reach for a greater state to reach transcendence, self-improvement, or a hint of divinity. You’ve devoted yourself to a philosophy that imparts lessons and ideals for spiritual fulfillment. You utter meditations that lifts your spirit high, entering a trance that taps into a great power that exemplifies the ideals you are dedicated to. During moments of zeniths, your heightened self brings the divine to the world.</em></span></p>"
+    },
+    "rules": [],
+    "slug": "dervish",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "dex"
+      ]
+    },
+    "items": {
+      "b5X0f": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.kyVzYnHM3QAqr0O8",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Zealous Strikes",
+        "level": 1
+      },
+      "OorJ7": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.pzJHebAV1UEFBJRn",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Zeal",
+        "level": 1
+      },
+      "SEjvF": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.mg5FU6WhmeXJFTKq",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Trance Mastery",
+        "level": 17
+      },
+      "MLWv2": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.vOHQgM11aavYhtsQ",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Trance Expertise",
+        "level": 9
+      },
+      "PiraE": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.ZGvF7STdNJvCTWOz",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Reverse Recitation",
+        "level": 17
+      },
+      "jQEG0": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.oQk5HQIiiOl621i2",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Resume Verse",
+        "level": 9
+      },
+      "TGOIF": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.reqZa4XR9qLoyEbX",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Perception Mastery",
+        "level": 11
+      },
+      "3wBSe": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.S6kb5WYeZgRmyDYp",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Perception Expertise",
+        "level": 5
+      },
+      "o1CdA": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.caphhFdQ1bZ1eHe3",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Parables",
+        "level": 1
+      },
+      "Y5eXZ": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.Mr5JiUrfBL8uBGyV",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Light Armor Mastery",
+        "level": 19
+      },
+      "vx8uZ": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.OKFHDeUHr747PNiA",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Light Armor Expertise",
+        "level": 11
+      },
+      "6kIMc": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.ehN4fvU90qZUgxlY",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Honed Mind",
+        "level": 7
+      },
+      "edkO3": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.ymtJzdVH6ypV1EoG",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Greater Honed Mind",
+        "level": 13
+      },
+      "lwTKo": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.kIOMYwx3hjboB8r3",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Fortitude Expertise",
+        "level": 3
+      },
+      "ZW8cM": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.YMLlBIfZz30mpTVg",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Divine Footfalls",
+        "level": 15
+      },
+      "piksA": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.HGoNGRctt7Z5TXY5",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Dervish Weapon Specialization",
+        "level": 7
+      },
+      "VIFKp": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.paxjTqE6HZXE3FHs",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Dervish Weapon Mastery",
+        "level": 13
+      },
+      "KXSEy": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.6Ct3XOv2gwxoK6LY",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Dervish Weapon Expertise",
+        "level": 5
+      },
+      "9a43q": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.tM1vkbwoFa3DrP0f",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Dervish Greater Weapon Specialization",
+        "level": 15
+      },
+      "W4xi8": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.b1WqCfMJkimD3l19",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Celestial Steps",
+        "level": 19
+      },
+      "UIX3z": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.2Ijaf182htK84IpJ",
+        "img": "icons/sundries/books/book-purple-cross.webp",
+        "name": "Calm Mantra",
+        "level": 3
+      }
+    },
+    "hp": 8,
+    "trainedSkills": {
+      "value": [
+        "religion"
+      ],
+      "additional": 3
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 2,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 0,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 0,
+      "light": 1,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "img": "icons/sundries/scrolls/scroll-magical-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "Fm5efozAfcDNkIST",
+  "sort": 0,
+  "_key": "!items!Fm5efozAfcDNkIST"
+}

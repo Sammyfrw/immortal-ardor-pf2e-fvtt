@@ -1,0 +1,103 @@
+{
+  "folder": "iU4W6BV15DqElOBL",
+  "name": "Effect: Hellfire Shot",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "Fire",
+            "value": "fire"
+          },
+          {
+            "label": "Spirit",
+            "value": "spirit"
+          }
+        ],
+        "flag": "hellfireShot",
+        "key": "ChoiceSet",
+        "prompt": "Select a damage type"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "value": {
+          "brackets": [
+            {
+              "end": 9,
+              "value": {
+                "diceNumber": 1
+              }
+            },
+            {
+              "start": 10,
+              "value": {
+                "diceNumber": 2
+              }
+            }
+          ]
+        },
+        "dieSize": "d6",
+        "damageType": "{item|flags.pf2e.rulesSelections.hellfireShot}",
+        "category": "persistent"
+      }
+    ],
+    "slug": "effect-hellfire-shot",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "systems/pf2e/icons/spells/rain-of-fire.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "9V1HPVC6hQ5Jd9EW",
+  "sort": 0,
+  "_key": "!items!9V1HPVC6hQ5Jd9EW"
+}

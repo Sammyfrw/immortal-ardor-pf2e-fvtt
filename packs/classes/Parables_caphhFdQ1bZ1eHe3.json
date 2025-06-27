@@ -1,0 +1,63 @@
+{
+  "folder": "HHpORz2ULEYVOYEV",
+  "name": "Parables",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A dervish seeks to shed the worldly self in a bid to reach a spiritual transcendence. In that journey of moving beyond the self, they can pluck divine power in the moments that they manage to heighten their spirits. Such a journey requires time, training, meditation, and contemplation; divine power is not so easily attained, not when the self is so attached to the world.</p><p>To aid in this endeavor, you’ve taken stock of a collection of thematic stories, teachings, religious texts, or philosophies that express meaningful concepts of self-growth and spiritual enlightenment, called parables. Choose a parable that represents your desired journey to transcend the self. Your parable grants you a type of focus spell called meditation spells, a Zenith feat, and adds an additional set of actions that grants you Zeal. These represent the acts, motions, and mindsets your parable and meditations exemplify to reach a greater state of mind.</p><h3>Meditation Spells</h3><p class=\"MsoNormal\">Meditations are crucial components of your spiritual path. They dictate a state of mind or physical motion that you need to maintain to help you reach for spiritual power. A Meditation provides you with a selection of actions you can take when you Sustain it called Recitations. These Recitations draw upon divine power and provide powerful effects in line with the meditation’s lessons. Whenever you sustain your Meditation, you retain your Zeal for your turn. You must have Zeal to maintain your spell; If you lose or spend your Zeal, the meditation immediately ends. If a Recitation requires you to make a skill check, you use either your proficiency in that skill or use a modifier equal to your dervish class DC – 10, whichever is higher. You can only invoke a Recitation once per turn, and can only have one Meditation at a time. If you cast a new Meditation, the previous spell ends immediately.</p><p>Meditation spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to study any existing or new scriptures that you might have, meditate, and contemplate on your current parable or other philosophies, or chant a mantra to reaffirm and realign your journey.</p><p>Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Certain feats give you more focus spells.</p><p class=\"MsoNormal\">The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, but it can never be more than 3 points.</p><p class=\"MsoNormal\">Your parable grants you a meditation spell at 1st level and start with a focus pool of 1 Focus Point. You can learn additional meditations through dervish feats.</p>"
+    },
+    "rules": [],
+    "slug": "parables",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "caphhFdQ1bZ1eHe3",
+  "_key": "!items!caphhFdQ1bZ1eHe3"
+}

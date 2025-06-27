@@ -1,0 +1,100 @@
+{
+  "folder": "1tgwp9ZT6x5G4tFB",
+  "name": "Solar of Arrow's Folly (Minor)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Arrow represents the journey; the travels needed to reach a destination, through all factors of life. The Arrow's Folly depicts their failure, and the natural instinct to shy away from hardship to remarkable degrees.</p><p><strong>Constellation</strong> @UUID[Compendium.immortal-ardor.deities.Item.bQJ4eQKF50ofQdGr]{The Arrow}</p><hr /><p><strong>First Asterism </strong>(Level 4): You can open the @UUID[Compendium.pf2e.classfeatures.IDBB44egwiQ4qZNh]{Kinetic Gate} for Water and can use @UUID[Compendium.pf2e.actionspf2e.g8QrV39TmZfkbXgE]{Channel Elements} for it, which allows you to make @UUID[Compendium.pf2e.actionspf2e.6lbr0Jnv0zMB5uGb]{Elemental Blast} with Water. If you already have the Kinetic Gate feature, you instead gain @UUID[Compendium.pf2e.classfeatures.vEiENk0IzuzRQesp]{Gate's Threshold} and Fork the Path to Water, which allows you to select a Water impulse feat. Regardless, anytime you reinvest this facet each day, you can select any of your choices.</p>"
+    },
+    "rules": [],
+    "slug": "solar-of-arrows-folly-minor",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "facet",
+        "invested",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Solar Facet",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Solar_Fragment_HD.png",
+        "data": {
+          "description": {
+            "value": "<p>An unidentified solar facet.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "bonded"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Solar_Fragment_HD.png",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.kZ5sF6teunpnswqy",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "kZ5sF6teunpnswqy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!kZ5sF6teunpnswqy"
+}

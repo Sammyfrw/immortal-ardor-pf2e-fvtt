@@ -1,0 +1,78 @@
+{
+  "name": "Premonitory Parry",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "3bsGBfWSWgyRh6xc",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You have been trained to have exceptional foresight, being able to use your powers to see your opponent’s next move and parry it, with your weapon or Mantle of Deflection. You learn the @UUID[Compendium.immortal-ardor.archetypes.Item.wmjn6ywTxdgEKzQG]{Premonitory Parry} Focus Spell.</p><p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>Your @UUID[Compendium.immortal-ardor.archetypes.Item.bEs4NAJpJ6Dghiqb]{Mantle of Deflection} becomes more powerful. The circumstance AC and Deception bonus it provides when you use an action to hold it up protectively increases to +2.</p><p>@UUID[Compendium.immortal-ardor.archetypes.Item.mAHa8KW6Zzb8eA1C]{Mantle of Deflection (Enhanced)}</p><p></p>"
+    },
+    "rules": [],
+    "slug": "premonitory-parry",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Mourneblade Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.qR9P7mg09FdWlNkj",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "qR9P7mg09FdWlNkj",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!qR9P7mg09FdWlNkj"
+}

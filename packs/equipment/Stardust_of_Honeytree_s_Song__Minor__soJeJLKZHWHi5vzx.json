@@ -1,0 +1,100 @@
+{
+  "folder": "1tgwp9ZT6x5G4tFB",
+  "name": "Stardust of Honeytree's Song (Minor)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">The Honeytree represents community and camaraderie. Its roots span the universe, and the bees the ones who listen, travel and speak. Do you hear the song, sweetling? Everything in the world, real, imagined, physical, digital, corresponds to the song. It moves in the rhythm to the wingbeats of the universe. But you must listen to be able to hear it. So what do you hear?</span></p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.783jltL5Pfhj17uJ]{The Honeytree}</p><p><strong>Equipment </strong>Weapons in the polearm category, musical instruments, rings, gloves</p><p><strong>First Asterism </strong>(Level 7): You can cast @UUID[Compendium.pf2e.spells-srd.qwlh6aDgi86U3Q7H]{Suggestion} as a Constellation spell.</p><p><strong>Second Asterism </strong>(Level 11): You can cast @UUID[Compendium.pf2e.spells-srd.GP3wewkQXEPrLxYj]{Subconscious Suggestion} as a Constellation spell.</p>"
+    },
+    "rules": [],
+    "slug": "stardust-of-honeytrees-song-minor",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "facet",
+        "invested",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 3500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Stardust Facet",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Stardust_Fragment_HD.png",
+        "data": {
+          "description": {
+            "value": "<p>An unidentified stardust facet.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "bonded"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Stardust_Fragment_HD.png",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.soJeJLKZHWHi5vzx",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "soJeJLKZHWHi5vzx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!soJeJLKZHWHi5vzx"
+}

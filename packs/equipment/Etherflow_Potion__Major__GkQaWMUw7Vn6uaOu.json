@@ -1,0 +1,107 @@
+{
+  "name": "Etherflow Potion (Major)",
+  "type": "consumable",
+  "img": "systems/pf2e/icons/equipment/consumables/potions/blue-dragons-breath-potion.webp",
+  "effects": [],
+  "folder": "CjslDIg6fx8t1SbY",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A bubbling vial of condensed ether, designed to replenish a drinker's ether reserves. Unlike the condensed ether potions made for Invokers which heals the strain on their etherlobes, Etherweave tinctures provide a rejuvenating effect to the body itself, replenishing one's existing reserves. </p>\n<p>If you are a spellcaster that utilizes spell slots, while you are in the middle of a Refocus activity you can drink this potion to recover your spell slots. If you are a prepared spellcaster, you regain the spells allocated to the spell slots you recover.</p>\n<p>The spell slots can have a combined level that is equal to or less than your level, up to a maximum of 20. None of the slots can be of 9th level or higher. If you are a spellcaster with a wave spell level progression, you can have a combined level of up to 40, and you can use it on any of your available slots.</p>"
+    },
+    "rules": [],
+    "slug": "etherflow-potion-major",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable",
+        "magical",
+        "potion"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 7000
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Liquid",
+        "img": "systems/pf2e/icons/equipment/consumables/potions/blue-dragons-breath-potion.webp",
+        "data": {
+          "description": {
+            "value": "The nature of this liquid is unclear."
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "potion",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "GkQaWMUw7Vn6uaOu",
+  "sort": 100000,
+  "_key": "!items!GkQaWMUw7Vn6uaOu"
+}

@@ -1,0 +1,128 @@
+{
+  "folder": "mpWiWjUlSr3Cmm4k",
+  "name": "Owl's Cry",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You conjure a visage that closely resembles a personification of the Owl's Cry. With the epiphany of a world-shattering revelation, a new resolve and path comes laid out for you.</p><p></p><p><strong>Visage of the Owl's Cry </strong>Speed 80 feet, fly 80 feet</p><p><strong>Arrive </strong><em>The Cry of Epiphany </em>The visage lets out a sonic cry that jams electronic devices in the area. All enemies with the tech trait, creatures with held items with the tech trait, or unattended items with the tech trait within a @Template[distance:30|type:emanation] begin to experience interference and need to attempt a Will saving throw.</p><p><strong>Critical Success </strong>No effect.</p><p><strong>Success </strong>The creature, item, or all the creature's held items become @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.6A2QDy8wRGCVQsSd]{Glitching 1} for 1 round.</p><p><strong>Failure </strong>The creature, item, or all the creature's held items become @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.6A2QDy8wRGCVQsSd]{Glitching 1}.</p><p><strong>Critical Failure </strong>The creature, item, or all the creature's held items become @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.6A2QDy8wRGCVQsSd]{Glitching 2}.</p><p><strong>Depart </strong><em>The Path of Resolve </em>The visage flies skyward and lets out a sonic cry. All enemies in a @Template[distance:30|type:emanation] area need to make a basic Fortitude saving throw or take @Damage[4d8[sonic]] damage . Creatures with the tech trait that are glitching have a result that is one degree worse.</p><p></p><hr /><p><strong>Heightened (+1) </strong>The damage from <em>The Path of Resolve </em>increases by 2d8 damage.</p>"
+    },
+    "rules": [],
+    "slug": "owls-cry",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "constellation",
+        "focus",
+        "incarnate",
+        "manipulate",
+        "sonic"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": {
+      "value": 30,
+      "type": "burst"
+    },
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "until the end of your next turn",
+      "sustained": false
+    },
+    "damage": {
+      "3HV0sdEkFuvip9xR": {
+        "formula": "4d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "sonic",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "3HV0sdEkFuvip9xR": "2d8"
+      },
+      "area": 0
+    },
+    "overlays": {
+      "lQHyuFkI9K2dRfdR": {
+        "name": "Owl's Cry (Arrival)",
+        "system": {
+          "defense": {
+            "save": {
+              "statistic": "will",
+              "basic": false
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      }
+    }
+  },
+  "_id": "1fUk0ozRjzccTEPM",
+  "img": "systems/pf2e/icons/spells/seashell-of-stolen-sound.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.1fUk0ozRjzccTEPM",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!1fUk0ozRjzccTEPM"
+}

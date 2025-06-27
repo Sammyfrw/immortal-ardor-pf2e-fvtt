@@ -1,0 +1,19 @@
+{
+  "_id": "e1kd1sElx3LCjpgH",
+  "name": "Courtier",
+  "type": "Item",
+  "sort": 8200000,
+  "flags": {},
+  "sorting": "a",
+  "color": "#4d003c",
+  "folder": "RPjr8JF6kbtB7wZ3",
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!e1kd1sElx3LCjpgH"
+}

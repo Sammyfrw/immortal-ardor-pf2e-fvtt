@@ -1,0 +1,85 @@
+{
+  "folder": "fNyvBi1FuzhzXM05",
+  "name": "Paling",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You erect a powerful field known as a Paling that surveils the area for spells that are designed to spy or teleport, and attempt to prevent them. The reagents for this ritual are a collection of gems that fuse together to create a magical crystal that sustains this ritual for is entire duration, emitting a field of bright light of 100 feet and dim light of 200 feet.</p><p>When a spell of a rank up to 2 higher than the ritual's rank with the Teleportation or Scrying trait is cast into or within the area, the Paling field detects the spell. It then attempts to Counteract it using the ritual's rank as the counteract level and the primary caster's Arcana check modifier or spell attack modifier as the counteract check modifier, whichever is higher. The ritual's primary and secondary casters are exempt from this counteract check, as are any creatures the primary and secondary casters designate while within the bright light of the Paling for its duration.</p><p>When you cast this ritual, you can instead extend its cast time to 7 days and spend 7 times the cost to extend its duration to 30 days instead. Afterwards, it can be sustained and extended to 30 days again by casting the ritual with its 1 day time and cost at any time before it expires. When cast to extend its duration, the ritual cannot critically fail or critically succeed, and can be done by a different set of primary or secondary casters, which then also gain the benefit of being able to designate new creatures as exempt from the Paling's effects. It cannot change the outcome of the original casting of the ritual.</p><p></p><p><strong>Critical Success </strong>The Paling field is successfully created. Any time it detects a spell or counteracts a spell, the ritual's primary and secondary casters are mentally aware of the outcome as long as they are within the same plane as the Paling, and Paling crystal flickers a different color; red for detection, purple for counteracting.</p><p><strong>Success </strong>As Critical Success, but the primary caster must decide whether the Paling mentally notifies its casters or has the crystal change colors.</p><p><strong>Failure </strong>The crystal is not formed and the ritual fails to take hold.</p><p><strong>Critical Failure </strong>The Paling field is created and attempts to detect and counteract spells without exemptions. </p>"
+    },
+    "rules": [],
+    "slug": "paling",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "scrying"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "1 mile"
+    },
+    "area": null,
+    "time": {
+      "value": "1 day"
+    },
+    "duration": {
+      "value": "7 days",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": "gemstones worth a total value of 75 gp x the ritual's level, half of which must include luminite and pearls"
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "ritual": {
+      "primary": {
+        "check": ""
+      },
+      "secondary": {
+        "checks": "",
+        "casters": 0
+      }
+    }
+  },
+  "img": "icons/environment/settlement/city-gate.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "ywpIhh9alLgDdLiF",
+  "sort": 0,
+  "_key": "!items!ywpIhh9alLgDdLiF"
+}

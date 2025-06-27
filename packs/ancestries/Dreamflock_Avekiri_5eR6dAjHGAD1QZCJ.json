@@ -1,0 +1,56 @@
+{
+  "_id": "5eR6dAjHGAD1QZCJ",
+  "name": "Dreamflock Avekiri",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "YoLAauwV9BXH0dl1",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your familial history consists of avekiri who have devoted themselves to studying and understanding the realm of dreams, and the reservoir of knowledge and revelations that lay in sleep. You gain a +2 circumstance bonus to resist divination school spells and effects, as well as spells that produce sleep effects.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Avekiri",
+      "uuid": "Item.nNtTrMVuAgB4bs4p",
+      "slug": "avekiri"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.5eR6dAjHGAD1QZCJ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!5eR6dAjHGAD1QZCJ"
+}

@@ -1,0 +1,106 @@
+{
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/food/bowl-stew-brown.webp",
+  "name": "Tracker's Shakshuka",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> 50 sp<br /><strong>Ingredients</strong> 4 basic, 1 special<br /><strong>Preparation</strong> DC 18 Cooking Lore, DC 20 Survival</span><br /><strong>Requirements</strong> Basic Kitchen<br /><strong>Favorite Meal</strong> You gain the benefit to Cover Tracks and Track simultaneously while moving at full speed.</p><hr /><p>Alchemical reagents add punch to tracker's shakshuka: a rich, fiery mixture of tomatoes, ground nuts, onions, eggs and tubers, sometimes with poultry added. It's usually served with or over freshly baked pita bread. Once you've eaten the mixture, it improves your ability to sense and follow tracks for 24 hours or until you make your next daily preparations, whichever comes first.</p><p>You gain a +1 item bonus to Survival checks to @UUID[Compendium.pf2e.actionspf2e.SB7cMECVtE06kByk]{Cover Tracks} and @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track}, or increase any existing item bonuses to these checks you may have. You can do either while moving at full speed or both while moving at half speed.</p><p>@UUID[Compendium.immortal-ardor.equipment.Item.mUBrDa0TWfaQ2Qay]{Effect: Tracker's Shakshuka}</p>"
+    },
+    "rules": [],
+    "slug": "trackers-shakshuka",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "alchemical",
+        "consumable",
+        "meal",
+        "processed"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/food/bowl-stew-brown.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "type": "consumable",
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.WSB25dban0OwNc39",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "effects": [],
+  "folder": "I3N0LWkmyhk7xTuc",
+  "flags": {},
+  "_id": "WSB25dban0OwNc39",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!WSB25dban0OwNc39"
+}

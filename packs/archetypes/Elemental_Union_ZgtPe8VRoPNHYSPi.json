@@ -1,0 +1,84 @@
+{
+  "_id": "ZgtPe8VRoPNHYSPi",
+  "name": "Elemental Union",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "QEOGeTA827v053r8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p>You’ve become one with the elements you chose for Elemental Specialization, where your anger rises to match its pain and suffering. You increase the damage bonus from Elemental Specialization from 6 to 12. In addition, while in Earthen Rage your spells with these elements ignore 10 points of a creature’s resistance to these damage types.</p>"
+    },
+    "rules": [],
+    "slug": "elemental-union",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Earthfury Dedication"
+        },
+        {
+          "value": "Elemental Specialization"
+        },
+        {
+          "value": "Earthfury Instinct"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ZgtPe8VRoPNHYSPi",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!ZgtPe8VRoPNHYSPi"
+}

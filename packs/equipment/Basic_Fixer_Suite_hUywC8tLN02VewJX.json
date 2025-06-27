@@ -1,0 +1,93 @@
+{
+  "name": "Basic Fixer Suite",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a collection of software and hardware needed for a fixer to establish thorough connections in a network of information. This includes cameras, microphones and security hardware to guarantee privacy and adjustable conditions to make clandestine conversations possible. It also features licenses to access private repositories or forums, and software that utilizes different connectivity tools to help improve communication with field groups and provide information where needed.</p><p>Spending a day of downtime to get in touch with specific informants or counselors ahead of a trip or meeting confers unique assistance for a single event. Choose one of the following benefits:</p><ul><li><p><strong>Location:</strong> The connection @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aids} you on attempts to @UUID[Compendium.pf2e.actionspf2e.plBGdZhqq5JBl1D8]{Gather Information} and @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} about specific locations, granting you a +1 circumstance bonus on such checks. </p></li><li><p><strong>People: </strong>The connection helps you with introductions to useful or important people or navigate social circles, automatically Aiding you on attempts to @UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonate}, @UUID[Compendium.pf2e.actionspf2e.ewwCglB7XOPLUz72]{Lie}, @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression}, and @UUID[Compendium.pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request} with speaking to individuals.</p></li></ul><p>As usual for the rules for fixers, <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">the GM is the final arbiter in deciding whether or not a fixer for a given location or people is available.</span></p>"
+    },
+    "rules": [],
+    "slug": "basic-fixer-suite",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "housing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/sundries/documents/document-symbol-triangle-pink.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "icons/sundries/documents/document-symbol-triangle-pink.webp",
+  "folder": "iXGkmB3fcc3NZU0j",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.hUywC8tLN02VewJX",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "hUywC8tLN02VewJX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!hUywC8tLN02VewJX"
+}

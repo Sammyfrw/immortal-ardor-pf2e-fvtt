@@ -1,0 +1,98 @@
+{
+  "folder": "VRQTvva2JwBdrcdH",
+  "name": "Cromwell Nightstone",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A small talisman that seems to linger with hellish power; it thrums with a strange energy. The Cromwell Nightstone is a family heirloom that has been in Efram's possession for sometime, having acquired it during the days of the war against Duke Revant.</p><p>It possesses the capability of transferring the memories, powers and capabilities of whoever invests the nightstone into it. Later, another wielder who invests into it can exchange their capabilities into the stone over the course of time (such as the time taken for @Compendium[pf2e.actionspf2e.24PSsn1SKpUwYA1X]{Retraining}).</p><p>For all intents and purposes, this acts as a tutor that can help its invested holder retrain without physically being in the same space as the tutor; the knowledge the nightstone possesses is passed onto the holder, and whatever the holder retrains out of is passed into the nightstone. Once invested, the Nightstone is soulbound to the new holder as per the @UUID[Compendium.immortal-ardor.spells.Item.REGkxrnXSqSl4fyc]{Soulbind Object} ritual, until the new holder willingly his binding over the course of a day, where the stone can be invested and bound to another potential trainee.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 3500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/equipment/held-items/demilich-eye-gem.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn-under-armor"
+    },
+    "subitems": []
+  },
+  "img": "systems/pf2e/icons/equipment/held-items/demilich-eye-gem.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.R3U891xZX7xiOFYY",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "R3U891xZX7xiOFYY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!R3U891xZX7xiOFYY"
+}

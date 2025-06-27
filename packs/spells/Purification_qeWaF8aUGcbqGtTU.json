@@ -1,0 +1,96 @@
+{
+  "name": "Purification",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/abyssal-pact.webp",
+  "effects": [],
+  "folder": "fNyvBi1FuzhzXM05",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": 1,
+      "terraintype": "ground",
+      "environment": "",
+      "min": 0,
+      "max": 0
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You take a profaned or cursed item, or a section of a location that has been profaned and attempt to purify it in a ritual. The ritual requires a series of steps such as preparing a magic circle to encompass the target object or location, spreading the purified sand or diamond dust over certain locations based on the aetherial signatures of the target, and chanting a litany for the target in question, whether it is the purified form of a cursed blade's metal, a harmonious return to form for a sacred site, and so on. The DC and skill requirements of this ritual typically follows the level and nature of the curse or profanity.</p><p> </p><p><strong>Critical Success</strong> If you cast this ritual on a profaned item, you return it to a non-profaned state; if it has a sanctified form, you return it to that state instead. If it is a cursed item, you remove the curse from the item and may even convert the curse into a blessing instead. If it is a site, you purge its profanity and you either restore any sacred elements it had previously or convert it into a sacred or blessed site, instead.</p><p><strong>Success</strong> As critical success, except you only remove the profaned form or curse without any conversions into blessings or sacred states.</p><p><strong>Failure</strong> The ritual fails to purify the target.</p><p><strong>Critical Failure</strong> The ritual fails, and the primary and any secondary casters are afflicted with any curse or maliciious effects tied to the item or site in question. You become unable to use this ritual on the same target until you remove all lingering effects from the failure from yourselves.</p>"
+    },
+    "rules": [],
+    "slug": "purification",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "a profaned or cursed item or site"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "8 hours"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": "Sacred chalk, holy water, purified sand, pure soil and/or diamond dust equaling 50 gp x half the target plevel"
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "ritual": {
+      "primary": {
+        "check": "Religion or Occultism (Expert)"
+      },
+      "secondary": {
+        "checks": "Crafting, Religion or Occultism",
+        "casters": 0
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "qeWaF8aUGcbqGtTU",
+  "sort": 0,
+  "_key": "!items!qeWaF8aUGcbqGtTU"
+}

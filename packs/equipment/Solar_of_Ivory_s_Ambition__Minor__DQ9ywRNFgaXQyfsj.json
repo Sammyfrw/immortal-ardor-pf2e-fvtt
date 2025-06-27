@@ -1,0 +1,100 @@
+{
+  "folder": "1tgwp9ZT6x5G4tFB",
+  "name": "Solar of Ivory's Ambition (Minor)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Ivory represents wealth, devotion, and ambition. The world requires a sense of practicality, the idea that not everything is given and must be earned. The appreciation of the world's bounty and its acquisition goes hand-in-hand with the drive to collect and protect one's position and hard-earned treasures, whatever form it may take. Ivory's Ambition brings attention to this climb - for wealth, for power, for fame, or whatever one might consider worthy working towards, and the means one must pursue to attain it.</p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.jabiEXrdPYCLAz1Z]{The Ivory}</p><hr /><p><strong>First Asterism </strong>(Level 5) You gain the @UUID[Compendium.immortal-ardor.actions.Item.o0YAlbdSV08yN7Rx]{Hellfire Shot}.</p>"
+    },
+    "rules": [],
+    "slug": "solar-of-ivorys-ambition-minor",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "facet",
+        "invested",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 2500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Solar Facet",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Solar_Fragment_HD.png",
+        "data": {
+          "description": {
+            "value": "<p>An unidentified solar facet.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "bonded"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Solar_Fragment_HD.png",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.DQ9ywRNFgaXQyfsj",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "DQ9ywRNFgaXQyfsj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!DQ9ywRNFgaXQyfsj"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Crimson Heart",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/equipment/treasure/gems/greater-precious-stones/large-ruby.webp",
+  "effects": [],
+  "folder": "74nXHd8sH4NMvwEo",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Crimson Heart is a relic made from a combination of magic and astral essence by the Matron of the Violet Phalanx, Apollya, after she settled herself and her followers within the depths of the Celes Mountains. Establishing the Amethyst Sanctum, her Sleepers erected a barrier made out of Astral Essence, and kept the place protected for centuries from would be interlopers. The only passage through would be to make use of the Crimson Heart -- the key that would open the barrier for its holder.</p><p>The Heart is often hidden away and protected, meant to be found by those who seek Perfection; and Aspirants for Perfection will eventually find their way into the Amethyst Sanctum.</p>"
+    },
+    "rules": [],
+    "slug": "crimson-heart",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 22
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Crystal",
+        "img": "systems/pf2e/icons/equipment/treasure/gems/greater-precious-stones/large-ruby.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": [],
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "dbFdA8ERJOWyItfk",
+  "sort": 100000,
+  "_key": "!items!dbFdA8ERJOWyItfk"
+}

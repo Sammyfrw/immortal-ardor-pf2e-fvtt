@@ -1,0 +1,80 @@
+{
+  "folder": "scRkkbziDxqsiAqB",
+  "name": "The River",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h4>The Fish / The River</h4><p class=\"MsoNormal\"><strong>Personality </strong>Dreamy, erratic, creative, romantic, compassionate, elusive, imaginative, sensitive and kind.</p><p class=\"MsoNormal\"><strong>Astral Attribute </strong>Strength or Constitution</p><p class=\"MsoNormal\"><strong>Astral Element </strong>Mental</p><p class=\"MsoNormal\"><strong>Astral Gemstone </strong>Spinel</p><p class=\"MsoNormal\"><strong>Astral Colors </strong>Pink, Orange, White</p><p class=\"MsoNormal\"><strong>Astral Brand </strong>Deep Sea Bass – Loose, rustic and natural styles</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong><span style=\"text-decoration:underline\">Cosmic Benefits</span></strong></p><p class=\"MsoNormal\"><strong>Cleric Spells</strong></p><p class=\"MsoNormal\"><strong>Divine Font</strong> Heal</p><p class=\"MsoNormal\"><strong>Divine Sanctification </strong>Can choose order, can choose holy</p><p class=\"MsoNormal\"><strong>Divine Skill </strong>Nature</p><p class=\"MsoNormal\"><strong>Domains </strong>Soul, Sorrow, Delirium, Stars</p><p class=\"MsoNormal\"><strong>Favored Weapon Group </strong>Axe</p><p><span style=\"font-family:'Calibri',sans-serif\"><strong>Favored Classes </strong>Bard, Inventor, Druid, Psychic, Mechanic, Mystic</span></p>"
+    },
+    "rules": [],
+    "slug": "the-river",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "covenant",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "soul",
+        "sorrow",
+        "star",
+        "delirium"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "str",
+      "con"
+    ],
+    "skill": [
+      "diplomacy"
+    ],
+    "weapons": [
+      "battle-axe",
+      "greataxe"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/spells/mariners-curse.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.r1Qixlm9Wh5s9tWz",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "r1Qixlm9Wh5s9tWz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!r1Qixlm9Wh5s9tWz"
+}

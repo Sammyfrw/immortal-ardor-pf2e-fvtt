@@ -1,0 +1,19 @@
+{
+  "_id": "U9W5dalJinyDt4Ok",
+  "name": "Cragweaver",
+  "type": "Item",
+  "sort": 100000,
+  "flags": {},
+  "sorting": "a",
+  "color": "#4d003c",
+  "folder": null,
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!U9W5dalJinyDt4Ok"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Mourneblade Dedication",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "3bsGBfWSWgyRh6xc",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">The following Archetype feats are available with the Mourneblade Manafont Archetype:</p><p class=\"MsoNormal\"><em><strong>Additional Feats: 4</strong></em><sup><em><strong>th</strong></em></sup><em><strong> @Compendium[pf2e.feats-srd.N7dTFxpjXGn4ddq8]{Enhanced Familiar}</strong>, <strong>10</strong></em><sup><em><strong>th</strong></em></sup><em><strong> @Compendium[pf2e.feats-srd.KcNXoSvULnuQjC9a]{Incredible Familiar (Familiar Master)}</strong></em></p><p>You begin training in the art of the Mourneblade, conjuring divine or occult weapons to use against your enemies. To overcome the most challenging obstacles, you learn how to manipulate reality to gain insight and move beyond your normal physical limitations, incorporating this into your fighting style.</p><p>You gain the @UUID[Compendium.immortal-ardor.archetypes.Item.tHLjKyErvYMcHwSi]{Conjure Spectral Arms} focus spell. Spectral Arms are martial weapons for the purposes of weapon proficiency, but they are considered simple weapons for you.</p><p>Choose the source of your power: divine or occult. You become trained in their respective skills (religion or occultism) and become trained in their traditions’ respective spell attack rolls and DCs (divine or occult), and use the appropriate key spellcasting ability (Wisdom or Charisma). You gain two cantrips from your selected source’s spell list. If you gain a spell from this archetype, they are of your power source’s tradition. Your spectral arms gain the tradition’s trait.</p><p>You also gain a @UUID[Compendium.immortal-ardor.archetypes.Item.K5XlcTqr428jeLBc]{Guidespectre Crystal}, offered to you at the end of your initiation. This crystal contains a spirit which is bound to it called a Guidespectre. You can will the spirit to your side to be your familiar with 2 familiar abilities. If you ever lose your guidespectre crystal or if it is destroyed (Hardness 10, HP 36, BT18), you can conjure a new one after a week of focusing your powers during downtime, bringing the same guidespectre to you, or a new one if you choose.</p>"
+    },
+    "rules": [],
+    "slug": "mourneblade-dedication",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication",
+        "manafont"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.b1AoaDlQQchhxb1S",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "b1AoaDlQQchhxb1S",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!b1AoaDlQQchhxb1S"
+}

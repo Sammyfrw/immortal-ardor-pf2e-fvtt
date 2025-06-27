@@ -1,0 +1,74 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Effect: Sheep Skewer Surprise",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.equipment.Item.R8Pxbfub990DNbYj]{Sheep Skewer Surprise}</p><p><span style=\"font-family:Roboto, sans-serif\">After you eat the skewer, its effects last for 24 hours or until you make your next daily preparations, whichever comes first. You gain a +1 item bonus to Athletics checks to Climb or Force Open, or increase an existing item bonus by that amount. In addition, during this time you don't become fatigued by performing continuous strenuous yet repetitive activity for up to 4 hours. This does not apply to combat. After 4 hours has passed, you begin to get tired from activity as normal.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "value": 1,
+        "predicate": [
+          "action:climb",
+          "action:force-open"
+        ]
+      }
+    ],
+    "slug": "effect-sheep-skewer-surprise",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/consumables/meat/kebab-skewer-vegetable-brown.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.kXp4iPbwqUiP4XWs",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "kXp4iPbwqUiP4XWs",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!kXp4iPbwqUiP4XWs"
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "jyD21SBOPcLMZBgf",
+  "name": "Songflock Avekiri",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "YoLAauwV9BXH0dl1",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your line consists of avekiri who were members of the Flock of the Song, whose voices were said to be so resonant with magic and divinity they could spread the word of Rahm across the mountains. You can contextually use Performance in the place of Religion skill checks, and vice-versa. You also gain a +2 circumstance bonus to your saving throws against Enchantment based spells and abilities.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Avekiri",
+      "uuid": "Item.nNtTrMVuAgB4bs4p",
+      "slug": "avekiri"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.jyD21SBOPcLMZBgf",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!jyD21SBOPcLMZBgf"
+}

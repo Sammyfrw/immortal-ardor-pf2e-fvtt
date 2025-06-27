@@ -1,0 +1,93 @@
+{
+  "name": "Improved Medication",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a collection of medical equipment, both analog and tech that can be included in bathrooms, personal clinics, parlors and the like. It features first-aid and beyond, to allow in-house care and practice. Licenses are not included.</p><p>Medication suites allows you to perform healing, surgery and augmentation in the comforts of your own home, with all the necessary tools and materials it entails and creates a comfortable enough place for such activities. It does not cover all costs for such things, so extra supplies or materials for such tasks will need to be supplied. </p><p>An improved suite grants you a +1 item bonus to Medicine or Craft checks that are relevant to healing, surgery and augmentation installation, or a +1 circumstance bonus if you already have an item bonus. </p>"
+    },
+    "rules": [],
+    "slug": "improved-medication",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "housing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 2000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/sundries/survival/wetskin-leather-red.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "icons/sundries/survival/wetskin-leather-red.webp",
+  "folder": "iXGkmB3fcc3NZU0j",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.q7owPA3nw0gMs7Zw",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "q7owPA3nw0gMs7Zw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!q7owPA3nw0gMs7Zw"
+}

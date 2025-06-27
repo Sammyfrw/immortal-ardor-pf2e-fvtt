@@ -1,0 +1,123 @@
+{
+  "name": "Robe of the Darker Half",
+  "type": "armor",
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/robe-of-eyes.webp",
+  "effects": [],
+  "folder": "HXrnWTJw2wWuoDYT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.dDIPA1WE9ESF67EB"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a robe that is steeped in negative energies, after having been worn so long by a mad priest of Senna. Surprisingly, it has not eroded and tattered away, but that probably speaks to its magical qualities. It evokes faint feelings or memories of regret and hopelessness when held too closely, but not when it is worn.</p>\n<p>This armor is equivalent to a +1 Explorer's Clothing. When worn and invested, it provides its wearer a +1 item bonus to Will saving throws against spells with the Negative or Emotion traits and resistance 2 against necrotic damage. The item bonus increases by 1 and the resistance increases by 2 against spells of the Divine tradition.</p>\n<hr />",
+      "chat": "",
+      "unidentified": ""
+    },
+    "rules": [],
+    "slug": "robe-of-the-darker-half",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "comfort",
+        "divine",
+        "invested"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": "explorers-clothing",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 1
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Explorer's Clothing",
+        "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/robe-of-eyes.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "unarmored",
+    "group": "cloth",
+    "acBonus": 0,
+    "strength": null,
+    "dexCap": 5,
+    "checkPenalty": 0,
+    "speedPenalty": 0,
+    "runes": {
+      "potency": 1,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "specific": null
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.dDIPA1WE9ESF67EB",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "ezGYDy1dI5K5MblF",
+  "sort": 200000,
+  "_key": "!items!ezGYDy1dI5K5MblF"
+}

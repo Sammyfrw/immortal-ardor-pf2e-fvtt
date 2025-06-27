@@ -1,0 +1,19 @@
+{
+  "name": "Armiger",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "description": "",
+  "sort": 100000,
+  "color": "#4d003c",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "HeaEXMxwQ9Ec0IRf",
+  "_key": "!folders!HeaEXMxwQ9Ec0IRf"
+}

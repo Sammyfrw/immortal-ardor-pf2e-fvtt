@@ -1,0 +1,59 @@
+{
+  "type": "action",
+  "name": "Lucid Dreaming",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You take the dream into your own hands and make tangible, noticeable change. This action behaves as one of the following actions:</p><ul><li><p><strong>Clarity: </strong>You make an Arcana, Nature, Occultism, or Religion check on an ally to try and counteract a detrimental magic effect on it, or to allow it to make another saving throw against an affliction or condition. The DC of this check is typically equal to the effect that caused it. On a critical success against an affliction or condition, your assistance is extra effective and grants the target a +2 circumstance bonus to its attempt to make the saving throw. Once an attempt of Lucid Dreaming: Clarity has succeeded,  your ally is immune to your aid from this option until a minute has passed.</p></li><li><p><strong>Realization: </strong>You make a @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} check against a creature. If you succeed, one ally of your choice that you are aware of immediately gains this knowledge, and they have a +1 status bonus to AC and saves against that creature until the end of your next turn. Once an attempt of Lucid Dreaming: Realization has succeeded, your ally is immune to your aid from this option until a minute has passed.</p></li><li><p><strong>Anticipation: </strong>You make a @UUID[Compendium.pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} check. Ontop of the usual effects of Seek, you can select one creature you succeeded against; you immediately can point out the creature to one ally that you are aware of, and the selected creature becomes @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} to your allied creature until the end of your next turn. Once an attempt of Lucid Dreaming: Anticipation has succeeded,  your ally is immune to your aid from this option until a minute has passed.</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "lucid-dreaming",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lucid"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "folder": "DL1Cx22P0pj4GTgy",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "JJvwdYZfUIb5Gk33",
+  "sort": 100000,
+  "_key": "!items!JJvwdYZfUIb5Gk33"
+}

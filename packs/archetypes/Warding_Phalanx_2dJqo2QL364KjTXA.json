@@ -1,0 +1,86 @@
+{
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/water/orb-water-bubbles-teal.webp",
+  "name": "Warding Phalanx",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> An effect would deal damage to you</p><hr /><p>You're used to mitigating the damage done by all different types of attacks. You gain resistance 15 to your choice of damage from the triggering effect. The resistance applies only to the triggering effect's initial damage.</p><p>@UUID[Compendium.immortal-ardor.archetypes.Item.mh8vODEiyNRF6Lmy]{Effect: Warding Phalanx}</p><hr /><p><strong>Heightened (+1)</strong> The resistance increases by 5.</p>"
+    },
+    "rules": [],
+    "slug": "warding-phalanx",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "wizard"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "reaction"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.Item.LoBjvguamA12iyW0"
+    }
+  },
+  "effects": [],
+  "folder": "ZcN0puSEDW5UKCXd",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.spells-srd.Item.LoBjvguamA12iyW0",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "2dJqo2QL364KjTXA",
+  "sort": 200000,
+  "_key": "!items!2dJqo2QL364KjTXA"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Actions & Spells",
+  "sorting": "a",
+  "folder": "YjGpVDOwgBqxa4xt",
+  "type": "Item",
+  "_id": "ZcN0puSEDW5UKCXd",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!ZcN0puSEDW5UKCXd"
+}

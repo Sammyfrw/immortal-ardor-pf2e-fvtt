@@ -1,0 +1,19 @@
+{
+  "_id": "swF9ZcRDi2WyMouu",
+  "name": "Agamidan",
+  "type": "Item",
+  "sort": 600000,
+  "flags": {},
+  "sorting": "a",
+  "color": "#5a0202",
+  "folder": "dGek33KCbDDeUrLO",
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!swF9ZcRDi2WyMouu"
+}

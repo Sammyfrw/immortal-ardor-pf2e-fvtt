@@ -1,0 +1,142 @@
+{
+  "_id": "lrDM88d9le6g5C4B",
+  "name": "Earthen Fist",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/earthbind.webp",
+  "effects": [],
+  "folder": "vNNCZvYm7kP625cN",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": null,
+      "elevation": null,
+      "depth": null,
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p class=\"MsoNormal\">You gather earth and rock around your fist, and you strike at your enemies in melee or in range. Make a spell attack roll against your target’s AC. On a success, you deal 1d8 bludgeoning damage. On a critical success, you deal double damage.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\">The range for this spell varies depending on the number of actions used to cast this spell; touch for 1 action, 30 feet for 2 actions.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><u>Special:</u> While you are in Earthen Rage, you add your spellcasting ability modifier to the damage. As part of the spell, you can choose to @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove} your target, using your Athletics or Nature for the roll against the target’s DC. If your spell attack is a critical hit, treat your roll as having one degree of success higher. Critical Failures on the attempt become Failures, instead.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong>Heightened(3rd)</strong> The damage for a success increases to 2d8 bludgeoning damage plus your spellcasting modifier.</p>\n<p class=\"MsoNormal\"><strong>Heightened(6th)</strong> The damage for a success increases to 3d8 bludgeoning damage plus your spellcasting modifier.</p>\n<p class=\"MsoNormal\"><strong>Heightened(9th)</strong> The damage for a success increases to 4d8 bludgeoning damage plus your spellcasting modifier.</p>"
+    },
+    "rules": [],
+    "slug": "earthen-fist",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cantrip",
+        "concentrate",
+        "earth",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 target"
+    },
+    "range": {
+      "value": "varies"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "pd78gqy65d52wz6a": {
+        "applyMod": true,
+        "formula": "1d8",
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "fixed",
+      "levels": {
+        "3": {
+          "damage": {
+            "pd78gqy65d52wz6a": {
+              "applyMod": true,
+              "formula": "2d8",
+              "type": "bludgeoning",
+              "materials": [],
+              "category": null
+            }
+          }
+        },
+        "6": {
+          "damage": {
+            "pd78gqy65d52wz6a": {
+              "applyMod": true,
+              "formula": "3d8",
+              "type": "bludgeoning",
+              "materials": [],
+              "category": null
+            }
+          }
+        },
+        "9": {
+          "damage": {
+            "pd78gqy65d52wz6a": {
+              "applyMod": true,
+              "formula": "4d8",
+              "type": "bludgeoning",
+              "materials": [],
+              "category": null
+            }
+          }
+        }
+      }
+    },
+    "overlays": {}
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.lrDM88d9le6g5C4B",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!lrDM88d9le6g5C4B"
+}

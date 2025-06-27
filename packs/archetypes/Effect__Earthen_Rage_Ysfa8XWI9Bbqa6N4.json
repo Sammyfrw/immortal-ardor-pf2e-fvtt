@@ -1,0 +1,79 @@
+{
+  "name": "Effect: Earthen Rage",
+  "type": "effect",
+  "img": "systems/pf2e/icons/spells/blinding-fury.webp",
+  "effects": [],
+  "folder": "Z5wYPJkkCxDJ8Cwg",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div style=\"mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in\">\n<p class=\"MsoNormal\" style=\"border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\"><strong style=\"mso-bidi-font-weight:normal\"><span style=\"mso-bidi-font-size:12.0pt\">Requirements </span></strong><span style=\"mso-bidi-font-size:12.0pt\">You aren’t @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} or raging.</span></p>\n</div>\n<p>You tap into your primal connection with the land, taking its wrath as your own and begin raging. This frenzy lasts for 1 minute, until there are no enemies you can perceive, or until you fall @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}, whichever comes first. You can’t voluntarily stop raging. While you are raging:</p>\n<ul>\n<li>You deal 2 additional damage with spells in the Primal tradition that possess the Fire, Cold, Electricity, Air, Water, or Earth traits. Your GM may rule that certain spells that do not possess these traits may qualify, as well.</li>\n<li>You take a -1 penalty to AC.</li>\n<li>You can’t use actions with the concentrate trait unless they also have the rage trait. You can @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek}, @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast a Spell} or @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain a Spell} while raging.</li>\n<li>Whenever you Cast a Spell, your somatic component does not trigger reactions as your enraged state keeps you alert and always aware of your motions.</li>\n</ul>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.rollOptions.all.rage",
+        "priority": 10,
+        "value": true
+      }
+    ],
+    "slug": "effect-earthen-rage",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "Ysfa8XWI9Bbqa6N4",
+  "sort": 100000,
+  "_key": "!items!Ysfa8XWI9Bbqa6N4"
+}

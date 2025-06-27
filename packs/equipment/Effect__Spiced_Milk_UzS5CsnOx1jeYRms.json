@@ -1,0 +1,79 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Effect: Spiced Milk",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.equipment.Item.xJK7T9PBgcIDlte8]{Spiced Milk}</p><p><span style=\"font-family:Roboto, sans-serif\">Drinkers of spiced milk gain a +1 item bonus to saving throws against emotion and disease effects for 24 hours, or until their next daily preparations, whichever comes first. If they already benefit from an item bonus, increase this item bonus by that amount instead.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:disease",
+              "item:trait:emotion"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "slug": "spiced-milk-bonus",
+        "value": 1
+      }
+    ],
+    "slug": "effect-spiced-milk",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/consumables/drinks/coconut-fruit-milk.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.UzS5CsnOx1jeYRms",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "UzS5CsnOx1jeYRms",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!UzS5CsnOx1jeYRms"
+}

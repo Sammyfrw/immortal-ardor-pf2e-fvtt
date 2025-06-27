@@ -1,0 +1,65 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Aura Slicer",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">You empower your weapon to cut apart the strings that bind your opponent’s inner energies. Spend your Zeal, and Strike at a target. On a hit, the target’s essence is wracked and temporarily frayed, leaving them Sickened 1. This effect lasts for 1 round, until they recover by retching, or until the next instance of damage they take from an attack or a damaging spell. When the effect wears off, the realignment of their essence is violent and erupts with a blast of spiritual energy. The strength of this eruption is dependent on the amount of Zeal spent:</span></p><ul><li><p><span lang=\"EN\" style=\"color:black\">1-2 Zeal: The target takes an additional 1d6 spirit damage.</span></p></li><li><p><span lang=\"EN\" style=\"color:black\">3-4 Zeal: The target takes an additional 2d6 spirit damage.</span></p></li><li><p><span lang=\"EN\" style=\"color:black\">5 Zeal: As 3-4 Zeal, but the target becomes Sickened 1 for 1 round.</span></p></li></ul><p class=\"MsoNormal\"><span lang=\"EN\">If the initial Sickened effect wears off due to damage from an attack or a damaging spell, combine the additional spirit damage if it is of the same damage type for the purposes of resistances and weaknesses.</span></p>"
+    },
+    "rules": [],
+    "slug": "aura-slicer",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "spirit",
+        "zenith"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "vKWAJgqsI2WGpPxD",
+  "_key": "!items!vKWAJgqsI2WGpPxD"
+}

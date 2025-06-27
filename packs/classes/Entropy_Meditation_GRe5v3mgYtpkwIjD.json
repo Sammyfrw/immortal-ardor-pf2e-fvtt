@@ -1,0 +1,78 @@
+{
+  "folder": "haPxeGTHw8Wbkkx8",
+  "name": "Entropy Meditation",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Change is the greatest constant in the universe. Forces great and small collide, and with it all is set in motion to collide further, in perpetuity. And in the world of mankind and divinity both, war is a grand force that delivers much change.</p><p>When you cast this spell, you gain 2 Zeal. There is a palpable aura of strength and conflict with your powerful movements; your weapons spark with every drag along ground, armor and flesh. Once per round when you cast this spell or when you sustain this spell, you provide the explosive force of cause and effect. Choose one of the following recitations:</p><ul><li><p><strong>Escalating Force</strong>: You enact change by sheer power. Strike at a creature within your reach.</p></li><li><p><strong>Domino Effect</strong>: You deny change you dislike with your own force. You Ready to Strike in response to the following trigger: a creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using. If you use your reaction to Strike and you critically hit, you disrupt that action.</p></li><li><p><strong>Shaken Foundation</strong>: You channel a force that sunders a creature’s armor or their ability to dodge blows. A target creature within 30 feet of you needs to make a saving throw against your class DC. On a failure, they suffer a -1 circumstance bonus to their AC for 2 rounds (1 round on a success, -2 on a critical failure).</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "entropy-meditation",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "meditation",
+        "subtle"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.LgJRHt96RKvOMKhF",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "GRe5v3mgYtpkwIjD",
+  "_key": "!items!GRe5v3mgYtpkwIjD"
+}

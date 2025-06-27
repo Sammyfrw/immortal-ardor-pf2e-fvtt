@@ -1,0 +1,107 @@
+{
+  "_id": "T2pWb54jeFb4TC6r",
+  "name": "Earthfury Instinct",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/elemental-form-earth.webp",
+  "effects": [],
+  "folder": "7mGk3L0OXaoUMM42",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Earthen Rage",
+        "predicate": [
+          "self:effect:rage"
+        ],
+        "roll-options": [
+          "ac",
+          "all"
+        ],
+        "selector": "ac",
+        "value": -1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Earthen Rage",
+        "predicate": [
+          "self:effect:rage",
+          {
+            "or": [
+              "fire",
+              "water",
+              "cold",
+              "electricity",
+              "air",
+              "earth"
+            ]
+          }
+        ],
+        "selector": "spell-damage",
+        "value": 2
+      }
+    ],
+    "slug": "earthfury-instinct",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.T2pWb54jeFb4TC6r",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!T2pWb54jeFb4TC6r"
+}

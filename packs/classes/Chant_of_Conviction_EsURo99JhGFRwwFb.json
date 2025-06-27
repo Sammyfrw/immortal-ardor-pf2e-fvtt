@@ -1,0 +1,70 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Chant of Conviction",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your words carry much weight, and each word bears the gravity of the lessons imparted to you in your journey. If you are an expert in their respective skills, Request (Diplomacy), Feint (Deception) and Demoralize (Intimidation), grant you Zeal when you use them, once per round for each action.</p>"
+    },
+    "rules": [],
+    "slug": "chant-of-conviction",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Wayward Chant"
+        },
+        {
+          "value": "Expert in Diplomacy, Deception or Intimidation"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "EsURo99JhGFRwwFb",
+  "_key": "!items!EsURo99JhGFRwwFb"
+}

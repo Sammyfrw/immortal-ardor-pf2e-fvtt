@@ -1,0 +1,89 @@
+{
+  "name": "Dazzling Spin",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/dazzling-flash.webp",
+  "effects": [],
+  "folder": "ZcN0puSEDW5UKCXd",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": 1,
+      "min": null,
+      "max": null,
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You perform a fascinating motion, moving and performing another action simultaneously. In such a fluid movement, you do not attract opportune strikes from your enemies.</p>\n<p>Roll a performance check at a Normal DC for your level. The outcome of the roll determines its outcome:</p>\n<p><strong>Critical Success</strong> You are able to Stride up to your speed; during the movement, you can Strike, Cast A Spell, or Interact. Instead of these actions, you can instead Stride a second time. All these actions are done without provoking reactions (but it does not include avoiding reactions from casting Dazzling Spin itself). If you Cast a Spell, it must be a 1 or 2 action spell.</p>\n<p><strong>Success</strong> As critical success, but you can only Stride up to half your speed. If you choose to Stride a second time, you can move your full speed.</p>\n<p><strong>Failure</strong> You can only Stride up to half your speed without provoking reactions.</p>\n<p><strong>Critical Failure</strong> You fumble your spin, and the spell does nothing.</p>"
+    },
+    "rules": [],
+    "slug": "dazzling-spin",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "YrkNBySGTw77tnXz",
+  "sort": 400000,
+  "_key": "!items!YrkNBySGTw77tnXz"
+}

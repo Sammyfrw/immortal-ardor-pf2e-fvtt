@@ -1,0 +1,67 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Armor of Zeal",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>In your trance, you are on guard to those that would try and stand in your path. You call upon the inner power to unleash a reprisal. Spend your Zeal. The effects of the Zenith depends on the Zeal spent:</p><ul><li><p>1 Zeal: The creature takes 5 spirit damage.</p></li><li><p>2-3 Zeal: As 1 Zeal, but you also gain resistance 4 to the triggering damage.</p></li><li><p>4-5 Zeal: As above, but you also can make a Strike against the triggering creature if you can reach them with an attack.</p></li></ul><p><strong>Level (+4)</strong> The damage increases by 5 and the resistance increases by 2.</p>"
+    },
+    "rules": [],
+    "slug": "armor-of-zeal",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "divine",
+        "manipulate",
+        "spirit",
+        "zenith"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "cWfu5EUvhGgwi4nx",
+  "_key": "!items!cWfu5EUvhGgwi4nx"
+}

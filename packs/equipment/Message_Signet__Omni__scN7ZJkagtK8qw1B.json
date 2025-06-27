@@ -1,0 +1,98 @@
+{
+  "_id": "scN7ZJkagtK8qw1B",
+  "name": "Message Signet (Omni)",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/equipment/other/fulcrum-lattice.webp",
+  "effects": [],
+  "folder": "VRQTvva2JwBdrcdH",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>For additional information, refer to @JournalEntry[MmZjYWMyMmEwMjAw]{Message Signets}</p><p>An omnidirectional message signet is a small piece of crystal, usually decorated and attached to an object of convenience such as a ring or a wayfinder. It allows the user to listen to and speak messages to all other message signets that it is tied together with. In many cases, these signets are decorated in such a way that it features a prominent symbol or icon to signify membership, further imbued with soulbinding for identification.</p><p>A linkcrystal, or a message marble as its sometimes called dictates its directional properties when it is fashioned (omnidirectional or unidirectional); once it is imbued, it can be shaved with a certain degree of precision to create message signets out of it, and the crystal will regrow over time to create more crystal that can then be shaved yet again. </p><p>While it is a relatively new piece of technology, well-funded knights, adventurers, nobility or even town guard are more than willing to pay the hefty price of a linkcrystal so that their entourage is able to better communicate with one another. In some cases, being offered a message signet is also a sign of trust and community.</p><p>A regular message signet can span a range of up to 1000 miles, but signal quality can vary due to weather interference, material obstacles (such as the earth, rock, metal), and magical obstacles (areas with certain qualities of magic influence). It cannot reach areas where divination magic is normally blocked, or people who are protected from divination magic.</p>"
+    },
+    "rules": [],
+    "slug": "message-signet-omni",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/equipment/other/fulcrum-lattice.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.scN7ZJkagtK8qw1B",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!scN7ZJkagtK8qw1B"
+}
