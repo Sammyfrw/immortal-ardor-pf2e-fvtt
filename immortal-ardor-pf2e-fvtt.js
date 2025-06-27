@@ -5,5 +5,4 @@ Hooks.on("init", async () => {
     incrementZeal,
     useZenith
   };
-  console.log('hook is being called');
 });
