@@ -1,7 +1,4 @@
-2025/06/26-15:21:37.173 a0a0 Recovering log #101
-2025/06/26-15:21:37.183 a0a0 Delete type=0 #101
-2025/06/26-15:21:37.183 a0a0 Delete type=3 #100
-2025/06/26-15:22:29.105 24d4 Level-0 table #105: started
-2025/06/26-15:22:29.105 24d4 Level-0 table #105: 0 bytes OK
-2025/06/26-15:22:29.109 24d4 Delete type=0 #103
-2025/06/26-15:22:29.121 24d4 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)
+2025/06/27-10:49:06.934 2fc4 Log #107: 0 ops saved to Table #108 OK
+2025/06/27-10:49:06.936 2fc4 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\ancestry-features/000107.log: OK
+2025/06/27-10:49:06.942 2fc4 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\ancestry-features/MANIFEST-000106: OK
+2025/06/27-10:49:06.950 2fc4 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\ancestry-features; recovered 0 files; 0 bytes. Some data may have been lost. ****

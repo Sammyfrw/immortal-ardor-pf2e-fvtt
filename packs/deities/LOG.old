@@ -1,7 +1,5 @@
-2025/06/26-15:21:37.186 8fdc Recovering log #106
-2025/06/26-15:21:37.197 8fdc Delete type=0 #106
-2025/06/26-15:21:37.197 8fdc Delete type=3 #105
-2025/06/26-15:22:29.117 24d4 Level-0 table #110: started
-2025/06/26-15:22:29.117 24d4 Level-0 table #110: 0 bytes OK
-2025/06/26-15:22:29.121 24d4 Delete type=0 #108
-2025/06/26-15:22:29.121 24d4 Manual compaction at level-0 from '!folders!scRkkbziDxqsiAqB' @ 72057594037927935 : 1 .. '!items!xjjhXxR0BFrUKmwt' @ 0 : 0; will stop at (end)
+2025/06/27-10:49:06.974 84ac Log #112: 0 ops saved to Table #113 OK
+2025/06/27-10:49:06.974 84ac Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\deities/000112.log: OK
+2025/06/27-10:49:06.975 84ac Table #36: 14 entries OK
+2025/06/27-10:49:06.982 84ac Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\deities/MANIFEST-000111: OK
+2025/06/27-10:49:06.990 84ac **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\deities; recovered 1 files; 15659 bytes. Some data may have been lost. ****

@@ -1,7 +1,4 @@
-2025/06/26-15:21:37.225 4dc0 Recovering log #101
-2025/06/26-15:21:37.234 4dc0 Delete type=0 #101
-2025/06/26-15:21:37.234 4dc0 Delete type=3 #100
-2025/06/26-15:22:29.114 24d4 Level-0 table #105: started
-2025/06/26-15:22:29.114 24d4 Level-0 table #105: 0 bytes OK
-2025/06/26-15:22:29.117 24d4 Delete type=0 #103
-2025/06/26-15:22:29.121 24d4 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)
+2025/06/27-10:49:07.050 2fc4 Log #107: 0 ops saved to Table #108 OK
+2025/06/27-10:49:07.051 2fc4 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\backgrounds/000107.log: OK
+2025/06/27-10:49:07.057 2fc4 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\backgrounds/MANIFEST-000106: OK
+2025/06/27-10:49:07.065 2fc4 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\backgrounds; recovered 0 files; 0 bytes. Some data may have been lost. ****
