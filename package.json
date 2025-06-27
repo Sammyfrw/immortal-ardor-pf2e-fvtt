@@ -1,0 +1,16 @@
+{
+  "name": "immortal-ardor",
+  "version": "6.1.1",
+  "description": "The foundry module for the Pathfinder 2e iteration of Immortal Ardor.",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch",
+    "extractPacks": "node extract-packs.mjs"
+  },
+  "author": "Sammy Rachman",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "@types/prompts": "^2.4.9"
+  }
+}
