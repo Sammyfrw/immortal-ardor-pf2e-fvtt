@@ -51,16 +51,12 @@
       "sorting": "m",
       "packs": [
         "ancestries",
-        "ancestry-features",
-        "heritages",
         "backgrounds",
         "classes",
-        "class-features",
         "archetypes",
         "spells",
-        "actions",
+        "feats",
         "equipment",
-        "effects",
         "deities",
         "journals",
         "playlists"
@@ -70,17 +66,6 @@
     }
   ],
   "packs": [
-    {
-      "name": "effects",
-      "label": "Effects",
-      "path": "packs/effects",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
     {
       "name": "spells",
       "label": "Spells",
@@ -115,19 +100,8 @@
       }
     },
     {
-      "name": "heritages",
-      "label": "Heritages",
-      "path": "packs/heritages",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "ancestries",
-      "label": "Ancestries",
+      "label": "Ancestries & Heritages",
       "path": "packs/ancestries",
       "type": "Item",
       "system": "pf2e",
@@ -159,31 +133,9 @@
       }
     },
     {
-      "name": "playlists",
-      "label": "Playlists",
-      "path": "packs/playlists",
-      "type": "Playlist",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "actions",
-      "label": "Actions",
-      "path": "packs/actions",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "ancestry-features",
-      "label": "Ancestry Features",
-      "path": "packs/ancestry-features",
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -195,17 +147,6 @@
       "name": "deities",
       "label": "Deities",
       "path": "packs/deities",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "class-features",
-      "label": "Class Features",
-      "path": "packs/class-features",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
