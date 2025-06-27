@@ -10,7 +10,8 @@
         "TraitCatfolk": "Lyncan-Hearthcat",
         "TraitShoony": "Loupain-Pugnax",
         "TraitTengu": "Avekiri-Corvis",
-        "TraitNagaji": "Aelkhazak-Pythos"
+        "TraitNagaji": "Aelkhazak-Pythos",
+        "TraitIruxi": "Agamidan-Telghrub"
     },
     "IA": {
         "DamageType": {
@@ -79,6 +80,7 @@
             "Manafont": "Manafont",
             "Marine": "Marine",
             "Meal": "Meal",
+            "Meditation": "Meditation",
             "NascentArcane": "Nascent Arcane",
             "NascentDivine": "Nascent Divine",
             "NascentOccult": "Nascent Occult",
@@ -92,7 +94,9 @@
             "Telluric": "Telluric",
             "Therian": "Therian",
             "Vashlad": "Vashlad",
-            "Vesperan": "Vesperan"
+            "Vesperan": "Vesperan",
+            "Zeal": "Zeal",
+            "Zenith": "Zenith"
         },
         "TraitDescription": {
             "Aelkhazak": "Aelkhazak",
@@ -121,6 +125,7 @@
             "Manafont": "",
             "Marine": "",
             "Meal": "",
+            "Meditation": "A spell with the Meditation trait means that you must have Zeal to Sustain it. Typically, casting a Meditation spell grants you Zeal, and they grant a series of actions you can take when you Cast or Sustain the spell, called Recitations. If you lose your Zeal, the spell immediately ends.",
             "Nascent": "",
             "Nightmare": "",
             "Order": "",
@@ -131,7 +136,9 @@
             "Telluric": "",
             "Therian": "",
             "Vashlad": "",
-            "Vesperan": ""
+            "Vesperan": "",
+            "Zeal": "Zeal is a resource that you gain from taking specific actions as a Dervish that you can spend for Zenith actions. When you take these actions in Encounter Mode, you gain one point of Zeal at the start of the action. If you have multiple sources that qualify for granting Zeal with an action, you gain one point for each source. You can have up to 5 points of Zeal at any one time, and you lose all Zeal at the end of the turn unless you gain Zeal during your turn or spend a single action with the Concentrate trait to maintain it. You lose all Zeal shortly after encounter mode ends.",
+            "Zenith": "Zenith actions spend all your Zeal. You must have at least one point of Zeal to use a Zenith action. You spend all your Zeal before you cause its effects; typically increasing in effectiveness with more Zeal spent. You do not gain Zeal during a Zenith action, even if it entails performing actions that would normally grant you Zeal."
         },
         "BaseWeapon": {
             "Hornblade": "Hornblade",
