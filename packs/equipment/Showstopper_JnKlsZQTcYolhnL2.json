@@ -1,0 +1,155 @@
+{
+  "name": "Showstopper",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/equipment/artifacts/serithtial.webp",
+  "effects": [],
+  "folder": "FpNLrqP4hhllM1lT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.tH5GirEy7YB3ZgCk"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>\"A slender, elegant blade with a hilt in the style of a blowing wind, wrapped around a deep blue spinel. It fills the wielder with a sense of confidence and a feeling of heroics when drawn, blowing their hair dramatically.\"</p>\n<hr />\n<p><strong>Heroic Wind </strong>This weapon grants an item bonus to Performance and Deception rolls equal to the strength of the potency rune attached to it, as well as any action that would trigger Panache. When this bonus is used, the air around the wielder blows dramatically if they so choose.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "rules": [],
+    "slug": "showstopper",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "deadly-d8",
+        "disarm",
+        "finesse"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "rapier",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 2
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": "silver",
+      "grade": "standard"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Rapier",
+        "img": "systems/pf2e/icons/equipment/artifacts/serithtial.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null,
+      "value": ""
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "reload": {
+      "value": ""
+    },
+    "runes": {
+      "potency": 1,
+      "striking": 1,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": null,
+      "die": "",
+      "damageType": "",
+      "critDice": null,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "criticalConditionType": "",
+      "criticalConditionValue": null,
+      "strikeConditionType": "",
+      "strikeConditionValue": null
+    },
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.tH5GirEy7YB3ZgCk",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "JnKlsZQTcYolhnL2",
+  "sort": 0,
+  "_key": "!items!JnKlsZQTcYolhnL2"
+}

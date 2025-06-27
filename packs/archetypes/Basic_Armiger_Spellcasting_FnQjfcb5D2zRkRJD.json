@@ -1,0 +1,81 @@
+{
+  "name": "Basic Armiger Spellcasting",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "vyy8rQSagb0icXNs",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain basic spellcasting benefits. Each time you gain a new spell slot of a new level from the Armiger archetype, add two common spells from your selected tradition of that level into your spellbook. During your daily preparations, you prepare a number of spells from your spellbook into your collection equal to the total number of spell slots you have.</p>\n<p>In addition, when you gain a new spell slot from the Armiger archetype, you gain an additional spell slot that you can only prepare valid spells for Armiger’s Strike. You can use focus points to cast a spell in your collection or a spell you have prepared in your dedicated spell slots for Armiger’s Strike, even if the spell slots have already been used, following the cost described for Ether spell costs. </p>"
+    },
+    "rules": [],
+    "slug": "basic-armiger-spellcasting",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in your tradition's skill"
+        },
+        {
+          "value": "Armiger's Strike"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.FnQjfcb5D2zRkRJD",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "FnQjfcb5D2zRkRJD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!FnQjfcb5D2zRkRJD"
+}

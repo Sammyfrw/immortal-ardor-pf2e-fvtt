@@ -1,0 +1,96 @@
+{
+  "name": "Soulbind Object",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/abyssal-pact.webp",
+  "effects": [],
+  "folder": "fNyvBi1FuzhzXM05",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": 1,
+      "terraintype": "ground",
+      "environment": "",
+      "min": 0,
+      "max": 0
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\"><strong>Cost: </strong>Precious gems worth 50 gp total and a magical item, which would be bound to the target</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\">You create a bond between an item with a creature. The creature can be a secondary caster, or a creature you know that you designate upon beginning this ritual. As part of the ritual, the item becomes an Invested item, and if the creature is a secondary caster they can immediately be invested and bound with the item. If the creature is not, they must invest the item within 12 hours to be able to bind to it. An item that is soulbound to a creature cannot confer any of its magical benefits or be invested to any other creature except the one it is bound to. The item becomes unbound and loses the effect of this ritual when a Dispel Soulbind ritual is successfully cast on the item beating the item's DC, or when the bound target dies.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\">Either way, when you perform this ritual on an item, the aetherial signature of the Primary Caster is left on it, as well as the aetherial signature of the person who it is soulbound to. When a soulbound item is identified, these aetherial signatures can be found as long as the attempt to identify beats the item's DC.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\"><strong style=\"box-sizing:border-box;user-select:text\">Critical Success</strong> The DC of the item is set to 2 plus the primary caster's highest spellcasting DC. If the item has a DC (such as for an activation effect) it is increased to 2 plus the primary caster's spellcasting DC.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\"><strong style=\"box-sizing:border-box;user-select:text\">Success</strong> The DC of the item is set to the primary caster's highest spellcasting DC. If the item has a DC (such as for an activation effect) it is increased to the primary caster's spellcasting DC.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\"><strong style=\"box-sizing:border-box;user-select:text\">Failure</strong> The ritual has no effect, and the item rejects your attempts to bind onto it for 1 day.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\"><strong style=\"box-sizing:border-box;user-select:text\">Critical Failure </strong>Your soulbinding effect backfires, which causes the item to actively reject your attempts from binding onto it for 1 week.</p>"
+    },
+    "rules": [],
+    "slug": "soulbind-object",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1 hour"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "ritual": {
+      "primary": {
+        "check": "Arcana or Occultism (Expert)"
+      },
+      "secondary": {
+        "checks": "Crafting, Arcana or Occultism",
+        "casters": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "REGkxrnXSqSl4fyc",
+  "sort": 0,
+  "_key": "!items!REGkxrnXSqSl4fyc"
+}

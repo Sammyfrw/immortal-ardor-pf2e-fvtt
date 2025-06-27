@@ -1,0 +1,72 @@
+{
+  "_id": "rCr89cwXNw8zZ4SE",
+  "name": "Scaled Combat Familiarity",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "effects": [],
+  "folder": "EkJYedklBzyGcja3",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are trained with the katar, kukri, falchion, scimitar and whip. In addition, you gain access to all uncommon agamidan weapons. For the purpose of determining your proficiency, martial agamidan weapons are simple weapons and advanced agamidan weapons are martial weapons.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.rCr89cwXNw8zZ4SE",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!rCr89cwXNw8zZ4SE"
+}

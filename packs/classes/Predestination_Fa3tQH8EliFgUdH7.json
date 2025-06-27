@@ -1,0 +1,63 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Predestination",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Everything needs to move into the right place, and so will life’s events be enacted. Once per round, you gain Zeal when you take a Move action or an action with the Teleportation trait.</p>"
+    },
+    "rules": [],
+    "slug": "predestination",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "Fa3tQH8EliFgUdH7",
+  "_key": "!items!Fa3tQH8EliFgUdH7"
+}

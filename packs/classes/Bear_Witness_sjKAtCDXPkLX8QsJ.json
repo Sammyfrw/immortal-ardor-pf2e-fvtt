@@ -1,0 +1,65 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Bear Witness",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements </strong>You are wielding a ranged or thrown weapon.</p><p><span lang=\"EN\">You performatively declare or cry out your intent for success, and attack with your weapon to make it reality. Make a ranged Strike with your weapon. On a success, you grant one ally within 30 feet of you or your target a +1 circumstance bonus to their next attack roll within 1 round (+2 on a critical hit).</span></p>"
+    },
+    "rules": [],
+    "slug": "bear-witness",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "dervish",
+        "emotion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "sjKAtCDXPkLX8QsJ",
+  "_key": "!items!sjKAtCDXPkLX8QsJ"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Improved Bedroom",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">This is an assortment of furnishings and comfortable decor for the bedroom., which includes vanities, wardrobes, and a bed. </span>This provides an improved and deluxe set of bedroom furniture for 4 bedrooms. This includes additional fixtures such as lamps, time pieces, improved clothing storage and even equipment lockers. <span style=\"font-family:Roboto, sans-serif\">Using modern day technology, sleep and getting started for the day has never been easier!</span></p><p>It confers the benefits of 8 hours of sleep in 6 hours. In addition, the time it takes to gather equipment, donning and doffing armor is halved. In addition, it grants you use of a selection of clothing and cosmetics, which includes a +1 item bonus to Deception checks to @UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonate} or Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression} for the next social function you go to, as if you were using an @UUID[Compendium.pf2e.equipment-srd.IRqbsE8MgGLTfHLz]{Disguise Kit (Elite Cosmetics)} or @UUID[Compendium.pf2e.equipment-srd.rXZxM7SbqEnvXyal]{Clothing (High-Fashion Fine)}, or a +1 circumstance bonus if you already have an item bonus.</p>"
+    },
+    "rules": [],
+    "slug": "improved-bedroom",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "housing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 2000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/sundries/survival/bedroll-worn-blue.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "icons/sundries/survival/bedroll-worn-blue.webp",
+  "folder": "iXGkmB3fcc3NZU0j",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.MD0pjKyQK2SzDlgf",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "MD0pjKyQK2SzDlgf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!MD0pjKyQK2SzDlgf"
+}

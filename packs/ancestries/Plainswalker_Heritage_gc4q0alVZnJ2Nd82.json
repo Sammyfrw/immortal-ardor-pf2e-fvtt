@@ -1,0 +1,52 @@
+{
+  "_id": "gc4q0alVZnJ2Nd82",
+  "name": "Plainswalker Heritage",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "XtjfGk82Q5bS29gJ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your heritage consists of largely, if not exclusively, Piedan families, with long limbs built for running and a keen sight. You gain the Piedan trait. You gain an additional 5 speed, and a +2 circumstance bonus on rolls to perform Long or High jumps.</p>\n<p><span style=\"text-decoration:underline\">Special</span>: If you are using the Golarion Ancestries rule, you can select any Human ancestry feats (at your GM’s discretion).</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": null
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.gc4q0alVZnJ2Nd82",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!gc4q0alVZnJ2Nd82"
+}

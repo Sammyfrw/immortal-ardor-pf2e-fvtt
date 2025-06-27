@@ -1,0 +1,19 @@
+{
+  "name": "Consumables",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "CjslDIg6fx8t1SbY",
+  "description": "",
+  "sort": 100000,
+  "color": "#5a58fe",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!CjslDIg6fx8t1SbY"
+}

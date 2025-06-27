@@ -1,0 +1,52 @@
+{
+  "_id": "M0q5eM1awijHP64P",
+  "name": "Rockclimber Heritage",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "XtjfGk82Q5bS29gJ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your heritage consists of largely, if not exclusively, Saltan families, of a short and stout stature, with a strong affinity for caverns and cliff walls. You gain the Saltan trait. You gain the Assurance feat for Athletics, but only when you are climbing and gain a +2 circumstance bonus on rolls to Grab an Edge.</p>\n<p> </p>\n<p><span style=\"text-decoration:underline\">Special</span>: If you are using the Golarion Ancestries rule, you can select any Dwarf ancestry feats (at your GM’s discretion).</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": null
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.M0q5eM1awijHP64P",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!M0q5eM1awijHP64P"
+}

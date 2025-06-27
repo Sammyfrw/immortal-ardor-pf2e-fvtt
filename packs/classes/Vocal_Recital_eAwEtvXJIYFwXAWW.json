@@ -1,0 +1,64 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Vocal Recital",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">You can recite your parables and verses in ways that draw attention with a melodic voice and presence. You can Perform using Religion, and use Religion as a prerequisite for Performance feats. While you have Zeal, you gain a +1 circumstance bonus to Religion checks and to Perform using Religion. This bonus increases to a +2 when you are a Master in Religion.</span></p>"
+    },
+    "rules": [],
+    "slug": "vocal-recital",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "eAwEtvXJIYFwXAWW",
+  "_key": "!items!eAwEtvXJIYFwXAWW"
+}

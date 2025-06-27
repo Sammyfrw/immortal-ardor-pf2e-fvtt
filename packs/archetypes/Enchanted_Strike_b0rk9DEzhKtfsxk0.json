@@ -1,0 +1,126 @@
+{
+  "name": "Enchanted Strike",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "effects": [],
+  "folder": "hkPHHqkwHo2BDT3g",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> Once per round</p><div><p><strong>Trigger</strong> You land a hit on a target with a primed weapon.</p><hr /><p>You release a burst of elemental energy, dealing an additional 1d4 points of damage with a type that matches your primed weapon’s. Typically, air, earth and water deals damage that matches the primed melee weapon. This damage increases to 2d4 if the weapon has a striking rune, 3d4 with a greater striking rune, and 4d4 with a major striking rune.</p></div>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Enchanted Strike",
+        "domain": "damage",
+        "option": "enchanted-strike",
+        "suboptions": [
+          {
+            "label": "Fire",
+            "value": "fire"
+          },
+          {
+            "label": "Cold",
+            "value": "cold"
+          },
+          {
+            "label": "Electricity",
+            "value": "electricity"
+          },
+          {
+            "label": "Earth",
+            "value": "earth"
+          },
+          {
+            "label": "Air",
+            "value": "air"
+          },
+          {
+            "label": "Water",
+            "value": "water"
+          },
+          {
+            "label": "Metal",
+            "value": "metal"
+          },
+          {
+            "label": "Wood",
+            "value": "wood"
+          },
+          {
+            "label": "Acid",
+            "value": "acid"
+          }
+        ],
+        "toggleable": true,
+        "value": true,
+        "selection": "cold"
+      },
+      {
+        "key": "DamageDice",
+        "label": "Enchanted Strike",
+        "selector": "strike-damage",
+        "diceNumber": "@weapon.system.damage.dice",
+        "dieSize": "d4",
+        "damageType": "{item|flags.pf2e.rulesSelections.enchantedStrike}",
+        "predicate": [
+          "enchanted-strike",
+          {
+            "not": "item:category:unarmed"
+          }
+        ]
+      }
+    ],
+    "slug": "enchanted-strike",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ether"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round",
+      "value": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.b0rk9DEzhKtfsxk0",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "b0rk9DEzhKtfsxk0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!b0rk9DEzhKtfsxk0"
+}

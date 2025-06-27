@@ -1,0 +1,80 @@
+{
+  "folder": "scRkkbziDxqsiAqB",
+  "name": "The Chain",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Personality </strong>Intense, magnetic, erotic, challenging, secretive, powerful, broody, passionate, immovable and penetrating.</p><p class=\"MsoNormal\"><strong>Astral Attribute </strong>Dexterity or Constitution</p><p class=\"MsoNormal\"><strong>Astral Element </strong>Darkness</p><p class=\"MsoNormal\"><strong>Astral Gemstone </strong>Onyx</p><p class=\"MsoNormal\"><strong>Astral Colors </strong>Black, Silver, Red</p><p class=\"MsoNormal\"><strong>Astral Brand </strong>Lovesting – Gothic or sensual styles</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong><span style=\"text-decoration:underline\">Cosmic Benefits</span></strong></p><p class=\"MsoNormal\"><strong>Cleric Spells</strong></p><p class=\"MsoNormal\"><strong>Divine Font </strong>Harm</p><p class=\"MsoNormal\"><strong>Divine Sanctification </strong><span style=\"mso-bidi-font-weight:bold\">Must choose Unholy</span></p><p class=\"MsoNormal\"><strong>Divine Skill </strong>Thievery</p><p class=\"MsoNormal\"><strong>Domains </strong>Darkness, Pain, Secrecy, Passion</p><p class=\"MsoNormal\"><strong>Favored Weapon Group</strong> Flail</p><p class=\"MsoNormal\"><strong>Favored Classes</strong> Cleric, Rogue, Oracle, Witchwarper, Soulreaver, Dervish</p>"
+    },
+    "rules": [],
+    "slug": "the-chain",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "covenant",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "pain",
+        "secrecy",
+        "passion",
+        "darkness"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "dex",
+      "con"
+    ],
+    "skill": [
+      "thievery"
+    ],
+    "weapons": [
+      "flail",
+      "scorpion-whip"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/spells/chain-lightning.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.aOV8rRRNTdHwyP9N",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "aOV8rRRNTdHwyP9N",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!aOV8rRRNTdHwyP9N"
+}

@@ -1,0 +1,74 @@
+{
+  "_id": "6grFL6K7adBzS3xZ",
+  "name": "Empty",
+  "type": "feat",
+  "img": "icons/commodities/treasure/token-gold-gem-purple.webp",
+  "effects": [],
+  "folder": "XaKcxo560ohf3xPr",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Those born without the ability to manipulate ether are called The Empty. These people are brought into a world that has evolved with the use of magic, with large swathes of intricate devices and machinery that are operated by channeling ether and cultures that are reliant on spirits and creatures of the beyond by use of spells.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\">To the Empty, the world is blocked off – and thus they are often relegated to the cracks of society. With little power to their name, and the distinct lack of any of the biology related to any of the other manafonts, they are substantially weaker and vulnerable in a dangerous world. Despite wives-tales and myths of curses, diseases or karmic vengeance, Empty are born everywhere. It is considered a rare condition by doctors, a sign of low birth by socialites, or a maligned fate by religious devotees. Some may be fortunate to have family to look after them, but others are shunned or otherwise uncared for. To survive, Empty must rely on their wits, themselves, and push their physical bodies to their absolute limit – feats that very few are capable of, and even fewer, known for.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><u>Playing as an Empty</u></p>\n<p class=\"MsoNormal\">Empty are not able to use focus point features or cast spells, even if their class would normally allow them. They do not have any focus point totals, and are unable to gain any focus points or focus point-reliant powers from their class or other feats. They do not gain any ether feats; instead, when they would normally gain ether feats, they are able to select an additional general or class feat, so long as it does not involve magic, spellcasting or focus points. When they would normally gain manafont features, empty characters can give a bonus to their ability scores instead.</p>\n<p> </p>\n<p>They are immune to effects that would directly target a creature’s ether directly (such as certain Reaver features) or are reliant on them possessing ether.</p>"
+    },
+    "rules": [],
+    "slug": "empty",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manafont"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.6grFL6K7adBzS3xZ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!6grFL6K7adBzS3xZ"
+}

@@ -1,0 +1,91 @@
+{
+  "folder": "OSnty47dMMunhz2S",
+  "name": "Silent Engine",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Sound-dampeners and keen engineering reduces the noise of a vehicle with this upgrade. This grants the vehicle the ability to try and remain inconspicuously quiet, using the driver's Piloting skill for skill checks to @UUID[Compendium.pf2e.actionspf2e.IE2nThCmoyhQA0Jn]{Avoid Notice}. This skill check gains a +1 circumstance bonus to the attempt.</p>"
+    },
+    "rules": [],
+    "slug": "silent-engine",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 400
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/environment/settlement/stables-logo.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "icons/commodities/metal/clasp-steel-braid-glowing.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.oLINtKBt4J3nNDGu",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "oLINtKBt4J3nNDGu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!oLINtKBt4J3nNDGu"
+}

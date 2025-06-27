@@ -1,0 +1,93 @@
+{
+  "folder": "OSnty47dMMunhz2S",
+  "name": "Wireless Drake",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is an upgrade to the Wireless Drone. It has the @UUID[Compendium.pf2e.familiar-abilities.cT5octWchU4gjrhP]{Manual Dexterity} ability in addition to its other features, able to carry up to 2 bulk in its limbs, and can fly up to 300 feet away from the vehicle. </p><p>A small remote controlled drone can be launched from the vehicle, acting as a flying, floating camera with limited item carrying capacity.</p><p>The drone can be considered a familiar, using the level of its pilot as its level with the @UUID[Compendium.pf2e.familiar-abilities.ZHSzNt3NxkXbj1mI]{Flier}, @UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{Skilled} (Piloting) @UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{Skilled} (Computers) abilities.</p><p>The drone is controlled wirelessly either through the vehicle itself or a synapse hooked up remotely to the vehicle, and can fly up to 150 feet away from the vehicle and has enough battery to sustain itself for 4 hours before needing to recharge. When you Command the drone, you can see through the drone, either through a screen within the vehicle, through a connected synapse, or similar tech eye-wear or implants.</p><p>If it leaves its established radius, the drone attempts to return back to the radius, otherwise it starts to rapidly lose signal and floats to the ground at the end of its last turn.</p>"
+    },
+    "rules": [],
+    "slug": "wireless-drake",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 6000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/commodities/biological/wing-bird-white.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "icons/commodities/biological/wing-bird-white.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.M7Pdv0fG26St16NA",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "M7Pdv0fG26St16NA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!M7Pdv0fG26St16NA"
+}

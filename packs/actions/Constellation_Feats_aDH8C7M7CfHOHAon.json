@@ -1,0 +1,19 @@
+{
+  "name": "Constellation Feats",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "aDH8C7M7CfHOHAon",
+  "description": "",
+  "sort": 0,
+  "color": "#6b0039",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!aDH8C7M7CfHOHAon"
+}

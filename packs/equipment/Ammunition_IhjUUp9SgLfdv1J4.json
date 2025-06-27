@@ -1,0 +1,19 @@
+{
+  "name": "Ammunition",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "IhjUUp9SgLfdv1J4",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!IhjUUp9SgLfdv1J4"
+}

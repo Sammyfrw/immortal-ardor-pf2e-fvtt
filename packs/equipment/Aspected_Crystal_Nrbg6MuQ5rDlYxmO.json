@@ -1,0 +1,105 @@
+{
+  "_id": "Nrbg6MuQ5rDlYxmO",
+  "name": "Aspected Crystal",
+  "type": "consumable",
+  "img": "systems/pf2e/icons/equipment/treasure/gems/greater-semiprecious-stones/tourmaline.webp",
+  "effects": [],
+  "folder": "jvHnMyGMKge5vIpO",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>These crystals are special catalysts that are aspected towards a single element: fire, cold, electricity, acid, earth, water, wind, vitality, void, or force. These crystals are used to draw out ether of a particular element, for use in spells or as materials for crafting. A whole crystal is usually priced 100 gold, but it varies wildly on the element and the availability of the crystal.</p><p>A single crystal can be used as a suitable catalyst for a powerful or prominent spell or ritual, or even to power devices; however, often times a shard is sufficient. A single crystal is often broken into around 16 shards.</p>"
+    },
+    "rules": [],
+    "slug": "aspected-crystal",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/equipment/treasure/gems/greater-semiprecious-stones/tourmaline.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 16,
+      "max": 16,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.Nrbg6MuQ5rDlYxmO",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!Nrbg6MuQ5rDlYxmO"
+}

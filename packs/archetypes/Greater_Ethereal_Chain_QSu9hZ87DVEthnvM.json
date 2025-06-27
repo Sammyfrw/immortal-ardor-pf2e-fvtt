@@ -1,0 +1,149 @@
+{
+  "name": "Greater Ethereal Chain",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/equipment/weapons/spiked-chain.webp",
+  "effects": [],
+  "folder": "mzX0TVruKF5n4kFd",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><em>This is an Ethereal Chain that has been enhanced by the @UUID[Compendium.immortal-ardor.archetypes.Item.6mUkpNslhKSMNnM8]{Smiting Chain} feat.</em></p><hr /><p>A rattling, ghostly chain seemingly made of small iron links, but despite its apparent weight it flows and moves freely in the wielder’s hand with little effort. It usually is used to disarm or trip opponents.</p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span>: You can also use your spellcasting ability as a modifier for your melee attack and damage rolls in place of Strength.</p><p><strong>Critical Specialization Effect (Flail) </strong>The target is knocked prone.</p>"
+    },
+    "rules": [],
+    "slug": "greater-ethereal-chain",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disarm",
+        "fatal-d8",
+        "finesse",
+        "magical",
+        "reach"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Flail",
+        "img": "systems/pf2e/icons/equipment/weapons/spiked-chain.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "flail",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing",
+      "persistent": null,
+      "value": ""
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "reload": {
+      "value": ""
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    },
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.QSu9hZ87DVEthnvM",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "QSu9hZ87DVEthnvM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!QSu9hZ87DVEthnvM"
+}

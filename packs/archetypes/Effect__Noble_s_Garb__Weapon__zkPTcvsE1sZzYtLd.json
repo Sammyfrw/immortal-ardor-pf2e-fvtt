@@ -1,0 +1,94 @@
+{
+  "name": "Effect: Noble's Garb (Weapon)",
+  "type": "effect",
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/cloak-of-repute.webp",
+  "effects": [],
+  "folder": "HBf2BPOjZuyZr335",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.Item.b5bW1MSX95RblW15]{Noble's Garb}</p><p>Your weapon are empowered by an illusory veil, granting you a +1 status bonus to attack rolls for its duration.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "{item|flags.pf2e.rulesSelections.noblesGarbWeapon}-attack",
+        "type": "status",
+        "value": 1
+      },
+      {
+        "key": "TokenEffectIcon"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ]
+        },
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      }
+    ],
+    "slug": "effect-nobles-garb-weapon",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "hours",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "rarity": {
+      "value": "common"
+    },
+    "unidentified": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "zkPTcvsE1sZzYtLd",
+  "sort": 0,
+  "_key": "!items!zkPTcvsE1sZzYtLd"
+}

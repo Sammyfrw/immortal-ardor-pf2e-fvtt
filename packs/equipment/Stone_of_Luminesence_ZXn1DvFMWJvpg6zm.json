@@ -1,0 +1,105 @@
+{
+  "folder": "CjslDIg6fx8t1SbY",
+  "name": "Stone of Luminesence",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This stone seems to simultaneously drain light and expel darkness around it at the same time. Stones like these were crafted by Deep Serpents as a tool used to negate the most frightening influences of the Deepsea. </p>\n<p>When used, the Stone absorbs magical Darkness or Light effects within a 100-foot radius, attempting to counteract each of those effects. It does so with a modifier of [[/r 1d20+36]], with an effect rank of 8. When used within the Schattenriss, this rank increases to 10.</p>"
+    },
+    "rules": [],
+    "slug": "stone-of-luminesence",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 2000
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/equipment/consumables/ammunition/stone-bullet.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "img": "systems/pf2e/icons/equipment/consumables/ammunition/stone-bullet.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "ZXn1DvFMWJvpg6zm",
+  "sort": 0,
+  "_key": "!items!ZXn1DvFMWJvpg6zm"
+}

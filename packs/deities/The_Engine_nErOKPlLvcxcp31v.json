@@ -1,0 +1,82 @@
+{
+  "folder": "scRkkbziDxqsiAqB",
+  "name": "The Engine",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h4>The Waterbearer / The Engine</h4><p class=\"MsoNormal\"><strong>Personality </strong>Original, idealistic, rebellious, independent, inventors, open minded and honest</p><p class=\"MsoNormal\"><strong>Astral Attribute </strong>Strength or Intelligence</p><p class=\"MsoNormal\"><strong>Astral Element </strong>Electricity</p><p class=\"MsoNormal\"><strong>Astral Gemstone </strong>Amethyst</p><p class=\"MsoNormal\"><strong>Astral Colors</strong> Gold, Copper, Black</p><p class=\"MsoNormal\"><strong>Astral Brand </strong>Hightide - Sporty and athletic styles</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong><span style=\"text-decoration:underline\">Cosmic Benefits</span></strong></p><p class=\"MsoNormal\"><strong>Cleric Spells</strong></p><p class=\"MsoNormal\"><strong>Divine Font </strong>Heal or Harm</p><p class=\"MsoNormal\"><strong>Divine Sanctification </strong>Can choose order or chaos, can choose holy or unholy</p><p class=\"MsoNormal\"><strong>Divine Skill </strong>Crafting</p><p class=\"MsoNormal\"><strong>Domains </strong>Creation, Destruction, Lightning, Glyph</p><p class=\"MsoNormal\"><strong>Favored Weapon Group </strong>Club</p><p class=\"MsoNormal\"><strong>Favored Classes</strong> Alchemist, Inventor, Technomancer, Mechanic, Runesmith, Necromancer</p>"
+    },
+    "rules": [],
+    "slug": "the-engine",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "covenant",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "creation",
+        "destruction",
+        "lightning",
+        "glyph"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "str",
+      "int"
+    ],
+    "skill": [
+      "crafting"
+    ],
+    "weapons": [
+      "morningstar",
+      "mace"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/features/classes/phlogistonic-regulator.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.nErOKPlLvcxcp31v",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "nErOKPlLvcxcp31v",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!nErOKPlLvcxcp31v"
+}

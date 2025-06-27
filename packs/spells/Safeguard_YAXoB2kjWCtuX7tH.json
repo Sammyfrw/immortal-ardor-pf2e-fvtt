@@ -1,0 +1,84 @@
+{
+  "folder": "mpWiWjUlSr3Cmm4k",
+  "name": "Safeguard",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You protect a creature from all threats with a firm shield of force. The target gains 20 temporary hit points. </p><hr /><p><strong>Heightened (6th)</strong>  The temporary hit points granted by this spell increases to 30. When the target's temporary hit points is depleted from damage during the spell's duration, they gain a secondary shield worth half the temporary hit points this spell would grant after taking any excess damage. When this shield is depleted, the spell ends.</p><p><strong>Heightened (9th)</strong> As above, but the temporary hit points granted by this spell increases to 40. While they have temporary hit points from this spell, the target is immune to critical hits and precision damage. If the target takes a critical hit, the spell immediately ends, regardless if they have any remaining temporary hit points or if they have not expended their secondary shield.</p>"
+    },
+    "rules": [],
+    "slug": "safeguard",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "constellation",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "YAXoB2kjWCtuX7tH",
+  "img": "systems/pf2e/icons/spells/protection.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.YAXoB2kjWCtuX7tH",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!YAXoB2kjWCtuX7tH"
+}

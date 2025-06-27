@@ -1,0 +1,107 @@
+{
+  "_id": "oPntO4IH6B4F6DNp",
+  "name": "Azophite Dervish Familiarity",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "effects": [],
+  "folder": "zhOMSFBLyPZXVedB",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p> </p>\n<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Azoph-fer martial arts are passed down to you from your predecessors. You are trained with the @Compendium[pf2e.equipment-srd.8COlYvHe6hKCXY8x]{Greataxe}, </span>azoph-fer fleshcarver<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">, @Compendium[pf2e.equipment-srd.UX71GkWBL9g41VwM]{Greatsword}, and @Compendium[pf2e.equipment-srd.Mv2I6M70bagbaBPn]{Starknife}. In addition, you gain access to all uncommon azoph-fer weapons. For the purpose of determining your proficiency, martial azoph-fer weapons are simple weapons and advanced azoph-fer weapons are martial weapons.</span></p>\n<p></p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.weapon-base-greatsword.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.weapon-base-greataxe.rank",
+        "value": 1
+      },
+      {
+        "definition": [
+          "item:trait:azoph-fer",
+          "item:category:advanced"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.MartialProficiency.AdvancedAzophFerWeapons",
+        "sameAs": "martial",
+        "slug": "advanced-azophfer-weapons"
+      },
+      {
+        "definition": [
+          "item:trait:azoph-fer",
+          "item:category:martial"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.MartialProficiency.MartialAzophFerWeapons",
+        "sameAs": "simple",
+        "slug": "martial-azophfer-weapons"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "azoph-fer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.oPntO4IH6B4F6DNp",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!oPntO4IH6B4F6DNp"
+}

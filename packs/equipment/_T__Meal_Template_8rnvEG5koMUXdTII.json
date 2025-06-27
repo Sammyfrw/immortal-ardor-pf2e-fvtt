@@ -1,0 +1,103 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "[T] Meal Template",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> The price to purchase the meal's recipe.<br /><strong>Ingredients</strong> This entry lists the quantity of basic ingredients and special ingredients (if any) required to cook a single serving of the meal.<br /><strong>Preparation</strong> A special meal can be cooked with a </span><span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Skills.aspx?ID=16\"><span style=\"text-decoration:underline\">Survival</span></a></span> check or a <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Skills.aspx?ID=8\"><span style=\"text-decoration:underline\">Cooking Lore</span></a></span> check, and its recipe can be discovered with a Cooking Lore check. The DCs to Cook or Discover the Special Meal are presented here.<br /><strong>Requirements</strong> If a meal has any other special requirements for its preparation (such as the cook's ability to cast <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=48\"><span style=\"text-decoration:underline\">divine</span></a></span> spells or a proficiency rank in a specific skill), that requirement is listed here. This entry is omitted if the meal has no additional requirements.<br /><strong>Favorite Meal</strong> The additional benefit a character can gain from the meal being their favorite meal is presented here.</p><hr /><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">A description of the meal, including notes on how it is prepared, is followed by the meal's effects on a </span><span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Actions.aspx?ID=1474\"><span style=\"text-decoration:underline\">Cook Special Meal</span></a></span> activity's critical success, success, or critical failure. A special meal that has a failure grants no additional benefits or penalties, but still prevents starvation.<br />Many special meal effects persist for a full 24 hours, but a character can only benefit from one special meal effect at a time. If the PCs are camping daily, you can rule that existing special meal effects end once the party takes step 3 of camping (Eating), even if technically 24 hours hasn't passed since the last time they gained bonuses from special meals, so that new effects from new meals can take their place going forward.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "consumable",
+        "meal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/consumables/meat/chicken-breast-raw-pink.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "img": "icons/consumables/meat/chicken-breast-raw-pink.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.8rnvEG5koMUXdTII",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "8rnvEG5koMUXdTII",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!8rnvEG5koMUXdTII"
+}

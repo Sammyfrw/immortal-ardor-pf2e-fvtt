@@ -1,0 +1,77 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Effect: Phantom Roll",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.equipment.Item.n9QFjtyHQ6ZqZ9jr]{Phantom Roll}</p><p>You gain a +1 item bonus to Stealth checks to Avoid Notice or increment it if you already have it. You can also can Investigate or Scout while you Avoid Notice at half-speed, or full speed if its your favorite meal.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "action:Avoid Notice"
+            ]
+          }
+        ],
+        "selector": "stealth",
+        "value": 1
+      }
+    ],
+    "slug": "effect-phantom-roll",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/equipment/alchemical-items/food/phantom-roll.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.QVn3RJ8p6kfSCtX6",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "QVn3RJ8p6kfSCtX6",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!QVn3RJ8p6kfSCtX6"
+}

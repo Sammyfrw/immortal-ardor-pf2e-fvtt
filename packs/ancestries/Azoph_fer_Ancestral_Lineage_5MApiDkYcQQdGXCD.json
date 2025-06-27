@@ -1,0 +1,96 @@
+{
+  "_id": "5MApiDkYcQQdGXCD",
+  "name": "Azoph-fer Ancestral Lineage",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "effects": [],
+  "folder": "Aw9wCTMvovNrZH2G",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Select one of the following Ancestral Lineages, to represent the lineage of your ancestry you most closely resemble. This confers no tangible, mechanical benefits, except to give a rough expectation for your physiology and morphology.</p>\n<hr />\n<p> </p>\n<p class=\"MsoNormal\"><strong>The Erankhai</strong></p>\n<p class=\"MsoNormal\">The most common form of azoph-fer, featuring rougher skin, a more angular face, and a stouter yet relatively short frames. The Erankhai are said to be the original forms of azoph-fer that were shaped by Azoph-met. They have a wide variety of shades of skin and hair colors, body shapes and sizes – the diversity of which has often led to the observation that the Erankhai are very similar to the Sapien.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong>The Fironkhai</strong></p>\n<p class=\"MsoNormal\">Compared to the Erankhai, the Fironkhai are by contrast substantially smaller and thinner. Often bearing longer ears and sharper teeth, the Fironkhai are said to have been the outcome of fiendish influences on the Erankhai, giving them a touch of fiendish power.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong>The Hezonkhai</strong></p>\n<p class=\"MsoNormal\">The second most common form of azoph-fer, the Hezonkhai bears a bulky frame with more rounded features. They tend to have a taller figure to come with their musculature, along with prominent tusked underbites. Overall, these azoph-fer are larger than average, even compared to most other Ardorean humanoids. They are said to have been forged in the flames of the Eternal Strife, the bloody spiritual influences of the war, giving rise to their mighty physiques.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong>The Agrunkhai</strong></p>\n<p class=\"MsoNormal\">The rarest of the azoph-fer forms, the Agrunkhai are said to have been created from the spiritual and primal forces of the land of Zaho, rather than the influences of the Azoph Kingdom’s actions. They possess larger frames with sharper, longer ears, pointed teeth with prominent fangs and longer limbs. Most notably, however, is that they are largely covered in fur and bear heavily furred brows and claws.</p>\n<p><span style=\"font-size:12.0pt;mso-bidi-font-size:11.0pt;font-family:'Calibri',sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:'Cordia New';mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"> </span></p>\n<p class=\"MsoNormal\"> </p>\n<p></p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "Select an Azoph-fer Ancestral Lineage.",
+        "choices": [
+          {
+            "label": "Erankhai Lineage",
+            "value": "Erankhai Lineage"
+          },
+          {
+            "label": "Fironkhai Lineage",
+            "value": "Fironkhai Lineage"
+          },
+          {
+            "label": "Hezonkhai Lineage",
+            "value": "Hezonkhai Lineage"
+          },
+          {
+            "label": "Agrunkhai Lineage",
+            "value": "Agrunkhai Lineage"
+          }
+        ],
+        "adjustName": true
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.5MApiDkYcQQdGXCD",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!5MApiDkYcQQdGXCD"
+}

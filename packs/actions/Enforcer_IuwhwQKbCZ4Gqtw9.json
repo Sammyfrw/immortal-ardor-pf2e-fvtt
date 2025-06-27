@@ -1,0 +1,74 @@
+{
+  "_id": "IuwhwQKbCZ4Gqtw9",
+  "name": "Enforcer",
+  "type": "feat",
+  "img": "icons/commodities/treasure/token-gold-gem-purple.webp",
+  "effects": [],
+  "folder": "XaKcxo560ohf3xPr",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Enforcing is known to be the most physically demanding manafont, primarily by virtue of its function. Enforcers use volatile ether, a charged form of ether that is only created once ether has been exerted in some fashion. Through a special muscle lining in their lungs, enforcers can breathe in volatile ether for immediate use. Due to its active properties, volatile ether is much more potent and capable in allowing its user to perform impressive feats of skill or magic. However, volatile ether is dangerous in large amounts to enforcers, and it is also difficult to store for extended periods of time so it is quickly expelled from the body.</span></p><h2><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Enforcer Focus Point Feature</span></span></h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Enforcers start with 1 focus point after their daily preparations, and lose all their focus points after an hour has passed without substantial physical or mental exertion, which typically involve skill checks, travel or any activity that would not count as rest.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Once per round, they can gain one focus point through the following methods in a non-trivial challenge. A trivial challenge is typically one that is 3 or 4 levels below the character’s level:</span></p><ul><li><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Successfully rolling a critical hit with an Attack action</span></p></li><li><p>A target from one of your abilities or spells critically fails a saving throw.</p></li><li><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Rolling a critical success on a non-trivial skill check</span></p></li><li><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Taking damage equal to their level or higher from a critical hit or a critical failure</span></p></li></ul><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Notably, these checks must have a critical outcome from the roll; a guaranteed critical success or failure would not qualify.</span></p><h2><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Enforcer Refocus</span></span></h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When Enforcers refocus, they usually practice physical or mental exertion for the approximate duration of Refocus in relation to their source of their focus points. Upon refocusing, they return to 1 focus point. If you select a feat that improves your Refocus, you can gain up to 3 focus points in a single turn.</span></p><h2><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">@UUID[Compendium.immortal-ardor.actions.Item.aF4VVVDhjYAG25KK]{Store Ether} (5</strong></span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">th</strong></span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">)</strong></span></h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are able to store volatile ether longer than the average enforcer, avoiding the effects of ether poisoning through physical and mental conditioning. After you Refocus, the first time you would gain a focus point, you gain an additional focus point.</span></p><h2><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">@UUID[Compendium.immortal-ardor.actions.Item.RI8wChFJugGKAunP]{Volatility }(10</strong></span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">th</strong></span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">)</strong></span></h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your control over volatile ether grows to a point where you can make the most of its ephemeral power. You treat your focus points as if it were double their current amount, for the purpose of meeting focus point costs. In addition, you gain the @UUID[Compendium.immortal-ardor.actions.Item.ifJkYzy345762JRN]{Volatility} free action.</span></p><h2><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">@UUID[Compendium.immortal-ardor.actions.Item.dM8zqC8OF5R7WPpD]{Innervation } (15</strong></span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">th</strong></span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">)</strong></span></h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are able to energize the ether within you and around you, flaring it up for your immediate use. You gain the @UUID[Compendium.immortal-ardor.actions.Item.DVeFVcVwvnanCLnW]{Innvervation} action.</span></p><p> </p><p> </p>"
+    },
+    "rules": [],
+    "slug": "enforcer",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manafont"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.IuwhwQKbCZ4Gqtw9",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!IuwhwQKbCZ4Gqtw9"
+}

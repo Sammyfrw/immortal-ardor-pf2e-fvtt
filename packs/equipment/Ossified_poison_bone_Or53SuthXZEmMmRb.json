@@ -1,0 +1,103 @@
+{
+  "name": "Ossified poison bone",
+  "type": "treasure",
+  "img": "systems/pf2e/icons/spells/acid-splash.webp",
+  "effects": [],
+  "folder": "jvHnMyGMKge5vIpO",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A petrified bone that's emulsified by various corroding fluids and poisons, that has further petrified. Typically found in regions such as poisonous swamplands, where many of its horrid denizens frequently make use of deadly poisons to debilitate prey.</p>\n<p>While it can be used as a reagent for poison based spells and rituals, alchemists find that the latent poison infusing the petrified bone is a powerful ingridient in creating tools and golems resistant to poison and decay,</p>"
+    },
+    "rules": [],
+    "slug": "ossified-poison-bone",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 500
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Treasure",
+        "img": "systems/pf2e/icons/spells/acid-splash.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {
+        "name": "Misidentified Item",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": "This treasure is misidentified."
+          }
+        }
+      }
+    },
+    "stackGroup": null,
+    "identified": {
+      "value": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.Or53SuthXZEmMmRb",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "Or53SuthXZEmMmRb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!Or53SuthXZEmMmRb"
+}

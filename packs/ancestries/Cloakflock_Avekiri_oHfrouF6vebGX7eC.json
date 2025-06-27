@@ -1,0 +1,56 @@
+{
+  "_id": "oHfrouF6vebGX7eC",
+  "name": "Cloakflock Avekiri",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "YoLAauwV9BXH0dl1",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your ancestors came from the Flock of the Cloaked, which performed subterfuge and acquisition of information. You can contextually use Society in the place of Deception skill checks, such as by leveraging a knowledge of local mannerisms or subject matter to Lie or Impersonate. You also gain darkvision up to 30 feet.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Avekiri",
+      "uuid": "Item.nNtTrMVuAgB4bs4p",
+      "slug": "avekiri"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.oHfrouF6vebGX7eC",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!oHfrouF6vebGX7eC"
+}

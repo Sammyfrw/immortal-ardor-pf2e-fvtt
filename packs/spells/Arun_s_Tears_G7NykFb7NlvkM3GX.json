@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Arun's Tears",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You focus and condense mana into a concentrated sphere, full of vim and vigor. You then drop the sphere into your empty hand, the empty hand of an ally within 30 feet of you, or on the floor. The sphere remains for 1 minute unless it is absorbed, after which is ruptures and harmlessly releases its concentrated mana.</p><p>A creature who is holding the sphere can use an Interact action to absorb the sphere's mana into themselves, consuming it. They regain their choice of either 1 focus point, or 1 spell slot or prepared spell up to 4th rank.</p><p>A creature can only benefit from this spell once every hour.</p><hr /><p><strong>Heightened (8th) </strong>Your conjured sphere allows its user to regain 1 focus point or a spell slot or prepared spell up to 6th rank.</p>"
+    },
+    "rules": [],
+    "slug": "aruns-tears",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "constellation",
+        "manipulate"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "effects": [],
+  "_id": "G7NykFb7NlvkM3GX",
+  "img": "icons/magic/water/orb-water-bubbles.webp",
+  "folder": "mpWiWjUlSr3Cmm4k",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.G7NykFb7NlvkM3GX",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!G7NykFb7NlvkM3GX"
+}

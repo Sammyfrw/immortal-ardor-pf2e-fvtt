@@ -1,0 +1,83 @@
+{
+  "_id": "b5bW1MSX95RblW15",
+  "name": "Noble's Garb",
+  "type": "spell",
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/cloak-of-repute.webp",
+  "effects": [],
+  "folder": "l8nnPyOmdzuonvnV",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Grants @UUID[Compendium.immortal-ardor.archetypes.Item.J8BCVag2lHvFtnij]{Effect: Noble's Garb (Armor)} or @UUID[Compendium.immortal-ardor.archetypes.Item.zkPTcvsE1sZzYtLd]{Effect: Noble's Garb (Weapon)}</strong></p><hr /><p>You cast a glamour over your current set of clothing, changing their appearance and characteristics so that they appear, smell, and feel differently to other creatures and people. To discern the fact that your clothes are in fact an illusion, they must take a Seek action against your Occult Spell DC if they suspect you are not wearing what you appear to be. You can designate people that can see your true clothes at the time of casting the spell.</p><p> </p><p>The set of clothing must have a matching material as the clothes you are currently wearing and cannot be different in bulk. The clothing must have an appearance to a set of clothes you have seen previously. You are also able to include a weapon as part of your outfit, as long as it follows the same requirements.</p><p> </p><p>Finally, when you cast this spell you can choose to either give yourself a +1 status bonus to AC or a status bonus to attack rolls made on a glamored weapon.</p><p> </p><p><strong>Heightened(3rd)</strong>: The duration of the spell increases to 4 hours.</p><p><strong>Heightened(5th)</strong>: The duration of the spell increases to 8 hours.</p><p><strong>Heightened(8th)</strong>: The spell lasts until it is dispelled or you choose to dismiss its effect.</p>"
+    },
+    "rules": [],
+    "slug": "nobles-garb",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "illusion",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "Self"
+    },
+    "range": {
+      "value": "Touch"
+    },
+    "area": null,
+    "time": {
+      "value": "1 minute"
+    },
+    "duration": {
+      "value": "1 hour",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.b5bW1MSX95RblW15",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!b5bW1MSX95RblW15"
+}

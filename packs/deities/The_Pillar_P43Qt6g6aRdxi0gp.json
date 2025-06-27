@@ -1,0 +1,82 @@
+{
+  "folder": "scRkkbziDxqsiAqB",
+  "name": "The Pillar",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Personality </strong>Harmonious, civilized, intellectual, sophisticated, seductive, elegant, creative, witty, balanced, and sociable.</p><p class=\"MsoNormal\"><strong>Astral Attribute</strong> Intelligence, Charisma</p><p class=\"MsoNormal\"><strong>Astral Element </strong>Radiant</p><p class=\"MsoNormal\"><strong>Astral Gemstone </strong>Diamond</p><p class=\"MsoNormal\"><strong>Astral Colors </strong>White and Gold</p><p class=\"MsoNormal\"><strong>Astral Brand </strong>Equilibre – Futuristic haute-couture</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong><span style=\"text-decoration:underline\">Cosmic Benefits</span></strong></p><p class=\"MsoNormal\"><strong>Cleric Spells</strong></p><p class=\"MsoNormal\"><strong>Divine Font </strong>Heal or Harm</p><p class=\"MsoNormal\"><strong>Divine Sanctification </strong>Must choose Order, can choose holy or unholy</p><p class=\"MsoNormal\"><strong>Divine Skill </strong>Religion</p><p class=\"MsoNormal\"><strong>Domains</strong> Vigil, Truth, Tyranny, Perfection</p><p class=\"MsoNormal\"><strong>Favored Weapon Group</strong> Hammer</p><p class=\"MsoNormal\"><strong>Favored Classes </strong>Monk, Kineticist, Summoner, Guardian, Solarian, Animist, Diviner</p>"
+    },
+    "rules": [],
+    "slug": "the-pillar",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "covenant",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "vigil",
+        "truth",
+        "tyranny",
+        "perfection"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "int",
+      "cha"
+    ],
+    "skill": [
+      "religion"
+    ],
+    "weapons": [
+      "hammer",
+      "warhammer"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/spells/discern-location.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.P43Qt6g6aRdxi0gp",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "P43Qt6g6aRdxi0gp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!P43Qt6g6aRdxi0gp"
+}

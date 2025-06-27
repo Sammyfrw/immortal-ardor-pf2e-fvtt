@@ -1,0 +1,124 @@
+{
+  "folder": "1tgwp9ZT6x5G4tFB",
+  "name": "Vortex of Honeytree's Song",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">The Honeytree represents community and camaraderie. Its roots span the universe, and the bees the ones who listen, travel and speak. Do you hear the song, sweetling? Everything in the world, real, imagined, physical, digital, corresponds to the song. It moves in the rhythm to the wingbeats of the universe. But you must listen to be able to hear it. So what do you hear?</span></p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.783jltL5Pfhj17uJ]{The Honeytree}</p><hr /><p><strong>First Asterism </strong>(Level 1) You become Trained in Occultism and gain the @UUID[Compendium.pf2e.feats-srd.6O8MoMheHs5hNHX1]{Crystal Healing} feat. If you are naturally trained in Occultism, you can use a device that generates music or soundwaves in place of crystals for Crystal Healing and any other asterism from this facet. Use the value of the device to meet any cost requirements.</p><p><strong>Second Asterism </strong>(Level 4, Trained in Occultism) You become an Expert in Occultism and gain the @UUID[Compendium.pf2e.feats-srd.rfnEcjxIFqwlJwJT]{Treat Condition} feat and can use Occultism and resonant crystals in place of Medicine and healer's tools. If you are naturally an Expert, you can add Glitching to the conditions you can treat.</p><p><strong>Third Asterism </strong>(Level 8, Trained in Occultism) You become a Master in Occultism and gain the @UUID[Compendium.pf2e.feats-srd.1WfvvjjObPKeZyid]{Holistic Care} feat, regardless of its requirements. If you are naturally a Master, you can add @UUID[Compendium.pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Confused} to the list of conditions.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.occultism.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 3,
+              "start": 1,
+              "value": 1
+            },
+            {
+              "end": 7,
+              "start": 4,
+              "value": 2
+            },
+            {
+              "start": 8,
+              "value": 3
+            }
+          ]
+        }
+      }
+    ],
+    "slug": "vortex-of-honeytrees-song",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "facet",
+        "invested",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Vortex Facet",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Vortex_Fragment_HD.png",
+        "data": {
+          "description": {
+            "value": "<p>An unidentified vortex facet.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "bonded"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Vortex_Fragment_HD.png",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.zpcI5IJVYs0Uxa7O",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "zpcI5IJVYs0Uxa7O",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!zpcI5IJVYs0Uxa7O"
+}

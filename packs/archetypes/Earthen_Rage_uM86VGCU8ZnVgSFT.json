@@ -1,0 +1,66 @@
+{
+  "_id": "uM86VGCU8ZnVgSFT",
+  "name": "Earthen Rage",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": "sQpXmG7Z0Gwh12HT",
+  "flags": {
+    "core": {
+      "sourceId": "Item.OqHEPjapa96RGcGf"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div style=\"mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in\"><div style=\"mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in\"><p class=\"MsoNormal\" style=\"border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\"><strong>Requirements </strong>You aren’t @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} or raging.</p></div><p class=\"MsoNormal\"> </p><p>You tap into your primal connection with the land, taking its wrath as your own and begin raging. You gain @UUID[Compendium.immortal-ardor.archetypes.Item.Ysfa8XWI9Bbqa6N4]{Effect: Earthen Rage}. This frenzy lasts for 1 minute, until there are no enemies you can perceive, or until you fall @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}, whichever comes first. You can’t voluntarily stop raging. While you are raging:</p><ul><li>You deal 2 additional damage with spells in the Primal tradition that possess the Fire, Cold, Electricity, Air, Water, or Earth traits. Your GM may rule that certain spells that do not possess these traits may qualify, as well.</li><li>You take a -1 penalty to AC.</li><li>You can’t use actions with the concentrate trait unless they also have the rage trait. You can @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek}, @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast a Spell} or @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain a Spell} while raging.</li><li>Whenever you Cast a Spell, your somatic component does not trigger reactions as your enraged state keeps you alert and always aware of your motions.</li></ul><p>After you stop raging, you can't Rage again for 1 minute.</p></div>"
+    },
+    "rules": [],
+    "slug": "earthen-rage",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "concentrate",
+        "emotion",
+        "mental"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.uM86VGCU8ZnVgSFT",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!uM86VGCU8ZnVgSFT"
+}

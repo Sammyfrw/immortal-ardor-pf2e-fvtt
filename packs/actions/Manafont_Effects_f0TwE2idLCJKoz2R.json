@@ -1,0 +1,19 @@
+{
+  "name": "Manafont Effects",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_id": "f0TwE2idLCJKoz2R",
+  "folder": "XaKcxo560ohf3xPr",
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!f0TwE2idLCJKoz2R"
+}

@@ -1,0 +1,93 @@
+{
+  "folder": "74nXHd8sH4NMvwEo",
+  "name": "Kalobos Key of Babil",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This seed is the key of Babil for one of the 33 spawn of Bapho-met, Kalobos. It serves as a planar key to the Tower of Babil, though it does not seem to respond. It has been drained of power.</p>"
+    },
+    "rules": [],
+    "slug": "kalobos-key-of-babil",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "earth",
+        "wood"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 22
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Infernal Seed",
+        "img": "systems/pf2e/icons/spells/fire-seeds.webp",
+        "data": {
+          "description": {
+            "value": "<p>This seed was found at the center of the symbol of the vow made between the spirits of the Klerraghan-Rok mountains and its newfound denizens. It served as a connection to another plane.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "img": "systems/pf2e/icons/spells/fire-seeds.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "s23sdrggxKp4eXHm",
+  "sort": 0,
+  "_key": "!items!s23sdrggxKp4eXHm"
+}

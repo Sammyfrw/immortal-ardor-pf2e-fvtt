@@ -1,0 +1,103 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Sheep Skewer Surprise",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> 50 sp<br /><strong>Ingredients</strong> 2 basic, 2 special<br /><strong>Preparation</strong> DC 18 Cooking Lore, DC 20 Survival</span><br /><strong>Requirements</strong> Basic Kitchen<br /><strong>Favorite Meal</strong> The Athletics bonus includes checks to Swim, Long Jump and High Jump.</p><hr /><p>Traditionally an Agamidan recipe, this delicious skewer of mutton seems to be perpetually sizzling. Glistening meat on an iron skewer usually containing 5 chunks glazed in a light oil and infused with a dozen of fragrant aromatics, with a taste that seeps right into one's tastebuds. Very popular with physical laborers, many vendors and roadside eateries typically prepare many of these in advance, so that they may quickly address the flock of workers who wish to grab a couple skewers. One skewer is usually enough for one meal -- not because there's a large quantity, but eating it usually gives enough energy and fullness that one would store the remainder for later.</p><p>After you eat the skewer, its effects last for 24 hours or until you make your next daily preparations, whichever comes first. You gain a +1 item bonus to Athletics checks to Climb or Force Open, or increase an existing item bonus by that amount. In addition, during this time you don't become fatigued by performing continuous strenuous yet repetitive activity for up to 4 hours. This does not apply to combat. After 4 hours has passed, you begin to get tired from activity as normal.</p><p>@UUID[Compendium.immortal-ardor.equipment.Item.kXp4iPbwqUiP4XWs]{Effect: Sheep Skewer Surprise}</p><p>@UUID[Compendium.immortal-ardor.equipment.Item.54kYtkSMPcVlHzY2]{Effect: Sheep Skewer Surprise (Favorite)}</p>"
+    },
+    "rules": [],
+    "slug": "sheep-skewer-surprise",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "consumable",
+        "meal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/consumables/meat/kebab-skewer-vegetable-brown.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "_id": "R8Pxbfub990DNbYj",
+  "img": "icons/consumables/meat/kebab-skewer-vegetable-brown.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.R8Pxbfub990DNbYj",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!R8Pxbfub990DNbYj"
+}

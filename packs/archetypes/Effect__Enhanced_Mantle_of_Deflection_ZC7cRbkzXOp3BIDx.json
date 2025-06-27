@@ -1,0 +1,90 @@
+{
+  "_id": "ZC7cRbkzXOp3BIDx",
+  "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/equipment/adventuring-gear/dueling-cape.webp",
+  "name": "Effect: Enhanced Mantle of Deflection",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by using @UUID[Compendium.immortal-ardor.archetypes.Item.mAHa8KW6Zzb8eA1C]{Mantle of Deflection (Enhanced)}.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "action:feint"
+        ],
+        "selector": "deception",
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "slug": "effect-enhanced-mantle-of-deflection",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-effects.Item.7dLsA9PAb5ij7Bc6"
+    }
+  },
+  "effects": [],
+  "folder": "OuPmFYkW60nXEXfG",
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ZC7cRbkzXOp3BIDx",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!ZC7cRbkzXOp3BIDx"
+}

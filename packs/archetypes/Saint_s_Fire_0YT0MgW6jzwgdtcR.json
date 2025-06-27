@@ -1,0 +1,78 @@
+{
+  "name": "Saint's Fire",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "3bsGBfWSWgyRh6xc",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>You have learned to use the spectral concoction within your Ghostfire vials to great effect, turning it into a reagent for a powerful spell of purging flames. You gain the @UUID[Compendium.immortal-ardor.archetypes.Item.b72YX5gjHy3l0xiS]{Saint's Fire} focus spell.</p><p>Your conjured Ghostfire vials also become far more potent and volatile, containing crawling flames that burn with stronger ferocity. The damage die, persistent damage die and splash damage of the Ghostfire vial strikes increases by 1. You also gain a +1 item bonus to attack rolls with the Ghostfire vial. These bonuses increase by 1 again at 11th level and one more time at 17th level.</p><p>@UUID[Compendium.immortal-ardor.archetypes.Item.iUHtsHqf1bmN2IDD]{Ghostflame Vial (Moderate)}</p>"
+    },
+    "rules": [],
+    "slug": "saints-fire",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Mourneblade Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.0YT0MgW6jzwgdtcR",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "0YT0MgW6jzwgdtcR",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!0YT0MgW6jzwgdtcR"
+}

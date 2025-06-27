@@ -1,0 +1,79 @@
+{
+  "_id": "RJ0QydYoVJ5RSZBJ",
+  "name": "Bloody Roar",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "effects": [],
+  "folder": "i5TqMcurowu1xN0y",
+  "flags": {
+    "core": {
+      "sourceId": "Item.3gMsvpvM1wURPDb4"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p>You unleash a haunting, demonic roar whenever you @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} a creature. When you Demoralize a creature in this way, it loses the Linguistic trait and creatures do not need to understand you to be affected by it. When you inflict @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} on a creature, you can choose to make them bleed, dealing 1d6 persistent bleed damage.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cazic-fer",
+        "emotion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.RJ0QydYoVJ5RSZBJ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!RJ0QydYoVJ5RSZBJ"
+}

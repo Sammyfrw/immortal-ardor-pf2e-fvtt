@@ -1,0 +1,95 @@
+{
+  "_id": "UHsGZN3rsIyIEHKj",
+  "name": "Material Meld",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/transmute-rock-and-mud.webp",
+  "effects": [],
+  "folder": "BoozMtIVljxjPx4o",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": 1,
+      "terraintype": {
+        "min": 0,
+        "max": 0
+      },
+      "environment": "",
+      "min": 0,
+      "max": 0,
+      "elevation": null,
+      "depth": null
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">While holding at least pound of applicable material, you touch the targeted object, which can also be currently held or worn by another creature.</span><span style=\"mso-spacerun:yes\"> </span>If the creature is not willing, you need to make a spell attack roll. You can only use precious material and grades that are equal to your level or lower.</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">For the next hour, the target object’s material turns into the material used as a reagent, acquiring all its relevant properties. This spell does not make a perfect transition of the material; it merely changes the item so that it utilizes material properties appropriate to the type of equipment and its temporary material, if any.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Heightened (6</strong></span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>th</strong></span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>) </strong>The duration of the spell becomes 8 hours.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Heightened (8</strong></span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>th</strong></span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>)</strong> The range of the spell becomes 30 feet, and you can affect up to 5 applicable targets within range within one casting of this spell.</span></p>"
+    },
+    "rules": [],
+    "slug": "material-meld",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "at least a pound of material with the ‘precious’ trait of your level or lower",
+    "target": {
+      "value": "a melee weapon, a thrown weapon, a piece of armor, or a clump of 10 pieces of ammunition"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 hour",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.UHsGZN3rsIyIEHKj",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!UHsGZN3rsIyIEHKj"
+}

@@ -1,0 +1,105 @@
+{
+  "folder": "fNyvBi1FuzhzXM05",
+  "name": "Light of Goetia",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You summon the Light of Goetia, all that is left of the former Maestro of the Symphony.</p><p><strong>Light of Ishuala Goetia</strong> Speed 100 feet, Fly 50 feet <strong>Arrive </strong>(Teleportation) <em>Ishuala's Graviton </em>The space around all creatures within 60 feet begins to warble and shake. Enemy creatures need to make a Fortitude saving throw, while willing allies in the field can automatically Succeed on the saving throw if they so choose.</p><p><strong>Critical Success </strong>A creature is unaffected, and cannot be swapped with another creature.</p><p><strong>Success </strong>The creature is swapped with another creature who Succeeds on their save or worse. A willing ally can choose to be moved to an empty space as well. You decide who is moved to where.</p><p><strong>Failure</strong> As success, but the creature becomes @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p><p><strong>Critical Failure </strong>As success, but the creature becomes @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 4}.</p><p><strong>Departure </strong><em>Ishuala's Flow </em>The space around Goetia becomes distorted as time flows differently for each creature. Each creature needs to succeed at a Will save or become @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round (and @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minute on a critical failure).</p><p></p>"
+    },
+    "rules": [],
+    "slug": "light-of-goetia",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "teleportation"
+      ],
+      "rarity": "unique",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {
+      "CoMlGuGfNiFhAvSq": {
+        "name": "Light of Goetia (Arrival)",
+        "system": {
+          "defense": {
+            "save": {
+              "statistic": "fortitude",
+              "basic": false
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "c3HPzF2Te3Y9eNNA": {
+        "name": "Light of Goetia (Departure)",
+        "system": {
+          "defense": {
+            "save": {
+              "statistic": "will",
+              "basic": false
+            }
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      }
+    }
+  },
+  "img": "icons/magic/time/hourglass-tilted-glowing-gold.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "wfSZGM1ojh1SAT1C",
+  "sort": 0,
+  "_key": "!items!wfSZGM1ojh1SAT1C"
+}

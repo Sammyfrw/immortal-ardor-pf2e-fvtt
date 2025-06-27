@@ -1,0 +1,100 @@
+{
+  "name": "Gold Accord Hairpin",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/equipment/treasure/art-objects/moderate-art-object/gold-necklace-with-peridots.webp",
+  "effects": [],
+  "folder": "74nXHd8sH4NMvwEo",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>An elaborate hairpin, that is made of gold.</p><p>Membership of the Rubious Accord is usually designated by possessing a golden hairpin, that is then bound to the user's soul. A silver hairpin also exists for guests of those who wear the golden hairpin.</p>"
+    },
+    "rules": [],
+    "slug": "gold-accord-hairpin",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/equipment/treasure/art-objects/moderate-art-object/gold-necklace-with-peridots.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "wornheadwear"
+    },
+    "subitems": [],
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "ayCnWQplYPTwWBXf",
+  "sort": 200000,
+  "_key": "!items!ayCnWQplYPTwWBXf"
+}

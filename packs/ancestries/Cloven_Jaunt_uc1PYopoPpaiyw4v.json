@@ -1,0 +1,79 @@
+{
+  "_id": "uc1PYopoPpaiyw4v",
+  "name": "Cloven Jaunt",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "effects": [],
+  "folder": "i5TqMcurowu1xN0y",
+  "flags": {
+    "core": {
+      "sourceId": "Item.3gMsvpvM1wURPDb4"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p><strong>Frequency </strong>Once per day</p>\n<hr />\n<p>You briefly dip into the spiritual plane as you leap across physical obstacles in the material plane. You are able to phase instantaneously a short distance. You teleport to a place you can see up to your speed.  </p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cazic-fer",
+        "teleportation"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.uc1PYopoPpaiyw4v",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!uc1PYopoPpaiyw4v"
+}

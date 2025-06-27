@@ -1,0 +1,19 @@
+{
+  "name": "Feats",
+  "type": "Item",
+  "sort": 9000000,
+  "flags": {},
+  "sorting": "a",
+  "color": null,
+  "_id": "sqBBD4DisZnxsBqQ",
+  "folder": "U9W5dalJinyDt4Ok",
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!sqBBD4DisZnxsBqQ"
+}

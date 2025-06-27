@@ -1,0 +1,64 @@
+{
+  "folder": "iU4W6BV15DqElOBL",
+  "name": "Effect: Artebound",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You recently performed a powerful constellation arte that left you empowered with lingering mana. Your next constellation action that has the artebound trait benefits from its artebound effect, but does not cost a focus point to do so. If the feat benefits in this way without spending a focus point, the effect's duration is not extended.</p>"
+    },
+    "rules": [],
+    "slug": "effect-artebound",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "mEbOmD6GaQhmgay2",
+  "sort": 0,
+  "_key": "!items!mEbOmD6GaQhmgay2"
+}

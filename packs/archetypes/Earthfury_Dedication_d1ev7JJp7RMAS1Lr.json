@@ -1,0 +1,100 @@
+{
+  "_id": "d1ev7JJp7RMAS1Lr",
+  "name": "Earthfury Dedication",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "QEOGeTA827v053r8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">You are an Earthfury, one who champions the natural order of Ardor. This constitutes not only the balance of the circles of life, but also the sanctity of its natural boundaries which includes the spiritual realm and the spirits of nature that interact with the material. You draw upon the primal elements of the natural world, and as a walking protector, deliver its wrath upon those who would abuse or harm it, channeling its full force to bear.</span></p>\n<p class=\"MsoNormal\">You have a specific Elemental Affinity to a set of natural elements: the Animan elements, the elements of flux, or the Terran elements, the elements of stagnancy.<span style=\"mso-spacerun:yes\">  </span>When you select this dedication, select an affinity for Anima or Terra. Spells with traits that fall under each of these categories will gain a +1 circumstance bonus to their DC. Anima elemental traits include Fire, Cold and Electricity, while Terra elemental traits include Earth, Air, and Water.</p>\n<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">You also gain the Earthen Rage action. </span>You channel your rage through the Earthfury instinct. You decide what your instinct means to you. It could be a creature or symbol beloved by your clan, or a purely internal source or filter of your rage, such as a belief, curse, heritage, or state of mind. <span style=\"mso-bidi-font-size:12.0pt\">The instinct grants you powers but also behaviors that you must avoid. Disrupting the natural order (such as forcefully manifesting spirits) is anathema to your instinct; defending yourself from and entreating spirits to aid you (which may include having them manifest) is not. </span>Whenever you perform such acts, you lose access to any feats that list Earthfury Instinct as a prerequisite until you spend 1 day of downtime re-centering yourself, though you keep all of your other Earthfury abilities.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "Select an Elemental Affinity.",
+        "choices": [
+          {
+            "label": "Terra Affinity",
+            "value": "Terra Affinity"
+          },
+          {
+            "label": "Anima Affinity",
+            "value": "Anima Affinity"
+          }
+        ],
+        "adjustName": true,
+        "flag": "elementAffinity"
+      }
+    ],
+    "slug": "earthfury-dedication",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication",
+        "manafont"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": true,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Primal Spellcasting Tradition"
+        },
+        {
+          "value": "Trained in Nature"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.d1ev7JJp7RMAS1Lr",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!d1ev7JJp7RMAS1Lr"
+}

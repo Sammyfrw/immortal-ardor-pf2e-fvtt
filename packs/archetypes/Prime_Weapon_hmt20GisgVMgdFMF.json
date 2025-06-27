@@ -1,0 +1,93 @@
+{
+  "folder": "BoozMtIVljxjPx4o",
+  "name": "Prime Weapon",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You spend ten minutes imbuing a weapon with elemental energies, priming it with that element. Priming elements and their respective traits are fire, cold, electricity, acid, air, earth, water, wood and metal. When you cast this spell, you select one of the priming elements to imbue the target weapon with. This spell gains the trait associated with that element. While primed, a weapon is considered magical and possesses the matching elemental trait and allows it to be used for other Armiger features and spells. You can only have 1 weapon primed at a time. If you prime another weapon above this limit, the previous weapon no longer becomes primed.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you provide a natural or catalytic source of an element, you regain the focus point you use to cast this spell. These sources of an element are typically natural terrain, weather, objects, or consumables that have the matching trait as the selected priming element. Using a consumable in this way consumes the item.</span></p><p>@UUID[Compendium.immortal-ardor.archetypes.Item.WjSpXvTF8eH8HQQp]{Effect: Primed Weapon}</p><p></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Heightened (3</strong></span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>rd</strong></span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>) </strong>The duration of the spell increases to 10 minutes.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Heightened</strong> <strong>(5</strong></span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>th</strong></span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>) </strong>The spell’s range becomes 30 feet and you can target and prime up to 2 weapons at a time. The spell’s duration increases to 1 hour.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Heightened</strong> <strong>(7</strong></span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>th</strong></span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>) </strong>As above, but you can target and prime up to 3 weapons at a time. The spell’s duration increases to 8 hours.</span></p>"
+    },
+    "rules": [],
+    "slug": "prime-weapon",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 unattended weapon or weapon wielded by a willing creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "fixed",
+      "levels": {
+        "5": {
+          "target": {
+            "value": "2 unattended weapons or weapons wielded by a willing creature"
+          }
+        }
+      }
+    }
+  },
+  "img": "systems/pf2e/icons/spells/magic-weapon.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.hmt20GisgVMgdFMF",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "hmt20GisgVMgdFMF",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!hmt20GisgVMgdFMF"
+}

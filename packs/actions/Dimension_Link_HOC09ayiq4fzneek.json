@@ -1,0 +1,59 @@
+{
+  "folder": "DL1Cx22P0pj4GTgy",
+  "name": "Dimension Link",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Vaskos can take special lucid actions during the Kalapal Clash as he wills for help from within the Dream. He can only use each action once throughout the entire Clash.</p><ul><li><p><strong>Second Chance: </strong>As a free action triggered when Vaskos drops to 0 hit points, he can use this to recover to 1 hit point plus [[/r 17d6]] hit points and becomes @UUID[Compendium.pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded}.</p></li><li><p><strong>Once More: </strong>As a free action triggered on a turn beginning and it is not Vaskos' turn, he can use this to immediately take a turn prior to the triggering turn.</p></li><li><p><strong>Leaf Bracer: </strong>As a free action triggered when Vaskos recovers hit points, Vaskos can recover the maximum amount of hit points from any dice rolled.</p></li><li><p><strong>Healing Light: </strong>As 2 actions, Vaskos can fully recover the health of his partner. If they were unconscious and/or dying, they immediately Stand and are no longer Dying and Unconscious.</p></li></ul><p></p>"
+    },
+    "rules": [],
+    "slug": "dimension-link",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lucid"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "HOC09ayiq4fzneek",
+  "sort": 400000,
+  "_key": "!items!HOC09ayiq4fzneek"
+}

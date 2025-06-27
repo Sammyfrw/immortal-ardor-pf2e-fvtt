@@ -1,0 +1,124 @@
+{
+  "name": "Facets of Creation",
+  "_id": "mdn9FMsCRMWyyl8M",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Facets",
+      "type": "text",
+      "_id": "DHqVcryeBzhx6PEW",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-size:12.0pt\">When a Dreamer or a dreaming entity leaves an imprint of themselves in Alamein, they give rise to a facet. In any given cycle where they could leave such a mark on the fabric of the greater dream, their ideas, their dreams, or their hopes could be given a formless shape of creativity. These imprinted ideas remain in Alamein from then on, thus existing in some form in every cycle and in any slice of Alamein, be it past, present, or future.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">A facet is a concept or an idea given form; the idea of a spell, the concept of a powerful creature. Such things in the realm of creativity inspires, though it is rare that it actively persists. In fact, the creation of a facet is akin to how a Dreamer could conceive a Dreaming Entity, and for good reason – a dreaming entity is born from a Dreamer’s imagination, full of their passion and vision to the point where it is realized in the dream. Dreaming entities are full of these concepts and ideas – in other words, made up of multitudes of well-defined facets.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">On their own however, a facet is a glimpse, a flash of color, or emotion, an idea that loosely floats in Alamein. They pool together and react with mana in strange ways that creates odd reflections or phenomena in the natural world. Such things are a mystery, but their effects are seen to those who look upon the night sky – a cornucopia of colors, stars, and nebulae. Some near, some far, and sometimes mistaken for other far-off stellar bodies in the distance. In some cases, these mana-facets are clumped in the air like a colorful smog, pool in beautiful crystalline puddles, or form luminescent cavern walls. Some facets are crystallized within solidified mana, found buried within the earth or having fallen from the sky.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">To most denizens of Alamein, these are just magical occurrences in their world: a beautiful rock coated in mana-infused starstuff to create powerful tools, a gem of frozen mana to be turned into jewelry, or a fixture of wonderful manafalls, all adding to the beauty of their world or enrich their resources. Many of these mana-infused substances are used in some way or another in Alamein’s societies just like any other resource. VonArc Station famously uses a Mana Refractor Engine – utilizing a large Manastone reactor to power its entirety.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">But these mana-infused resources bear facets, and these facets bear imprints, made up of the power of dreams. For those who can connect to these imprints locked within the facets, they can bring those powers to reality. In a budding and rare field of manacraft, select few who have the talent or undergo extensive training can channel the imprints within the facets.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">Enter Somnistry.</span></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "_key": "!journal.pages!mdn9FMsCRMWyyl8M.DHqVcryeBzhx6PEW"
+    },
+    {
+      "sort": 200000,
+      "name": "Somnistry",
+      "type": "text",
+      "_id": "wOiercGPhpKtbZ7K",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-size:12.0pt\">Somnistry is one part theology, another part scientific magic that uses facets to call forth the power of Alamein’s constellations. It is the practice of using mana to channel the imprints out of a facet, giving rise to an element of creation born from the imaginations of the dreamer that created the facet in the first place. Those who practice somnistry are known as Asters, attaining the capability either via natural talent, extensive training, or through a life-changing event.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">Those who believe in the theological elements of somnistry follow through on the ideas of the world being that of a dream, and each creature within it a dreamer that sleeps. A multilayered dream that flits in and out of consciousness, and that every entity is a part of a greater cosmos of stars that represent these dreams. While there are small groups and followings devoted to somnistry with their own tenets, deities, and faiths, it is not strictly necessary to adhere to any of these teachings, but some students find the metaphysical concepts helpful in their practice of somnistry.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">To channel a facet’s imprints, an aster needs to first engrave the facet to their soul. Typically, facets can be drawn out from mana-infused matter and kept indefinitely within the aster. In many cases, mana crystals are suitable vessels that most asters carry or keep on hand, as they are portable and can contain facets that they would be able to channel. When engraving the facet, the aster pulls it out from the crystal, and keeps it within themselves as they channel its power. When they do not need it, or if they need to store it away for some reason, they can imbue it back into the crystal. Without the vessel to hold the facet, it could dissipate and be lost if the aster releases it from themselves.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">No matter the accuracy of somnistry -influenced faiths, all dreaming entities are affiliated with a Constellation. This connection has meaningful implications for the properties of facets as well as the asters who channel them. Within a facet contains the imprints of the dreaming entity that created it, and these imprints are often locked multiple layers deep within the facet. Followers of somnistry hold that the facets and the imprints within are tied back to the constellations and stars the facet belongs to, and tapping to this connection is crucial to enable an aster to reach into these layers, dubbed asterisms.</span></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "_key": "!journal.pages!mdn9FMsCRMWyyl8M.wOiercGPhpKtbZ7K"
+    },
+    {
+      "sort": 300000,
+      "name": "Facet Mechanics",
+      "type": "text",
+      "_id": "HqbW6hYYFKzM74Sg",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 3
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h4>Acquiring a Facet</h4><p>A facet is typically first found embedded within a magical item or a mana-infused object. Any dreaming entity (a creature within Alamein) that is an aster could draw out the facet from this item if they can engrave it to their soul, and hold it within themselves. A creature can hold onto any number of facets without engraving them.</p><p>As the facets are held within the essence of the creature that carries them, they can’t be removed except on that creature’s death, or unless the creature releases it. Once released, it can either be engraved into a suitable vessel (typically a mana-infused object or mana crystal, such as the one the facet was originally found in) or transferred to another dreaming entity that can hold it. This can be done with a Crafting check with rules similar to transferring runes onto a runestone.</p><p>Facets can also be found lingering in points in Alamein that are dense with mana. If they can engrave it, they can draw this facet into themselves, otherwise they can engrave it to an appropriate vessel.</p><h4>Engraving a Facet</h4><p>A creature can engrave any number of facets they hold to their soul by attuning to it in a minute-long period of contemplation and focus. A creature can only engrave facets that have an item level that is of their level or higher and must meet any listed requirements to meet the benefit of the facet’s first asterism.</p><p> </p><p>A Facet’s item block contains several important details:</p><ul><li><p>The <strong>Type</strong> of Facet it is (Solar, Stardust, Vortex, or Nebula),</p></li><li><p>The <strong>Constellation</strong> they are affiliated with,</p></li><li><p>The <strong>Equipment</strong> associated with the facet,</p></li><li><p>The <strong>Powers</strong> granted by the facet’s imprints, and their respective <strong>Asterism</strong> levels.</p></li></ul><p> </p><p>If a creature has an attuned magical or biotechnical equipment that matches an engraved facet’s associated equipment, they can instead engrave the facet to the attuned item, and consider attunement for both items as taking a single attunement slot, instead. A piece of attuned equipment can only be bonded to a single facet unless described otherwise.</p><p>While the kind of benefit gained from binding to a facet differs by type, some facets grant stronger or additional benefits when it reaches new asterisms. A creature who can engrave a facet to themselves will gain access to at least the first asterism, but to reach new asterism levels they need to align themselves closer to the ideals and concepts of the facet. To do this, they first meet the requirements listed on the asterism level (usually a level, and sometimes a feat or other requirement).</p><p> </p><p>Secondly, they need one or more of the following:</p><ul><li><p>Align themselves with a Path of Somnistry, affiliating them with a particular type of facet,</p></li><li><p>Bridge themselves to the facet’s affiliated constellation, whether they are born under the same constellation, is sanctified under the constellation, belongs to a favored class of that constellation or to create some other bridge of their own,</p></li><li><p>Engrave the facet to its associated piece of equipment</p></li></ul><p> </p><p>Each of these requirements contribute to one increase in an engraved facet’s accessible asterism level, granting them the benefits and power offered by the new level.</p><p> </p><h3>Types of Facets</h3><p>Facets are divided into 4 types: Solar, Vortex, Nebula, and Stardust. Each type corresponds to a type of benefit they provide to the creature that bonds to it, described in their individual sections below.</p><p>Casting a spell from a facet uses your class DC proficiency if it is higher than your innate spellcasting or your spell proficiency<span style=\"font-family:'Calibri',sans-serif\">, and is cast at a rank that is equal to half your level rounded up</span>. Using a feat from a facet that requires a class DC uses your class DC. Any granted feats or proficiency increases from a facet are considered temporary, and thus cannot be used for the purposes of meeting prerequisites, except if it is granted by another facet you have engraved.</p><p>All feats, spells, and other abilities granted by a Facet have the Constellation trait.</p><p> </p><h4>Solar Facet</h4><p>Solar facets exemplify valor, and the most outward expression of a Dreamer. Solar facets give class feats. These class feats are usually affiliated with the Constellation or the Dreamer the facet belongs to.</p><p>Engraving these facets will grant the class feats to you even though you do not meet the prerequisites or are of a different class, unless the prerequisite feat or a class feature is necessary to perform any of the actions or gain benefits from the feat.</p><h4>Stardust Facet</h4><p>Stardust facets iconify wisdom, and a Dreamer’s innermost creativity. When you engrave a stardust facet, you are granted spells known as Constellation Spells. Constellation spells are a type of focus spell, requiring you to spend focus points to cast them, even if the spells the facets grant you are not typical focus spells.</p><p>You are granted a focus pool when you engrave to a stardust facet if you do not have one. Each stardust facet you engrave to grants you one focus point, up to a maximum of three.</p><h4>Vortex Facet</h4><p>Vortex facets represent courage, and in its inward motions lies a Dreamer’s will to shape their dreams.  Vortex facets grant you general and skill feats, as well as proficiency increases.</p><p>Typically, if you have the granted level of proficiency already, you will gain an extra benefit for engraving a vortex facet.</p><p> </p><h4>Nebula Facet</h4><p>Nebula facets confer mysticism, and it reflects a Dreamer’s connection to the universe. Nebula facets grant a unique innate spell. These spells are incarnate spells, and you can cast only one nebula facet granted spell once per day, even if you engrave to another nebula facet.</p><p>Accessing higher levelled Asterisms on Nebula Facets allow you to cast the granted spell additional times per day, but this benefit is shared among all other nebula facet spells of that asterism. For example, if you have two nebula facets engraved and both have their second asterisms available, you can only cast the spell granted by one of the two facets a second time.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "_key": "!journal.pages!mdn9FMsCRMWyyl8M.HqbW6hYYFKzM74Sg"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!journal!mdn9FMsCRMWyyl8M",
+  "categories": []
+}

@@ -1,0 +1,63 @@
+{
+  "folder": "waw4cAmWKG7S0Jqw",
+  "name": "Parable of the Winding Circle",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span lang=\"EN\"><em style=\"mso-bidi-font-style:normal\">From the gentlest steps of the grazing deer, to the prowls of the fiercest lion. The fires split open the seeds of trees, and the rains nourish the smolders. The air blows the seeds and ash, and the earth houses them as they rest upon it. One day, each of these things will die, and they nourish the lives of those who come after. The young deer will take its first steps to its death. We are no exception.</em></span></p><p class=\"MsoNormal\"><span lang=\"EN\">The Winding Circle represents the flows of the world and each of its inhabitants and its elements, from cradle to death. Each piece plays a crucial part, and rely on each other to sustain the great harmony. But even if there is a disruption in the chain, not everything could suffer. Things change, grow, and shift – what elements have been lost can be found again; in a different shape, in a different way. The stories of the land and its inhabitants pass on and influence the generations that come after. This is the truth of the great harmony.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Dervishes of the Winding Circle tend to be ardent naturalists and seekers, learning about the connections between all things in life, and take steps to ensure that the world and its denizens are preserved. When you’re in your trances you can feel the great harmony around you, and see how all its denizens and elements are connected. You foster strong ties to the companions you journey with, and they follow the same currents to find their place in the Winding Circle.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You gain the following benefits:</span></p><ul><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Zeal action</span></span>: Once per round, you gain Zeal when taking an action with the Air, Water, Fire, Earth, Metal or Wood trait, when you Command your companion, or when your Companion Strikes.</p></li><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Bonus Feat</span></span>: You gain the <em style=\"mso-bidi-font-style:normal\">Aura Slicer</em> dervish feat.</p></li><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Focus Spell</span></span>: You gain the Lifecycle Meditation focus spell.</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "parable-of-the-winding-circle",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.VbeX8mJUhn9o7taQ",
+    "duplicateSource": "Item.VbeX8mJUhn9o7taQ",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "JY1YtoHPSOpHzC3P",
+  "_key": "!items!JY1YtoHPSOpHzC3P"
+}

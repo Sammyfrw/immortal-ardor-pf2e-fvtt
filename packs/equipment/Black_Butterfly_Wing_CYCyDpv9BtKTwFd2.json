@@ -1,0 +1,166 @@
+{
+  "name": "Black Butterfly Wing",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/equipment/weapons/bastard-sword.webp",
+  "effects": [],
+  "folder": "FpNLrqP4hhllM1lT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.6KWYmeRMxsQfWhhJ"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This blacksteel broad-bladed sword bears a sharp curve  and has a longer grip so it can be held in one hand or used with two hands to provide extra piercing or slashing power.</p><p>It has seen a lot of care and attention by Meliora.</p><p><strong>Activation </strong><em>Butterfly Dash</em> (Concentrate, Teleportation)</p><p><strong>Activate </strong><span class=\"pf2-icon\"><strong>1</strong></span><strong>  to </strong><span class=\"pf2-icon\"><strong>2</strong></span></p><p><strong>Frequency</strong> Once per minute</p><hr /><p>You transform into a slew of vibrant butterflies, fluttering towards your destination. You teleport up to a distance equal to your Speed for 1 action, or twice your Speed for 2 actions. You reform at your target location, but the butterflies linger and float around you, granting you a +2 circumstance bonus to you AC until the end of you next turn.</p><p>This action removes any effect is causing you to be Restrained, Grabbed or otherwise Immobilized by physical means, or any other means if the effect depends on the space you were in. If you were Prone, you can also reappear on your feet.</p>"
+    },
+    "rules": [],
+    "slug": "black-butterfly-wing",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "brace",
+        "finesse",
+        "two-hand-d10",
+        "versatile-p"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "quantity": 1,
+    "baseItem": "bastard-sword",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 25000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": "sovereign-steel",
+      "grade": "standard"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Bastard Sword",
+        "img": "systems/pf2e/icons/equipment/weapons/bastard-sword.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "slashing",
+      "persistent": null,
+      "value": ""
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "reload": {
+      "value": ""
+    },
+    "runes": {
+      "potency": 3,
+      "striking": 2,
+      "property": [
+        "greaterThundering",
+        "greaterExtending",
+        "keen"
+      ]
+    },
+    "specific": {
+      "material": {
+        "type": "sovereign-steel",
+        "grade": "standard"
+      },
+      "runes": {
+        "potency": 3,
+        "striking": 2,
+        "property": [
+          "greaterThundering",
+          "greaterExtending",
+          "keen"
+        ]
+      }
+    },
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": null,
+      "die": "",
+      "damageType": "",
+      "critDice": null,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "criticalConditionType": "",
+      "criticalConditionValue": null,
+      "strikeConditionType": "",
+      "strikeConditionValue": null
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.6KWYmeRMxsQfWhhJ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "CYCyDpv9BtKTwFd2",
+  "sort": 600000,
+  "_key": "!items!CYCyDpv9BtKTwFd2"
+}

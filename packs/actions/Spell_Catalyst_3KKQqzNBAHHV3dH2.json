@@ -1,0 +1,84 @@
+{
+  "_id": "3KKQqzNBAHHV3dH2",
+  "name": "Spell Catalyst",
+  "type": "feat",
+  "img": "icons/containers/bags/sack-simple-leather-teal.webp",
+  "effects": [],
+  "folder": "MJ3Wppz7DnV8a1wT",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are able to make greater use of spell components than other manafonts, drawing out the prime elements of the world from them. You learn the @UUID[Compendium.immortal-ardor.actions.Item.l3ecoYD2MwGUJhaa]{Spell Catalyst} free action.<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> </span></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.actions.Item.l3ecoYD2MwGUJhaa"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manafont",
+        "spellshape"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Evoker Manafont"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.3KKQqzNBAHHV3dH2",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!3KKQqzNBAHHV3dH2"
+}

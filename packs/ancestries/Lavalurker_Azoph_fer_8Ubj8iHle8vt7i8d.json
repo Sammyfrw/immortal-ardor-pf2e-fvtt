@@ -1,0 +1,56 @@
+{
+  "_id": "8Ubj8iHle8vt7i8d",
+  "name": "Lavalurker Azoph-fer",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "vdrE5IURf9W3E57H",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The lands your lineage descends from is rife with ash, lava and brimstone. You do not suffer the effects of Extreme Heat, and you suffer from fatigue in 8 hours instead of 4 hours for Extreme and Severe Heat environments, and 4 hours for Incredible Heat environments. Your flat check to remove persistent fire damage is DC 10 instead of DC 15, which is reduced to DC 5 if another creature uses a particularly appropriate action to help.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Azoph-fer",
+      "uuid": "Item.6JAXzYb9Jg9SjoNk",
+      "slug": "azoph-fer"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.8Ubj8iHle8vt7i8d",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!8Ubj8iHle8vt7i8d"
+}

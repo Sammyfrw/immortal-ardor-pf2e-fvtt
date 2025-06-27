@@ -1,0 +1,86 @@
+{
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/water/orb-water-bubbles-teal.webp",
+  "name": "Arbiter's Bond",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You channel a bond to your target, establishing a warding barrier that ties the both of you together. When you cast this spell and when you sustain this spell each round, the target gains 2 temporary hit points. In addition, whenever you cast a defensive spell with a reach of self or touch targeting one creature, you can instead target your ward as long as your ward is within 100 feet of you. </p><p>This spell ends if your ward dies.</p><p>@UUID[Compendium.immortal-ardor.archetypes.Item.j7jTkwtLtEtut9BZ]{Effect: Arbiter's Bond}</p><hr /><p><strong>Heightened (+1)</strong> The temporary hit points the ward gains increases by 2.</p>"
+    },
+    "rules": [],
+    "slug": "arbiters-bond",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "wizard"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 willing ally"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.Item.LoBjvguamA12iyW0"
+    }
+  },
+  "effects": [],
+  "folder": "ZcN0puSEDW5UKCXd",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.spells-srd.Item.LoBjvguamA12iyW0",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "DfYzvUcQ8DaohGYE",
+  "sort": 300000,
+  "_key": "!items!DfYzvUcQ8DaohGYE"
+}

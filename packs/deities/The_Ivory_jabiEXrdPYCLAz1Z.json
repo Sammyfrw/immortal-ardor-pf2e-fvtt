@@ -1,0 +1,80 @@
+{
+  "folder": "scRkkbziDxqsiAqB",
+  "name": "The Ivory",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h4>The Goat / The Ivory</h4><p class=\"MsoNormal\"><strong>Personality </strong>Organized, respectful, devoted, classy, materialistic, serious, staid, ambitious and practical</p><p class=\"MsoNormal\"><strong>Astral Attribute </strong>Constitution or Intelligence</p><p class=\"MsoNormal\"><strong>Astral Element </strong>Metal</p><p class=\"MsoNormal\"><strong>Astral Gemstone </strong>Peridot</p><p class=\"MsoNormal\"><strong>Astral Colors </strong>Silver, Purple</p><p class=\"MsoNormal\"><strong>Astral Brand </strong>Capraccio – High-end fashion and jewelry</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong><span style=\"text-decoration:underline\">Cosmic Benefits</span></strong></p><p class=\"MsoNormal\"><strong>Cleric Spells</strong></p><p class=\"MsoNormal\"><strong>Divine Font </strong>Harm</p><p class=\"MsoNormal\"><strong>Divine Sanctification </strong>Can choose unholy</p><p class=\"MsoNormal\"><strong>Divine Skill </strong>Society</p><p class=\"MsoNormal\"><strong>Domains </strong>Indulgence, Wealth, Family, Metal</p><p class=\"MsoNormal\"><strong>Favored Weapon Group </strong>Polearm</p><p class=\"MsoNormal\"><strong>Favored Classes </strong>Sorcerer, Magus, Technomancer, Wizard, Operative, Envoy</p>"
+    },
+    "rules": [],
+    "slug": "the-ivory",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "covenant",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "indulgence",
+        "wealth",
+        "family",
+        "metal"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "con",
+      "int"
+    ],
+    "skill": [
+      "society"
+    ],
+    "weapons": [
+      "halberd",
+      "longspear"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/equipment/treasure/art-objects/moderate-art-object/marble-altar.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.jabiEXrdPYCLAz1Z",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "jabiEXrdPYCLAz1Z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!jabiEXrdPYCLAz1Z"
+}

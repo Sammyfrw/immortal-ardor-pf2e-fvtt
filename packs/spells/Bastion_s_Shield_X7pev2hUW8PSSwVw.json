@@ -1,0 +1,85 @@
+{
+  "folder": "mpWiWjUlSr3Cmm4k",
+  "name": "Bastion's Shield",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You conjure a visage that closely resembles a personification of the Bastion's Shield. Through withstanding suffering, you can respond back twicefold.</p><p></p><p><strong>Visage of the Bastion's Shield</strong> Speed 80 feet, fly 80 feet <strong>Arrive </strong><em>Withstand Suffering </em>The visage creates a 30 foot emanation around them in an arcane barrier. All allies within this visage gain resistance to all damage equal to 5 plus twice the spell's rank. Any time you or your allies reduce damage through the resistance, make note of it as the pain endured gathers unto the Visage. </p><p><strong>Depart </strong><em>Revenge Twicefold </em>The Visage's shield breaks violently, inflicting the suffering back against their afflictors. Enemy creatures within a 30-foot emanation take damage equal to the number of times an ally's damage taken was reduced by this spell's resistance (up to a maximum of 5) multiplied by the resistance's value with a basic Fortitude save.</p>"
+    },
+    "rules": [],
+    "slug": "bastions-shield",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "constellation",
+        "focus",
+        "incarnate",
+        "manipulate"
+      ],
+      "rarity": "unique",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "until the end of your next turn",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "X7pev2hUW8PSSwVw",
+  "img": "systems/pf2e/icons/spells/dancing-shield.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.X7pev2hUW8PSSwVw",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!X7pev2hUW8PSSwVw"
+}

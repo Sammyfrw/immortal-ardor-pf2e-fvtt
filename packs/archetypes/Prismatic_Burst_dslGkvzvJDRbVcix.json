@@ -1,0 +1,82 @@
+{
+  "name": "Prismatic Burst",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "vyy8rQSagb0icXNs",
+  "flags": {
+    "core": {
+      "sourceId": "Item.FZDEpDqW3vY5NMte"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your shifting elemental weaponry leaves a mark on your target, leaving them vulnerable to magic aligned with those elements. Whenever you use Enchanted Strike on a creature, that creature suffers a -2 status penalty to its AC and saves against spells which have a matching elemental trait as the element used in the Enchanted Strike until the end of your next turn.</p>"
+    },
+    "rules": [],
+    "slug": "prismatic-burst",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Armiger Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.dslGkvzvJDRbVcix",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "dslGkvzvJDRbVcix",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!dslGkvzvJDRbVcix"
+}

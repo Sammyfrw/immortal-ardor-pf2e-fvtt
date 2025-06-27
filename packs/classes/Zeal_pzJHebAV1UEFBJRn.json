@@ -1,0 +1,80 @@
+{
+  "folder": "HHpORz2ULEYVOYEV",
+  "name": "Zeal",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Zeal is a representation of how strong your connection to the spiritual realm is. The greater your zeal, the more you feel closer to the philosophy you embody. As you gain it, spiritual power envelops yourself, putting it in reach of your fingertips.</p><p class=\"MsoNormal\">As a Dervish, you gain Zeal whenever you take an Attack action. Feats or class features might grant you additional ways to acquire Zeal. If you qualify for multiple sources of Zeal in a single action or activity, you gain one point of Zeal for each qualifying source. For example, if a feature allowed you to gain Zeal from a Trip attempt, you would gain 2 Zeal; one from the attack action and one from the feature. When you gain Zeal, you gain it at the start of your action.</p><p class=\"MsoNormal\">You can only gain Zeal during moments of heightened threat or tension, typically during Encounter mode, immediately prior to combat, during a fight, or intense debate. You can have up to a total of 5 Zeal at any one time, and you lose all Zeal at the end of your turn unless you take an action that grants you Zeal during your turn, or take a single action with the Concentrate trait to maintain your Zeal. You also lose all Zeal if you fall unconscious, if you die, or shortly after encounter mode ends.</p><h3>Zenith</h3><p class=\"MsoNormal\">Zenith actions allow you to spend your Zeal for additional effects. These actions have the Zenith trait. When you use them, you spend all your Zeal at the start of the action. Typically, the more Zeal spent, the more powerful they become. You do not gain Zeal during a Zenith action, even if it entails performing actions that would normally grant you Zeal.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "check",
+        "text": "You gain Zeal.",
+        "title": "Zeal Gain",
+        "predicate": [
+          "attack"
+        ]
+      },
+      {
+        "key": "SpecialResource",
+        "label": "Zeal",
+        "max": "5",
+        "slug": "zeal",
+        "renew": "false"
+      }
+    ],
+    "slug": "zeal",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 56250,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "pzJHebAV1UEFBJRn",
+  "_key": "!items!pzJHebAV1UEFBJRn"
+}

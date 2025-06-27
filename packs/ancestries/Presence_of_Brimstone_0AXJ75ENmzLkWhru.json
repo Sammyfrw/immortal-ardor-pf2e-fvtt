@@ -1,0 +1,79 @@
+{
+  "_id": "0AXJ75ENmzLkWhru",
+  "name": "Presence of Brimstone",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "effects": [],
+  "folder": "i5TqMcurowu1xN0y",
+  "flags": {
+    "core": {
+      "sourceId": "Item.3gMsvpvM1wURPDb4"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your body surges with the fiendish power that flows within you, granting you terrible but powerful strength. Your horns and your form enlarge, and you can channel flame or cosmic forces to coat your arms. You permanently gain the effects of @UUID[Compendium.pf2e.spells-srd.wzctak6BxOW8xvFV]{Enlarge}, and any Cazic-fer unarmed attacks you have increased damage by one die step.<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"font-size:12.0pt;font-family:'Calibri',sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"> </span>In addition, fiends you encounter that are lower level than you will have a better disposition of you and the outcome of your @Compendium[pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression} checks against them will be one degree of success higher.</span></p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><u><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Special:</span></u><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have @Item[f6EZc3Z1bvZHFapr]{Hellish Grasp}, you can change the damage type of your weapon attacks in addition to your unarmed attacks. </span></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cazic-fer",
+        "polymorph"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.0AXJ75ENmzLkWhru",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!0AXJ75ENmzLkWhru"
+}

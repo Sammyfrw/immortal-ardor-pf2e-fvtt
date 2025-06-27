@@ -1,0 +1,132 @@
+{
+  "name": "Distortion Blade",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/gravity-weapon.webp",
+  "effects": [],
+  "folder": "gkiUEZAVZc8J8ihW",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are wielding a Mourneblade in your hand</p>\n<hr />\n<p class=\"MsoNormal\">Your Mourneblade is imbued with the power to bend through reality, allowing it to seemingly lengthen, bend and cut through space farther than it should.</p>\n<p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>When you cast this spell, you Strike against up to 3 enemy creatures within the area with your Mourneblade, at your current multi-attack penalty. You gain multi-attack penalty at the end of your Strikes. At the end of this spell, your Mourneblade shatters.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Heightened</span></strong><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">(5<sup>th</sup>): Your weapon lengthens, allowing you to choose a 15ft. diagonal cone or 15ft. line or a 10 ft. emanation.</span></p>\n<p class=\"MsoNormal\"><strong><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Heightened</span></strong><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">(8<sup>th</sup>): You can target any number of enemy creatures within the spell’s area.</span></p>"
+    },
+    "rules": [],
+    "slug": "distortion-blade",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "Touch"
+    },
+    "area": {
+      "value": 5,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {
+      "GsEEEXoJufqvCnD7": {
+        "name": "Distortion Blade (Line)",
+        "sort": 1,
+        "system": {
+          "heightening": {
+            "type": "fixed",
+            "levels": {
+              "5": {
+                "area": {
+                  "value": "15",
+                  "type": "line"
+                }
+              }
+            }
+          },
+          "defense": null
+        },
+        "_stats": {},
+        "_id": "GsEEEXoJufqvCnD7",
+        "overlayType": "override"
+      },
+      "IQcQTGiZOIHfwe5t": {
+        "name": "Distortion Blade (Cone)",
+        "sort": 2,
+        "system": {
+          "area": {
+            "type": "cone"
+          },
+          "heightening": {
+            "type": "fixed",
+            "levels": {
+              "5": {
+                "area": {
+                  "value": "15",
+                  "type": "cone"
+                }
+              }
+            }
+          },
+          "defense": null
+        },
+        "_stats": {},
+        "_id": "IQcQTGiZOIHfwe5t",
+        "overlayType": "override"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.1MsSIas0HPgr4li8",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "1MsSIas0HPgr4li8",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!1MsSIas0HPgr4li8"
+}

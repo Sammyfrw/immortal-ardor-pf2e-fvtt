@@ -1,0 +1,115 @@
+{
+  "_id": "ewGrtplSIvuXo6eJ",
+  "name": "Sanguine Scythe",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/sunblade.webp",
+  "effects": [],
+  "folder": "ZWAHkfklX6l0PZUW",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": 1,
+      "terraintype": "ground",
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You conjure a reaping blade of necrotic energy, draining your target of their lifeblood. You deal 6d6 negative/necrotic damage to the target.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\">If you cast this spell using two actions, you gain temporary hit points equal to half the damage dealt, after accounting for resistances and the like, which last for one minute. If the target is taking persistent bleed damage, you can choose to recover hit points instead of gaining temporary hit points.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\">If you cast this spell using three actions, you can instead direct the temporary hit points or healing to another creature within 30 feet of you or your target.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Critical Success</strong> The target takes no damage.</p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Success</strong> The target takes damage, but you do not gain any temporary hit points or healing.</p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Failure</strong> The target takes full damage and you gain half the damage after accounting for resistances and the like as temporary hit points or healing.</p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Critical Failure</strong> The target takes full damage and you gain the total amount of damage dealt after accounting for resistances and the like as temporary hit points or healing.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Heightened(+1)</strong> The damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "sanguine-scythe",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "death",
+        "focus",
+        "manipulate",
+        "void"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 living creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2 to 3 actions"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "0": {
+        "formula": "6d6",
+        "type": "void",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "passive": null,
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "0": "1d6"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ewGrtplSIvuXo6eJ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!ewGrtplSIvuXo6eJ"
+}

@@ -1,0 +1,75 @@
+{
+  "folder": "aDH8C7M7CfHOHAon",
+  "name": "Phalanx",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You Strike at an opponent with an unarmed or brawling weapon, with a reach that is up to 5 ft. higher than your current reach. After your attack, you can Step towards the opponent. </p><p>If you spend a focus point when you use this action, you can attempt to Trip or Shove your target opponent after the Strike at the same multi attack penalty. This counts as two Strikes for the purpose of incurring multi attack penalty, but you only add them both at the end of both actions.</p>"
+    },
+    "rules": [],
+    "slug": "phalanx",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "constellation",
+        "flourish"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "WHhhOz0s3EtI1EWD",
+  "sort": 400000,
+  "_key": "!items!WHhhOz0s3EtI1EWD"
+}

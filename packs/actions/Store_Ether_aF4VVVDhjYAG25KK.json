@@ -1,0 +1,78 @@
+{
+  "_id": "aF4VVVDhjYAG25KK",
+  "name": "Store Ether",
+  "type": "feat",
+  "img": "icons/skills/social/wave-halt-stop.webp",
+  "effects": [],
+  "folder": "MJ3Wppz7DnV8a1wT",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are able to store volatile ether longer than the average enforcer, avoiding the effects of ether poisoning through physical and mental conditioning. After you Refocus, the first time you would gain a focus point, you gain an additional focus point.</span></p>"
+    },
+    "rules": [],
+    "slug": "store-ether",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manafont"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Enforcer Manafont"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.aF4VVVDhjYAG25KK",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!aF4VVVDhjYAG25KK"
+}

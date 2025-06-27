@@ -1,0 +1,89 @@
+{
+  "name": "Armiger Dedication",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "vyy8rQSagb0icXNs",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You take your initial steps in applying your spellsmithing talents to combat. You become trained in Crafting; if you were already trained in Crafting you become trained in a skill of your choice.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You automatically learn the Magical Crafting skill feat, even if you are not an expert in Crafting. You have access to a Basic Crafter’s Book. In addition, you have access to any combination of 3 1</span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">st</span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">-level common formulae, and 2 2</span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">nd</span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">-level common formulae, all in the weapon, armor or shield category.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You gain flexible spellcasting with the Arcane tradition, gaining a spellbook with four common arcane cantrips of your choice. You are trained in spell attacks and DCs, using Intelligence as your spellcasting ability. Focus Spells you gain from this archetype are considered arcane spells, and if you gain spells from this archetype you select from the arcane spell list. You can use a primed weapon as a substitute for material components instead of needing a material component pouch.</span></p><p>You also learn the @UUID[Compendium.immortal-ardor.archetypes.Item.hmt20GisgVMgdFMF]{Prime Weapon} focus spell and the @UUID[Compendium.immortal-ardor.archetypes.Item.b0rk9DEzhKtfsxk0]{Enchanted Strike} action.</p><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Special: </strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">If you are an Evoker,<strong> </strong>a primed weapon is a usable catalyst for Spell Catalyst. When used in this way, the weapon’s element trait is removed and no longer becomes primed.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Item.b0rk9DEzhKtfsxk0"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication",
+        "manafont"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "+2 Strength"
+        },
+        {
+          "value": "+2 Intelligence"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.nRVM7sbHQEiHZKdA",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "nRVM7sbHQEiHZKdA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!nRVM7sbHQEiHZKdA"
+}

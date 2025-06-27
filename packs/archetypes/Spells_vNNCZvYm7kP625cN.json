@@ -1,0 +1,19 @@
+{
+  "name": "Spells",
+  "sorting": "a",
+  "folder": "FfAahfPBOpP76F7D",
+  "type": "Item",
+  "_id": "vNNCZvYm7kP625cN",
+  "description": "",
+  "sort": 500000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!vNNCZvYm7kP625cN"
+}

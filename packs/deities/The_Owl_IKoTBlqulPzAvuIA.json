@@ -1,0 +1,80 @@
+{
+  "folder": "scRkkbziDxqsiAqB",
+  "name": "The Owl",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h4>The Maiden / The Owl</h4><p class=\"MsoNormal\"><strong>Personality </strong>Discriminating, obsessive, realistic, analytical, reliable, self-contained, knowledgeable, street-smart, detailed, and modest.</p><p class=\"MsoNormal\"><strong>Astral Attribute </strong>Intelligence or Wisdom</p><p class=\"MsoNormal\"><strong>Astral Element </strong>Ice</p><p class=\"MsoNormal\"><strong>Astral Gemstone </strong>Sapphire</p><p class=\"MsoNormal\"><strong>Astral Colors </strong>Green and Gold</p><p class=\"MsoNormal\"><strong>Astral Brand </strong>Maiden’s Kiss – Smart, sleek and business-casual attire</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong><span style=\"text-decoration:underline\">Cosmic Benefits</span></strong></p><p class=\"MsoNormal\"><strong>Cleric Spells</strong></p><p class=\"MsoNormal\"><strong>Divine Font</strong> Harm</p><p class=\"MsoNormal\"><strong>Divine Sanctification </strong>Can choose Order, can choose unholy</p><p class=\"MsoNormal\"><strong>Divine Skill</strong> Arcana</p><p class=\"MsoNormal\"><strong>Domains </strong>Knowledge, Magic, Moon, Cold</p><p class=\"MsoNormal\"><strong>Favored Weapon Group</strong> Crossbow</p><p class=\"MsoNormal\"><strong>Favored Classes </strong><span style=\"mso-bidi-font-weight:bold\">Wizard, Magus, Druid, Witch, Investigator, Soldier</span></p>"
+    },
+    "rules": [],
+    "slug": "the-owl",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "covenant",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "knowledge",
+        "magic",
+        "moon",
+        "cold"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "int",
+      "wis"
+    ],
+    "skill": [
+      "arcana"
+    ],
+    "weapons": [
+      "crossbow",
+      "crossbolter"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/spells/animal-messenger.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.IKoTBlqulPzAvuIA",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "IKoTBlqulPzAvuIA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!IKoTBlqulPzAvuIA"
+}

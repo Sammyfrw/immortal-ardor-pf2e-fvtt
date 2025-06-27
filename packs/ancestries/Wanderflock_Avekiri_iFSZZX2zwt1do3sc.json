@@ -1,0 +1,56 @@
+{
+  "_id": "iFSZZX2zwt1do3sc",
+  "name": "Wanderflock Avekiri",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "YoLAauwV9BXH0dl1",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Never content to remain in one place or the other, your ancestors traveled across the lands and saw the world, bestowing the fruits of wanderlust to their descendants. You are trained in Survival, and gain a +2 circumstance bonus to make saving throws against Hazards.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Avekiri",
+      "uuid": "Item.nNtTrMVuAgB4bs4p",
+      "slug": "avekiri"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.iFSZZX2zwt1do3sc",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!iFSZZX2zwt1do3sc"
+}

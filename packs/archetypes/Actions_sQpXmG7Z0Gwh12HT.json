@@ -1,0 +1,19 @@
+{
+  "name": "Actions",
+  "type": "Item",
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "flags": {},
+  "_id": "sQpXmG7Z0Gwh12HT",
+  "folder": "FfAahfPBOpP76F7D",
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!sQpXmG7Z0Gwh12HT"
+}

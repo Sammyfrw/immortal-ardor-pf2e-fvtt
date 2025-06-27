@@ -1,0 +1,114 @@
+{
+  "folder": "qfpBa1r3Wp7m8W3c",
+  "name": "Apex Path",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Engraved into your soul, you've tapped into an imagined possibility, expanding your horizons beyond what you are previously capable of.</p><p>You take the first steps of becoming something more than mortal; a legend in the making, an avatar of a greater being, an entity chosen by gods, or pushing yourself beyond perfection. Whatever path it takes, this marks the beginning of your journey of ascension.</p><p class=\"MsoNormal\">When you acquire this feature, select an Apex Path that you meet the requirements for. A list of potential Apex Paths is described at the end of this section.</p><p>An Apex Path represents your journey of ascension, and contains several crucial features:</p><ul><li><p>An apex attribute</p></li><li><p>An apex skill</p></li><li><p>Features you gain upon selecting the path, and at 4th, 7th and at 10th ascension rank</p></li></ul><p class=\"MsoNormal\">Upon selecting the Apex Path, you immediately raise the path’s apex attribute bonus to +4, or raise it by 1, whichever grants the higher bonus. This functions similarly to what would occur if you invest in an apex item with that attribute, except it is a permanent change so long as you are on the Apex Path. Notably, however, you do not raise your attribute bonus from investing an apex item of the same attribute (but you do get any other benefits it confers). You are still able to invest an apex item of a different attribute and benefit from it as normal.</p><p class=\"MsoNormal\">Additionally, you become an expert in the apex skill. If you are at least 3<sup>rd</sup> level, you become a master in the skill, at 7<sup>th</sup> level you become a legend in the skill, and at 15<sup>th</sup> level you become mythic in that skill, which raises your proficiency bonus to 10 + your level.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "{item|flags.pf2e.rulesSelections.ascenscionAttributeMod}",
+        "value": 1
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Strength",
+            "value": "system.abilities.str.mod"
+          },
+          {
+            "label": "Dexterity",
+            "value": "system.abilities.dex.mod"
+          },
+          {
+            "label": "Constitution",
+            "value": "system.abilities.con.mod"
+          },
+          {
+            "label": "Intelligence",
+            "value": "system.abilities.int.mod"
+          },
+          {
+            "label": "Wisdom",
+            "value": "system.abilities.wis.mod"
+          },
+          {
+            "label": "Charisma",
+            "value": "system.abilities.cha.mod"
+          }
+        ],
+        "prompt": "Select an attribute.",
+        "flag": "ascenscionAttributeMod"
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "ascended"
+        ]
+      }
+    ],
+    "slug": "apex-path",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ascension"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/commodities/gems/pearl-blue-gold.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.Ah3QP4CJVxNMUVfv",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "Ah3QP4CJVxNMUVfv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!Ah3QP4CJVxNMUVfv"
+}

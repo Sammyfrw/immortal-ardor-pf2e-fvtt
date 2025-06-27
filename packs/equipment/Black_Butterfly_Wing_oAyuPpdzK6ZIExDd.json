@@ -1,0 +1,157 @@
+{
+  "name": "Black Butterfly Wing",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/equipment/weapons/bastard-sword.webp",
+  "effects": [],
+  "folder": "FpNLrqP4hhllM1lT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.6KWYmeRMxsQfWhhJ"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This blacksteel broad-bladed sword bears a sharp curve  and has a longer grip so it can be held in one hand or used with two hands to provide extra piercing or slashing power.</p>\n<p><strong>Activate <span class=\"pf2-icon\">1</span>  to <span class=\"pf2-icon\">2</span></strong></p>\n<p><strong>Frequency</strong> Once per minute</p>\n<p>You stride once or twice, your form turning into butterflies as you do so. This move action gives you a +2 circumstance bonus to you AC against any attacks until the end of you next turn as the butterflies linger when you reappear at the end of your last Stride. When you reappears, you can choose to be standing up, if you were previously prone, and this action removes any effect that would cause you to be restrained, grappled or otherwise immobilized by physical means.</p>\n<p> </p>\n<p> </p>"
+    },
+    "rules": [],
+    "slug": "black-butterfly-wing",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "finesse",
+        "two-hand-d10",
+        "versatile-p"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "quantity": 1,
+    "baseItem": "bastard-sword",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 4
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Bastard Sword",
+        "img": "systems/pf2e/icons/equipment/weapons/bastard-sword.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "slashing",
+      "persistent": null,
+      "value": ""
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "reload": {
+      "value": ""
+    },
+    "runes": {
+      "potency": 1,
+      "striking": 1,
+      "property": []
+    },
+    "specific": {
+      "material": {
+        "type": null,
+        "grade": null
+      },
+      "runes": {
+        "potency": 1,
+        "striking": 1,
+        "property": []
+      }
+    },
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": null,
+      "die": "",
+      "damageType": "",
+      "critDice": null,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "criticalConditionType": "",
+      "criticalConditionValue": null,
+      "strikeConditionType": "",
+      "strikeConditionValue": null
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.6KWYmeRMxsQfWhhJ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "oAyuPpdzK6ZIExDd",
+  "sort": 700000,
+  "_key": "!items!oAyuPpdzK6ZIExDd"
+}

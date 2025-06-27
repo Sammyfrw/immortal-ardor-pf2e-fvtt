@@ -1,0 +1,79 @@
+{
+  "_id": "RDSJNsGsIb3xu1Os",
+  "name": "Cosmic Judgment",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "effects": [],
+  "folder": "i5TqMcurowu1xN0y",
+  "flags": {
+    "core": {
+      "sourceId": "Item.3gMsvpvM1wURPDb4"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your being is aligned with the powers of order or chaos. When you select this feat, you gain the @UUID[Compendium.pf2e.spells-srd.qwZBXN6zBoB9BHXE]{Divine Lance} cantrip as an innate divine spell. You also gain the @UUID[Compendium.pf2e.spells-srd.hVU9msO9yGkxKZ3J]{Divine Wrath} spell as a 4<sup>th</sup>-level innate divine spell you can cast once per day. If you are sanctified to a planar force, this feat gains the corresponding trait.</span></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cazic-fer",
+        "divine"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.RDSJNsGsIb3xu1Os",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!RDSJNsGsIb3xu1Os"
+}

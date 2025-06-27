@@ -1,0 +1,19 @@
+{
+  "name": "Ancestry Feats",
+  "type": "Item",
+  "sort": 12500000,
+  "flags": {},
+  "sorting": "a",
+  "color": null,
+  "_id": "zhOMSFBLyPZXVedB",
+  "folder": "Aw9wCTMvovNrZH2G",
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!zhOMSFBLyPZXVedB"
+}

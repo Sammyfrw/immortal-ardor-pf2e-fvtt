@@ -1,0 +1,106 @@
+{
+  "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/equipment/alchemical-items/food/auric-noodles.webp",
+  "name": "Auric Parmigiana",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> 50 sp<br /><strong>Ingredients</strong> 6 basic, 2 special<br /><strong>Preparation</strong> DC 18 Cooking Lore, DC 20 Survival</span><br /><strong>Requirements</strong> Basic Kitchen plus Magical or Alchemical Crafting OR Magic Kitchen<br /><strong>Favorite Meal</strong> For the duration of the meal, you can cast @UUID[Compendium.pf2e.spells-srd.gpzpAAAJ1Lza2JVl]{Detect Magic} as an innate 1st-rank spell.</p><hr /><p>Auric parmigiana is pasta that is boiled, then pan-fried and tossed with sliced vegetables and a sticky, savory tomato sauce incorporating alchemical reagents, layered with cheese, coming in both eggplant and chicken flavors.</p><p>After you eat the noodles, they boost your ability to sense magic for 24 hours or until you make your next daily preparations, whichever comes first. You gain a +1 item bonus to checks to Identify Magic or increase any existing item bonuses to Identify Magic. You can also move at full speed while using the @UUID[Compendium.pf2e.actionspf2e.Item.Yb0C1uLzeHrVLl7a]{Detect Magic} exploration activity.</p><p>@UUID[Compendium.immortal-ardor.equipment.Item.KXezxpaImgYoXmrk]{Effect: Auric Parmigiana}</p>"
+    },
+    "rules": [],
+    "slug": "auric-parmigiana",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "alchemical",
+        "consumable",
+        "meal",
+        "processed"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/equipment/alchemical-items/food/auric-noodles.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "type": "consumable",
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.5lfBizJH5eZx3sxJ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "effects": [],
+  "folder": "I3N0LWkmyhk7xTuc",
+  "flags": {},
+  "_id": "5lfBizJH5eZx3sxJ",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!5lfBizJH5eZx3sxJ"
+}

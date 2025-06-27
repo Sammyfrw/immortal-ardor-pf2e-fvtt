@@ -1,0 +1,98 @@
+{
+  "folder": "OSnty47dMMunhz2S",
+  "name": "Magi-Grav Storage (Lesser)",
+  "type": "backpack",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A specialized compartment in the trunk, this keeps anything stored in here very safe from any sort of impact or jostling, utilizing powerful magi-graviton seals, and blocks magical auras.</p><p>This upgrade functions as having a @UUID[Compendium.pf2e.equipment-srd.g9pOZsJykSihdyrL]{Sealing Chest (Lesser)} within the vehicle, with notable differences. It can store up to 5 Bulk of objects, and the auras and curses of objects placed in the chest cannot extend beyond the box unless they are 2 levels greater than the storage.</p><p>The vehicle will also have capabilities to scan, monitor and adjust the conditions of the storage, which includes limiting the dampening effect and controlling its locks. These functions can be extended into other tech for easier access if desired, or to be turned into a dumb storage if needed.</p>"
+    },
+    "rules": [],
+    "slug": "magi-grav-storage-lesser",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical",
+        "tech"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 5,
+      "heldOrStowed": 5,
+      "capacity": 5,
+      "ignored": 5
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 1250
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Container",
+        "img": "systems/pf2e/icons/default-icons/backpack.svg",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "collapsed": false,
+    "stowing": true,
+    "usage": {
+      "value": "other"
+    }
+  },
+  "_id": "Q9Jak38uOq1jTt6L",
+  "img": "icons/containers/chest/chest-reinforced-stone.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.Q9Jak38uOq1jTt6L",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!Q9Jak38uOq1jTt6L"
+}

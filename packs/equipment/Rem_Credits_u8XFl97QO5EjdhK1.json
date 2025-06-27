@@ -1,0 +1,87 @@
+{
+  "folder": "EbpGyDFGHnarXF7q",
+  "name": "Rem Credits",
+  "type": "treasure",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Rem credits are the universal currency of the Alamein galaxy, created out of necessity after the Nightmare Cascade created an intergalactic reset on astral economics. While initially a purely non-fungible currency to establish valuation across various Alamein worlds, it has since turned into a digital currency that has established values. Most creds are stored in transferrable or disposable credsticks, using NFC technology and varying degrees of multi-factor authorization to ensure any transfer of credits is sanctioned. </p><p>However, disposable credsticks frequently do not have protections or the handshaking process needed to be traceable, which leaves these 'ghoststicks' as they are known very desirable for those who do not want transfer of currencies logged in any shape or form.</p>"
+    },
+    "rules": [],
+    "slug": "rem-credits",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 1
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Treasure",
+        "img": "icons/commodities/currency/coins-assorted-crown-blue.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "stackGroup": "coins"
+  },
+  "img": "icons/commodities/currency/coins-assorted-crown-blue.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "u8XFl97QO5EjdhK1",
+  "sort": 100000,
+  "_key": "!items!u8XFl97QO5EjdhK1"
+}

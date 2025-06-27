@@ -1,0 +1,75 @@
+{
+  "folder": "UF68LXkhIRJVJDmy",
+  "name": "Effect: Anticoagulation",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "itemType": "condition",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "predicate": [
+          "item:damage:type:bleed"
+        ],
+        "property": "pd-recovery-dc",
+        "value": 17
+      }
+    ],
+    "slug": "effect-anticoagulation",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "AWsh0ph9wqvZGsgo",
+  "img": "systems/pf2e/icons/conditions/persistent-damage.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.AWsh0ph9wqvZGsgo",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!AWsh0ph9wqvZGsgo"
+}

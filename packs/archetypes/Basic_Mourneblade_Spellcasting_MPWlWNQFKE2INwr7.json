@@ -1,0 +1,81 @@
+{
+  "name": "Basic Mourneblade Spellcasting",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "3bsGBfWSWgyRh6xc",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You step deeper into the art of magic as a means for you to hunt your quarry. As part of this, you have learned to further entreat Guidespectre’s power as a means of channeling more powerful spells easily.</p>\n<p>You gain basic spellcasting benefits, and each time you gain a new spell slot of a new rank from the Mourneblade archetype, add two common spells from your chosen spellcasting tradition of that level to your repertoire.</p>\n<p>In addition, you are granted a basic guidespectre spell by your guidespectre based on your chosen tradition, listed on the guidespectre item entry. This spell is always considered a signature spell for you, but you can only cast this spell if you have a guidespectre summoned. You can use focus points to cast a spell in your repertoire or a spell provided by your Guidespectre, even if the spell slots have already been used, following the cost described for Ether spell costs. </p>"
+    },
+    "rules": [],
+    "slug": "basic-mourneblade-spellcasting",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Mourneblade Dedication"
+        },
+        {
+          "value": "Trained in your spellcasting tradition's skill"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.MPWlWNQFKE2INwr7",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "MPWlWNQFKE2INwr7",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!MPWlWNQFKE2INwr7"
+}

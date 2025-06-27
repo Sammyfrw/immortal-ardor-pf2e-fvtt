@@ -1,0 +1,89 @@
+{
+  "_id": "n53f5Ww7vbDRxeC1",
+  "name": "Fast Movement (Earthfury)",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "QEOGeTA827v053r8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p class=\"MsoNormal\">Your rage is a frenzy of rapid movements. While you are raging, you gain a +10-foot status bonus to your Speed.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Fast Movement (while raging)",
+        "predicate": [
+          "earthen-rage"
+        ],
+        "selector": "land-speed",
+        "type": "status",
+        "value": 10
+      }
+    ],
+    "slug": "fast-movement-earthfury",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Earthfury Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.n53f5Ww7vbDRxeC1",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!n53f5Ww7vbDRxeC1"
+}

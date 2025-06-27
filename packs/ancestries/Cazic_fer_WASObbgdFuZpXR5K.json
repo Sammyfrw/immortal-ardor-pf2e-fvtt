@@ -1,0 +1,64 @@
+{
+  "_id": "WASObbgdFuZpXR5K",
+  "name": "Cazic-fer",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "B0ZgDcdPa1rzXawP",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p> </p>\n<div style=\"mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in\">\n<h2>Cazic-Fer</h2>\n</div>\n<p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>When a soul has been so inundated in the powers that swirl in Zaho, their bodies begin to show changes. First, there could be tufts of soft fur. Next, they may find a protrusion of bone growing from their skulls one morning. Their children might be born with horns. Eventually, they could bear hooves. For some, these changes might come incrementally; but for those who are showered in the frenetic magics of the azoph-fer, replete with the confluence of Zaho’s cosmic and spiritual energies, the transformation of the soul and body is violent – and often bloody.</p>\n<p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>Cazic-fer is the name given to those who have been soulmorphed by the influences of the powers that suffuse the realm of Zaho. While this is often attributed to Azoph-met’s divine essence, other great spirits create and affect the domain as well. This includes not only the fiendish and war-forged divine spirits that influence Zaho, but also those that maintain the domain of Azoph-met’s lost siblings such as Ezmodun. Most cazic-fer are soulmorphed azoph-fer due to the nature of their creation and the land they are originated from, but in rarer cases people of other races have undergone this transformation or passed these traits to their children.</p>\n<p><span style=\"mso-tab-count:1\">         </span>   The cazic-fer often bear various bovid-like features, with cloven hooves, furred bodies with horns or antlers on their head. In some more benign cases, the transformation is only partial and leaves some part of the original ancestry’s features intact. More often than not however, the transformation is complete to the point where unless one were to learn the power to temporarily shift back, it is a permanent change. The most common cazic-fer resemble goats due to azoph-met’s image, but rarely forms of bulls and deer can be found, due to the other presences available in Zaho.</p>\n<p> </p>\n<p></p>"
+    },
+    "rules": [
+      {
+        "add": [
+          "cazic-fer",
+          "fiend"
+        ],
+        "key": "ActorTraits"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Item.K0LU92OHVsnAGZet"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": null
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.WASObbgdFuZpXR5K",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!WASObbgdFuZpXR5K"
+}

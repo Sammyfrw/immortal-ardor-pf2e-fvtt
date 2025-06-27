@@ -1,0 +1,103 @@
+{
+  "_id": "OuLy3vFFWqUHUcqn",
+  "name": "Amulet of Aura Concealment",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/equipment/treasure/art-objects/major-art-object/star-sapphire-necklace.webp",
+  "effects": [],
+  "folder": "VRQTvva2JwBdrcdH",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This amulet is made of a fine silver, engraved with symbols written in Icaro. While you wear it, magic items of 3rd level or lower cannot be detected by detect magic or read aura cast at 3rd level or lower. In addition, you can activate its latent magic effect to hide your aethereal aura.</p>\n<p><strong>Activate</strong> [two-actions] Interact; <strong>Frequency</strong> once per day; <strong>Effect</strong> The mask casts a @Compendium[pf2e.spells-srd.PRrZ7anETWPm90YY]{Magic Aura} spell on the wearer heightened to 3rd level with a DC of 24 to disbelieve the illusion if <em>detect magic</em> or <em>read aura </em>is cast at 3rd level or higher.</p>"
+    },
+    "rules": [],
+    "slug": "amulet-of-aura-concealment",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "illusion",
+        "magical"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/equipment/treasure/art-objects/major-art-object/star-sapphire-necklace.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": [],
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.OuLy3vFFWqUHUcqn",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!OuLy3vFFWqUHUcqn"
+}

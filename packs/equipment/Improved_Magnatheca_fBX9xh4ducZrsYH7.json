@@ -1,0 +1,93 @@
+{
+  "name": "Improved Magnatheca",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a connection and hub to the Magnatheca, a drachiri-run repository and record for knowledge and research. You can reach a Magnatheca through both magical and technological means to initiate the connection. This includes all the necessary hardware and software to develop a research hub or magic-craft station of one's own.</p><p>A Magnatheca allows you to use Arcana, Nature, Religion, Occultism, Computers or any relevant Lore skill to @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} about almost any Science or Magical topic from your home. You might gain insight that your memory or studies might have failed to grasp. All checks using the Magnatheca have the effect of the @UUID[Compendium.pf2e.feats-srd.1Bt7uCW2WI4sM84P]{Dubious Knowledge} and @UUID[Compendium.pf2e.feats-srd.XvX1EyxWbbBF32NV]{Unmistakable Lore} feats.</p><p>An Improved Magnatheca removes certain barriers, grants increased access to certain topics and makes the process of navigation easier through heightened privileges and assistive software. You gain a +1 item bonus to these checks, or a +1 circumstance bonus if you already have an item bonus.</p>"
+    },
+    "rules": [],
+    "slug": "improved-magnatheca",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "housing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 2000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/sundries/books/book-embossed-spiral-purple-white.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "icons/sundries/books/book-embossed-spiral-purple-white.webp",
+  "folder": "iXGkmB3fcc3NZU0j",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.fBX9xh4ducZrsYH7",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "fBX9xh4ducZrsYH7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!fBX9xh4ducZrsYH7"
+}

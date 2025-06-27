@@ -1,0 +1,114 @@
+{
+  "folder": "qfpBa1r3Wp7m8W3c",
+  "name": "Ascension Bonus: Attribute",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Engraved into your soul, you've tapped into an imagined possibility, growing yourself beyond your limits.</p><p>Select an attribute. You increase your attribute bonus to that ability by 1.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "{item|flags.pf2e.rulesSelections.ascenscionAttributeMod}",
+        "value": 1
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Strength",
+            "value": "system.abilities.str.mod"
+          },
+          {
+            "label": "Dexterity",
+            "value": "system.abilities.dex.mod"
+          },
+          {
+            "label": "Constitution",
+            "value": "system.abilities.con.mod"
+          },
+          {
+            "label": "Intelligence",
+            "value": "system.abilities.int.mod"
+          },
+          {
+            "label": "Wisdom",
+            "value": "system.abilities.wis.mod"
+          },
+          {
+            "label": "Charisma",
+            "value": "system.abilities.cha.mod"
+          }
+        ],
+        "prompt": "Select an attribute.",
+        "flag": "ascenscionAttributeMod"
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "ascended"
+        ]
+      }
+    ],
+    "slug": "ascension-bonus-attribute",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ascension"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_id": "MMGcmpZYT2Mblajo",
+  "img": "icons/commodities/gems/gem-cut-faceted-square-purple.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.MMGcmpZYT2Mblajo",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!MMGcmpZYT2Mblajo"
+}

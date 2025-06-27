@@ -1,0 +1,119 @@
+{
+  "_id": "ecQqBQ4OtKO2FPJf",
+  "name": "Turbulence",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/punishing-winds.webp",
+  "effects": [],
+  "folder": "vNNCZvYm7kP625cN",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": null,
+      "elevation": null,
+      "depth": null,
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p class=\"MsoNormal\">You conjure weaving rough winds to throw an enemy off balance or even throw them into the air.<span style=\"mso-spacerun:yes\">  </span>The range for this spell varies depending on the number of actions used to cast this spell:</p>\n<p class=\"MsoListParagraphCxSpFirst\" style=\"text-indent:-.25in;mso-list:l0 level1 lfo1\"><span style=\"font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol\"><span style=\"mso-list:Ignore\">·<span style=\"font:7.0pt 'Times New Roman'\">         </span></span></span>1 action: You target a creature within 100 feet.</p>\n<p class=\"MsoListParagraphCxSpMiddle\" style=\"text-indent:-.25in;mso-list:l0 level1 lfo1\"><span style=\"font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol\"><span style=\"mso-list:Ignore\">·<span style=\"font:7.0pt 'Times New Roman'\">         </span></span></span>2 actions: You affect creatures in a 20-foot burst within 100 feet of you.</p>\n<p class=\"MsoListParagraphCxSpLast\" style=\"text-indent:-.25in;mso-list:l0 level1 lfo1\"><span style=\"font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol\"><span style=\"mso-list:Ignore\">·<span style=\"font:7.0pt 'Times New Roman'\">         </span></span></span>3 actions: You shape the wind and target up to 6 creatures within a 20-foot radius around you.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\">Creatures who are targeted must make a basic Reflex saving throw. Airborne creatures who rely on wind to stay aloft treat their outcome as one degree worse.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong>Critical Success</strong> The creature is unaffected.</p>\n<p class=\"MsoNormal\"><strong>Success</strong> The creature suffers a -10 circumstance penalty to its speed until the end of your next turn.</p>\n<p class=\"MsoNormal\"><strong>Failure</strong> As success, but the creature is also knocked prone.</p>\n<p class=\"MsoNormal\"><strong>Critical Failure</strong> As success, but the creature is also thrown 10 feet into the air and falls, taking 5 bludgeoning damage and being knocked prone.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><u>Special: </u>While you are in Earthen Rage, the wind cuts your enemies, dealing 2d8 slashing damage as part of a basic Reflex save.</p>\n<p class=\"MsoNormal\"><strong> </strong></p>\n<p class=\"MsoNormal\"><strong>Heightened (+2)</strong> The Earthen Rage damage increases by an additional 1d8. Creatures who critically fail are thrown an additional 10 feet up, suffering an additional 5 bludgeoning damage when they fall.</p>"
+    },
+    "rules": [],
+    "slug": "turbulence",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "air",
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "varies"
+    },
+    "range": {
+      "value": "varies"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "7xy3shrgb2gw8xzm": {
+        "applyMod": false,
+        "formula": "2d8",
+        "type": "slashing",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
+      }
+    },
+    "defense": {
+      "passive": null,
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "7xy3shrgb2gw8xzm": "1d8"
+      },
+      "area": 0
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ecQqBQ4OtKO2FPJf",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 175000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!ecQqBQ4OtKO2FPJf"
+}

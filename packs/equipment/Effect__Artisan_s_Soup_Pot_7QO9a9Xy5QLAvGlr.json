@@ -1,0 +1,79 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Effect: Artisan's Soup Pot",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.equipment.Item.yKMUD1HOmeOgBCq4]{Artisan's Soup Pot}</p><p><span style=\"font-family:Roboto, sans-serif\">After you eat a serving of soup, its effects last 24 hours or until you make your next daily preparations, whichever comes first. You gain a +1 item bonus to checks made to Craft or Repair, or increase any existing item bonus for these checks by 1. You also restore an additional 5 Hit Points per item bonus to items you successfully Repair during this time.</span></p><p>If you eat a serving of Artisan's Soup for each workday required to attempt a check to Craft, the item bonus from the soup can be applied to that check, too.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "action:craft",
+              "action:repair"
+            ]
+          }
+        ],
+        "selector": "crafting-check",
+        "value": 1,
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "effect-artisans-soup-pot",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "7QO9a9Xy5QLAvGlr",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/food/bowl-stew-tofu-potato-red.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.7QO9a9Xy5QLAvGlr",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!7QO9a9Xy5QLAvGlr"
+}

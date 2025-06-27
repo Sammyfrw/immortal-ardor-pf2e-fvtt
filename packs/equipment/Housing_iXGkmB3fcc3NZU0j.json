@@ -1,0 +1,19 @@
+{
+  "name": "Housing",
+  "sorting": "a",
+  "folder": "b1HP43bs9dqQEraE",
+  "type": "Item",
+  "_id": "iXGkmB3fcc3NZU0j",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!iXGkmB3fcc3NZU0j"
+}

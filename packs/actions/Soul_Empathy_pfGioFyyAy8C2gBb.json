@@ -1,0 +1,78 @@
+{
+  "_id": "pfGioFyyAy8C2gBb",
+  "name": "Soul Empathy",
+  "type": "feat",
+  "img": "icons/magic/death/skull-flames-white-blue.webp",
+  "effects": [],
+  "folder": "MJ3Wppz7DnV8a1wT",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are able to gleam and acquire a faint trace of the creatures whose ether you’ve taken for your own.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Whenever you acquire a mote of ether from a creature via Drain Ether or Draw Soul and choose to absorb it, you can choose to gain resistance to one type of damage equal to one of the creature’s resistances up to your level for one hour or until you use this feature again. If you know the creature’s resistances and it has multiple resistances, you can choose which one to acquire.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Whenever you absorb a mote of ether, you can make a Recall Knowledge on the creature you acquired the mote from as a free action.</span></p>"
+    },
+    "rules": [],
+    "slug": "soul-empathy",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manafont"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Reaver Manafont"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.pfGioFyyAy8C2gBb",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!pfGioFyyAy8C2gBb"
+}

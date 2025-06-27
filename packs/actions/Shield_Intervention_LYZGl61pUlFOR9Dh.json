@@ -1,0 +1,83 @@
+{
+  "folder": "aDH8C7M7CfHOHAon",
+  "name": "Shield Intervention",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger </strong>An ally is about to be hit by a Strike from a creature within striding distance.</p><hr /><p>You are determined to save an ally from danger, no matter how far they might be. You @UUID[Compendium.pf2e.actionspf2e.xjGwis0uaC2305pm]{Raise a Shield}, and Stride up to your speed towards the triggering ally. If you end your movement next to your ally, you can use @UUID[Compendium.pf2e.feats-srd.5vXc2s2siR1ihpBT]{Shield Warden} to @UUID[Compendium.pf2e.feats-srd.jM72TjJ965jocBV8]{Shield Block} block the triggering hit as part of this reaction.</p><p>You can spend a focus point to Stride at such a speed that this movement does not trigger reactions or to Shove the attacking creature after blocking the attack.</p>"
+    },
+    "rules": [],
+    "slug": "shield-intervention",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "constellation",
+        "traversal"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Shield Block, Shield Warden"
+        }
+      ]
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "LYZGl61pUlFOR9Dh",
+  "sort": 0,
+  "_key": "!items!LYZGl61pUlFOR9Dh"
+}

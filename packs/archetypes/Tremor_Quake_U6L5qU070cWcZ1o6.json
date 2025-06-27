@@ -1,0 +1,119 @@
+{
+  "_id": "U6L5qU070cWcZ1o6",
+  "name": "Tremor Quake",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/localized-quake.webp",
+  "effects": [],
+  "folder": "30WU2IO6iK4SSU4s",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": null,
+      "elevation": null,
+      "depth": null,
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You generate a strong localized quake over an area, trying to throw your enemies off their feet. Creatures within the area on the ground need to make a Reflex saving throw; on a failure, a creature takes 2d6 bludgeoning damage and is knocked prone. Casting this spell with 3 actions causes the localized area to become difficult terrain for 1 minute, as the aftershock lingers in the area to impede creatures trying to walk over the terrain.</p>\n<p> </p>\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success </strong>The creature takes half damage, but is not knocked prone.</p>\n<p><strong>Failure </strong>The creature takes full damage and is knocked prone.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is knocked prone.   </p>\n<p>    </p>\n<p><strong>Heightened(4th) </strong>The damage increases to 4d6; on a critical failure, the creature is stunned 1.</p>\n<p><strong>Heightened(8th) </strong>The damage increases to 8d6; on a failure, the creature is also stunned 1 and on a critical failure, the creature is stunned 2.</p>"
+    },
+    "rules": [],
+    "slug": "tremor-quake",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "earth",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2 to 3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "0": {
+        "applyMod": false,
+        "formula": "2d6",
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
+      }
+    },
+    "defense": {
+      "passive": null,
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "0": "0"
+      },
+      "area": 0
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.U6L5qU070cWcZ1o6",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!U6L5qU070cWcZ1o6"
+}

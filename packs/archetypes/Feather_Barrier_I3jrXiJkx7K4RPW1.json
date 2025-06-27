@@ -1,0 +1,84 @@
+{
+  "_id": "I3jrXiJkx7K4RPW1",
+  "name": "Feather Barrier",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/stormwind-flight.webp",
+  "effects": [],
+  "folder": "30WU2IO6iK4SSU4s",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create a feathery barrier to shield an ally within reach to dampen blows. The range and target for this spell varies depending on the number of actions used to cast this spell.</p>\n<p><span class=\"pf2-icon\">1</span> You can target one creature you can touch, granting them a +1 circumstance bonus to AC.</p>\n<p><span class=\"pf2-icon\">2</span> As per 1 action, but you can grant the effect to one creature within 30 feet.</p>\n<p><span class=\"pf2-icon\">3 </span>You can target a location within 30 feet and create a 20-foot emanation for the duration that grants a +1 circumstance bonus to AC to creatures of your choice while they are within the field.</p>\n<p> </p>\n<p>While the spell is in effect, if you can see them you can use the Shield Block reaction on your shielded target or one target within your field when they are about to take physical damage. The shield has Hardness 5. After you use Shield Block, the barrier or field dissipates and the spell ends.</p>\n<p>           </p>\n<p><strong> Heightened(+2)</strong> The hardness of the barrier increases by 5.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "air",
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "varies"
+    },
+    "range": {
+      "value": "varies"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.I3jrXiJkx7K4RPW1",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 287500,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!I3jrXiJkx7K4RPW1"
+}

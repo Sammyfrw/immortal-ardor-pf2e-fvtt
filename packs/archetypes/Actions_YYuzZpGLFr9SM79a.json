@@ -1,0 +1,19 @@
+{
+  "_id": "YYuzZpGLFr9SM79a",
+  "name": "Actions",
+  "type": "Item",
+  "sort": 9100000,
+  "flags": {},
+  "sorting": "a",
+  "color": null,
+  "folder": "U9W5dalJinyDt4Ok",
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!YYuzZpGLFr9SM79a"
+}

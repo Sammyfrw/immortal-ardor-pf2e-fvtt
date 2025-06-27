@@ -1,0 +1,84 @@
+{
+  "folder": "scRkkbziDxqsiAqB",
+  "name": "The Serpent",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h4>The Serpent</h4><p class=\"MsoNormal\"><strong>Personality </strong>Unpredictable, aloof, determined, uncertain, goal-oriented, easy-going, sensitive, cold, compassionate, happy and sad.</p><p class=\"MsoNormal\"><strong>Astral Attribute </strong>Any</p><p class=\"MsoNormal\"><strong>Astral Element </strong>Acid on even years, Poison on odd years</p><p class=\"MsoNormal\"><strong>Astral Gemstone </strong>Gem of the month</p><p class=\"MsoNormal\"><strong>Astral Colors </strong>Red on Unlucky Days, Blue on Lucky Days</p><p class=\"MsoNormal\"><strong>Astral Brand </strong>Whichever is in season or out of season</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong><span style=\"text-decoration:underline\">Cosmic Benefits</span></strong></p><p class=\"MsoNormal\"><strong>Cleric Spells</strong></p><p class=\"MsoNormal\"><strong>Divine Font </strong>Heal if Holy; Harm if Unholy</p><p class=\"MsoNormal\"><strong>Divine Sanctification </strong>Must choose chaos, must choose holy or unholy</p><p class=\"MsoNormal\"><strong>Divine Skill</strong> Occultism</p><p class=\"MsoNormal\"><strong>Domains </strong>Time, Fate, Dreams, Nightmares</p><p class=\"MsoNormal\"><strong>Favored Weapon Group </strong>Knife</p><p><span style=\"font-family:'Calibri',sans-serif\"><strong>Favored Classes </strong>Thaumaturge, Animist, Exemplar, Witchwarper, Necromancer, Diviner</span></p>"
+    },
+    "rules": [],
+    "slug": "the-serpent",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "covenant",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "time",
+        "fate",
+        "dreams",
+        "nightmares"
+      ],
+      "alternate": [
+        "wyrmkin"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "cha"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [
+      "starknife",
+      "dagger"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/unarmed-attacks/spikes.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.xjjhXxR0BFrUKmwt",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "xjjhXxR0BFrUKmwt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!xjjhXxR0BFrUKmwt"
+}

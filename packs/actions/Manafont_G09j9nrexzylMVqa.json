@@ -1,0 +1,100 @@
+{
+  "folder": "XaKcxo560ohf3xPr",
+  "name": "Manafont",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Manafonts refer to how creatures manipulate ether. Colloquially, they are called manatypes, in the same vein as a person’s blood type. There are four known manafonts, which correlate to the exact methods used by the creatures to gain, store and utilize ether: </span></p><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Most creatures possess ether within them. The environment – be it within inorganic material such as rock or earth, or free such as in the air, or water – also possesses ether. Ether is what allows living creatures to cast magic, perform feats beyond biological capability or to alter the world around them. The creature’s manafont determines what becomes their primary source of ether, what type of ether they use, and how their body stores and uses ether.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Enforcer",
+            "value": "Compendium.immortal-ardor.actions.Item.IuwhwQKbCZ4Gqtw9"
+          },
+          {
+            "label": "Reaver",
+            "value": "Compendium.immortal-ardor.actions.Item.Vx2a6eOlp9NiFq6l"
+          },
+          {
+            "label": "Invoker",
+            "value": "Compendium.immortal-ardor.actions.Item.cz5agwtxRqBCrvQK"
+          },
+          {
+            "label": "Evoker",
+            "value": "Compendium.immortal-ardor.actions.Item.qN5d5N6c3269jgjI"
+          },
+          {
+            "label": "Empty",
+            "value": "Compendium.immortal-ardor.actions.Item.qN5d5N6c3269jgjI"
+          },
+          {
+            "label": "Asterbound",
+            "value": "Compendium.immortal-ardor.actions.Item.ORaRyETlVcwF8f8x"
+          }
+        ],
+        "flag": "manafont",
+        "adjustName": false,
+        "prompt": "Select a manafont"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.manafont}"
+      }
+    ],
+    "slug": "manafont",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manafont"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "G09j9nrexzylMVqa",
+  "img": "icons/commodities/treasure/token-gold-gem-red.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!items!G09j9nrexzylMVqa"
+}

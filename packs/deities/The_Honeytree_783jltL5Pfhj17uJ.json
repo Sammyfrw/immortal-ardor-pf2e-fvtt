@@ -1,0 +1,80 @@
+{
+  "folder": "scRkkbziDxqsiAqB",
+  "name": "The Honeytree",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h4>The Crab / The Honeytree</h4><p class=\"MsoNormal\"><strong>Personality </strong>Cautious, protective, nurturing, secretive, instinctive, needy, sensitive, funny, empathetic, and complex.</p><p class=\"MsoNormal\"><strong>Astral Attribute </strong>Wisdom or Charisma</p><p class=\"MsoNormal\"><strong>Astral Element </strong>Water</p><p class=\"MsoNormal\"><strong>Astral Gemstone </strong>Aquamarine</p><p class=\"MsoNormal\"><strong>Astral Colors </strong>Blue, Yellow</p><p class=\"MsoNormal\"><strong>Astral Brand </strong>Hermit Home – Homely, comfortable, and casual wear.</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong><span style=\"text-decoration:underline\">Cosmic Benefits</span></strong></p><p class=\"MsoNormal\"><strong>Cleric Spells</strong></p><p class=\"MsoNormal\"><strong>Divine Font </strong>Heal</p><p class=\"MsoNormal\"><strong>Divine Sanctification </strong>Must choose holy</p><p class=\"MsoNormal\"><strong>Divine Skill </strong>Medicine</p><p class=\"MsoNormal\"><strong>Domains</strong> Healing, Water, Introspection, Repose</p><p class=\"MsoNormal\"><strong>Favored Weapon Group </strong>Pick</p><p class=\"MsoNormal\"><strong>Favored Classes</strong> Cleric, Psychic, Thaumaturge, Oracle, Monk, Mystic</p>"
+    },
+    "rules": [],
+    "slug": "the-honeytree",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "covenant",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "healing",
+        "water",
+        "introspection",
+        "repose"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "wis",
+      "cha"
+    ],
+    "skill": [
+      "medicine"
+    ],
+    "weapons": [
+      "pick",
+      "greatpick"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/features/classes/the-oscillating-wave.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.783jltL5Pfhj17uJ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "783jltL5Pfhj17uJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!783jltL5Pfhj17uJ"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Constellations",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "scRkkbziDxqsiAqB",
+  "description": "",
+  "sort": 100000,
+  "color": "#175e03",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!scRkkbziDxqsiAqB"
+}

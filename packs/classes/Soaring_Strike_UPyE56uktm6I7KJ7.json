@@ -1,0 +1,64 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Soaring Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You touch upon the freedom of flight to reach your enemies no matter where they could be, and conjure ethereal wings to chase them. You Fly up to your speed or your fly speed if it is higher. You gain a status bonus equal to 5 times your amount of Zeal to your speed for this movement.</p><p>At the end of your movement, you Strike. After the Strike, if you are in the air, you glide safely downwards up to a distance equal to your total speed for this action by taking a move action during your turn or automatically at the end of your turn. If you can fly, you can choose to stay airborne.</p>"
+    },
+    "rules": [],
+    "slug": "soaring-strike",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "flourish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "UPyE56uktm6I7KJ7",
+  "_key": "!items!UPyE56uktm6I7KJ7"
+}

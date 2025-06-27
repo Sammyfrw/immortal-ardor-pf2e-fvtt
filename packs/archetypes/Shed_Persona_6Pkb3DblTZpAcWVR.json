@@ -1,0 +1,112 @@
+{
+  "_id": "6Pkb3DblTZpAcWVR",
+  "name": "Shed Persona",
+  "type": "spell",
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/envisioning-mask.webp",
+  "effects": [],
+  "folder": "l8nnPyOmdzuonvnV",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": 1,
+      "min": 0,
+      "max": 0,
+      "environment": "",
+      "elevation": null,
+      "depth": null
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements </strong>You are under the effects of Noble Mask</p>\n<hr />\n<p>You summon an illusory clone of yourself, which can hold a facsimile of one weapon you possess. Your clone appears identical to you in every way and sounds, smells, and feels appropriately like yourself. The image can’t speak, but you can speak through it.</p>\n<p> </p>\n<p>In combat, it uses your spell attack roll for attacks, has an AC that matches your occult spell DC and bonus to saves and skills that are equal to your spell DC - 10. If it is hit by any attack, takes damage or fails a save, the clone immediately dissipates. It can use 2 actions per turn, which it uses when you Sustain the Spell. It is also substantial enough that it can flank other creatures.</p>\n<p> </p>\n<p>The illusion can cause damage by making the target believe the illusion's attacks are real, but it cannot otherwise directly affect the physical world. If the illusion hits with a Strike, the target takes mental damage equal to 1d6 plus your spellcasting ability modifier, which is nonlethal. This is a mental effect. Any relevant resistances and weaknesses apply if the target thinks they do, as judged by the GM. For example, if the illusion wields a warhammer and attacks a creature resistant to bludgeoning damage, the creature would take less mental damage. However, illusory damage does not deactivate regeneration or trigger other effects that require a certain damage type. The GM should track illusory damage dealt by the illusion.</p>\n<p> </p>\n<p>Any creature that touches the image or uses the Seek action to examine it can attempt to disbelieve your illusion. When a creature disbelieves the illusion, it recovers from half the damage it had taken from it (if any) and doesn't take any further damage from it.</p>\n<p> </p>\n<p><strong>Heightened(4th)</strong>: The clone’s damage increases to 2d6 plus your spellcasting ability modifier.</p>\n<p><strong>Heightened(5th)</strong>: You can choose to make the clone’s damage lethal.</p>\n<p><strong>Heightened(6th)</strong>: The clone’s damage increases to 3d6 plus your spellcasting ability modifier.</p>\n<p><strong>Heightened(7th)</strong>: When the clone takes damage, you can recast this spell as a reaction.</p>\n<p><strong> Heightened(8th)</strong>: The clone’s damage increases to 4d6 plus your spellcasting ability modifier.</p>"
+    },
+    "rules": [],
+    "slug": "shed-persona",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "focus",
+        "illusion",
+        "manipulate",
+        "visual"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "an empty space"
+    },
+    "range": {
+      "value": "50 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1 action"
+    },
+    "duration": {
+      "value": "10 minutes",
+      "sustained": true
+    },
+    "damage": {
+      "0": {
+        "applyMod": true,
+        "formula": "1d6",
+        "type": "mental",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "0": "1d6"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.6Pkb3DblTZpAcWVR",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!6Pkb3DblTZpAcWVR"
+}

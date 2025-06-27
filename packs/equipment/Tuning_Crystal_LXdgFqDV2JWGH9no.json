@@ -1,0 +1,94 @@
+{
+  "name": "Tuning Crystal",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/aeon-stone-dull-gray.webp",
+  "effects": [],
+  "folder": "S3EqY95AQR3Jex8W",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Tuning crystals are elemental crystals that have been specifically used to become anchored to a particular magic effect. While held or kept on one's person, the crystal can interact with this magical effect that varies depending on the spell and how the crystal is tuned. While tuned in this way, the crystal's latent ether is tied to the spell, rendering inaccessible for other purposes; in many cases, breaking this tie drains the crystal of its magic altogether.</p>\n<p>These tuned crystals function similarly to other imbued objects that may interact with specific magic effects that can behave in a similar manner, but crystals are often disposable and do not need to be decorated or crafted.</p>"
+    },
+    "rules": [],
+    "slug": "tuning-crystal",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/aeon-stone-dull-gray.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "LXdgFqDV2JWGH9no",
+  "sort": 0,
+  "_key": "!items!LXdgFqDV2JWGH9no"
+}

@@ -1,0 +1,119 @@
+{
+  "_id": "HLVAe6satsT1KClt",
+  "name": "Eruption",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/wall-of-fire.webp",
+  "effects": [],
+  "folder": "vNNCZvYm7kP625cN",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": null,
+      "elevation": null,
+      "depth": null,
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p class=\"MsoNormal\">You channel your wrath into the earth, creating a localized crack of molten fire and rock that spills out to ravage your enemies. The fissure erupts molten rock and hot fumes, causing the target area to become difficult terrain. Any creature entering or beginning its turn in the area takes 2d8 fire damage and needs to make a Fortitude save.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong>Critical Success</strong> The creature is unaffected.</p>\n<p class=\"MsoNormal\"><strong>Success</strong> The creature takes half damage and is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}1 for 1 round.</p>\n<p class=\"MsoNormal\"><strong>Failure</strong> The creature takes full damage and is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}1 and @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded}for 1 round.</p>\n<p class=\"MsoNormal\"><strong>Critical Failure</strong> The creature takes double damage and is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}1 and @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded}for 2 rounds.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><u>Special</u>: If you are in Earthen Rage when you cast this spell, once per turn as an action (as if you were Sustaining the Spell) including the turn you cast the spell, you can cause the eruption to flare, crackling and striking not only the affected squares but all squares adjacent to them. Creatures in the area and those adjacent squares need to make a basic Fortitude save or take 2d8 bludgeoning damage. Once you have used this action three times, the spell ends.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong>Heightened (+2) </strong>The damage of the spell and the Rage effect increases by an additional 1d8.</p>"
+    },
+    "rules": [],
+    "slug": "eruption",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "100"
+    },
+    "area": {
+      "value": 5,
+      "type": "line"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "r57z1ehihicyzpsb": {
+        "applyMod": false,
+        "formula": "2d8",
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
+      }
+    },
+    "defense": {
+      "passive": null,
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "r57z1ehihicyzpsb": "1d8"
+      },
+      "area": 0
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.HLVAe6satsT1KClt",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!HLVAe6satsT1KClt"
+}

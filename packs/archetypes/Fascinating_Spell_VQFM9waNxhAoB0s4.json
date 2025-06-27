@@ -1,0 +1,82 @@
+{
+  "_id": "VQFM9waNxhAoB0s4",
+  "name": "Fascinating Spell",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "sqBBD4DisZnxsBqQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As you cast your spell, you weave in a flurry of motions or a subtle set of movements to distract a nearby target from reacting to it. Attempt a Performance check against the Perception DC of a creature you can see within 60 feet of you. On a success, you distract the enemy enough to cast your spell without incurring any reactions from them as a direct result of your spellcasting. If you’re a Master in Performance, you can affect 3 creatures. If you’re Legendary in Performance, you can affect all creatures in range.</p>"
+    },
+    "rules": [],
+    "slug": "fascinating-spell",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "manipulate"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Cragweaver Dedication"
+        },
+        {
+          "value": "Expert in Performance"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.VQFM9waNxhAoB0s4",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!VQFM9waNxhAoB0s4"
+}

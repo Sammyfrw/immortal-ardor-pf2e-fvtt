@@ -1,0 +1,81 @@
+{
+  "_id": "w3JVgGS7VgO2WHzL",
+  "name": "Diplomatic Immunity",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AavGVqmE65s8lAG5",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div>\n<p><strong>Trigger </strong>You are under the effects of Noble’s Mask and you fail or critically fail a Diplomacy skill check</p>\n<hr /></div>\n<p>While you wear your Noble’s Mask, you can expend its power to exert a disarming air when your attempts to entreat someone do not go as intended. Whenever you critically fail or fail a Diplomacy check, you can sacrifice your Noble’s Mask to increase its degree of success by one step. It can only become a success if the creature you perform the check against does not know you are under the effects of Noble’s Mask.</p>"
+    },
+    "rules": [],
+    "slug": "diplomatic-immunity",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Courtier Dedication"
+        },
+        {
+          "value": "Expert in Diplomacy"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.w3JVgGS7VgO2WHzL",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!w3JVgGS7VgO2WHzL"
+}

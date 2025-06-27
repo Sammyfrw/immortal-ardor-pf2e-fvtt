@@ -1,0 +1,79 @@
+{
+  "_id": "6rChJHCLRNvOBYHH",
+  "name": "Splitting Image",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AavGVqmE65s8lAG5",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger </strong>You are about to be hit by an attack and you are under the effects of Noble’s Mask</p>\n<hr />\n<p>While you are wearing a Noble’s Mask, you can make use of your illusory enchantment to absorb an attack intended for you. As a reaction to an attack that would hit you, you can attempt to misdirect the attack towards a projection of yourself.</p>\n<p>If the attack roll is a success, the image absorbs the damage, as well as any additional effects it may have. If an attack roll is a critical success and would hit the image, it is destroyed and the attack roll becomes a success against you. When the image is destroyed, your Noble’s Mask effect dissipates.</p>"
+    },
+    "rules": [],
+    "slug": "splitting-image",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "illusion"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Courtier Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.6rChJHCLRNvOBYHH",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!6rChJHCLRNvOBYHH"
+}

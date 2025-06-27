@@ -1,0 +1,19 @@
+{
+  "_id": "zliaVvJOwvs1j4pH",
+  "name": "Lyncan",
+  "type": "Item",
+  "sort": 300000,
+  "flags": {},
+  "sorting": "a",
+  "color": "#5a0202",
+  "folder": "dGek33KCbDDeUrLO",
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!zliaVvJOwvs1j4pH"
+}

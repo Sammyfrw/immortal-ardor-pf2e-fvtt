@@ -1,0 +1,88 @@
+{
+  "folder": "fNyvBi1FuzhzXM05",
+  "name": "Blessing of Alarum",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You draw a circle along a 5-foot diameter and enchant it with a divinatory spell, upon which a greater area of 60 feet around you is blessed for the duration. Creatures you designate in the site are granted a +1 status bonus to Perception and Initiative checks; this status bonus increases to +3 when attempting checks to wake up in response to noises or to sense other creatures when you are asleep.</p><p></p><p><strong>Heightened (5th) </strong>The area increases to 500 feet.</p><p><strong>Heightened (8th)</strong> The area increases to 1 mile.</p>"
+    },
+    "rules": [],
+    "slug": "blessing-of-alarum",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "arcane",
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 60,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "10 minutes"
+    },
+    "duration": {
+      "value": "8 hours",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": "5 gp powdered chalk"
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "systems/pf2e/icons/spells/alarm.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "ZLXo7sxZAA2qPqXi",
+  "sort": 300000,
+  "_key": "!items!ZLXo7sxZAA2qPqXi"
+}

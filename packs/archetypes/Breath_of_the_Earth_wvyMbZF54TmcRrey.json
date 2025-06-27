@@ -1,0 +1,78 @@
+{
+  "folder": "QEOGeTA827v053r8",
+  "name": "Breath of the Earth",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Astral powers have manifested in the form of the wishes of the planet itself. When the world was at its weakest, the Heirophant of the Earth declared that they would grit through the pain and rebuke the suffering back at those that would hurt it. You learn the Breath of the Earth focus spell.</p>"
+    },
+    "rules": [],
+    "slug": "breath-of-the-earth",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "ascension"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Earthfury Dedication"
+        },
+        {
+          "value": "You have traveled to Alamein"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_id": "wvyMbZF54TmcRrey",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.wvyMbZF54TmcRrey",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!wvyMbZF54TmcRrey"
+}

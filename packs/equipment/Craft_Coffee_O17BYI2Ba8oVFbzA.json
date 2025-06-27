@@ -1,0 +1,105 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Craft Coffee",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\" style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><span style=\"font-family:Roboto, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">Recipe Price</strong> 25 sp<br style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\" /><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">Ingredients</strong> 2 basic<br style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\" /><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">Preparation</strong> DC 16 Cooking Lore, DC 20 Survival</span></span><br /><strong>Requirements</strong> Basic Kitchen<span style=\"font-family:Roboto, sans-serif\"><br style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\" /><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">Favorite Meal</strong> You benefit from 2 flavors' benefits for the duration instead of just the one you selected.</span></p><hr style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;border-right:none;border-left:none;border-image:initial;border-top:1px solid var(--app-border-color);border-bottom:1px solid var(--app-border-color);--app-border-color:rgba(125, 125, 125, 0.5);color:rgb(201, 199, 184);font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\" /><p>Craft coffee is a popular choice for academics and people on the job with moments to consider their work. It's best enjoyed slowly, unlike to-go coffees. For the next 24 hours or until your next daily preparations, whichever comes first, you gain a +1 item bonus to checks to Recall Knowledge with a skill determined by the blend chosen when the coffee is made. If you already have an item bonus to this check, you increase this bonus by 1.</p><ul><li><strong>Double Coffee</strong> Religion</li><li><strong>Hazelnut</strong> Nature</li><li><strong>Mocha</strong> Arcana</li><li><strong>Vanilla</strong> Society</li><li><strong>Pumpkin Spice</strong> Occultism</li><li><strong>Toffee</strong> Medicine</li><li><strong>Strawberry </strong>Computers</li></ul><p>@UUID[Compendium.immortal-ardor.equipment.Item.6LhlnQf3ovqL4taY]{Effect: Craft Coffee}</p>"
+    },
+    "rules": [],
+    "slug": "craft-coffee",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "alchemical",
+        "consumable",
+        "meal",
+        "processed"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 50
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/drinks/wine-amphora-clay-gray.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "_id": "O17BYI2Ba8oVFbzA",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/drinks/wine-amphora-clay-gray.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.O17BYI2Ba8oVFbzA",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!O17BYI2Ba8oVFbzA"
+}

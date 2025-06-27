@@ -1,0 +1,93 @@
+{
+  "name": "Improved Entertainment",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a collection of in-home entertainment, that includes a television, vidcons, connections to the infosphere, sound systems and all that is necessary to enjoy comfortable living in a home.</p><p>An entertainment setup allows you to connect to the Infosphere and make any necessary Computer checks from your home. It also includes in-home entertainment to allow you to listen to any music or watch any movies you possess.</p><p>An improved entertainment system includes latest devices and improved infosphere services, for a greater experience. Whether its the latest next-gen vidcon, the sharpest looking television and monitors, max-speed infosphere connections, this setup has it all!</p><p>You gain a +1 item bonus to all Computer or Infosphere-related checks, which includes @UUID[Compendium.pf2e.actionspf2e.plBGdZhqq5JBl1D8]{Gather Information}, @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression}, @UUID[Compendium.pf2e.actionspf2e.tHCqgwjtQtzNqVvd]{Coerce}, @UUID[Compendium.pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request}, @UUID[Compendium.pf2e.actionspf2e.ewwCglB7XOPLUz72]{Lie}, and more via the infosphere, or a +1 circumstance bonus if you already have an item bonus, while you use your entertainment suite.</p>"
+    },
+    "rules": [],
+    "slug": "improved-entertainment",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "housing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 2000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/sundries/gaming/chess-pawn-white-glass.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "icons/sundries/gaming/chess-pawn-white-glass.webp",
+  "folder": "iXGkmB3fcc3NZU0j",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.Bj6Y5jsKLCrCwgwI",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "Bj6Y5jsKLCrCwgwI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!Bj6Y5jsKLCrCwgwI"
+}

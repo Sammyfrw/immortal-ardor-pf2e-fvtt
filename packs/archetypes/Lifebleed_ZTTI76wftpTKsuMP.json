@@ -1,0 +1,116 @@
+{
+  "_id": "ZTTI76wftpTKsuMP",
+  "name": "Lifebleed",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/blood-vendetta.webp",
+  "effects": [],
+  "folder": "ZWAHkfklX6l0PZUW",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": 1,
+      "terraintype": "ground",
+      "environment": "",
+      "min": 0,
+      "max": 0
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "\n<p class=\"MsoNormal\">You inflict a curse where an enemy's life force spills out to creatures who attack it in close proximity. On a failed save, the target is cursed. Creatures who damage the target with lethal melee attacks regain 2 hit points. If the target is also bleeding, the healing increases by your spellcasting modifier.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\">The range for this spell varies depending on the number of actions used to cast this spell; touch for 1 action, 30 feet for 2 actions.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong>Critical Success</strong> The creature is unaffected.</p>\n<p class=\"MsoNormal\"><strong>Success </strong>The creature is afflicted by the curse for 1 round.</p>\n<p class=\"MsoNormal\"><strong>Failure </strong>The creature is afflicted by the curse for 1 minute.</p>\n<p class=\"MsoNormal\"><strong>Critical Failure</strong> As failure, but the creature also takes 1d4 persistent bleed damage.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong>Heightened(+1)</strong> The healing from the curse increases by 2 and the persistent bleed damage increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": "lifebleed",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "healing",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "varies"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 2 actions"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "0": {
+        "applyMod": false,
+        "formula": "2",
+        "type": "untyped",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
+      }
+    },
+    "defense": {
+      "passive": null,
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "0": "+2"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ZTTI76wftpTKsuMP",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!ZTTI76wftpTKsuMP"
+}

@@ -1,0 +1,94 @@
+{
+  "_id": "Sk6riPkreTlR1e9J",
+  "name": "Anticoagulation",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "Zn3umUGZGEcERDki",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Whenever you inflict persistent bleeding damage, the damage gains a +1 status bonus and the DC of the flat check to recover from it increases to 17.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Anticoagulation",
+        "selector": "damage",
+        "value": 1,
+        "damageType": "bleed",
+        "type": "status",
+        "damageCategory": "persistent"
+      },
+      {
+        "key": "Note",
+        "title": "Anticoagulation",
+        "text": "Your persistent bleed damage gains a +1 status bonus and the DC to recover from bleeding is increased to 17. @Item[AWsh0ph9wqvZGsgo]{Effect: Anticoagulation}",
+        "selector": "damage"
+      }
+    ],
+    "slug": "anticoagulation",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Liferender Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.Sk6riPkreTlR1e9J",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!Sk6riPkreTlR1e9J"
+}

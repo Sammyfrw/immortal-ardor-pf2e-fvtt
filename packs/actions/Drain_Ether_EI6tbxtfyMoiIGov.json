@@ -1,0 +1,108 @@
+{
+  "_id": "EI6tbxtfyMoiIGov",
+  "name": "Drain Ether",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/drain-life.webp",
+  "effects": [],
+  "folder": "DrCBDzgZp69pYa75",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": null,
+      "elevation": null,
+      "depth": null,
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You try to wrench your target’s ether from their body. The target needs to make a basic saving throw based on your chosen save or take 3d4 spirit damage and lose a focus point. The target automatically critically succeeds if they have no focus points to drain.</p><p> </p><p>On a failure or critical failure, your target loses a focus point as you acquire a @UUID[Compendium.immortal-ardor.actions.Item.cN0RefdXwBD9KgoF]{mote of ether}. You can then choose to absorb it as hit points, recovering hit points equal to the amount of damage dealt or to absorb it as a focus point, granting you one focus point. Once a target fails or critically fails the saving throw, you cannot take their focus points and acquire a mote of ether from them again for 24 hours.</p><p> </p><p><strong>Heightened(+1)</strong>: Damage for this spell increases by 1d4.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "manipulate",
+        "void"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2 actions"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "0": {
+        "applyMod": false,
+        "formula": "3d4",
+        "type": "void",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "0": "1d4"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.EI6tbxtfyMoiIGov",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!EI6tbxtfyMoiIGov"
+}

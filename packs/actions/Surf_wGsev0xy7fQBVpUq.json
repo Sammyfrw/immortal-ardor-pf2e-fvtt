@@ -1,0 +1,83 @@
+{
+  "folder": "aDH8C7M7CfHOHAon",
+  "name": "Surf",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You naturally move through water. You gain a Swim speed that matches your Land Speed. If you are a Master in Athletics, you can breathe underwater. If you are Legendary in Athletics, you and all allies within 60 feet of you gain these benefits.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": "@actor.attributes.speed.total)"
+      }
+    ],
+    "slug": "surf",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "constellation"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Quick Swim"
+        },
+        {
+          "value": "Trained in Athletics"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/symbols/runes-star-orange-purple.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "wGsev0xy7fQBVpUq",
+  "sort": 0,
+  "_key": "!items!wGsev0xy7fQBVpUq"
+}

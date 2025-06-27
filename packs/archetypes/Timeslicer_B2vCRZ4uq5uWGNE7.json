@@ -1,0 +1,78 @@
+{
+  "name": "Timeslicer",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "3bsGBfWSWgyRh6xc",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>You channel your powers of divination through your Hallowed Bolts, converging them into a spectral needle. This needle inflicts a hex upon your target that distorts their perception of reality, slowing them down. You learn the @UUID[Compendium.immortal-ardor.archetypes.Item.FWe6TMICk2RBJ6L3]{Timeslicer} focus spell.</p><p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>Your Hallowed Bolts also become more powerful when used as a throwing weapon. Their thrown range increases by 10 ft., and their damage die increases by 1. You also gain a +1 item bonus to attack rolls with the Hallowed Bolts. The range, damage die and item bonus increase once again at 11<sup>th</sup> level and one more time at 17<sup>th</sup> level.</p>"
+    },
+    "rules": [],
+    "slug": "timeslicer",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Mourneblade Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.B2vCRZ4uq5uWGNE7",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "B2vCRZ4uq5uWGNE7",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!B2vCRZ4uq5uWGNE7"
+}

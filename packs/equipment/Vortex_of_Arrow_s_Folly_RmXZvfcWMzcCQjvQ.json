@@ -1,0 +1,124 @@
+{
+  "folder": "1tgwp9ZT6x5G4tFB",
+  "name": "Vortex of Arrow's Folly",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Arrow represents the journey; the travels needed to reach a destination, through all factors of life. The Arrow's Folly depicts their failure, and the natural instinct to shy away from hardship to remarkable degrees.</p><p><strong>Constellation</strong> @UUID[Compendium.immortal-ardor.deities.Item.bQJ4eQKF50ofQdGr]{The Arrow}</p><hr /><p><strong>First Asterism </strong>(Level 1): You gain the @UUID[Compendium.pf2e.feats-srd.Ux73dmoF8KnavyUD]{Fleet} general feat and you become Trained in Stealth. If you are naturally trained in Stealth, you can ignore difficult terrain while Sneaking.</p><p><strong>Second Asterism </strong>(Level 3, Trained in Stealth): You gain the @UUID[Compendium.pf2e.feats-srd.fD9xjrnPfJ8aQxYA]{Keen Follower} general feat and you become an Expert in Stealth. If you are naturally an Expert in Stealth, you become @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} if you successfully Hide.</p><p><strong>Third Asterism </strong>(Level 7, Trained in Stealth): You gain the @UUID[Compendium.pf2e.feats-srd.Imvu2RV2ggjJ2HZt]{Swift Sneak} skill feat and you become a Master in Stealth. If you are naturally a Master in Stealth, you can Sneak and Hide in any form of Concealment or Lesser Cover.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.stealth.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 2,
+              "start": 1,
+              "value": 1
+            },
+            {
+              "end": 6,
+              "start": 3,
+              "value": 2
+            },
+            {
+              "start": 7,
+              "value": 3
+            }
+          ]
+        }
+      }
+    ],
+    "slug": "vortex-of-arrows-folly",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "facet",
+        "invested",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Vortex Facet",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Vortex_Fragment_HD.png",
+        "data": {
+          "description": {
+            "value": "<p>An unidentified vortex facet.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "bonded"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Vortex_Fragment_HD.png",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.RmXZvfcWMzcCQjvQ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "RmXZvfcWMzcCQjvQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!RmXZvfcWMzcCQjvQ"
+}

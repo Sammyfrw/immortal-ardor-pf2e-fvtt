@@ -1,0 +1,84 @@
+{
+  "_id": "87sUk6R7ZWe70Wys",
+  "name": "Sleight of Hand",
+  "type": "spell",
+  "img": "systems/pf2e/icons/equipment/adventuring-gear/playing-cards.webp",
+  "effects": [],
+  "folder": "l8nnPyOmdzuonvnV",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You cast a visual illusion on yourself to make it seem as if you are doing something else to trick your target creature, while in fact you are performing another activity instead right before their eyes. The GM makes a secret perception roll for that creature against your occult spell DC to discern your illusion. On a failure or critical failure, you become unnoticed by that creature, as all they observe is your illusion.</p>\n<p> </p>\n<p><strong>Critical Success</strong> The creature still observes you and immediately knows you cast a spell.</p>\n<p><strong>Success </strong>The creature still observes you, but does not notice your illusion.</p>\n<p><strong>Failure </strong>You are unnoticed from the target, and they observe your illusion.</p>\n<p><strong>Critical Failure</strong> You are unnoticed from the target, and they have a -2 penalty to disbelieve your illusion.</p>\n<p> </p>\n<p>When you Sustain this spell, you can perform simple manipulate actions or Cast a Spell with the Illusion or Enchantment traits without revealing yourself to the target or breaking the illusion. If you perform an action with the Attack trait that directly targets the affected creature or cast a non-Illusion or enchantment spell, the target creature can immediately make a Seek action to attempt to disbelieve your illusion. If you take a move action which includes moving 5 feet away from your position, the illusion immediately dissipates. If the creature touches your illusion or uses the Seek action it can attempt to disbelieve the illusion.</p>\n<p> </p>\n<p><a name=\"_Hlk28277080\"></a><strong>Heightened(3rd)</strong>: You are able to affect two targets at once.</p>\n<p><strong>Heightened(6th)</strong>: You are able to affect three targets at once.</p>\n<p><strong> Heightened(9th)</strong>: You can affect any creature that is observing you.</p>"
+    },
+    "rules": [],
+    "slug": "sleight-of-hand",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "illusion",
+        "manipulate",
+        "visual"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "One creature that is observing you"
+    },
+    "range": {
+      "value": "50 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1 action"
+    },
+    "duration": {
+      "value": "10 minutes",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.87sUk6R7ZWe70Wys",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!87sUk6R7ZWe70Wys"
+}

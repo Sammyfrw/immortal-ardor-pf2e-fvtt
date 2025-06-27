@@ -1,0 +1,102 @@
+{
+  "name": "Guidespectre Crystal",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/equipment/treasure/gems/moderate-semiprecious-stones/milky-rose-or-smoky-quartz.webp",
+  "effects": [],
+  "folder": "mzX0TVruKF5n4kFd",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This crystal contains a spirit which is bound within it called a Guidespectre. Each Guidespectre is different, but they are a spirit dutifully bound to its summoner, which is typically a Mourneblade who has acquired one such gift upon completing their training. </p>\n<p>Most Guidespectres were servants of the old duke of Flederheim, Revant del Violo that were reforged or convinced to turn to the Mourneblade's side.</p>"
+    },
+    "rules": [],
+    "slug": "guidespectre-crystal",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/equipment/treasure/gems/moderate-semiprecious-stones/milky-rose-or-smoky-quartz.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": [],
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.K5XlcTqr428jeLBc",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "K5XlcTqr428jeLBc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!K5XlcTqr428jeLBc"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Smiting Chain",
+  "type": "spell",
+  "img": "systems/pf2e/icons/equipment/weapons/spiked-chain.webp",
+  "effects": [],
+  "folder": "gkiUEZAVZc8J8ihW",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements </strong>You are wielding an Ethereal Chain in your hand</p>\n<hr />\n<p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>Your ethereal chain elongates as you strike at the target area, creating a small eruption of chains to strike out of the earth and entangle your enemies.</p>\n<p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>Upon casting this spell, you deal 2d6 slashing damage to each creature in the area. Each creature must make a Reflex saving throw. At the end of this spell, your Ethereal Chain shatters.</p>\n<p class=\"MsoNormal\"><strong>Critical Success</strong> the creature is unaffected.</p>\n<p class=\"MsoNormal\"><strong>Success </strong>the creature takes half damage and suffers a 10-foot circumstance penalty to its speeds for 1 round.</p>\n<p class=\"MsoNormal\"><strong>Failure</strong> the creature takes full damage and suffers a -10-foot circumstance penalty to its Speeds for 1 round.</p>\n<p class=\"MsoNormal\"><strong>Critical </strong>Failure the creature takes double damage and is immobilized for 1 round. Creatures can attempt to Escape at your spell DC to remove these effects.</p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Heightened(+2): </strong><span style=\"mso-bidi-font-weight:bold\">The area of this spell increases by 5 feet, and the damage increases by 2d6.</span></p>"
+    },
+    "rules": [],
+    "slug": "smiting-chain",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "Wielding an Ethereal Chain ",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "50 feet"
+    },
+    "area": {
+      "value": 5,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "8 hours",
+      "sustained": false
+    },
+    "damage": {
+      "DniHeCDuSFvP6pmU": {
+        "applyMod": false,
+        "formula": "2d6",
+        "type": "slashing",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ]
+      }
+    },
+    "defense": {
+      "passive": null,
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "DniHeCDuSFvP6pmU": "2d6"
+      },
+      "area": 0
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.1042nX37l0OjvEd2",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "1042nX37l0OjvEd2",
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!1042nX37l0OjvEd2"
+}

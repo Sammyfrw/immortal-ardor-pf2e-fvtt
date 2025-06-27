@@ -1,0 +1,81 @@
+{
+  "_id": "8ip9K2toYhhxlKR2",
+  "name": "Performative Ritual",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "sqBBD4DisZnxsBqQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You leverage your understanding of performative knowledge to enact magical rituals that you know; as such, you follow the steps necessary with the same level of fervor as you would follow an act, a dance, or a song or other similar style of scripted performance. When you are a Secondary participant in a ritual, you can contextually use Performance in place of other skills. In addition, if you meet the requirements to be a primary caster of the ritual, you can contextually use Performance, as well.</p>"
+    },
+    "rules": [],
+    "slug": "performative-ritual",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Cragweaver Dedication"
+        },
+        {
+          "value": "Expert in Performance"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.8ip9K2toYhhxlKR2",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!8ip9K2toYhhxlKR2"
+}

@@ -1,0 +1,63 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Twin Moon Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">You brandish your dual weapons and strike at an unprepared enemy in fluid swings. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">If the target is off-guard to you, you deal an additional 1d4 precision damage for each Strike that hits. You do not add any additional sources of precision damage. If you make these Strikes while you are Hidden from your target (such as after a Hide or Sneak check), you do not become observed until after making both Strikes. Combine the damage from both strikes and apply resistances and weaknesses as only once. This counts as two attacks when calculating your multiple attack penalty.</span></p><p>At 6th level, the precision damage increases to 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "twin-moon-strike",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "t6bUuCzDahOaPikN",
+  "_key": "!items!t6bUuCzDahOaPikN"
+}

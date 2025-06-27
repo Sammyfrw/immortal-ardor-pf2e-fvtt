@@ -1,0 +1,83 @@
+{
+  "_id": "CTrTF3Z1yIKzKS2A",
+  "name": "Noble's Mask",
+  "type": "spell",
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/mask-of-the-banshee.webp",
+  "effects": [],
+  "folder": "l8nnPyOmdzuonvnV",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You place the felt mask over your face and cast a spell to shift your outward persona, in order to influence how others might view you and how you view others. The mask is not consumed in the process, and can be put away. The Noble’s Mask is invisible and has an outward appearance of your choosing. You can choose to make it visible.</p><p>When you cast this spell, you select a Noble’s Mask. You gain a +1 status bonus depending on the type of mask selected. You can only have one mask on you at a time.</p><ul><li>@UUID[Compendium.immortal-ardor.archetypes.Item.v3Uc5kD8c0W5XFRi]{Effect: Mask of the Diplomat}: Bonus to Diplomacy</li><li>@UUID[Compendium.immortal-ardor.archetypes.Item.ITpSG4HhrdMsMohw]{Effect: Mask of the Scoundrel}: Bonus to Deception</li><li>@UUID[Compendium.immortal-ardor.archetypes.Item.Q9mb8RYNDWM7gizb]{Effect: Mask of the Baron}: Bonus to Intimidate</li><li>@UUID[Compendium.immortal-ardor.archetypes.Item.8svhqp81ugbEAK4n]{Effect: Mask of the Orator}: Bonus to Society</li><li>@UUID[Compendium.immortal-ardor.archetypes.Item.jGfwD37LUi8fYGPc]{Effect: Mask of the Lord}: Bonus to Perception</li></ul><p> </p><p>These bonuses only apply when a creature you are interacting with is not aware of you being under the effects of this spell. If they realize that the mask is an illusion, such as when they disbelieve it through an investigation by a Seek action checking against your Occult spell DC or through spells such as See Invisibility or Identify, then Noble’s Mask does not affect them. You are can dispel your Noble’s Mask as a free action.</p><p> </p><p><strong>Heightened(3rd):</strong> The duration of the spell increases to 8 hours.</p><p><strong>Heightened(5th): </strong>You can select two masks to benefit from.</p><p><strong>Heightened(7th):</strong> The status bonus increases to +2.</p><p><strong>Heightened(9th):</strong> You can select three masks to benefit from.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "illusion",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "Silk thread and felt mask",
+    "target": {
+      "value": "Self"
+    },
+    "range": {
+      "value": "Touch"
+    },
+    "area": null,
+    "time": {
+      "value": "1 minute"
+    },
+    "duration": {
+      "value": "1 hour",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.CTrTF3Z1yIKzKS2A",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!CTrTF3Z1yIKzKS2A"
+}

@@ -1,0 +1,111 @@
+{
+  "_id": "NaoyFEKX6429Ll4T",
+  "name": "Spiritguise",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/spiritual-attunement.webp",
+  "effects": [],
+  "folder": "vNNCZvYm7kP625cN",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": null,
+      "elevation": null,
+      "depth": null,
+      "environment": ""
+    },
+    "core": {
+      "sourceId": "Item.Z8ITwJLoLwiRtIj7"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Grants @UUID[Compendium.immortal-ardor.archetypes.Item.kjAmUckvTGs8R5r4]{Effect: Spiritguise}.</p><p class=\"MsoNormal\">You will elemental wrath to surround yourself or a target of your choice within range, granting the power to push onward despite any injuries. When you cast this spell, you grant your target 1 temporary hit point.</p><p class=\"MsoNormal\">The range for this spell varies depending on the number of actions used to cast this spell; self for 1 action, another creature within 30 feet for 2 actions.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special: </span>While you are in Earthen Rage, you can add your spellcasting modifier to the temporary hit points you grant.</p><p class=\"MsoNormal\"> </p><p><strong>Heightened(+1) </strong>The temporary hit points increase by 1.</p>"
+    },
+    "rules": [],
+    "slug": "spiritguise",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "varies"
+    },
+    "range": {
+      "value": "varies"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "Until the end of your next turn",
+      "sustained": false
+    },
+    "damage": {
+      "93qpwzaz678xo6lr": {
+        "applyMod": true,
+        "formula": "2",
+        "type": "untyped",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "healing"
+        ]
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "93qpwzaz678xo6lr": "2"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.NaoyFEKX6429Ll4T",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!NaoyFEKX6429Ll4T"
+}

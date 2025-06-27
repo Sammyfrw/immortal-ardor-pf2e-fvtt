@@ -1,0 +1,67 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Zeal",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You can only gain Zeal during moments of heightened threat or tension, typically during Encounter mode, immediately prior to combat, during a fight, or intense debate. You can have up to a total of 5 Zeal at any one time, and you lose all Zeal at the end of your turn unless you take an action that grants you Zeal during your turn, or take a single action with the Concentrate trait to maintain your Zeal. You also lose all Zeal if you fall unconscious, if you die, or shortly after encounter mode ends.</span></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": {
+      "type": "counter",
+      "value": 1,
+      "max": 5
+    },
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "lxdzfO00biRZK59Z",
+  "img": "icons/weapons/swords/sword-flanged-lightning.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!items!lxdzfO00biRZK59Z"
+}

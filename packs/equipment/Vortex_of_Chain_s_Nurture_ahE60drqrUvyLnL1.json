@@ -1,0 +1,124 @@
+{
+  "folder": "1tgwp9ZT6x5G4tFB",
+  "name": "Vortex of Chain's Nurture",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Chain is a secretive and passionate constellation. It harbors many quiet indulgences, but is by no means ashamed. Indeed, for the tension and anticipation of the reveal is its greatest ideal. For in the act of revelation, do others reveal more about themselves - and so, a new link is made in the chain. The Chain revels in pain, but it is by no means cruel. After pain, comes nurture - for pain is one part pleasure, and one part life.</p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.aOV8rRRNTdHwyP9N]{The Chain}</p><hr /><p><strong>First Asterism </strong>(Level 1) You become Trained in Medicine. If you are naturally Trained in Medicine, the DC for Treat Wounds at Trained becomes 10 instead of 15 and you gain @UUID[Compendium.pf2e.feats-srd.wYerMk6F1RZb0Fwt]{Battle Medicine}.</p><p><strong>Second Asterism</strong> (Level 3, Trained in Medicine) You become an Expert in Medicine and gain the @UUID[Compendium.pf2e.feats-srd.c85a69mB1urW2Se2]{Continual Recovery} skill feat. If you are naturally an Expert in Medicine, you also gain @UUID[Compendium.pf2e.feats-srd.bkZgWFSFV4cAf5Ot]{Risky Surgery}.</p><p><strong>Third Asterism </strong>(Level 7, Trained in Medicine) You become a Master in Medicine and gain the @UUID[Compendium.pf2e.feats-srd.8c61nOIr5AM3KxZi]{Ward Medic} skill feat. If you are naturally a Master in Medicine, you also gain @UUID[Compendium.pf2e.feats-srd.tnzZvaJ97t0N9g6y]{Godless Healing}.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.medicine.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 2,
+              "start": 1,
+              "value": 1
+            },
+            {
+              "end": 6,
+              "start": 3,
+              "value": 2
+            },
+            {
+              "start": 7,
+              "value": 3
+            }
+          ]
+        }
+      }
+    ],
+    "slug": "vortex-of-chains-nurture",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "facet",
+        "invested",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Vortex Facet",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Vortex_Fragment_HD.png",
+        "data": {
+          "description": {
+            "value": "<p>An unidentified vortex facet.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "bonded"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Vortex_Fragment_HD.png",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ahE60drqrUvyLnL1",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "ahE60drqrUvyLnL1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!ahE60drqrUvyLnL1"
+}

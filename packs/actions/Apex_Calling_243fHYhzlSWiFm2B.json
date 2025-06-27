@@ -1,0 +1,169 @@
+{
+  "folder": "qfpBa1r3Wp7m8W3c",
+  "name": "Apex Calling",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You take the first steps of becoming something more than mortal; a legend in the making, an avatar of a greater being, an entity chosen by gods, or pushing yourself beyond perfection. Whatever path it takes, this marks the beginning of your journey of ascension.</p><p>An Apex Calling represents the start of your journey of ascension. Based on your background and your journey, you select two important details about your character: an Apex Attribute, and an Apex Skill, representing the attribute and skill which is most crucial to your character and the journey they are setting off. This selection also determines the eligibility to select an Apex Path, once you have reached Ascension Rank 3, as well as Ascension Feats from Rank 2 onwards.</p><p class=\"MsoNormal\">Upon selecting the Apex Attribute, you immediately raise the path’s apex attribute bonus to +4, or raise it by 1, whichever grants the higher bonus. This functions similarly to what would occur if you invest in an apex item with that attribute, except it is a permanent change so long as you are on the same Calling. Notably, however, you do not raise your attribute bonus from investing an apex item of the same attribute (but you do get any other benefits it confers). You are still able to invest an apex item of a different attribute and benefit from it as normal.</p><p class=\"MsoNormal\">Additionally, you become an Expert in the apex skill. If you are at least 3<sup>rd</sup> level, you become a Master in the skill, at 7<sup>th</sup> level you become a Legend in the skill, and at 15<sup>th</sup> level you become Mythic in that skill, which raises your proficiency bonus to 10 + your level.</p><p class=\"MsoNormal\">Regarding mythic rules, once you become mythic in the skill, you can treat all rolls you make with that skill as if they were mythic, for the purposes of any form of restrictions or requirements where a check needs to be made at that proficiency.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.{item|flags.pf2e.rulesSelections.apexAttributeMod}",
+        "value": 4
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Strength",
+            "value": "abilities.str.mod"
+          },
+          {
+            "label": "Dexterity",
+            "value": "abilities.dex.mod"
+          },
+          {
+            "label": "Constitution",
+            "value": "abilities.con.mod"
+          },
+          {
+            "label": "Intelligence",
+            "value": "abilities.int.mod"
+          },
+          {
+            "label": "Wisdom",
+            "value": "abilities.wis.mod"
+          },
+          {
+            "label": "Charisma",
+            "value": "abilities.cha.mod"
+          }
+        ],
+        "prompt": "Select an attribute.",
+        "flag": "apexAttributeMod"
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "ascended"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.{item|flags.pf2e.rulesSelections.apexAttributeMod}",
+        "mode": "add",
+        "value": "ternary(lt(@actor.{item|flags.pf2e.rulesSelections.apexAttributeMod}, 4), 0, 1)"
+      },
+      {
+        "choices": {
+          "config": "skills"
+        },
+        "flag": "apexSkill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.apexSkill}.rank",
+        "value": {
+          "brackets": [
+            {
+              "end": 2,
+              "start": 1,
+              "value": 2
+            },
+            {
+              "end": 6,
+              "start": 3,
+              "value": 3
+            },
+            {
+              "start": 7,
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "key": "AdjustModifier",
+        "selectors": [
+          "{item|flags.pf2e.rulesSelections.apexSkill}-check"
+        ],
+        "mode": "upgrade",
+        "value": "10+@actor.level",
+        "slug": "proficiency",
+        "relabel": "Mythic",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              15
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "apex-calling",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ascension"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/commodities/gems/gem-faceted-asscher-blue.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.243fHYhzlSWiFm2B",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "243fHYhzlSWiFm2B",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!243fHYhzlSWiFm2B"
+}

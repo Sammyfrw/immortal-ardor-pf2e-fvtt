@@ -1,0 +1,139 @@
+{
+  "type": "spell",
+  "name": "Pyroblast",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You focus a massive globule of flame, and launch it into the air such that it arcs in the direction of an enemy in range. The outcome of the spell depends on if you cast this spell with 2 or 3 actions.</p><ul><li><p><span class=\"action-glyph\">2</span> : Make a spell attack roll against a target, ignoring the effects of cover. On a hit, you deal @Damage[8d8[fire]] damage to the target. On any outcome except critical failure, the globule explodes, dealing half the damage to creatures in a @Template[type:burst|distance:20]{20-foot burst} as splash damage. On a miss, the target is included in this splash damage. </p></li><li><p><span class=\"action-glyph\">3</span> : You take extra time to launch the globule skywards. Increase the range of the spell to 240 feet, and target an area within range. The globule explodes as it hits the target area. Creatures in range must make a basic Reflex saving throw or take @Damage[8d8[fire]] damage, ignoring any benefits of cover if they are outward from the central point of its explosion.</p></li></ul><hr /><p><strong>Heightened (+1): </strong>Increase the damage of both versions of the spell by 2d8 and increase the area of the 3-action version increases by 5 feet.</p>"
+    },
+    "rules": [],
+    "slug": "pyroblast",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.10.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "manipulate"
+      ],
+      "rarity": "rare",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "120"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "FXyq7CvFO7YhDe2D": {
+        "formula": "8d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "passive": {
+        "statistic": "ac"
+      },
+      "save": null
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "FXyq7CvFO7YhDe2D": "2d8"
+      },
+      "area": 5
+    },
+    "overlays": {
+      "O2cqCtZgaRZtCUIa": {
+        "system": {
+          "range": {
+            "value": "240"
+          },
+          "time": {
+            "value": "3"
+          },
+          "damage": {
+            "FXyq7CvFO7YhDe2D": {
+              "category": null
+            }
+          },
+          "defense": {
+            "passive": null,
+            "save": {
+              "statistic": "reflex",
+              "basic": true
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      }
+    }
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/spells/rain-of-fire.webp",
+  "folder": "fNyvBi1FuzhzXM05",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "ZRdzuCHzj9ixIZug",
+  "sort": 0,
+  "_key": "!items!ZRdzuCHzj9ixIZug"
+}

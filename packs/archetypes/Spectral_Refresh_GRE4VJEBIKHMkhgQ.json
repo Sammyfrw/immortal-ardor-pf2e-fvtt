@@ -1,0 +1,89 @@
+{
+  "name": "Spectral Refresh",
+  "type": "spell",
+  "img": "systems/pf2e/icons/spells/glacial-heart.webp",
+  "effects": [],
+  "folder": "gkiUEZAVZc8J8ihW",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": null,
+      "elevation": null,
+      "depth": null,
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>You pull the lingering magic out of the chosen spectral arm and weave it into additional conjurations of the same type of weapon. You create two additional copies of the conjured spectral arms. This does not count against your limit for your conjured spectral arms. After the duration expires, both copies and the target spectral arm lose their power and shatter.</p>\n<p class=\"MsoNormal\"><u>Special:</u> When you use an affected Ghostfire Vial or any of its copies for Saint’s Fire or an affected Hallowed Bolt or any of its copies for Timeslicer, you can cast the focus spells an additional time without spending any focus points with the same actions you use to cast the spell. Once both spells have been cast, the affected weapons and both copies are used up.</p>"
+    },
+    "rules": [],
+    "slug": "spectral-refresh",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "a conjured ghostfire vial or hallowed bolt"
+    },
+    "range": {
+      "value": "Touch"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.GRE4VJEBIKHMkhgQ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "GRE4VJEBIKHMkhgQ",
+  "sort": 106250,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!GRE4VJEBIKHMkhgQ"
+}

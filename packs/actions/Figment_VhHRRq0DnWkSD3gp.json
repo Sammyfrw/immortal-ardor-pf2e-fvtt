@@ -1,0 +1,59 @@
+{
+  "type": "action",
+  "name": "Figment",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This creature is a figment of the dream. It is immune to all effects that would target any creature or object. It can mentally communicate with any creature in the dream that it perceives and considers an ally, but only with vague imagery and emotions that are associated with the creature that dreamt it.</p><p>As a lucid figment, it can take special Lucid actions with the Lucid trait. It can only use one Lucid action during its turn. When it uses actions with the Lucid trait, it makes use of any modifiers and proficiencies that are tied to the creature that dreamt up the figment.</p><p></p>"
+    },
+    "rules": [],
+    "slug": "figment",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lucid"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": null,
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "folder": "DL1Cx22P0pj4GTgy",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "VhHRRq0DnWkSD3gp",
+  "sort": 600000,
+  "_key": "!items!VhHRRq0DnWkSD3gp"
+}

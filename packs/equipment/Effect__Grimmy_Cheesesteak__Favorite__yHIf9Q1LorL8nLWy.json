@@ -1,0 +1,82 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Effect: Grimmy Cheesesteak (Favorite)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.equipment.Item.prjnfSci1Xhp6qKj]{Grimmy Cheesesteak}</p><p>Upon eating the meal, you gain a +1 item bonus to Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression}, Deception checks to @UUID[Compendium.pf2e.actionspf2e.ewwCglB7XOPLUz72]{Lie}, and Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.tHCqgwjtQtzNqVvd]{Coerce}, or increase any existing item bonus by that amount. Its effects last for 24 hours, or until you make your next daily preparations, whichever comes first.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "diplomacy",
+          "deception",
+          "intimidation"
+        ],
+        "value": 1,
+        "predicate": [
+          "action:request",
+          "action:lie",
+          "action:coerce",
+          "action:feint",
+          "action:demoralize",
+          "action:make-an-impression"
+        ]
+      }
+    ],
+    "slug": "effect-grimmy-cheesesteak-favorite",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/consumables/grains/pastry-bread-brown.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.yHIf9Q1LorL8nLWy",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "yHIf9Q1LorL8nLWy",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!yHIf9Q1LorL8nLWy"
+}

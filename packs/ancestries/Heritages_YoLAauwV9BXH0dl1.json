@@ -1,0 +1,19 @@
+{
+  "name": "Heritages",
+  "type": "Item",
+  "sort": 10600000,
+  "flags": {},
+  "sorting": "a",
+  "color": null,
+  "_id": "YoLAauwV9BXH0dl1",
+  "folder": "PE93XZpabXUBpIDq",
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!YoLAauwV9BXH0dl1"
+}

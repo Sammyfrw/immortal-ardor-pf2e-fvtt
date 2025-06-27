@@ -1,0 +1,94 @@
+{
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/creatures/magical/humanoid-giant-forest-blue.webp",
+  "name": "Ardorean Simulacrum",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create an magical duplicate of the target creature by animating ice or snow sculpted in its shape, infusing it with blood from the target. The simulacrum is a 4th-level creature that bears most of the target creature's abilities . If it needs to attempt a roll or use a DC of which the target was at least Trained in, use the regular bonus or DC for a creature of the simulacrum's level, otherwise it uses a -10 modifier to the bonus or DC. </p>\n<p>It possesses the original target creature's special abilities, which does include feats and spellcasting features that would match that of the target's at the simulacrum's level. When created, the simulacrum possesses no spells prepared or no spell slots, and must prepare any spells or recover its spell slots during daily preparations.</p>\n<p>It doesn't have any specific memories from the target, but it can use any information gained from any of the casters to Impersonate the target. It looks exactly like the target and has a Deception modifier to @UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonate} that creature equal to the modifier of the secondary spellcaster who rolled the Deception check, with a +4 status bonus. Creatures who attempt to identify the Simulacrum for what it is must succeed a Perception check against the deception DC or the Impersonate action.</p>\n<p>A creature can have a single simulacrum at a time. If the simulacrum reaches 0 hit points, the target is killed or the target undertakes the ritual again, the simulacrum crumbles into snow.</p>\n<hr />\n<p><strong>Critical Success</strong> You bring the simulacrum to life. It has the minion trait and is under your absolute control. You gain a direct mental link with the simulacrum and can spend an action to command the simulacrum via this link, even at a distance. You can choose to directly provide it any information you know during its creation, and give it a +4 status bonus to any skills you are trained in.</p>\n<p><strong>Success</strong> As a critical success, but there is no special link between you and the simulacrum. You must spend an action to command it verbally or by some other means.</p>\n<p><strong>Failure</strong> The ritual fails and has no effect.</p>\n<p><strong>Critical Failure</strong> The simulacrum awakens, but it isn't your minion and is hostile to all the casters. It does everything it can to destroy them, but if it can't immediately slay them, the simulacrum tries to escape and plots their demise.</p>\n<p><strong>Heightened (+1) </strong>The simulacrum's level increases by 2 and the cost of the ritual increases by 300 gp.</p>"
+    },
+    "rules": [],
+    "slug": "ardorean-simulacrum",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 living creature"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1 day"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": "a piece of hair, drop of blood, or other part of the creature to be duplicated, plus rare oils, minerals, and pigments with a total value of 300 gp"
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "ritual": {
+      "primary": {
+        "check": "Arcana or Occultism (master, the check has the secret trait)"
+      },
+      "secondary": {
+        "casters": 3,
+        "checks": "Arcana, Nature, Occultism, Religion, or Society (whichever is required to Recall Knowledge about the creature being duplicated); Crafting; Deception"
+      }
+    }
+  },
+  "type": "spell",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.spells-srd.Item.h5UqEdeqK8iTcU0J"
+    }
+  },
+  "effects": [],
+  "folder": "fNyvBi1FuzhzXM05",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.spells-srd.Item.h5UqEdeqK8iTcU0J",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "tyTDaeyXPtse7r1A",
+  "sort": 100000,
+  "_key": "!items!tyTDaeyXPtse7r1A"
+}

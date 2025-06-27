@@ -1,0 +1,119 @@
+{
+  "_id": "5SbqzjEDHm60RLuI",
+  "name": "Sickle Strike",
+  "type": "spell",
+  "img": "systems/pf2e/icons/equipment/weapons/sickle.webp",
+  "effects": [],
+  "folder": "ZWAHkfklX6l0PZUW",
+  "flags": {
+    "enhanced-terrain-layer": {
+      "multiple": 1,
+      "terraintype": "ground",
+      "environment": ""
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You create a magical sickle erupting from the ground that swings at an opponent within range. On a failed save a creature takes 1d6 slashing damage and 1 persistent bleed damage. Casting this spell with 2 actions targets a single creature within range, while casting this spell with 3 actions creates a 5-foot burst from a space within range.</p>\n<p class=\"MsoNormal\"><span style=\"mso-spacerun:yes\"> </span></p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Critical Success</strong> The creature takes no damage.</p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Success </strong>The creature takes the persistent bleed damage.</p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Failure</strong> The creature takes full slashing and persistent bleed damage.</p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Critical Failure</strong> The creature takes double slashing and persistent bleed damage.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Heightened(+1) </strong>The initial damage increases by 1d6 and the persistent damage increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": "sickle-strike",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "death",
+        "focus",
+        "manipulate",
+        "void"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "varies"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": {
+      "value": 5,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2 to 3 actions"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "0": {
+        "formula": "1d6",
+        "type": "slashing",
+        "category": null,
+        "materials": [],
+        "kinds": [
+          "damage"
+        ],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "passive": null,
+      "save": {
+        "statistic": "reflex",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "0": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.5SbqzjEDHm60RLuI",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!5SbqzjEDHm60RLuI"
+}

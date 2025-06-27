@@ -1,0 +1,100 @@
+{
+  "folder": "1tgwp9ZT6x5G4tFB",
+  "name": "Stardust of Howler's Legacy",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Howler is the personification of self-expression; of the ability to shout one's soul, and to let all witness it. No matter who they are and where they come from, the Howler must be heard. The Howler's Legacy is the idea of the lasting effects of our actions, and how we continue to be heard long after we're gone.</p><p><strong>Constellation: </strong>@UUID[Compendium.immortal-ardor.deities.Item.9qLt0e2dhmEgBloJ]{The Howler}</p><hr /><p><strong>First Asterism </strong>(Level 5): You can cast @UUID[Compendium.pf2e.spells-srd.Aap7nGpC7neTWm78]{Animal Allies} as a constellation spell.</p><p><strong>Second Asterism </strong>(Level 9): You can cast @UUID[Compendium.immortal-ardor.spells.Item.SZs2mNnvFoBFCyc6]{Hellhound Stride} as a constellation spell.</p><p><strong>Third Asterism </strong>(Level 13): You can cast @UUID[Compendium.pf2e.spells-srd.M5dp7ILSCKID9fDK]{Shock to the System} as a constellation spell. If a potential target would be within range of the spell if you could make a Stride action, you can Stride as part of casting the spell.</p>"
+    },
+    "rules": [],
+    "slug": "stardust-of-howlers-legacy",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "facet",
+        "invested",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Stardust Facet",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Stardust_Fragment_HD.png",
+        "data": {
+          "description": {
+            "value": "<p>An unidentified stardust facet.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "bonded"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Stardust_Fragment_HD.png",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.tU0FHbAr9YwZJbUe",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "tU0FHbAr9YwZJbUe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!tU0FHbAr9YwZJbUe"
+}

@@ -1,0 +1,67 @@
+{
+  "folder": "nlddAp9WBxBssNGg",
+  "name": "We Walk As One",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You travel as one, from cradle to grave. From different paths, to come together – all things live, grow, and die, and pass on from this life to those coming next. The universal connectedness of life resides in each of you and your traveling companions, and until the time comes, you have much to do, and much to learn.</p><p>You become permanently Quickened. You can only use this action to Command an Animal, or Sustain the ‘Be As One’ recitation. While you have Zeal, you and all your companions share senses and all movement speeds you have, using the highest amongst all of them, and your companions benefit from your Zealous Strikes bonus damage, using their appropriate elemental damage type. If they have multiple elemental traits, choose one.</p>"
+    },
+    "rules": [],
+    "slug": "we-walk-as-one",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Parable of the Winding Road"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "0xPHPItBavmGPG4E",
+  "_key": "!items!0xPHPItBavmGPG4E"
+}

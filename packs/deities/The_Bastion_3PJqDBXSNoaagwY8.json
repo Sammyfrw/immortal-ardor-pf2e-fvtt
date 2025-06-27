@@ -1,0 +1,81 @@
+{
+  "folder": "scRkkbziDxqsiAqB",
+  "name": "The Bastion",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h4>The Bull / The Bastion</h4><p class=\"MsoNormal\"><strong>Personality</strong> Practical, creative, loyal, possessive, temperamental, sensually indulgent, down-to-earth, dependable, persistent, and practical.</p><p class=\"MsoNormal\"><strong>Astral Attribute </strong>Strength or Constitution</p><p class=\"MsoNormal\"><strong>Astral Element </strong>Earth</p><p class=\"MsoNormal\"><strong>Astral Gemstone </strong>Topaz</p><p class=\"MsoNormal\"><strong>Astral Colors </strong>Brown, Yellow, Gray</p><p class=\"MsoNormal\"><strong>Astral Brand </strong>Minos – Practical, rugged styles</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong><span style=\"text-decoration:underline\">Cosmic Benefits</span></strong></p><p class=\"MsoNormal\"><strong>Cleric Spells</strong></p><p class=\"MsoNormal\"><strong>Divine Font</strong> Heal</p><p class=\"MsoNormal\"><strong>Divine Sanctification</strong> Can choose order, can choose holy or unholy</p><p class=\"MsoNormal\"><strong>Divine Skill </strong>Athletics</p><p class=\"MsoNormal\"><strong>Domains </strong>Duty, Toil, Earth, Protection</p><p class=\"MsoNormal\"><strong>Favored Weapon Group </strong>Shield</p><p class=\"MsoNormal\"><strong>Favored Classes</strong> Fighter, Champion, Guardian, Soldier, Solarian, Runesmith</p>"
+    },
+    "rules": [],
+    "slug": "the-bastion",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "covenant",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "duty",
+        "toil",
+        "earth",
+        "protection"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "str",
+      "con"
+    ],
+    "skill": [
+      "athletics"
+    ],
+    "weapons": [
+      "shield-bash",
+      "shield-spikes"
+    ],
+    "spells": {}
+  },
+  "img": "systems/pf2e/icons/spells/shield.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.3PJqDBXSNoaagwY8",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "3PJqDBXSNoaagwY8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!3PJqDBXSNoaagwY8"
+}

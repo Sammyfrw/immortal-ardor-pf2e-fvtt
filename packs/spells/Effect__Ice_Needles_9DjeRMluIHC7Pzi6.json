@@ -1,0 +1,69 @@
+{
+  "folder": "zjpYF4IfRg6WmopJ",
+  "name": "Effect: Ice Needles",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.Item.iyrtzKoER0J36hxS]{Ice Needles}</p><p>At any point during your turn for the duration, you can use 1 to 3 actions to launch a number of needles equal to the actions you spend to a creature within 60 feet of you. Or, if a creature within 60 feet of you damages you, you can use a reaction to launch up to 2 needles against that creature. You cannot launch more needles than you have currently.</p><p>Make a spell attack against your target for each needle launched. If you target a single creature with multiple needles, combine the damage for the purposes of damage resistances and weaknesses, and you do not increase your multiple attack penalty for these attacks until all actions are spent. The needles are destroyed after the attack, regardless of its outcome.</p>"
+    },
+    "rules": [],
+    "slug": "effect-ice-needles",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": {
+      "type": "counter",
+      "value": 3,
+      "max": 10,
+      "min": 1
+    },
+    "context": null,
+    "unidentified": false
+  },
+  "img": "systems/pf2e/icons/spells/ice-storm.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "9DjeRMluIHC7Pzi6",
+  "sort": 0,
+  "_key": "!items!9DjeRMluIHC7Pzi6"
+}

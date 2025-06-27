@@ -1,0 +1,63 @@
+{
+  "folder": "waw4cAmWKG7S0Jqw",
+  "name": "Parable of the Silent Moon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\"><em style=\"mso-bidi-font-style:normal\">Every night, the moon stares down, even on nights when we cannot see it. It waxes and wanes each night, like a quiet mistress. We pray and offer it letters, never receiving a reply. The moon doesn’t act, but we see its actions unfold. The seas rise and fall, the winds change, the chill of the night never stays the same. As the moon waxes and wanes, our lives never remain the same.</em></span></p><p class=\"MsoNormal\"><span lang=\"EN\">The Silent Moon is an unblinking and cold watcher – so instrumental and decisive in its effects, and yet it never makes its actions evident. The moon is humble, observant, and quiet; it never gives a commitment or a response hastily, and never falls into the vices of spontaneity as to shirk responsibility. They do what they must and shape the world, and the unobservant and uninformed will never know just how powerful they can be.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">In war and in contemplation, dervishes of the Silent Moon are always in a quiet trance. You travel light and quickly, and often wield weapons that reflect and aid such notions. You do not act rashly and spend time in preparation and observation, and understand the scope of your actions and consequences. During your zeniths, you have a state of perfect clarity and purpose, and make unexpected and powerful decisions. Ruthlessly, you will take advantage of those who do not pay attention.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You get the following benefits:</span></p><ul><li><p><span lang=\"EN\" style=\"color:black\"><span style=\"text-decoration:underline\">Zeal action</span>: Once per round, you gain Zeal when using actions that benefit from a target’s Off-guard condition (such as making a melee attack against a flanked creature) or successfully inflict off-guard (such as a Feint), or when you Sneak, Hide, Recall Knowledge or Sense Motive against a creature you are aware of.</span></p></li><li><p><span lang=\"EN\" style=\"color:black\"><span style=\"text-decoration:underline\">Bonus Feat</span>: You gain the <em style=\"mso-bidi-font-style:normal\">Moonslide</em> dervish feat.</span></p></li><li><p><span lang=\"EN\" style=\"color:black\"><span style=\"text-decoration:underline\">Focus spell</span>: You gain the Moonblink Meditation focus spell.</span></p></li></ul>"
+    },
+    "rules": [],
+    "slug": "parable-of-the-silent-moon",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.VbeX8mJUhn9o7taQ",
+    "duplicateSource": "Item.VbeX8mJUhn9o7taQ",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "whMmSMGy5r8c27S3",
+  "_key": "!items!whMmSMGy5r8c27S3"
+}
