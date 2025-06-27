@@ -9,7 +9,7 @@
       "value": "<p><span style=\"font-family:Roboto, sans-serif\">You can only gain Zeal during moments of heightened threat or tension, typically during Encounter mode, immediately prior to combat, during a fight, or intense debate. You can have up to a total of 5 Zeal at any one time, and you lose all Zeal at the end of your turn unless you take an action that grants you Zeal during your turn, or take a single action with the Concentrate trait to maintain your Zeal. You also lose all Zeal if you fall unconscious, if you die, or shortly after encounter mode ends.</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "effect-zeal",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

@@ -1,7 +1,7 @@
 {
-  "folder": "56XxK2wBB9Bc02Fh",
-  "name": "[T] Class Feat Template (Copy)",
-  "type": "feat",
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "[T] Meditation Spell Effect Template",
+  "type": "effect",
   "effects": [],
   "system": {
     "description": {
@@ -9,15 +9,14 @@
       "value": ""
     },
     "rules": [],
-    "slug": null,
+    "slug": "t-meditation-spell-effect-template",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
     },
     "traits": {
       "otherTags": [],
-      "value": [],
-      "rarity": "common"
+      "value": []
     },
     "publication": {
       "title": "Immortal Ardor",
@@ -28,21 +27,26 @@
     "level": {
       "value": 1
     },
-    "category": "class",
-    "onlyLevel1": false,
-    "maxTakable": 1,
-    "actionType": {
-      "value": "passive"
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
     },
-    "actions": {
-      "value": null
+    "start": {
+      "value": 0,
+      "initiative": null
     },
-    "prerequisites": {
-      "value": []
+    "tokenIcon": {
+      "show": true
     },
-    "location": null
+    "badge": null,
+    "context": null,
+    "unidentified": false
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "_id": "WDu8ula9uwEUhvdM",
+  "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
+  "sort": 0,
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -55,7 +59,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.9.0"
   },
-  "_id": "cpkD5U84d0lA845a",
-  "sort": 300000,
-  "_key": "!items!cpkD5U84d0lA845a"
+  "_key": "!items!WDu8ula9uwEUhvdM"
 }
