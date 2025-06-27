@@ -1,5 +1,14 @@
-2025/06/27-10:49:06.894 4f48 Log #115: 0 ops saved to Table #116 OK
-2025/06/27-10:49:06.894 4f48 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\actions/000115.log: OK
-2025/06/27-10:49:06.895 4f48 Table #39: 58 entries OK
-2025/06/27-10:49:06.902 4f48 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\actions/MANIFEST-000114: OK
-2025/06/27-10:49:06.910 4f48 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\actions; recovered 1 files; 64014 bytes. Some data may have been lost. ****
+2025/06/27-11:02:18.953 6dbc Recovering log #133
+2025/06/27-11:02:18.968 6dbc Delete type=0 #133
+2025/06/27-11:02:18.968 6dbc Delete type=3 #131
+2025/06/27-11:02:18.974 9ad8 Level-0 table #139: started
+2025/06/27-11:02:18.979 9ad8 Level-0 table #139: 61985 bytes OK
+2025/06/27-11:02:18.985 9ad8 Delete type=0 #137
+2025/06/27-11:02:18.985 9ad8 Manual compaction at level-0 from '!folders!DL1Cx22P0pj4GTgy' @ 72057594037927935 : 1 .. '!items!wGsev0xy7fQBVpUq' @ 0 : 0; will stop at '!items!wGsev0xy7fQBVpUq' @ 606 : 1
+2025/06/27-11:02:18.985 9ad8 Compacting 1@0 + 1@1 files
+2025/06/27-11:02:18.990 9ad8 Generated table #140@0: 58 keys, 61985 bytes
+2025/06/27-11:02:18.990 9ad8 Compacted 1@0 + 1@1 files => 61985 bytes
+2025/06/27-11:02:18.995 9ad8 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/06/27-11:02:18.995 9ad8 Delete type=2 #135
+2025/06/27-11:02:18.996 9ad8 Delete type=2 #139
+2025/06/27-11:02:18.996 9ad8 Manual compaction at level-0 from '!items!wGsev0xy7fQBVpUq' @ 606 : 1 .. '!items!wGsev0xy7fQBVpUq' @ 0 : 0; will stop at (end)

@@ -3,9 +3,9 @@
   "version": "6.1.1",
   "description": "The foundry module for the Pathfinder 2e iteration of Immortal Ardor.",
   "scripts": {
-    "build": "node build/build.mjs",
-    "watch": "node build/build.mjs --watch",
-    "extractPacks": "node build/extract-packs.mjs"
+    "build": "node module-scripts/build.mjs",
+    "watch": "node module-scripts/build.mjs --watch",
+    "extractPacks": "node module-scripts/extract-packs.mjs"
   },
   "author": "Sammy Rachman",
   "license": "Apache-2.0",

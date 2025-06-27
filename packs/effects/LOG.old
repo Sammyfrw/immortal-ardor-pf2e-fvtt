@@ -1,4 +1,3 @@
-2025/06/27-10:49:06.451 78f4 Log #111: 0 ops saved to Table #112 OK
-2025/06/27-10:49:06.454 78f4 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\effects/000111.log: OK
-2025/06/27-10:49:06.462 78f4 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\effects/MANIFEST-000110: OK
-2025/06/27-10:49:06.470 78f4 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\effects; recovered 0 files; 0 bytes. Some data may have been lost. ****
+2025/06/27-11:02:19.347 3f24 Recovering log #124
+2025/06/27-11:02:19.361 3f24 Delete type=0 #124
+2025/06/27-11:02:19.361 3f24 Delete type=3 #123

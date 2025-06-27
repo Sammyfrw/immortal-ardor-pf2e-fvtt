@@ -1,4 +1,3 @@
-2025/06/27-10:49:06.852 84ac Log #111: 0 ops saved to Table #112 OK
-2025/06/27-10:49:06.853 84ac Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\playlists/000111.log: OK
-2025/06/27-10:49:06.861 84ac Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\playlists/MANIFEST-000110: OK
-2025/06/27-10:49:06.870 84ac **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\playlists; recovered 0 files; 0 bytes. Some data may have been lost. ****
+2025/06/27-11:02:19.517 3f24 Recovering log #124
+2025/06/27-11:02:19.531 3f24 Delete type=0 #124
+2025/06/27-11:02:19.531 3f24 Delete type=3 #123

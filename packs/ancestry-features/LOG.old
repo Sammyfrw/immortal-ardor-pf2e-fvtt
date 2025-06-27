@@ -1,4 +1,3 @@
-2025/06/27-10:49:06.934 2fc4 Log #107: 0 ops saved to Table #108 OK
-2025/06/27-10:49:06.936 2fc4 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\ancestry-features/000107.log: OK
-2025/06/27-10:49:06.942 2fc4 Archiving C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\ancestry-features/MANIFEST-000106: OK
-2025/06/27-10:49:06.950 2fc4 **** Repaired leveldb C:\Users\Rainwhisker\AppData\Local\FoundryVTT\Data\modules\immortal-ardor\packs\ancestry-features; recovered 0 files; 0 bytes. Some data may have been lost. ****
+2025/06/27-11:02:19.082 6dbc Recovering log #120
+2025/06/27-11:02:19.095 6dbc Delete type=0 #120
+2025/06/27-11:02:19.095 6dbc Delete type=3 #119
