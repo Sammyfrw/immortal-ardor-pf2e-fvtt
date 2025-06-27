@@ -1,3 +1,7 @@
+/*
+ * Script courtesy of TikaelSol from the PF2e FoundryVTT Community
+ */
+
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
 import { existsSync } from "fs";
 import fs from "fs/promises";

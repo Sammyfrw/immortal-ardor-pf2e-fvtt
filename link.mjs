@@ -1,3 +1,7 @@
+/*
+ * Script courtesy of TikaelSol from the PF2e FoundryVTT Community
+ */
+
 import fs from "fs";
 import path from "path";
 import process from "process";
