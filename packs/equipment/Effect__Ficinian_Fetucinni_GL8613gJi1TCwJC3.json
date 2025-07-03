@@ -1,0 +1,73 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Effect: Ficinian Fetucinni",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You gain a +1 item bonus to Fortitude saves, or increase any existing item bonuses to these checks you may have. In addition, you gain 10 temporary hit points whenever you roll initiative.</span></p><p>If <span style=\"font-family:Roboto, sans-serif\">this is your favorite meal, you gain 5 temporary hit points each round after your initial 10.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": 10,
+        "events": {
+          "onCreate": true,
+          "onTurnStart": false
+        }
+      }
+    ],
+    "slug": "effect-ficinian-fetucinni",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/consumables/food/plate-pasta-noodles-white-red.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "GL8613gJi1TCwJC3",
+  "sort": 0,
+  "_key": "!items!GL8613gJi1TCwJC3"
+}

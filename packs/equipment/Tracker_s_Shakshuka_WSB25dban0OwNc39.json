@@ -18,10 +18,8 @@
         "alchemical-food"
       ],
       "value": [
-        "alchemical",
         "consumable",
-        "meal",
-        "processed"
+        "meal"
       ],
       "rarity": "common"
     },

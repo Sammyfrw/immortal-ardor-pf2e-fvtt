@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You empower a piece of ammunition with hellish sigils and markings, or charge a loaded ranged weapon with a similar power, and grant it a brief infernal power.</p><p>The next ranged Strike you make with this weapon before the end of your turn deals @Damage[1d6[fire,persistent]] damage. At 10th level, this damage increases to 2d6. You can perform this action as part of Reloading your weapon.</p><p>@UUID[Compendium.immortal-ardor.actions.Item.9V1HPVC6hQ5Jd9EW]{Effect: Hellfire Shot}</p><p>This fire is considered Unholy for the purposes of sanctification, and will deal persistent spirit damage instead of fire if it would be more detrimental (as determined by the GM).</p><p></p><p></p><p>If you spend a focus point when you use this constellation action…?</p>"
+      "value": "<p>You empower a piece of ammunition with hellish sigils and markings, or charge a loaded ranged weapon with a similar power, and grant it a brief infernal power.</p><p>The next ranged Strike you make with this weapon before the end of your turn deals @Damage[1d6[fire,persistent]] damage. At 10th level, this damage increases to 2d6. You can perform this action as part of Reloading your weapon.</p><p>@UUID[Compendium.immortal-ardor.feats.Item.9V1HPVC6hQ5Jd9EW]{Effect: Hellfire Shot}</p><p>This fire is considered Unholy for the purposes of sanctification, and will deal persistent spirit damage instead of fire if it would be more detrimental (as determined by the GM).</p><p></p><p></p><p>If you spend a focus point when you use this constellation action…?</p>"
     },
     "rules": [],
     "slug": "hellfire-shot",
@@ -56,7 +56,7 @@
       "per": "round"
     },
     "selfEffect": {
-      "uuid": "Compendium.immortal-ardor.actions.Item.9V1HPVC6hQ5Jd9EW",
+      "uuid": "Compendium.immortal-ardor.feats.Item.9V1HPVC6hQ5Jd9EW",
       "name": "Effect: Hellfire Shot"
     }
   },

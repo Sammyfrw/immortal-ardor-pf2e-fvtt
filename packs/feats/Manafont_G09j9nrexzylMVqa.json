@@ -14,27 +14,27 @@
         "choices": [
           {
             "label": "Enforcer",
-            "value": "Compendium.immortal-ardor.actions.Item.IuwhwQKbCZ4Gqtw9"
+            "value": "Compendium.immortal-ardor.feats.Item.IuwhwQKbCZ4Gqtw9"
           },
           {
             "label": "Reaver",
-            "value": "Compendium.immortal-ardor.actions.Item.Vx2a6eOlp9NiFq6l"
+            "value": "Compendium.immortal-ardor.feats.Item.Vx2a6eOlp9NiFq6l"
           },
           {
             "label": "Invoker",
-            "value": "Compendium.immortal-ardor.actions.Item.cz5agwtxRqBCrvQK"
+            "value": "Compendium.immortal-ardor.feats.Item.cz5agwtxRqBCrvQK"
           },
           {
             "label": "Evoker",
-            "value": "Compendium.immortal-ardor.actions.Item.qN5d5N6c3269jgjI"
+            "value": "Compendium.immortal-ardor.feats.Item.qN5d5N6c3269jgjI"
           },
           {
             "label": "Empty",
-            "value": "Compendium.immortal-ardor.actions.Item.qN5d5N6c3269jgjI"
+            "value": "Compendium.immortal-ardor.feats.Item.qN5d5N6c3269jgjI"
           },
           {
             "label": "Asterbound",
-            "value": "Compendium.immortal-ardor.actions.Item.ORaRyETlVcwF8f8x"
+            "value": "Compendium.immortal-ardor.feats.Item.ORaRyETlVcwF8f8x"
           }
         ],
         "flag": "manafont",

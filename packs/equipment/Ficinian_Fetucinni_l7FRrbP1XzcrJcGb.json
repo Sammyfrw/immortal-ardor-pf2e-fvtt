@@ -1,0 +1,103 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Ficinian Fetucinni",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> 130 sp<br /><strong>Ingredients</strong> 4 basic, 2 special<br /><strong>Preparation</strong> </span>DC 22 Cooking Lore, DC 24 Survival<br /><strong>Requirements</strong> Improved Kitchen<br /><strong>Favorite Meal </strong>You gain 5 temporary hit points each round after your initial 10.</p><hr /><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">A Ficinian Fetucinni consists of a gathering of seafood and ingredients imported from Ficina, a world that is 80% water. The underwater sealife is renowned for their delectable taste, and the world's cuisiners are able to create masterstroke meals. Garnished seafood is drizzled in light oils, sea salt and black pepper in a reduced creamy base tossed with fetucinni is the base concept of this meal, but it can be further dressed in multiple arrangements of chopped, fresh vegetables or fruits.</span></p><p>You gain a +1 item bonus to Fortitude saves, or increase any existing item bonuses to these checks you may have. In addition, you gain 10 temporary hit points whenever you roll initiative. These benefits last for 24 hours or until you make your next daily preparations, whichever comes first.</p><p>@UUID[Item.SYPCjzLO7eSlTEqk]{Effect: Ficinian Fetucinni}</p><p>@UUID[Item.YR8yfpX05qxEpSwy]{Effect: Ficinian Fetucinni (Favorite)}</p>"
+    },
+    "rules": [],
+    "slug": "ficinian-fetucinni",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "consumable",
+        "meal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 260
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/consumables/meat/chicken-breast-raw-pink.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "img": "icons/consumables/food/plate-pasta-noodles-white-red.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "l7FRrbP1XzcrJcGb",
+  "sort": 0,
+  "_key": "!items!l7FRrbP1XzcrJcGb"
+}

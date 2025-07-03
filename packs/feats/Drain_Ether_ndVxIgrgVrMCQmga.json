@@ -9,7 +9,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can channel a connection another creature’s ether to pull it away from them to take it as your own. You learn the @UUID[Compendium.immortal-ardor.actions.Item.EI6tbxtfyMoiIGov]{Drain Ether} innate cantrip. As it is a cantrip, its spell level is automatically heightened to equal to half your level rounded up. You choose the spellcasting tradition of this cantrip. You can use either your strongest spellcasting DC or class DC for this cantrip. When you acquire this feature, choose which saving throw the cantrip will use. You can retrain this feature to change the saving throw after several weeks of downtime.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can channel a connection another creature’s ether to pull it away from them to take it as your own. You learn the @UUID[Compendium.immortal-ardor.feats.Item.EI6tbxtfyMoiIGov]{Drain Ether} innate cantrip. As it is a cantrip, its spell level is automatically heightened to equal to half your level rounded up. You choose the spellcasting tradition of this cantrip. You can use either your strongest spellcasting DC or class DC for this cantrip. When you acquire this feature, choose which saving throw the cantrip will use. You can retrain this feature to change the saving throw after several weeks of downtime.</span></p>"
     },
     "rules": [],
     "slug": "drain-ether",

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Bastion represents the desire to protect, and the understanding that all forms of Defense can be used as a great offense. The Bastion's Fist speaks to the power of overwhelming defense when turned into a mighty rebuke.</p><p><strong>Constellation: </strong>@UUID[Compendium.immortal-ardor.deities.Item.3PJqDBXSNoaagwY8]{The Bastion}</p><hr /><p><strong>First Asterism </strong>(Level 4) You gain the @UUID[Compendium.immortal-ardor.actions.Item.4ehTkNgOfYjmqfhb]{Scutum} class feat. You can use this action with any two-handed weapon, a 2-action melee weapon-infusion kineticist blast, or solarian weapon manifestation.</p><p><strong>Second Asterism </strong>(Level 8) You gain the @UUID[Compendium.immortal-ardor.actions.Item.WHhhOz0s3EtI1EWD]{Phalanx} class feat. You can use this action with any two-handed weapon, a 2-action melee weapon-infusion kineticist blast, or solarian weapon manifestation. This counts as a 2-action Elemental Blast for the purposes of melee weapon-infusion blasts.</p><p><strong>Third Asterism</strong> (Level 12) You gain the @UUID[Compendium.immortal-ardor.actions.Item.FFR7xH37lJRHilPr]{Gladius} class feat. You can use this action with any two-handed weapon, a 2-action melee weapon-infusion kineticist blast, or solarian weapon manifestation. This counts as a 2-action Elemental Blast for the purposes of melee weapon-infusion blasts.</p>"
+      "value": "<p>The Bastion represents the desire to protect, and the understanding that all forms of Defense can be used as a great offense. The Bastion's Fist speaks to the power of overwhelming defense when turned into a mighty rebuke.</p><p><strong>Constellation: </strong>@UUID[Compendium.immortal-ardor.deities.Item.3PJqDBXSNoaagwY8]{The Bastion}</p><hr /><p><strong>First Asterism </strong>(Level 4) You gain the @UUID[Compendium.immortal-ardor.feats.Item.4ehTkNgOfYjmqfhb]{Scutum} class feat. You can use this action with any two-handed weapon, a 2-action melee weapon-infusion kineticist blast, or solarian weapon manifestation.</p><p><strong>Second Asterism </strong>(Level 8) You gain the @UUID[Compendium.immortal-ardor.feats.Item.WHhhOz0s3EtI1EWD]{Phalanx} class feat. You can use this action with any two-handed weapon, a 2-action melee weapon-infusion kineticist blast, or solarian weapon manifestation. This counts as a 2-action Elemental Blast for the purposes of melee weapon-infusion blasts.</p><p><strong>Third Asterism</strong> (Level 12) You gain the @UUID[Compendium.immortal-ardor.feats.Item.FFR7xH37lJRHilPr]{Gladius} class feat. You can use this action with any two-handed weapon, a 2-action melee weapon-infusion kineticist blast, or solarian weapon manifestation. This counts as a 2-action Elemental Blast for the purposes of melee weapon-infusion blasts.</p>"
     },
     "rules": [],
     "slug": "solar-of-bastions-fist",
@@ -90,7 +90,7 @@
     "systemVersion": "6.9.0"
   },
   "_id": "Y9SWNJi9hk99PjVi",
-  "sort": 0,
+  "sort": 1600000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span style=\"font-family:Roboto, sans-serif\">The Arrow represents the journey; the travels needed to reach a destination, through all factors of life. The Arrow's Spine is prickly and pointed, where danger is seen everywhere, and paranoia is abound. Such are the perils of the journey.</span></p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.bQJ4eQKF50ofQdGr]{The Arrow}</p><hr /><p><strong>First Asterism </strong>(Level 7) You become Trained in Athletics and you gain the @UUID[Compendium.pf2e.feats-srd.bFoh3267kNLk68cU]{Quick Swim} feat, even if you don't meet its prerequisites. If you are naturally Trained in Athletics, you gain the @UUID[Compendium.immortal-ardor.actions.Item.wGsev0xy7fQBVpUq]{Surf} constellation feat.</p><p></p>"
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">The Arrow represents the journey; the travels needed to reach a destination, through all factors of life. The Arrow's Spine is prickly and pointed, where danger is seen everywhere, and paranoia is abound. Such are the perils of the journey.</span></p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.bQJ4eQKF50ofQdGr]{The Arrow}</p><hr /><p><strong>First Asterism </strong>(Level 7) You become Trained in Athletics and you gain the @UUID[Compendium.pf2e.feats-srd.bFoh3267kNLk68cU]{Quick Swim} feat, even if you don't meet its prerequisites. If you are naturally Trained in Athletics, you gain the @UUID[Compendium.immortal-ardor.feats.Item.wGsev0xy7fQBVpUq]{Surf} constellation feat.</p><p></p>"
     },
     "rules": [],
     "slug": "vortex-of-arrows-spine-minor",
@@ -90,7 +90,7 @@
     "systemVersion": "6.9.0"
   },
   "_id": "BYTo12qlkS0OeiQg",
-  "sort": 0,
+  "sort": 400000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,
