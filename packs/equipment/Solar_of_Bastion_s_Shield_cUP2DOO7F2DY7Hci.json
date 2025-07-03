@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Bastion represents the desire to protect, and the understanding that all forms of Defense can be used as a great offense. The Bastion's Shield exemplifies this need to protect others, and the lengths one will go to help them.</p><p><strong>Constellation: </strong>@UUID[Compendium.immortal-ardor.deities.Item.3PJqDBXSNoaagwY8]{The Bastion}</p><hr /><p><strong>First Asterism </strong>(Level 1): You gain the @UUID[Compendium.pf2e.feats-srd.w8Ycgeq2zfyshtoS]{Reactive Shield} feat. If you have a weapon with the parry trait, you can use this reaction to position your weapon to parry instead. If you can cast @UUID[Compendium.pf2e.spells-srd.TVKNbcgTee19PXZR]{Shield} or a similar cantrip, you can cast the cantrip as a reaction.</p><p><strong>Second Asterism </strong>(Level 6, @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block}) You gain the @UUID[Compendium.pf2e.feats-srd.5vXc2s2siR1ihpBT]{Shield Warden} feat. You can use Shield or a similar cantrip for the Shield Block, if you are able to cast them.</p><p><strong>Third Asterism </strong>(Level 10, @UUID[Compendium.pf2e.feats-srd.jM72TjJ965jocBV8]{Shield Block}) You gain the @UUID[Compendium.immortal-ardor.actions.Item.LYZGl61pUlFOR9Dh]{Shield Intervention} feat. You can cast Shield or a similar cantrip for raising a shield and blocking with it, if you are able to cast them.</p>"
+      "value": "<p>The Bastion represents the desire to protect, and the understanding that all forms of Defense can be used as a great offense. The Bastion's Shield exemplifies this need to protect others, and the lengths one will go to help them.</p><p><strong>Constellation: </strong>@UUID[Compendium.immortal-ardor.deities.Item.3PJqDBXSNoaagwY8]{The Bastion}</p><hr /><p><strong>First Asterism </strong>(Level 1): You gain the @UUID[Compendium.pf2e.feats-srd.w8Ycgeq2zfyshtoS]{Reactive Shield} feat. If you have a weapon with the parry trait, you can use this reaction to position your weapon to parry instead. If you can cast @UUID[Compendium.pf2e.spells-srd.TVKNbcgTee19PXZR]{Shield} or a similar cantrip, you can cast the cantrip as a reaction.</p><p><strong>Second Asterism </strong>(Level 6, @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block}) You gain the @UUID[Compendium.pf2e.feats-srd.5vXc2s2siR1ihpBT]{Shield Warden} feat. You can use Shield or a similar cantrip for the Shield Block, if you are able to cast them.</p><p><strong>Third Asterism </strong>(Level 10, @UUID[Compendium.pf2e.feats-srd.jM72TjJ965jocBV8]{Shield Block}) You gain the @UUID[Compendium.immortal-ardor.feats.Item.LYZGl61pUlFOR9Dh]{Shield Intervention} feat. You can cast Shield or a similar cantrip for raising a shield and blocking with it, if you are able to cast them.</p>"
     },
     "rules": [],
     "slug": "solar-of-bastions-shield",
@@ -90,7 +90,7 @@
     "systemVersion": "6.9.0"
   },
   "_id": "cUP2DOO7F2DY7Hci",
-  "sort": 0,
+  "sort": 1800000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

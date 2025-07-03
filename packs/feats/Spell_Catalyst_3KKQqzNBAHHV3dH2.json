@@ -9,12 +9,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You are able to make greater use of spell components than other manafonts, drawing out the prime elements of the world from them. You learn the @UUID[Compendium.immortal-ardor.actions.Item.l3ecoYD2MwGUJhaa]{Spell Catalyst} free action.<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> </span></p>"
+      "value": "<p>You are able to make greater use of spell components than other manafonts, drawing out the prime elements of the world from them. You learn the @UUID[Compendium.immortal-ardor.feats.Item.l3ecoYD2MwGUJhaa]{Spell Catalyst} free action.<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> </span></p>"
     },
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.actions.Item.l3ecoYD2MwGUJhaa"
+        "uuid": "Compendium.immortal-ardor.feats.Item.l3ecoYD2MwGUJhaa"
       }
     ],
     "slug": null,

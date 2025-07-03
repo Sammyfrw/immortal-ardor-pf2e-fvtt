@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A small fragment of imagined possibility, crystalized. Within, it gleams with potential; one of growth, of exceeding one's possible limits.</p><p>When a person capable of ascension brings two fragments together and uses them, it grants them a proof of ascension in the form of the @UUID[Compendium.immortal-ardor.actions.Item.MMGcmpZYT2Mblajo]{Ascension Bonus: Attribute} ascension feat. As it is an ascension item, the user can only benefit from one pair of attribute fragments of ascension; using another pair would overwrite their previously granted attribute boost.</p><p>Two fragments of Wise Ascension grants its user an attribute boost to Wisdom. </p>"
+      "value": "<p>A small fragment of imagined possibility, crystalized. Within, it gleams with potential; one of growth, of exceeding one's possible limits.</p><p>When a person capable of ascension brings two fragments together and uses them, it grants them a proof of ascension in the form of the @UUID[Compendium.immortal-ardor.feats.Item.MMGcmpZYT2Mblajo]{Ascension Bonus: Attribute} ascension feat. As it is an ascension item, the user can only benefit from one pair of attribute fragments of ascension; using another pair would overwrite their previously granted attribute boost.</p><p>Two fragments of Wise Ascension grants its user an attribute boost to Wisdom. </p>"
     },
     "rules": [],
     "slug": "fragment-of-wise-ascension",

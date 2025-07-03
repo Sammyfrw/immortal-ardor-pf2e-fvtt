@@ -9,7 +9,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your control over volatile ether grows to a point where you can make the most of its ephemeral power. You treat your focus points as if it were double their current amount, for the purpose of meeting focus point costs. In addition, you gain the @UUID[Compendium.immortal-ardor.actions.Item.ifJkYzy345762JRN]{Volatility} free action.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your control over volatile ether grows to a point where you can make the most of its ephemeral power. You treat your focus points as if it were double their current amount, for the purpose of meeting focus point costs. In addition, you gain the @UUID[Compendium.immortal-ardor.feats.Item.ifJkYzy345762JRN]{Volatility} free action.</span></p>"
     },
     "rules": [],
     "slug": "volatility",

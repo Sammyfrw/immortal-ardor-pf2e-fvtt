@@ -1,15 +1,15 @@
 {
   "folder": "1tgwp9ZT6x5G4tFB",
-  "name": "Vortex of Arrow's Spine (Minor)",
+  "name": "Vortex of River's Flow (Minor)",
   "type": "equipment",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span style=\"font-family:Roboto, sans-serif\">The Arrow represents the journey; the travels needed to reach a destination, through all factors of life. The Arrow's Spine is prickly and pointed, where danger is seen everywhere, and paranoia is abound. Such are the perils of the journey.</span></p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.bQJ4eQKF50ofQdGr]{The Arrow}</p><hr /><p><strong>First Asterism </strong>(Level 7) You become Trained in Athletics and you gain the @UUID[Compendium.pf2e.feats-srd.bFoh3267kNLk68cU]{Quick Swim} feat, even if you don't meet its prerequisites. If you are naturally Trained in Athletics, you gain the @UUID[Compendium.immortal-ardor.feats.Item.wGsev0xy7fQBVpUq]{Surf} constellation feat.</p><p></p>"
+      "value": "<p class=\"MsoNormal\">The River represents change, movement and reflection. It is as deep and meaningful as the constellation is long and winding. Where does it begin, and where does it end? Does it go upstream or downstream? A river never stays constant, but its various points have an ecosystem of their own. The River’s Flow imagines the movement of one’s self. Life continues, no matter what, and how does the water’s ministrations shape you and how can you shape with it? That forms the fundamental thought of Flow.</p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.r1Qixlm9Wh5s9tWz]{The River}</p><hr /><p><strong>First Asterism </strong>(Level 7) You become Trained in Athletics and you gain the @UUID[Compendium.pf2e.feats-srd.P04Hw8E6WAWARKHP]{Quick Climb} feat, even if you don't meet its prerequisites. If you are naturally trained in Athletics, you gain the @UUID[Item.TfWs9CzXW7TcOoQq]{Rock Climb} constellation feat.</p>"
     },
     "rules": [],
-    "slug": "vortex-of-arrows-spine-minor",
+    "slug": "vortex-facet",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -35,7 +35,7 @@
       "remaster": true
     },
     "level": {
-      "value": 7
+      "value": 0
     },
     "quantity": 1,
     "baseItem": null,
@@ -65,11 +65,11 @@
     "identification": {
       "status": "identified",
       "unidentified": {
-        "name": "Unknown Vortex Facet",
+        "name": "Unusual Vortex Facet",
         "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Vortex_Fragment_HD.png",
         "data": {
           "description": {
-            "value": "<p>An unidentified vortex facet.</p>"
+            "value": "<p>An unidentified vortex facet</p>"
           }
         }
       },
@@ -83,18 +83,18 @@
   "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Vortex_Fragment_HD.png",
   "flags": {},
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.BYTo12qlkS0OeiQg",
+    "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.9.0"
   },
-  "_id": "BYTo12qlkS0OeiQg",
-  "sort": 400000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!BYTo12qlkS0OeiQg"
+  "_id": "bGwb4gupJDpHYvsL",
+  "sort": 0,
+  "_key": "!items!bGwb4gupJDpHYvsL"
 }

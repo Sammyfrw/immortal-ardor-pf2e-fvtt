@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Ivory represents wealth, devotion, and ambition. The world requires a sense of practicality, the idea that not everything is given and must be earned. The appreciation of the world's bounty and its acquisition goes hand-in-hand with the drive to collect and protect one's position and hard-earned treasures, whatever form it may take. Ivory's Ambition brings attention to this climb - for wealth, for power, for fame, or whatever one might consider worthy working towards, and the means one must pursue to attain it.</p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.jabiEXrdPYCLAz1Z]{The Ivory}</p><hr /><p><strong>First Asterism </strong>(Level 5) You gain the @UUID[Compendium.immortal-ardor.actions.Item.o0YAlbdSV08yN7Rx]{Hellfire Shot}.</p>"
+      "value": "<p>The Ivory represents wealth, devotion, and ambition. The world requires a sense of practicality, the idea that not everything is given and must be earned. The appreciation of the world's bounty and its acquisition goes hand-in-hand with the drive to collect and protect one's position and hard-earned treasures, whatever form it may take. Ivory's Ambition brings attention to this climb - for wealth, for power, for fame, or whatever one might consider worthy working towards, and the means one must pursue to attain it.</p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.jabiEXrdPYCLAz1Z]{The Ivory}</p><hr /><p><strong>First Asterism </strong>(Level 5) You gain the @UUID[Compendium.immortal-ardor.feats.Item.o0YAlbdSV08yN7Rx]{Hellfire Shot} constellation feat.</p>"
     },
     "rules": [],
     "slug": "solar-of-ivorys-ambition-minor",
@@ -90,7 +90,7 @@
     "systemVersion": "6.9.0"
   },
   "_id": "DQ9ywRNFgaXQyfsj",
-  "sort": 0,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,
