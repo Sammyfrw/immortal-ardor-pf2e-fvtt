@@ -1,15 +1,15 @@
 {
   "folder": "1tgwp9ZT6x5G4tFB",
-  "name": "Solar of Bastion's Fist",
+  "name": "Solar of Engine's Entropy (Minor)",
   "type": "equipment",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Bastion represents the desire to protect, and the understanding that all forms of Defense can be used as a great offense. The Bastion's Fist speaks to the power of overwhelming defense when turned into a mighty rebuke.</p><p><strong>Constellation: </strong>@UUID[Compendium.immortal-ardor.deities.Item.3PJqDBXSNoaagwY8]{The Bastion}</p><hr /><p><strong>First Asterism </strong>(Level 6) You gain the @UUID[Compendium.immortal-ardor.feats.Item.4ehTkNgOfYjmqfhb]{Scutum} class feat. You can use this action with any two-handed weapon, a 2-action melee weapon-infusion kineticist blast, or solarian weapon manifestation.</p><p><strong>Second Asterism </strong>(Level 10) You gain the @UUID[Compendium.immortal-ardor.feats.Item.WHhhOz0s3EtI1EWD]{Phalanx} class feat. You can use this action with any two-handed weapon, a 2-action melee weapon-infusion kineticist blast, or solarian weapon manifestation. This counts as a 2-action Elemental Blast for the purposes of melee weapon-infusion blasts.</p><p><strong>Third Asterism</strong> (Level 14) You gain the @UUID[Compendium.immortal-ardor.feats.Item.FFR7xH37lJRHilPr]{Gladius} class feat. You can use this action with any two-handed weapon, a 2-action melee weapon-infusion kineticist blast, or solarian weapon manifestation. This counts as a 2-action Elemental Blast for the purposes of melee weapon-infusion blasts.</p>"
+      "value": "<p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px;color:rgb(25, 24, 19);font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Roboto, sans-serif\">The Engine represents evolution, innovation and creation. It flows with the manufacture of all things new and all things plentiful. A sound in perfect harmony that is best unceasing. The Engine's Entropy represents the degradation and change that comes with the flow of time.</span></p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.nErOKPlLvcxcp31v]{The Engine}</p><hr /><p><strong>First Asterism </strong>(Level 8): You gain the @UUID[Compendium.immortal-ardor.feats.Item.ksvPFvJ52gtKeEpI]{Sonic Thrust} constellation feat.<br class=\"Apple-interchange-newline\" /></p>"
     },
     "rules": [],
-    "slug": "solar-of-bastions-fist",
+    "slug": "solar-of-engines-entropy-minor",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -35,7 +35,7 @@
       "remaster": true
     },
     "level": {
-      "value": 6
+      "value": 8
     },
     "quantity": 1,
     "baseItem": null,
@@ -49,7 +49,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "sp": 2000
+        "sp": 500
       }
     },
     "equipped": {
@@ -83,18 +83,18 @@
   "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Solar_Fragment_HD.png",
   "flags": {},
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.Y9SWNJi9hk99PjVi",
+    "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.9.0"
   },
-  "_id": "Y9SWNJi9hk99PjVi",
-  "sort": 1600000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!Y9SWNJi9hk99PjVi"
+  "_id": "8F4XlADHZvVv6dPe",
+  "sort": 0,
+  "_key": "!items!8F4XlADHZvVv6dPe"
 }

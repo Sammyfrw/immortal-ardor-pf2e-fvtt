@@ -1,40 +1,38 @@
 {
   "folder": "aDH8C7M7CfHOHAon",
-  "name": "Gladius",
+  "name": "Aqua Step",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You make a strong forward Strike with an unarmed or brawling weapon at a creature within melee reach that ignores the target's hardness or physical damage resistances, if it has any.</p><p>If you spend a focus point when using this action, you can follow up with a second Strike at the same multi-attack penalty and properties as the first Strike. If your second Strike hits, you can attempt to Shove your target at the same multi-attack penalty as the Strike.</p><p>This would count as three attacks for the purposes of incurring multi attack penalty.</p>"
+      "value": "<p>Water gathers at your feet, and you charge forward, intending to take the offense before anyone can take advantage of it. You Stride twice. At the end of your movement, you Strike.</p><p>If you spend a focus point, you gain a +10-foot circumstance bonus to your Speed for your movement, and you can make the Strike after either Stride.</p>"
     },
     "rules": [],
-    "slug": "gladius",
+    "slug": "sonic-thrust",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
-      "previous": {
-        "schema": 0.935,
-        "foundry": "12.331",
-        "system": "6.8.5"
-      }
+      "previous": null
     },
     "traits": {
       "otherTags": [],
       "value": [
         "constellation",
-        "flourish"
+        "flourish",
+        "move",
+        "water"
       ],
       "rarity": "rare"
     },
     "publication": {
-      "title": "Immortal Ardor",
-      "authors": "Sammy Rachman",
+      "title": "",
+      "authors": "",
       "license": "OGL",
-      "remaster": true
+      "remaster": false
     },
     "level": {
-      "value": 6
+      "value": 4
     },
     "category": "class",
     "onlyLevel1": false,
@@ -69,7 +67,7 @@
     "I1veN4C8IQlA6HIt": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_id": "FFR7xH37lJRHilPr",
-  "sort": 200000,
-  "_key": "!items!FFR7xH37lJRHilPr"
+  "_id": "HNOdjJXBl1MnjsdO",
+  "sort": 0,
+  "_key": "!items!HNOdjJXBl1MnjsdO"
 }

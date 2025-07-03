@@ -1,0 +1,100 @@
+{
+  "folder": "1tgwp9ZT6x5G4tFB",
+  "name": "Vortex of River's Flow (Minor)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">The River represents change, movement and reflection. It is as deep and meaningful as the constellation is long and winding. Where does it begin, and where does it end? Does it go upstream or downstream? A river never stays constant, but its various points have an ecosystem of their own. The River’s Flow imagines the movement of one’s self. Life continues, no matter what, and how does the water’s ministrations shape you and how can you shape with it? That forms the fundamental thought of Flow.</p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.r1Qixlm9Wh5s9tWz]{The River}</p><hr /><p><strong>First Asterism </strong>(Level 7) You become Trained in Athletics and you gain the @UUID[Compendium.pf2e.feats-srd.P04Hw8E6WAWARKHP]{Quick Climb} feat, even if you don't meet its prerequisites. If you are naturally trained in Athletics, you gain the @UUID[Item.TfWs9CzXW7TcOoQq]{Rock Climb} constellation feat.</p>"
+    },
+    "rules": [],
+    "slug": "vortex-facet",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "12.331",
+        "system": "6.8.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "facet",
+        "invested",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Vortex Facet",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Vortex_Fragment_HD.png",
+        "data": {
+          "description": {
+            "value": "<p>An unidentified vortex facet</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "bonded"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Vortex_Fragment_HD.png",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "I1veN4C8IQlA6HIt": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "bGwb4gupJDpHYvsL",
+  "sort": 0,
+  "_key": "!items!bGwb4gupJDpHYvsL"
+}

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You raise your brawling or unarmed weapons to block. While raised, you gain a +2 circumstance bonus to your AC. If an attack critically misses you in this state, you can retaliate with a Strike as a reaction with the blocking weapon with a +2 circumstance bonus to your attack roll. After this attack, you no longer block.</p><p>If you spend a focus point when you use this action, you gain resistance equal to your level. After reducing the damage from an attack, you can retaliate as above.</p>"
+      "value": "<p>You raise your brawling or unarmed weapons to block. While raised, you gain a +2 circumstance bonus to your AC. If an attack critically misses you in this state, you can retaliate with a Strike as a reaction with the blocking weapon with a +2 circumstance bonus to your attack roll. After this attack, you no longer block.</p><p>If you spend a focus point when you use this action, you gain resistance equal to your level. After reducing the damage from an attack, you can retailiate with your reaction as if the target had critically missed you.</p>"
     },
     "rules": [],
     "slug": "scutum",
