@@ -1,0 +1,85 @@
+{
+  "name": "Disseverment",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "3bsGBfWSWgyRh6xc",
+  "flags": {
+    "exportSource": {
+      "world": "seekers-of-ardor",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.12.1"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Astral powers materialize within you as the culmination of Senna’s wishes to Gailardia Kline, the first Mourneblade. With it, you can hunt any creature that would befoul the world.  Once per round, you can cast Ghoststrike as a single action focus spell, without expending a focus point.</p><p>If your Strike is successful, you also trigger additional damage from every weakness that your target has. On a critical hit, you attempt to counteract an existing effect you’re aware of. Use your class DC - 10 or your spell proficiency modifier to make the counteract check, whichever is higher. A creature can only take the additional weakness damage and the counteract effect each once every 24 hours.</p>"
+    },
+    "rules": [],
+    "slug": "disseverment",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "ascension"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Mourneblade Dedication"
+        },
+        {
+          "value": "Ascended Rank"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3,
+    "MDg2MGU5NzgyN2Nh": 3
+  },
+  "_id": "WnyQ0MgNO1suC5Hv",
+  "sort": 0,
+  "_key": "!items!WnyQ0MgNO1suC5Hv"
+}

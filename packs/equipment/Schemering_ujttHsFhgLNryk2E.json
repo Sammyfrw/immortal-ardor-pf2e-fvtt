@@ -1,0 +1,201 @@
+{
+  "name": "Schemering",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/equipment/weapons/sword-cane.webp",
+  "effects": [],
+  "folder": "FpNLrqP4hhllM1lT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.VitLIpdIAmKlGb7i"
+    },
+    "exportSource": {
+      "world": "seekers-of-ardor",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.12.1"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif\"><em>An elegant, keen-edged blade that rests within a thoughtfully crafted Gloamwell darkwood cane. The pommel maintains the original bat-like talons resting around a deep red ruby gem in the center, with a slightly longer handle portion for easier manipulation. When drawn, the blade emits a palpable aura of shadow around the wielder, and the subtle hint of terror and inevitability when brandished against a foe. Woe be upon the Morneblade's foes, as he paves the way between light and darkness.</em></span></p><hr /><p>Schemering is a +3 major striking quickstrike greater astral keen cold iron sword cane. It has the following benefits when invested:</p><ul><li><p><span class=\"pf2-icon\">f </span><strong>Haunting Presence </strong>(Emotion) On a critical hit with this weapon, you may attempt to Demoralize your opponent as a free action.</p></li><li><p><strong>Shadow's Cling </strong>Shadows seem to wrap and collect around your form. As long as you're in dim light or darkness, you can attempt a Stealth check to hide, even if you aren't concealed against a creature. In addition, you gain the @Compendium[pf2e.spells-srd.SE0fbgBj7atuukdv]{Cloak of Shadow} focus spell.</p></li><li><p><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif\"><strong>Fated Duel</strong> When you've used your Exploit Vulnerability on a target, you suffer less penalties for repeated strikes. Your multiple attack penalty for attacks against targets with Exploit Vulnerability is -3 (-2 for an agile weapon) on your second attack of the turn instead of -5, and -6 (-4 with an agile weapon) on your third or subsequent attack of the turn, instead of -10.</span></p></li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "rules": [
+      {
+        "key": "MultipleAttackPenalty",
+        "predicate": [
+          "agile",
+          "target:mark:exploit-vulnerability"
+        ],
+        "selector": "attack",
+        "value": -2
+      },
+      {
+        "key": "MultipleAttackPenalty",
+        "predicate": [
+          {
+            "not": "agile"
+          },
+          "target:mark:exploit-vulnerability"
+        ],
+        "selector": "attack",
+        "value": -3
+      }
+    ],
+    "slug": "schemering",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agile",
+        "artifact",
+        "concealable",
+        "finesse"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "quantity": 1,
+    "baseItem": "sword-cane",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 80000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": "cold-iron",
+      "grade": "high"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Sword Cane",
+        "img": "systems/pf2e/icons/equipment/weapons/sword-cane.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null,
+      "value": ""
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "reload": {
+      "value": ""
+    },
+    "runes": {
+      "potency": 3,
+      "striking": 3,
+      "property": [
+        "speed",
+        "keen",
+        "greaterAstral"
+      ]
+    },
+    "specific": {
+      "material": {
+        "type": "cold-iron",
+        "grade": "high"
+      },
+      "runes": {
+        "potency": 3,
+        "striking": 3,
+        "property": [
+          "speed",
+          "keen",
+          "greaterAstral"
+        ]
+      }
+    },
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "criticalConditionType": "",
+      "criticalConditionValue": null,
+      "strikeConditionType": "",
+      "strikeConditionValue": null
+    },
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.VitLIpdIAmKlGb7i",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3,
+    "MDg2MGU5NzgyN2Nh": 3
+  },
+  "_id": "ujttHsFhgLNryk2E",
+  "sort": 0,
+  "_key": "!items!ujttHsFhgLNryk2E"
+}

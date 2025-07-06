@@ -1,0 +1,135 @@
+{
+  "folder": "HXrnWTJw2wWuoDYT",
+  "name": "Pakao",
+  "type": "armor",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif\"><em>When a seed becomes a forest, and a spark becomes a inferno, she has become the fury of the land itself. Grown and shaped around as a loose-fit robe-like dress that slings over her right shoulder, wrapped in natural serenity. However, when faced with a struggle, the wearer's ether surges within the armor itself, causing sparks to dance across its form. The flames threaten to burn away the abundance once there and consume it, allowing flames to spring and curl out from her left side and expose the hellfire that burns within. In every act of defiance and struggle, even the earth's fury burns bright and resolute against that which would try and consume her.</em></span></p><hr /><p><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif\">By default, as part of the enchantment of the armor, it takes the form of either the Overgrowth dress, or Hellfire dress - both crafted to fit Aerith. You can swap between the dresses by twirling in place as an action, letting the enchantment burn away, or regrow into the other form, or when you enter Earthen Rage.</span></p><p>This armor is a +3 greater resilient greater cold resistant rockbraced greater fortification hellgleam Chain Shirt. Hellgleam Armor is imbued with the warmth of fire and protects you from celestial entities. You are protected from severe cold while wearing Hellgleam Armor, and as a reaction to a Strike from a creature weak to Hellgleam, you can grant yourself a +1 circumstance bonus to your AC.</p><p>While invested, you gain the following benefits:</p><ul><li>You gain the @Item[6kFHSZVaGnbYBDu5]{Survival Instinct} reaction.</li><li><p><strong>Transitional Elements</strong> That life might be in the past, now, but the knowledge you gained during it is still something you can use. During your daily preparations, you can choose one element from the opposite of your choice of Elemental Affinity. Until your next daily preparations, you treat that element as though it were part of your Elemental Affinity.</p></li><li><p><strong>Burn with Defiance </strong><em>\"We'll be here for you, no matter where you go. You're not alone.\"</em> You can cast @UUID[Compendium.pf2e.spells-srd.1b55SgYTV65JvmQd]{Blessing of Defiance} as an innate spell that you can cast once per day. In addition, once per day, triggered by needing to make a Will saving throw, you may cast this spell on yourself as a reaction as though it were cast using two actions.</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "pakao",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "flexible",
+        "noisy"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "quantity": 1,
+    "baseItem": "chain-shirt",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 80000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/energy-robe-of-fire.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "light",
+    "group": "chain",
+    "acBonus": 2,
+    "strength": 1,
+    "dexCap": 3,
+    "checkPenalty": -1,
+    "speedPenalty": 0,
+    "runes": {
+      "potency": 3,
+      "resilient": 2,
+      "property": [
+        "greaterColdResistant",
+        "rockBraced",
+        "greaterFortification"
+      ]
+    },
+    "subitems": [],
+    "specific": {
+      "material": {
+        "type": null,
+        "grade": null
+      },
+      "runes": {
+        "potency": 3,
+        "resilient": 2,
+        "property": [
+          "greaterColdResistant",
+          "rockBraced",
+          "greaterFortification"
+        ]
+      }
+    }
+  },
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/energy-robe-of-fire.webp",
+  "flags": {
+    "exportSource": {
+      "world": "seekers-of-ardor",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.12.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3,
+    "MDg2MGU5NzgyN2Nh": 3
+  },
+  "_id": "MildtDANqqRjlyTZ",
+  "sort": 0,
+  "_key": "!items!MildtDANqqRjlyTZ"
+}
