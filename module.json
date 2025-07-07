@@ -242,6 +242,10 @@
             "label": "IA.Trait.Ascended",
             "description": "IA.TraitDescription.Ascended"
           },
+          "astral": {
+            "label": "IA.Trait.Astral",
+            "description": "IA.TraitDescription.Astral"
+          },
           "agamidan": {
             "label": "IA.Trait.Agamidan",
             "description": "IA.TraitDescription.Agamidan"
@@ -465,9 +469,34 @@
           }
         },
         "weaponGroups": {
-          "scepter": "PF2E.WeaponGroups.Scepter"
+          "scepter": "PF2E.WeaponGroups.Scepter",
+          "twinblade": "PF2E.WeaponGroups.Twinblade"
         },
         "weaponTraits": {
+          "combo-acid": {
+            "label": "IA.Trait.ComboAcid",
+            "description": "PF2E.TraitDescription.Combo"
+          },
+          "combo-cold": {
+            "label": "IA.Trait.ComboCold",
+            "description": "PF2E.TraitDescription.Combo"
+          },
+          "combo-electricity": {
+            "label": "IA.Trait.ComboElectricity",
+            "description": "PF2E.TraitDescription.Combo"
+          },
+          "combo-fire": {
+            "label": "IA.Trait.ComboFire",
+            "description": "PF2E.TraitDescription.Combo"
+          },
+          "combo-sonic": {
+            "label": "IA.Trait.ComboSonic",
+            "description": "PF2E.TraitDescription.Combo"
+          },
+          "combo-spirit": {
+            "label": "IA.Trait.ComboSpirit",
+            "description": "PF2E.TraitDescription.Combo"
+          },
           "launching": {
             "label": "IA.Trait.Launching",
             "description": "PF2E.TraitDescription.Launching"
@@ -499,6 +528,10 @@
           "spellcrux": {
             "label": "IA.Trait.Spellcrux",
             "description": "PF2E.TraitDescription.Spellcrux"
+          },
+          "union": {
+            "label": "IA.Trait.Union",
+            "description": "PF2E.TraitDescription.Union"
           }
         }
       }
