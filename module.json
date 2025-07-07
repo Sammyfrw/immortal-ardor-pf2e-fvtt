@@ -170,68 +170,68 @@
     "immortal-ardor": {
       "pf2e-homebrew": {
         "baseWeapons": {
-          "hornblade": "IA.BaseWeapon.Hornblade",
-          "pyrinokeras": "IA.BaseWeapon.Pyrinokeras",
-          "barbican-shield": "IA.BaseWeapon.BarbicanShield",
-          "kinetishield": "IA.BaseWeapon.Kinetishield",
-          "glaivethrower": "IA.BaseWeapon.Glaivethrower",
-          "tetherstaff": "IA.BaseWeapon.Tetherstaff",
-          "crabclaw": "IA.BaseWeapon.Crabclaw",
-          "rootrazor": "IA.BaseWeapon.Rootrazoor",
-          "lionedge": "IA.BaseWeapon.Lionedge",
-          "roaring-revolver": "IA.BaseWeapon.RoaringRevolver",
-          "maidens-kiss": "IA.BaseWeapon.MaidensKiss",
-          "spirit-shackle": "IA.BaseWeapon.SpiritShackle",
-          "greatgavel": "IA.BaseWeapon.Greatgavel",
-          "columncrasher": "IA.BaseWeapon.Columncrasher",
-          "red-scorpion": "IA.BaseWeapon.RedScorpion",
-          "venom-coil": "IA.BaseWeapon.VenomCoil",
           "archers-recurve": "IA.BaseWeapon.ArchersRecurve",
-          "sidewinder": "IA.BaseWeapon.Sidewinder",
+          "barbican-shield": "IA.BaseWeapon.BarbicanShield",
           "cazic-horn": "IA.BaseWeapon.CazicHorn",
-          "obelisk": "IA.BaseWeapon.Obelisk",
+          "columncrasher": "IA.BaseWeapon.Columncrasher",
+          "crabclaw": "IA.BaseWeapon.Crabclaw",
           "crozier": "IA.BaseWeapon.Crozier",
-          "mechaseers-wrench": "IA.BaseWeapon.MechaseersWrench",
-          "wave-axe": "IA.BaseWeapon.WaveAxe",
-          "graviton-axe": "IA.BaseWeapon.GravitonAxe",
-          "ritual-blade": "IA.BaseWeapon.RitualBlade",
-          "somnic-blade": "IA.BaseWeapon.SomnicBlade",
+          "glaivethrower": "IA.BaseWeapon.Glaivethrower",
           "golem-gauntlet": "IA.BaseWeapon.GolemGauntlet",
-          "voltaic-fist": "IA.BaseWeapon.VoltaicFist",
+          "graviton-axe": "IA.BaseWeapon.GravitonAxe",
+          "greatgavel": "IA.BaseWeapon.Greatgavel",
+          "hornblade": "IA.BaseWeapon.Hornblade",
+          "kinetishield": "IA.BaseWeapon.Kinetishield",
+          "lionedge": "IA.BaseWeapon.Lionedge",
+          "magistar": "IA.BaseWeapon.Magistar",
+          "maidens-kiss": "IA.BaseWeapon.MaidensKiss",
+          "mechaseers-wrench": "IA.BaseWeapon.MechaseersWrench",
+          "obelisk": "IA.BaseWeapon.Obelisk",
+          "pyrinokeras": "IA.BaseWeapon.Pyrinokeras",
+          "red-scorpion": "IA.BaseWeapon.RedScorpion",
+          "ritual-blade": "IA.BaseWeapon.RitualBlade",
+          "roaring-revolver": "IA.BaseWeapon.RoaringRevolver",
+          "rootrazor": "IA.BaseWeapon.Rootrazoor",
           "sickle-rifle": "IA.BaseWeapon.SickleRifle",
-          "magistar": "IA.BaseWeapon.Magistar"
+          "sidewinder": "IA.BaseWeapon.Sidewinder",
+          "somnic-blade": "IA.BaseWeapon.SomnicBlade",
+          "spirit-shackle": "IA.BaseWeapon.SpiritShackle",
+          "tetherstaff": "IA.BaseWeapon.Tetherstaff",
+          "venom-coil": "IA.BaseWeapon.VenomCoil",
+          "voltaic-fist": "IA.BaseWeapon.VoltaicFist",
+          "wave-axe": "IA.BaseWeapon.WaveAxe"
         },
         "languages": {
-          "new-rogalian": "IA.Language.NewRogalian",
-          "eirlanggan": "IA.Language.Eirlanggan",
-          "old-rogalian": "IA.Language.OldRogalian",
-          "zahnheimen": "IA.Language.Zahnheimen",
+          "aershanko": "IA.Language.Aershanko",
+          "akago": "IA.Language.Akago",
+          "alexandrian": "IA.Language.Alexandrian",
+          "andaleic": "IA.Language.Andaleic",
           "domish": "IA.Language.Domish",
-          "schattenspeak": "IA.Language.Schattenspeak",
+          "drachaic": "IA.Language.Drachaic",
+          "eirlanggan": "IA.Language.Eirlanggan",
+          "gardic": "IA.Language.Gardic",
+          "garrungan": "IA.Language.Garrungan",
           "high-icaro": "IA.Language.HighIcaro",
           "icaro": "IA.Language.Icaro",
-          "gardic": "IA.Language.Gardic",
-          "sangkra": "IA.Language.Sangkra",
-          "roddan": "IA.Language.Roddan",
-          "akago": "IA.Language.Akago",
-          "navarren": "IA.Language.Navarren",
-          "ravarren": "IA.Language.Ravarren",
-          "kazhakin": "IA.Language.Kazhakin",
-          "drachaic": "IA.Language.Drachaic",
+          "irilynko": "IA.Language.Irilynko",
           "jyllan": "IA.Language.Jyllan",
+          "kazhakin": "IA.Language.Kazhakin",
           "liefellan": "IA.Language.Liefellan",
           "mannish": "IA.Language.Mannish",
-          "uduuri": "IA.Language.Uduuri",
-          "aershanko": "IA.Language.Aershanko",
-          "yethyenko": "IA.Language.Yethyenko",
-          "runic": "IA.Language.Runic",
-          "scrawl": "IA.Language.Scrawl",
-          "andaleic": "IA.Language.Andaleic",
-          "alexandrian": "IA.Language.Alexandrian",
+          "murcielan": "IA.Language.Murcielan",
+          "navarren": "IA.Language.Navarren",
+          "new-rogalian": "IA.Language.NewRogalian",
+          "old-rogalian": "IA.Language.OldRogalian",
+          "ravarren": "IA.Language.Ravarren",
           "remin": "IA.Language.Remin",
-          "garrungan": "IA.Language.Garrungan",
-          "irilynko": "IA.Language.Irilynko",
-          "murcielan": "IA.Language.Murcielan"
+          "roddan": "IA.Language.Roddan",
+          "runic": "IA.Language.Runic",
+          "sangkra": "IA.Language.Sangkra",
+          "schattenspeak": "IA.Language.Schattenspeak",
+          "scrawl": "IA.Language.Scrawl",
+          "uduuri": "IA.Language.Uduuri",
+          "yethyenko": "IA.Language.Yethyenko",
+          "zahnheimen": "IA.Language.Zahnheimen"
         },
         "creatureTraits": {
           "aelkhazak": {
@@ -300,30 +300,30 @@
           }
         },
         "damageTypes": {
-          "radiant": {
-            "label": "IA.DamageType.Radiant",
+          "aqua": {
+            "label": "IA.DamageType.Aqua",
             "category": "energy",
-            "icon": "fa-sparkles"
+            "icon": "fa-droplet"
           },
           "necrotic": {
             "label": "IA.DamageType.Necrotic",
             "category": "energy",
             "icon": "fa-skull"
           },
-          "air": {
-            "label": "IA.DamageType.Air",
+          "radiant": {
+            "label": "IA.DamageType.Radiant",
             "category": "energy",
-            "icon": "fa-wind"
+            "icon": "fa-sparkles"
           },
-          "earth": {
-            "label": "IA.DamageType.Earth",
+          "tectonic": {
+            "label": "IA.DamageType.Tectonic",
             "category": "energy",
             "icon": "fa-earth"
           },
-          "water": {
-            "label": "IA.DamageType.Water",
+          "wind": {
+            "label": "IA.DamageType.Wind",
             "category": "energy",
-            "icon": "fa-droplet"
+            "icon": "fa-wind"
           }
         },
         "equipmentTraits": {
@@ -345,9 +345,9 @@
             "label": "IA.Trait.Aelkhazak",
             "description": "IA.TraitDescription.Aelkhazak"
           },
-          "ascension": {
-            "label": "IA.Trait.Ascension",
-            "description": "IA.TraitDescription.Ascension"
+          "ascended": {
+            "label": "IA.Trait.Ascended",
+            "description": "IA.TraitDescription.Ascended"
           },
           "agamidan": {
             "label": "IA.Trait.Agamidan",
