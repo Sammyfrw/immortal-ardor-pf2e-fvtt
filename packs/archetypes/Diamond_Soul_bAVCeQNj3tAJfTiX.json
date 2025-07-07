@@ -1,0 +1,86 @@
+{
+  "folder": "BoozMtIVljxjPx4o",
+  "name": "Diamond Soul",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p><strong>Trigger</strong> A creature within range is about to take damage.</p><hr /></div><p>You transmute a creature’s very body to turn into an astrally infused, unbreakable diamond. The creature is shielded, gaining resistance 20 to all damage and gaining 60 temporary hit points for the duration. When the spell ends or when the target’s temporary hit points are expended, you can spend a reaction to sustain this spell as long as you are within 30 feet of the target. When you do, the spell’s duration is reset back to 1 round from when you sustained it, and the target gains 30 temporary hit points.</p><p>If the spell ever ends and a target still has temporary hit points remaining, their diamond body persists in a weaker form, granting them half of any remaining temporary hit points with resistance 10 for 1 minute.</p><p>Once a creature has been affected by this spell, they cannot be affected by it for 24 hours.</p><p>@UUID[Compendium.immortal-ardor.archetypes.Item.iZxVN9xfXAo80Evg]{Effect: Diamond Soul (Full)}</p><p>@UUID[Compendium.immortal-ardor.archetypes.Item.OlBYBYMa9LzV8vNu]{Effect: Diamond Soul (Half)}</p><p>@UUID[Compendium.immortal-ardor.archetypes.Item.mm85DGiDNxw2dQ6d]{Effect: Diamond Soul (Expended)}</p>"
+    },
+    "rules": [],
+    "slug": "diamond-soul",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ascended",
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "rare",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "Reaction"
+    },
+    "duration": {
+      "value": "1 round",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "systems/pf2e/icons/equipment/treasure/gems/greater-precious-stones/large-diamond.webp",
+  "flags": {
+    "exportSource": {
+      "world": "seekers-of-ardor",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.12.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3,
+    "MDg2MGU5NzgyN2Nh": 3
+  },
+  "_id": "bAVCeQNj3tAJfTiX",
+  "sort": 0,
+  "_key": "!items!bAVCeQNj3tAJfTiX"
+}

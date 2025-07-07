@@ -1,0 +1,81 @@
+{
+  "name": "Effect: Diamond Soul (Full)",
+  "type": "effect",
+  "img": "systems/pf2e/icons/equipment/treasure/gems/greater-precious-stones/large-diamond.webp",
+  "effects": [],
+  "folder": "rrILuYZw8bH63i2G",
+  "flags": {
+    "exportSource": {
+      "world": "seekers-of-ardor",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.12.1"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your body is hardened and infused with astral diamond; gaining 20 resistance to all damage and gaining 60 temporary hit points for the duration.</p><p><span style=\"font-family:Roboto, sans-serif\">When the spell ends or when the target’s temporary hit points are expended, you can spend a reaction to sustain this spell as long as you are within 30 feet of the target. When you do, the spell’s duration is reset back to 1 round from when you sustained it, and the target gains 30 temporary hit points.</span></p><p><span style=\"font-family:Roboto, sans-serif\">If the spell ever ends and a target still has temporary hit points remaining, their diamond body persists in a weaker form, granting them half of any remaining temporary hit points for 1 minute.</span></p><p><span style=\"font-family:Roboto, sans-serif\">Once a creature has been affected by this spell, they cannot be affected by it for 24 hours.</span></p><p>@UUID[Compendium.immortal-ardor.archetypes.Item.OlBYBYMa9LzV8vNu]{Effect: Diamond Soul (Half)}</p><p>@UUID[Compendium.immortal-ardor.archetypes.Item.mm85DGiDNxw2dQ6d]{Effect: Diamond Soul (Expended)}<br class=\"Apple-interchange-newline\" /></p><p></p>"
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": 60
+      },
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": 20
+      }
+    ],
+    "slug": "effect-diamond-soul-full",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3,
+    "MDg2MGU5NzgyN2Nh": 3
+  },
+  "_id": "iZxVN9xfXAo80Evg",
+  "sort": 200000,
+  "_key": "!items!iZxVN9xfXAo80Evg"
+}

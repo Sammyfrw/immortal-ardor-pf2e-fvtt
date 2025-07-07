@@ -14,7 +14,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You invoke the ancient spirits of the blood mage convocation of Eld-Tekhalzhai. Their spirits whirl around and bless you and allies of your choice within the area, desiring the life font of your enemies. </p><p class=\"MsoNormal\">When you cast the spell and during the start of your turn for the duration, each enemy within the emanation takes your choice of 2d6 persistent bleeding, 2d6 persistent void, or 2d6 persistent vitality damage as the spirit strikes and inflicts harm upon them. This persistent damage can be affected by the effects of any relevant Liferender feats or spellshapes of your choice that you possess.</p><p class=\"MsoNormal\">While a creature is within your emanation, the DC to end persistent damage from this spell is 20 instead of 15 (or 25 if you have Anticoagulation). If a creature is suffering from persistent bleeding, void or vitality damage from this spell already, inflicting them with an existing type of damage increases the persistent damage by an additional 2d6, up to a maximum of 6d6 for each type. Creatures you damage with a Strike also inflicts them with your choice of the three persistent damage types, incrementing them if they are already affected.</p><p class=\"MsoNormal\"> If a creature dies while under the spell’s effects, the spell ends for that creature. If the spell’s duration elapses, or if you dismiss the spell, the spirits take their tithe and the spell ends for all creatures. For each of the three types of persistent damage a creature is suffering, roll their persistent damage die and take the following effects, ending the persistent damage after:</p><p class=\"MsoListParagraphCxSpFirst\" style=\"text-indent:-.25in;mso-list:l0 level1 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family:Symbol\">·         </span></span><strong>Bleeding</strong>: The creature takes the damage.</p><p class=\"MsoListParagraphCxSpMiddle\" style=\"text-indent:-.25in;mso-list:l0 level1 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family:Symbol\">·         </span></span><strong>Vitality: </strong>Distribute the amount rolled as vitality healing to allies within 50 feet of you; you choose how much is distributed to whom.</p><p class=\"MsoListParagraphCxSpLast\" style=\"text-indent:-.25in;mso-list:l0 level1 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family:Symbol\">·         </span></span><strong>Void:</strong> Distribute the amount rolled as void healing to any ally within 50 feet of you; you choose how much is distributed to whom.</p><p class=\"MsoNormal\">Once a creature has been affected by this spell throughout its duration or once a creature ends their persistent damage, they cannot be affected by it for 24 hours.</p>"
+      "value": "<p class=\"MsoNormal\">You invoke the ancient spirits of the blood mage convocation of Eld-Tekhalzhai. Their spirits whirl around and bless you and allies of your choice within the area, desiring the life font of your enemies. </p><p class=\"MsoNormal\">When you cast the spell and during the start of your turn for the duration, each enemy within the emanation takes your choice of @Damage[2d6[bleed,persistent]], @Damage[2d6[void,persistent]], or @Damage[2d6[persistent,vitality]] damage as the spirit strikes and inflicts harm upon them. This persistent damage can be affected by the effects of any relevant Liferender feats or spellshapes of your choice that you possess.</p><p class=\"MsoNormal\">While a creature is within your emanation, the DC to end persistent damage from this spell is 20 instead of 15 (or 25 if you have Anticoagulation). If a creature is suffering from persistent bleeding, void or vitality damage from this spell already, inflicting them with an existing type of damage increases the persistent damage by an additional 2d6, up to a maximum of 6d6 for each type. Creatures you damage with a Strike also inflicts them with your choice of the three persistent damage types, incrementing them if they are already affected.</p><p class=\"MsoNormal\">If a creature dies while under the spell’s effects, the spell ends for that creature. If the spell’s duration elapses, or if you dismiss the spell, the spirits take their tithe and the spell ends for all creatures. For each of the three types of persistent damage a creature is suffering, roll their persistent damage die and take the following effects, ending the persistent damage after:</p><p class=\"MsoNormal\"><strong>Bleeding</strong>: The creature takes the damage.</p><p class=\"MsoListParagraphCxSpMiddle\" style=\"text-indent:-.25in;mso-list:l0 level1 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family:Symbol\">·     </span></span><strong>Vitality: </strong>Distribute the amount rolled as vitality healing to allies within 50 feet of you; you choose how much is distributed to whom.</p><p class=\"MsoListParagraphCxSpLast\" style=\"text-indent:-.25in;mso-list:l0 level1 lfo1\"><span style=\"mso-list:Ignore\"><span style=\"font-family:Symbol\">·     </span></span><strong>Void:</strong> Distribute the amount rolled as void healing to any ally within 50 feet of you; you choose how much is distributed to whom.</p><p class=\"MsoNormal\">Once a creature has been affected by this spell throughout its duration or once a creature ends their persistent damage, they cannot be affected by it for 24 hours.</p>"
     },
     "rules": [],
     "slug": "doom-of-the-living",
@@ -30,6 +30,7 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "ascended",
         "concentrate",
         "focus",
         "manipulate",
@@ -98,30 +99,14 @@
         "applyMod": false
       }
     },
-    "defense": {
-      "passive": null,
-      "save": {
-        "statistic": "fortitude",
-        "basic": false
-      }
-    },
+    "defense": null,
     "cost": {
       "value": ""
     },
     "location": {
       "value": null
     },
-    "counteraction": false,
-    "heightening": {
-      "type": "interval",
-      "interval": 1,
-      "damage": {
-        "0": "1d6",
-        "hJbd3EKIFgNJTDpY": "0",
-        "Ga8jwZiVkw4Cl2Bn": "0"
-      },
-      "area": 0
-    }
+    "counteraction": false
   },
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.LABMxlLWBQz4jpO3",

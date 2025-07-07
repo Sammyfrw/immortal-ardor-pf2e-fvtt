@@ -1,15 +1,15 @@
 {
-  "folder": "QEOGeTA827v053r8",
-  "name": "Breath of the Earth",
+  "folder": "vyy8rQSagb0icXNs",
+  "name": "Diamond Soul",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">Astral powers have manifested in the form of the wishes of the planet itself. When the world was at its weakest, the Heirophant of the Earth declared that they would grit through the pain and rebuke the suffering back at those that would hurt it. You learn the @UUID[Compendium.immortal-ardor.archetypes.R4QC56Y0g9qszgho]{Breath of the Earth} focus spell.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Astral powers that swell within you materialize in the form of an ultimate spell sought after by armigers wishing to create indestructible warriors. You learn the @UUID[Compendium.immortal-ardor.archetypes.Item.bAVCeQNj3tAJfTiX]{Diamond Soul} focus spell.</span></p>"
     },
     "rules": [],
-    "slug": "breath-of-the-earth",
+    "slug": "diamond-soul",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -44,10 +44,10 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Earthfury Dedication"
+          "value": "Armiger Dedication"
         },
         {
-          "value": "Ascension Rank"
+          "value": "Ascended Rank"
         }
       ]
     },
@@ -58,21 +58,28 @@
       "suppressedFeatures": []
     }
   },
-  "_id": "wvyMbZF54TmcRrey",
   "img": "icons/sundries/books/book-purple-cross.webp",
-  "flags": {},
+  "flags": {
+    "exportSource": {
+      "world": "seekers-of-ardor",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.12.1"
+    }
+  },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.wvyMbZF54TmcRrey",
+    "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.9.0"
   },
-  "sort": 0,
   "ownership": {
     "default": 0,
-    "MDg2MGU5NzgyN2Nh": 3,
-    "xrtJn5KNHicBTyJb": 3
+    "xrtJn5KNHicBTyJb": 3,
+    "MDg2MGU5NzgyN2Nh": 3
   },
-  "_key": "!items!wvyMbZF54TmcRrey"
+  "_id": "6m5Lth235GqEkVm0",
+  "sort": 800000,
+  "_key": "!items!6m5Lth235GqEkVm0"
 }
