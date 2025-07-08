@@ -8,7 +8,87 @@
       "gm": "",
       "value": "<p>As you gain Zeal, your strikes are imbued with the essence of divinity. If you have Zeal, your Strikes deal an additional 2 spirit damage. After spending Zeal for a Zenith action that ends a Meditation spell, you gain a focus point as the moment of clarity allows you to begin your trance anew.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "damageType": "{item|flags.pf2e.rulesSelections.zealousStrikes}",
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "slug": "arcane-cascade-extra-damage",
+        "value": 2,
+        "predicate": [
+          "zealous-strikes"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "Zealous Strikes",
+        "domain": "damage",
+        "option": "zealous-strikes",
+        "suboptions": [
+          {
+            "label": "Spirit",
+            "value": "spirit",
+            "predicate": [
+              {
+                "not": "feature:sojourner"
+              }
+            ]
+          },
+          {
+            "label": "Fire",
+            "value": "fire",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "Earth",
+            "value": "bludgeoning",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "Air",
+            "value": "electricity",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "Water",
+            "value": "cold",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "Metal",
+            "value": "slashing",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "Wood",
+            "value": "piercing",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          }
+        ],
+        "toggleable": true,
+        "value": true,
+        "predicate": [
+          {
+            "gte": [
+              "actor.resources.zeal.max",
+              1
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "zealous-strikes",
     "_migration": {
       "version": 0.935,

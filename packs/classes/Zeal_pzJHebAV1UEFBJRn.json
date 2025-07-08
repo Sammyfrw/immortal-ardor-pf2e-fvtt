@@ -13,7 +13,7 @@
         "key": "Note",
         "selector": "check",
         "text": "You gain Zeal.",
-        "title": "Zeal Gain",
+        "title": "Zeal Gain: Attack",
         "predicate": [
           "attack"
         ]
