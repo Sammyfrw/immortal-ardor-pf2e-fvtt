@@ -1,15 +1,15 @@
 {
   "id": "immortal-ardor",
   "title": "Immortal Ardor",
-  "version": "0.1.4",
+  "version": "0.1.422",
   "compatibility": {
     "minimum": "12.331",
     "verified": "12.331"
   },
   "description": "A module that contains all data necessary for Immortal Ardor and its related games",
   "url": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt",
-  "manifest": "https://raw.githubusercontent.com/sammyfrw/immortal-ardor-pf2e-fvtt/master/module.json",
-  "download": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt/archive/refs/heads/main.zip",
+  "manifest": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt/releases/latest/download/module.json",
+  "download": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt/releases/latest/download/module.zip",
   "esmodules": [
     "immortal-ardor-pf2e-fvtt.js"
   ],
@@ -59,7 +59,7 @@
         "equipment",
         "deities",
         "journals",
-        "playlists"
+        "macros"
       ],
       "color": null,
       "folders": []
@@ -159,6 +159,17 @@
       "label": "Backgrounds",
       "path": "packs/backgrounds",
       "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -469,69 +480,69 @@
           }
         },
         "weaponGroups": {
-          "scepter": "PF2E.WeaponGroups.Scepter",
-          "twinblade": "PF2E.WeaponGroups.Twinblade"
+          "scepter": "IA.WeaponGroups.Scepter",
+          "twinblade": "IA.WeaponGroups.Twinblade"
         },
         "weaponTraits": {
           "combo-acid": {
             "label": "IA.Trait.ComboAcid",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "combo-cold": {
             "label": "IA.Trait.ComboCold",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "combo-electricity": {
             "label": "IA.Trait.ComboElectricity",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "combo-fire": {
             "label": "IA.Trait.ComboFire",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "combo-sonic": {
             "label": "IA.Trait.ComboSonic",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "combo-spirit": {
             "label": "IA.Trait.ComboSpirit",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "launching": {
             "label": "IA.Trait.Launching",
-            "description": "PF2E.TraitDescription.Launching"
+            "description": "IA.TraitDescription.Launching"
           },
           "marine": {
             "label": "IA.Trait.Marine",
-            "description": "PF2E.TraitDescription.Marine"
+            "description": "IA.TraitDescription.Marine"
           },
           "nascent-arcane": {
             "label": "IA.Trait.NascentArcane",
-            "description": "PF2E.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent"
           },
           "nascent-divine": {
             "label": "IA.Trait.NascentDivine",
-            "description": "PF2E.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent"
           },
           "nascent-occult": {
             "label": "IA.Trait.NascentOccult",
-            "description": "PF2E.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent"
           },
           "nascent-primal": {
             "label": "IA.Trait.NascentPrimal",
-            "description": "PF2E.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent"
           },
           "soulforged": {
             "label": "IA.Trait.Soulforged",
-            "description": "PF2E.TraitDescription.Soulforged"
+            "description": "IA.TraitDescription.Soulforged"
           },
           "spellcrux": {
             "label": "IA.Trait.Spellcrux",
-            "description": "PF2E.TraitDescription.Spellcrux"
+            "description": "IA.TraitDescription.Spellcrux"
           },
           "union": {
             "label": "IA.Trait.Union",
-            "description": "PF2E.TraitDescription.Union"
+            "description": "IA.TraitDescription.Union"
           }
         }
       }
