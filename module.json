@@ -480,69 +480,69 @@
           }
         },
         "weaponGroups": {
-          "scepter": "PF2E.WeaponGroups.Scepter",
-          "twinblade": "PF2E.WeaponGroups.Twinblade"
+          "scepter": "IA.WeaponGroups.Scepter",
+          "twinblade": "IA.WeaponGroups.Twinblade"
         },
         "weaponTraits": {
           "combo-acid": {
             "label": "IA.Trait.ComboAcid",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "combo-cold": {
             "label": "IA.Trait.ComboCold",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "combo-electricity": {
             "label": "IA.Trait.ComboElectricity",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "combo-fire": {
             "label": "IA.Trait.ComboFire",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "combo-sonic": {
             "label": "IA.Trait.ComboSonic",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "combo-spirit": {
             "label": "IA.Trait.ComboSpirit",
-            "description": "PF2E.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo"
           },
           "launching": {
             "label": "IA.Trait.Launching",
-            "description": "PF2E.TraitDescription.Launching"
+            "description": "IA.TraitDescription.Launching"
           },
           "marine": {
             "label": "IA.Trait.Marine",
-            "description": "PF2E.TraitDescription.Marine"
+            "description": "IA.TraitDescription.Marine"
           },
           "nascent-arcane": {
             "label": "IA.Trait.NascentArcane",
-            "description": "PF2E.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent"
           },
           "nascent-divine": {
             "label": "IA.Trait.NascentDivine",
-            "description": "PF2E.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent"
           },
           "nascent-occult": {
             "label": "IA.Trait.NascentOccult",
-            "description": "PF2E.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent"
           },
           "nascent-primal": {
             "label": "IA.Trait.NascentPrimal",
-            "description": "PF2E.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent"
           },
           "soulforged": {
             "label": "IA.Trait.Soulforged",
-            "description": "PF2E.TraitDescription.Soulforged"
+            "description": "IA.TraitDescription.Soulforged"
           },
           "spellcrux": {
             "label": "IA.Trait.Spellcrux",
-            "description": "PF2E.TraitDescription.Spellcrux"
+            "description": "IA.TraitDescription.Spellcrux"
           },
           "union": {
             "label": "IA.Trait.Union",
-            "description": "PF2E.TraitDescription.Union"
+            "description": "IA.TraitDescription.Union"
           }
         }
       }
