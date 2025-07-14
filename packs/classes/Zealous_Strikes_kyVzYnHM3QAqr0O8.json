@@ -13,10 +13,13 @@
         "damageType": "{item|flags.pf2e.rulesSelections.zealousStrikes}",
         "key": "FlatModifier",
         "selector": "strike-damage",
-        "slug": "arcane-cascade-extra-damage",
+        "slug": "zealous-strikes-extra-damage",
         "value": 2,
         "predicate": [
-          "zealous-strikes"
+          "zealous-strikes",
+          {
+            "not": "zenith-action"
+          }
         ]
       },
       {
@@ -26,7 +29,7 @@
         "option": "zealous-strikes",
         "suboptions": [
           {
-            "label": "Spirit",
+            "label": "PF2E.TraitSpirit",
             "value": "spirit",
             "predicate": [
               {
@@ -35,42 +38,42 @@
             ]
           },
           {
-            "label": "Fire",
-            "value": "fire",
-            "predicate": [
-              "feature:sojourner"
-            ]
-          },
-          {
-            "label": "Earth",
-            "value": "bludgeoning",
-            "predicate": [
-              "feature:sojourner"
-            ]
-          },
-          {
-            "label": "Air",
+            "label": "PF2E.TraitAir",
             "value": "electricity",
             "predicate": [
               "feature:sojourner"
             ]
           },
           {
-            "label": "Water",
+            "label": "PF2E.TraitEarth",
+            "value": "bludgeoning",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "PF2E.TraitWater",
             "value": "cold",
             "predicate": [
               "feature:sojourner"
             ]
           },
           {
-            "label": "Metal",
+            "label": "PF2E.TraitMetal",
             "value": "slashing",
             "predicate": [
               "feature:sojourner"
             ]
           },
           {
-            "label": "Wood",
+            "label": "PF2E.TraitWood",
             "value": "piercing",
             "predicate": [
               "feature:sojourner"
@@ -78,15 +81,21 @@
           }
         ],
         "toggleable": true,
-        "value": true,
+        "disabledIf": [
+          "zenith-action"
+        ],
+        "disabledValue": false,
+        "value": true
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
         "predicate": [
-          {
-            "gte": [
-              "actor.resources.zeal.max",
-              1
-            ]
-          }
-        ]
+          "zealous-strikes"
+        ],
+        "property": "traits",
+        "value": "{item|flags.pf2e.rulesSelections.zealousStrikes}"
       }
     ],
     "slug": "zealous-strikes",

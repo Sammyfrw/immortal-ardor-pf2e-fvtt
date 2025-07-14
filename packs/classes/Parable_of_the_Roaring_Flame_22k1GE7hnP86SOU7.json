@@ -6,16 +6,36 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\"><em style=\"mso-bidi-font-style:normal\">See there, the roaring flame! See how it entrances...See how it draws a crowd? See how it frightens. See how it warms…See how it burns! A passion, a fashion, a beginning to the end. It draws the breath away with each lick; it elicits a cry with a prick. A sign of how one lives, and dies, and lies in our minds.</em></span></p><p class=\"MsoNormal\"><span lang=\"EN\">The Roaring Flame represents the multifaceted intricacies of life. It flickers and lashes with the wind and has the power to create and destroy. Heat is crucial to how living creatures survive, and yet it can cause immense pain. To embody this fire is to understand how each movement and flow can cause the world to bend to their will. Fire is essential, and thus fire is power.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Dervishes of the Roaring Flame are explosive with their actions and movements. You bring an air of extravagance and showmanship, and cultivate passionate moments. To you, all participants – friends and foes alike – are part of the ceremony, and their presence heightens your trance to reach closer to the spiritual plane. During zeniths, you live for the moment, and reach a high from the roar of blood in your ears and the excitement amongst your participants.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You gain the following benefits:</span></p><ul><li><p class=\"MsoNormal\"><span lang=\"EN\" style=\"color:black\"><span style=\"text-decoration:underline\">Zeal action</span>: Once per round, you gain zeal when using actions with the Emotion trait, or when you Demoralize, Feint, Create a Diversion or Perform against creatures you are aware of.</span></p></li><li><p class=\"MsoNormal\"><span lang=\"EN\" style=\"color:black\"><span style=\"text-decoration:underline\">Bonus Feat</span>: You gain the <em style=\"mso-bidi-font-style:normal\">Whiteflame Refrain</em> dervish feat.</span></p></li><li><p class=\"MsoNormal\"><span lang=\"EN\" style=\"color:black\"><span style=\"text-decoration:underline\">Focus spell</span>: You gain the Flamedance Meditation.</span></p></li></ul>"
+      "value": "<p><span lang=\"EN\"><em style=\"mso-bidi-font-style:normal\">See there, the roaring flame! See how it entrances...See how it draws a crowd? See how it frightens. See how it warms…See how it burns! A passion, a fashion, a beginning to the end. It draws the breath away with each lick; it elicits a cry with a prick. A sign of how one lives, and dies, and lies in our minds.</em></span></p><p class=\"MsoNormal\"><span lang=\"EN\">The Roaring Flame represents the multifaceted intricacies of life. It flickers and lashes with the wind and has the power to create and destroy. Heat is crucial to how living creatures survive, and yet it can cause immense pain. To embody this fire is to understand how each movement and flow can cause the world to bend to their will. Fire is essential, and thus fire is power.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Dervishes of the Roaring Flame are explosive with their actions and movements. You bring an air of extravagance and showmanship, and cultivate passionate moments. To you, all participants – friends and foes alike – are part of the ceremony, and their presence heightens your trance to reach closer to the spiritual plane. During zeniths, you live for the moment, and reach a high from the roar of blood in your ears and the excitement amongst your participants.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You gain the following benefits:</span></p><ul><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Zeal action</span></span>: Once per round, you gain zeal when using actions with the Emotion trait, or when you @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize}, @UUID[Compendium.pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint}, @UUID[Compendium.pf2e.actionspf2e.GkmbTGfg8KcgynOA]{Create a Diversion} or @UUID[Compendium.pf2e.actionspf2e.EEDElIyin4z60PXx]{Perform}against creatures you are aware of.</p></li><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Bonus Feat</span></span>: You gain the <em style=\"mso-bidi-font-style:normal\">@UUID[Compendium.immortal-ardor.classes.yq20ZjMfoS0T54K7]{Whiteflame Refrain}</em> dervish feat.</p></li><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Focus spell</span></span>: You gain the @UUID[Compendium.immortal-ardor.classes.ZcV75I5leQnKvJjK]{Flamedance Meditation}.</p></li></ul>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "check",
+        "text": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when using actions with the Emotion trait, or when you Demoralize, Feint, Create a Diversion or Perform against creatures you are aware of.",
+        "title": "Zeal Gain: Roaring Flame",
+        "predicate": [
+          "action:perform",
+          "action:create-a-diversion",
+          "action:feint",
+          "action:demoralize",
+          "emotion"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.yq20ZjMfoS0T54K7"
+      }
+    ],
     "slug": "parable-of-the-roaring-flame",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "dervish-parable"
+      ],
       "value": [
         "dervish"
       ],
@@ -44,7 +64,7 @@
     },
     "location": null
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/magic/fire/elemental-fire-flying.webp",
   "sort": 150000,
   "ownership": {
     "default": 0,

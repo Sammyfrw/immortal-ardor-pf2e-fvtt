@@ -184,6 +184,42 @@
         "WeaponGroups": {
             "Scepter": "Scepter",
             "Twinblade": "Twinblade"
+        },
+        "SpecificRule": {
+            "Dervish": {
+                "Zeal": {
+                    "ZealGainLabel": "Zeal Gain",
+                    "ZealGainFeatureDescription": "You @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} whenever you take an Attack action."
+                },
+                "Zenith": {
+                    "NoZealGainDescription": "You do not gain Zeal during a Zenith Action.",
+                    "SpendZealDescription": "You spend your Zeal when you @UUID[Compendium.immortal-ardor.macros.Macro.xumjguwPtOtkC7tL]{Use Zenith}."
+                },
+                "Parables": {
+                    "ZealGain": {
+                        "DragonsGreed": {
+                            "Label": "Dragon's Greed",
+                            "Description": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when using actions with the Flourish trait, or when you Tumble Through, Maneuver in Flight or Fly."
+                        },
+                        "SilentMoon": {
+                            "Label": "Silent Moon",
+                            "Description": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when using actions that benefit from a target’s Off-Guard condition (such as making a melee attack against a flanked creature) or successfully inflict off-guard (such as a Feint), or when you Sneak, Hide, Recall Knowledge or Sense Motive against a creature you are aware of."
+                        },
+                        "RoaringFlame": {
+                            "Label": "Roaring Flame",
+                            "Description": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when using actions with the Emotion trait, or when you Demoralize, Feint, Create a Diversion or Perform against creatures you are aware of."
+                        },
+                        "WhirlingSands": {
+                            "Label": "Whirling Sands",
+                            "Description": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when using actions with the Press trait, or when you Step, Reposition, Shove or Trip."
+                        },
+                        "WindingCircle": {
+                            "Label": "Winding Circle",
+                            "Description": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when taking an action with the Air, Water, Fire, Earth, Metal or Wood trait, when you Command your companion, or when your Companion Strikes.",
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -6,9 +6,28 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You pursue the inner understanding of what it means to be a living being in the great harmony of life through the lens of the natural world. You must select the Sojourner Dedication as your 2</span><sup><span lang=\"EN\">nd</span></sup><span lang=\"EN\">-level class feat.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Prerequisites </strong>You must be a Dervish.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Sojourner Adjustments:</strong></span></p><p class=\"MsoNormal\"><span lang=\"EN\">You are trained in Nature instead of Religion.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You must choose the Parable of the Winding Circle (see below) for your Dervish parable.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">When you gain the Zealous Strikes feature and any other feat that deals spirit damage and you have an active companion, you instead deal additional damage based on their elemental trait instead of spirit damage. If your active companion has multiple, choose one. Fire adds fire damage, Water adds cold damage, Air adds electricity damage, Earth adds bludgeoning damage, Metal adds slashing damage, and Wood adds piercing damage. This adds their respective traits to these actions.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Any feats that require skill in Religion or use Religion are instead replaced with Nature. Any feats, abilities and spells with the Divine trait are replaced with Primal trait. Your Meditation spells are of the Primal tradition instead of Divine.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You are trained in medium armor. You can choose Strength as your key attribute modifier. When you gain light armor expertise, you also gain expert proficiency in medium armor, and when you gain light armor mastery, you also gain master proficiency in medium armor.</span></p>"
+      "value": "<p><span lang=\"EN\">You pursue the inner understanding of what it means to be a living being in the great harmony of life through the lens of the natural world. You must select the @UUID[Compendium.immortal-ardor.classes.Tv8GhBmcdccqWtg0]{Sojourner Dedication} as your 2</span><sup><span lang=\"EN\">nd</span></sup><span lang=\"EN\">-level class feat.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Prerequisites </strong>You must be a Dervish.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Sojourner Adjustments:</strong></span></p><p class=\"MsoNormal\"><span lang=\"EN\">You are trained in Nature instead of Religion.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You must choose the @UUID[Compendium.immortal-ardor.classes.JY1YtoHPSOpHzC3P]{Parable of the Winding Circle} (see below) for your Dervish parable.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">When you gain the Zealous Strikes feature and any other feat that deals spirit damage and you have an active companion, you instead deal additional damage based on their elemental trait instead of spirit damage. If your active companion has multiple, choose one. Fire adds fire damage, Water adds cold damage, Air adds electricity damage, Earth adds bludgeoning damage, Metal adds slashing damage, and Wood adds piercing damage. This adds their respective traits to these actions.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Any feats that require skill in Religion or use Religion are instead replaced with Nature. Any feats, abilities and spells with the Divine trait are replaced with Primal trait. Your Meditation spells are of the Primal tradition instead of Divine.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You are trained in medium armor. You can choose Strength as your key attribute modifier. When you gain light armor expertise, you also gain expert proficiency in medium armor, and when you gain light armor mastery, you also gain master proficiency in medium armor.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.medium.rank",
+        "value": "@actor.system.proficiencies.defenses.light.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.nature.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "downgrade",
+        "path": "system.skills.religion.rank",
+        "value": 1
+      }
+    ],
     "slug": "sojourner",
     "_migration": {
       "version": 0.935,
@@ -42,7 +61,13 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "keyOptions": [
+        "str"
+      ],
+      "proficiencies": {}
+    }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
   "sort": 100000,
