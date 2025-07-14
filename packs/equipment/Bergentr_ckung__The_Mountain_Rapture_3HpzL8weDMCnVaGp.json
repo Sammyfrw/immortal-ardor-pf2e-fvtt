@@ -1,0 +1,185 @@
+{
+  "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+  "name": "Bergentrückung, The Mountain Rapture",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The <em>Mountain Rapture</em> is a maul that is created from the core of an Elder Beast of Molten Metal. Defeated long ago by August I, the core was transformed into the weapon of the Schneeberg Royal Family. It was eventually passed down into their son. It is the symbol of the Schneeberg Monarchy.</p><p>This maul, however, is a reformation of that previous weapon. During the Four Swords Rebellion, the original Mountain Rapture was melted down by August II so that he could recreate it as a soulforged weapon, so that August II could fight against then-King Gunther to retake his homeland. Since then, the molten metal core and the gathered remnants of August I's power have manifested upon the maul, creating a powerful weapon. While not sentient, it bears a connection to its chosen wielder, acknowledging Schneeberg's history of spellsmiths. In this way, it also is a suitable crafting tool on its own with its malleable form, and acknowledges only wielders that are worthy smiths and the forges they call home.</p><p>The <em>Mountain Rapture</em> is a <em>+3 major striking greater flaming grievous shifting adamantine maul</em> made of what appears to be molten steel, though it behaves as if it were made of solid metal. When a creature first picks up <em>Mountain Rapture</em>, they must succeed at a @Check[will|dc:43] save to establish their dominance over the weapon. On a success, they become <em>Mountain Rapture's </em>only accepted wielder and may use the weapon normally as the weapon soulbinds to the them. On a failure, the character takes @Damage[20d6[fire]] damage (@Damage[40d6[fire]] damage on a critical failure) and drops the weapon as it melts away into slag and immediately reforms in an adjacent space. A new attempt to establish dominance can be made by picking the weapon up again and attempting a new Will save.</p><p>Once <em>Mountain Rapture </em>has an accepted wielder, it can't be wielded by anyone else unless the accepted wielder intentionally permits it, declaring so in a loud voice; this permission can be rescinded in a similar manner. Anyone else trying to wield <em>Mountain Rapture </em>after it has accepted a wielder takes fire damage and causes the weapon to melt away as if they failed the Will save to wield it. If its wielder was ever killed, the <em>Mountain Rapture </em>melts away and reforms by their remains or the forge its wielder is most attuned to, awaiting for another person to establish dominance.</p><p>The additional fire damage caused by <em>Mountain Rapture's </em>greater flaming property (but not its persistent fire damage) is splash damage. <em>Mountain Rapture's </em>wielder is immune to this splash damage.</p><hr /><p><strong>Activate—Shifting Surge </strong><span class=\"action-glyph\"><strong>f</strong></span></p><p><strong>Trigger</strong> Your last action was an Elementshift.</p><p><strong>Effect </strong>As you change elements on your weapon, you also change its shape. You activate the Shifting rune on Mountain Rapture.</p><hr /><p><strong>Activate—Malleable Rune </strong>(10 minutes)</p><p><strong>Effect</strong> You take 10 minutes to change the greater flaming rune on your weapon to a greater frost, greater shock, or greater corrosive rune. It has the similar splash properties as the greater flaming rune on the weapon, and modifies the fire damage on Molten Smash to match that of the new rune's element.</p><hr /><p><strong>Activate—Molten Smash</strong> <span class=\"action-glyph\">1</span> (concentrate, manipulate)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You smash <em>Mountain Rapture </em>against the ground or another solid adjacent surface, causing an explosion of molten metal and force to radiate outward in a @Template[emanation|distance:20]. All creatures in this area take @Damage[10d6[fire]] damage and @Damage[6d6[force]] damage (@Check[reflex|dc:43|basic] save); those who critically fail this save are knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. You are immune to the effects of Molten Smash, but your allies are not.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "predicate": [
+          {
+            "or": [
+              "origin:trait:ascended",
+              "origin:trait:therian"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "damageType": "fire",
+        "category": "splash"
+      }
+    ],
+    "slug": "bergentruckung-the-mountain-rapture",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "fire",
+        "magical",
+        "shove",
+        "soulforged"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Adventure: Prey for Death",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "quantity": 1,
+    "baseItem": "maul",
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": "adamantine",
+      "grade": "high"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Maul",
+        "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "category": "martial",
+    "group": "hammer",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d12",
+      "damageType": "bludgeoning",
+      "persistent": null
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "reload": {
+      "value": ""
+    },
+    "runes": {
+      "potency": 3,
+      "striking": 3,
+      "property": [
+        "greaterFlaming",
+        "grievous",
+        "shifting"
+      ]
+    },
+    "specific": {
+      "material": {
+        "type": "adamantine",
+        "grade": "high"
+      },
+      "runes": {
+        "potency": 3,
+        "striking": 3,
+        "property": [
+          "greaterFlaming",
+          "grievous",
+          "shifting"
+        ]
+      }
+    },
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "effects": [],
+  "folder": "FpNLrqP4hhllM1lT",
+  "flags": {
+    "exportSource": {
+      "world": "seekers-of-ardor",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.12.1"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3,
+    "MDg2MGU5NzgyN2Nh": 3
+  },
+  "_id": "3HpzL8weDMCnVaGp",
+  "sort": 0,
+  "_key": "!items!3HpzL8weDMCnVaGp"
+}
