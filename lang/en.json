@@ -216,7 +216,7 @@
                         },
                         "WindingCircle": {
                             "Label": "Winding Circle",
-                            "Description": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when taking an action with the Air, Water, Fire, Earth, Metal or Wood trait, when you Command your companion, or when your Companion Strikes.",
+                            "Description": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when taking an action with the Air, Water, Fire, Earth, Metal or Wood trait, when you Command your companion, or when your Companion Strikes."
                         }
                     }
                 }
