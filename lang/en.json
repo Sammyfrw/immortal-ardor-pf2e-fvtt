@@ -188,11 +188,12 @@
         "SpecificRule": {
             "Dervish": {
                 "Zeal": {
-                    "ZealGainLabel": "Zeal Gain",
-                    "ZealGainFeatureDescription": "You @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} whenever you take an Attack action."
+                    "GainLabel": "Zeal Gain",
+                    "GainFeatureDescription": "You @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} whenever you take an Attack action."
                 },
                 "Zenith": {
                     "NoZealGainDescription": "You do not gain Zeal during a Zenith Action.",
+                    "SpendZealLabel": "Zenith Action",
                     "SpendZealDescription": "You spend your Zeal when you @UUID[Compendium.immortal-ardor.macros.Macro.xumjguwPtOtkC7tL]{Use Zenith}."
                 },
                 "Parables": {
