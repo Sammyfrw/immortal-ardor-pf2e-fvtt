@@ -194,7 +194,7 @@
                 "Zenith": {
                     "NoZealGainDescription": "You do not gain Zeal during a Zenith Action.",
                     "SpendZealLabel": "Zenith Action",
-                    "SpendZealDescription": "You spend your Zeal when you @UUID[Compendium.immortal-ardor.macros.Macro.xumjguwPtOtkC7tL]{Use Zenith}."
+                    "SpendZealDescription": "You spend your Zeal when you @UUID[Compendium.immortal-ardor.macros.Macro.xumjguwPtOtkC7tL]{Use Zenith}. If you currently have an ongoing Meditation Spell, the spell ends and you regain a focus point."
                 },
                 "Parables": {
                     "ZealGain": {
