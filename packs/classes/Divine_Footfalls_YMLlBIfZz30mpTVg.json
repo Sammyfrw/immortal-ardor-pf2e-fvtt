@@ -8,7 +8,15 @@
       "gm": "",
       "value": "<p>Your motions and grace while performing your meditations become light and sure. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "reflex"
+      }
+    ],
     "slug": "divine-footfalls",
     "_migration": {
       "version": 0.935,
@@ -42,9 +50,16 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "reflex": {
+          "rank": 3
+        }
+      }
+    }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
   "sort": 0,
   "ownership": {
     "default": 0,

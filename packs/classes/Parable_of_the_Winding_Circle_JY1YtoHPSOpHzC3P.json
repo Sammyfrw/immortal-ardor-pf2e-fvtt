@@ -52,8 +52,10 @@
         "mode": "add",
         "predicate": [
           {
+            "not": "zenith-action"
+          },
+          {
             "or": [
-              "action:command-an-animal",
               "item:trait:air",
               "item:trait:water",
               "item:trait:earth",
@@ -78,6 +80,73 @@
             "title": "IA.SpecificRule.Dervish.Parables.ZealGain.WindingCircle.Label"
           }
         ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
+          {
+            "or": [
+              "item:command-an-animal",
+              "item:trait:air",
+              "item:trait:water",
+              "item:trait:earth",
+              "item:trait:fire",
+              "item:trait:metal",
+              "item:trait:wood",
+              "zealous-strikes:electricity",
+              "zealous-strikes:cold",
+              "zealous-strikes:bludgeoning",
+              "zealous-strikes:fire",
+              "zealous-strikes:slashing",
+              "zealous-strikes:piercing"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Parables.ZealGain.WindingCircle.Description",
+            "title": "IA.SpecificRule.Dervish.Parables.ZealGain.WindingCircle.Label"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
+          {
+            "or": [
+              "item:command-an-animal",
+              "item:trait:air",
+              "item:trait:water",
+              "item:trait:earth",
+              "item:trait:fire",
+              "item:trait:metal",
+              "item:trait:wood",
+              "zealous-strikes:electricity",
+              "zealous-strikes:cold",
+              "zealous-strikes:bludgeoning",
+              "zealous-strikes:fire",
+              "zealous-strikes:slashing",
+              "zealous-strikes:piercing"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": "zeal"
       }
     ],
     "slug": "parable-of-the-winding-circle",

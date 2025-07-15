@@ -22,11 +22,13 @@
         ]
       },
       {
-        "key": "SpecialResource",
-        "label": "Zeal",
-        "max": "5",
-        "slug": "zeal",
-        "renew": "false"
+        "key": "Note",
+        "title": "Zenith Action",
+        "selector": "check",
+        "text": "You do not gain Zeal when you @UUID[Compendium.immortal-ardor.macros.Macro.xumjguwPtOtkC7tL]{Use Zenith}.",
+        "predicate": [
+          "zenith-action"
+        ]
       },
       {
         "domain": "all",
@@ -36,21 +38,11 @@
         "toggleable": true
       },
       {
-        "key": "Note",
-        "title": "Zenith Action",
-        "selector": "check",
-        "text": "You do not gain Zeal during a Zenith Action.",
-        "predicate": [
-          "zenith-action"
-        ]
-      },
-      {
         "itemType": "feat",
         "key": "ItemAlteration",
         "label": "IA.SpecificRule.Dervish.Zenith.SpendZealLabel",
         "mode": "add",
         "predicate": [
-          "class:dervish",
           "item:trait:zenith"
         ],
         "priority": 121,
@@ -61,6 +53,13 @@
             "text": "IA.SpecificRule.Dervish.Zenith.SpendZealDescription"
           }
         ]
+      },
+      {
+        "key": "SpecialResource",
+        "label": "Zeal",
+        "max": "5",
+        "slug": "zeal",
+        "renew": "false"
       }
     ],
     "slug": "zeal",
@@ -98,7 +97,7 @@
     },
     "location": null
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
   "sort": 56250,
   "ownership": {
     "default": 0,

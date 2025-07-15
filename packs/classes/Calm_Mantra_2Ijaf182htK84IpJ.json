@@ -6,9 +6,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You so frequently ponder and mull over your parables, you do so subconsciously. You gain the Calm Mantra action.</p>"
+      "value": "<p>You so frequently ponder and mull over your parables, you do so subconsciously. You gain the @UUID[Compendium.immortal-ardor.classes.nHzt7nngZjuYzmZC]{Calm Mantra} action.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.nHzt7nngZjuYzmZC"
+      }
+    ],
     "slug": "calm-mantra",
     "_migration": {
       "version": 0.935,
@@ -44,7 +49,7 @@
     },
     "location": null
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
   "sort": 100000,
   "ownership": {
     "default": 0,

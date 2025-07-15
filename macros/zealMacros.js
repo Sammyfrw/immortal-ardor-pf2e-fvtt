@@ -65,7 +65,7 @@ function askZealPopupOption(zeal) {
     <form>
     <div class="form-group">
         <label>Add Zeal (Current: ${currentZeal})</label>
-        <input type="number" name="zeal" value="0">
+        <input type="number" name="zeal" value="1">
     </div>
     </form>
     `;
@@ -96,7 +96,7 @@ async function useZenith() {
   selectedActor.updateResource('zeal', 0);
   await ChatMessage.create({
       speaker,
-      content: `${name} uses ${actorCurrentZeal} Zeal. Zeal set to 0.`,
+      content: `<b>${name}</b> uses ${actorCurrentZeal} Zeal. Zeal set to 0.`,
   });
 }
 

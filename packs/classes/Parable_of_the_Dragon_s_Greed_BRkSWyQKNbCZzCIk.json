@@ -35,11 +35,35 @@
         "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
         "mode": "add",
         "predicate": [
+          "item:trait:flourish",
+          {
+            "not": "zenith-action"
+          }
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Parables.ZealGain.DragonsGreed.Description",
+            "title": "IA.SpecificRule.Dervish.Parables.ZealGain.DragonsGreed.Label"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
           {
             "or": [
-              "action:tumble-through",
-              "action:maneuver-in-flight",
-              "action:fly",
+              "item:tumble-through",
+              "item:maneuver-in-flight",
+              "item:fly",
               "item:trait:flourish"
             ]
           }
@@ -53,6 +77,27 @@
             "title": "IA.SpecificRule.Dervish.Parables.ZealGain.DragonsGreed.Label"
           }
         ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
+          {
+            "or": [
+              "item:tumble-through",
+              "item:maneuver-in-flight",
+              "item:fly",
+              "item:trait:flourish"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": "zeal"
       }
     ],
     "slug": "parable-of-the-dragons-greed",

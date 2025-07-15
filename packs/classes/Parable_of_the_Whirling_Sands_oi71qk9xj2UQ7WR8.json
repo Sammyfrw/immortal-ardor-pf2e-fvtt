@@ -36,13 +36,36 @@
         "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
         "mode": "add",
         "predicate": [
-          "class:dervish",
+          {
+            "not": "zenith-action"
+          },
+          "item:trait:press"
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Parables.ZealGain.WhirlingSands.Description",
+            "title": "IA.SpecificRule.Dervish.Parables.ZealGain.WhirlingSands.Label"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
           {
             "or": [
-              "action:trip",
-              "action:step",
-              "action:shove",
-              "action:reposition",
+              "item:trip",
+              "item:step",
+              "item:shove",
+              "item:reposition",
               "item:trait:press"
             ]
           }
@@ -56,6 +79,28 @@
             "title": "IA.SpecificRule.Dervish.Parables.ZealGain.WhirlingSands.Label"
           }
         ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
+          {
+            "or": [
+              "item:trip",
+              "item:step",
+              "item:shove",
+              "item:reposition",
+              "item:trait:press"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": "zeal"
       }
     ],
     "slug": "parable-of-the-whirling-sands",

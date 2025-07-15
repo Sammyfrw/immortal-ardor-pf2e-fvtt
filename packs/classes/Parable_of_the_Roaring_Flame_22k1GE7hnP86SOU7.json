@@ -15,16 +15,92 @@
         "text": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when using actions with the Emotion trait, or when you Demoralize, Feint, Create a Diversion or Perform against creatures you are aware of.",
         "title": "Zeal Gain: Roaring Flame",
         "predicate": [
-          "action:perform",
-          "action:create-a-diversion",
-          "action:feint",
-          "action:demoralize",
-          "emotion"
+          {
+            "or": [
+              "action:perform",
+              "action:create-a-diversion",
+              "action:feint",
+              "action:demoralize",
+              "item:trait:emotion"
+            ]
+          }
         ]
       },
       {
         "key": "GrantItem",
         "uuid": "Compendium.immortal-ardor.classes.Item.yq20ZjMfoS0T54K7"
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
+          "item:trait:emotion"
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Parables.ZealGain.RoaringFlame.Description",
+            "title": "IA.SpecificRule.Dervish.Parables.ZealGain.RoaringFlame.Label"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
+          {
+            "or": [
+              "item:perform",
+              "item:create-a-diversion",
+              "item:feint",
+              "item:demoralize",
+              "item:trait:emotion"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Parables.ZealGain.RoaringFlame.Description",
+            "title": "IA.SpecificRule.Dervish.Parables.ZealGain.RoaringFlame.Label"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
+          {
+            "or": [
+              "item:perform",
+              "item:create-a-diversion",
+              "item:feint",
+              "item:demoralize",
+              "item:trait:emotion"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": "zeal"
       }
     ],
     "slug": "parable-of-the-roaring-flame",

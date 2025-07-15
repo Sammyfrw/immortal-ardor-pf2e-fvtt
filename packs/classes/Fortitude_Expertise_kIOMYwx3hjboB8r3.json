@@ -42,9 +42,16 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "fortitude": {
+          "rank": 2
+        }
+      }
+    }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/magic/life/cross-explosion-burst-green.webp",
   "sort": 150000,
   "ownership": {
     "default": 0,

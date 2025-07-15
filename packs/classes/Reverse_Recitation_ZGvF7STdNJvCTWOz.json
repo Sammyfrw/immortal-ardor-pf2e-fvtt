@@ -6,9 +6,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your memories become a steel trap, able to reach into the moments of zenith that have so greatly moved you and instantaneously use it to great effect. You gain the Reverse Recitation free action.</p>"
+      "value": "<p>Your memories become a steel trap, able to reach into the moments of zenith that have so greatly moved you and instantaneously use it to great effect. You gain the @UUID[Compendium.immortal-ardor.classes.Aab3SUt9pyfxmum6]{Reverse Recitation} free action.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.Aab3SUt9pyfxmum6"
+      }
+    ],
     "slug": "reverse-recitation",
     "_migration": {
       "version": 0.935,
@@ -44,7 +49,7 @@
     },
     "location": null
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/sundries/scrolls/scroll-runed-brown-purple.webp",
   "sort": 0,
   "ownership": {
     "default": 0,

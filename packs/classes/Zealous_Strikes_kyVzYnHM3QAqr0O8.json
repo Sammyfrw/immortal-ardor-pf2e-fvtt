@@ -84,18 +84,7 @@
         "disabledIf": [
           "zenith-action"
         ],
-        "disabledValue": false,
-        "value": true
-      },
-      {
-        "itemType": "weapon",
-        "key": "ItemAlteration",
-        "mode": "add",
-        "predicate": [
-          "zealous-strikes"
-        ],
-        "property": "traits",
-        "value": "{item|flags.pf2e.rulesSelections.zealousStrikes}"
+        "disabledValue": false
       }
     ],
     "slug": "zealous-strikes",
@@ -133,7 +122,7 @@
     },
     "location": null
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/weapons/swords/sword-flanged-lightning.webp",
   "sort": 300000,
   "ownership": {
     "default": 0,

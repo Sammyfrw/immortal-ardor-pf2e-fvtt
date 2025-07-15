@@ -37,6 +37,30 @@
         "mode": "add",
         "predicate": [
           {
+            "not": "zenith-action"
+          },
+          "target:condition:off-guard"
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Parables.ZealGain.SilentMoon.Description",
+            "title": "IA.SpecificRule.Dervish.Parables.ZealGain.SilentMoon.Label"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
+          {
             "or": [
               "action:sneak",
               "action:hide",
@@ -55,6 +79,28 @@
             "title": "IA.SpecificRule.Dervish.Parables.ZealGain.SilentMoon.Label"
           }
         ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
+          {
+            "or": [
+              "action:sneak",
+              "action:hide",
+              "action:sense-motive",
+              "action:recall-knowledge",
+              "target:condition:off-guard"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": "zeal"
       }
     ],
     "slug": "parable-of-the-silent-moon",

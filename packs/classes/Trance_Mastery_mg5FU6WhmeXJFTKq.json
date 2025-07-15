@@ -8,7 +8,14 @@
       "gm": "",
       "value": "<p>You’ve reached new heights in reaching spiritual enlightenment with your meditations. Your proficiency rank for your dervish class DC increases to master.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.dervish.rank",
+        "value": 3
+      }
+    ],
     "slug": "trance-mastery",
     "_migration": {
       "version": 0.935,
@@ -44,7 +51,7 @@
     },
     "location": null
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
   "sort": 0,
   "ownership": {
     "default": 0,

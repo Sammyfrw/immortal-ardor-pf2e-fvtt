@@ -42,9 +42,22 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "unarmed": {
+          "rank": 3
+        },
+        "simple": {
+          "rank": 3
+        },
+        "martial": {
+          "rank": 3
+        }
+      }
+    }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
   "sort": 0,
   "ownership": {
     "default": 0,
