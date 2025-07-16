@@ -1,0 +1,133 @@
+{
+  "name": "Sheiro Armor",
+  "type": "armor",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A Sheiro Armor behaves like a set of Tactical Defiance Armor, but offers resistance 5 to vitality and void damage, while also having a lower strength requirement to wear.</p><p>It snugly covers and seems to almost fit most creatures.</p><p>However, it is important to note that a Sheiro's armor hides an frightening secret; it is effectively cursed armor that slowly necrotizes the wearer's mana at an alarming rate. As the wearer dies from this profane process of converting their mana, their remains are warped and incorporated into the armor, creating a new Sheiro. The remains continue to empower the necrobot as long as it is able, being a potent source of mana that the necrobots rely on.</p><p>The Sheiro was one of the most dangerous, but self-sustaining soldiers. It begs the question of the history of the civilizations buried under Impian.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": [
+          "vitality",
+          "void"
+        ],
+        "value": 5
+      }
+    ],
+    "slug": "sheiro-armor",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.12.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": "defiance-series",
+    "bulk": {
+      "value": 3
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 3000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "unidentified",
+      "unidentified": {
+        "name": "Sheiro Armor",
+        "img": "https://assets.forge-vtt.com/bazaar/modules/starfinder-field-test-for-pf2e/assets/art/icons/equipment/armor/armor%20blue%20medium.webp",
+        "data": {
+          "description": {
+            "value": "<p data-pm-slice=\"0 0 []\"><strong>Upgrades:</strong> 1</p>\n<hr>\n<p>A Sheiro Armor behaves like a set of Tactical Defiance Armor, but offers resistance 5 to vitality and void damage, while also having a lower strength requirement to wear.</p>\n<p>It snugly covers and seems to almost fit most creatures.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "heavy",
+    "group": "plate",
+    "acBonus": 5,
+    "strength": 2,
+    "dexCap": 1,
+    "checkPenalty": -3,
+    "speedPenalty": -10,
+    "runes": {
+      "potency": 1,
+      "resilient": 1,
+      "property": []
+    },
+    "subitems": [],
+    "specific": {
+      "material": {
+        "type": null,
+        "grade": null
+      },
+      "runes": {
+        "potency": 1,
+        "resilient": 1,
+        "property": []
+      }
+    }
+  },
+  "img": "https://assets.forge-vtt.com/bazaar/modules/starfinder-field-test-for-pf2e/assets/art/icons/equipment/armor/armor%20blue%20medium.webp",
+  "folder": "HXrnWTJw2wWuoDYT",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "seekers-of-alamein-cosmic-birthday",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.12.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "3s0BXqtKwPi8L5yP",
+  "sort": 0,
+  "_key": "!items!3s0BXqtKwPi8L5yP"
+}
