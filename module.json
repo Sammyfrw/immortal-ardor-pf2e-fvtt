@@ -342,6 +342,10 @@
           }
         },
         "equipmentTraits": {
+          "catalogue": {
+            "label": "IA.Trait.Catalogue",
+            "description": "IA.TraitDescription.Catalogue"
+          },
           "facet": {
             "label": "IA.Trait.Facet",
             "description": "IA.TraitDescription.Facet"

@@ -1,15 +1,14 @@
 {
-  "folder": "S3EqY95AQR3Jex8W",
-  "name": "Devil's Gambit Card",
+  "name": "Giftshop Catalog",
   "type": "equipment",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A Devil's Gambit Card.</p><p>A placeholder until Devil's Gambit is properly made. This grants a +1 item bonus to checks when playing Devil's Gambit.</p>"
+      "value": "<p>This is a catalog of all items sold by the Delkhaid Resort Giftshop. It goes into quite a bit of detail on how a lot of their gadgets are sourced and made - probably more than they should be. </p><p>Any enterprising engineer might be able to learn more than their fair share of details from this book, as if they had been shown the store's stock themselves.</p>"
     },
     "rules": [],
-    "slug": "devils-gambit-card",
+    "slug": "giftshop-catalog",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -17,7 +16,7 @@
     "traits": {
       "otherTags": [],
       "value": [],
-      "rarity": "rare"
+      "rarity": "uncommon"
     },
     "publication": {
       "title": "Immortal Ardor",
@@ -26,7 +25,7 @@
       "remaster": true
     },
     "level": {
-      "value": 0
+      "value": 6
     },
     "quantity": 1,
     "baseItem": null,
@@ -39,7 +38,9 @@
     },
     "hardness": 0,
     "price": {
-      "value": {}
+      "value": {
+        "sp": 985
+      }
     },
     "equipped": {
       "carryType": "worn",
@@ -55,7 +56,7 @@
       "status": "identified",
       "unidentified": {
         "name": "Unusual Object",
-        "img": "systems/pf2e/icons/default-icons/equipment.svg",
+        "img": "icons/sundries/books/book-embossed-blue.webp",
         "data": {
           "description": {
             "value": ""
@@ -69,8 +70,20 @@
     },
     "subitems": []
   },
-  "img": "icons/sundries/gaming/rune-card.webp",
-  "flags": {},
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "folder": "S3EqY95AQR3Jex8W",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "seekers-of-alamein-cosmic-birthday",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.12.1"
+    }
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
@@ -78,12 +91,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.9.0"
   },
-  "ownership": {
-    "default": 0,
-    "I1veN4C8IQlA6HIt": 3,
-    "xrtJn5KNHicBTyJb": 3
-  },
-  "_id": "IHQxDqOW94XUj9eL",
-  "sort": 100000,
-  "_key": "!items!IHQxDqOW94XUj9eL"
+  "_id": "prr1VMhwYnPqY3ha",
+  "sort": 200000,
+  "_key": "!items!prr1VMhwYnPqY3ha"
 }

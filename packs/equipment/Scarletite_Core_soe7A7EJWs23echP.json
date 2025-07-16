@@ -1,0 +1,93 @@
+{
+  "name": "Scarletite Core",
+  "type": "treasure",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A Scarletite Geode, likely acquired from a deposit. While still unconventional, researchers and engineers that work with the forces of life and death are happy to study it. Or, with an alarmingly increasing frequency, incorporate it into their work.</p><p>A Necrobot's core, made of Scarletite is the source of their unlife. It is a surprisingly capable engine of conversion between vitality and void energy. Since most necrobots rely on pure mana from living things to be converted into necrotized mana, it is remarkably efficient in storing power to be shifted for later purposes. Much like the Scarletite Geode it was made from, it is incredibly dense and needs airflow to vent the heat it generates, so most necrobot cores need to be exposed to the air.</p><p>Luckily, that makes it an excellent weak point to target.</p>"
+    },
+    "rules": [],
+    "slug": "scarletite-chips",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 2000
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Treasure",
+        "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "stackGroup": null
+  },
+  "img": "icons/commodities/gems/pearl-red-oval.webp",
+  "folder": "yhyZdU156PVdNMsp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "seekers-of-alamein-cosmic-birthday",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.12.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_id": "soe7A7EJWs23echP",
+  "sort": 100000,
+  "_key": "!items!soe7A7EJWs23echP"
+}
