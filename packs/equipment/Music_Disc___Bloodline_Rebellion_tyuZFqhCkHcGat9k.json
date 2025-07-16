@@ -16,7 +16,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "music"
+      ],
       "rarity": "uncommon"
     },
     "publication": {

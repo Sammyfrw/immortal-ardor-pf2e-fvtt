@@ -16,7 +16,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "vehicle"
+      ],
       "rarity": "uncommon"
     },
     "publication": {

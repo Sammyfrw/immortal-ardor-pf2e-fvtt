@@ -357,6 +357,14 @@
           "meal": {
             "label": "IA.Trait.Meal",
             "description": "IA.TraitDescription.Meal"
+          },
+          "music": {
+            "label": "IA.Trait.Music",
+            "description": "IA.TraitDescription.Music"
+          },
+          "vehicle": {
+            "label": "IA.Trait.Vehicle",
+            "description": "IA.TraitDescription.Vehicle"
           }
         },
         "featTraits": {

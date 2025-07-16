@@ -15,7 +15,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "catalogue"
+      ],
       "rarity": "uncommon"
     },
     "publication": {
@@ -71,7 +73,7 @@
     "subitems": []
   },
   "img": "icons/sundries/books/book-embossed-blue.webp",
-  "folder": "S3EqY95AQR3Jex8W",
+  "folder": "a2lX7sfFaUyYxcCd",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -92,6 +94,6 @@
     "systemVersion": "6.9.0"
   },
   "_id": "prr1VMhwYnPqY3ha",
-  "sort": 200000,
+  "sort": 100000,
   "_key": "!items!prr1VMhwYnPqY3ha"
 }
