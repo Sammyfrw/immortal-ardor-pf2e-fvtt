@@ -17,7 +17,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You pour out your life energy into a target, healing them at the cost of harming yourself. You take 30 negative/necrotic damage that cannot be resisted or reduced by any means, and your target is healed by twice that amount as positive healing. The range of this spell varies depending on the number of actions used to cast it; 5 feet for the 2 action version, and 60 feet for the 3 action version.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Heightened (6<sup>th</sup>) </strong>When you cast this spell, you can heal two targets within range by twice the amount of negative damage you’ve taken.</p>"
+      "value": "<p class=\"MsoNormal\">You pour out your life energy into a target, healing them at the cost of harming yourself. You take @Damage[30] damage that cannot be resisted or reduced by any means, and your target is healed by twice that amount as vitality or void healing, whichever they benefit from. The range and targets of this spell varies depending on the number of actions used to cast it:</p><ul><li><p class=\"MsoNormal\"><span class=\"action-glyph\">1 </span>touch on a creature adjacent to you</p></li><li><p class=\"MsoNormal\"><span class=\"action-glyph\">2 </span>a single creature within 30 feet of you</p></li><li><p class=\"MsoNormal\"><span class=\"action-glyph\">3 </span>distribute the amount of healing to any number of creatures within 30 feet of you, rounded down.</p></li></ul><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Heightened (6</strong><sup><strong style=\"mso-bidi-font-weight:normal\">th</strong></sup><strong style=\"mso-bidi-font-weight:normal\">) </strong>When you cast this spell, you can choose to heal two targets within range by twice the amount of negative damage you’ve taken with the 1 or 2 action versions, or take @Damage[60] damage and distribute 120 points of healing with the 3 action version. A creature cannot be healed for more than 60 hit points in this way.</p>"
     },
     "rules": [],
     "slug": "life-transference",
@@ -57,47 +57,37 @@
     "range": {
       "value": "varies"
     },
-    "area": null,
+    "area": {
+      "value": 30,
+      "type": "emanation"
+    },
     "time": {
-      "value": "2 to 3 actions"
+      "value": "1 to 3"
     },
     "duration": {
-      "value": "1 minute",
+      "value": "",
       "sustained": false
     },
     "damage": {
       "0": {
         "applyMod": false,
-        "formula": "2",
+        "formula": "60",
         "type": "untyped",
         "category": null,
         "materials": [],
         "kinds": [
-          "damage"
+          "healing"
         ]
       }
     },
-    "defense": {
-      "passive": null,
-      "save": {
-        "statistic": "fortitude",
-        "basic": false
-      }
-    },
+    "defense": null,
     "cost": {
-      "value": ""
+      "value": "30 hit points"
     },
     "location": {
       "value": null
     },
-    "counteraction": false,
-    "heightening": {
-      "type": "interval",
-      "interval": 1,
-      "damage": {
-        "0": "+2"
-      }
-    }
+    "counteraction": false
   },
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.grlKTytVFFfmvlse",

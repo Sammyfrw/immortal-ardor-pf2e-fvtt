@@ -1,0 +1,19 @@
+{
+  "name": "Treasure",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "yhyZdU156PVdNMsp",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "_key": "!folders!yhyZdU156PVdNMsp"
+}

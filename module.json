@@ -1,7 +1,7 @@
 {
   "id": "immortal-ardor",
   "title": "Immortal Ardor",
-  "version": "0.1.422",
+  "version": "0.1.423",
   "compatibility": {
     "minimum": "12.331",
     "verified": "12.331"
@@ -342,6 +342,10 @@
           }
         },
         "equipmentTraits": {
+          "catalogue": {
+            "label": "IA.Trait.Catalogue",
+            "description": "IA.TraitDescription.Catalogue"
+          },
           "facet": {
             "label": "IA.Trait.Facet",
             "description": "IA.TraitDescription.Facet"
@@ -353,6 +357,14 @@
           "meal": {
             "label": "IA.Trait.Meal",
             "description": "IA.TraitDescription.Meal"
+          },
+          "music": {
+            "label": "IA.Trait.Music",
+            "description": "IA.TraitDescription.Music"
+          },
+          "vehicle": {
+            "label": "IA.Trait.Vehicle",
+            "description": "IA.TraitDescription.Vehicle"
           }
         },
         "featTraits": {

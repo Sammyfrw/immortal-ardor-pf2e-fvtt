@@ -1,15 +1,15 @@
 {
   "folder": "1tgwp9ZT6x5G4tFB",
-  "name": "Stardust of Owl's Cry (Minor)",
+  "name": "Solar of Owl's Vigil (Minor)",
   "type": "equipment",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Owl is a watcher, a reader, and a thinker. It regards the world in its entirety, and ponders a question to its reasoning. From every little star, where might its light reach? The Owl's Cry represents the epiphany and the revelation, and a new profound understanding of the universe.</p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.IKoTBlqulPzAvuIA]{The Owl}</p><p></p><hr /><p><strong>First Asterism </strong>(Level 5): You gain the @UUID[Compendium.immortal-ardor.spells.Item.CsaVPZLaWz02HE0l]{Overload} constellation spell.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"font-family:Roboto, sans-serif\">The Owl is a watcher, a reader, and a thinker. It regards the world in its entirety, and ponders a question to its reasoning. From every little star, where might its light reach? </span>The Owl’s Vigil represents the discovery, a sight that spans the start till the end. Like an avid reader, the world seems so much more understandable.</p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.IKoTBlqulPzAvuIA]{The Owl}</p><hr /><p><strong>First Asterism </strong>(Level 8, trained in Society, Thievery, and your choice of Arcana, Nature, Occultism or Religion): You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.i5OwninARF668ud8]{Xenoarchaeologist Dedication} dedication. Once you choose your key attribute for Delve Lore checks, you cannot change it if you re-etch the facet.</p>"
     },
     "rules": [],
-    "slug": "stardust-of-owls-cry-minor",
+    "slug": "solar-facet",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -35,7 +35,7 @@
       "remaster": true
     },
     "level": {
-      "value": 5
+      "value": 8
     },
     "quantity": 1,
     "baseItem": null,
@@ -49,7 +49,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "sp": 2500
+        "sp": 500
       }
     },
     "equipped": {
@@ -65,11 +65,11 @@
     "identification": {
       "status": "identified",
       "unidentified": {
-        "name": "Unknown Stardust Facet",
-        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Stardust_Fragment_HD.png",
+        "name": "Unknown Solar Facet",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Solar_Fragment_HD.png",
         "data": {
           "description": {
-            "value": "<p>An unidentified stardust facet.</p>"
+            "value": "<p>An unidentified solar facet.</p>"
           }
         }
       },
@@ -80,21 +80,21 @@
     },
     "subitems": []
   },
-  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Stardust_Fragment_HD.png",
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Solar_Fragment_HD.png",
   "flags": {},
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.IHr3aZFhUEtlio76",
+    "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "IHr3aZFhUEtlio76",
-  "sort": 700000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!IHr3aZFhUEtlio76"
+  "_id": "qCnxmcYPdCY0Uzzm",
+  "sort": 0,
+  "_key": "!items!qCnxmcYPdCY0Uzzm"
 }

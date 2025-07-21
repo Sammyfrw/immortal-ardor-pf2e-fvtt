@@ -1,15 +1,14 @@
 {
-  "folder": "OSnty47dMMunhz2S",
-  "name": "All-Terrain Wheels",
+  "name": "Giftshop Catalog",
   "type": "equipment",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The pinnacle of wheely perfection, these wheels lets your vehicle travel across almost any ground terrain.</p><p>With these wheels, you can travel off-road through dirt paths and unpaved roads, snowy paths, uneven or forested roads at the same rate as if you were on roads. Just watch for collisions — a driving check would still be necessary to travel through hexes that don't bear any roads and are covered in obstacles.</p>"
+      "value": "<p>This is a catalog of all items sold by the Delkhaid Resort Giftshop. It goes into quite a bit of detail on how a lot of their gadgets are sourced and made - probably more than they should be. </p><p>Any enterprising engineer might be able to learn more than their fair share of details from this book, as if they had been shown the store's stock themselves.</p>"
     },
     "rules": [],
-    "slug": "all-terrain-wheels",
+    "slug": "giftshop-catalog",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -17,7 +16,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "vehicle"
+        "catalogue"
       ],
       "rarity": "uncommon"
     },
@@ -28,12 +27,12 @@
       "remaster": true
     },
     "level": {
-      "value": 8
+      "value": 6
     },
     "quantity": 1,
     "baseItem": null,
     "bulk": {
-      "value": 0
+      "value": 0.1
     },
     "hp": {
       "value": 0,
@@ -42,7 +41,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "sp": 4500
+        "sp": 985
       }
     },
     "equipped": {
@@ -59,7 +58,7 @@
       "status": "identified",
       "unidentified": {
         "name": "Unusual Object",
-        "img": "icons/environment/wilderness/terrain-rocks-brown.webp",
+        "img": "icons/sundries/books/book-embossed-blue.webp",
         "data": {
           "description": {
             "value": ""
@@ -69,25 +68,32 @@
       "misidentified": {}
     },
     "usage": {
-      "value": "other"
+      "value": "held-in-one-hand"
     },
     "subitems": []
   },
-  "img": "icons/environment/wilderness/terrain-stone-stalagtite.webp",
-  "flags": {},
+  "img": "icons/sundries/books/book-embossed-blue.webp",
+  "folder": "a2lX7sfFaUyYxcCd",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "seekers-of-alamein-cosmic-birthday",
+      "system": "pf2e",
+      "coreVersion": "12.331",
+      "systemVersion": "6.12.1"
+    }
+  },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.YX8ZrEtHtGztPo0o",
+    "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.9.0"
   },
-  "_id": "YX8ZrEtHtGztPo0o",
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "I1veN4C8IQlA6HIt": 3,
-    "xrtJn5KNHicBTyJb": 3
-  },
-  "_key": "!items!YX8ZrEtHtGztPo0o"
+  "_id": "prr1VMhwYnPqY3ha",
+  "sort": 100000,
+  "_key": "!items!prr1VMhwYnPqY3ha"
 }
