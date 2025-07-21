@@ -34,7 +34,7 @@ async function incrementZeal() {
     selectedActor.updateResource('zeal', totalZeal);
     await ChatMessage.create({
         speaker,
-        content: `${name} gains ${addedZeal} Zeal. Zeal set to ${totalZeal}.`,
+        content: `<b>${name}</b> gains ${addedZeal} Zeal. Zeal set to ${totalZeal}.`,
     });
   }
 } 
