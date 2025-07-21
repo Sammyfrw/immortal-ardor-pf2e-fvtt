@@ -235,7 +235,7 @@
           },
           "WeaponExpertise": {
             "Description": "When you critically succeed at an attack roll through a Strike made as part of a dervish feat that would grant you Zeal or a Zenith action, you apply the critical specialization effect for that weapon or unarmed attack.",
-            "RollOptionLabel": "Strike via a Zeal Action"
+            "RollOptionLabel": "Striking via Zeal Action"
           }
         }
       }

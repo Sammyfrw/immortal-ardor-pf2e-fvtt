@@ -1,6 +1,12 @@
-async function incrementZeal() {
-  const MAX_ZEAL = 5;
+import {
+  meditationEffectSourceIDs,
+  DERVISH_MAX_ZEAL
+} from "./constants.js";
 
+/***
+ * Function to increment an actor's zeal value
+ ***/
+async function incrementZeal() {
   // get the selected actor and make sure there's only one selected
   const actors = canvas.tokens.controlled;
   if (actors.length != 1) {
@@ -10,7 +16,7 @@ async function incrementZeal() {
   const selectedActor = actors[0]?.actor;
 
   // next, check if the actor has the Zeal resource.
-  const zealResourceIndex = selectedActor?.rules.findIndex(rule => rule.slug === "zeal")
+  const zealResourceIndex = selectedActor?.rules.findIndex(rule => rule.slug === "zeal");
   if (zealResourceIndex < 0) {
     return ui.notifications.warn("Selected actor does not have the Zeal resource.");
   }
@@ -24,13 +30,13 @@ async function incrementZeal() {
   const name = token?.name ?? selectedActor.name;
   const speaker = ChatMessage.getSpeaker({ actor: selectedActor });
 
-  if (totalZeal > MAX_ZEAL) {
-    selectedActor.updateResource('zeal', MAX_ZEAL);
+  if (totalZeal > DERVISH_MAX_ZEAL) {
+    selectedActor.updateResource('zeal', DERVISH_MAX_ZEAL);
     await ChatMessage.create({
         speaker,
-        content: `${name} gains ${addedZeal} Zeal, exceeding maximum of ${MAX_ZEAL}. Zeal set to ${MAX_ZEAL}.`,
+        content: `${name} gains ${addedZeal} Zeal, exceeding maximum of ${DERVISH_MAX_ZEAL}. Zeal set to ${DERVISH_MAX_ZEAL}.`,
     });
-  } else if (totalZeal <= MAX_ZEAL) {
+  } else if (totalZeal <= DERVISH_MAX_ZEAL) {
     selectedActor.updateResource('zeal', totalZeal);
     await ChatMessage.create({
         speaker,
@@ -71,6 +77,9 @@ function askZealPopupOption(zeal) {
     `;
 }
 
+/***
+ * Function to use a Zenith, which depletes a creature's Zeal.
+ ***/
 async function useZenith() {
   // get the selected actor and make sure there's only one selected
   const actors = canvas.tokens.controlled;
@@ -81,23 +90,48 @@ async function useZenith() {
   const selectedActor = actors[0]?.actor;
 
   // next, check if the actor has the Zeal resource.
-  const zealResourceIndex = selectedActor?.rules.findIndex(rule => rule.slug === "zeal")
+  const zealResourceIndex = selectedActor?.rules.findIndex(rule => rule.slug === "zeal");
   if (zealResourceIndex < 0) {
     return ui.notifications.warn("Selected actor does not have the Zeal resource.");
   }
 
   const actorCurrentZeal = selectedActor.rules[zealResourceIndex].value ?? 0;
 
+  // check if the actor has a meditation spell
+  const actorMeditationEffects = selectedActor.itemTypes.effect.filter(
+    (effect) => effect.origin === selectedActor && meditationEffectSourceIDs.has(effect.sourceId)
+  );
+
   // Get actor data
   const token = selectedActor.getActiveTokens();
   const name = token?.name ?? selectedActor.name;
   const speaker = ChatMessage.getSpeaker({ actor: selectedActor });
+  let messageContent = `<b>${name}</b> uses a zenith action and spends ${actorCurrentZeal} Zeal. Zeal set to 0.`;
+
+  // if the actor has meditation spells, remove them and append to message.
+  if (actorMeditationEffects > 0) {
+    actor.deleteEmbeddedDocuments(
+      "Item",
+      actorMeditationEffects.map((e) => e.id)
+    );
+    messageContent += "<br>Meditation spell effects fade.";
+
+    // if the actor has the Zealous Strikes class feature, they regain a focus point.
+    const actorHasZealousStrikes = selectedActor.itemTypes.feat.filter(
+      (feat) => feat.slug === "zealous-strikes");
+    const focusResource = selectedActor.system.resources.focus;
+
+    if (actorHasZealousStrikes && focusResource) {
+      messageContent += ` <b>${name}</b> regains a focus point.`;
+      selectedActor.updateResource('focus', focusResource.value + 1);
+    }
+  }
 
   selectedActor.updateResource('zeal', 0);
   await ChatMessage.create({
       speaker,
-      content: `<b>${name}</b> uses ${actorCurrentZeal} Zeal. Zeal set to 0.`,
+      content: messageContent,
   });
 }
 
-export {incrementZeal, useZenith}
+export {incrementZeal, useZenith};
