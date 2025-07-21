@@ -1,9 +1,9 @@
 // Dervish Class Feature IDs
-const ZEALOUS_STRIKES_UUID = "Compendium.immortal-ardor.classes.Item.kyVzYnHM3QAqr0O8"
+const ZEALOUS_STRIKES_UUID = "Compendium.immortal-ardor.classes.Item.kyVzYnHM3QAqr0O8";
 
 // Dervish Meditation Spell Effect IDs
 const EFFECT_ZEPHYR_MEDITATION_UUID = "Compendium.immortal-ardor.classes.Item.5KFOBoXHsqbKQSm8";
-const EFFECT_MOONBLINK_MEDITATION_UUID = "";
+const EFFECT_MOONBLINK_MEDITATION_UUID = "Compendium.immortal-ardor.classes.Item.H5u44a2JUR3VGyiD";
 const EFFECT_FLAMEDANCE_MEDITATION_UUID = "";
 const EFFECT_DRAGONFLIGHT_MEDITATION_UUID = "";
 const EFFECT_SPELLBOUND_MEDITATION_UUID = "";
@@ -22,11 +22,12 @@ const meditationEffectSourceIDs = new Set([
 	EFFECT_AXIOM_MEDITATION_UUID,
 	EFFECT_ENTROPY_MEDITATION_UUID,
 	EFFECT_LIFECYCLE_MEDITATION_UUID
-])
+]);
 
 const DERVISH_MAX_ZEAL = 5;
 
 export {
 	meditationEffectSourceIDs,
 	DERVISH_MAX_ZEAL,
-	ZEALOUS_STRIKES_UUID,
+	ZEALOUS_STRIKES_UUID
+};

@@ -101,20 +101,21 @@ async function useZenith() {
   const actorMeditationEffects = selectedActor.itemTypes.effect.filter(
     (effect) => effect.origin === selectedActor && meditationEffectSourceIDs.has(effect.sourceId)
   );
+  const effects = selectedActor.itemTypes.effect;
 
   // Get actor data
   const token = selectedActor.getActiveTokens();
   const name = token?.name ?? selectedActor.name;
   const speaker = ChatMessage.getSpeaker({ actor: selectedActor });
-  let messageContent = `<b>${name}</b> uses a zenith action and spends ${actorCurrentZeal} Zeal. Zeal set to 0.`;
+  let messageContent = `<p><b>${name}</b> uses a Zenith action and spends ${actorCurrentZeal} Zeal. Zeal set to 0.</p>`;
 
   // if the actor has meditation spells, remove them and append to message.
-  if (actorMeditationEffects > 0) {
-    actor.deleteEmbeddedDocuments(
+  if (actorMeditationEffects.length > 0) {
+    selectedActor.deleteEmbeddedDocuments(
       "Item",
       actorMeditationEffects.map((e) => e.id)
     );
-    messageContent += "<br>Meditation spell effects fade.";
+    messageContent += "<p>Meditation spell effects fade.</p>";
 
     // if the actor has the Zealous Strikes class feature, they regain a focus point.
     const actorHasZealousStrikes = selectedActor.itemTypes.feat.filter(
