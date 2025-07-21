@@ -1,6 +1,6 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Meditating",
+  "name": "[T] Meditation Spell Effect Template",
   "type": "effect",
   "effects": [],
   "system": {
@@ -28,9 +28,9 @@
       "value": 1
     },
     "duration": {
-      "value": -1,
-      "unit": "unlimited",
-      "expiry": null,
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
       "sustained": false
     },
     "start": {
@@ -55,9 +55,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
-  "_id": "xT1z2UW9eTgOZ5UX",
-  "sort": 0,
-  "_key": "!items!xT1z2UW9eTgOZ5UX"
+  "_id": "YbLMUu2vgcKH5U9u",
+  "sort": 700000,
+  "_key": "!items!YbLMUu2vgcKH5U9u"
 }

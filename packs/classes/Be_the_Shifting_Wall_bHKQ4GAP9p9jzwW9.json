@@ -1,0 +1,58 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Be the Shifting Wall",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">You [[/act shove]] a creature, and your emanation of whirling sand becomes difficult terrain to your enemies until the start of your next turn.</span></p><p><br class=\"Apple-interchange-newline\" /></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "be-the-shifting-wall",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "bHKQ4GAP9p9jzwW9",
+  "sort": 500000,
+  "_key": "!items!bHKQ4GAP9p9jzwW9"
+}

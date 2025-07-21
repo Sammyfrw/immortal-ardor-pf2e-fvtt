@@ -59,7 +59,7 @@
         "label": "Zeal",
         "max": "5",
         "slug": "zeal",
-        "renew": "false"
+        "renew": false
       }
     ],
     "slug": "zeal",
@@ -109,7 +109,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "pzJHebAV1UEFBJRn",
   "_key": "!items!pzJHebAV1UEFBJRn"

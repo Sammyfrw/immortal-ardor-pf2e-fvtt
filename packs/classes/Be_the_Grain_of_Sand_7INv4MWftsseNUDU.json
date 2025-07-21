@@ -1,6 +1,6 @@
 {
   "folder": "mgJCrccu8gJ1eD7B",
-  "name": "Reverse Recitation",
+  "name": "Be the Grain of Sand",
   "type": "action",
   "effects": [],
   "system": {
@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<div><p><strong>Trigger</strong> It is your turn.</p><p><strong>Requirements</strong> You have a focus point.</p><p><strong>Frequency</strong> Once per day</p><hr /></div><p>You recall an emotional high point in your spiritual journey and relive that moment again, filling you with spiritual power. You spend a focus point, and gain 5 Zeal.</p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You [[/act reposition]] a creature, and your emanation of whirling sand allows allies to move through without provoking reactions until the start of your next turn.</span></p>",
       "gm": ""
     },
     "publication": {
@@ -19,30 +19,27 @@
       "remaster": true
     },
     "rules": [],
-    "slug": "reverse-recitation",
+    "slug": "be-the-grain-of-sand",
     "traits": {
       "otherTags": [],
       "value": [
-        "concentrate",
         "dervish"
       ]
     },
     "actionType": {
-      "value": "free"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     },
     "category": "interaction",
     "deathNote": false,
     "frequency": {
       "max": 1,
-      "per": "day",
-      "value": 1
+      "per": "round"
     }
   },
-  "img": "systems/pf2e/icons/actions/FreeAction.webp",
-  "sort": 600000,
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -50,11 +47,12 @@
   "flags": {},
   "_stats": {
     "compendiumSource": null,
-    "duplicateSource": "Item.nHzt7nngZjuYzmZC",
+    "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
-  "_id": "Aab3SUt9pyfxmum6",
-  "_key": "!items!Aab3SUt9pyfxmum6"
+  "_id": "7INv4MWftsseNUDU",
+  "sort": 100000,
+  "_key": "!items!7INv4MWftsseNUDU"
 }
