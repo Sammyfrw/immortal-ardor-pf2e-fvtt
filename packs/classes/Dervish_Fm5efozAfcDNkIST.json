@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\"><em style=\"mso-bidi-font-style:normal\">You seek to become more than what you are. In the heat of battle or in life’s most tranquil moments, you reach for a greater state to reach transcendence, self-improvement, or a hint of divinity. You’ve devoted yourself to a philosophy that imparts lessons and ideals for spiritual fulfillment. You utter meditations that lifts your spirit high, entering a trance that taps into a great power that exemplifies the ideals you are dedicated to. During moments of zeniths, your heightened self brings the divine to the world.</em></span></p>"
+      "value": "<p><span lang=\"EN\"><em style=\"mso-bidi-font-style:normal\">You seek to become more than what you are. In the heat of battle or in life’s most tranquil moments, you reach for a greater state to reach transcendence, self-improvement, or a hint of divinity. You’ve devoted yourself to a philosophy that imparts lessons and ideals for spiritual fulfillment. You utter meditations that lifts your spirit high, entering a trance that taps into a great power that exemplifies the ideals you are dedicated to. During moments of zeniths, your heightened self brings the divine to the world.</em></span></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.Uyqkrx0RlxN9mMgS.JournalEntryPage.vHsbmmIz6pdYA3H3]{Dervish}</p>"
     },
     "rules": [],
     "slug": "dervish",
@@ -260,7 +260,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "Fm5efozAfcDNkIST",
   "sort": 0,

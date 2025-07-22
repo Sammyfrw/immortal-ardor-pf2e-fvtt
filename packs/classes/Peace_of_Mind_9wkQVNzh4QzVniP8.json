@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You gain the Calm Mind feature.</span></p>"
+      "value": "<p><span lang=\"EN\">You gain the @UUID[Compendium.immortal-ardor.classes.2Ijaf182htK84IpJ]{Calm Mantra} feature.</span></p>"
     },
     "rules": [],
     "slug": "peace-of-mind",
@@ -49,7 +49,7 @@
     "location": null
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
-  "sort": 100000,
+  "sort": 500000,
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -60,7 +60,7 @@
     "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "9wkQVNzh4QzVniP8",
   "_key": "!items!9wkQVNzh4QzVniP8"
