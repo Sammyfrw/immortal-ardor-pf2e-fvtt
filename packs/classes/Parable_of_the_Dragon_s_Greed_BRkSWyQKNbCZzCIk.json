@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\"><em style=\"mso-bidi-font-style:normal\">No being has reached such folly as that of dragons; but for all their great and their arrogance, they too live lives of hardship. They stare in the face of their own selves every day, and they decide how they spend their long years in it. To bring joy or to bring ruin, no being is as human as dragons.</em></span></p><p class=\"MsoNormal\"><span lang=\"EN\">The Dragon’s Greed represents the drachiri and their curse of greed. As beings of both flesh and magic, this incurable affliction causes them to have an insatiable need of a particular quantity, be it wealth, fame, power, pleasure, vengeance, or knowledge. Resolving and finding ways to sate their greed in productive ways has shaped the entirety of the drachiri empire and all dragonkind. To all Dervishes who wish to transcend the material self, the idea of overcoming such basal needs provides a prominent and meaningful pursuit.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Dervishes of the Dragon’s Greed ponder the magical nature of dragons, finding lessons and instruction in the ways how they have lived with their curses as ways to overcome the self. Whether it’s through abstinence, intelligence, or creativity, you pick one or more qualities based on the respective drachiri’s curse of greed to overcome; In so doing, you pluck the spiritual embodiment of this internal struggle as a source of divine power.</span></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:yes\"> </span>You gain the following benefits.</p><ul><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Zeal action</span></span>: Once per round, you gain zeal when using actions with the Flourish trait, or when you @UUID[Compendium.pf2e.actionspf2e.21WIfSu7Xd7uKqV8]{Tumble Through}, @UUID[Compendium.pf2e.actionspf2e.Qf1ylAbdVi1rkc8M]{Maneuver in Flight} or @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly}.</p></li><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Bonus Feat</span></span>: You gain the <em style=\"mso-bidi-font-style:normal\">@UUID[Compendium.immortal-ardor.classes.yZPDVCpqsJWFco3c]{Breath of Steel}</em> dervish feat.</p></li><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Focus spell</span></span>: You gain the @UUID[Compendium.immortal-ardor.classes.9zdk0MEYuGxl3KOR]{Dragonflight Meditation} focus spell.</p></li></ul>"
+      "value": "<p><span lang=\"EN\"><em style=\"mso-bidi-font-style:normal\">No being has reached such folly as that of dragons; but for all their great and their arrogance, they too live lives of hardship. They stare in the face of their own selves every day, and they decide how they spend their long years in it. To bring joy or to bring ruin, no being is as human as dragons.</em></span></p><p class=\"MsoNormal\"><span lang=\"EN\">The Dragon’s Greed represents the drachiri and their curse of greed. As beings of both flesh and magic, this incurable affliction causes them to have an insatiable need of a particular quantity, be it wealth, fame, power, pleasure, vengeance, or knowledge. Resolving and finding ways to sate their greed in productive ways has shaped the community of the drachiri empire and all dragonkind. To all Dervishes who wish to transcend the material self, the idea of overcoming such basal needs and empowering others provides a prominent and meaningful pursuit.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Dervishes of the Dragon’s Greed ponder the magical nature of dragons, finding lessons and instruction in the ways how they have lived with their curses as ways to overcome the self. Whether it’s through abstinence, competition, cooperation, or creativity, you pick one or more qualities based on the respective drachiri’s curse of greed to overcome; In so doing, you pluck the spiritual embodiment of this internal struggle as a source of divine power.</span></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:yes\"> </span>You gain the following benefits.</p><ul><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Zeal action</span></span>: Once per round, you gain zeal when using actions with the Flourish trait, or when you @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid}, @UUID[Compendium.pf2e.actionspf2e.21WIfSu7Xd7uKqV8]{Tumble Through}, @UUID[Compendium.pf2e.actionspf2e.Qf1ylAbdVi1rkc8M]{Maneuver in Flight} or @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly}.</p></li><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Bonus Feat</span></span>: You gain the <em style=\"mso-bidi-font-style:normal\">@UUID[Compendium.immortal-ardor.classes.yZPDVCpqsJWFco3c]{Breath of Steel}</em> dervish feat.</p></li><li><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Focus spell</span></span>: You gain the @UUID[Compendium.immortal-ardor.classes.9zdk0MEYuGxl3KOR]{Dragonflight Meditation} focus spell.</p></li></ul>"
     },
     "rules": [
       {
@@ -20,6 +20,7 @@
               "action:tumble-through",
               "action:maneuver-in-flight",
               "action:fly",
+              "action:aid",
               "item:trait:flourish"
             ]
           }
@@ -91,6 +92,7 @@
               "item:tumble-through",
               "item:maneuver-in-flight",
               "item:fly",
+              "item:aid",
               "item:trait:flourish"
             ]
           }
@@ -149,7 +151,7 @@
     "duplicateSource": "Item.VbeX8mJUhn9o7taQ",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "BRkSWyQKNbCZzCIk",
   "_key": "!items!BRkSWyQKNbCZzCIk"

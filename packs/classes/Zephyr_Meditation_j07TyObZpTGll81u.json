@@ -17,11 +17,12 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "air",
         "concentrate",
         "earth",
         "focus",
-        "meditation",
-        "subtle"
+        "manipulate",
+        "meditation"
       ],
       "rarity": "uncommon",
       "traditions": []

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">Make a Perception check against the target’s @Check[perception|against:deception|traits:secret]{Deception} or @Check[perception|against:stealth|traits:secret]{Stealth} DC, whichever is higher. This counts as a [[/act sense-motive]] check for any benefits you may have to taking Sense Motive actions. On a success, you glean a sense of the target’s movements and gain a +1 circumstance bonus to your AC and saving throw against their next attack or spell for 1 round (+2 on critical success).</span></p><p>@UUID[Compendium.immortal-ardor.classes.8Klm9H6BXxA7OMUJ]{Effect: Moonglare}</p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">Make a Perception check against the target’s @Check[perception|against:deception|options:action:sense-motive] Deception or @Check[perception|against:stealth|options:action:sense-motive] Stealth DC, whichever is higher. This counts as a @UUID[Compendium.pf2e.actionspf2e.1xRFPTFtWtGJ9ELw]{Sense Motive} check for any benefits you may have to taking Sense Motive actions. On a success, you glean a sense of the target’s movements and gain a +1 circumstance bonus to your AC and saving throw against their next attack or spell for 1 round (+2 on critical success).</span></p><p>@UUID[Compendium.immortal-ardor.classes.8Klm9H6BXxA7OMUJ]{Effect: Moonglare}</p>",
       "gm": ""
     },
     "publication": {
@@ -23,8 +23,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "dervish",
-        "visual"
+        "concentrate",
+        "dervish"
       ]
     },
     "actionType": {

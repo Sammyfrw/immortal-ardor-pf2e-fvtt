@@ -62,10 +62,10 @@
           },
           {
             "or": [
-              "action:sneak",
-              "action:hide",
-              "action:sense-motive",
-              "action:recall-knowledge",
+              "item:sneak",
+              "item:hide",
+              "item:sense-motive",
+              "item:recall-knowledge",
               "target:condition:off-guard"
             ]
           }
@@ -90,10 +90,10 @@
           },
           {
             "or": [
-              "action:sneak",
-              "action:hide",
-              "action:sense-motive",
-              "action:recall-knowledge",
+              "item:sneak",
+              "item:hide",
+              "item:sense-motive",
+              "item:recall-knowledge",
               "target:condition:off-guard"
             ]
           }
@@ -152,7 +152,7 @@
     "duplicateSource": "Item.VbeX8mJUhn9o7taQ",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "whMmSMGy5r8c27S3",
   "_key": "!items!whMmSMGy5r8c27S3"

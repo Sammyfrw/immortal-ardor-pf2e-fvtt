@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You recount the parables of the roaring flame, and enter a trance. Your motions become wide, showy and arcing. All will be embroiled in the flame, and participate in the great dancing fire you sparked. The more you become one with the heat of the moment, the closer you are with the roaring flame that the world needs.</p><p>When you cast this spell, you gain 2 Zeal. Once per round when you cast this spell or when you sustain this spell, you perform a sweeping motion and incite friend or foe to take part in your revelry. You can choose one of the following recitations:</p><ul><li><p><strong>Dance Around The Pyre</strong>: You Perform against a DC 15. On any outcome except a critical failure, all allies within 30 feet of you can choose to Stride up to half their speed as a free action, or up to their speed on a critical success. They must end their movement within 30 feet of you.</p></li><li><p><strong>Through Fire and Flame</strong>: You create a lash of fire to catch your foes by surprise. Attempt a Deception check against the Perception DC of a creature within 30 feet of you. A creature becomes off-guard to the next attack against it on a success, or all attacks against it on a critical success until the end of your next turn. This counts as a Feint for the purpose of any benefits you have to Feint actions.</p></li><li><p><strong>She Said Burn</strong>: You Demoralize a target creature within 30 feet with the imagery of burning flame. Demoralizing a creature in this way loses the Auditory trait and gains the Visual trait, and ignores language penalties.</p></li></ul><div><p><strong>Heightened (+3):</strong> The range or radius of your recitations increase by 10 feet.</p></div>"
+      "value": "<p>You recount the parables of the roaring flame, and enter a trance. Your motions become wide, showy and arcing. All will be embroiled in the flame, and participate in the great dancing fire you sparked. The more you become one with the heat of the moment, the closer you are with the roaring flame that the world needs.</p><p>When you cast this spell, you gain 2 Zeal and create entrancing arcs of flame in 30-foot emanation around you. Once per round when you cast this spell or when you sustain this spell, you perform a sweeping motion and direct the fire to incite friend or foe to take part in your revelry. You can choose one of the following recitations:</p><ul><li><p><strong>@UUID[Compendium.immortal-ardor.classes.AH7nAAAgtUYMy0tu]{Dance Around The Pyre}</strong>: You Perform against a DC 15. On any outcome except a critical failure, all allies within your field can choose to Stride up to half their speed as a free action, or up to their speed on a critical success. They must end their movement within your field.</p></li><li><p><strong>@UUID[Compendium.immortal-ardor.classes.UIXJIuXfYAq6vrER]{Through the Fire and Flame}</strong>: You create a lash of fire to catch your foes by surprise. Attempt a Deception check against the Perception DC of a creature within your field. A creature becomes off-guard to the next attack against it on a success, or all attacks against it on a critical success until the end of your next turn. This counts as a Feint for the purpose of any benefits you have to Feint actions.</p></li><li><p><strong>@UUID[Compendium.immortal-ardor.classes.H9kwWD9owoFmsk6P]{She Said Burn}</strong>: You Demoralize a target creature within your field with the imagery of burning flame. Demoralizing a creature in this way loses the Auditory trait and gains the Visual trait, and ignores language penalties.</p></li></ul><div><p><strong>Heightened (+3):</strong> The radius of your field increases by 10 feet.</p><p>@UUID[Compendium.immortal-ardor.classes.E0TUYubcShRv1QCm]{Effect: Flamedance Meditation}</p></div>"
     },
     "rules": [],
     "slug": "flamedance-meditation",
@@ -18,10 +18,12 @@
       "otherTags": [],
       "value": [
         "concentrate",
+        "emotion",
         "fire",
         "focus",
+        "manipulate",
         "meditation",
-        "subtle"
+        "mental"
       ],
       "rarity": "uncommon",
       "traditions": []
@@ -72,7 +74,7 @@
     "duplicateSource": "Item.LgJRHt96RKvOMKhF",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "ZcV75I5leQnKvJjK",
   "_key": "!items!ZcV75I5leQnKvJjK"

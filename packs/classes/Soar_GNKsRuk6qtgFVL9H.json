@@ -1,6 +1,6 @@
 {
   "folder": "mgJCrccu8gJ1eD7B",
-  "name": "Be the Grain of Sand",
+  "name": "Soar",
   "type": "action",
   "effects": [],
   "system": {
@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You [[/act reposition]]{Reposition (Athletics)} / [[/act reposition statistic=classDC]]{Reposition (Dervish)} a creature, and your emanation of whirling sand allows allies to move through without provoking reactions until the start of your next turn.</span></p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">Ethereal wings briefly manifest on you. You @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly} up to your land speed, or a fly speed that you have, whichever is higher. You must land on solid ground by the end of your movement unless you can fly, otherwise you fall.</span></p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": "be-the-grain-of-sand",
+    "slug": "soar",
     "traits": {
       "otherTags": [],
       "value": [
@@ -52,7 +52,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "7INv4MWftsseNUDU",
-  "sort": 100000,
-  "_key": "!items!7INv4MWftsseNUDU"
+  "_id": "GNKsRuk6qtgFVL9H",
+  "sort": 0,
+  "_key": "!items!GNKsRuk6qtgFVL9H"
 }

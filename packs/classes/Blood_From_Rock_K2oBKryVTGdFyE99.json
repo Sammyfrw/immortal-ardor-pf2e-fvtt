@@ -1,6 +1,6 @@
 {
   "folder": "mgJCrccu8gJ1eD7B",
-  "name": "Be the Grain of Sand",
+  "name": "Blood From Rock",
   "type": "action",
   "effects": [],
   "system": {
@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You [[/act reposition]]{Reposition (Athletics)} / [[/act reposition statistic=classDC]]{Reposition (Dervish)} a creature, and your emanation of whirling sand allows allies to move through without provoking reactions until the start of your next turn.</span></p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You make the most of anything you can lose. You Activate a held consumable item that needs a 1-action Manipulate or Strike action that causes damage or healing. You roll twice for the damage or healing and take the better result. This is a Fortune effect.</span></p><p>@UUID[Compendium.immortal-ardor.classes.RhYli9fmmiVZlog6]{Effect: Blood From Rock}</p>",
       "gm": ""
     },
     "publication": {
@@ -19,11 +19,12 @@
       "remaster": true
     },
     "rules": [],
-    "slug": "be-the-grain-of-sand",
+    "slug": "blood-from-rock",
     "traits": {
       "otherTags": [],
       "value": [
-        "dervish"
+        "dervish",
+        "fortune"
       ]
     },
     "actionType": {
@@ -52,7 +53,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "7INv4MWftsseNUDU",
-  "sort": 100000,
-  "_key": "!items!7INv4MWftsseNUDU"
+  "_id": "K2oBKryVTGdFyE99",
+  "sort": 0,
+  "_key": "!items!K2oBKryVTGdFyE99"
 }

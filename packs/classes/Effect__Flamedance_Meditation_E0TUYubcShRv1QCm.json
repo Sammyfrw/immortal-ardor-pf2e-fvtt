@@ -1,0 +1,95 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Flamedance Meditation",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You recount the parables of the roaring flame, and enter a trance. Your motions become wide, showy and arcing. All will be embroiled in the flame, and participate in the great dancing fire you sparked. The more you become one with the heat of the moment, the closer you are with the roaring flame that the world needs.</p><p>You create entrancing arcs of flame in 30-foot emanation around you. Once per round when you cast this spell or when you sustain this spell, you perform a sweeping motion and direct the fire to incite friend or foe to take part in your revelry. You can choose one of the following recitations:</p><ul><li><p>@UUID[Compendium.immortal-ardor.classes.AH7nAAAgtUYMy0tu]{Dance Around The Pyre}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.UIXJIuXfYAq6vrER]{Through the Fire and Flame}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.H9kwWD9owoFmsk6P]{She Said Burn}</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": {
+          "brackets": [
+            {
+              "start": 1,
+              "end": 6,
+              "value": 30
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "value": 40
+            },
+            {
+              "start": 13,
+              "end": 18,
+              "value": 50
+            },
+            {
+              "start": 19,
+              "value": 60
+            }
+          ],
+          "field": "actor|level"
+        },
+        "level": "floor(@actor.level/2)",
+        "traits": [
+          "fire"
+        ]
+      }
+    ],
+    "slug": "effect-flamedance-meditation",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/fire/elemental-fire-humanoid.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "E0TUYubcShRv1QCm",
+  "sort": 0,
+  "_key": "!items!E0TUYubcShRv1QCm"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "She Said Burn",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">You [[/act demoralize]]{Demoralize (Intimidation)} / [[/act demoralize statistic=classDC]]{Demoralize (Dervish)} a target creature within your field with the imagery of burning flame. Demoralizing a creature in this way loses the Auditory trait and gains the Visual trait, and ignores language penalties.</span></p><div style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;color:rgb(25, 24, 19);font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><p><span style=\"font-family:Roboto, sans-serif\"><br class=\"Apple-interchange-newline\" /></span></p></div>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "she-said-burn",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "mental"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "H9kwWD9owoFmsk6P",
+  "sort": 0,
+  "_key": "!items!H9kwWD9owoFmsk6P"
+}
