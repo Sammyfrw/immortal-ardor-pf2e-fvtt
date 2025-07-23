@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You seek intangible experiences to look back fondly upon. You create an ethereal gout of beautiful colored dragon flame overhead. You [[/act create-a-diversion variant=trick]]{Create a Diversion (Deception)} / [[/act create-a-diversion variant=trick statistic=classDC]]{Create a Diversion (Dervish)} with the Visual and Auditory traits. If you critically succeed against a creature whose level is less than twice this spell’s rank, that creature becomes @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} for 1 round.</span></p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You seek intangible experiences to look back fondly upon. You create an ethereal gout of beautiful colored dragon flame overhead. You [[/act create-a-diversion variant=trick traits=visual,auditory]]{Create a Diversion (Deception)} / [[/act create-a-diversion variant=trick statistic=recitation traits=visual,auditory]]{Create a Diversion (Recitation)} with the Visual and Auditory traits. If you critically succeed against a creature whose level is less than twice this spell’s rank, that creature becomes @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} with the display for 1 round.</span></p>",
       "gm": ""
     },
     "publication": {

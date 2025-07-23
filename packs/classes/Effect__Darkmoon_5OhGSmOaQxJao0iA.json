@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.uuG9XjzZvuSEy1xo]{Darkmoon}</p><p>You are Concealed against the target of your Darkmoon (Hidden on a critical success).</p>"
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.uuG9XjzZvuSEy1xo]{Darkmoon}</p><p>You are @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} against the target of your Darkmoon (@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}on a critical success).</p>"
     },
     "rules": [
       {

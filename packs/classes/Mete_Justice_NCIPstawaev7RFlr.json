@@ -1,6 +1,6 @@
 {
   "folder": "mgJCrccu8gJ1eD7B",
-  "name": "Inspire Praise",
+  "name": "Mete Justice",
   "type": "action",
   "effects": [],
   "system": {
@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>You grace others with your esteemed presence to inspire one another, expecting lavishing praise in return. Choose a creature within 30 feet that you are aware of and can perceive to offer a word of encouragement. This counts as preparing to @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} for the next skill check or attack roll your target makes.</p><p>[[/act aid statistic=recitation]]{Aid (Recitation)}</p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You disrupt those who have done wrong. You grow an ethereal tail and make a [[/act trip]]{Trip (Athletics)]} / [[/act trip statistic=recitation]]{Trip (Recitation)} attempt against a creature within 20 feet of you. This attempt takes a -2 circumstance penalty unless you are adjacent to the target.</span></p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": "inspire-praise",
+    "slug": "mete-justice",
     "traits": {
       "otherTags": [],
       "value": [
@@ -52,7 +52,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "td0A5chdMCaPDQse",
+  "_id": "NCIPstawaev7RFlr",
   "sort": 0,
-  "_key": "!items!td0A5chdMCaPDQse"
+  "_key": "!items!NCIPstawaev7RFlr"
 }

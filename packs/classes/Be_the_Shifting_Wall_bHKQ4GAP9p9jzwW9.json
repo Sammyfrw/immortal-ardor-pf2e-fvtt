@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">You [[/act shove]]{Shove (Athletics)} / [[/act shove statistic=classDC]]{Shove (Dervish)} a creature, and your emanation of whirling sand becomes difficult terrain to your enemies until the start of your next turn.</span></p><p><br class=\"Apple-interchange-newline\" /></p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">You [[/act shove]]{Shove (Athletics)} / [[/act shove statistic=recitation]]{Shove (Recitation)} a creature, and your emanation of whirling sand becomes difficult terrain to your enemies until the start of your next turn.</span></p><p><br class=\"Apple-interchange-newline\" /></p>",
       "gm": ""
     },
     "publication": {

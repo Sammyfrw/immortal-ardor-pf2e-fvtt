@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.j07TyObZpTGll81u]{Zephyr Meditation}</p><p><span style=\"font-family:Roboto, sans-serif\">You whisper the parables of the Whirling Sands, and enter a trance. As you do, loose sand or dirt begins to flutter and turn in a spiral. As you maintain this meditation, you make spinning gestures, perhaps aided by loose fluttering clothing. As you spin and turn, you feel yourself becoming closer to the center of the whirling sands.</span></p><p><span style=\"font-family:Roboto, sans-serif\">Sand whirls around you in a 5-foot emanation, and you gain the following recitations:</span></p><ul><li><p>@UUID[Compendium.immortal-ardor.classes.Item.2o9yuCUU9izmxQbo]{Be the Harrying Wind}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.Item.bHKQ4GAP9p9jzwW9]{Be the Shifting Wall}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.Item.7INv4MWftsseNUDU]{Be the Grain of Sand}</p></li></ul>"
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.j07TyObZpTGll81u]{Zephyr Meditation}</p><p><span style=\"font-family:Roboto, sans-serif\">Sand whirls around you in a 5-foot emanation, and you gain the following recitations:</span></p><ul><li><p>@UUID[Compendium.immortal-ardor.classes.Item.2o9yuCUU9izmxQbo]{Be the Harrying Wind}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.Item.bHKQ4GAP9p9jzwW9]{Be the Shifting Wall}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.Item.7INv4MWftsseNUDU]{Be the Grain of Sand}</p></li></ul>"
     },
     "rules": [
       {

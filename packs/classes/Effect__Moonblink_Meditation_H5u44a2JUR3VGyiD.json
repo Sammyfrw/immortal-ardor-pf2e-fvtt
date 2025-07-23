@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.KCcTvkszTZayxaas]{Moonblink Meditation}</p><p><span style=\"font-family:Roboto, sans-serif\">You mentally recite the parables of the silent moon, and enter a trance. Your eyes almost gloss over and you appear distant, but you can sense everything around you in great detail. There is almost a cold chill about you and your movements become deliberate and directed. As you take in the world around you, you feel all opportunities become open to you to make great changes like the moon.</span></p><p><span style=\"font-family:Roboto, sans-serif\">When you sustain this spell, your gaze pierces a target creature you are observing within 30 feet and you gain the following recitations:</span></p><ul><li><p>@UUID[Compendium.immortal-ardor.classes.YCWXIwfmFRTYWfoa]{Moonglare}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.uuG9XjzZvuSEy1xo]{Darkmoon}</p></li></ul>"
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.KCcTvkszTZayxaas]{Moonblink Meditation}</p><p><span style=\"font-family:Roboto, sans-serif\">When you sustain this spell, your gaze pierces a target creature you are observing within 30 feet and you gain the following recitations:</span></p><ul><li><p>@UUID[Compendium.immortal-ardor.classes.YCWXIwfmFRTYWfoa]{Moonglare}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.uuG9XjzZvuSEy1xo]{Darkmoon}</p></li></ul>"
     },
     "rules": [
       {

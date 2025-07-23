@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your control of spiritual power gained through your practices grows stronger. Your proficiency rank for your dervish class DC increases to expert.</p>"
+      "value": "<p>Your control of spiritual power gained through your practices grows stronger. Your proficiency ranks for your dervish class DC, spell attack modifier and spell DC increase to expert.</p>"
     },
     "rules": [
       {
@@ -49,7 +49,14 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 2
+        }
+      }
+    }
   },
   "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
   "sort": 175000,
@@ -63,7 +70,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "vOHQgM11aavYhtsQ",
   "_key": "!items!vOHQgM11aavYhtsQ"

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You recount the parables of the roaring flame, and enter a trance. Your motions become wide, showy and arcing. All will be embroiled in the flame, and participate in the great dancing fire you sparked. The more you become one with the heat of the moment, the closer you are with the roaring flame that the world needs.</p><p>You create entrancing arcs of flame in 30-foot emanation around you. Once per round when you cast this spell or when you sustain this spell, you perform a sweeping motion and direct the fire to incite friend or foe to take part in your revelry. You can choose one of the following recitations:</p><ul><li><p>@UUID[Compendium.immortal-ardor.classes.AH7nAAAgtUYMy0tu]{Dance Around The Pyre}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.UIXJIuXfYAq6vrER]{Through the Fire and Flame}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.H9kwWD9owoFmsk6P]{She Said Burn}</p></li></ul>"
+      "value": "<p>You create entrancing arcs of flame in 30-foot emanation around you. Once per round when you cast this spell or when you sustain this spell, you can choose one of the following Recitations:</p><ul><li><p>@UUID[Compendium.immortal-ardor.classes.AH7nAAAgtUYMy0tu]{Dance Around The Pyre}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.UIXJIuXfYAq6vrER]{Through the Fire and Flame}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.H9kwWD9owoFmsk6P]{She Said Burn}</p></li></ul>"
     },
     "rules": [
       {

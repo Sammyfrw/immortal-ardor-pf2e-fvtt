@@ -24,7 +24,7 @@
       {
         "key": "Note",
         "selector": "strike-damage",
-        "text": "When you critically succeed at an attack roll through a Strike made as part of a dervish feat that would grant you Zeal or a Zenith action, you apply the critical specialization effect for that weapon or unarmed attack.\n\nIA.SpecificRule.Dervish.ClassFeatures.WeaponExpertise.Description",
+        "text": "When you critically succeed at an attack roll through a Strike made as part of a dervish feat that would grant you Zeal or a Zenith action, you apply the critical specialization effect for that weapon or unarmed attack.",
         "title": "Dervish Weapon Expertise",
         "outcome": [
           "criticalSuccess"
@@ -98,7 +98,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "6Ct3XOv2gwxoK6LY",
   "_key": "!items!6Ct3XOv2gwxoK6LY"

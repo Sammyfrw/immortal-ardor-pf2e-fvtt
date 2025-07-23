@@ -1,6 +1,6 @@
 {
   "folder": "mgJCrccu8gJ1eD7B",
-  "name": "Inspire Praise",
+  "name": "Draw Magnatheca",
   "type": "action",
   "effects": [],
   "system": {
@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>You grace others with your esteemed presence to inspire one another, expecting lavishing praise in return. Choose a creature within 30 feet that you are aware of and can perceive to offer a word of encouragement. This counts as preparing to @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} for the next skill check or attack roll your target makes.</p><p>[[/act aid statistic=recitation]]{Aid (Recitation)}</p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You pull upon collective knowledge and share it. Make a @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} check for one creature you can observe, but you use the highest proficiency bonus amongst you or any ally within 60 feet of you. You then mentally share any findings to allies in this range.</span></p><p><br class=\"Apple-interchange-newline\" /></p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": "inspire-praise",
+    "slug": "draw-magnatheca",
     "traits": {
       "otherTags": [],
       "value": [
@@ -52,7 +52,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "td0A5chdMCaPDQse",
+  "_id": "lsCjWO6Xrr2m3gjx",
   "sort": 0,
-  "_key": "!items!td0A5chdMCaPDQse"
+  "_key": "!items!lsCjWO6Xrr2m3gjx"
 }

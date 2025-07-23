@@ -6,9 +6,338 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You internalize the parables of the dragon’s greed, and enter a trance. You connect with the magic that flows through dragons and their curse. In your trance, you contend with and face that inner-turmoil, and bask in the draconic presence that grows with your contemplations.</span></p><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px;color:rgb(25, 24, 19);font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Roboto, sans-serif\">When you cast this spell, you gain 2 Zeal. Select one of the following curses of the drachiri: wealth, fame, power, pleasure, vengeance, or knowledge. This represents the curse and type of drachiri you are internalizing throughout the spell’s duration. Once per round when you cast this spell or when you sustain this spell, you can evoke one of the following recitations, and channel a representation of the dragon’s struggle. You can only choose Soar and one other recitation, depending on your chosen curse.</span></p>"
+      "value": "<p>When you cast this spell, select one of the following curses of the drachiri: wealth, fame, power, pleasure, vengeance, or knowledge. Once per round when you cast this spell or when you sustain this spell, you can evoke one of the following recitations. You can only choose Soar and one other recitation, depending on your chosen curse:</p><ul style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px;padding:0px 0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.GNKsRuk6qtgFVL9H]{Soar}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.K2oBKryVTGdFyE99]{Blood From Rock (Wealth)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.td0A5chdMCaPDQse]{Inspire Praise (Fame)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.i1CTgUnFFuMln7ze]{Shape The World (Power)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.WbBqhAaMyWjsMXCU]{Joy Immaterial (Pleasure)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.NCIPstawaev7RFlr]{Mete Justice (Vengeance)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.lsCjWO6Xrr2m3gjx]{Draw Magnatheca (Knowledge)}</span></p></li></ul>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.BloodFromRock",
+            "value": "Compendium.immortal-ardor.classes.Item.K2oBKryVTGdFyE99"
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.InspirePraise",
+            "value": "Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse"
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.ShapeTheWorld",
+            "value": "Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze"
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.JoyImmaterial",
+            "value": "Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU"
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.MeteJustice",
+            "value": "Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr"
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.DrawMagnatheca",
+            "value": "Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx"
+          }
+        ],
+        "prompt": "IA.SpecificRule.Dervish.Recitations.PromptText",
+        "flag": "dragonflightChoiceOne",
+        "rollOption": "dragonflight-choice-one"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.BloodFromRock",
+            "value": "Compendium.immortal-ardor.classes.Item.K2oBKryVTGdFyE99",
+            "predicate": [
+              {
+                "not": "dragonflight-choice-one:{item|flags.pf2e.rulesSelections.dragonflightChoiceOne}"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.InspirePraise",
+            "value": "Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
+            "predicate": [
+              {
+                "not": "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.ShapeTheWorld",
+            "value": "Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
+            "predicate": [
+              {
+                "not": "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.JoyImmaterial",
+            "value": "Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
+            "predicate": [
+              {
+                "not": "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.MeteJustice",
+            "value": "Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
+            "predicate": [
+              {
+                "not": "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.DrawMagnatheca",
+            "value": "Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
+            "predicate": [
+              {
+                "not": "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx"
+              }
+            ]
+          }
+        ],
+        "prompt": "IA.SpecificRule.Dervish.Recitations.PromptText",
+        "flag": "dragonflightChoiceTwo",
+        "rollOption": "dragonflight-choice-two",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.BloodFromRock",
+            "value": "Compendium.immortal-ardor.classes.Item.K2oBKryVTGdFyE99",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:{item|flags.pf2e.rulesSelections.dragonflightChoiceOne}",
+                  "dragonflight-choice-two:{item|flags.pf2e.rulesSelections.dragonflightChoiceTwo}"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.InspirePraise",
+            "value": "Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
+                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.ShapeTheWorld",
+            "value": "Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
+                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.JoyImmaterial",
+            "value": "Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
+                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.MeteJustice",
+            "value": "Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
+                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.DrawMagnatheca",
+            "value": "Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
+                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx"
+                ]
+              }
+            ]
+          }
+        ],
+        "prompt": "IA.SpecificRule.Dervish.Recitations.PromptText",
+        "flag": "dragonflightChoiceThree",
+        "rollOption": "dragonflight-choice-three",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.BloodFromRock",
+            "value": "Compendium.immortal-ardor.classes.Item.K2oBKryVTGdFyE99",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:{item|flags.pf2e.rulesSelections.dragonflightChoiceOne}",
+                  "dragonflight-choice-two:{item|flags.pf2e.rulesSelections.dragonflightChoiceTwo}",
+                  "dragonflight-choice-three:{item|flags.pf2e.rulesSelections.dragonflightChoiceThree}"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.InspirePraise",
+            "value": "Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
+                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
+                  "dragonflight-choice-three:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.ShapeTheWorld",
+            "value": "Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
+                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
+                  "dragonflight-choice-three:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.JoyImmaterial",
+            "value": "Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
+                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
+                  "dragonflight-choice-three:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.MeteJustice",
+            "value": "Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
+                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
+                  "dragonflight-choice-three:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.DrawMagnatheca",
+            "value": "Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
+            "predicate": [
+              {
+                "not": [
+                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
+                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
+                  "dragonflight-choice-three:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx"
+                ]
+              }
+            ]
+          }
+        ],
+        "prompt": "IA.SpecificRule.Dervish.Recitations.PromptText",
+        "flag": "dragonflightChoiceFour",
+        "rollOption": "dragonflight-choice-four",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.GNKsRuk6qtgFVL9H"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.dragonflightChoiceOne}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.dragonflightChoiceTwo}",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.dragonflightChoiceThree}",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.dragonflightChoiceThree}",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              17
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "effect-dragonflight-meditation",
     "_migration": {
       "version": 0.935,

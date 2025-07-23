@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You create a lash of fire to catch your foes by surprise. Attempt a Deception check against the Perception DC of a creature within your field. A creature becomes off-guard to the next attack against it on a success, or all attacks against it on a critical success until the end of your next turn. This counts as a @UUID[Compendium.pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint} for the purpose of any benefits you have to Feint actions.</span></p><p><span style=\"font-family:Roboto, sans-serif\">@Check[deception,classDC|against:perception|options:action:feint]</span></p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You create a lash of fire to catch your foes by surprise. Attempt a Deception check against the Perception DC of a creature within your field. A creature becomes @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} to the next attack against it on a success, or all attacks against it on a critical success until the end of your next turn. This counts as a @UUID[Compendium.pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint} for the purpose of any benefits you have to Feint actions.</span></p><p><span style=\"font-family:Roboto, sans-serif\">@Check[deception,recitation|against:perception|options:action:feint]</span></p>",
       "gm": ""
     },
     "publication": {

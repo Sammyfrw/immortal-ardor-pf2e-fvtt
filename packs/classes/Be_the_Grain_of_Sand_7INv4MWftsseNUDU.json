@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You [[/act reposition]]{Reposition (Athletics)} / [[/act reposition statistic=classDC]]{Reposition (Dervish)} a creature, and your emanation of whirling sand allows allies to move through without provoking reactions until the start of your next turn.</span></p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You [[/act reposition]]{Reposition (Athletics)} / [[/act reposition statistic=recitation]]{Reposition (Recitation)} a creature, and your emanation of whirling sand allows allies to move through without provoking reactions until the start of your next turn.</span></p>",
       "gm": ""
     },
     "publication": {
