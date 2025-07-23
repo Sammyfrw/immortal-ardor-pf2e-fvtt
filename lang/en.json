@@ -227,6 +227,25 @@
             }
           }
         },
+        "Recitations": {
+          "PromptText": "Select a Recitation",
+          "DragonflightMeditation": {
+            "BloodFromRock": "Blood From Rock (Wealth)",
+            "InspirePraise": "Inspire Praise (Fame)",
+            "ShapeTheWorld": "Shape The World (Power)",
+            "JoyImmaterial": "Joy Immaterial (Pleasure)",
+            "MeteJustice": "Mete Justice (Vengeance)",
+            "DrawMagnatheca": "Draw Magnatheca (Knowledge"
+          },
+          "LifecycleMeditation": {
+            "TraverseTheWorld": "Traverse the World (Air)",
+            "TideThatWrithes": "Tide That Writhes (Water)",
+            "TheHeaviestFootfalls": "The Heaviest Footfalls (Earth)",
+            "EvokeDestruction": "Evoke Destruction (Fire)",
+            "FallenLeaves": "Fallen Leaves (Wood)",
+            "SturdierThanSteel": "Sturdier Than Steel (Metal)"
+          }
+        },
         "ClassFeatures": {
           "ZealGain": {
             "CelestialSteps": {
