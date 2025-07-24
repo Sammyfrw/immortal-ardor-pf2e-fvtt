@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You disrupt those who have done wrong. You grow an ethereal tail and make a [[/act trip]]{Trip (Athletics)]} / [[/act trip statistic=recitation]]{Trip (Recitation)} attempt against a creature within 20 feet of you. This attempt takes a -2 circumstance penalty unless you are adjacent to the target.</span></p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You bring to heel those who have done wrong. You grow an ethereal tail and make a [[/act trip]]{Trip (Athletics)]} / [[/act trip statistic=recitation]]{Trip (Recitation)} attempt against a creature within 20 feet of you. This attempt takes a -2 circumstance penalty unless you are adjacent to the target.</span></p>",
       "gm": ""
     },
     "publication": {
@@ -53,6 +53,6 @@
     "systemVersion": "6.12.4"
   },
   "_id": "NCIPstawaev7RFlr",
-  "sort": 0,
+  "sort": 600000,
   "_key": "!items!NCIPstawaev7RFlr"
 }

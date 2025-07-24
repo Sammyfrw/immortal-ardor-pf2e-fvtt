@@ -1,6 +1,6 @@
 {
   "folder": "mgJCrccu8gJ1eD7B",
-  "name": "Dance Around The Pyre",
+  "name": "The Heaviest Footfalls",
   "type": "action",
   "effects": [],
   "system": {
@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>You [[/act perform dc=15 variant=dance]]{Perform (Performance)} / [[/act perform variant=dance dc=15 statistic=recitation]]{Perform (Recitation)} against a DC 15.On any outcome except a critical failure, all allies within your field can choose to Stride up to half their speed as a free action, or up to their speed on a critical success. They must end their movement within your field.</p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>The earth withstands the steps of every creature born upon it. You or one of your companions @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Step} or <span style=\"font-family:Roboto, sans-serif\">[[/act trip]]{Trip (Athletics)]} / [[/act trip statistic=recitation]]{Trip (Recitation)}</span> a creature within reach, as the earth quakes and throttles with each motion.</p>",
       "gm": ""
     },
     "publication": {
@@ -19,12 +19,12 @@
       "remaster": true
     },
     "rules": [],
-    "slug": "dance-around-the-pyre",
+    "slug": "the-heaviest-footfalls",
     "traits": {
       "otherTags": [],
       "value": [
         "dervish",
-        "mental"
+        "earth"
       ]
     },
     "actionType": {
@@ -53,7 +53,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "AH7nAAAgtUYMy0tu",
-  "sort": 100000,
-  "_key": "!items!AH7nAAAgtUYMy0tu"
+  "_id": "bmHPcGPaGY6rOFQ0",
+  "sort": 500000,
+  "_key": "!items!bmHPcGPaGY6rOFQ0"
 }

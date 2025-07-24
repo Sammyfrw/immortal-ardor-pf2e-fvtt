@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>When you cast this spell, select one of the following curses of the drachiri: wealth, fame, power, pleasure, vengeance, or knowledge. Once per round when you cast this spell or when you sustain this spell, you can evoke one of the following recitations. You can only choose Soar and one other recitation, depending on your chosen curse:</p><ul style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px;padding:0px 0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.GNKsRuk6qtgFVL9H]{Soar}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.K2oBKryVTGdFyE99]{Blood From Rock (Wealth)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.td0A5chdMCaPDQse]{Inspire Praise (Fame)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.i1CTgUnFFuMln7ze]{Shape The World (Power)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.WbBqhAaMyWjsMXCU]{Joy Immaterial (Pleasure)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.NCIPstawaev7RFlr]{Mete Justice (Vengeance)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.lsCjWO6Xrr2m3gjx]{Draw Magnatheca (Knowledge)}</span></p></li></ul>"
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.9zdk0MEYuGxl3KOR]{Dragonflight Meditation}</p><p>When you cast this spell, select one of the following curses of the drachiri: wealth, fame, power, pleasure, vengeance, or knowledge. Once per round when you cast this spell or when you sustain this spell, you can evoke one of the following recitations. You can only choose Soar and one other recitation, depending on your chosen curse:</p><ul style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px;padding:0px 0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.GNKsRuk6qtgFVL9H]{Soar}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.K2oBKryVTGdFyE99]{Blood From Rock (Wealth)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.td0A5chdMCaPDQse]{Inspire Praise (Fame)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.i1CTgUnFFuMln7ze]{Shape The World (Power)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.WbBqhAaMyWjsMXCU]{Joy Immaterial (Pleasure)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.NCIPstawaev7RFlr]{Mete Justice (Vengeance)}</span></p></li><li style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">@UUID[Compendium.immortal-ardor.classes.lsCjWO6Xrr2m3gjx]{Draw Magnatheca (Knowledge)}</span></p></li></ul>"
     },
     "rules": [
       {
@@ -49,7 +49,7 @@
             "value": "Compendium.immortal-ardor.classes.Item.K2oBKryVTGdFyE99",
             "predicate": [
               {
-                "not": "dragonflight-choice-one:{item|flags.pf2e.rulesSelections.dragonflightChoiceOne}"
+                "not": "dragonflight-choice-one:blood-from-rock"
               }
             ]
           },
@@ -58,7 +58,7 @@
             "value": "Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
             "predicate": [
               {
-                "not": "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse"
+                "not": "dragonflight-choice-one:inspire-praise"
               }
             ]
           },
@@ -67,7 +67,7 @@
             "value": "Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
             "predicate": [
               {
-                "not": "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze"
+                "not": "dragonflight-choice-one:shape-the-world"
               }
             ]
           },
@@ -76,7 +76,7 @@
             "value": "Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
             "predicate": [
               {
-                "not": "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU"
+                "not": "dragonflight-choice-one:joy-immaterial"
               }
             ]
           },
@@ -85,7 +85,7 @@
             "value": "Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
             "predicate": [
               {
-                "not": "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr"
+                "not": "dragonflight-choice-one:mete-justice"
               }
             ]
           },
@@ -94,7 +94,7 @@
             "value": "Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
             "predicate": [
               {
-                "not": "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx"
+                "not": "dragonflight-choice-one:draw-magnatheca"
               }
             ]
           }
@@ -119,9 +119,9 @@
             "value": "Compendium.immortal-ardor.classes.Item.K2oBKryVTGdFyE99",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:{item|flags.pf2e.rulesSelections.dragonflightChoiceOne}",
-                  "dragonflight-choice-two:{item|flags.pf2e.rulesSelections.dragonflightChoiceTwo}"
+                "nor": [
+                  "dragonflight-choice-one:blood-from-rock",
+                  "dragonflight-choice-two:blood-from-rock"
                 ]
               }
             ]
@@ -131,9 +131,9 @@
             "value": "Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
-                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse"
+                "nor": [
+                  "dragonflight-choice-one:inspire-praise",
+                  "dragonflight-choice-two:inspire-praise"
                 ]
               }
             ]
@@ -143,9 +143,9 @@
             "value": "Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
-                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze"
+                "nor": [
+                  "dragonflight-choice-one:shape-the-world",
+                  "dragonflight-choice-two:shape-the-world"
                 ]
               }
             ]
@@ -155,9 +155,9 @@
             "value": "Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
-                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU"
+                "nor": [
+                  "dragonflight-choice-one:joy-immaterial",
+                  "dragonflight-choice-two:joy-immaterial"
                 ]
               }
             ]
@@ -167,9 +167,9 @@
             "value": "Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
-                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr"
+                "nor": [
+                  "dragonflight-choice-one:mete-justice",
+                  "dragonflight-choice-two:mete-justice"
                 ]
               }
             ]
@@ -179,9 +179,9 @@
             "value": "Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
-                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx"
+                "nor": [
+                  "dragonflight-choice-one:draw-magnatheca",
+                  "dragonflight-choice-two:draw-magnatheca"
                 ]
               }
             ]
@@ -207,10 +207,10 @@
             "value": "Compendium.immortal-ardor.classes.Item.K2oBKryVTGdFyE99",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:{item|flags.pf2e.rulesSelections.dragonflightChoiceOne}",
-                  "dragonflight-choice-two:{item|flags.pf2e.rulesSelections.dragonflightChoiceTwo}",
-                  "dragonflight-choice-three:{item|flags.pf2e.rulesSelections.dragonflightChoiceThree}"
+                "nor": [
+                  "dragonflight-choice-one:blood-from-rock",
+                  "dragonflight-choice-two:blood-from-rock",
+                  "dragonflight-choice-three:blood-from-rock"
                 ]
               }
             ]
@@ -220,10 +220,10 @@
             "value": "Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
-                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse",
-                  "dragonflight-choice-three:Compendium.immortal-ardor.classes.Item.td0A5chdMCaPDQse"
+                "nor": [
+                  "dragonflight-choice-one:inspire-praise",
+                  "dragonflight-choice-two:inspire-praise",
+                  "dragonflight-choice-three:inspire-praise"
                 ]
               }
             ]
@@ -233,10 +233,10 @@
             "value": "Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
-                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze",
-                  "dragonflight-choice-three:Compendium.immortal-ardor.classes.Item.i1CTgUnFFuMln7ze"
+                "nor": [
+                  "dragonflight-choice-one:shape-the-world",
+                  "dragonflight-choice-two:shape-the-world",
+                  "dragonflight-choice-three:shape-the-world"
                 ]
               }
             ]
@@ -246,10 +246,10 @@
             "value": "Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
-                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU",
-                  "dragonflight-choice-three:Compendium.immortal-ardor.classes.Item.WbBqhAaMyWjsMXCU"
+                "nor": [
+                  "dragonflight-choice-one:joy-immaterial",
+                  "dragonflight-choice-two:joy-immaterial",
+                  "dragonflight-choice-three:joy-immaterial"
                 ]
               }
             ]
@@ -259,10 +259,10 @@
             "value": "Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
-                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr",
-                  "dragonflight-choice-three:Compendium.immortal-ardor.classes.Item.NCIPstawaev7RFlr"
+                "nor": [
+                  "dragonflight-choice-one:mete-justice",
+                  "dragonflight-choice-two:mete-justice",
+                  "dragonflight-choice-three:mete-justice"
                 ]
               }
             ]
@@ -272,10 +272,10 @@
             "value": "Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
             "predicate": [
               {
-                "not": [
-                  "dragonflight-choice-one:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
-                  "dragonflight-choice-two:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx",
-                  "dragonflight-choice-three:Compendium.immortal-ardor.classes.Item.lsCjWO6Xrr2m3gjx"
+                "nor": [
+                  "dragonflight-choice-one:draw-magnatheca",
+                  "dragonflight-choice-two:draw-magnatheca",
+                  "dragonflight-choice-three:draw-magnatheca"
                 ]
               }
             ]
@@ -327,7 +327,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.dragonflightChoiceThree}",
+        "uuid": "{item|flags.pf2e.rulesSelections.dragonflightChoiceFour}",
         "predicate": [
           {
             "gte": [
@@ -386,7 +386,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "F1GZoaOVat9i944v",
-  "sort": 0,
-  "_key": "!items!F1GZoaOVat9i944v"
+  "_id": "9FCi2gavNTTeUIYm",
+  "sort": 50000,
+  "_key": "!items!9FCi2gavNTTeUIYm"
 }

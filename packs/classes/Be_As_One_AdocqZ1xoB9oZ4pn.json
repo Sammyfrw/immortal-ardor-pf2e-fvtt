@@ -1,6 +1,6 @@
 {
   "folder": "mgJCrccu8gJ1eD7B",
-  "name": "Dance Around The Pyre",
+  "name": "Be As One",
   "type": "action",
   "effects": [],
   "system": {
@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>You [[/act perform dc=15 variant=dance]]{Perform (Performance)} / [[/act perform variant=dance dc=15 statistic=recitation]]{Perform (Recitation)} against a DC 15.On any outcome except a critical failure, all allies within your field can choose to Stride up to half their speed as a free action, or up to their speed on a critical success. They must end their movement within your field.</p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>You and your companions are beholden to the same walk of life. You @UUID[Compendium.pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{Command} your companion.</p><p></p>",
       "gm": ""
     },
     "publication": {
@@ -19,12 +19,11 @@
       "remaster": true
     },
     "rules": [],
-    "slug": "dance-around-the-pyre",
+    "slug": "be-as-one",
     "traits": {
       "otherTags": [],
       "value": [
-        "dervish",
-        "mental"
+        "dervish"
       ]
     },
     "actionType": {
@@ -53,7 +52,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "AH7nAAAgtUYMy0tu",
-  "sort": 100000,
-  "_key": "!items!AH7nAAAgtUYMy0tu"
+  "_id": "AdocqZ1xoB9oZ4pn",
+  "sort": 1200000,
+  "_key": "!items!AdocqZ1xoB9oZ4pn"
 }

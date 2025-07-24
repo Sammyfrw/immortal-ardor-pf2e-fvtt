@@ -54,13 +54,6 @@
           ],
           "field": "actor|level"
         }
-      },
-      {
-        "key": "FlatModifier",
-        "selector": "recitation",
-        "type": "proficiency",
-        "label": "Proficiency",
-        "value": "@actor.attributes.spellDC.value"
       }
     ],
     "slug": "parables",
