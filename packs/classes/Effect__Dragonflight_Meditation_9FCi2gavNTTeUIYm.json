@@ -336,6 +336,29 @@
             ]
           }
         ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "Dragonflight Meditation: 6th Rank",
+        "mode": "add",
+        "predicate": [
+          "item:soar",
+          {
+            "gte": [
+              "self:level",
+              11
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Recitations.DragonflightMeditation.Description6thRank"
+          }
+        ]
       }
     ],
     "slug": "effect-dragonflight-meditation",
@@ -387,6 +410,6 @@
     "systemVersion": "6.12.4"
   },
   "_id": "9FCi2gavNTTeUIYm",
-  "sort": 50000,
+  "sort": 1700000,
   "_key": "!items!9FCi2gavNTTeUIYm"
 }

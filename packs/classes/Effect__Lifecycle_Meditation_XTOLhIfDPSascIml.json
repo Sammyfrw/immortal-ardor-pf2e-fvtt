@@ -578,6 +578,12 @@
         "mode": "add",
         "predicate": [
           {
+            "gte": [
+              "self:level",
+              7
+            ]
+          },
+          {
             "or": [
               "item:traverse-the-world",
               "item:tide-that-writhes",
@@ -592,7 +598,7 @@
         "value": [
           {
             "divider": true,
-            "text": "If your recitation affects or has a successful check against an enemy creature, that creature is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} to you and your companion for 1 round."
+            "text": "IA.SpecificRule.Dervish.Recitations.LifecycleMeditation.Description4thRank"
           }
         ]
       },
@@ -602,9 +608,11 @@
         "label": "Lifecycle Meditation: 8th Rank",
         "mode": "add",
         "predicate": [
+          "item:be-as-one",
           {
-            "or": [
-              "item:be-as-one"
+            "gte": [
+              "self:level",
+              15
             ]
           }
         ],
@@ -613,7 +621,7 @@
         "value": [
           {
             "divider": true,
-            "text": " If you recite Be As One, the companion you command becomes @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for 1 round; they can use this action to @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride}, @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}, or use their Support Ability."
+            "text": "IA.SpecificRule.Dervish.Recitations.LifecycleMeditation.Description8thRank"
           }
         ]
       }
@@ -667,6 +675,6 @@
     "systemVersion": "6.12.4"
   },
   "_id": "XTOLhIfDPSascIml",
-  "sort": 0,
+  "sort": 1200000,
   "_key": "!items!XTOLhIfDPSascIml"
 }

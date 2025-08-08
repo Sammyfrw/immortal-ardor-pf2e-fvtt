@@ -1,0 +1,60 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Arcane Corrosion",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You lash arcane power to corrode the weave of your target, stripping their physical resistance. Creatures who fail the @Check[reflex|against:class-spell] suffer a -1 status penalty to Fortitude saves for 2 rounds (1 round on success, -2 status penalty on critical failure). This is an Arcane and Curse effect.</span></p><p>@UUID[Compendium.immortal-ardor.classes.lkKE4f6jhXEIIGu3]{Effect: Arcane Corrosion (Success)}</p><p>@UUID[Compendium.immortal-ardor.classes.02sUQ7vSpoQBRfBA]{Effect: Arcane Corrosion (Failure/Critical Failure)}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "arcane-corrosion",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "arcane",
+        "curse",
+        "dervish"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "scMfKsP4OmACBwnu",
+  "sort": 400000,
+  "_key": "!items!scMfKsP4OmACBwnu"
+}

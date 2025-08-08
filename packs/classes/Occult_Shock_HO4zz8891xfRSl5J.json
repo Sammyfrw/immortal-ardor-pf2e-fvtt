@@ -1,0 +1,60 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Occult Shock",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You blast the mind of your target, causing their limbs to go limp and respond slowly. Creatures who fail the @Check[will|against:class-spell] suffer a -1 status penalty to Reflex saves for 2 rounds (1 round on success, -2 status penalty on critical failure). This is an Occult and Mental effect.</span></p><p>@UUID[Compendium.immortal-ardor.classes.iAaf8idLaZYImsWt]{Effect: Occult Shock (Success)}</p><p>@UUID[Compendium.immortal-ardor.classes.vvOzdofnR33hrSTB]{Effect: Occult Shock (Failure/Critical Failure)}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "occult-shock",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "mental",
+        "occult"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "HO4zz8891xfRSl5J",
+  "sort": 800000,
+  "_key": "!items!HO4zz8891xfRSl5J"
+}

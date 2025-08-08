@@ -1,0 +1,60 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Swift Storm, Swift End",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">Your world moves faster, while the world others see is simply slower. Target a creature within 30 feet of you, which can include yourself. As you perform a series of occult gestures to pull the strands of time in your favor, your target becomes @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for 1 Round; it can only use this extra action to Strike. This is a Flourish and Manipulate effect.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "swift-storm-swift-end",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "flourish",
+        "manipulate"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "BZenfu6xh08Kco8L",
+  "sort": 300000,
+  "_key": "!items!BZenfu6xh08Kco8L"
+}

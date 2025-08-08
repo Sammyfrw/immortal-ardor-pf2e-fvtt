@@ -1,0 +1,58 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Shaken Foundation",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You channel a force that sunders a creature’s armor or their ability to dodge blows. A target creature within 30 feet of you needs to make a @Check[reflex|against:class-spell] against your spell DC. On a failure, they suffer a -1 circumstance bonus to their AC for 2 rounds (1 round on a success, -2 on a critical failure).</span></p><p>@UUID[Compendium.immortal-ardor.classes.0JTMWm6c2gQYXS21]{Effect: Shaken Foundation (Success)}</p><p>@UUID[Compendium.immortal-ardor.classes.Xyob8Fr79ORch7og]{Effect: Shaken Foundation (Failure/Critical Failure)}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "t-meditation-action-template",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "BryFcwrkOoW5Ez1D",
+  "sort": 1200000,
+  "_key": "!items!BryFcwrkOoW5Ez1D"
+}

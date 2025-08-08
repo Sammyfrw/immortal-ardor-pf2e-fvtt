@@ -1,0 +1,60 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Primal Haze",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">You create a ring of flowers that release a puff of pollen at your target, clouding and distracting their thoughts. Creatures who fail the @Check[fortitude|against:class-spell] suffer a -1 status penalty to Will saves for 2 rounds (1 round on success, -2 status penalty on critical failure). This is a Primal and Poison effect.</span></p><p>@UUID[Compendium.immortal-ardor.classes.zEJiQwstEOyiLHDJ]{Effect: Primal Haze (Success)}</p><p>@UUID[Compendium.immortal-ardor.classes.dOpkWiILLnsB2KRA]{Effect: Primal Haze (Failure/Critical Failure)}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "primal-haze",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "poison",
+        "primal"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "Oy7bV7h4hoppi5oE",
+  "sort": 500000,
+  "_key": "!items!Oy7bV7h4hoppi5oE"
+}

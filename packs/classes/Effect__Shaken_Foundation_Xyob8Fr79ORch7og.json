@@ -1,0 +1,85 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Shaken Foundation",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.BryFcwrkOoW5Ez1D]{Shaken Foundation}</p><p>You suffer a -1 status bonus to your AC for 2 rounds (1 round on a success, -2 on a critical failure)</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "shakenFoundationOutcome",
+        "prompt": "Shaken Foundation Outcome",
+        "choices": [
+          {
+            "label": "Critical Failure",
+            "value": 2
+          },
+          {
+            "label": "Failure",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": "-{item|flags.pf2e.rulesSelections.shakenFoundationOutcome}",
+        "type": "status"
+      }
+    ],
+    "slug": "effect-shaken-foundation",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 2,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "Xyob8Fr79ORch7og",
+  "sort": 1400000,
+  "_key": "!items!Xyob8Fr79ORch7og"
+}

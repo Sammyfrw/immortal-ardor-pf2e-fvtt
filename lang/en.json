@@ -235,7 +235,8 @@
             "ShapeTheWorld": "Shape The World (Power)",
             "JoyImmaterial": "Joy Immaterial (Pleasure)",
             "MeteJustice": "Mete Justice (Vengeance)",
-            "DrawMagnatheca": "Draw Magnatheca (Knowledge"
+            "DrawMagnatheca": "Draw Magnatheca (Knowledge)",
+            "Description6thRank": "When you Soar, you remain airborne until the end of your next turn unless you choose to fall harmlessly."
           },
           "LifecycleMeditation": {
             "TraverseTheWorld": "Traverse the World (Air)",
@@ -243,7 +244,15 @@
             "TheHeaviestFootfalls": "The Heaviest Footfalls (Earth)",
             "EvokeDestruction": "Evoke Destruction (Fire)",
             "FallenLeaves": "Fallen Leaves (Wood)",
-            "SturdierThanSteel": "Sturdier Than Steel (Metal)"
+            "SturdierThanSteel": "Sturdier Than Steel (Metal)",
+            "Description4thRank": "If your recitation affects or has a successful check against an enemy creature, that creature is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} to you and your companion for 1 round.",
+            "Description8thRank": "If you recite Be As One, the companion you command becomes @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for 1 round; they can use this action to @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride}, @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}, or use their Support Ability."
+          },
+          "SpellboundMeditation": {
+            "Description9thRank": "When you select a recitation you can affect two targets in range at the same time."
+          },
+          "SpringwaterMeditation": {
+            "Description7thRank": "When you use Purge the Ills, you can attempt to reduce the Clumsy, Enfeebled or Sickened condition instead of persistent damage. On a success, you reduce the value by 1 (2 on a critical success). Continuously applied conditions due to certain circumstances cannot be treated as long as the circumstances continue."
           }
         },
         "ClassFeatures": {
