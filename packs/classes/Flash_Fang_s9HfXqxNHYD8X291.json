@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You can lash out and strike with incredible speed from a resting position, catching enemies unaware. Stride up to half your speed, and Strike. At any point before or between these actions, you can Interact to draw your weapon.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">If you possess the Quick Draw feat, the Stride and Interact actions do not trigger reactions.</span></p>"
+      "value": "<p><span lang=\"EN\">You can lash out and strike with incredible speed from a resting position, catching enemies unaware. @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} up to half your speed, and @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}. At any point before or between these actions, you can @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Interact} to draw your weapon.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">If you possess the @UUID[Compendium.immortal-ardor.classes.faAVf7GhovRISzvA]{Quick Draw (Dervish)} feat, the Stride and Interact actions do not trigger reactions.</span></p>"
     },
     "rules": [],
     "slug": "flash-fang",
@@ -57,7 +57,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "s9HfXqxNHYD8X291",
   "_key": "!items!s9HfXqxNHYD8X291"

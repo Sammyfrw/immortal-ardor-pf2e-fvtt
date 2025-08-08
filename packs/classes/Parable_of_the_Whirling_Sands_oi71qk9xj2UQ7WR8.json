@@ -16,6 +16,12 @@
         "title": "Zeal Gain: Whirling Sands",
         "predicate": [
           {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          {
             "or": [
               "action:trip",
               "action:step",
@@ -37,7 +43,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           "item:trait:press"
         ],
@@ -58,7 +67,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           {
             "or": [
@@ -86,7 +98,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           {
             "or": [

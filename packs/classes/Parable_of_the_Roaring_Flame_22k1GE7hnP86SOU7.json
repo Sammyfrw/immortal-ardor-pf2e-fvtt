@@ -16,6 +16,12 @@
         "title": "Zeal Gain: Roaring Flame",
         "predicate": [
           {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          {
             "or": [
               "action:perform",
               "action:create-a-diversion",
@@ -37,7 +43,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           "item:trait:emotion"
         ],
@@ -58,7 +67,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           {
             "or": [
@@ -86,7 +98,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           {
             "or": [

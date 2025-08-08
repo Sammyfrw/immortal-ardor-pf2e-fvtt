@@ -19,6 +19,12 @@
         "title": "Zeal Gain: Winding Circle",
         "predicate": [
           {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          {
             "or": [
               "action:command-an-animal",
               "item:trait:air",
@@ -52,7 +58,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           {
             "or": [
@@ -88,7 +97,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           {
             "or": [
@@ -124,7 +136,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           {
             "or": [
@@ -198,7 +213,7 @@
     "duplicateSource": "Item.VbeX8mJUhn9o7taQ",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "JY1YtoHPSOpHzC3P",
   "_key": "!items!JY1YtoHPSOpHzC3P"

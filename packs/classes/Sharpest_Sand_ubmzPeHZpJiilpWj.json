@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p><strong>Requirements</strong> You are wielding a two-handed melee weapon.</p><hr /></div><p class=\"MsoNormal\"><span lang=\"EN\">You build momentum following your first attack, and go for a powerful swing empowered by wind. Make a Strike with your weapon. If you hit, a gust of wind propels you, allowing you to Step. This Strike has the following failure effect.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Failure </strong>You can Step, but you must end your movement at the same distance or closer to your target.</span></p>"
+      "value": "<div><p><strong>Requirements</strong> You are wielding a two-handed melee weapon.</p><hr /></div><p class=\"MsoNormal\"><span lang=\"EN\">You build momentum following your first attack, and go for a powerful swing empowered by wind. Make a @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} with your weapon. If you hit, a gust of wind propels you, allowing you to @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Step}. This Strike has the following failure effect.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Failure </strong>You can Step, but you must end your movement at the same distance or closer to your target.</span></p>"
     },
     "rules": [],
     "slug": "sharpest-sand",
@@ -58,7 +58,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "ubmzPeHZpJiilpWj",
   "_key": "!items!ubmzPeHZpJiilpWj"

@@ -16,6 +16,12 @@
         "title": "Zeal Gain: Silent Moon",
         "predicate": [
           {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          {
             "or": [
               "action:sneak",
               "action:hide",
@@ -37,7 +43,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           "target:condition:off-guard"
         ],
@@ -86,7 +95,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           {
             "or": [

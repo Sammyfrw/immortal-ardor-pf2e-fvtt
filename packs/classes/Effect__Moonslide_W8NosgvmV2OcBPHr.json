@@ -1,0 +1,99 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Moonslide",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a bonus to your next attack roll before the end of your turn, based on the Zeal spent.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "attack",
+        "value": "{item|flags.pf2e.rulesSelections.zealSpent}",
+        "type": "status",
+        "removeAfterRoll": true
+      },
+      {
+        "key": "ChoiceSet",
+        "flag": "zealSpent",
+        "adjustName": false,
+        "prompt": "Amount of Zeal Spent",
+        "choices": [
+          {
+            "label": "1",
+            "value": 0
+          },
+          {
+            "label": "2",
+            "value": 1
+          },
+          {
+            "label": "3",
+            "value": 1
+          },
+          {
+            "label": "4",
+            "value": 2
+          },
+          {
+            "label": "5",
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "slug": "effect-moonslide",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/light/beams-strike-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "W8NosgvmV2OcBPHr",
+  "sort": 0,
+  "_key": "!items!W8NosgvmV2OcBPHr"
+}

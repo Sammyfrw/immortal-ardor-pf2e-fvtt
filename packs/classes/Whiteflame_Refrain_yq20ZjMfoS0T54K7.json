@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You reach and grab ahold of the flames of life, and bring it towards an ally to fill them with its joy and warmth. In so doing, the fire invigorates and grants them spirit. Spend your Zeal and channel healing flame towards yourself or an ally within 30 feet of you. Your target is healed by an amount based on your Zeal spent:</p><ul><li><p>1-2 Zeal: 1d4 hit points</p></li><li><p>3-4 Zeal: 1d8 hit points</p></li><li><p>5 Zeal: 1d8 hit points and reduce the stage of an ongoing disease or poison by one stage. This cures the affliction if it goes below stage one.</p></li></ul><p><strong>Level (+2)</strong> Increase the amount of dice used for healing by 1.</p>"
+      "value": "<p>You reach and grab ahold of the flames of life, and bring it towards an ally to fill them with its joy and warmth. In so doing, the fire invigorates and grants them spirit. Spend your Zeal and channel healing flame towards yourself or an ally within 30 feet of you. Your target is healed by an amount based on your Zeal spent:</p><ul><li><p>1-2 Zeal: [[/r (max(1,(ceil(@actor.level/2))))d4[healing]]] hit points</p></li><li><p>3-4 Zeal: [[/r (max(1,(ceil(@actor.level/2))))d8[healing]]] hit points</p></li><li><p>5 Zeal: [[/r (max(1,(ceil(@actor.level/2))))d8[healing]]] hit points and reduce the stage of an ongoing disease or poison by one stage. This cures the affliction if it goes below stage one.</p></li></ul><p><strong>Level (+2)</strong> Increase the amount of dice used for healing by 1.</p>"
     },
     "rules": [],
     "slug": "whiteflame-refrain",
@@ -61,7 +61,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "yq20ZjMfoS0T54K7",
   "_key": "!items!yq20ZjMfoS0T54K7"

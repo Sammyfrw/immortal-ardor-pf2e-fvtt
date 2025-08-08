@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">Through spiritual transcendence, you gleam like moonlight and surge like the tide towards a target. You Stride towards a target creature up to your speed and channel the might of the moon in preparation for an attack. Spend your Zeal, and you gain the following bonus to your next attack roll before the end of your turn:</span></p><ul><li><p><span lang=\"EN\" style=\"color:black\">1 Zeal: No bonus</span></p></li><li><p><span lang=\"EN\" style=\"color:black\">2-3 Zeal: +1 status bonus</span></p></li><li><p><span lang=\"EN\" style=\"color:black\">4-5 Zeal: +2 status bonus</span></p></li></ul><p class=\"MsoNormal\"><span lang=\"EN\">If you are hidden or undetected to your target, you can Sneak towards them instead. When you do, the moonlight enveloping you flickers and attempts to maintain your Hidden or Undetected status. If you succeed your Sneak check, you remain Hidden to your target until you take any other action or until your turn ends. If you attempt to Strike your target in this state, the creature remains off-guard against that attack, and then you become observed. This is a Visual effect.</span></p>"
+      "value": "<p><span lang=\"EN\">Through spiritual transcendence, you gleam like moonlight and surge like the tide towards a target. You @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} towards a target creature up to your speed and channel the might of the moon in preparation for an attack. Spend your Zeal, and you gain the following bonus to your next attack roll before the end of your turn:</span></p><ul><li><p><span lang=\"EN\" style=\"color:black\">1 Zeal: No bonus</span></p></li><li><p><span lang=\"EN\" style=\"color:black\">2-3 Zeal: +1 status bonus</span></p></li><li><p><span lang=\"EN\" style=\"color:black\">4-5 Zeal: +2 status bonus</span></p></li></ul><p class=\"MsoNormal\"><span lang=\"EN\">If you are @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} to your target, you can @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} towards them instead. When you do, the moonlight enveloping you flickers and attempts to maintain your Hidden or Undetected status. If you succeed your Sneak check, you remain Hidden to your target until you take any other action or until your turn ends. If you attempt to Strike your target in this state, the creature remains @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} against that attack, and then you become @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}. This is a Visual effect.</span></p><p>@UUID[Compendium.immortal-ardor.classes.W8NosgvmV2OcBPHr]{Effect: Moonslide}</p>"
     },
     "rules": [],
     "slug": "moonslide",
@@ -58,7 +58,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "zY8qRLmgup3178Fa",
   "_key": "!items!zY8qRLmgup3178Fa"

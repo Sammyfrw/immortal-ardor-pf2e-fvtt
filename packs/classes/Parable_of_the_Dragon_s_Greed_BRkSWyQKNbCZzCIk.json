@@ -16,6 +16,12 @@
         "title": "Zeal Gain: Dragon's Greed",
         "predicate": [
           {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          {
             "or": [
               "action:tumble-through",
               "action:maneuver-in-flight",
@@ -38,7 +44,10 @@
         "predicate": [
           "item:trait:flourish",
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           }
         ],
         "priority": 121,
@@ -58,7 +67,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           {
             "or": [
@@ -85,7 +97,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           {
             "or": [

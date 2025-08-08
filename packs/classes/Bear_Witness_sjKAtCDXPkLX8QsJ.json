@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements </strong>You are wielding a ranged or thrown weapon.</p><p><span lang=\"EN\">You performatively declare or cry out your intent for success, and attack with your weapon to make it reality. Make a ranged Strike with your weapon. On a success, you grant one ally within 30 feet of you or your target a +1 circumstance bonus to their next attack roll within 1 round (+2 on a critical hit).</span></p>"
+      "value": "<p><strong>Requirements </strong>You are wielding a ranged or thrown weapon.</p><p><span lang=\"EN\">You performatively declare or cry out your intent for success, and attack with your weapon to make it reality. Make a ranged Strike with your weapon. On a success, you grant one ally within 30 feet of you or your target a +1 circumstance bonus to their next attack roll within 1 round (+2 on a critical hit).</span></p><p>@UUID[Compendium.immortal-ardor.classes.8DcwhPMUyyXHWRiT]{Effect: Bear Witness}</p>"
     },
     "rules": [],
     "slug": "bear-witness",
@@ -58,7 +58,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "sjKAtCDXPkLX8QsJ",
   "_key": "!items!sjKAtCDXPkLX8QsJ"
