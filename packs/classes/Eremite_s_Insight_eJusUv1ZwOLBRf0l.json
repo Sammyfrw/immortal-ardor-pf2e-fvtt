@@ -18,7 +18,10 @@
               1
             ]
           },
-          "action:recall-knowledge"
+          "action:recall-knowledge",
+          {
+            "not": "feat:eremites-intuition"
+          }
         ],
         "selector": "skill-check",
         "text": "You and any allies you tell gain @UUID[Compendium.immortal-ardor.classes.s5FWiHx2BMlIJ7Af]{Effect: Eremite's Insight}. You can give bonuses from Eremite’s Insight only once per day against a particular creature.",

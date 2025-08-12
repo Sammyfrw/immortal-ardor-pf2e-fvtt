@@ -1,24 +1,30 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Dance of Ribbons",
+  "name": "Stance: Dance of Ribbons (Attacker)",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.hIp6kztm6OMOhC4K]{Dance of Ribbons}</p><p>When you are in this stance, once per round an attack that misses you grants you Zeal.</p>"
+      "value": ""
     },
     "rules": [
       {
-        "key": "EphemeralEffect",
-        "affects": "origin",
-        "selectors": [
-          "attack-roll"
+        "key": "Note",
+        "selector": "check",
+        "text": "The target has the Dance of Ribbons stance. Once per round, the target @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gains Zeal} when an attack misses them.",
+        "predicate": [
+          "attack",
+          "target:effect:dance-of-ribbons"
         ],
-        "uuid": "Compendium.immortal-ardor.classes.Item.N6tU7oEXwYaVhJoh"
+        "title": "Zeal Gain: Dance of Ribbons",
+        "outcome": [
+          "failure",
+          "criticalFailure"
+        ]
       }
     ],
-    "slug": "effect-dance-of-ribbons",
+    "slug": "stance-dance-of-ribbons-attacker",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -37,8 +43,8 @@
       "value": 1
     },
     "duration": {
-      "value": -1,
-      "unit": "encounter",
+      "value": 1,
+      "unit": "rounds",
       "expiry": "turn-start",
       "sustained": false
     },
@@ -66,7 +72,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "8zrksdkGtFg2PcOq",
-  "sort": 0,
-  "_key": "!items!8zrksdkGtFg2PcOq"
+  "_id": "N6tU7oEXwYaVhJoh",
+  "sort": 600000,
+  "_key": "!items!N6tU7oEXwYaVhJoh"
 }

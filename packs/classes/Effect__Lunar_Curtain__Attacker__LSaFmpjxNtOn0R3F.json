@@ -1,37 +1,22 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Arcane Corrosion",
+  "name": "Effect: Lunar Curtain (Attacker)",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.scMfKsP4OmACBwnu]{Arcane Corrosion}</p><p>You suffer a -1 status bonus to your Fortitude saves for 2 rounds (1 round on a success, -2 on a critical failure)</p>"
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.pq3RZIXGdJzQ92a3]{Lunar Curtain}</p><p>You are @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} ahead of an enemy's reaction. The flat check DC of this concealment is increased by the amount of Zeal used to grant you this effect. If the enemy fails this flat check, they become @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard}.</p>"
     },
     "rules": [
       {
-        "key": "ChoiceSet",
-        "flag": "arcaneCorrosionOutcome",
-        "prompt": "Arcane Corrosion Outcome",
-        "choices": [
-          {
-            "label": "Critical Failure",
-            "value": 2
-          },
-          {
-            "label": "Failure",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "key": "FlatModifier",
-        "selector": "fortitude",
-        "value": "-{item|flags.pf2e.rulesSelections.arcaneCorrosionOutcome}",
-        "type": "status"
+        "key": "Note",
+        "text": "@Check[flat|dc:resolve(5)] for concealment is increased by the amount of Zeal spent on Lunar Curtain.",
+        "title": "Lunar Curtain",
+        "selector": "check"
       }
     ],
-    "slug": "effect-arcane-corrosion",
+    "slug": "effect-lunar-curtain-attacker",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -47,10 +32,10 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 10
     },
     "duration": {
-      "value": 2,
+      "value": 1,
       "unit": "rounds",
       "expiry": "turn-start",
       "sustained": false
@@ -66,7 +51,7 @@
     "context": null,
     "unidentified": false
   },
-  "img": "icons/magic/symbols/triangle-glowing-green.webp",
+  "img": "icons/equipment/back/cloak-plain-blue.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -79,7 +64,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "02sUQ7vSpoQBRfBA",
-  "sort": 1300000,
-  "_key": "!items!02sUQ7vSpoQBRfBA"
+  "_id": "LSaFmpjxNtOn0R3F",
+  "sort": 0,
+  "_key": "!items!LSaFmpjxNtOn0R3F"
 }

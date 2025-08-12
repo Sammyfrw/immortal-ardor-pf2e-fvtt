@@ -1,51 +1,56 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Moonslide",
+  "name": "Effect: Lunar Curtain",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain a bonus to your next attack roll before the end of your turn, based on the Zeal spent.</p>"
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.pq3RZIXGdJzQ92a3]{Lunar Curtain}</p><p>You are @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} ahead of an enemy's reaction. The flat check DC of this concealment is increased by the amount of Zeal used to grant you this effect. If the enemy fails this flat check, they become @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard}.</p>"
     },
     "rules": [
       {
-        "key": "FlatModifier",
-        "selector": "attack",
-        "value": "{item|flags.pf2e.rulesSelections.zealSpent}",
-        "type": "status",
-        "removeAfterRoll": true
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W"
+      },
+      {
+        "key": "EphemeralEffect",
+        "affects": "origin",
+        "selectors": [
+          "attack-roll",
+          "check"
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.LSaFmpjxNtOn0R3F"
       },
       {
         "key": "ChoiceSet",
-        "flag": "zealSpent",
-        "adjustName": false,
-        "prompt": "Amount of Zeal Spent",
+        "label": "How much Zeal?",
+        "flag": "lunarCurtainZealSpent",
         "choices": [
           {
             "label": "1",
-            "value": 0
+            "value": 1
           },
           {
             "label": "2",
-            "value": 1
+            "value": 2
           },
           {
             "label": "3",
-            "value": 1
+            "value": 3
           },
           {
             "label": "4",
-            "value": 2
+            "value": 4
           },
           {
             "label": "5",
-            "value": 2
+            "value": 5
           }
         ]
       }
     ],
-    "slug": "effect-moonslide",
+    "slug": "effect-lunar-curtain",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -61,7 +66,7 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 10
     },
     "duration": {
       "value": 1,
@@ -80,7 +85,7 @@
     "context": null,
     "unidentified": false
   },
-  "img": "icons/magic/light/beams-strike-blue.webp",
+  "img": "icons/equipment/back/cloak-plain-blue.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -93,7 +98,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "W8NosgvmV2OcBPHr",
-  "sort": 800000,
-  "_key": "!items!W8NosgvmV2OcBPHr"
+  "_id": "uXTYB0GbzKgOHiBS",
+  "sort": 0,
+  "_key": "!items!uXTYB0GbzKgOHiBS"
 }

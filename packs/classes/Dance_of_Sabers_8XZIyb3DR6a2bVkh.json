@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your technique for repelling strikes amidst fluid motions turns to offense. When you enter Dance of Sabers stance, your multiple attack penalty is -4 for your second attack (-3 with an agile weapon). If you have Zeal, you can Strike when you enter this stance.</p><p></p>"
+      "value": "<p><strong>Requirements </strong>You are wielding a melee weapon. If your melee weapon is a thrown weapon, you must be holding a weapon by the end of your turn.</p><hr /><p>Your technique for repelling strikes amidst fluid motions turns to offense. When you enter Dance of Sabers stance, your multiple attack penalty is -4 for your second attack (-3 with an agile weapon). If you have Zeal, you can Strike when you enter this stance.</p><p>@UUID[Compendium.immortal-ardor.classes.2WZCPFGfXLmb2wse]{Stance: Dance of Sabers}</p>"
     },
     "rules": [],
     "slug": "dance-of-sabers",
@@ -57,7 +57,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "8XZIyb3DR6a2bVkh",
   "_key": "!items!8XZIyb3DR6a2bVkh"

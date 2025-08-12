@@ -1,37 +1,24 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Arcane Corrosion",
+  "name": "Stance: Dance of Ribbons",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.scMfKsP4OmACBwnu]{Arcane Corrosion}</p><p>You suffer a -1 status bonus to your Fortitude saves for 2 rounds (1 round on a success, -2 on a critical failure)</p>"
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.hIp6kztm6OMOhC4K]{Dance of Ribbons}</p><p>When you are in this stance, once per round an attack that misses you grants you Zeal.</p>"
     },
     "rules": [
       {
-        "key": "ChoiceSet",
-        "flag": "arcaneCorrosionOutcome",
-        "prompt": "Arcane Corrosion Outcome",
-        "choices": [
-          {
-            "label": "Critical Failure",
-            "value": 2
-          },
-          {
-            "label": "Failure",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "key": "FlatModifier",
-        "selector": "fortitude",
-        "value": "-{item|flags.pf2e.rulesSelections.arcaneCorrosionOutcome}",
-        "type": "status"
+        "key": "EphemeralEffect",
+        "affects": "origin",
+        "selectors": [
+          "attack-roll"
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.N6tU7oEXwYaVhJoh"
       }
     ],
-    "slug": "effect-arcane-corrosion",
+    "slug": "stance-dance-of-ribbons",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -50,8 +37,8 @@
       "value": 1
     },
     "duration": {
-      "value": 2,
-      "unit": "rounds",
+      "value": -1,
+      "unit": "encounter",
       "expiry": "turn-start",
       "sustained": false
     },
@@ -66,7 +53,7 @@
     "context": null,
     "unidentified": false
   },
-  "img": "icons/magic/symbols/triangle-glowing-green.webp",
+  "img": "icons/commodities/cloth/cloth-bolt-embroidered-pink.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -79,7 +66,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "02sUQ7vSpoQBRfBA",
-  "sort": 1300000,
-  "_key": "!items!02sUQ7vSpoQBRfBA"
+  "_id": "8zrksdkGtFg2PcOq",
+  "sort": 200000,
+  "_key": "!items!8zrksdkGtFg2PcOq"
 }

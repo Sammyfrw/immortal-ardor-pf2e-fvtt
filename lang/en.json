@@ -236,6 +236,10 @@
             "SeekerOfSecrets": {
               "Label": "Seeker of Secrets",
               "Description": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when you Sense Motive or Recall Knowledge."
+            },
+            "MysticHealing": {
+              "Label": "Mystic Healing",
+              "Description": "If you Treat Wounds, Administer First Aid, Treat Diseases or perform similar Medicine checks, the first time you roll initiative within the day you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} at the start of an encounter."
             }
           }
         },

@@ -29,29 +29,19 @@
       },
       {
         "key": "RollOption",
-        "label": "Zealous Strikes",
-        "domain": "damage",
-        "option": "zealous-strikes",
+        "label": "Sojourner Companion Trait",
+        "option": "sojourner-companion-trait",
         "suboptions": [
           {
-            "label": "PF2E.TraitSpirit",
-            "value": "spirit",
-            "predicate": [
-              {
-                "not": "feature:sojourner"
-              }
-            ]
-          },
-          {
             "label": "PF2E.TraitAir",
-            "value": "electricity",
+            "value": "air",
             "predicate": [
               "feature:sojourner"
             ]
           },
           {
             "label": "PF2E.TraitEarth",
-            "value": "bludgeoning",
+            "value": "earth",
             "predicate": [
               "feature:sojourner"
             ]
@@ -65,31 +55,119 @@
           },
           {
             "label": "PF2E.TraitWater",
-            "value": "cold",
+            "value": "water",
             "predicate": [
               "feature:sojourner"
             ]
           },
           {
             "label": "PF2E.TraitMetal",
-            "value": "slashing",
+            "value": "metal",
             "predicate": [
               "feature:sojourner"
             ]
           },
           {
             "label": "PF2E.TraitWood",
-            "value": "piercing",
+            "value": "wood",
             "predicate": [
               "feature:sojourner"
             ]
           }
         ],
         "toggleable": true,
+        "alwaysActive": true,
         "disabledIf": [
           "zenith-action"
         ],
-        "disabledValue": false
+        "disabledValue": false,
+        "value": true,
+        "selection": "wood",
+        "priority": 48,
+        "predicate": [
+          "feature:sojourner"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "Zealous Strikes Damage Type",
+        "domain": "damage",
+        "option": "zealous-strikes",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit",
+            "predicate": [
+              {
+                "not": "feature:sojourner"
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity",
+            "predicate": [
+              "sojourner-companion-trait:air"
+            ]
+          },
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning",
+            "predicate": [
+              "sojourner-companion-trait:earth"
+            ]
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire",
+            "predicate": [
+              "sojourner-companion-trait:fire"
+            ]
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold",
+            "predicate": [
+              "sojourner-companion-trait:water"
+            ]
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing",
+            "predicate": [
+              "sojourner-companion-trait:metal"
+            ]
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing",
+            "predicate": [
+              "sojourner-companion-trait:wood"
+            ]
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true,
+        "disabledIf": [
+          "zenith-action"
+        ],
+        "disabledValue": false,
+        "priority": 49
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.dervish.zealousStrikesDamage",
+        "value": "{item|flags.pf2e.rulesSelections.zealousStrikes}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.dervish.sojournerCompanionTrait",
+        "value": "{item|flags.pf2e.rulesSelections.sojournerCompanionTrait}",
+        "predicate": [
+          "feature:sojourner"
+        ]
       }
     ],
     "slug": "zealous-strikes",

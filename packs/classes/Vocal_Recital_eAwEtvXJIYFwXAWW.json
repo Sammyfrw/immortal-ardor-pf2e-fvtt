@@ -103,7 +103,8 @@
         "itemType": "feat",
         "mode": "override",
         "predicate": [
-          "feature:sojourner"
+          "feature:sojourner",
+          "item:slug:vocal-recital"
         ],
         "property": "description",
         "value": [

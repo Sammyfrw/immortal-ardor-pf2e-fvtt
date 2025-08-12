@@ -1,0 +1,159 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Stoke the Flame Within (Sojourner)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.2OrzJpXbPJ2td0qz]{Stoke the Flame Within}</p><p>Your next successful Strike or damaging spell deals additional spirit or fire damage equal to the amount of Zeal used to grant you this effect. If you damage multiple enemies, this damage only applies to one target.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "damage",
+        "value": {
+          "brackets": [
+            {
+              "start": 1,
+              "end": 15,
+              "value": 5
+            },
+            {
+              "start": 16,
+              "value": 10
+            }
+          ],
+          "field": "actor|level"
+        },
+        "removeAfterRoll": "if-enabled",
+        "damageType": "{item|flags.pf2e.rulesSelections.stokeFlameWithinDamageType}",
+        "critical": false,
+        "slug": "stoke-flame-within-damage",
+        "predicate": [
+          {
+            "or": [
+              "strike-damage",
+              "spell-damage"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "damage",
+        "slug": "stoke-flame-within-damage",
+        "value": "{item|flags.pf2e.rulesSelections.stokeFlameWithinZeal}",
+        "mode": "add"
+      },
+      {
+        "key": "ChoiceSet",
+        "prompt": "Select a damage type",
+        "choices": [
+          {
+            "label": "PF2E.TraitAir",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitEarth",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitWater",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitMetal",
+            "value": "slashing"
+          },
+          {
+            "label": "PF2E.TraitWood",
+            "value": "piercing"
+          }
+        ],
+        "flag": "stokeFlameWithinDamageType"
+      },
+      {
+        "key": "ChoiceSet",
+        "label": "How much Zeal?",
+        "flag": "stokeFlameWithinZeal",
+        "choices": [
+          {
+            "label": "1",
+            "value": 1
+          },
+          {
+            "label": "2",
+            "value": 2
+          },
+          {
+            "label": "3",
+            "value": 3
+          },
+          {
+            "label": "4",
+            "value": 4
+          },
+          {
+            "label": "5",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "slug": "effect-stoke-the-flame-within",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/fire/barrier-wall-flame-ring-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "6QQW4nyMSWWvBLL5",
+  "sort": 0,
+  "_key": "!items!6QQW4nyMSWWvBLL5"
+}

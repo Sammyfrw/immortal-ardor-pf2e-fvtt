@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p><strong>Trigger</strong> Your last action this turn was an action with the Spirit trait.</p><p><strong>Requirements</strong> You are wielding a weapon.</p><hr /></div><p>Your weapons are your closest instrument of discovery. As they are part of your journey, you have learned to bring them closer to you and the divine. Your wielded weapon briefly transcends with you, and no longer remain physical. Until the end of your turn, your weapon gains the versatile spirit trait, and attacks with your weapon ignore resistances to spirit damage equal to your amount of Zeal.</p><p>At 16th level, your weapon ignores resistance to spirit damage equal to 5 plus your amount of Zeal.</p>"
+      "value": "<div><p><strong>Trigger</strong> Your last action this turn was an action with the Spirit trait.</p><p><strong>Requirements</strong> You are wielding a weapon.</p><hr /></div><p>Your weapons are your closest instrument of discovery. As they are part of your journey, you have learned to bring them closer to you and the divine. Your wielded weapon briefly transcends with you, and no longer remain physical. Until the end of your turn, your weapon gains the versatile spirit trait, and attacks with your weapon ignore resistances to spirit damage equal to your amount of Zeal.</p><p>At 16th level, your weapon ignores resistance to spirit damage equal to 5 plus your amount of Zeal.</p><p>@UUID[Compendium.immortal-ardor.classes.yKgfleAiB1gNg49W]{Effect: Weapons of Resonance}</p>"
     },
     "rules": [],
     "slug": "weapons-of-resonance",
@@ -57,7 +57,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "2jC7WJKIDxJS3LyY",
   "_key": "!items!2jC7WJKIDxJS3LyY"

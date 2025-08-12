@@ -1,30 +1,34 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Dance of Ribbons (Attacker)",
+  "name": "Stance: Dance of Sabers",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": ""
+      "value": "<p>Your multiple attack penalty is -4 for your second attack (-3 with an agile weapon).</p>"
     },
     "rules": [
       {
-        "key": "Note",
-        "selector": "check",
-        "text": "The target has the Dance of Ribbons stance. Once per round, the target @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gains Zeal} when an attack misses them.",
+        "key": "MultipleAttackPenalty",
+        "selector": "attack",
+        "value": -2,
         "predicate": [
-          "attack",
-          "target:effect:dance-of-ribbons"
-        ],
-        "title": "Zeal Gain: Dance of Ribbons",
-        "outcome": [
-          "failure",
-          "criticalFailure"
+          "agile"
+        ]
+      },
+      {
+        "key": "MultipleAttackPenalty",
+        "selector": "attack",
+        "value": -3,
+        "predicate": [
+          {
+            "not": "agile"
+          }
         ]
       }
     ],
-    "slug": "effect-dance-of-ribbons-attacker",
+    "slug": "stance-dance-of-sabers",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -40,7 +44,7 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 12
     },
     "duration": {
       "value": 1,
@@ -59,7 +63,7 @@
     "context": null,
     "unidentified": false
   },
-  "img": "icons/commodities/cloth/cloth-bolt-embroidered-pink.webp",
+  "img": "icons/weapons/swords/scimitar-guard-red.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -72,7 +76,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.4"
   },
-  "_id": "N6tU7oEXwYaVhJoh",
+  "_id": "2WZCPFGfXLmb2wse",
   "sort": 0,
-  "_key": "!items!N6tU7oEXwYaVhJoh"
+  "_key": "!items!2WZCPFGfXLmb2wse"
 }
