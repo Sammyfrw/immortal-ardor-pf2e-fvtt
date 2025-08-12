@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p><strong>Requirements</strong> You are wielding a finesse weapon or polearm</p><hr /></div><p>While your opponent is still recovering from your prior attack, you snag its armor, clothing or flesh to move it as you please. Make a melee Strike with a finesse weapon or polearm. If you hit a target that is your size or smaller, you can automatically Reposition it, with the same benefits as the Reposition action (including the critical success effect, if your Strike was a critical hit). If you used a weapon with reach, use the weapon’s reach for this Reposition.</p><p></p><p>This Strike has the following failure effect.</p><p><strong>Failure</strong> The target becomes off-guard until the end of your current turn.</p>"
+      "value": "<div><p><strong>Requirements</strong> You are wielding a finesse weapon or polearm</p><hr /></div><p>While your opponent is still recovering from your prior attack, you snag its armor, clothing or flesh to move it as you please. Make a melee Strike with a finesse weapon or polearm. If you hit a target that is your size or smaller, you can automatically @UUID[Compendium.pf2e.actionspf2e.lOE4yjUnETTdaf2T]{Reposition} it, with the same benefits as the Reposition action (including the critical success effect, if your Strike was a critical hit). If you used a weapon with reach, use the weapon’s reach for this Reposition.</p><p>This Strike has the following failure effect.</p><p><strong>Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} until the end of your current turn.</p>"
     },
     "rules": [],
     "slug": "sleek-reposition-dervish",
@@ -57,7 +57,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "nOR6DXe8FzraxqDy",
   "_key": "!items!nOR6DXe8FzraxqDy"

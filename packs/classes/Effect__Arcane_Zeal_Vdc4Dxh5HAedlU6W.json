@@ -1,0 +1,97 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Arcane Zeal",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.7i609Jhf3kY6OmYj]{Arcane Zeal}</p><p>You gain a status bonus to your spell attack rolls and spellcasting DC for the next spell you cast within 1 minute.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "spell-attack",
+          "spell-dc"
+        ],
+        "type": "status",
+        "value": "{item|flags.pf2e.rulesSelections.arcaneZeal}",
+        "predicate": [
+          "arcane-zeal"
+        ],
+        "removeAfterRoll": "if-enabled"
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "arcane-zeal"
+      },
+      {
+        "key": "ChoiceSet",
+        "flag": "arcaneZeal",
+        "prompt": "Arcane Zeal Bonus",
+        "choices": [
+          {
+            "label": "+1 Bonus",
+            "value": "1"
+          },
+          {
+            "label": "+2 Bonus",
+            "value": "2"
+          }
+        ]
+      }
+    ],
+    "slug": "effect-arcane-zeal",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "Vdc4Dxh5HAedlU6W",
+  "sort": 0,
+  "_key": "!items!Vdc4Dxh5HAedlU6W"
+}

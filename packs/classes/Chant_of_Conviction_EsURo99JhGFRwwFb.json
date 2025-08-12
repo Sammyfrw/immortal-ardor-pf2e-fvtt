@@ -6,9 +6,178 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your words carry much weight, and each word bears the gravity of the lessons imparted to you in your journey. If you are an expert in their respective skills, Request (Diplomacy), Feint (Deception) and Demoralize (Intimidation), grant you Zeal when you use them, once per round for each action.</p>"
+      "value": "<p>Your words carry much weight, and each word bears the gravity of the lessons imparted to you in your journey. If you are at least an Expert in their respective skills, Once per round, if you are at least an Expert in their respective skills, you gain Zeal when you either @UUID[Compendium.pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request}, @UUID[Compendium.pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint}or @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize}.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "title": "Zeal Gain: {item|name}",
+        "selector": [
+          "diplomacy",
+          "deception",
+          "intimidation"
+        ],
+        "text": "Once per round, if you are at least an Expert in their respective skills, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when you either Request, Feint or Demoralize",
+        "predicate": [
+          {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          {
+            "or": [
+              {
+                "and": [
+                  "action:request",
+                  {
+                    "gte": [
+                      "skill:diplomacy:rank",
+                      2
+                    ]
+                  }
+                ]
+              },
+              {
+                "and": [
+                  "action:feint",
+                  {
+                    "gte": [
+                      "skill:deception:rank",
+                      2
+                    ]
+                  }
+                ]
+              },
+              {
+                "and": [
+                  "action:demoralize",
+                  {
+                    "gte": [
+                      "skill:intimidation:rank",
+                      2
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
+        "mode": "add",
+        "predicate": [
+          {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          {
+            "or": [
+              {
+                "and": [
+                  "item:request",
+                  {
+                    "gte": [
+                      "skill:diplomacy:rank",
+                      2
+                    ]
+                  }
+                ]
+              },
+              {
+                "and": [
+                  "item:feint",
+                  {
+                    "gte": [
+                      "skill:deception:rank",
+                      2
+                    ]
+                  }
+                ]
+              },
+              {
+                "and": [
+                  "item:demoralize",
+                  {
+                    "gte": [
+                      "skill:intimidation:rank",
+                      2
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Feat.ZealGain.ChantOfConviction.Description",
+            "title": "IA.SpecificRule.Dervish.Feat.ZealGain.ChantOfConviction.Label"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          {
+            "or": [
+              {
+                "and": [
+                  "item:request",
+                  {
+                    "gte": [
+                      "skill:diplomacy:rank",
+                      2
+                    ]
+                  }
+                ]
+              },
+              {
+                "and": [
+                  "item:feint",
+                  {
+                    "gte": [
+                      "skill:deception:rank",
+                      2
+                    ]
+                  }
+                ]
+              },
+              {
+                "and": [
+                  "item:demoralize",
+                  {
+                    "gte": [
+                      "skill:intimidation:rank",
+                      2
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": "zeal"
+      }
+    ],
     "slug": "chant-of-conviction",
     "_migration": {
       "version": 0.935,
@@ -63,7 +232,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "EsURo99JhGFRwwFb",
   "_key": "!items!EsURo99JhGFRwwFb"

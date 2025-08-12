@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You brandish your weapons and keep its edge in constant motion to repel attacks. When you are in this stance, once per round an attack that misses you grants you Zeal. If you have Zeal and are wielding a weapon with the parry trait, holding a shield or have another means of protecting yourself like a dueling cape, you can Raise a Shield or defend with your weapon or cape as part of entering this stance.</span></p>"
+      "value": "<p>You brandish your weapons and keep its edge in constant motion to repel attacks. When you are in this stance, once per round an attack that misses you grants you Zeal. If you have Zeal and are wielding a weapon with the parry trait, holding a shield or have another means of protecting yourself like a dueling cape, you can Raise a Shield or defend with your weapon or cape as part of entering this stance.</p><p>@UUID[Compendium.immortal-ardor.classes.8zrksdkGtFg2PcOq]{Effect: Dance of Ribbons}</p>"
     },
     "rules": [],
     "slug": "dance-of-ribbons",
@@ -43,7 +43,11 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.immortal-ardor.classes.Item.8zrksdkGtFg2PcOq",
+      "name": "Effect: Dance of Ribbons"
+    }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
   "sort": 0,
@@ -57,7 +61,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "hIp6kztm6OMOhC4K",
   "_key": "!items!hIp6kztm6OMOhC4K"

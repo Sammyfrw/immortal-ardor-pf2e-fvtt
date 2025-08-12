@@ -8,7 +8,14 @@
       "gm": "",
       "value": "<p><span lang=\"EN\">Even through conversation, witty retorts and damning declarations, you speak with the wisdom and metaphor of your parables. If you roll initiative with Diplomacy, Deception or Intimidation, or roll initiative within a reasonable timeframe after you Make an Impression, Lie or Coerce, you gain 1 Zeal. At a GM’s discretion, other Diplomacy, Deception or Intimidation checks made shortly before rolling initiative can also qualify.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "initiative",
+        "text": "If you roll initiative with Diplomacy, Deception or Intimidation, or roll initiative within a reasonable timeframe after you Make an Impression, Lie or Coerce, you gain 1 Zeal. At a GM’s discretion, other Diplomacy, Deception or Intimidation checks made shortly before rolling initiative can also qualify.",
+        "title": "Zeal Gain: {item|name}"
+      }
+    ],
     "slug": "wayward-chant",
     "_migration": {
       "version": 0.935,
@@ -56,7 +63,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "pWNf8K2kaXBemNTz",
   "_key": "!items!pWNf8K2kaXBemNTz"

@@ -16,7 +16,12 @@
         "slug": "zealous-strikes-extra-damage",
         "value": 2,
         "predicate": [
-          "zealous-strikes",
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          },
           {
             "not": "zenith-action"
           }
@@ -134,7 +139,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "kyVzYnHM3QAqr0O8",
   "_key": "!items!kyVzYnHM3QAqr0O8"

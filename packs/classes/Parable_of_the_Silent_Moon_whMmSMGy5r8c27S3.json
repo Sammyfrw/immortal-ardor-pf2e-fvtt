@@ -67,7 +67,10 @@
         "mode": "add",
         "predicate": [
           {
-            "not": "zenith-action"
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
           },
           {
             "or": [

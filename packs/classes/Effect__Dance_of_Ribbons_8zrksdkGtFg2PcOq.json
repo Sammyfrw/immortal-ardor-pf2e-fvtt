@@ -1,0 +1,72 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Dance of Ribbons",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.hIp6kztm6OMOhC4K]{Dance of Ribbons}</p><p>When you are in this stance, once per round an attack that misses you grants you Zeal.</p>"
+    },
+    "rules": [
+      {
+        "key": "EphemeralEffect",
+        "affects": "origin",
+        "selectors": [
+          "attack-roll"
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.N6tU7oEXwYaVhJoh"
+      }
+    ],
+    "slug": "effect-dance-of-ribbons",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/commodities/cloth/cloth-bolt-embroidered-pink.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "8zrksdkGtFg2PcOq",
+  "sort": 0,
+  "_key": "!items!8zrksdkGtFg2PcOq"
+}

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You draw lines between the divine and the arcane as your conceptual understanding of magic widens. Through it, you channel divine power to directly empower magic. Spend your Zeal, and target one ally within 60 feet of you, which can include yourself. The next spell the target casts within the next minute gains a bonus depending on the Zeal spent:</p><ul><li><p>1-3 Zeal: +1 status bonus to spellcasting DC</p></li><li><p>4-5 Zeal: +2 status bonus to spellcasting DC</p></li></ul><p>At 16th level, you can target an ally within 120 feet. If you spend 4-5 Zeal, you can instead target 2 allies within 60 feet of you and give each of them +1 status bonus to spellcasting DC each.</p><p></p>"
+      "value": "<p>You draw lines between the divine and the arcane as your conceptual understanding of magic widens. Through it, you channel divine power to directly empower magic. Spend your Zeal, and target one ally within 60 feet of you, which can include yourself. The next spell the target casts within the next minute gains a bonus to spell attack rolls and spell DC depending on the Zeal spent:</p><ul><li><p>1-3 Zeal: +1 status bonus to spells</p></li><li><p>4-5 Zeal: +2 status bonus to spells</p></li></ul><p>At 16th level, you can target an ally within 120 feet. If you spend 4-5 Zeal, you can instead target 2 allies within 60 feet of you and give each of them +1 status bonus to spellcasting DC each.</p><p>@UUID[Compendium.immortal-ardor.classes.Vdc4Dxh5HAedlU6W]{Effect: Arcane Zeal}</p><p></p>"
     },
     "rules": [],
     "slug": "arcane-zeal",
@@ -60,7 +60,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "7i609Jhf3kY6OmYj",
   "_key": "!items!7i609Jhf3kY6OmYj"

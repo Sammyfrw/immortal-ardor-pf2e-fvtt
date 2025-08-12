@@ -227,6 +227,14 @@
             }
           }
         },
+        "Feats": {
+          "ZealGain": {
+            "ChantOfConviction": {
+              "Label": "Chant of Conviction",
+              "Description": "Once per round, if you are at least an Expert in their respective skills, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when you either Request, Feint or Demoralize."
+            }
+          }
+        },
         "Recitations": {
           "PromptText": "Select a Recitation",
           "DragonflightMeditation": {

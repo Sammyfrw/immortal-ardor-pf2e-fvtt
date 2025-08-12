@@ -8,7 +8,14 @@
       "gm": "",
       "value": "<p>Embodying the qualities of a drachiri, you sate the Curse of Greed. If you Earn Income, Subsist, or Gather Information, the first time you roll initiative within the next 7 days you gain 1 Zeal at the start of an encounter. If you are exploring, and you acquire substantial treasure, learn meaningful information (such as through Identifying an item or spell), uncover something relevant to what you are currently exploring, you can gain 1 Zeal at the start of your next encounter when you roll initiative. If you qualify for both scenarios, you only gain 1 Zeal. At a GM’s discretion, meager knowledge or treasure might not qualify; though treasure or identification of things at least four levels lower than you or higher would typically apply.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "initiative",
+        "text": "If you Earn Income, Subsist, or Gather Information in the last 7 days, or after acquiring substantial treasure or learning meaningful information, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when you roll initiative.",
+        "title": "Zeal Gain: {item|name}"
+      }
+    ],
     "slug": "gift-of-greed",
     "_migration": {
       "version": 0.935,
@@ -58,7 +65,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "RV5DZYCqEWhKq1u3",
   "_key": "!items!RV5DZYCqEWhKq1u3"

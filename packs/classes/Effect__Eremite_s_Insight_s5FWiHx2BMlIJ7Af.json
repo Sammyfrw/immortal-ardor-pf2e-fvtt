@@ -1,0 +1,83 @@
+{
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "name": "Effect: Eremite's Insight",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.eJusUv1ZwOLBRf0l]{Eremite's Insight}</p><p>You gain a +1 circumstance bonus to your next attack roll and skill check against the creature you critically suceeded your recall knowledge check against.</p>"
+    },
+    "rules": [
+      {
+        "domain": "check",
+        "key": "RollOption",
+        "label": "Target is the subject of Eremite's Insight",
+        "option": "eremites-insight",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "eremites-insight"
+        ],
+        "removeAfterRoll": "if-enabled",
+        "selector": "check",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "slug": "effect-monster-hunter",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "effects": [],
+  "folder": "m6tQe283kfhwQxYU",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_id": "s5FWiHx2BMlIJ7Af",
+  "sort": 0,
+  "_key": "!items!s5FWiHx2BMlIJ7Af"
+}
