@@ -6,9 +6,25 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your Zeal burns with such strength that it could forge sand into glass. Your empowered zeal carves and cleaves through your target, and fragments of spiritual energy forms and cuts at nearby foes. Make a @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} against your target. If you hit, you deal additional spirit damage equal to your Zeal value to your target and all adjacent foes. This attack has the following Failure effect.</p><p><strong>Failure</strong> You deal spirit damage equal to your Zeal value to both your primary target and adjacent foes.</p><p>@Damage[@actor.system.resources.zeal.value[spirit]]</p>"
+      "value": "<p>Your Zeal burns with such strength that it could forge sand into glass. Your empowered zeal carves and cleaves through your target, and fragments of spiritual energy forms and cuts at nearby foes. Make a @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} against your target. If you hit, you deal additional spirit damage equal to your Zeal value to your target and all adjacent foes. This attack has the following Failure effect.</p><p><strong>Failure</strong> You deal spirit damage equal to your Zeal value to both your primary target and adjacent foes.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "description",
+        "mode": "add",
+        "predicate": [
+          "item:slug:shards-of-glass"
+        ],
+        "value": [
+          {
+            "divider": true,
+            "text": "You deal @Damage[@actor.system.resources.zeal.value[{actor|flags.pf2e.dervish.zealousStrikesDamage}]|immutable] to your primary target and adjacent foes."
+          }
+        ]
+      }
+    ],
     "slug": "shards-of-glass",
     "_migration": {
       "version": 0.935,

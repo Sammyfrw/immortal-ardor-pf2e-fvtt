@@ -10,20 +10,15 @@
     },
     "rules": [
       {
-        "key": "ItemAlteration",
         "itemType": "feat",
-        "mode": "override",
+        "key": "ItemAlteration",
+        "mode": "add",
         "predicate": [
           "feature:sojourner",
           "item:slug:stoke-the-flame-within"
         ],
-        "property": "description",
-        "value": [
-          {
-            "text": "You invoke the passion of flame, and like bringing fire to kindling you spread that fervor to those who would receive it. With a wide gesture or a powerful chant, target a number of allies other than you within 30 feet equal to the number of actions you take. These allies become empowered, and deal additional spirit or fire damage (your choice) equal to your amount of Zeal at the time you use this ability for the next successful Strike or damaging spell they cast within the next round. This damage is not multiplied on a critical hit. At 16th level, this additional damage increases to 10 plus your amount of Zeal. @UUID[Compendium.immortal-ardor.classes.6QQW4nyMSWWvBLL5]{Effect: Stoke the Flame Within (Sojourner)}",
-            "title": "Sojourner Stoke the Flame Within"
-          }
-        ]
+        "property": "other-tags",
+        "value": "stoke-the-flame-within-sojourner-{actor|flags.pf2e.dervish.zealousStrikesDamage}"
       }
     ],
     "slug": "stoke-the-flame-within",

@@ -10,11 +10,76 @@
     },
     "rules": [
       {
+        "key": "ChoiceSet",
+        "prompt": "Select a damage type",
+        "choices": [
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit",
+            "predicate": [
+              {
+                "not": [
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-electricity",
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-bludgeoning",
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-slashing",
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-piercing",
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-fire",
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-cold"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-electricity"
+            ]
+          },
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-bludgeoning"
+            ]
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-fire"
+            ]
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-cold"
+            ]
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-slashing"
+            ]
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-piercing"
+            ]
+          }
+        ],
+        "flag": "weaponsOfResonanceDamageType"
+      },
+      {
         "itemType": "weapon",
         "key": "ItemAlteration",
         "mode": "add",
         "property": "traits",
-        "value": "versatile-spirit"
+        "value": "versatile-{item|flags.pf2e.rulesSelections.weaponsOfResonanceDamageType}"
       }
     ],
     "slug": "effect-weapons-of-resonance",

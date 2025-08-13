@@ -1,0 +1,80 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Vow of Silence",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.oBFdovhv6FIKWpY1]{Vow of Silence}</p><p>You are either @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}, depending on the zeal spent to grant you this ability.</p><p>At 18th level, abilities and spells that try to detect you must succeed at a secret counteract check against your Dervish Class DC.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "damage",
+        "option": "vow-of-silence"
+      },
+      {
+        "key": "DamageDice",
+        "predicate": [
+          "target:condition:off-guard",
+          "vow-of-silence"
+        ],
+        "category": "precision",
+        "selector": "damage",
+        "diceNumber": 2,
+        "dieSize": "d6"
+      }
+    ],
+    "slug": "effect-vow-of-silence",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "ynfVEmf0VHeapNxU",
+  "sort": 0,
+  "_key": "!items!ynfVEmf0VHeapNxU"
+}

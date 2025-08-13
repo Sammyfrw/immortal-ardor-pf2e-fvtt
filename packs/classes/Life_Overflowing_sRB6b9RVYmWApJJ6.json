@@ -9,7 +9,7 @@
       "value": "<p>You invoke the finality of a life-giving spring, and water sprouts at your feet and springs forth in all its vitality. You grant temporary hit points to a number of creatures within 30 feet of you that lasts for 1 minute. @UUID[Compendium.immortal-ardor.macros.Macro.xumjguwPtOtkC7tL]{Spend your Zeal}. The amount of Zeal you spend determines the number of targets and the amount of temporary hit points:</p><ul><li><p>1 Zeal: 1 ally for half your level’s worth of temporary hit points [[/r (@actor.level/2)[healing] #Temporary HIt Points]]</p></li><li><p>2-3 Zeal: 3 allies for half your level’s worth of temporary hit points</p></li><li><p>4-5 Zeal: 3 allies for your level’s worth of temporary hit points. [[/r (@actor.level)[healing] #Temporary HIt Points]]</p></li></ul><p>At 18th level, you target 3 allies when you spend 1 Zeal and any number of creatures when you spend 2 to 5 Zeal.</p><p></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "life-overflowing",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

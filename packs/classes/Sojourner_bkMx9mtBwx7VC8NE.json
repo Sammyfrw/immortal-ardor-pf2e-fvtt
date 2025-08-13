@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You pursue the inner understanding of what it means to be a living being in the great harmony of life through the lens of the natural world. You must select the @UUID[Compendium.immortal-ardor.classes.Tv8GhBmcdccqWtg0]{Sojourner Dedication} as your 2</span><sup><span lang=\"EN\">nd</span></sup><span lang=\"EN\">-level class feat.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Prerequisites </strong>You must be a Dervish.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Sojourner Adjustments:</strong></span></p><p class=\"MsoNormal\"><span lang=\"EN\">You are trained in Nature instead of Religion.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You must choose the @UUID[Compendium.immortal-ardor.classes.JY1YtoHPSOpHzC3P]{Parable of the Winding Circle} (see below) for your Dervish parable.</span></p><p>You do not gain the @UUID[Compendium.immortal-ardor.classes.2Ijaf182htK84IpJ]{Calm Mantra} and @UUID[Compendium.immortal-ardor.classes.oQk5HQIiiOl621i2]{Resume Verse} class features.</p><p>You do not benefit from the @UUID[Compendium.immortal-ardor.classes.dGF8uSMbziIPBw9b]{Divine Servitude} feat.</p><p class=\"MsoNormal\"><span lang=\"EN\">You do not deal spirit damage with the Zealous Strikes feature. Instead, when you have an active companion, you deal additional damage based on the elemental trait they possess. When you gain any Dervish feat that deals spirit damage, you instead deal the same type of damage as your companion's elemental trait. If your active companion has multiple, choose one. Fire adds fire damage, Water adds cold damage, Air adds electricity damage, Earth adds bludgeoning damage, Metal adds slashing damage, and Wood adds piercing damage. This adds their respective traits to these actions.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Any feats that require skill in Religion or use Religion are instead replaced with Nature. Any feats, abilities and spells with the Divine trait are replaced with Primal trait. Your Meditation spells are of the Primal tradition instead of Divine.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You are trained in medium armor. You can choose Strength as your key attribute modifier. When you gain light armor expertise, you also gain expert proficiency in medium armor, and when you gain light armor mastery, you also gain master proficiency in medium armor.</span></p>"
+      "value": "<p><span lang=\"EN\">You pursue the inner understanding of what it means to be a living being in the great harmony of life through the lens of the natural world. You must select the @UUID[Compendium.immortal-ardor.classes.Tv8GhBmcdccqWtg0]{Sojourner Dedication} as your 2</span><sup><span lang=\"EN\">nd</span></sup><span lang=\"EN\">-level class feat.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Prerequisites </strong>You must be a Dervish.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Sojourner Adjustments:</strong></span></p><p class=\"MsoNormal\"><span lang=\"EN\">You are trained in Nature instead of Religion.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You must choose the @UUID[Compendium.immortal-ardor.classes.JY1YtoHPSOpHzC3P]{Parable of the Winding Circle} (see below) for your Dervish parable.</span></p><p>You do not gain the @UUID[Compendium.immortal-ardor.classes.2Ijaf182htK84IpJ]{Calm Mantra} and @UUID[Compendium.immortal-ardor.classes.oQk5HQIiiOl621i2]{Resume Verse} class features.</p><p>You do not benefit from the @UUID[Compendium.immortal-ardor.classes.dGF8uSMbziIPBw9b]{Divine Servitude} feat.</p><p class=\"MsoNormal\"><span lang=\"EN\">You do not deal spirit damage with the Zealous Strikes feature. Instead, when you have an active companion, you deal additional damage based on the elemental trait they possess. When you gain any Dervish feat that deals or adds spirit damage, you instead deal the same type of damage as your companion's elemental trait. If your active companion has multiple, choose one when they become your active companion. Fire adds fire damage, Water adds cold damage, Air adds electricity damage, Earth adds bludgeoning damage, Metal adds slashing damage, and Wood adds piercing damage. This adds their respective traits to these actions.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Any feats that require skill in Religion or use Religion are instead replaced with Nature. Any feats, abilities and spells with the Divine trait are replaced with Primal trait. Your Meditation spells are of the Primal tradition instead of Divine.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You are trained in medium armor. You can choose Strength as your key attribute modifier. When you gain light armor expertise, you also gain expert proficiency in medium armor, and when you gain light armor mastery, you also gain master proficiency in medium armor.</span></p>"
     },
     "rules": [
       {
@@ -49,6 +49,19 @@
         "property": "traits",
         "value": "spirit",
         "priority": 130
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "dervish",
+          "sojourner-companion-trait"
+        ],
+        "property": "damage-type",
+        "selectors": [
+          "inline-damage"
+        ],
+        "value": "{actor|flags.pf2e.dervish.zealousStrikesDamage}"
       }
     ],
     "slug": "sojourner",

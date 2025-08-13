@@ -11,7 +11,10 @@
     "rules": [
       {
         "key": "FlatModifier",
-        "selector": "damage",
+        "selector": [
+          "strike-damage",
+          "spell-damage"
+        ],
         "value": {
           "brackets": [
             {
@@ -26,18 +29,10 @@
           ],
           "field": "actor|level"
         },
-        "removeAfterRoll": "if-enabled",
+        "removeAfterRoll": true,
         "damageType": "{item|flags.pf2e.rulesSelections.stokeFlameWithinDamageType}",
         "critical": false,
-        "slug": "stoke-flame-within-damage",
-        "predicate": [
-          {
-            "or": [
-              "strike-damage",
-              "spell-damage"
-            ]
-          }
-        ]
+        "slug": "stoke-flame-within-damage"
       },
       {
         "key": "AdjustModifier",
@@ -52,14 +47,61 @@
         "choices": [
           {
             "label": "PF2E.TraitSpirit",
-            "value": "spirit"
+            "value": "spirit",
+            "predicate": [
+              {
+                "not": [
+                  "parent:origin:item:tag:stoke-the-flame-within-sojourner-electricity",
+                  "parent:origin:item:tag:stoke-the-flame-within-sojourner-bludgeoning",
+                  "parent:origin:item:tag:stoke-the-flame-within-sojourner-slashing",
+                  "parent:origin:item:tag:stoke-the-flame-within-sojourner-piercing",
+                  "parent:origin:item:tag:stoke-the-flame-within-sojourner-fire",
+                  "parent:origin:item:tag:stoke-the-flame-within-sojourner-cold"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity",
+            "predicate": [
+              "parent:origin:item:tag:stoke-the-flame-within-sojourner-electricity"
+            ]
+          },
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning",
+            "predicate": [
+              "parent:origin:item:tag:stoke-the-flame-within-sojourner-bludgeoning"
+            ]
           },
           {
             "label": "PF2E.TraitFire",
             "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold",
+            "predicate": [
+              "parent:origin:item:tag:stoke-the-flame-within-sojourner-cold"
+            ]
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing",
+            "predicate": [
+              "parent:origin:item:tag:stoke-the-flame-within-sojourner-slashing"
+            ]
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing",
+            "predicate": [
+              "parent:origin:item:tag:stoke-the-flame-within-sojourner-piercing"
+            ]
           }
         ],
-        "flag": "stokeFlameWithinDamageType"
+        "flag": "stokeTheFlameWithinDamageType"
       },
       {
         "key": "ChoiceSet",
