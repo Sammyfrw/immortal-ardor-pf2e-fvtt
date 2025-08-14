@@ -8,7 +8,36 @@
       "gm": "",
       "value": "<p>You gain expert proficiency in simple weapons, martial weapons, and unarmed attacks. When you critically succeed at an attack roll through a Strike made as part of a dervish feat that would grant you Zeal or a Zenith action, you apply the critical specialization effect for that weapon or unarmed attack.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "class:dervish",
+          {
+            "or": [
+              "zenith-action",
+              "zeal-action-strike"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": "strike-damage",
+        "text": "When you critically succeed at an attack roll through a Strike made as part of a dervish feat that would grant you Zeal or a Zenith action, you apply the critical specialization effect for that weapon or unarmed attack.",
+        "title": "Dervish Weapon Expertise",
+        "outcome": [
+          "criticalSuccess"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Dervish.ClassFeatures.WeaponExpertise.RollOptionLabel",
+        "domain": "damage",
+        "option": "zeal-action-strike",
+        "toggleable": true
+      }
+    ],
     "slug": "dervish-weapon-expertise",
     "_migration": {
       "version": 0.935,
@@ -42,9 +71,22 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "simple": {
+          "rank": 2
+        },
+        "martial": {
+          "rank": 2
+        },
+        "unarmed": {
+          "rank": 2
+        }
+      }
+    }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
   "sort": 50000,
   "ownership": {
     "default": 0,
@@ -56,7 +98,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "6Ct3XOv2gwxoK6LY",
   "_key": "!items!6Ct3XOv2gwxoK6LY"

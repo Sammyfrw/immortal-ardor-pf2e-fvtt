@@ -1,0 +1,58 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Inspire Praise",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>You grace others with your esteemed presence to inspire one another, expecting lavishing praise in return. Choose a creature within 30 feet that you are aware of and can perceive to offer a word of encouragement. This counts as preparing to @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} for the next skill check or attack roll your target makes.</p><p>[[/act aid statistic=recitation]]{Aid (Recitation)}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "inspire-praise",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "td0A5chdMCaPDQse",
+  "sort": 2400000,
+  "_key": "!items!td0A5chdMCaPDQse"
+}

@@ -1,0 +1,85 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Arcane Corrosion",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.scMfKsP4OmACBwnu]{Arcane Corrosion}</p><p>You suffer a -1 status bonus to your Fortitude saves for 2 rounds (1 round on a success, -2 on a critical failure)</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "arcaneCorrosionOutcome",
+        "prompt": "Arcane Corrosion Outcome",
+        "choices": [
+          {
+            "label": "Critical Failure",
+            "value": 2
+          },
+          {
+            "label": "Failure",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fortitude",
+        "value": "-{item|flags.pf2e.rulesSelections.arcaneCorrosionOutcome}",
+        "type": "status"
+      }
+    ],
+    "slug": "effect-arcane-corrosion",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 2,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/symbols/triangle-glowing-green.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "02sUQ7vSpoQBRfBA",
+  "sort": 1300000,
+  "_key": "!items!02sUQ7vSpoQBRfBA"
+}

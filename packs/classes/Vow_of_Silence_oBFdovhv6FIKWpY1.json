@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>At the very peak, the Zenith comes in absolute silence. That moment fills you with a firm weight, and you all but disappear. When you use this Zenith, the divine power cloaks and hides you from all things as you become the observer of all things from the outside. The amount of Zeal you spend determines the effects of the Zenith. While you benefit from the Zenith, you are obscured against special senses, and your first Strike each round against an off-guard creature deals an additional 2d8 precision damage.</p><ul><li><p>1 Zeal: You become Hidden from all creatures until the end of your next turn or until you take an action except for Sneak or Hide. If you Strike, you are Hidden until after the attack resolves.</p></li><li><p>2-3 Zeal: You become Invisible until the end of your next turn. or until you take a hostile action. If you Strike, you remain Invisible until the attack resolves.</p></li><li><p>4-5 Zeal: You become Invisible until the end of your next turn.</p></li></ul><p>At 18th level, your Silence overpowers magical means of determining your position. While you benefit from the Zenith, abilities and spells that attempt to detect you only do so if they succeed at a secret counteract check against your Dervish Class DC.</p>"
+      "value": "<p>At the very peak, the Zenith comes in absolute silence. That moment fills you with a firm weight, and you all but disappear. When you use this Zenith, the divine power cloaks and hides you from all things as you become the observer of all things from the outside. @UUID[Compendium.immortal-ardor.macros.xumjguwPtOtkC7tL]{Use Zenith} The amount of Zeal you spend determines the effects of the Zenith. While you benefit from the Zenith, you are obscured against special senses, and your first Strike each round against an @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} creature deals an additional 2d8 precision damage. @UUID[Compendium.immortal-ardor.classes.ynfVEmf0VHeapNxU]{Effect: Vow of Silence}</p><ul><li><p>1 Zeal: You become @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from all creatures until the end of your next turn or until you take an action except for @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} or @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide}. If you Strike, you are Hidden until after the attack resolves.</p></li><li><p>2-3 Zeal: You become @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible} until the end of your next turn. or until you take a hostile action. If you Strike, you remain Invisible until the attack resolves.</p></li><li><p>4-5 Zeal: You become Invisible until the end of your next turn.</p></li></ul><p>At 18th level, your Silence overpowers magical means of determining your position. While you benefit from the Zenith, abilities and spells that attempt to detect you only do so if they succeed at a secret counteract check against your Dervish Class DC.</p>"
     },
     "rules": [],
     "slug": "vow-of-silence",
@@ -59,7 +59,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "oBFdovhv6FIKWpY1",
   "_key": "!items!oBFdovhv6FIKWpY1"

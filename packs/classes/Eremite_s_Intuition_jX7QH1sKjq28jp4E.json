@@ -6,9 +6,56 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your piercing insight rarely leads you astray. Your Eremite’s Insight benefits trigger on successful Recall Knowledge and Sense Motive checks. If you critically fail a Sense Motive check, you get a failure instead.</p>"
+      "value": "<p>Your piercing insight rarely leads you astray. While you have zeal, your Eremite’s Insight benefits trigger on successful Recall Knowledge and Sense Motive checks, and If you critically fail a Sense Motive check, you get a failure instead.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          },
+          {
+            "or": [
+              "action:recall-knowledge",
+              "action:sense-motive"
+            ]
+          },
+          "feat:eremites-intuition"
+        ],
+        "selector": [
+          "skill-check",
+          "perception-check"
+        ],
+        "text": "While you have Zeal, your Eremite’s Insight benefits trigger on successful Recall Knowledge and Sense Motive checks. You and any allies you tell gain @UUID[Compendium.immortal-ardor.classes.s5FWiHx2BMlIJ7Af]{Effect: Eremite's Insight}. You can give bonuses from Eremite’s Insight only once per day against a particular creature.",
+        "outcome": [
+          "criticalSuccess",
+          "success"
+        ],
+        "title": "{item|name}"
+      },
+      {
+        "key": "Note",
+        "predicate": [
+          "action:sense-motive",
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          }
+        ],
+        "selector": "perception-check",
+        "text": "While you have zeal, if you critically fail a Sense Motive check, you get a failure instead.",
+        "outcome": [
+          "criticalFailure"
+        ],
+        "title": "{item|name}"
+      }
+    ],
     "slug": "eremites-intuition",
     "_migration": {
       "version": 0.935,
@@ -61,7 +108,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "jX7QH1sKjq28jp4E",
   "_key": "!items!jX7QH1sKjq28jp4E"

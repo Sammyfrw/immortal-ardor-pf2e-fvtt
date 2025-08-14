@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your blow not only wounds creatures but also shatters their confidence. Make a melee Strike. If you hit and deal damage, the target is frightened 1, or frightened 2 on a critical hit.</p>"
+      "value": "<p>Your blow not only wounds creatures but also shatters their confidence. Make a melee Strike. If you hit and deal damage, the target is @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2} on a critical hit.</p>"
     },
     "rules": [],
     "slug": "intimidating-strike",
@@ -59,7 +59,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "pIfglPYlpx8RCPJU",
   "_key": "!items!pIfglPYlpx8RCPJU"

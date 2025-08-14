@@ -1,0 +1,74 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Aura Slicer",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.vKWAJgqsI2WGpPxD]{Aura Slicer}</p><p>You are @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}. This effect lasts for 1 round, until you recover by retching, or until the next instance of damage you take from an attack or a damaging spell. When the effect wears off, you take additional spirit damage</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "damage-received",
+        "text": "The target takes an additional @Damage[1d6[spirit]] damage (1-2 Zeal) or @Damage[2d6[spirit]] damage (3-5 Zeal). If 5 Zeal is used, the target also becomes @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} for 1 round. If the initial Sickened effect wears off due to damage from an attack or a damaging spell, combine the additional spirit damage if it is of the same damage type for the purposes of resistances and weaknesses.",
+        "title": "Aura Slicer"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18"
+      }
+    ],
+    "slug": "effect-aura-slicer",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/light/beam-explosion-orange.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "CC0ZaUqSmiyQvrkQ",
+  "sort": 300000,
+  "_key": "!items!CC0ZaUqSmiyQvrkQ"
+}

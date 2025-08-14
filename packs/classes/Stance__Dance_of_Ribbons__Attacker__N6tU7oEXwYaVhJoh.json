@@ -1,0 +1,78 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Stance: Dance of Ribbons (Attacker)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "check",
+        "text": "The target has the Dance of Ribbons stance. Once per round, the target @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gains Zeal} when an attack misses them.",
+        "predicate": [
+          "attack",
+          "target:effect:dance-of-ribbons"
+        ],
+        "title": "Zeal Gain: Dance of Ribbons",
+        "outcome": [
+          "failure",
+          "criticalFailure"
+        ]
+      }
+    ],
+    "slug": "stance-dance-of-ribbons-attacker",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/commodities/cloth/cloth-bolt-embroidered-pink.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "N6tU7oEXwYaVhJoh",
+  "sort": 600000,
+  "_key": "!items!N6tU7oEXwYaVhJoh"
+}

@@ -1,0 +1,70 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Occult Shock (Success)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.HO4zz8891xfRSl5J]{Occult Shock}</p><p>You suffer a -1 status bonus to your Reflex saves for 2 rounds (1 round on a success, -2 on a critical failure)</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "reflex",
+        "value": -1,
+        "type": "status"
+      }
+    ],
+    "slug": "effect-occult-shock-success",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/control/debuff-energy-hold-levitate-pink.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "iAaf8idLaZYImsWt",
+  "sort": 900000,
+  "_key": "!items!iAaf8idLaZYImsWt"
+}

@@ -8,7 +8,33 @@
       "gm": "",
       "value": "<p>You walk so closely between spiritual transcendence and the material; both are so easily in reach. Any time you Sustain a Meditation, you gain Zeal.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "zenith-action"
+          },
+          {
+            "or": [
+              "action:sustain"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.ClassFeatures.ZealGain.CelestialSteps.Description",
+            "title": "IA.SpecificRule.Dervish.ClassFeatures.ZealGain.CelestialSteps.Label"
+          }
+        ]
+      }
+    ],
     "slug": "celestial-steps",
     "_migration": {
       "version": 0.935,
@@ -44,7 +70,7 @@
     },
     "location": null
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
   "sort": 0,
   "ownership": {
     "default": 0,

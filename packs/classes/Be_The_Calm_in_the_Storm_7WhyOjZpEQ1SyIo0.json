@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You return to the center of it all; the basic concept of your parable. To embrace the chaos of life: to be at the center of it all, and to be the storm of your own.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">While you have Zeal, you cannot be knocked prone or moved against your will. Your saving throws against such effects automatically succeed or attempts to do so against you fail. Similarly, when you attempt to Escape an effect that is your level or lower and has you immobilized, grabbed, or restrained, you automatically succeed in your attempt.</span></p>"
+      "value": "<p><span lang=\"EN\">You return to the center of it all; the basic concept of your parable. To embrace the chaos of life: to be at the center of it all, and to be the storm of your own.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">While you have Zeal, you cannot be knocked @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone} or moved against your will. Your saving throws against such effects automatically succeed or attempts to do so against you fail. Similarly, when you attempt to @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} an effect that is your level or lower and has you @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized}, @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}, or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}, you automatically succeed in your attempt.</span></p>"
     },
     "rules": [],
     "slug": "be-the-calm-in-the-storm",
@@ -60,7 +60,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "7WhyOjZpEQ1SyIo0",
   "_key": "!items!7WhyOjZpEQ1SyIo0"

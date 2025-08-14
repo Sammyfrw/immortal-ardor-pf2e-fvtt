@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p><strong>Trigger</strong> You or an ally within 30 feet of you triggers a reaction from an enemy that targets another creature</p><hr /></div><p>Light becomes a veil for you, a shroud to protect or to mislead in its entrancing embrace. You cast out this veil of moonlight to the triggering creature and make them concealed ahead of the enemy’s reaction. Increase the flat check DC of this concealment by your amount of Zeal. If they fail this flat check, the enemy loses their reaction as it misses its target, and they become off-guard to you for 1 round.</p>"
+      "value": "<div><p><strong>Trigger</strong> You or an ally within 30 feet of you triggers a reaction from an enemy that targets another creature</p><hr /></div><p>Light becomes a veil for you, a shroud to protect or to mislead in its entrancing embrace. You cast out this veil of moonlight to the triggering creature and make them @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} ahead of the enemy’s reaction. Increase the flat check DC of this concealment by your amount of Zeal. If they fail this flat check, the enemy loses their reaction as it misses its target, and they become @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} for 1 round.</p><p>@UUID[Compendium.immortal-ardor.classes.uXTYB0GbzKgOHiBS]{Effect: Lunar Curtain}</p>"
     },
     "rules": [],
     "slug": "lunar-curtain",
@@ -57,7 +57,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "pq3RZIXGdJzQ92a3",
   "_key": "!items!pq3RZIXGdJzQ92a3"

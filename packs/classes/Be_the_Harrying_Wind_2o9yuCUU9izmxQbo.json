@@ -1,0 +1,62 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Be the Harrying Wind",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>You @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Step} and gain a +1 circumstance bonus to AC until the start of your next turn. @UUID[Compendium.immortal-ardor.classes.XrYe5BwNEPhGvB2v]{Effect: Be the Harrying Wind}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "be-the-harrying-wind",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.immortal-ardor.classes.Item.XrYe5BwNEPhGvB2v",
+      "name": "Effect: Be the Harrying Wind"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "2o9yuCUU9izmxQbo",
+  "sort": 3000000,
+  "_key": "!items!2o9yuCUU9izmxQbo"
+}

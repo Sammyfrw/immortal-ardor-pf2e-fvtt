@@ -1,0 +1,60 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Dance Around The Pyre",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>You [[/act perform dc=15 variant=dance traits=move,visual,emotion,mental]]{Perform (Performance)} / [[/act perform variant=dance dc=15 statistic=recitation traits=move,visual,emotion,mental]]{Perform (Recitation)} against a DC 15.On any outcome except a critical failure, all allies within your field can choose to Stride up to half their speed as a free action, or up to their speed on a critical success. They must end their movement within your field.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "dance-around-the-pyre",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "emotion",
+        "mental"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "AH7nAAAgtUYMy0tu",
+  "sort": 1400000,
+  "_key": "!items!AH7nAAAgtUYMy0tu"
+}

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Once you’re at the cusp of divinity, you bring forth that power down to smite your enemies. Make a Strike, and deliver a massive blow empowered by your Zeal if you hit. The damage bonus from Zealous Strikes is doubled for this attack. The amount of Zeal you spend for this Zenith determines additional damage for your attack, which is doubled on a critical hit:</p><ul><li><p>1 Zeal: 4d8 spirit damage</p></li><li><p>2-3 Zeal: 6d8 spirit damage</p></li><li><p>4-5 Zeal: 8d8 spirit damage</p></li></ul><p>If you have a multi-attack penalty already, this Zenith gains the Press trait and has the following failure effect:</p><p><strong>Failure</strong> After your attack, you regain all the Zeal you spent for it.</p><p><strong>Special</strong> If your last action was a Flourish action from the Dervish class, you can ignore the Flourish trait for this action and you can perform Shatterdrive with 1 less action.</p>"
+      "value": "<p>Once you’re at the cusp of divinity, you bring forth that power down to smite your enemies. Make a Strike, and deliver a massive blow empowered by your Zeal if you hit. The amount of Zeal you spend for this Zenith determines additional damage for your attack, which is not doubled on a critical hit: @UUID[Compendium.immortal-ardor.macros.xumjguwPtOtkC7tL]{Use Zenith}</p><ul><li><p>1 Zeal: @Damage[4d8[spirit]] damage</p></li><li><p>2-3 Zeal: @Damage[6d8[spirit]]spirit damage</p></li><li><p>4-5 Zeal: @Damage[8d8[spirit]]spirit damage</p></li></ul><p>If you have a multi-attack penalty already, this Zenith gains the Press trait and has the following failure effect:</p><p><strong>Failure</strong> After your attack, you regain all the Zeal you spent for it.</p><p><strong>Special</strong> If your last action was a Flourish action from the Dervish class, you can ignore the Flourish trait for this action and you can perform Shatterdrive with 1 less action.</p>"
     },
     "rules": [],
     "slug": "shatterdrive",
@@ -58,7 +58,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "pDFMhNN1srpL2CAK",
   "_key": "!items!pDFMhNN1srpL2CAK"

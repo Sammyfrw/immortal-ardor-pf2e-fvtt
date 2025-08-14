@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You embody the power of the whirling sands, and call forth a raging sandstorm to envelop your foes as you strike at the earth. Spend your Zeal and Strike at a target with a groundward attack, upheaving forth sand and rock. The target and creatures adjacent to them excluding you need to make a Fortitude saving throw against your class DC or suffer a condition based on the amount of your zeal spent:</span></p><ul><li><p><span lang=\"EN\" style=\"color:black\">1-3 Zeal: Dazzled</span></p></li><li><p><span lang=\"EN\">4-5</span><span style=\"color:black\"> Zeal: Blinded</span></p></li></ul><p class=\"MsoNormal\"></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Critical Success</strong> The creature is unaffected.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Success </strong>The creature becomes Dazzled for 1 round.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Failure</strong> The creature becomes Dazzled or Blinded for 1 round.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Critical Failure </strong>As Failure, but creatures become Dazzled or Blinded for 2 rounds.</span></p>"
+      "value": "<p>You embody the power of the whirling sands, and call forth a raging sandstorm to envelop your foes as you strike at the earth. Spend your Zeal and Strike at a target with a groundward attack, upheaving forth sand and rock. The target and creatures adjacent to them excluding you need to make a @Check[fortitude|against:dervish] against your class DC or suffer a condition based on the amount of your zeal spent:</p><ul><li><p>1-3 Zeal: @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled}</p></li><li><p>4-5 Zeal: @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded}</p></li></ul><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature becomes Dazzled for 1 round.</p><p><strong>Failure</strong> The creature becomes Dazzled or Blinded for 1 round.</p><p><strong>Critical Failure</strong> As Failure, but creatures become Dazzled or Blinded for 2 rounds.</p>"
     },
     "rules": [],
     "slug": "strike-the-earth",
@@ -21,7 +21,7 @@
         "divine",
         "earth",
         "incapacitation",
-        "zeal"
+        "zenith"
       ],
       "rarity": "common"
     },
@@ -60,7 +60,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "GJnmtm8sNpjnwlLC",
   "_key": "!items!GJnmtm8sNpjnwlLC"

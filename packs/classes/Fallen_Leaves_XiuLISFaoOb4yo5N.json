@@ -1,0 +1,59 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Fallen Leaves",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>As the leaves fall, the underbrush grows. You or one of your companions can attempt to [[/act sneak]]{Sneak (Stealth)} / [[/act sneak statistic=recitation]]{Sneak (Recitation)} or [[/act feint]]{Feint (Deception)} / [[/act feint statistic=recitation]]{Feint (Recitation)}. While remaining within 20 feet of each other, magical leaves swirl around you and grant @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealment} to the one attempting the check until the end of your turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "fallen-leaves",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "wood"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "XiuLISFaoOb4yo5N",
+  "sort": 2700000,
+  "_key": "!items!XiuLISFaoOb4yo5N"
+}

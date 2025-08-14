@@ -6,9 +6,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>In moments where your focus lapses, you can resume where you left off. You gain the Resume Verse free action.</p>"
+      "value": "<p>In moments where your focus lapses, you can resume where you left off. You gain the @UUID[Compendium.immortal-ardor.classes.rhF6ushTiLEcXwYb]{Resume Verse} free action.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.rhF6ushTiLEcXwYb"
+      }
+    ],
     "slug": "resume-verse",
     "_migration": {
       "version": 0.935,
@@ -44,7 +49,7 @@
     },
     "location": null
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/sundries/scrolls/scroll-runed-tan-white.webp",
   "sort": 62500,
   "ownership": {
     "default": 0,

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>In your trance, you are on guard to those that would try and stand in your path. You call upon the inner power to unleash a reprisal. Spend your Zeal. The effects of the Zenith depends on the Zeal spent:</p><ul><li><p>1 Zeal: The creature takes 5 spirit damage.</p></li><li><p>2-3 Zeal: As 1 Zeal, but you also gain resistance 4 to the triggering damage.</p></li><li><p>4-5 Zeal: As above, but you also can make a Strike against the triggering creature if you can reach them with an attack.</p></li></ul><p><strong>Level (+4)</strong> The damage increases by 5 and the resistance increases by 2.</p>"
+      "value": "<p><strong>Trigger</strong> A creature within 30 feet deals damage to you.</p><hr /><p>In your trance, you are on guard to those that would try and stand in your path. You call upon the inner power to unleash a reprisal. @UUID[Compendium.immortal-ardor.macros.Macro.xumjguwPtOtkC7tL]{Spend your Zeal}. The effects of the Zenith depends on the Zeal spent:</p><ul><li><p>1 Zeal: The creature takes @Damage[(max(10,(floor(@actor.level/4)*5))-5)[spirit]] damage.</p></li><li><p>2-3 Zeal: As 1 Zeal, but you also gain resistance 4 to the triggering damage. @UUID[Compendium.immortal-ardor.classes.irnuEVaa7o17vPO3]{Effect: Armor of Zeal}</p></li><li><p>4-5 Zeal: As above, but you also can make a @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} against the triggering creature if you can reach them with an attack.</p></li></ul><p><strong>Level (+4)</strong> The damage increases by 5 and the resistance increases by 2.</p>"
     },
     "rules": [],
     "slug": "armor-of-zeal",
@@ -60,7 +60,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "cWfu5EUvhGgwi4nx",
   "_key": "!items!cWfu5EUvhGgwi4nx"

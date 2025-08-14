@@ -1,0 +1,86 @@
+{
+  "img": "icons/commodities/treasure/token-etched-h-brown.webp",
+  "name": "Effect: Blood From Rock",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.K2oBKryVTGdFyE99]{Blood From Rock}</p><p><span style=\"font-family:Roboto, sans-serif\">You Activate a held consumable item that needs a 1-action Manipulate or Strike action that causes damage or healing. You roll twice for the damage or healing and take the better result. This is a Fortune effect.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "title": "Blood From Rock",
+        "text": "You roll your healing dice from your next activated consumable twice and take the higher result.",
+        "selector": "healing",
+        "predicate": [
+          "item:trait:consumable"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "consumable",
+        "mode": "add",
+        "predicate": [
+          "item:trait:consumable",
+          "healing"
+        ],
+        "property": "traits",
+        "value": "fortune"
+      }
+    ],
+    "slug": "effect-blood-from-rock",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "effects": [],
+  "folder": "m6tQe283kfhwQxYU",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_id": "RhYli9fmmiVZlog6",
+  "sort": 2100000,
+  "_key": "!items!RhYli9fmmiVZlog6"
+}

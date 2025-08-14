@@ -1,0 +1,136 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Weapons of Resonance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.2jC7WJKIDxJS3LyY]{Weapons of Resonance}</p><p><span style=\"font-family:Roboto, sans-serif\">Until the end of your turn, your weapon gains the versatile trait matching the damage type of your Zealous Strikes, and attacks with your weapon ignore resistances to this damage type equal to your amount of Zeal.</span></p><p><br class=\"Apple-interchange-newline\" /></p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "Select a damage type",
+        "choices": [
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit",
+            "predicate": [
+              {
+                "not": [
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-electricity",
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-bludgeoning",
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-slashing",
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-piercing",
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-fire",
+                  "parent:origin:item:tag:weapons-of-resonance-sojourner-cold"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-electricity"
+            ]
+          },
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-bludgeoning"
+            ]
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-fire"
+            ]
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-cold"
+            ]
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-slashing"
+            ]
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing",
+            "predicate": [
+              "parent:origin:item:tag:weapons-of-resonance-sojourner-piercing"
+            ]
+          }
+        ],
+        "flag": "weaponsOfResonanceDamageType"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "versatile-{item|flags.pf2e.rulesSelections.weaponsOfResonanceDamageType}"
+      }
+    ],
+    "slug": "effect-weapons-of-resonance",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/weapons/polearms/trident-ice-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "yKgfleAiB1gNg49W",
+  "sort": 0,
+  "_key": "!items!yKgfleAiB1gNg49W"
+}

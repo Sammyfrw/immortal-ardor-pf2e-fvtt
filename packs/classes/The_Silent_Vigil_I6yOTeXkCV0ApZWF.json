@@ -6,9 +6,20 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The moon is always watching, and the world listens to it as it waxes and wanes. You return to this simple principle, that it is not an overwhelming display or force that has the greatest impact; it is the quietest.</p><p>While you have Zeal, you see things within 60 feet as they actually are. The GM rolls a secret counteract check against any illusion, morph, or polymorph effect in the area, but only for the purpose of determining whether you see through it (for instance, if the check succeeds against a polymorph spell, you can see the creature's true form, but you don't end the polymorph spell). In addition, when you Recall Knowledge against an observed creature and succeed, you critically succeed instead.</p>"
+      "value": "<p>The moon is always watching, and the world listens to it as it waxes and wanes. You return to this simple principle, that it is not an overwhelming display or force that has the greatest impact; it is the quietest.</p><p>While you have Zeal, you see things within 60 feet as they actually are. The GM rolls a secret @Check[dervish|traits:secret]{Counteract} check against any illusion, morph, or polymorph effect in the area, but only for the purpose of determining whether you see through it (for instance, if the check succeeds against a polymorph spell, you can see the creature's true form, but you don't end the polymorph spell). In addition, when you Recall Knowledge against an observed creature and succeed, you critically succeed instead.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "skill-check",
+        "predicate": [
+          "action:recall-knowledge"
+        ],
+        "adjustment": {
+          "success": "one-degree-better"
+        }
+      }
+    ],
     "slug": "the-silent-vigil",
     "_migration": {
       "version": 0.935,
@@ -60,7 +71,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "I6yOTeXkCV0ApZWF",
   "_key": "!items!I6yOTeXkCV0ApZWF"

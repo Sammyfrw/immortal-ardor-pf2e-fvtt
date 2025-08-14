@@ -8,7 +8,15 @@
       "gm": "",
       "value": "<p>Your focus during the trance leaves all other intrusions walled off. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "will"
+      }
+    ],
     "slug": "honed-mind",
     "_migration": {
       "version": 0.935,
@@ -42,9 +50,16 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "will": {
+          "rank": 3
+        }
+      }
+    }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/sundries/lights/candle-lit-yellow.webp",
   "sort": 75000,
   "ownership": {
     "default": 0,

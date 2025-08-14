@@ -1,0 +1,70 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Lunar Curtain (Attacker)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.pq3RZIXGdJzQ92a3]{Lunar Curtain}</p><p>You are @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} ahead of an enemy's reaction. The flat check DC of this concealment is increased by the amount of Zeal used to grant you this effect. If the enemy fails this flat check, they become @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard}.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "text": "@Check[flat|dc:resolve(5)] for concealment is increased by the amount of Zeal spent on Lunar Curtain.",
+        "title": "Lunar Curtain",
+        "selector": "check"
+      }
+    ],
+    "slug": "effect-lunar-curtain-attacker",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/equipment/back/cloak-plain-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "LSaFmpjxNtOn0R3F",
+  "sort": 0,
+  "_key": "!items!LSaFmpjxNtOn0R3F"
+}

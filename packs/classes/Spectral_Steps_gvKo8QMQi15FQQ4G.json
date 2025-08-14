@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You are almost ephemeral when you are in your trances, taking presence one moment and fading away the next with your graceful movements. While you have Zeal, if you would provide cover for a creature, you can choose not to. In addition, you are Concealed from ranged attacks with small projectiles.</span></p>"
+      "value": "<p><span lang=\"EN\">You are almost ephemeral when you are in your trances, taking presence one moment and fading away the next with your graceful movements. While you have Zeal, if you would provide cover for a creature, you can choose not to. In addition, you are @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} from ranged attacks with small projectiles.</span></p>"
     },
     "rules": [],
     "slug": "spectral-steps",
@@ -56,7 +56,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "gvKo8QMQi15FQQ4G",
   "_key": "!items!gvKo8QMQi15FQQ4G"

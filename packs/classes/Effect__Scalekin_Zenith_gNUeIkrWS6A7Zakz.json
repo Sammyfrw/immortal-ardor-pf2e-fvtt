@@ -1,0 +1,124 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Scalekin Zenith",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.ZUuTE44cpQWVu4k3]{Scalekin Zenith}</p><p>Tiny ethereal dragon spirits adds damage or hit points to your next damaging or healing effect. This applies to only a single target per instance of damage at a time, and one spirit disappears. <span lang=\"EN\" style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\"><span style=\"font-family:Roboto, sans-serif\">A dragon can only add this benefit for one triggering effect at a time. The number of dragons you summon is equal to the amount of Zeal you spend. The Zenith ends after 1 minute, or when all dragons have disappeared.</span></span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "damage",
+        "value": {
+          "brackets": [
+            {
+              "start": 1,
+              "end": 16,
+              "value": 5
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "value": 7
+            },
+            {
+              "start": 20,
+              "value": 9
+            }
+          ],
+          "field": "actor|level"
+        },
+        "damageType": "{actor|flags.pf2e.dervish.zealousStrikesDamage}"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "healing",
+        "value": {
+          "brackets": [
+            {
+              "start": 1,
+              "end": 16,
+              "value": 5
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "value": 7
+            },
+            {
+              "start": 20,
+              "value": 9
+            }
+          ],
+          "field": "actor|level"
+        }
+      },
+      {
+        "key": "Note",
+        "title": "Scalekin Zenith",
+        "selector": [
+          "damage",
+          "healing"
+        ],
+        "text": "Tiny ethereal dragon spirits adds damage or hit points to your next damaging or healing effect. This applies to only a single target per instance of damage at a time, and one spirit disappears."
+      }
+    ],
+    "slug": "effect-scalekin-zenith",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": {
+      "type": "counter",
+      "value": 5,
+      "max": 5
+    },
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "gNUeIkrWS6A7Zakz",
+  "sort": 0,
+  "_key": "!items!gNUeIkrWS6A7Zakz"
+}

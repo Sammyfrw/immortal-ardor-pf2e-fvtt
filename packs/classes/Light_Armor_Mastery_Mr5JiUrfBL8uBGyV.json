@@ -42,9 +42,19 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "light": {
+          "rank": 3
+        },
+        "unarmored": {
+          "rank": 3
+        }
+      }
+    }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/equipment/chest/breastplate-rivited-red.webp",
   "sort": 0,
   "ownership": {
     "default": 0,

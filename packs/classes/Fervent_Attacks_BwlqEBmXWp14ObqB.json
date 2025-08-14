@@ -8,7 +8,44 @@
       "gm": "",
       "value": "<p>You gain the Zealous Strikes feature. However, instead of adding additional spirit damage, while you have Zeal you can instead replace the additional damage from Weapon Specialization to 4 spirit damage. If you later gain Greater Weapon Specialization, you can choose to deal 6 spirit damage instead of its usual effects.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "damageType": "spirit",
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "slug": "zealous-strikes-extra-damage",
+        "value": 4,
+        "predicate": [
+          "weapon-specialization",
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          },
+          {
+            "not": "zenith-action"
+          }
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "priority": 0,
+        "selector": "strike-damage",
+        "slug": "zealous-strikes-extra-damage",
+        "predicate": [
+          "weapon-specialization",
+          {
+            "gte": [
+              "@actor.level",
+              15
+            ]
+          }
+        ],
+        "value": 6
+      }
+    ],
     "slug": "fervent-attacks",
     "_migration": {
       "version": 0.935,
@@ -52,7 +89,7 @@
     "location": null
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
-  "sort": 100000,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -63,7 +100,7 @@
     "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "BwlqEBmXWp14ObqB",
   "_key": "!items!BwlqEBmXWp14ObqB"

@@ -1,0 +1,60 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Traverse the World",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>A breeze blows and lightens steps. You or one of your companions @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} or [[/act tumble-through]]{Tumble Through (Acrobatics)} / [[/act tumble-through statistic=recitation]]{Tumble Through (Recitation)}, as the wind aids momentum.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "traverse-the-world",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "air",
+        "dervish",
+        "traversal"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "5Jgvva3cwI5upCaf",
+  "sort": 1000000,
+  "_key": "!items!5Jgvva3cwI5upCaf"
+}

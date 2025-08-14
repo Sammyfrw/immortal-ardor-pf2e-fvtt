@@ -1,0 +1,58 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Purge the Ills",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">Attempt a Medicine check against an adjacent creature that is taking persistent damage. The DC of this check is that of the effect that caused it, or an appropriate DC for its level. On a success, you reduce the DC of the flat check as if you provided appropriate assistance. On a critical success, you end the condition.</span></p><p><span style=\"font-family:Roboto, sans-serif\">@Check[medicine,recitation|options:action:administer-first-aid]</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "purge-the-ills",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "o1S4HX6vDJ09dYB1",
+  "sort": 700000,
+  "_key": "!items!o1S4HX6vDJ09dYB1"
+}

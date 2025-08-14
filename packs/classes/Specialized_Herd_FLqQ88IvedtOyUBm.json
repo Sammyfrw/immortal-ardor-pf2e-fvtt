@@ -1,0 +1,79 @@
+{
+  "folder": "nlddAp9WBxBssNGg",
+  "name": "Specialized Herd",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">You’ve cultivated a following of elements and animals both, and where you all journey, the wisdom of the ages goes with you. You either add a new elemental trait to an existing companion, or gain another companion that has the minion trait. Each of your nimble and savage companions become specialized. Each companion gains one specialization of your choice. Choose the specialization separately for each companion, including any companion that becomes specialized after you take this feat.<br /><br /><strong style=\"mso-bidi-font-weight:normal\">Special</strong> You can select this feat more than once. Each time, add a different specialization to each of your nimble and savage companions. Your nimble and savage companions can have up to three specializations each.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.dervishSojournerArchetype.specializedHerdFeatCount",
+        "value": 1
+      }
+    ],
+    "slug": "specialized-herd",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Incredible Herd"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "FLqQ88IvedtOyUBm",
+  "sort": 400000,
+  "_key": "!items!FLqQ88IvedtOyUBm"
+}

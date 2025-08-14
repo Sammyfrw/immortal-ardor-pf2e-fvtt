@@ -6,9 +6,89 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">The art of healing is but one of many avenues for you to elevate yourself; by improving or saving the lives of others, you feel the pull of the divine. If you Treat Wounds, Administer First Aid, Treat Diseases or perform similar Medicine checks, the first time you roll initiative within the day you gain 1 Zeal at the start of an encounter. In addition, if you use a Medicine check, Cast a Spell or use a recitation to treat or heal others during combat, you also gain Zeal.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Special </strong>If you have the Well of Mysticism feat or a similar exploration or downtime feat or spell that heals or treats other creatures, you gain 1 Zeal the next time you roll initiative within that same day.</span></p>"
+      "value": "<p><span lang=\"EN\">The art of healing is but one of many avenues for you to elevate yourself; by improving or saving the lives of others, you feel the pull of the divine. If you @UUID[Compendium.pf2e.actionspf2e.1kGNdIIhuglAjIp9]{Treat Wounds}, @UUID[Compendium.pf2e.actionspf2e.MHLuKy4nQO2Z4Am1]{Administer First Aid}, @UUID[Compendium.pf2e.actionspf2e.TC7OcDa7JlWbqMaN]{Treat Disease} or perform similar Medicine checks, the first time you roll initiative within the day you gain 1 Zeal at the start of an encounter. In addition, if you use a Medicine check, Cast a Spell or use a recitation to treat or heal others during combat, you also gain Zeal.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Special </strong>If you have the Well of Mysticism feat or a similar exploration or downtime feat or spell that heals or treats other creatures, you gain 1 Zeal the next time you roll initiative within that same day.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "initiative",
+        "text": "If you Treat Wounds, Administer First Aid, Treat Diseases or perform similar Medicine checks, or if you have the Well of Mysticism feat or a similar exploration or downtime feat or spell that heals or treats other creatures, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} the next time you roll initiative within that same day.",
+        "title": "Zeal Gain: {item|name}"
+      },
+      {
+        "key": "Note",
+        "selector": "check",
+        "text": "Once per round, if you use a Medicine check, Cast a Spell or use a recitation to treat or heal others during combat, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal}.",
+        "title": "Zeal Gain: {item|name}",
+        "predicate": [
+          {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          {
+            "or": [
+              "action:treat-wounds",
+              "item:trait:healing"
+            ]
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
+        "mode": "add",
+        "predicate": [
+          {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          {
+            "or": [
+              "item:treat-wounds",
+              "item:administer-first-aid",
+              "item:treat-disease"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Feats.ZealGain.MysticHealing.Description",
+            "title": "IA.SpecificRule.Dervish.Feats.ZealGain.MysticHealing.Label"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          {
+            "or": [
+              "item:treat-wounds",
+              "item:administer-first-aid",
+              "item:treat-disease"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": "zeal"
+      }
+    ],
     "slug": "mystic-healing",
     "_migration": {
       "version": 0.935,
@@ -58,7 +138,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "6Bu3aTmGtKTzfI0S",
   "_key": "!items!6Bu3aTmGtKTzfI0S"

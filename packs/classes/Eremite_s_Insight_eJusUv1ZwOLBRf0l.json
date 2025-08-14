@@ -6,9 +6,31 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">While you’re in a heightened state, you carry a piercing insight that sees and recalls the most crucial of details. While you have Zeal, Recall Knowledge checks that you critically succeed against an observed target allow you to grant you and any allies you tell a +1 circumstance bonus to the next attack roll or skill check they make against that target. You can give bonuses from Eremite’s Insight only once per day against a particular creature.</span></p>"
+      "value": "<p>While you’re in a heightened state, you carry a piercing insight that sees and recalls the most crucial of details. While you have Zeal, @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} checks that you critically succeed against an observed target allow you to grant you and any allies you tell a +1 circumstance bonus to the next attack roll or skill check they make against that target. You can give bonuses from Eremite’s Insight only once per day against a particular creature.</p><p>@UUID[Compendium.immortal-ardor.classes.s5FWiHx2BMlIJ7Af]{Effect: Eremite's Insight}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          },
+          "action:recall-knowledge",
+          {
+            "not": "feat:eremites-intuition"
+          }
+        ],
+        "selector": "skill-check",
+        "text": "You and any allies you tell gain @UUID[Compendium.immortal-ardor.classes.s5FWiHx2BMlIJ7Af]{Effect: Eremite's Insight}. You can give bonuses from Eremite’s Insight only once per day against a particular creature.",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "title": "{item|name}"
+      }
+    ],
     "slug": "eremites-insight",
     "_migration": {
       "version": 0.935,
@@ -57,7 +79,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "eJusUv1ZwOLBRf0l",
   "_key": "!items!eJusUv1ZwOLBRf0l"

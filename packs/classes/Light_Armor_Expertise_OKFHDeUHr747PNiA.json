@@ -42,9 +42,19 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "light": {
+          "rank": 2
+        },
+        "unarmored": {
+          "rank": 2
+        }
+      }
+    }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/equipment/back/mantle-collared-green.webp",
   "sort": 0,
   "ownership": {
     "default": 0,

@@ -8,7 +8,168 @@
       "gm": "",
       "value": "<p>As you gain Zeal, your strikes are imbued with the essence of divinity. If you have Zeal, your Strikes deal an additional 2 spirit damage. After spending Zeal for a Zenith action that ends a Meditation spell, you gain a focus point as the moment of clarity allows you to begin your trance anew.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "damageType": "{item|flags.pf2e.rulesSelections.zealousStrikes}",
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "slug": "zealous-strikes-extra-damage",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          },
+          {
+            "not": "zenith-action"
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "Sojourner Companion Trait",
+        "option": "sojourner-companion-trait",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitAir",
+            "value": "air",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "PF2E.TraitEarth",
+            "value": "earth",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "PF2E.TraitWater",
+            "value": "water",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "PF2E.TraitMetal",
+            "value": "metal",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          },
+          {
+            "label": "PF2E.TraitWood",
+            "value": "wood",
+            "predicate": [
+              "feature:sojourner"
+            ]
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true,
+        "disabledIf": [
+          "zenith-action"
+        ],
+        "disabledValue": false,
+        "value": true,
+        "selection": "wood",
+        "priority": 48,
+        "predicate": [
+          "feature:sojourner"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "Zealous Strikes Damage Type",
+        "domain": "damage",
+        "option": "zealous-strikes",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit",
+            "predicate": [
+              {
+                "not": "feature:sojourner"
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity",
+            "predicate": [
+              "sojourner-companion-trait:air"
+            ]
+          },
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning",
+            "predicate": [
+              "sojourner-companion-trait:earth"
+            ]
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire",
+            "predicate": [
+              "sojourner-companion-trait:fire"
+            ]
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold",
+            "predicate": [
+              "sojourner-companion-trait:water"
+            ]
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing",
+            "predicate": [
+              "sojourner-companion-trait:metal"
+            ]
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing",
+            "predicate": [
+              "sojourner-companion-trait:wood"
+            ]
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true,
+        "disabledIf": [
+          "zenith-action"
+        ],
+        "disabledValue": false,
+        "priority": 49
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.dervish.zealousStrikesDamage",
+        "value": "{item|flags.pf2e.rulesSelections.zealousStrikes}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.dervish.sojournerCompanionTrait",
+        "value": "{item|flags.pf2e.rulesSelections.sojournerCompanionTrait}",
+        "predicate": [
+          "feature:sojourner"
+        ]
+      }
+    ],
     "slug": "zealous-strikes",
     "_migration": {
       "version": 0.935,
@@ -44,7 +205,7 @@
     },
     "location": null
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/weapons/swords/sword-flanged-lightning.webp",
   "sort": 300000,
   "ownership": {
     "default": 0,
@@ -56,7 +217,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "kyVzYnHM3QAqr0O8",
   "_key": "!items!kyVzYnHM3QAqr0O8"

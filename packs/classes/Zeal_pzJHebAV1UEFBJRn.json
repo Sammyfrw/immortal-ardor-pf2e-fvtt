@@ -12,10 +12,46 @@
       {
         "key": "Note",
         "selector": "check",
-        "text": "You gain Zeal.",
-        "title": "Zeal Gain",
+        "text": "You @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} whenever you take an Attack action.",
+        "title": "Zeal Gain: Attack",
         "predicate": [
-          "attack"
+          "attack",
+          {
+            "not": "zenith-action"
+          }
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "Zenith Action",
+        "selector": "check",
+        "text": "You do not gain Zeal when you @UUID[Compendium.immortal-ardor.macros.Macro.xumjguwPtOtkC7tL]{Use Zenith}.",
+        "predicate": [
+          "zenith-action"
+        ]
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "label": "Zenith Action",
+        "option": "zenith-action",
+        "toggleable": true
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zenith.SpendZealLabel",
+        "mode": "add",
+        "predicate": [
+          "item:trait:zenith"
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Zenith.SpendZealDescription"
+          }
         ]
       },
       {
@@ -23,7 +59,7 @@
         "label": "Zeal",
         "max": "5",
         "slug": "zeal",
-        "renew": "false"
+        "renew": false
       }
     ],
     "slug": "zeal",
@@ -61,7 +97,7 @@
     },
     "location": null
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
   "sort": 56250,
   "ownership": {
     "default": 0,
@@ -73,7 +109,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "pzJHebAV1UEFBJRn",
   "_key": "!items!pzJHebAV1UEFBJRn"

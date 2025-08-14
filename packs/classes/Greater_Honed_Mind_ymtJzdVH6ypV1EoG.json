@@ -8,7 +8,15 @@
       "gm": "",
       "value": "<p>When you enter your mind and contemplate your inner self, nothing can distract or pull your attention away. Your proficiency rank for Will saves increases to Legendary. When you roll a critical failure on a Will save, you get a failure instead. When you fail a Will save against an effect that deals damage, you take half damage.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustment": {
+          "criticalFailure": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "will"
+      }
+    ],
     "slug": "greater-honed-mind",
     "_migration": {
       "version": 0.935,
@@ -42,9 +50,16 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "will": {
+          "rank": 4
+        }
+      }
+    }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/sundries/lights/candle-pillar-lit-yellow.webp",
   "sort": 0,
   "ownership": {
     "default": 0,

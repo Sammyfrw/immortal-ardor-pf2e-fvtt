@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You travel as one, from cradle to grave. From different paths, to come together – all things live, grow, and die, and pass on from this life to those coming next. The universal connectedness of life resides in each of you and your traveling companions, and until the time comes, you have much to do, and much to learn.</p><p>You become permanently Quickened. You can only use this action to Command an Animal, or Sustain the ‘Be As One’ recitation. While you have Zeal, you and all your companions share senses and all movement speeds you have, using the highest amongst all of them, and your companions benefit from your Zealous Strikes bonus damage, using their appropriate elemental damage type. If they have multiple elemental traits, choose one.</p>"
+      "value": "<p>You travel as one, from cradle to grave. From different paths, to come together – all things live, grow, and die, and pass on from this life to those coming next. The universal connectedness of life resides in each of you and your traveling companions, and until the time comes, you have much to do, and much to learn.</p><p>You become permanently @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened}. You can only use this action to Command an Animal, or Sustain the ‘Be As One’ recitation. While you have Zeal, you and all your companions share senses and all movement speeds you have, using the highest amongst all of them, and your companions benefit from your Zealous Strikes bonus damage, using their appropriate elemental damage type. If they have multiple elemental traits, choose one each day during your daily preparations.</p>"
     },
     "rules": [],
     "slug": "we-walk-as-one",
@@ -49,7 +49,7 @@
     "location": null
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
-  "sort": 100000,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -60,7 +60,7 @@
     "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "0xPHPItBavmGPG4E",
   "_key": "!items!0xPHPItBavmGPG4E"

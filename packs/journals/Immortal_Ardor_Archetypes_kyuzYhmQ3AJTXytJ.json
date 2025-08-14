@@ -1,0 +1,192 @@
+{
+  "name": "Immortal Ardor Archetypes",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Class Archetypes",
+      "type": "text",
+      "_id": "exdAuSJHiNxoqYQ1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4"
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.exdAuSJHiNxoqYQ1"
+    },
+    {
+      "sort": 200000,
+      "name": "Manafont Archetypes",
+      "type": "text",
+      "_id": "sHHmr0jWPxNur2vX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Whenever a character is able to select an archetype feat, they can select manafont archetype feats. Like regular archetypes, the feat selection provided can give the characters mechanical and thematic focuses in developing their characters.  In general, manafont archetype feats tend to emphasize use of focus points and their manafont features in specific ways. </p><p>Selecting a manafont archetype is significant enough that it behaves similarly to a class archetype in that it is a decision made at 1st level, even though it may not alter the class the way a class archetype would. As a result, it restricts the character from selecting any other manafont or class archetypes. When characters select a manafont archetype, they must take the dedication for that archetype at 1st or 2nd level.</p><p>Finally, upon selecting a manafont archetype, a character gains the Cast a Spell activity, and any time a character gains a focus spell, they gain a focus point.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4"
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.sHHmr0jWPxNur2vX"
+    },
+    {
+      "sort": 300000,
+      "name": "Sojourner (Class Archetype)",
+      "type": "text",
+      "_id": "FFSn744uXfukAH7u",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Amongst those who walk with nature, there are some who ponder their greater place in the cosmos of all life. The Sojourner is a believer of nature and its core elements, seeking union with the great harmony. They pursue the wisdom of the bending river of all life with great zeal, and fight valiantly to protect it as if they were part of its core. They travel and fight alongside chosen stalwart companions, journeying together to be part of the circle of life.</p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Additional Feats: </strong><strong>4th</strong><strong style=\"mso-bidi-font-weight:normal\"> </strong>@UUID[Compendium.pf2e.feats-srd.cg816q76S5otM7yD]{Animal Empathy}; <strong>10th</strong> @UUID[Compendium.pf2e.feats-srd.3R09Hl6IDMgPcSs0]{Beastmaster Bond}; <strong>12th</strong> @UUID[Compendium.pf2e.feats-srd.j5Xjr8vZuBhCixIr]{Side by Side} (12</span><sup><span lang=\"EN\">th</span></sup><span lang=\"EN\">); <strong>16th </strong>@UUID[Compendium.pf2e.feats-srd.Aeea44xyJqYArFun]{Lead the Pack}</span></p><h2>@UUID[Compendium.immortal-ardor.classes.bkMx9mtBwx7VC8NE]{Sojourner} <span style=\"float:right\">1st</span></h2><section class=\"traits\"><p>Dervish</p></section><p>@Embed[Compendium.immortal-ardor.classes.Item.bkMx9mtBwx7VC8NE inline]</p><h2>Parable of the Winding Circle</h2><p>@Embed[Compendium.immortal-ardor.classes.Item.JY1YtoHPSOpHzC3P inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.Tv8GhBmcdccqWtg0]{Sojourner Dedication} <span style=\"float:right\">Feat 2</span></h2><section class=\"traits\"><p>Archetype</p><p>Class</p><p>Dedication</p></section><p>@Embed[Compendium.immortal-ardor.classes.Item.Tv8GhBmcdccqWtg0 inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.classes.YudgS9TuNxSUjrbL]{Growing Herd}<br /> <span style=\"float:right\">Feat 4</span></h2><section class=\"traits\"><p>Archetype</p></section><p>@Embed[Compendium.immortal-ardor.classes.Item.YudgS9TuNxSUjrbL inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.classes.7PzUH1jHlFaG52mE]{Companion's Zenith} <span style=\"float:right\">Feat 6</span></h2><section class=\"traits\"><p>Archetype</p></section><p>@Embed[Compendium.immortal-ardor.classes.Item.7PzUH1jHlFaG52mE inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.classes.QNNcBlGbY48I3M8B]{Double Drive} <span style=\"float:right\">Feat 8</span></h2><section class=\"traits\"><p>Archetype</p><p>Primal</p><p>Zenith</p><p>Traversal</p></section><p>@Embed[Compendium.immortal-ardor.classes.Item.QNNcBlGbY48I3M8B inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.classes.s2QhrRklbLtqEj4S]{Incredible Herd} <span style=\"float:right\">Feat 8</span></h2><section class=\"traits\"><p>Archetype</p></section><p>@Embed[Compendium.immortal-ardor.classes.Item.s2QhrRklbLtqEj4S inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.classes.nVn2nbHnfJjy1blX]{All Things Within} <span style=\"float:right\">Feat 14</span></h2><section class=\"traits\"><p>Archetype</p><p>Healing</p><p>Primal</p><p>Zenith</p></section><p>@Embed[Compendium.immortal-ardor.classes.Item.nVn2nbHnfJjy1blX inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.classes.FLqQ88IvedtOyUBm]{Specialized Herd} <span style=\"float:right\">Feat 14</span></h2><section class=\"traits\"><p>Archetype</p></section><p>@Embed[Compendium.immortal-ardor.classes.Item.FLqQ88IvedtOyUBm inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.classes.0xPHPItBavmGPG4E]{We Walk As One} <span style=\"float:right\">Feat 18</span></h2><section class=\"traits\"><p>Archetype</p></section><p>@Embed[Compendium.immortal-ardor.classes.Item.0xPHPItBavmGPG4E inline hr=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4"
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.FFSn744uXfukAH7u"
+    },
+    {
+      "sort": 0,
+      "name": "Multiclass Archetypes",
+      "type": "text",
+      "_id": "bvvF5GaYkgkzERZQ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "JournalEntry.wWwuVkZ3Vk9NEhaT.JournalEntryPage.bvvF5GaYkgkzERZQ",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4"
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.bvvF5GaYkgkzERZQ"
+    },
+    {
+      "sort": 50000,
+      "name": "Dervish",
+      "type": "text",
+      "_id": "n4hqsmYDoXWNNCoM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span lang=\"EN\">You have pondered your place in the world, and tapping into scripture and philosophy have allowed you to grasp a touch of the divine.</span></p><h2>@UUID[Compendium.immortal-ardor.classes.KRGQT0HF73gvhCAu]{Dervish Dedication} <span style=\"float:right\">Feat 2</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li class=\"tag traits\">dedication</li><li class=\"tag traits\">multiclass</li><li><p><span lang=\"EN\">@Embed[Compendium.immortal-ardor.classes.Item.KRGQT0HF73gvhCAu inline]</span></p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.NPqAq1VOpW2XRVSX]{Basic Philosophy} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.immortal-ardor.classes.Item.NPqAq1VOpW2XRVSX inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.ikE6xVmnZ15uxt2c]{Step Into the Path} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.Item.ikE6xVmnZ15uxt2c inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.0DX42LWITr9BnW02]{Advanced Philosophy} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.Item.0DX42LWITr9BnW02 inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.9wkQVNzh4QzVniP8]{Peace of Mind} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.immortal-ardor.classes.Item.9wkQVNzh4QzVniP8 inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.BwlqEBmXWp14ObqB]{Fervent Attacks} <span style=\"float:right\">Feat 8</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.Item.BwlqEBmXWp14ObqB inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.ij995NEguMjua0ud]{Expert Fervor} <span style=\"float:right\">Feat 12</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.immortal-ardor.classes.Item.ij995NEguMjua0ud inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "JournalEntry.wWwuVkZ3Vk9NEhaT.JournalEntryPage.n4hqsmYDoXWNNCoM",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4"
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.n4hqsmYDoXWNNCoM"
+    }
+  ],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "kyuzYhmQ3AJTXytJ",
+  "sort": 200000,
+  "categories": [],
+  "_key": "!journal!kyuzYhmQ3AJTXytJ"
+}

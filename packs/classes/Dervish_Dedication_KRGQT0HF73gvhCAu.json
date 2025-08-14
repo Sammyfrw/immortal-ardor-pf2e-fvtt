@@ -6,9 +6,20 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You become trained Religion and one skill of your choice. For each of these skills in which you are already trained, you instead become trained in a skill of your choice. You become trained in Dervish class DC.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">If you later gain a Zenith feat or a Meditation spell from this archetype, you gain the Zeal class feature, but you can only gain one Zeal from this feature each round.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You become trained in light armor. If you have a class feature that grants you expert proficiency in unarmored defense and you’re 13</span><sup><span lang=\"EN\">th</span></sup><span lang=\"EN\"> level or higher, you also become an expert in light armor.</span></p><hr /><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Special </strong>You cannot gain another dedication feat until you have gained two other feats from the Dervish archetype.</span></p>"
+      "value": "<p><span lang=\"EN\">You become trained Religion and one skill of your choice. If you are already trained in Religion, you instead become trained in a skill of your choice. You become trained in Dervish class DC.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">If you later gain a Zenith feat or a Meditation spell from this archetype, you gain the Zeal class feature, but you can only gain one Zeal from this feature each round.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You become trained in light armor. If you have a class feature that grants you expert proficiency in unarmored defense and you’re 13</span><sup><span lang=\"EN\">th</span></sup><span lang=\"EN\"> level or higher, you also become an expert in light armor.</span></p><hr /><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Special </strong>You cannot gain another dedication feat until you have gained two other feats from the Dervish archetype.</span></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.kyuzYhmQ3AJTXytJ.JournalEntryPage.n4hqsmYDoXWNNCoM]{Dervish}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.religion.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.pzJHebAV1UEFBJRn"
+      }
+    ],
     "slug": "dervish-dedication",
     "_migration": {
       "version": 0.935,
@@ -53,7 +64,7 @@
     "location": null
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
-  "sort": 100000,
+  "sort": 700000,
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -64,7 +75,7 @@
     "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "KRGQT0HF73gvhCAu",
   "_key": "!items!KRGQT0HF73gvhCAu"

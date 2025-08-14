@@ -1,0 +1,139 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Moonglare",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.YCWXIwfmFRTYWfoa]{Moonglare}</p><p><span style=\"font-family:Roboto, sans-serif\">You gain a +1 circumstance bonus to your AC and saving throw against your target's next attack or spell for 1 round (+2 on critical success)</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac",
+          "saving-throw"
+        ],
+        "type": "circumstance",
+        "value": "{item|flags.pf2e.rulesSelections.moonglareOutcome}",
+        "predicate": [
+          "moonglare"
+        ],
+        "removeAfterRoll": "if-enabled"
+      },
+      {
+        "key": "ChoiceSet",
+        "flag": "moonglareOutcome",
+        "prompt": "Moonglare Outcome",
+        "choices": [
+          {
+            "label": "Critical Success",
+            "value": "2",
+            "predicate": [
+              {
+                "lte": [
+                  "self:level",
+                  12
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Critical Success",
+            "value": "3",
+            "predicate": [
+              {
+                "gt": [
+                  "self:level",
+                  12
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Success",
+            "value": "1",
+            "predicate": [
+              {
+                "lte": [
+                  "self:level",
+                  12
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Success",
+            "value": "2",
+            "predicate": [
+              {
+                "gt": [
+                  "self:level",
+                  12
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "label": "Attacker is affected by Moonglare",
+        "option": "moonglare",
+        "toggleable": true
+      }
+    ],
+    "slug": "effect-moonglare",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/light/explosion-star-glow-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "8Klm9H6BXxA7OMUJ",
+  "sort": 2500000,
+  "_key": "!items!8Klm9H6BXxA7OMUJ"
+}

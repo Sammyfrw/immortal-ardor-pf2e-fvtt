@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">Your following grows as your journey continues. You either add a new elemental trait to an existing companion, or gain another companion that has the minion trait. All your companions become mature companions and gain additional capabilities.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">During an encounter, even if you don’t use the Command an Animal action, your active companion can still use 1 action that round on your turn to Stride or Strike. It can do this at any point during your turn, as long as you aren’t currently taking an action. If it does, that’s all the actions it gets that round— you can’t Command it later.</span></p>"
+      "value": "<p><span lang=\"EN\">Your following grows as your journey continues. You either add a new elemental trait to an existing companion, or gain another companion that has the minion trait. All your companions become mature companions and gain additional capabilities.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">During an encounter, even if you don’t use the @UUID[Compendium.pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{Command an Animal} action, your active companion can still use 1 action that round on your turn to @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} or @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}. It can do this at any point during your turn, as long as you aren’t currently taking an action. If it does, that’s all the actions it gets that round— you can’t Command it later.</span></p>"
     },
     "rules": [],
     "slug": "growing-herd",
@@ -49,7 +49,7 @@
     "location": null
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
-  "sort": 100000,
+  "sort": 1100000,
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -60,7 +60,7 @@
     "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "YudgS9TuNxSUjrbL",
   "_key": "!items!YudgS9TuNxSUjrbL"

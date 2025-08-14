@@ -1,0 +1,61 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "Evoke Destruction",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>Flames roar, heralding great and terrifying change. You or one of your companions can attempt to <span style=\"font-family:Roboto, sans-serif\">[[/act demoralize]]{Demoralize (Intimidation)} / [[/act demoralize statistic=recitation]]{Demoralize (Recitation)} </span>a creature within 30 feet.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "evoke-destruction",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "emotion",
+        "fire",
+        "mental"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "5ynf5Zr4SuS0iY7e",
+  "sort": 2600000,
+  "_key": "!items!5ynf5Zr4SuS0iY7e"
+}

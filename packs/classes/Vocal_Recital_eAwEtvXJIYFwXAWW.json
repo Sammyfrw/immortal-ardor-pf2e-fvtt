@@ -6,9 +6,115 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">You can recite your parables and verses in ways that draw attention with a melodic voice and presence. You can Perform using Religion, and use Religion as a prerequisite for Performance feats. While you have Zeal, you gain a +1 circumstance bonus to Religion checks and to Perform using Religion. This bonus increases to a +2 when you are a Master in Religion.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">You can recite your parables and verses in ways that draw attention with a melodic voice and presence. You can [[/act perform variant=singing statistic=religion]] using Religion, and use Religion as a prerequisite for Performance feats. While you have Zeal, you gain a +1 circumstance bonus to Religion checks and to Perform using Religion. This bonus increases to a +2 when you are a Master in Religion.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "religion",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          },
+          {
+            "not": "feature:sojourner"
+          },
+          {
+            "gte": [
+              "skill:religion:rank",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "religion",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          },
+          {
+            "not": "feature:sojourner"
+          },
+          {
+            "lt": [
+              "skill:religion:rank",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "nature",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          },
+          "feature:sojourner",
+          {
+            "lt": [
+              "skill:nature:rank",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "nature",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          },
+          "feature:sojourner",
+          "item:slug:vocal-recital",
+          {
+            "gte": [
+              "skill:nature:rank",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "mode": "override",
+        "predicate": [
+          "feature:sojourner",
+          "item:slug:vocal-recital"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You can recite your parables and verses in ways that draw attention with a melodic voice and presence. You can [[/act perform variant=singing statistic=nature]] using Nature, and use Nature as a prerequisite for Performance feats. While you have Zeal, you gain a +1 circumstance bonus to Nature checks and to Perform using Nature. This bonus increases to a +2 when you are a Master in Nature.",
+            "title": "Sojourner Vocal Recital"
+          }
+        ]
+      }
+    ],
     "slug": "vocal-recital",
     "_migration": {
       "version": 0.935,
@@ -57,7 +163,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "eAwEtvXJIYFwXAWW",
   "_key": "!items!eAwEtvXJIYFwXAWW"

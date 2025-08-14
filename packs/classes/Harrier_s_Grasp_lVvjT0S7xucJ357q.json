@@ -8,7 +8,42 @@
       "gm": "",
       "value": "<p><span lang=\"EN\">Spiritual power lies at your fingertips, and you can use them in your art as well as any weapon. The damage die for your fist unarmed attacks becomes 1d6 instead of 1d4. You don’t take the -2 circumstance penalty for making a lethal attack with your nonlethal unarmed attacks.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">When you have Zeal, your unarmed attacks gain the divine trait, making them magical. Having a free hand qualifies as wielding a melee weapon and having two free hands qualifies as wielding a two-handed melee weapon for the purposes of any dervish feats.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemId": "xxxxxxFISTxxxxxx",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "damage-dice-faces"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:category:unarmed",
+          {
+            "not": "feature:sojourner"
+          }
+        ],
+        "property": "traits",
+        "value": "divine"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:category:unarmed",
+          "feature:sojourner"
+        ],
+        "property": "traits",
+        "value": "primal"
+      },
+      {
+        "fist": true,
+        "key": "Strike"
+      }
+    ],
     "slug": "harriers-grasp",
     "_migration": {
       "version": 0.935,
@@ -56,7 +91,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "lVvjT0S7xucJ357q",
   "_key": "!items!lVvjT0S7xucJ357q"

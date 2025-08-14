@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You’ve reached the end of your journey. At the end of a long, contemplative road, the world seems both vast and small. All worldly things seem to offer so little, while mattering so much. All that is left is to give yourself to the universe for the time that you have.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">When you take this feat, you no longer age and no longer have any need to eat, drink or any similar need of sustenance. If you were to ever die, your remains will fade away and you can reappear at a place that is important to you a week later, such as your home or a school that set you on your journey. If you were to die again within a week of your reappearance, you will permanently die, otherwise you cannot die from old age or move on until you choose to.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Once per week, you can provide for yourself or others in your community, with your knowledge, wisdom, and near-divine capabilities. Anytime you participate in a Ritual, take a Downtime activity or an Exploration activity, you can always make you or a participant in these activities critically succeed. At a GM’s discretion, particularly legendary acts in these activities may not apply, such as creating an artifact or participating in a very rare or world-influencing ritual.</span></p>"
+      "value": "<p><span lang=\"EN\">You’ve reached the end of your journey. At the end of a long, contemplative road, the world seems both vast and small. All worldly things seem to offer so little, while mattering so much. All that is left is to give yourself to the universe for the time that you have.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">When you take this feat, you no longer age and no longer have any need to eat, drink or any similar need of sustenance. If you were to ever die, your remains will fade away and you can reappear at a place that is important to you a week later, such as your home or a school that set you on your journey. If you were to die again within a week of your reappearance, you will permanently die, otherwise you cannot die from old age or move on until you choose to.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Once per week, you can provide for yourself or others in your community, with your knowledge, wisdom, and near-divine capabilities. Anytime you participate in a Ritual, take a Downtime activity or an Exploration activity, you can always make you or a participant in these activities critically succeed. At a GM’s discretion, particularly legendary acts in these activities may not apply, such as creating an artifact or participating in a very rare or world-influencing ritual. When you do assist, the next time you roll initiative within 7 days, you automatically gain 5 zeal.</span></p>"
     },
     "rules": [],
     "slug": "the-final-step",
@@ -56,7 +56,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "ZnzApsUB5y62DDP9",
   "_key": "!items!ZnzApsUB5y62DDP9"

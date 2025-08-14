@@ -8,7 +8,65 @@
       "gm": "",
       "value": "<p><span lang=\"EN\">Your journey into the realm of spiritual philosophy and transcendence either sits within the tenets of your deity or has led you to a path of worship. Through their edicts, you acquire their divine blessing as you travel the road of fulfillment. You become sanctified to become holy or unholy depending on the deity’s sanctification entry, and must make a choice for either if they offer both.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You gain the corresponding trait, and are beholden to follow any relevant edicts and refrain from the anathema of your deity. If you perform enough acts that are anathema, you lose the benefits of this feat. You can only regain the benefits of this feat if you repent by conducting an atone ritual.</span></p><p>While sanctified, your unarmed strikes and any source of spirit damage from the dervish class, such as the Zealous Strikes feature, gain the appropriate trait.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.TraitHoly",
+            "value": "holy"
+          },
+          {
+            "label": "PF2E.TraitUnholy",
+            "value": "unholy"
+          }
+        ],
+        "flag": "sanctification",
+        "key": "ChoiceSet"
+      },
+      {
+        "add": [
+          "{item|flags.pf2e.rulesSelections.sanctification}"
+        ],
+        "key": "ActorTraits"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:tag:dervish-spirit-damage"
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": "sanctified"
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:tag:dervish-spirit-damage"
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": "sanctified"
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "feature:zealous-strikes",
+              "dervish-spirit-damage"
+            ]
+          }
+        ],
+        "priority": 150,
+        "property": "traits",
+        "value": "{item|flags.pf2e.rulesSelections.sanctification}"
+      }
+    ],
     "slug": "divine-servitude",
     "_migration": {
       "version": 0.935,
@@ -60,7 +118,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "dGF8uSMbziIPBw9b",
   "_key": "!items!dGF8uSMbziIPBw9b"

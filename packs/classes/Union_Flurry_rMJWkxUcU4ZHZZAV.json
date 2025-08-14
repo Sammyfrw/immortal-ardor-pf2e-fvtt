@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p><strong>Requirements</strong> You are wielding weapons with the union or twin trait.</p><hr /></div><p>You brandish a pair or a conjoined weapon meant to be used in tandem, and swing with both. Strike twice, one with each end of the union weapon or each twin of the weapons. If both Strikes hit the same target, combine their damage for the purpose of its resistances and weaknesses. Apply your multiple attack penalty to each Strike normally.</p>"
+      "value": "<div><p><strong>Requirements</strong> You are wielding weapons with the union or twin trait.</p><hr /></div><p>You brandish paired or conjoined weapons meant to be used in tandem, and swing with both. @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} twice, one with each end of the union weapon or each twin of the weapons. If both Strikes hit the same target, combine their damage for the purpose of its resistances and weaknesses. Apply your multiple attack penalty to each Strike normally.</p>"
     },
     "rules": [],
     "slug": "union-flurry",
@@ -35,10 +35,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     },
     "prerequisites": {
       "value": []
@@ -57,7 +57,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "rMJWkxUcU4ZHZZAV",
   "_key": "!items!rMJWkxUcU4ZHZZAV"

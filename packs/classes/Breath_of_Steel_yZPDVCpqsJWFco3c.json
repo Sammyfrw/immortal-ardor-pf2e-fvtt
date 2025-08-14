@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You channel the inner dragon at the peak of your zealous spirit and let loose a spiritual breath or carve a slash of divine power with your weapon. Spend your Zeal, and creatures in a 30-foot cone from you need to make a basic Reflex saving throw against your class DC. The effect of this Zenith is dependent on the amount of Zeal spent:</span></p><ul><li><p><span lang=\"EN\" style=\"color:black\">1-2 Zeal: 1d6 spirit damage</span></p></li><li><p><span style=\"mso-list:Ignore\"><span style=\"font-family:'Noto Sans Symbols'\"> </span></span><span lang=\"EN\" style=\"color:black\">3-4 Zeal: 2d6 spirit damage</span></p></li><li><p><span lang=\"EN\" style=\"color:black\">5 Zeal: 2d6 spirit damage, and an additional 1d6 persistent spirit damage on a critical failure</span></p></li></ul><p class=\"MsoNormal\"><span lang=\"EN\"><span style=\"text-decoration:underline\">Special</span>: If you are aligned to a particular type of dragon, such as through a draconic exemplar or bloodline, you can choose to deal damage matching their listed breath damage type instead of spirit damage.</span></p><p><strong>Level (+2)</strong> The damage and persistent damage increases by 1d6.</p>"
+      "value": "<p>You channel the inner dragon at the peak of your zealous spirit and let loose a spiritual breath or carve a slash of divine power with your weapon. @UUID[Compendium.immortal-ardor.macros.Macro.xumjguwPtOtkC7tL]{Spend your Zeal}, and creatures in a @Template[cone|distance:30] from you need to make a @Check[reflex|against:dervish|basic] against your class DC. The effect of this Zenith is dependent on the amount of Zeal spent:</p><ul><li><p>1-2 Zeal: @Damage[max(2,(2+1*floor((@actor.level - 1)/2)))d6[spirit]|options:area-damage] damage, but targets treat their save as one degree of success better.</p></li><li><p>3-4 Zeal: As above, and persistent spirit damage equal to half the above number of d6 dice rounded down on a critical failure. @Damage[floor(max(2,(2+1*floor((@actor.level - 1)/2)))/2)d6[{spirit,persistent]]</p></li><li><p>5 Zeal: As 3-4 Zeal, but targets suffer persistent damage on a failure.</p></li></ul><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span>: If you are aligned to a particular type of dragon, such as through a draconic exemplar or bloodline, you can choose to deal damage matching their listed breath damage type instead of spirit damage.</p><p><strong>Level (+2)</strong> The damage increases by 1d6.</p>"
     },
     "rules": [],
     "slug": "breath-of-steel",
@@ -60,7 +60,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "yZPDVCpqsJWFco3c",
   "_key": "!items!yZPDVCpqsJWFco3c"

@@ -6,9 +6,79 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">If Greed is insurmountable, then you must live with it. Such was the primary lesson of the drachiri empire, and you too return to this core lesson. The world is built despite these flaws, and achievements can be made in spite of – or because of it.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">During your daily preparations, choose acid, fire, electricity, mental, cold or poison. While you have Zeal, you have resistance 15 to the chosen damage type for the day. In addition, you can change the damage type from your Zealous strikes or any Dervish feat that allows you to deal spirit damage to match that of this selection. Finally, you gain a fly speed equal to your Speed.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><span style=\"text-decoration:underline\">Special</span>: If you are aligned to a particular type of dragon, such as through a draconic exemplar or bloodline, if you pick the same damage type as your dragon your resistance increases to 25.</span></p>"
+      "value": "<p><span lang=\"EN\">If Greed is insurmountable, then you must live with it. Such was the primary lesson of the drachiri empire, and you too return to this core lesson. The world is built despite these flaws, and achievements can be made in spite of – or because of it.</span></p><p><span lang=\"EN\">You gain a fly speed equal to your Speed. During your daily preparations, choose acid, fire, electricity, mental, cold or poison. While you have Zeal, you have resistance 15 to the chosen damage type for the day. In addition, creatures within 30 feet of you must succeed at a @Check[will|against:dervish|traits:fear,emotion,mental] save or become @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2} (@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 3} on a critical failure) or become @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} (your choice).</span> Regardless of outcome, a creature becomes immune to this effect for 1 hour.<span lang=\"EN\"> This is an emotion, fear and mental effect, and your allies can ignore this effect.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span>: If you are aligned to a particular type of dragon, such as through a draconic exemplar or bloodline, if you pick the same damage type as your dragon your resistance increases to 25.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Radiant Empire Resistance",
+        "domain": "all",
+        "option": "radiant-empire-resistance",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "value": "mental"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true,
+        "priority": 35
+      },
+      {
+        "key": "Resistance",
+        "type": "{item|flags.pf2e.rulesSelections.radiantEmpireResistance}",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          }
+        ],
+        "value": 15
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": "@actor.attributes.speed.total"
+      },
+      {
+        "key": "Aura",
+        "radius": 30,
+        "traits": [
+          "emotion",
+          "mental"
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "radiant-empire",
     "_migration": {
       "version": 0.935,
@@ -40,7 +110,11 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Parable of the Dragon's Greed"
+        }
+      ]
     },
     "location": null
   },
@@ -56,7 +130,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "STAwpxj58Q9PhnUF",
   "_key": "!items!STAwpxj58Q9PhnUF"

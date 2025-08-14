@@ -1,0 +1,85 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Bear Witness",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.sjKAtCDXPkLX8QsJ]{Bear Witness}</p><p>You have a +1 or +2 circumstance bonus to your next attack roll within 1 round, based on the outcome of Bear Witness.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "bearWitnessOutcome",
+        "prompt": "Bear Witness Outcome",
+        "choices": [
+          {
+            "label": "Critical Hit",
+            "value": 2
+          },
+          {
+            "label": "Hit",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack",
+        "value": "{item|flags.pf2e.rulesSelections.bearWitnessOutcome}",
+        "type": "circumstance"
+      }
+    ],
+    "slug": "effect-bear-witness",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 2,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/creatures/abilities/bear-roar-bite-brown.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "8DcwhPMUyyXHWRiT",
+  "sort": 100000,
+  "_key": "!items!8DcwhPMUyyXHWRiT"
+}

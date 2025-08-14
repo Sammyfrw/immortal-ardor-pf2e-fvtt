@@ -1,0 +1,59 @@
+{
+  "folder": "mgJCrccu8gJ1eD7B",
+  "name": "The Heaviest Footfalls",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>The earth withstands the steps of every creature born upon it. You or one of your companions @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Step} or <span style=\"font-family:Roboto, sans-serif\">[[/act trip]]{Trip (Athletics)]} / [[/act trip statistic=recitation]]{Trip (Recitation)}</span> a creature within reach, as the earth quakes and throttles with each motion.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "the-heaviest-footfalls",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "earth"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "bmHPcGPaGY6rOFQ0",
+  "sort": 1800000,
+  "_key": "!items!bmHPcGPaGY6rOFQ0"
+}

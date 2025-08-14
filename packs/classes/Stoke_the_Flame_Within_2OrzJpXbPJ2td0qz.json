@@ -1,0 +1,78 @@
+{
+  "folder": "56XxK2wBB9Bc02Fh",
+  "name": "Stoke the Flame Within",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You invoke the passion of flame, and like bringing fire to kindling you spread that fervor to those who would receive it. With a wide gesture or a powerful chant, target a number of allies other than you within 30 feet equal to the number of actions you take. These allies become empowered, and deal additional spirit or fire damage (your choice) equal to your amount of Zeal at the time you use this ability for the next successful Strike or damaging spell they cast within the next round. This damage is not multiplied on a critical hit.</p><p>At 16th level, this additional damage increases to 10 plus your amount of Zeal.</p><p>@UUID[Compendium.immortal-ardor.classes.iYO7cG4loq8PCx1U]{Effect: Stoke the Flame Within}</p>"
+    },
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "feature:sojourner",
+          "item:slug:stoke-the-flame-within"
+        ],
+        "property": "other-tags",
+        "value": "stoke-the-flame-within-sojourner-{actor|flags.pf2e.dervish.zealousStrikesDamage}"
+      }
+    ],
+    "slug": "stoke-the-flame-within",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish",
+        "emotion",
+        "fire",
+        "spirit"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "2OrzJpXbPJ2td0qz",
+  "_key": "!items!2OrzJpXbPJ2td0qz"
+}

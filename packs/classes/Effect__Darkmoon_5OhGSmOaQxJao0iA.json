@@ -1,0 +1,88 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Darkmoon",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.uuG9XjzZvuSEy1xo]{Darkmoon}</p><p>You are @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} against the target of your Darkmoon (@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}on a critical success).</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.darkmoonOutcome}",
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "allowDuplicate": false,
+        "priority": 101
+      },
+      {
+        "key": "ChoiceSet",
+        "flag": "darkmoonOutcome",
+        "prompt": "Darkmoon Outcome",
+        "choices": [
+          {
+            "label": "Critical Success",
+            "value": "Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC"
+          },
+          {
+            "label": "Success",
+            "value": "Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W"
+          }
+        ]
+      }
+    ],
+    "slug": "effect-darkmoon",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/light/explosion-star-glow-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "5OhGSmOaQxJao0iA",
+  "sort": 3300000,
+  "_key": "!items!5OhGSmOaQxJao0iA"
+}
