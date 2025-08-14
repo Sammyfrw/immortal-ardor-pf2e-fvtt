@@ -6,9 +6,29 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">The fire represents the multifaceted elements of life. Fire is life; this fact is central to the Roaring Flame. Whether to burn, entrance, heal or invigorate, fire is the root of it all.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">While you have Zeal, any time you use an Emotion effect on an ally, you can heal them for 2d8 hit points. Any time you use an Emotion effect on an enemy that deals damage, you add an additional 2d8 fire damage.</span></p>"
+      "value": "<p><span lang=\"EN\">The fire represents the multifaceted elements of life. Fire is life; this fact is central to the Roaring Flame. Whether to burn, entrance, heal or invigorate, fire is the root of it all.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">While you have Zeal, any time you use an Emotion effect on an ally, you can heal them for [[/r 2d8[healing]]] hit points. Any time you use an Emotion effect on an enemy that deals damage, you add an additional @Damage[2d8[fire]] damage.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "text": "While you have Zeal, any time you use an Emotion effect on an ally, you can heal them for [[/r 2d8[healing]]] hit points. Any time you use an Emotion effect on an enemy that deals damage, you add an additional @Damage[2d8[fire]] damage.",
+        "title": "{item|name}",
+        "selector": [
+          "damage",
+          "check",
+          "healing"
+        ],
+        "predicate": [
+          "item:trait:emotion",
+          {
+            "gte": [
+              "{actor|system.resources.zeal.value}",
+              1
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "the-song-of-life",
     "_migration": {
       "version": 0.935,
@@ -60,7 +80,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "7LBKEV6rY132HWuM",
   "_key": "!items!7LBKEV6rY132HWuM"

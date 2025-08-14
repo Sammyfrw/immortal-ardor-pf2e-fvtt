@@ -6,9 +6,18 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p><strong>Requirements</strong> You have inflicted Zealous Strikes damage to at least one creature this turn.</p><hr /></div><p>You whirl your weapon in a frenetic motion, surrounding you and your struck opponents with the threads of divinity you’ve woven. For 1 round, you gain resistance to all damage equal to your Zealous Strikes damage against the creatures you’ve struck, and your allies who damage these creatures deal additional damage equal to your Zealous Strikes damage.</p>"
+      "value": "<div><p><strong>Requirements</strong> You have inflicted Zealous Strikes damage to at least one creature this turn.</p><hr /></div><p>You whirl your weapon in a frenetic motion, surrounding you and your struck opponents with the threads of divinity you’ve woven. For 1 round, you gain resistance to all damage equal to your Zealous Strikes damage against the creatures you’ve struck, and when your allies damage these creatures, the creature takes additional damage equal to your Zealous Strikes damage.</p><p>@UUID[Compendium.immortal-ardor.classes.0OcG83DFwvBA7dYk]{Effect: Resonating Ripple}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": 6,
+        "predicate": [
+          "origin:mark:resonating-ripple"
+        ]
+      }
+    ],
     "slug": "resonating-ripple",
     "_migration": {
       "version": 0.935,
@@ -56,7 +65,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "yAeCZLuESU6yt6J2",
   "_key": "!items!yAeCZLuESU6yt6J2"

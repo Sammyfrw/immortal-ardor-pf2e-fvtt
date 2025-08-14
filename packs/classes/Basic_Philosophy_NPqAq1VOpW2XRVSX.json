@@ -8,7 +8,31 @@
       "gm": "",
       "value": "<p>You gain a 1st or 2nd-level dervish feat.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:category:class",
+            "item:trait:dervish",
+            {
+              "lte": [
+                "item:level",
+                2
+              ]
+            }
+          ],
+          "itemType": "feat"
+        },
+        "flag": "basicPhilosophy",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.LevelOneOrTwoClassFeat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.basicPhilosophy}"
+      }
+    ],
     "slug": "basic-philosophy",
     "_migration": {
       "version": 0.935,
@@ -60,7 +84,7 @@
     "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "NPqAq1VOpW2XRVSX",
   "_key": "!items!NPqAq1VOpW2XRVSX"

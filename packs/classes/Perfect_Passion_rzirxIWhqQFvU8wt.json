@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p><strong>Requirements</strong> You are wielding a ranged or thrown weapon, and you have Zeal.</p><hr /></div><p>In your fervor, you find the perfect moment to take the perfect shot, and unleash it. Stride, and make a Ranged Strike. You ignore half the target’s resistances to physical damage or hardness. If you manage to deal damage to a creature that has resistances or hardness to your attack, the target becomes Enfeebled 1 (Enfeebled 2 on a critical hit).</p>"
+      "value": "<div><p><strong>Requirements</strong> You are wielding a ranged or thrown weapon, and you have Zeal.</p><hr /></div><p>In your fervor, you find the perfect moment to take the perfect shot, and unleash it. @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride}, and make a Ranged @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}. You ignore half the target’s resistances to physical damage or hardness. If you manage to deal damage to a creature that has resistances or hardness to your attack, the target becomes @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} (@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2} on a critical hit).</p>"
     },
     "rules": [],
     "slug": "perfect-passion",
@@ -57,7 +57,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "rzirxIWhqQFvU8wt",
   "_key": "!items!rzirxIWhqQFvU8wt"

@@ -240,6 +240,14 @@
             "MysticHealing": {
               "Label": "Mystic Healing",
               "Description": "If you Treat Wounds, Administer First Aid, Treat Diseases or perform similar Medicine checks, the first time you roll initiative within the day you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} at the start of an encounter."
+            },
+            "Predestination": {
+              "Label": "Predestination",
+              "Description": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when you use a Move action or an action with the Teleportation trait."
+            },
+            "WarringZealUnbound": {
+              "Label": "Warring Zeal Unbound",
+              "Description": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when you take the Strike action or reduce a creature to 0 hit points."
             }
           }
         },

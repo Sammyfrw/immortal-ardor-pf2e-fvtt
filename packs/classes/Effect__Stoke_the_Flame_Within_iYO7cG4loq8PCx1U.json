@@ -31,8 +31,8 @@
         },
         "removeAfterRoll": true,
         "damageType": "{item|flags.pf2e.rulesSelections.stokeFlameWithinDamageType}",
-        "critical": false,
-        "slug": "stoke-flame-within-damage"
+        "slug": "stoke-flame-within-damage",
+        "critical": false
       },
       {
         "key": "AdjustModifier",

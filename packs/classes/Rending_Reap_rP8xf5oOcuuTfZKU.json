@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p><strong>Requirements</strong> You hit the same creature with two consecutive Strikes with agile or finesse weapons this turn, and you have Zeal.</p><hr /></div><p>The mystical touch of your weapons have left infused injuries, and you reap the wounds to agitate your opponent further. You deal an additional amount of damage to the creature equal to a Strike with the qualifying weapon. If you used two different weapons for the Strikes, choose one. If the creature was off-guard for either of these strikes, it becomes off-guard until the end of your next turn.</p>"
+      "value": "<div><p><strong>Requirements</strong> You hit the same creature with two consecutive Strikes with agile or finesse weapons this turn, and you have Zeal.</p><hr /></div><p>The mystical touch of your weapons have left infused injuries, and you reap the wounds to agitate your opponent further. You deal damage to the enemy as if you had made a successful Strike with your weapon. If you used two different weapons for the Strikes, choose one. If the creature was @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} for either of these strikes, it becomes off-guard until the end of your next turn.</p>"
     },
     "rules": [],
     "slug": "rending-reap",
@@ -56,7 +56,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "rP8xf5oOcuuTfZKU",
   "_key": "!items!rP8xf5oOcuuTfZKU"

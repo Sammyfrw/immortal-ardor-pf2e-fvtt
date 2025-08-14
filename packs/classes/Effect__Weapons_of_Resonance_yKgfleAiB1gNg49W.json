@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.2jC7WJKIDxJS3LyY]{Weapons of Resonance}</p><p><span style=\"font-family:Roboto, sans-serif\">Until the end of your turn, your weapon gains the versatile spirit trait, and attacks with your weapon ignore resistances to spirit damage equal to your amount of Zeal.</span></p><p><br class=\"Apple-interchange-newline\" /></p>"
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.2jC7WJKIDxJS3LyY]{Weapons of Resonance}</p><p><span style=\"font-family:Roboto, sans-serif\">Until the end of your turn, your weapon gains the versatile trait matching the damage type of your Zealous Strikes, and attacks with your weapon ignore resistances to this damage type equal to your amount of Zeal.</span></p><p><br class=\"Apple-interchange-newline\" /></p>"
     },
     "rules": [
       {

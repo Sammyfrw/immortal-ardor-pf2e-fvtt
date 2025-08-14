@@ -8,7 +8,62 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span lang=\"EN\">The fervent highs of battle allows you to reach your transcendent state more quickly. Once per round, you gain Zeal when you take the Strike action or reduce a creature to 0 hit points.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "check",
+        "text": "Once per round, you @UUID[Compendium.immortal-ardor.macros.Macro.GKvebOKUsIBQZhbN]{Gain Zeal} when you take the Strike action or reduce a creature to 0 hit points.",
+        "title": "Zeal Gain: {item|name}",
+        "predicate": [
+          "action:strike",
+          {
+            "not": "zenith-action"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
+        "mode": "add",
+        "predicate": [
+          {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          "item:strike"
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Feats.ZealGain.WarringZealUnbound.Description",
+            "title": "IA.SpecificRule.Dervish.Feats.ZealGain.WarringZealUnbound.Label"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Dervish.Zeal.GainLabel",
+        "mode": "add",
+        "predicate": [
+          {
+            "nor": [
+              "item:trait:zenith",
+              "zenith-action"
+            ]
+          },
+          "action:strike"
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": "zeal"
+      }
+    ],
     "slug": "warring-zeal-unbound",
     "_migration": {
       "version": 0.935,
@@ -56,7 +111,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "x0VAYHfbz7vKXkFA",
   "_key": "!items!x0VAYHfbz7vKXkFA"

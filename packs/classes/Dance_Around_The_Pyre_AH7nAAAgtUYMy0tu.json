@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>You [[/act perform dc=15 variant=dance]]{Perform (Performance)} / [[/act perform variant=dance dc=15 statistic=recitation]]{Perform (Recitation)} against a DC 15.On any outcome except a critical failure, all allies within your field can choose to Stride up to half their speed as a free action, or up to their speed on a critical success. They must end their movement within your field.</p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p>You [[/act perform dc=15 variant=dance traits=move,visual,emotion,mental]]{Perform (Performance)} / [[/act perform variant=dance dc=15 statistic=recitation traits=move,visual,emotion,mental]]{Perform (Recitation)} against a DC 15.On any outcome except a critical failure, all allies within your field can choose to Stride up to half their speed as a free action, or up to their speed on a critical success. They must end their movement within your field.</p>",
       "gm": ""
     },
     "publication": {
@@ -24,6 +24,7 @@
       "otherTags": [],
       "value": [
         "dervish",
+        "emotion",
         "mental"
       ]
     },

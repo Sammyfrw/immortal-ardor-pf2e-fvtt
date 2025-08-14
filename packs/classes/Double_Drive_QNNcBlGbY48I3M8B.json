@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p><strong>Requirements</strong> You have not Commanded an Animal this turn.</p><hr /></div><p>You and your companion surges with fervor, and charge towards a target to strike together. Spend your Zeal. You Command an Animal and spend 2 of your companion’s actions on this Zenith. Both you and your companion Stride, but if you are mounted on your companion, your companion Strides twice, instead. Then, each of you can Strike against an enemy at the end of your respective movements, in an order that you choose. If both of you Strike against the same enemy, combine the damage for the purpose of resistances and weaknesses. This action counts as two actions for the purpose of Command an Animal, and you gain additional benefits based on Zeal spent:</p><ul><li><p>1-2 Zeal: No additional effects.</p></li><li><p>3-4 Zeal: Your companion can Support at any point during Double Drive. The free Strike they make ignores the limitation on disallowing other non-movement actions.</p></li><li><p>5 Zeal:  As above, but you can reroll one of your Strikes and take the higher result. This is a fortune effect.</p></li></ul><p><span style=\"text-decoration:underline\">Special</span> If your companion is a Nimble or Savage companion, you can use its Advanced Maneuver in place of a Strike.</p><p></p>"
+      "value": "<div><p><strong>Requirements</strong> You have not Commanded an Animal this turn.</p><hr /></div><p>You and your companion surges with fervor, and charge towards a target to strike together. @UUID[Compendium.immortal-ardor.macros.xumjguwPtOtkC7tL]{Spend your Zeal}. You @UUID[Compendium.pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{Command an Animal} and spend 2 of your companion’s actions on this Zenith. Both you and your companion @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride}, but if you are mounted on your companion, your companion Strides twice, instead. Then, each of you can @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} against an enemy at the end of your respective movements, in an order that you choose. If both of you Strike against the same enemy, combine the damage for the purpose of resistances and weaknesses. This action counts as two actions for the purpose of Command an Animal, and you gain additional benefits based on Zeal spent:</p><ul><li><p>1-2 Zeal: No additional effects.</p></li><li><p>3-4 Zeal: Your companion can Support at any point during Double Drive. The free Strike they make ignores the limitation on disallowing other non-movement actions.</p></li><li><p>5 Zeal:  As above, but you can reroll one of your Strikes and take the higher result. This is a fortune effect.</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If your companion is a Nimble or Savage companion, you can use its Advanced Maneuver in place of a Strike.</p><p></p>"
     },
     "rules": [],
     "slug": "double-drive",
@@ -62,7 +62,7 @@
     "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "QNNcBlGbY48I3M8B",
   "_key": "!items!QNNcBlGbY48I3M8B"

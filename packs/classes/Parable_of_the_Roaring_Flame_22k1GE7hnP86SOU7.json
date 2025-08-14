@@ -29,6 +29,9 @@
               "action:demoralize",
               "item:trait:emotion"
             ]
+          },
+          {
+            "not": "check:type:saving-throw"
           }
         ]
       },

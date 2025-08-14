@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You have a favored recitation from one of your parables, and you can connect it to any other parable. Each day during your daily preparations, select one recitation from the meditation spells you know. You can use this recitation in any meditation spell you sustain. If it gains a heightened effect in its original meditation spell, it gains those benefits if cast at a higher rank.</p>"
+      "value": "<p>You have a favored recitation from one of your parables, and you can connect it to any other parable. Each day during your daily preparations, select one Recitation from the Meditation spells you know. You can use this Recitation in any Meditation spell you Sustain. If it gains a heightened effect in its original meditation spell, it gains those benefits if cast at a higher rank.</p>"
     },
     "rules": [],
     "slug": "favored-recitation",
@@ -60,7 +60,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "DaK3aqyoCqcYcYgL",
   "_key": "!items!DaK3aqyoCqcYcYgL"

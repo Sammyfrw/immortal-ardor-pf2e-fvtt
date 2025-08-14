@@ -1,0 +1,72 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Effect: Resonating Ripple",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.yAeCZLuESU6yt6J2]{Resonating Ripple}</p><p>You take damage equal to the Zealous Strikes damage of the Dervish who applied this effect to you when one of their allies damages you.</p>"
+    },
+    "rules": [
+      {
+        "key": "EphemeralEffect",
+        "affects": "origin",
+        "selectors": [
+          "damage"
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.W1zwOrx8tzbJo3uR"
+      }
+    ],
+    "slug": "effect-resonating-ripple",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/water/wave-water-teal.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4"
+  },
+  "_id": "0OcG83DFwvBA7dYk",
+  "sort": 0,
+  "_key": "!items!0OcG83DFwvBA7dYk"
+}

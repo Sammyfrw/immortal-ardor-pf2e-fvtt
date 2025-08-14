@@ -39,6 +39,18 @@
         "traits": [
           "fire"
         ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.AH7nAAAgtUYMy0tu"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.H9kwWD9owoFmsk6P"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.UIXJIuXfYAq6vrER"
       }
     ],
     "slug": "effect-flamedance-meditation",

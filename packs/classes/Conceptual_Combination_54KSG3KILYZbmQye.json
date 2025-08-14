@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You’ve become so versed in the ideas and lessons of your meditations, you can apply the divine powers of both concepts at once. You can benefit from two Meditation spells at the same time, and when you Sustain one meditation, you also sustain the other, and can pick from either set of Recitations.</p>"
+      "value": "<p>You’ve become so versed in the ideas and lessons of your meditations, you can apply the divine powers of both concepts at once. You can benefit from two Meditation spells at the same time, and when you @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain} one meditation, you also sustain the other, and can pick from either set of Recitations.</p>"
     },
     "rules": [],
     "slug": "conceptual-combination",
@@ -60,7 +60,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "54KSG3KILYZbmQye",
   "_key": "!items!54KSG3KILYZbmQye"

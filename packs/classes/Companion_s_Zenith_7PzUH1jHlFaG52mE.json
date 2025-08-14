@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your companions have traveled the roads as you, and as they mature and feel the call of the Winding Circle, they embody the truths of their lives with the same zeal as you. After you’ve commanded them, your companions can spend their actions to perform Zenith actions that you know. When they do, they spend your Zeal as normal.</p><p><span style=\"text-decoration:underline\">Special</span>: If you later take the Weapons of Resonance feat, your companions also gain the versatile damage type trait on their unarmed attacks, matching the element you used for Weapons of Resonance.</p>"
+      "value": "<p>Your companions have traveled the roads as you, and as they mature and feel the call of the Winding Circle, they embody the truths of their lives with the same zeal as you. After you’ve commanded them, your companions can spend their actions to perform Zenith actions that you know. When they do, they spend your Zeal as normal.</p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span>: If you later take the @UUID[Compendium.immortal-ardor.classes.2jC7WJKIDxJS3LyY]{Weapons of Resonance} feat, your companions also gain the versatile damage type trait on their unarmed attacks, matching the element you used for Weapons of Resonance.</p>"
     },
     "rules": [],
     "slug": "companions-zenith",
@@ -63,7 +63,7 @@
     "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "7PzUH1jHlFaG52mE",
   "_key": "!items!7PzUH1jHlFaG52mE"

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You brush the divine all through your own meditations and discoveries, and become greater than the limitations of being a mortal soul. You can invoke divine power to create miracles at the apex of your contemplations.</p><p>When you use this Zenith, you can cast a spell from the list below as Divine spells. The rank of the spell you cast is determined by the amount of Zeal you spend. If a spell is from a rank that is higher than your Zeal would allow, you cannot cast that spell unless your Zeal is high enough to cast it. When you cast these spells, you use your Dervish Class DC for any saving throws that need to be made. You can only cast each spell once until your next daily preparations.</p><ul><li><p>1 Zeal: 5th Rank</p></li><li><p>2 Zeal: 6th Rank</p></li><li><p>3 Zeal: 7th Rank</p></li><li><p>4 Zeal: 8th Rank</p></li><li><p>5 Zeal: 9th Rank</p></li></ul><p>The following list are the spells you can cast, with their minimum rank: @UUID[Compendium.pf2e.spells-srd.Fr58LDSrbndgld9n]{Resist Energy} (5th), @UUID[Compendium.pf2e.spells-srd.czO0wbT1i320gcu9]{Roaring Applause} (5th), @UUID[Compendium.pf2e.spells-srd.TDaMnCtZ72uyYrz8]{Blink Charge} (5th), @UUID[Compendium.pf2e.spells-srd.m34WOIGZCEg1h76G]{Blanket of Stars} (6th), @UUID[Compendium.pf2e.spells-srd.2BV2yYPfVJ5zirZt]{Mountain Resilience}(6th), @UUID[Compendium.pf2e.spells-srd.M5dp7ILSCKID9fDK]{Shock to the System} (7th), @UUID[Compendium.pf2e.spells-srd.fkDeKktdmbeplYRY]{Overwhelming Presence} (9th).</p>"
+      "value": "<p>You brush the divine all through your own meditations and discoveries, and become greater than the limitations of being a mortal soul. You can invoke divine power to create miracles at the apex of your contemplations.</p><p>When you @UUID[Compendium.immortal-ardor.macros.xumjguwPtOtkC7tL]{Use this Zenith}, you can cast a spell from the list below as Divine spells. The rank of the spell you cast is determined by the amount of Zeal you spend. If a spell is from a rank that is higher than your Zeal would allow, you cannot cast that spell unless your Zeal is high enough to cast it. When you cast these spells, you use your Dervish Class DC or spell DC, whichever is higher for any saving throws that need to be made. You can only cast each spell once until your next daily preparations.</p><ul><li><p>1 Zeal: 5th Rank</p></li><li><p>2 Zeal: 6th Rank</p></li><li><p>3 Zeal: 7th Rank</p></li><li><p>4 Zeal: 8th Rank</p></li><li><p>5 Zeal: 9th Rank</p></li></ul><p>The following list are the spells you can cast, with their minimum rank: @UUID[Compendium.pf2e.spells-srd.Fr58LDSrbndgld9n]{Resist Energy} (5th), @UUID[Compendium.pf2e.spells-srd.czO0wbT1i320gcu9]{Roaring Applause} (5th), @UUID[Compendium.pf2e.spells-srd.TDaMnCtZ72uyYrz8]{Blink Charge} (5th), @UUID[Compendium.pf2e.spells-srd.m34WOIGZCEg1h76G]{Blanket of Stars} (6th), @UUID[Compendium.pf2e.spells-srd.2BV2yYPfVJ5zirZt]{Mountain Resilience}(6th), @UUID[Compendium.pf2e.spells-srd.M5dp7ILSCKID9fDK]{Shock to the System} (7th), @UUID[Compendium.pf2e.spells-srd.fkDeKktdmbeplYRY]{Overwhelming Presence} (9th).</p>"
     },
     "rules": [],
     "slug": "invoke-miracle",
@@ -58,7 +58,7 @@
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.12.4"
   },
   "_id": "r1jvJHTksAynbzlt",
   "_key": "!items!r1jvJHTksAynbzlt"

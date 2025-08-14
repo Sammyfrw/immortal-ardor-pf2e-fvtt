@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You roar for your fellow scalekin, and channel forth the spirits of draconic entities to float around you. For all their struggles, it was only by the Drachiri’s unison that they covered each other’s weaknesses. When you </span>@UUID[Compendium.immortal-ardor.macros.Macro.xumjguwPtOtkC7tL]{Use this Zenith}<span lang=\"EN\">, tiny ethereal dragon spirits hover near you. A dragon adds an additional 5 points of spirit damage or 5 hit points to your next damaging or healing effect, and then disappears. A dragon can only add this benefit for one triggering effect at a time, and does not benefit from a critical effect. The number of dragons you summon is equal to the amount of Zeal you spend. The Zenith ends after 1 minute, or when all dragons have disappeared.</span></p><p>@UUID[Compendium.immortal-ardor.classes.gNUeIkrWS6A7Zakz]{Effect: Scalekin Zenith}</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span>: If you are aligned to a particular type of dragon, such as through a draconic exemplar or bloodline, you can choose to add damage matching their listed breath damage type instead of spirit damage.</p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Level (+3): </strong>The additional damage or healing increases by 2.</span></p>"
+      "value": "<p><span lang=\"EN\">You roar for your fellow scalekin, and channel forth the spirits of draconic entities to float around you. For all their struggles, it was only by the Drachiri’s unison that they covered each other’s weaknesses. When you </span>@UUID[Compendium.immortal-ardor.macros.Macro.xumjguwPtOtkC7tL]{Use this Zenith}<span lang=\"EN\">, tiny ethereal dragon spirits hover near you. A dragon adds an additional 5 points of spirit damage or 5 hit points to your next damaging or healing effect, and then disappears. A dragon can only add this benefit for one triggering effect at a time. The number of dragons you summon is equal to the amount of Zeal you spend. The Zenith ends after 1 minute, or when all dragons have disappeared.</span></p><p>@UUID[Compendium.immortal-ardor.classes.gNUeIkrWS6A7Zakz]{Effect: Scalekin Zenith}</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span>: If you are aligned to a particular type of dragon, such as through a draconic exemplar or bloodline, you can choose to add damage matching their listed breath damage type instead of spirit damage.</p><p class=\"MsoNormal\"><span lang=\"EN\"><strong style=\"mso-bidi-font-weight:normal\">Level (+3): </strong>The additional damage or healing increases by 2.</span></p>"
     },
     "rules": [],
     "slug": "scalekin-zenith",
@@ -18,7 +18,6 @@
       "otherTags": [],
       "value": [
         "dervish",
-        "flourish",
         "spirit",
         "zenith"
       ],

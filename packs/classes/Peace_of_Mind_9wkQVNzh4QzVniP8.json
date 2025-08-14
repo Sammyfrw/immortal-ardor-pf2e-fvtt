@@ -8,7 +8,12 @@
       "gm": "",
       "value": "<p><span lang=\"EN\">You gain the @UUID[Compendium.immortal-ardor.classes.2Ijaf182htK84IpJ]{Calm Mantra} feature.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.2Ijaf182htK84IpJ"
+      }
+    ],
     "slug": "peace-of-mind",
     "_migration": {
       "version": 0.935,

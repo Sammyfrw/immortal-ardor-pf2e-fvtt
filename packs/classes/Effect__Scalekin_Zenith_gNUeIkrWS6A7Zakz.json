@@ -31,8 +31,7 @@
           ],
           "field": "actor|level"
         },
-        "damageType": "{actor|flags.pf2e.dervish.zealousStrikesDamage}",
-        "critical": false
+        "damageType": "{actor|flags.pf2e.dervish.zealousStrikesDamage}"
       },
       {
         "key": "FlatModifier",
