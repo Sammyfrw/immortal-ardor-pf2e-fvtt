@@ -106,16 +106,15 @@
       "damageType": "bludgeoning",
       "persistent": null
     },
-    "bonusDamage": {
-      "value": 0
-    },
     "splashDamage": {
       "value": 0
     },
     "range": null,
+    "expend": null,
     "reload": {
       "value": ""
     },
+    "grade": null,
     "runes": {
       "potency": 3,
       "striking": 3,
@@ -141,6 +140,9 @@
       }
     },
     "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
       "value": "",
       "dice": 0,
@@ -160,20 +162,20 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
-  },
-  "effects": [],
-  "folder": "FpNLrqP4hhllM1lT",
-  "flags": {
+    "systemVersion": "6.9.0",
     "exportSource": {
-      "world": "seekers-of-ardor",
-      "system": "pf2e",
+      "worldId": "seekers-of-ardor",
+      "uuid": null,
       "coreVersion": "12.331",
+      "systemId": "pf2e",
       "systemVersion": "6.12.1"
     }
   },
+  "effects": [],
+  "folder": "FpNLrqP4hhllM1lT",
+  "flags": {},
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3,

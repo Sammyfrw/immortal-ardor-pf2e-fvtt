@@ -1,0 +1,137 @@
+{
+  "folder": "PJpgn4X6uvl35FlO",
+  "name": "Alamein Operative",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Manually add this feature to your Operative to make adjustments to their class progression.</p><p>Operative gains the following adjustments from Starfinder Player Core.</p><ul><li><p>They do not gain the @UUID[Compendium.sf2e-anachronism.class-features.fkRGEE9raPLD8NpN]{Focused} or the @UUID[Compendium.sf2e-anachronism.class-features.tvuvMnV3laXgKlXM]{On the Move} class feature. Instead, they gain the @UUID[Compendium.immortal-ardor.classes.HvE1hK36fNNx3nl8]{Operative's Training} feature at 3rd level.</p></li><li><p>They also gain the @UUID[Compendium.immortal-ardor.classes.wEDTZq1LlP16GVVU]{Operative's Operandi} feature at 11th level.</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.HvE1hK36fNNx3nl8",
+        "predicate": [
+          {
+            "gte": [
+              "@actor.level",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.wEDTZq1LlP16GVVU",
+        "predicate": [
+          {
+            "gte": [
+              "@actor.level",
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.HvE1hK36fNNx3nl8",
+        "predicate": [
+          {
+            "gte": [
+              "@actor.level",
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.HvE1hK36fNNx3nl8",
+        "predicate": [
+          {
+            "gte": [
+              "@actor.level",
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.HvE1hK36fNNx3nl8",
+        "predicate": [
+          {
+            "gte": [
+              "@actor.level",
+              18
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "alamein-operative",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Operative"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [
+        "Compendium.sf2e-anachronism.class-features.Item.fkRGEE9raPLD8NpN",
+        "Compendium.sf2e-anachronism.class-features.Item.tvuvMnV3laXgKlXM"
+      ]
+    },
+    "location": null
+  },
+  "_id": "oMwh6LTFzaq85XUd",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_key": "!items!oMwh6LTFzaq85XUd"
+}

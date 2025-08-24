@@ -1,0 +1,73 @@
+{
+  "folder": "RfftEWOfqgpNfnS3",
+  "name": "Operative's Operandi",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You develop a greater sense of your skillset, expanding further into new options to spread your fame further. You can select one of the following benefits:</p><p><strong>Second Exploit</strong>: You gain the Exploit benefit of a different Operative Specialization, but no other benefits.</p><p><strong>Operative’s Additional Training</strong>: You gain another benefit from your Operative’s Training feature. At 16th level, you can also select an additional benefit.</p>"
+    },
+    "rules": [],
+    "slug": "operatives-operandi",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_id": "wEDTZq1LlP16GVVU",
+  "sort": 0,
+  "_key": "!items!wEDTZq1LlP16GVVU"
+}

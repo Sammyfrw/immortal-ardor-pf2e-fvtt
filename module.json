@@ -385,12 +385,12 @@
             "description": "IA.TraitDescription.Avekiri"
           },
           "azoph-fer": {
-            "label": "IA.Trait.Azoph-fer",
-            "description": "IA.TraitDescription.Azoph-fer"
+            "label": "IA.Trait.AzophFer",
+            "description": "IA.TraitDescription.AzophFer"
           },
           "cazic-fer": {
-            "label": "IA.Trait.Cazic-fer",
-            "description": "IA.TraitDescription.Cazic-fer"
+            "label": "IA.Trait.CazicFer",
+            "description": "IA.TraitDescription.CazicFer"
           },
           "constellation": {
             "label": "IA.Trait.Constellation",

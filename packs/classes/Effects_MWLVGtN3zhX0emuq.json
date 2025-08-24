@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "TSs3ThTADgWFg16W",
+  "name": "Effects",
+  "color": null,
+  "sorting": "a",
+  "_id": "MWLVGtN3zhX0emuq",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_key": "!folders!MWLVGtN3zhX0emuq"
+}

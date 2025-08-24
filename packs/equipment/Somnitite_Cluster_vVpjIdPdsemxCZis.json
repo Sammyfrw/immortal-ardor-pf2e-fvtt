@@ -78,18 +78,17 @@
   },
   "type": "equipment",
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.equipment-srd.Item.B0gbs7xKQc2J7AiV"
-    }
+    "core": {}
   },
   "effects": [],
   "folder": "HAq0nFzLkyiSDiPm",
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.vVpjIdPdsemxCZis",
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.B0gbs7xKQc2J7AiV",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "_id": "vVpjIdPdsemxCZis",
   "sort": 0,

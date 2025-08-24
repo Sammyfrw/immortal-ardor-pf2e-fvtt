@@ -79,6 +79,7 @@
     "dexCap": 3,
     "checkPenalty": -1,
     "speedPenalty": 0,
+    "grade": null,
     "runes": {
       "potency": 2,
       "resilient": 1,
@@ -92,9 +93,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,
