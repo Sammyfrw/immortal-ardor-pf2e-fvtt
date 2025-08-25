@@ -95,7 +95,7 @@
     "core": {}
   },
   "effects": [],
-  "folder": "CjslDIg6fx8t1SbY",
+  "folder": "3Ic7BtWQ4uMikO3A",
   "_stats": {
     "compendiumSource": "Compendium.pf2e.equipment-srd.Item.TSrbwHW8zm0mhkwb",
     "duplicateSource": null,
@@ -110,6 +110,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "1aHFSFIdvmKH2hlv",
-  "sort": 0,
+  "sort": -100000,
   "_key": "!items!1aHFSFIdvmKH2hlv"
 }

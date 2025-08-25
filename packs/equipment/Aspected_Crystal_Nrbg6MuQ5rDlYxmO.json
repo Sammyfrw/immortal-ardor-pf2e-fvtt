@@ -4,7 +4,7 @@
   "type": "consumable",
   "img": "systems/pf2e/icons/equipment/treasure/gems/greater-semiprecious-stones/tourmaline.webp",
   "effects": [],
-  "folder": "jvHnMyGMKge5vIpO",
+  "folder": "3Ic7BtWQ4uMikO3A",
   "flags": {},
   "system": {
     "description": {
@@ -93,10 +93,10 @@
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "CjslDIg6fx8t1SbY",
+  "name": "Restoratives",
+  "color": null,
+  "sorting": "a",
+  "_id": "zMAV4GcxxGXhM5pQ",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_key": "!folders!zMAV4GcxxGXhM5pQ"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "Mythic Twashtar",
+  "name": "Mystic Twashtar",
   "type": "weapon",
   "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/equipment/weapons/asp-coil.webp",
   "effects": [],
@@ -9,8 +9,8 @@
   },
   "system": {
     "description": {
-      "gm": "<p>It can be purified in a Hard Level 12 DC based ritual (tbd)</p>",
-      "value": "<p>The Twashtar is an ornate, emblazoned weapon with a gilded hilt and a djezet blade gleaming with a holy light. Mandalic patterns seem to play in its reflection and offers a serene calm. It bears a beautifully decorated scabbard and a grip covered in silks and gems. The base of the blade is intricately carved into a mandala.</p>\n<p>The Twashtar is a +2 Greater Striking Holy Djezet Kukri; as an instrument of the divine, it also bears the additional properties of being cold iron, silver, and ghastmetal, and strikes true against the unholy, triggering any weakness to Good/Holy. It actively rejects being attuned by those who are unholy or profane.</p>\n<p>When wielded by a Divine spellcaster, any minions or Eidolons they summon gain the relevant material and traits to their unarmed attacks, in addition to the effect of the Holy rune.</p>\n<p>The blade of this foot‑long knife curves inward and lacks a cross guard at the hilt.</p>"
+      "gm": "",
+      "value": "<p>The Twashtar is an ornate, emblazoned weapon with a gilded hilt and a djezet blade gleaming with a holy light. Mandalic patterns seem to play in its reflection and offers a serene calm. It bears a beautifully decorated scabbard and a grip covered in silks and gems. The base of the blade is intricately carved into a mandala.</p><p>The Twashtar is a +2 Greater Striking Holy Djezet Kukri; as an instrument of the divine, it also bears the additional properties of being cold iron, silver, and ghastmetal, and strikes true against the unholy, triggering any weakness to Good/Holy. It actively rejects being attuned by those who are unholy or profane.</p><p>When wielded by a Divine spellcaster, any minions or Eidolons they summon gain the relevant material and traits to their unarmed attacks, in addition to the effect of the Holy rune.</p><p>The blade of this foot‑long knife curves inward and lacks a cross guard at the hilt.</p>"
     },
     "rules": [],
     "slug": "mythic-twashtar",
@@ -148,7 +148,7 @@
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "ownership": {

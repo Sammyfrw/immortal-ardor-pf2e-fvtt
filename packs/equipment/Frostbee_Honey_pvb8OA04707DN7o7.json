@@ -49,7 +49,8 @@
     "price": {
       "value": {
         "gp": 400
-      }
+      },
+      "per": 1
     },
     "equipped": {
       "carryType": "worn"
@@ -95,13 +96,13 @@
     "core": {}
   },
   "effects": [],
-  "folder": "CjslDIg6fx8t1SbY",
+  "folder": "3Ic7BtWQ4uMikO3A",
   "_stats": {
     "compendiumSource": "Compendium.pf2e.equipment-srd.Item.TSrbwHW8zm0mhkwb",
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "ownership": {
