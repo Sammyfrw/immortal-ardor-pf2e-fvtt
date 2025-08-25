@@ -35,8 +35,8 @@
     },
     "ancestry": {
       "name": "Lyncan",
-      "uuid": "Item.TkMmXr68NCBuE4jA",
-      "slug": "lyncan"
+      "slug": "lyncan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TkMmXr68NCBuE4jA"
     }
   },
   "_stats": {
@@ -44,7 +44,7 @@
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "sort": 0,

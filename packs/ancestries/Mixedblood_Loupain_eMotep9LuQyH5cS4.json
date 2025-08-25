@@ -33,14 +33,18 @@
       "license": "OGL",
       "remaster": false
     },
-    "ancestry": null
+    "ancestry": {
+      "name": "Loupain",
+      "slug": "loupain",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TNakbCOKQZyc4Oyx"
+    }
   },
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.eMotep9LuQyH5cS4",
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "sort": 0,
