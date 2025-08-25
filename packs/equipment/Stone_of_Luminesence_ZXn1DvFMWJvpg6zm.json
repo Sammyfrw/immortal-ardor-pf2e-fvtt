@@ -49,7 +49,8 @@
     "price": {
       "value": {
         "gp": 2000
-      }
+      },
+      "per": 1
     },
     "equipped": {
       "carryType": "worn"

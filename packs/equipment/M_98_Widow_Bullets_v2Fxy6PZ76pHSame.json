@@ -44,8 +44,7 @@
     },
     "hardness": 0,
     "price": {
-      "value": {},
-      "per": 1
+      "value": {}
     },
     "equipped": {
       "carryType": "worn"
