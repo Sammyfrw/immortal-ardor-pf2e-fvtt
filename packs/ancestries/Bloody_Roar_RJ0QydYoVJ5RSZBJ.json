@@ -6,9 +6,7 @@
   "effects": [],
   "folder": "i5TqMcurowu1xN0y",
   "flags": {
-    "core": {
-      "sourceId": "Item.3gMsvpvM1wURPDb4"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -63,11 +61,12 @@
     }
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.RJ0QydYoVJ5RSZBJ",
+    "compendiumSource": "Item.3gMsvpvM1wURPDb4",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

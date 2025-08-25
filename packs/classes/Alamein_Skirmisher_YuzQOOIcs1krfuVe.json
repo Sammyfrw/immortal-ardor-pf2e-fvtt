@@ -1,0 +1,109 @@
+{
+  "folder": "YP0K3dojLyAP8ga2",
+  "name": "Alamein Skirmisher",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Skirmisher’s Exploit is changed to the following:</p><p class=\"MsoNormal\"><strong>Exploit </strong>You're trained to fight in close combat using pistols. Your ranged Strikes with one-handed ranged weapons don't trigger reactions that are triggered by a ranged attack. You gain one of the following operative feats as a bonus feat: @UUID[Compendium.sf2e-anachronism.feats.c0TkeJ8LytJ5A6A1]{Tactical Advance} or @UUID[Compendium.sf2e-anachronism.feats.rWDM8q30Fay713In]{Mobile Aim}.</p><p class=\"MsoNormal\"><strong>Improved Exploit (5</strong><sup><strong>th</strong></sup><strong>) </strong>You are a master of slipping in and out of engagements. You gain the @UUID[Compendium.immortal-ardor.classes.G44QeaqYgDBx3Wee]{Bullet Time} action.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "value": "Compendium.sf2e-anachronism.feats.Item.c0TkeJ8LytJ5A6A1"
+          },
+          {
+            "value": "Compendium.sf2e-anachronism.feats.Item.rWDM8q30Fay713In"
+          }
+        ],
+        "predicate": [
+          "class:operative"
+        ],
+        "flag": "bonusFeat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.bonusFeat}",
+        "predicate": [
+          "class:operative"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.G44QeaqYgDBx3Wee"
+      }
+    ],
+    "slug": "alamein-skirmisher",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "modules/sf2e-anachronism/art/icons/abilities/green-mech-blade.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_id": "YuzQOOIcs1krfuVe",
+  "sort": 500000,
+  "_key": "!items!YuzQOOIcs1krfuVe"
+}

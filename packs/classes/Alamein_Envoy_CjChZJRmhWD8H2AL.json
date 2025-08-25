@@ -1,0 +1,78 @@
+{
+  "folder": "TSs3ThTADgWFg16W",
+  "name": "Alamein Envoy",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Manually add this feature to your Envoy to make adjustments to their class progression.</p><p>Envoy’s directives are adjusted to function mechanically to the playtest variant. While it is keeping all the current directives and all their functionality, the core change is to allow the Envoy to ‘split’ their Lead by Example option when they use 2 actions instead of 1. The Lead By Example bonus is triggered by performing the action listed during their turn, rather than needing to use 2 actions at the same time.</p><p>This also offers variants of existing Envoy directives that might be more powerful than options found in Player Core, but offers some of the more unique flavor or cohesion that the playtest variants have.</p><p class=\"MsoNormal\">@UUID[Compendium.sf2e-anachronism.actions.cmCtfURzpbzkxWsy]{Get 'Em!} has a variant, called Rattle 'Em!. An Alamein Envoy gets this action instead of Get 'Em!, but this applies for the purposes of any prerequisites, requirements and actions in the same way.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.oqtoVm4tCizPVFmD"
+      }
+    ],
+    "slug": "alamein-envoy",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Envoy"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "CjChZJRmhWD8H2AL",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_key": "!items!CjChZJRmhWD8H2AL"
+}

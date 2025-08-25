@@ -1,0 +1,73 @@
+{
+  "folder": "YP0K3dojLyAP8ga2",
+  "name": "Alamein Striker",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Striker gains the following Improved Exploit:</p><p><strong>Improved Exploit (5</strong><sup><strong>th</strong></sup><strong>)</strong> When you go toe to toe with your mark, you make sure every attack leaves an injury. Anytime you successfully @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip}, @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{Disarm}or @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove} your mark, they take your Aim damage as if you had successfully made a Strike. This damage is not doubled on a critical success.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "modules/sf2e-anachronism/art/icons/abilities/purple-cattle-prod.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_id": "IKYwslruNGBhqnwy",
+  "sort": 300000,
+  "_key": "!items!IKYwslruNGBhqnwy"
+}

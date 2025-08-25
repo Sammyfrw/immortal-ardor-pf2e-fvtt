@@ -90,16 +90,15 @@
   "img": "systems/pf2e/icons/spells/bloodspray-curse.webp",
   "folder": "ZcN0puSEDW5UKCXd",
   "flags": {
-    "core": {
-      "sourceId": "Actor.jWSCUAIpmfxW5LcC.Item.0Goi2jPNLZeUQFSs"
-    }
+    "core": {}
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ReAoiBqXGBNU7yhm",
+    "compendiumSource": "Actor.jWSCUAIpmfxW5LcC.Item.0Goi2jPNLZeUQFSs",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "sort": 100000,
   "ownership": {

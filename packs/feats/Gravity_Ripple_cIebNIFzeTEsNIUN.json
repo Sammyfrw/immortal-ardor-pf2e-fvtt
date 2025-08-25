@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You create a ripple in the gravitational forces around you, bending it to your will. Select any number of creatures within a @Template[type:burst|distance:20]{20-foot burst}. Each affected creature takes @Damage[(ceil(@actor.level/2)d8)[bludgeoning]] damage and must attempt a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC.</p><p>If you spend a focus point for this action, you ignore the disharmony trait.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage and is pulled 5 feet towards the center or away from it, your choice.</p><p><strong>Failure</strong> The creature takes full damage, is pulled 10 feet towards the center or away from it (your choice) and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><p><strong>Critical Failure</strong> The creature takes double damage, is pulled 20 feet towards the center or away from it, and is knocked prone.</p><hr /><p><strong>Level (+2)</strong> Increase the damage by 1d8.</p>"
+      "value": "<p>You create a ripple in the gravitational forces around you, bending it to your will. Select any number of creatures within a @Template[type:burst|distance:20]{20-foot burst}. Each affected creature takes @Damage[(ceil(@actor.level/2)d8)[bludgeoning]] damage and must attempt a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC.</p><p>If you spend a focus point for this action, you ignore the disharmony trait, but you cannot use this ability again until you use the Attune action or an action with the Cycle trait.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage and is pulled 5 feet towards the center or away from it, your choice.</p><p><strong>Failure</strong> The creature takes full damage, is pulled 10 feet towards the center or away from it (your choice) and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><p><strong>Critical Failure</strong> The creature takes double damage, is pulled 20 feet towards the center or away from it, and is knocked prone.</p><hr /><p><strong>Level (+2)</strong> Increase the damage by 1d8.</p>"
     },
     "rules": [],
     "slug": "gravity-ripple",
@@ -18,7 +18,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "constellation"
+        "constellation",
+        "disharmony"
       ],
       "rarity": "rare"
     },
@@ -59,9 +60,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.4.2",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

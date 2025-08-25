@@ -59,9 +59,10 @@
   "_stats": {
     "compendiumSource": "Compendium.immortal-ardor.classes.Item.VbeX8mJUhn9o7taQ",
     "duplicateSource": "Item.VbeX8mJUhn9o7taQ",
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "_id": "ZGvF7STdNJvCTWOz",
   "_key": "!items!ZGvF7STdNJvCTWOz"

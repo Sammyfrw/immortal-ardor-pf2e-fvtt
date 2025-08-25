@@ -60,9 +60,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4"
+    "systemVersion": "6.12.4",
+    "exportSource": null
   },
   "_id": "0JTMWm6c2gQYXS21",
   "sort": 2700000,

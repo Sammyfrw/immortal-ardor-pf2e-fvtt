@@ -6,16 +6,16 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You naturally up on rocks. You gain a Climb speed that matches your Land Speed. If you are a Master in Athletics, you can always choose to succeed on your @UUID[Compendium.pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Grab an Edge} reactions, even if you fail the check. assuming you have your hands free and are not restrained. If you are Legendary in Athletics, you and all allies within 60 feet of you gain these benefits.</p>"
+      "value": "<p>You naturally up on rocks. You gain a Climb speed that matches your Land Speed. If you are a Master in Athletics, you can always choose to succeed on your @UUID[Compendium.pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Grab an Edge} reactions, even if you fail the check, assuming you have your hands free and are not restrained. If you are Legendary in Athletics, you and all allies within 60 feet of you gain these benefits.</p>"
     },
     "rules": [
       {
         "key": "BaseSpeed",
-        "selector": "swim",
+        "selector": "climb",
         "value": "@actor.attributes.speed.total)"
       }
     ],
-    "slug": "surf",
+    "slug": "rock-climb",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -68,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.4.2",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

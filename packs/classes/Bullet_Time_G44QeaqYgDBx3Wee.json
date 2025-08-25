@@ -1,0 +1,61 @@
+{
+  "folder": "kbVHcryhcokYoN5K",
+  "name": "Bullet Time",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "description": {
+      "value": "<div><p>You dive, roll and swerve past all danger while remaining a deadly and quick combatant.</p></div><p>You @UUID[Compendium.pf2e.actionspf2e.21WIfSu7Xd7uKqV8]{Tumble Through}. Once during your movement, you can @UUID[Compendium.sf2e-anachronism.actions.sLikawnrJJzHMYeC]{Aim} or @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} at a creature you are attempting to move through, even if you fail. If you spend 2 actions, you can Aim and then Strike. On a success, you do not treat an enemy’s space as difficult terrain, and you do not trigger reactions from your movement.</p><p><strong>Special</strong> If you have @UUID[Compendium.sf2e-anachronism.feats.c0TkeJ8LytJ5A6A1]{Tactical Advance} or @UUID[Compendium.sf2e-anachronism.feats.rWDM8q30Fay713In]{Mobile Aim}, you can use them as part of Bullet Time. Instead of Striding, you Tumble Through instead. If you use Tactical Advance, you do not trigger reactions even on a failure. If you use Mobile Aim, you can Aim an additional time at any point during Bullet Time.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "bullet-time",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish",
+        "operative"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_id": "G44QeaqYgDBx3Wee",
+  "sort": 0,
+  "_key": "!items!G44QeaqYgDBx3Wee"
+}

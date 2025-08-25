@@ -92,16 +92,15 @@
       "persistent": null,
       "value": ""
     },
-    "bonusDamage": {
-      "value": 0
-    },
     "splashDamage": {
       "value": 0
     },
     "range": null,
+    "expend": null,
     "reload": {
       "value": ""
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -109,6 +108,9 @@
     },
     "specific": null,
     "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
       "value": "",
       "dice": 0,
@@ -133,9 +135,10 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.UaHnKojqqsyJp8VJ",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "_id": "UaHnKojqqsyJp8VJ",
   "sort": 0,

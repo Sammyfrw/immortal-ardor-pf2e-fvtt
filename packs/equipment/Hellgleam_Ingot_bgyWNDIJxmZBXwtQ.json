@@ -6,9 +6,7 @@
   "effects": [],
   "folder": "HAq0nFzLkyiSDiPm",
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.equipment-srd.Item.jerA2fFiK5wb32r5"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -86,11 +84,12 @@
     "subitems": []
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.bgyWNDIJxmZBXwtQ",
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.jerA2fFiK5wb32r5",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

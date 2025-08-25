@@ -1,10 +1,10 @@
 {
   "id": "immortal-ardor",
   "title": "Immortal Ardor",
-  "version": "0.2",
+  "version": "0.22",
   "compatibility": {
-    "minimum": "12.331",
-    "verified": "12.331"
+    "minimum": "13.347",
+    "verified": "13.347"
   },
   "description": "A module that contains all data necessary for Immortal Ardor and its related games",
   "url": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt",
@@ -32,6 +32,11 @@
     "requires": [
       {
         "id": "socketlib",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "sf2e-anachronism",
         "type": "module",
         "compatibility": {}
       }
@@ -385,12 +390,12 @@
             "description": "IA.TraitDescription.Avekiri"
           },
           "azoph-fer": {
-            "label": "IA.Trait.Azoph-fer",
-            "description": "IA.TraitDescription.Azoph-fer"
+            "label": "IA.Trait.AzophFer",
+            "description": "IA.TraitDescription.AzophFer"
           },
           "cazic-fer": {
-            "label": "IA.Trait.Cazic-fer",
-            "description": "IA.TraitDescription.Cazic-fer"
+            "label": "IA.Trait.CazicFer",
+            "description": "IA.TraitDescription.CazicFer"
           },
           "constellation": {
             "label": "IA.Trait.Constellation",

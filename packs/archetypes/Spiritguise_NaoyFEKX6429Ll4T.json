@@ -12,9 +12,7 @@
       "depth": null,
       "environment": ""
     },
-    "core": {
-      "sourceId": "Item.Z8ITwJLoLwiRtIj7"
-    }
+    "core": {}
   },
   "system": {
     "description": {
@@ -95,11 +93,12 @@
     }
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.NaoyFEKX6429Ll4T",
+    "compendiumSource": "Item.Z8ITwJLoLwiRtIj7",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "sort": 300000,
   "ownership": {

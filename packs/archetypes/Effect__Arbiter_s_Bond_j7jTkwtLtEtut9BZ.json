@@ -65,18 +65,17 @@
   },
   "type": "effect",
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.spell-effects.Item.PANUWN5xXC20WBg2"
-    }
+    "core": {}
   },
   "effects": [],
   "folder": "UF68LXkhIRJVJDmy",
   "_stats": {
     "compendiumSource": "Compendium.pf2e.spell-effects.Item.PANUWN5xXC20WBg2",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">Nothing will stop you from progress. You sprout ethereal wings and cast a fierce wind as you [[/act tumble-through]]{Tumble Through (Acrobatics)} / [[/act tumble-through statistic=recitation]]{Tumble Through (Recitation)}. Creatures you pass through during your movement become @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.enA7BxAjBb7ns1iF]{Suppressed} for 1 round.</span></p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:Roboto, sans-serif\">Nothing will stop you from progress. You sprout ethereal wings and cast a fierce wind as you [[/act tumble-through]]{Tumble Through (Acrobatics)} / [[/act tumble-through statistic=recitation]]{Tumble Through (Recitation)}. Creatures you pass through during your movement become @UUID[Compendium.sf2e-anachronism.conditions.enA7BxAjBb7ns1iF]{Suppressed} for 1 round.</span></p>",
       "gm": ""
     },
     "publication": {
@@ -48,9 +48,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4"
+    "systemVersion": "7.4.2",
+    "exportSource": null
   },
   "_id": "i1CTgUnFFuMln7ze",
   "sort": 2200000,

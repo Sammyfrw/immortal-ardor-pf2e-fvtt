@@ -1,0 +1,92 @@
+{
+  "folder": "RfftEWOfqgpNfnS3",
+  "name": "Second Additional Operative's Training",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain another benefit from your Operative’s Training feature. At 16th level, you can also select an additional benefit.</p><p>@UUID[Compendium.immortal-ardor.classes.pc1Mi7P3EfqRji9w]{Training: On The Move}: You gain a +5-foot status bonus to your Speed. This status bonus is cumulative every time you select this training. You can increase this bonus up to +20 feet in this way.</p><p>@UUID[Compendium.immortal-ardor.classes.hVS9fAspkXNAr3YS]{Training: Focused Skillset}: You gain a skill increase to your Operative’s Specialization skill. You can only improve the skill to Master if you’re at least 7th level, or Legendary if you’re at 15th level. If your skill proficiency is already at the highest it can reach when you select this benefit, you instead gain a skill increase in a skill of your choice.</p><p>Any time you retrain this feature for at least 1 week, or when you acquire a new benefit from this feature, you can change all selections from this feature at the same time.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "value": "Compendium.immortal-ardor.classes.Item.pc1Mi7P3EfqRji9w"
+          },
+          {
+            "value": "Compendium.immortal-ardor.classes.Item.hVS9fAspkXNAr3YS"
+          }
+        ],
+        "prompt": "Select an Operative's Training",
+        "flag": "operativeTrainingFeature",
+        "adjustName": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.operativeTrainingFeature}"
+      }
+    ],
+    "slug": "operatives-training",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_id": "UqlPM7iVwUS0lzeP",
+  "sort": 800000,
+  "_key": "!items!UqlPM7iVwUS0lzeP"
+}

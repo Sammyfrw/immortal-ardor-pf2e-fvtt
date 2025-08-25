@@ -70,18 +70,17 @@
   },
   "type": "spell",
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.spells-srd.Item.h5UqEdeqK8iTcU0J"
-    }
+    "core": {}
   },
   "effects": [],
   "folder": "fNyvBi1FuzhzXM05",
   "_stats": {
     "compendiumSource": "Compendium.pf2e.spells-srd.Item.h5UqEdeqK8iTcU0J",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

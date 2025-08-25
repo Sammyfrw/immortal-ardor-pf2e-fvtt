@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"font-family:Roboto, sans-serif\">The Owl is a watcher, a reader, and a thinker. It regards the world in its entirety, and ponders a question to its reasoning. From every little star, where might its light reach? </span>The Owl’s Vigil represents the discovery, a sight that spans the start till the end. Like an avid reader, the world seems so much more understandable.</p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.IKoTBlqulPzAvuIA]{The Owl}</p><hr /><p><strong>First Asterism </strong>(Level 8, trained in Society, Thievery, and your choice of Arcana, Nature, Occultism or Religion): You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.i5OwninARF668ud8]{Xenoarchaeologist Dedication} dedication. Once you choose your key attribute for Delve Lore checks, you cannot change it if you re-etch the facet.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"font-family:Roboto, sans-serif\">The Owl is a watcher, a reader, and a thinker. It regards the world in its entirety, and ponders a question to its reasoning. From every little star, where might its light reach? </span>The Owl’s Vigil represents the discovery, a sight that spans the start till the end. Like an avid reader, the world seems so much more understandable.</p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.IKoTBlqulPzAvuIA]{The Owl}</p><hr /><p><strong>First Asterism </strong>(Level 8, trained in Society, Thievery, and either Arcana, Nature, Occultism or Religion): You gain the @UUID[Compendium.sf2e-anachronism.feats.i5OwninARF668ud8]{Xenoarchaeologist Dedication} feat. Once you choose your key attribute for Delve Lore checks, you cannot change it if you re-etch the facet.</p>"
     },
     "rules": [],
     "slug": "solar-facet",
@@ -85,9 +85,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4"
+    "systemVersion": "7.4.2",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

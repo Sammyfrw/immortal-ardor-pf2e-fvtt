@@ -62,18 +62,17 @@
   },
   "type": "spell",
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.spells-srd.Item.LoBjvguamA12iyW0"
-    }
+    "core": {}
   },
   "effects": [],
   "folder": "ZcN0puSEDW5UKCXd",
   "_stats": {
     "compendiumSource": "Compendium.pf2e.spells-srd.Item.LoBjvguamA12iyW0",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

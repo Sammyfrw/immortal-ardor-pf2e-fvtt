@@ -65,16 +65,15 @@
   "_id": "GKGLNSzzb7Q7nSVs",
   "img": "systems/pf2e/icons/default-icons/feat.svg",
   "flags": {
-    "core": {
-      "sourceId": "Item.w2RpRiIsfxpvelFr"
-    }
+    "core": {}
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.GKGLNSzzb7Q7nSVs",
+    "compendiumSource": "Item.w2RpRiIsfxpvelFr",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "sort": 0,
   "ownership": {

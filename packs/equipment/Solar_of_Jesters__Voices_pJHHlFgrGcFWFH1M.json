@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Jesters represent levity, curiosity and a childlike innocence to the world. They imagine the world as they wish to see it, and in that drive the world to reality. The Jesters' Voice cries out with youthful vigor and excitement to declare their wishes.</p><p><strong>Constellation: </strong>@UUID[Compendium.immortal-ardor.deities.Item.59KPAoFVEU0Vbo1f]{The Jesters}</p><hr /><p><strong>First Asterism </strong>(Level 1): You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.FXlhxST6fuaFt3Nh]{Get 'Em!} envoy directive.</p><p><strong>Second Asterism </strong>(Level 4): You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.9TeJIbN2nv8DRJ0x]{Get in There!} feat.</p><p><strong>Third Asterism </strong>(Level 6): You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.ICb24jgjfsa1b4Mw]{Hurry!} feat.</p><hr /><p></p>"
+      "value": "<p>The Jesters represent levity, curiosity and a childlike innocence to the world. They imagine the world as they wish to see it, and in that drive the world to reality. The Jesters' Voice cries out with youthful vigor and excitement to declare their wishes.</p><p><strong>Constellation: </strong>@UUID[Compendium.immortal-ardor.deities.Item.59KPAoFVEU0Vbo1f]{The Jesters}</p><hr /><p><strong>First Asterism </strong>(Level 1): You gain the @UUID[Compendium.immortal-ardor.classes.oqtoVm4tCizPVFmD]{Rattle 'Em!} envoy directive. Envoy directives gained from this facet have their Lead By Example function changed as per @UUID[Compendium.immortal-ardor.classes.CjChZJRmhWD8H2AL]{Alamein Envoy}.</p><p><strong>Second Asterism </strong>(Level 4): You gain the @UUID[Compendium.sf2e-anachronism.feats.ndYnIz8DvI8RpAup]{Get in There!} feat.</p><p><strong>Third Asterism </strong>(Level 6): You gain the @UUID[Compendium.sf2e-anachronism.feats.G2Kxj7nNDkvWE1LC]{Hurry} feat.</p><hr /><p></p>"
     },
     "rules": [],
     "slug": "solar-of-jesters-voices",
@@ -85,9 +85,10 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.pJHHlFgrGcFWFH1M",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "7.4.2",
+    "exportSource": null
   },
   "_id": "pJHHlFgrGcFWFH1M",
   "sort": 1400000,

@@ -29,10 +29,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "6.12.4"
+        "systemVersion": "6.12.4",
+        "exportSource": null
       },
+      "category": null,
       "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.exdAuSJHiNxoqYQ1"
     },
     {
@@ -63,10 +65,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "6.12.4"
+        "systemVersion": "6.12.4",
+        "exportSource": null
       },
+      "category": null,
       "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.sHHmr0jWPxNur2vX"
     },
     {
@@ -97,10 +101,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "6.12.4"
+        "systemVersion": "6.12.4",
+        "exportSource": null
       },
+      "category": null,
       "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.FFSn744uXfukAH7u"
     },
     {
@@ -131,10 +137,12 @@
       "_stats": {
         "compendiumSource": "JournalEntry.wWwuVkZ3Vk9NEhaT.JournalEntryPage.bvvF5GaYkgkzERZQ",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "6.12.4"
+        "systemVersion": "6.12.4",
+        "exportSource": null
       },
+      "category": null,
       "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.bvvF5GaYkgkzERZQ"
     },
     {
@@ -165,10 +173,12 @@
       "_stats": {
         "compendiumSource": "JournalEntry.wWwuVkZ3Vk9NEhaT.JournalEntryPage.n4hqsmYDoXWNNCoM",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "6.12.4"
+        "systemVersion": "6.12.4",
+        "exportSource": null
       },
+      "category": null,
       "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.n4hqsmYDoXWNNCoM"
     }
   ],
@@ -181,9 +191,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4"
+    "systemVersion": "6.12.4",
+    "exportSource": null
   },
   "_id": "kyuzYhmQ3AJTXytJ",
   "sort": 200000,

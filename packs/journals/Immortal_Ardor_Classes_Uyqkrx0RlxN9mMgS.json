@@ -29,10 +29,12 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.347",
         "systemId": "pf2e",
-        "systemVersion": "6.12.4"
+        "systemVersion": "6.12.4",
+        "exportSource": null
       },
+      "category": null,
       "_key": "!journal.pages!Uyqkrx0RlxN9mMgS.vHsbmmIz6pdYA3H3"
     }
   ],
@@ -45,9 +47,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4"
+    "systemVersion": "6.12.4",
+    "exportSource": null
   },
   "_id": "Uyqkrx0RlxN9mMgS",
   "sort": 300000,

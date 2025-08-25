@@ -1,0 +1,87 @@
+{
+  "folder": "YP0K3dojLyAP8ga2",
+  "name": "Alamein Ghost Operative",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Ghost's exploits are adjusted to the following:</p><p><strong>Exploit</strong> You’re adept at taking your foe by surprise. You can Aim at targets you’re undetected by or hidden from as a free action.</p><p><strong>Improved Exploit (5th)</strong> Even missteps are a new opportunity for you to keep your enemies guessing. You gain the @UUID[Compendium.immortal-ardor.classes.k8Qu39pPrzTTgg4h]{Ghost Walk} action.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.k8Qu39pPrzTTgg4h",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      }
+    ],
+    "slug": "alamein-ghost-operative",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "modules/sf2e-anachronism/art/icons/abilities/cerulean-alien-soldier.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_id": "5uOLdwyLNZE0Xqjv",
+  "sort": 100000,
+  "_key": "!items!5uOLdwyLNZE0Xqjv"
+}

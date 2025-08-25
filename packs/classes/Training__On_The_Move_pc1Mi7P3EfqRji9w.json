@@ -1,0 +1,84 @@
+{
+  "folder": "RfftEWOfqgpNfnS3",
+  "name": "Training: On The Move",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You gain a +5-foot status bonus to your Speed. This status bonus is cumulative every time you select this training. You can increase this bonus up to +20 feet in this way.</p><p></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "value": 0,
+        "type": "status",
+        "slug": "training-on-the-move"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "land-speed",
+        "slug": "training-on-the-move",
+        "value": 5,
+        "mode": "add"
+      }
+    ],
+    "slug": "training-on-the-move",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "pc1Mi7P3EfqRji9w",
+  "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_key": "!items!pc1Mi7P3EfqRji9w"
+}

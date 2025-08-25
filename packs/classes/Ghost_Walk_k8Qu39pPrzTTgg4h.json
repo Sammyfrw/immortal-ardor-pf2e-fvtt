@@ -1,0 +1,61 @@
+{
+  "folder": "kbVHcryhcokYoN5K",
+  "name": "Ghost Walk",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "description": {
+      "value": "<div><p><strong>Trigger</strong> You fail but not critically fail either a @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} against a mark you were hidden from or undetected by or an attempt to @UUID[Compendium.pf2e.actionspf2e.GkmbTGfg8KcgynOA]{Create a Diversion} against a mark.</p><hr /></div><p>You keep yourself hidden and misdirect attention even when your actions don’t quite land, whether it’s taking advantage of a room’s acoustics or a passing crowd. Attempt a @Check[Deception|against:will] check against the Will DC of your target; on a success, you remain @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} or become @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to them depending on your state before the triggering action. On a critical success, you can Stride half your speed without your mark noticing. You might still become @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed} to other creatures, but they need to take actions such as Point Out to make your target aware.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "ghost-walk",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative",
+        "traversal"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_id": "k8Qu39pPrzTTgg4h",
+  "sort": 0,
+  "_key": "!items!k8Qu39pPrzTTgg4h"
+}

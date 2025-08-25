@@ -1,0 +1,87 @@
+{
+  "folder": "YP0K3dojLyAP8ga2",
+  "name": "Alamein Sniper",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Alamein Sniper gains the following Improved Exploit:</p><p><strong>Improved Exploit (5</strong><sup><strong>th</strong></sup><strong>) </strong>You make sure your shots count. You gain the @UUID[Compendium.immortal-ardor.classes.LFZyiDd48yabVmpz]{Silent Scope} action.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.LFZyiDd48yabVmpz",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      }
+    ],
+    "slug": "alamein-sniper",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "modules/sf2e-anachronism/art/icons/abilities/blue-jet.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_id": "NJsCE6jRJ9Q3vn1q",
+  "sort": 400000,
+  "_key": "!items!NJsCE6jRJ9Q3vn1q"
+}
