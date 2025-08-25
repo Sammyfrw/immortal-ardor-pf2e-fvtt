@@ -1,0 +1,73 @@
+{
+  "folder": "YP0K3dojLyAP8ga2",
+  "name": "Alamein Infiltrator",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Infiltrator's exploits are changed to the following:</p><p><strong>Improved Exploit (5</strong><sup><strong>th</strong></sup><strong>) </strong>You can @UUID[Compendium.sf2e-anachronism.actions.sLikawnrJJzHMYeC]{Aim} at tech items. When you use @UUID[Compendium.sf2e-anachronism.actions.qbyer2woEdGXZzoR]{Sabotage} on a tech creature or item you’ve designated as a mark, you can Sabotage them from an additional 30 feet away. This is cumulative with the increased ranges from your proficiency in Computers.</p>"
+    },
+    "rules": [],
+    "slug": "alamein-infiltrator",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "modules/sf2e-anachronism/art/icons/abilities/blue-soldier.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_id": "I8Fgg7JFZ5stp6oI",
+  "sort": 200000,
+  "_key": "!items!I8Fgg7JFZ5stp6oI"
+}

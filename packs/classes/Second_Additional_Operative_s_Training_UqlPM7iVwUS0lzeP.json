@@ -1,12 +1,12 @@
 {
   "folder": "RfftEWOfqgpNfnS3",
-  "name": "Operative's Training",
+  "name": "Second Additional Operative's Training",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>As you become more renown and skilled in completing tasks that require your extraordinary set of skills, you take on training that specifically caters to your next job. At 3rd level, 8th level, 13th level, and 18th level, you can select one of the following benefits:</p><p>@UUID[Compendium.immortal-ardor.classes.pc1Mi7P3EfqRji9w]{Training: On The Move}: You gain a +5-foot status bonus to your Speed. This status bonus is cumulative every time you select this training. You can increase this bonus up to +20 feet in this way.</p><p>@UUID[Compendium.immortal-ardor.classes.hVS9fAspkXNAr3YS]{Training: Focused Skillset}: You gain a skill increase to your Operative’s Specialization skill. You can only improve the skill to Master if you’re at least 7th level, or Legendary if you’re at 15th level. If your skill proficiency is already at the highest it can reach when you select this benefit, you instead gain a skill increase in a skill of your choice.</p><p>Any time you retrain this feature for at least 1 week, or when you acquire a new benefit from this feature, you can change all selections from this feature at the same time.</p>"
+      "value": "<p>You gain another benefit from your Operative’s Training feature. At 16th level, you can also select an additional benefit.</p><p>@UUID[Compendium.immortal-ardor.classes.pc1Mi7P3EfqRji9w]{Training: On The Move}: You gain a +5-foot status bonus to your Speed. This status bonus is cumulative every time you select this training. You can increase this bonus up to +20 feet in this way.</p><p>@UUID[Compendium.immortal-ardor.classes.hVS9fAspkXNAr3YS]{Training: Focused Skillset}: You gain a skill increase to your Operative’s Specialization skill. You can only improve the skill to Master if you’re at least 7th level, or Legendary if you’re at 15th level. If your skill proficiency is already at the highest it can reach when you select this benefit, you instead gain a skill increase in a skill of your choice.</p><p>Any time you retrain this feature for at least 1 week, or when you acquire a new benefit from this feature, you can change all selections from this feature at the same time.</p>"
     },
     "rules": [
       {
@@ -51,7 +51,7 @@
       "remaster": true
     },
     "level": {
-      "value": 3
+      "value": 16
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -72,7 +72,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/sundries/gaming/playing-cards-black.webp",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -86,7 +86,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.4.2"
   },
-  "_id": "HvE1hK36fNNx3nl8",
-  "sort": 100000,
-  "_key": "!items!HvE1hK36fNNx3nl8"
+  "_id": "UqlPM7iVwUS0lzeP",
+  "sort": 800000,
+  "_key": "!items!UqlPM7iVwUS0lzeP"
 }

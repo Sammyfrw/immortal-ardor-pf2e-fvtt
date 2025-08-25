@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Manually add this feature to your Operative to make adjustments to their class progression.</p><p>Operative gains the following adjustments from Starfinder Player Core.</p><ul><li><p>They do not gain the @UUID[Compendium.sf2e-anachronism.class-features.fkRGEE9raPLD8NpN]{Focused} or the @UUID[Compendium.sf2e-anachronism.class-features.tvuvMnV3laXgKlXM]{On the Move} class feature. Instead, they gain the @UUID[Compendium.immortal-ardor.classes.HvE1hK36fNNx3nl8]{Operative's Training} feature at 3rd level.</p></li><li><p>They also gain the @UUID[Compendium.immortal-ardor.classes.wEDTZq1LlP16GVVU]{Operative's Operandi} feature at 11th level.</p></li></ul>",
+      "value": "<p>Manually add this feature to your Operative to make adjustments to their class progression.</p><p>Operative gains the following adjustments from Starfinder Player Core.</p><ul><li><p>They do not gain the @UUID[Compendium.sf2e-anachronism.class-features.fkRGEE9raPLD8NpN]{Focused} or the @UUID[Compendium.sf2e-anachronism.class-features.tvuvMnV3laXgKlXM]{On the Move} class feature. Instead, they gain the @UUID[Compendium.immortal-ardor.classes.HvE1hK36fNNx3nl8]{Operative's Training} feature at 3rd level.</p></li><li><p>They also gain the @UUID[Compendium.immortal-ardor.classes.wEDTZq1LlP16GVVU]{Operative's Operandi} feature at 11th level.</p></li></ul><p>In addition, an Alamein Operative has adjustments to their Specialization exploits, which includes adjustments to their Exploit and Enhanced Exploit features, but an additional Improved Exploit they gain at 5th level.</p><p></p>",
       "gm": ""
     },
     "publication": {
@@ -25,11 +25,25 @@
         "predicate": [
           {
             "gte": [
-              "@actor.level",
+              "self:level",
               3
             ]
           }
-        ]
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.u1MLwaxBQgdEenpG",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              8
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
       },
       {
         "key": "GrantItem",
@@ -37,47 +51,79 @@
         "predicate": [
           {
             "gte": [
-              "@actor.level",
+              "self:level",
               11
             ]
           }
-        ]
+        ],
+        "reevaluateOnUpdate": true
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.classes.Item.HvE1hK36fNNx3nl8",
+        "uuid": "Compendium.immortal-ardor.classes.Item.D0tRUtUeG0kBewYf",
         "predicate": [
           {
             "gte": [
-              "@actor.level",
-              8
-            ]
-          }
-        ]
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.classes.Item.HvE1hK36fNNx3nl8",
-        "predicate": [
-          {
-            "gte": [
-              "@actor.level",
+              "self:level",
               13
             ]
           }
-        ]
+        ],
+        "reevaluateOnUpdate": true
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.classes.Item.HvE1hK36fNNx3nl8",
+        "uuid": "Compendium.immortal-ardor.classes.Item.vhjPVaaEIT0cpZHp",
         "predicate": [
           {
             "gte": [
-              "@actor.level",
+              "self:level",
               18
             ]
           }
-        ]
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Compendium.immortal-ardor.classes.Item.5uOLdwyLNZE0Xqjv",
+            "predicate": [
+              "feature:ghost"
+            ]
+          },
+          {
+            "value": "Compendium.immortal-ardor.classes.Item.I8Fgg7JFZ5stp6oI",
+            "predicate": [
+              "feature:infiltrator"
+            ]
+          },
+          {
+            "value": "Compendium.immortal-ardor.classes.Item.YuzQOOIcs1krfuVe",
+            "predicate": [
+              "feature:skirmisher"
+            ]
+          },
+          {
+            "value": "Compendium.immortal-ardor.classes.Item.NJsCE6jRJ9Q3vn1q",
+            "predicate": [
+              "feature:sniper"
+            ]
+          },
+          {
+            "value": "Compendium.immortal-ardor.classes.Item.IKYwslruNGBhqnwy",
+            "predicate": [
+              "feature:striker"
+            ]
+          }
+        ],
+        "flag": "operativeSpecialization"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.operativeSpecialization}"
       }
     ],
     "slug": "alamein-operative",
@@ -118,7 +164,7 @@
     "location": null
   },
   "_id": "oMwh6LTFzaq85XUd",
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/skills/trades/academics-investigation-study-blue.webp",
   "sort": 100000,
   "ownership": {
     "default": 0,

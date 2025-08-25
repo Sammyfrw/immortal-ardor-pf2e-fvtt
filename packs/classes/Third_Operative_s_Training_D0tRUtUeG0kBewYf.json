@@ -1,6 +1,6 @@
 {
   "folder": "RfftEWOfqgpNfnS3",
-  "name": "Operative's Training",
+  "name": "Third Operative's Training",
   "type": "feat",
   "effects": [],
   "system": {
@@ -28,7 +28,7 @@
         "uuid": "{item|flags.pf2e.rulesSelections.operativeTrainingFeature}"
       }
     ],
-    "slug": "operatives-training",
+    "slug": "third-operatives-training",
     "_migration": {
       "version": 0.942,
       "previous": {
@@ -51,7 +51,7 @@
       "remaster": true
     },
     "level": {
-      "value": 3
+      "value": 13
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -72,7 +72,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/sundries/gaming/playing-cards-black.webp",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -86,7 +86,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.4.2"
   },
-  "_id": "HvE1hK36fNNx3nl8",
-  "sort": 100000,
-  "_key": "!items!HvE1hK36fNNx3nl8"
+  "_id": "D0tRUtUeG0kBewYf",
+  "sort": 500000,
+  "_key": "!items!D0tRUtUeG0kBewYf"
 }
