@@ -3,7 +3,7 @@
   "type": "consumable",
   "img": "systems/pf2e/icons/equipment/consumables/potions/blue-dragons-breath-potion.webp",
   "effects": [],
-  "folder": "CjslDIg6fx8t1SbY",
+  "folder": "zMAV4GcxxGXhM5pQ",
   "flags": {},
   "system": {
     "description": {
@@ -103,6 +103,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "Z7E0sFDpukkJ7nIw",
-  "sort": 600000,
+  "sort": 200000,
   "_key": "!items!Z7E0sFDpukkJ7nIw"
 }

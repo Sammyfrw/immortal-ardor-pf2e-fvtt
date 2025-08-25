@@ -3,7 +3,7 @@
   "type": "treasure",
   "img": "systems/pf2e/icons/equipment/held-items/alluring-scarf.webp",
   "effects": [],
-  "folder": "jvHnMyGMKge5vIpO",
+  "folder": "yhyZdU156PVdNMsp",
   "flags": {},
   "system": {
     "description": {
@@ -94,7 +94,7 @@
     "exportSource": null
   },
   "_id": "tXl8TmmvwdxC4zK1",
-  "sort": 0,
+  "sort": 250000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "CjslDIg6fx8t1SbY",
+  "name": "Reagents",
+  "color": null,
+  "sorting": "a",
+  "_id": "3Ic7BtWQ4uMikO3A",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_key": "!folders!3Ic7BtWQ4uMikO3A"
+}

@@ -1,7 +1,7 @@
 {
-  "name": "Showstopper",
+  "name": "Mystic Twashtar",
   "type": "weapon",
-  "img": "systems/pf2e/icons/equipment/artifacts/serithtial.webp",
+  "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/equipment/weapons/asp-coil.webp",
   "effects": [],
   "folder": "FpNLrqP4hhllM1lT",
   "flags": {
@@ -10,12 +10,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>\"A slender, elegant blade with a hilt in the style of a blowing wind, wrapped around a deep blue spinel. It fills the wielder with a sense of confidence and a feeling of heroics when drawn, blowing their hair dramatically.\"</p>\n<hr />\n<p><strong>Heroic Wind </strong>This weapon grants an item bonus to Performance and Deception rolls equal to the strength of the potency rune attached to it, as well as any action that would trigger Panache. When this bonus is used, the air around the wielder blows dramatically if they so choose.</p>",
-      "chat": "",
-      "unidentified": ""
+      "value": "<p>The Twashtar is an ornate, emblazoned weapon with a gilded hilt and a djezet blade gleaming with a holy light. Mandalic patterns seem to play in its reflection and offers a serene calm. It bears a beautifully decorated scabbard and a grip covered in silks and gems. The base of the blade is intricately carved into a mandala.</p><p>The Twashtar is a +2 Greater Striking Holy Djezet Kukri; as an instrument of the divine, it also bears the additional properties of being cold iron, silver, and ghastmetal, and strikes true against the unholy, triggering any weakness to Good/Holy. It actively rejects being attuned by those who are unholy or profane.</p><p>When wielded by a Divine spellcaster, any minions or Eidolons they summon gain the relevant material and traits to their unarmed attacks, in addition to the effect of the Holy rune.</p><p>The blade of this foot‑long knife curves inward and lacks a cross guard at the hilt.</p>"
     },
     "rules": [],
-    "slug": "showstopper",
+    "slug": "mythic-twashtar",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -28,9 +26,9 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "deadly-d8",
-        "disarm",
-        "finesse"
+        "agile",
+        "finesse",
+        "trip"
       ],
       "rarity": "unique"
     },
@@ -41,12 +39,12 @@
       "remaster": true
     },
     "level": {
-      "value": 0
+      "value": 12
     },
     "quantity": 1,
-    "baseItem": "rapier",
+    "baseItem": "kukri",
     "bulk": {
-      "value": 1
+      "value": 0.1
     },
     "hp": {
       "value": 0,
@@ -55,7 +53,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "gp": 2
+        "gp": 5380
       }
     },
     "equipped": {
@@ -66,14 +64,14 @@
     "containerId": null,
     "size": "med",
     "material": {
-      "type": "silver",
+      "type": "djezet",
       "grade": "standard"
     },
     "identification": {
       "status": "identified",
       "unidentified": {
-        "name": "Unusual Rapier",
-        "img": "systems/pf2e/icons/equipment/artifacts/serithtial.webp",
+        "name": "Unusual Kukri",
+        "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/equipment/weapons/asp-coil.webp",
         "data": {
           "description": {
             "value": ""
@@ -86,14 +84,14 @@
       "value": "held-in-one-hand"
     },
     "category": "martial",
-    "group": "sword",
+    "group": "knife",
     "bonus": {
       "value": 0
     },
     "damage": {
       "dice": 1,
       "die": "d6",
-      "damageType": "piercing",
+      "damageType": "slashing",
       "persistent": null,
       "value": ""
     },
@@ -107,13 +105,25 @@
     },
     "grade": null,
     "runes": {
-      "potency": 1,
-      "striking": 1,
-      "property": {
-        "0": ""
+      "potency": 2,
+      "striking": 2,
+      "property": [
+        "unholy"
+      ]
+    },
+    "specific": {
+      "material": {
+        "type": "djezet",
+        "grade": "standard"
+      },
+      "runes": {
+        "potency": 2,
+        "striking": 2,
+        "property": [
+          "unholy"
+        ]
       }
     },
-    "specific": null,
     "subitems": [],
     "bonusDamage": {
       "value": 0
@@ -131,16 +141,10 @@
       "criticalConditionValue": null,
       "strikeConditionType": "",
       "strikeConditionValue": null
-    },
-    "identified": {
-      "value": true
-    },
-    "rarity": {
-      "value": "common"
     }
   },
   "_stats": {
-    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.tH5GirEy7YB3ZgCk",
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.TDrO7Xdyn7juFy3c",
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
@@ -152,7 +156,7 @@
     "MDg2MGU5NzgyN2Nh": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_id": "JnKlsZQTcYolhnL2",
+  "_id": "sUmsvIPefgHAuJSH",
   "sort": 0,
-  "_key": "!items!JnKlsZQTcYolhnL2"
+  "_key": "!items!sUmsvIPefgHAuJSH"
 }

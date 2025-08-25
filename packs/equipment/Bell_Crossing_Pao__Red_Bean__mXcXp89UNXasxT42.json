@@ -50,7 +50,8 @@
     "price": {
       "value": {
         "gp": 12
-      }
+      },
+      "per": 1
     },
     "equipped": {
       "carryType": "worn"
@@ -97,13 +98,13 @@
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "effects": [],
-  "folder": "CjslDIg6fx8t1SbY",
+  "folder": "zMAV4GcxxGXhM5pQ",
   "flags": {},
-  "sort": 400000,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,
