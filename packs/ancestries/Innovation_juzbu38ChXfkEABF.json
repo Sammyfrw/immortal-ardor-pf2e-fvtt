@@ -24,7 +24,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "loupain"
+      ],
       "rarity": "common"
     },
     "publication": {
@@ -68,7 +70,7 @@
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "sort": 0,

@@ -24,7 +24,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "avekiri"
+      ],
       "rarity": "common"
     },
     "publication": {
@@ -35,8 +37,8 @@
     },
     "ancestry": {
       "name": "Avekiri",
-      "uuid": "Item.nNtTrMVuAgB4bs4p",
-      "slug": "avekiri"
+      "slug": "avekiri",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.nNtTrMVuAgB4bs4p"
     }
   },
   "_stats": {
@@ -44,7 +46,7 @@
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "sort": 0,

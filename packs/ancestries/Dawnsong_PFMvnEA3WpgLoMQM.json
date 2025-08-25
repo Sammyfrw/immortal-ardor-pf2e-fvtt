@@ -9,7 +9,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p>\n<p class=\"MsoNormal\"><strong>Grants </strong>@Item[RKaaJEYDIpoQa0la]{Dawnsong}</p>\n<hr />\n<p>You have learned to harmonize the flow of ether to those around you at the end of a rest. When you finish your daily preparations, you can give your party a bonus focus point that can be used at any time until their next daily preparations.</p>"
+      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p><p>Grants @UUID[Compendium.immortal-ardor.archetypes.Vjv0r6zxFO895vvG]{Effect: Dawnsong}</p><hr /><p>You have learned to harmonize the flow of ether to those around you at the end of a rest. When you finish your daily preparations, you can give your party a bonus focus point that can be used at any time until their next daily preparations.</p>"
     },
     "rules": [],
     "slug": null,
@@ -24,7 +24,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "avekiri"
+      ],
       "rarity": "common"
     },
     "publication": {
@@ -60,7 +62,7 @@
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "sort": 0,

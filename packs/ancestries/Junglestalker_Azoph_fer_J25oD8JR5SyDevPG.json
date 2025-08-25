@@ -35,8 +35,8 @@
     },
     "ancestry": {
       "name": "Azoph-fer",
-      "uuid": "Item.6JAXzYb9Jg9SjoNk",
-      "slug": "azoph-fer"
+      "slug": "azoph-fer",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.6JAXzYb9Jg9SjoNk"
     }
   },
   "_stats": {
@@ -44,7 +44,7 @@
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "sort": 0,

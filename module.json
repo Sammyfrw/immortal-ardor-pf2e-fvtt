@@ -1,7 +1,7 @@
 {
   "id": "immortal-ardor",
   "title": "Immortal Ardor",
-  "version": "0.22",
+  "version": "0.221",
   "compatibility": {
     "minimum": "13.347",
     "verified": "13.347"
@@ -294,6 +294,14 @@
             "label": "IA.Trait.Gangor",
             "description": "IA.TraitDescription.Gangor"
           },
+          "loupain": {
+            "label": "IA.Trait.Loupain",
+            "description": "IA.TraitDescription.Loupain"
+          },
+          "lyncan": {
+            "label": "IA.Trait.Lyncan",
+            "description": "IA.TraitDescription.Lyncan"
+          },
           "manafont": {
             "label": "IA.Trait.Manafont",
             "description": "IA.TraitDescription.Manafont"
@@ -305,6 +313,10 @@
           "pinotr": {
             "label": "IA.Trait.Pinotr",
             "description": "IA.TraitDescription.Pinotr"
+          },
+          "sapien": {
+            "label": "IA.Trait.Sapien",
+            "description": "IA.TraitDescription.Sapien"
           },
           "therian": {
             "label": "IA.Trait.Therian",
@@ -421,6 +433,10 @@
             "label": "IA.Trait.Ether",
             "description": "IA.TraitDescription.Ether"
           },
+          "loupain": {
+            "label": "IA.Trait.Loupain",
+            "description": "IA.TraitDescription.Loupain"
+          },
           "lucid": {
             "label": "IA.Trait.Lucid",
             "description": "IA.TraitDescription.Lucid"
@@ -428,6 +444,10 @@
           "luminary": {
             "label": "IA.Trait.Luminary",
             "description": "IA.TraitDescription.Luminary"
+          },
+          "lyncan": {
+            "label": "IA.Trait.Loupain",
+            "description": "IA.TraitDescription.Lyncan"
           },
           "gangor": {
             "label": "IA.Trait.Gangor",
@@ -440,6 +460,10 @@
           "pinotr": {
             "label": "IA.Trait.Pinotr",
             "description": "IA.TraitDescription.Pinotr"
+          },
+          "sapien": {
+            "label": "IA.Trait.Sapien",
+            "description": "IA.TraitDescription.Sapien"
           },
           "soulreaver": {
             "label": "IA.Trait.Soulreaver",
