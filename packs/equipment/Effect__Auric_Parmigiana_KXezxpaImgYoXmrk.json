@@ -63,7 +63,7 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.KXezxpaImgYoXmrk",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
     "systemVersion": "6.9.0",
     "exportSource": null
@@ -71,7 +71,7 @@
   "effects": [],
   "folder": "I3N0LWkmyhk7xTuc",
   "flags": {},
-  "sort": 700000,
+  "sort": 1200000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

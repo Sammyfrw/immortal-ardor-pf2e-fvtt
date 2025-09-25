@@ -1,0 +1,108 @@
+{
+  "name": "Necrobot Journal",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The contents of this Necrobot journal seems to convey imagery in their strange circuitry-oriented lettering. These images evoke raw, empowered emotions. Some part old leather, some part haptic plates, this journal allows you to harness your strongest memories, projecting your anger, and gives you a +1 item bonus to Intimidation checks.</p><p><strong>Activate—Painful Memory</strong> <span class=\"pf2-icon\">2</span> (manipulate)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You recite a poem of utter anguish to spread your misery to another creature, as a 3rd-rank @UUID[Compendium.sf2e-anachronism.spells.EhN3GjdjXChMdiFk]{Share Pain} with a DC of 23 or your spell or class DC, whichever is highest.</p><p><span style=\"font-family:Roboto, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">Activate - Overwhelming Misery</strong> </span><span style=\"font-family:Pathfinder2eActions, sans-serif\">F</span> (concentrate)</p><p><span style=\"font-family:Roboto, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">Frequency</strong> once per day</span></p><hr /><p><span style=\"font-family:Roboto, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">Effect</strong> If your next action is to cast an mental or emotion spell that has a listed duration or inflicts a condition, creatures affected by the spell are also @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} for the duration of the spell or until the condition expires, unless they take an action to realign their mental state by attempting a Will save against your spell DC or class DC, whichever is higher. On a success, they end the condition.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "intimidation",
+        "value": 1,
+        "type": "item"
+      }
+    ],
+    "slug": "necrobot-text",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "grimoire",
+        "invested",
+        "magical",
+        "tech"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 4000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Necrobot Journal",
+        "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/books/book-embossed-bound-brown.webp",
+        "data": {
+          "description": {
+            "value": "<p>The contents of this Necrobot journal seems to convey imagery in their strange circuitry-oriented lettering. These images evoke raw, empowered emotions. Some part old leather, some part haptic plates, this journal seems to have its contents occasionally shift when you aren't reading it.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/books/book-embossed-bound-brown.webp",
+  "folder": "pkkacqBEZqrZJhSd",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2"
+  },
+  "_id": "xGrm9h9Y3Sxa2UIF",
+  "sort": 0,
+  "_key": "!items!xGrm9h9Y3Sxa2UIF"
+}

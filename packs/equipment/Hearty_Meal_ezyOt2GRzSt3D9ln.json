@@ -46,7 +46,8 @@
     "price": {
       "value": {
         "sp": 5
-      }
+      },
+      "per": 1
     },
     "equipped": {
       "carryType": "worn"
@@ -88,13 +89,13 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ezyOt2GRzSt3D9ln",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.5.2",
     "exportSource": null
   },
   "_id": "ezyOt2GRzSt3D9ln",
-  "sort": 1700000,
+  "sort": 2200000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

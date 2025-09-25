@@ -18,9 +18,13 @@
         ],
         "value": 1,
         "predicate": [
-          "action:lie",
-          "action:coerce",
-          "action:make-an-impression"
+          {
+            "or": [
+              "action:lie",
+              "action:coerce",
+              "action:make-an-impression"
+            ]
+          }
         ]
       }
     ],
@@ -64,13 +68,13 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.k7ZpVt68eBugVMMK",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "_id": "k7ZpVt68eBugVMMK",
-  "sort": 1800000,
+  "sort": 2300000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

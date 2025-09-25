@@ -88,13 +88,13 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.prjnfSci1Xhp6qKj",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.5.2",
     "exportSource": null
   },
   "_id": "prjnfSci1Xhp6qKj",
-  "sort": 2200000,
+  "sort": 2700000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

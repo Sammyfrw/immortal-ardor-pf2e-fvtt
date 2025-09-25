@@ -67,12 +67,12 @@
     },
     "stackGroup": "coins"
   },
-  "img": "icons/commodities/currency/coins-assorted-crown-blue.webp",
+  "img": "icons/commodities/currency/coin-engraved-square-gold.webp",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
     "systemVersion": "6.9.0",
     "exportSource": null
@@ -83,6 +83,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "u8XFl97QO5EjdhK1",
-  "sort": 500000,
+  "sort": 25000,
   "_key": "!items!u8XFl97QO5EjdhK1"
 }

@@ -14,11 +14,15 @@
         "selector": "athletics",
         "value": 1,
         "predicate": [
-          "action:climb",
-          "action:force-open",
-          "action:long-jump",
-          "action:high-jump",
-          "action:swim"
+          {
+            "or": [
+              "action:climb",
+              "action:force-open",
+              "action:long-jump",
+              "action:high-jump",
+              "action:swim"
+            ]
+          }
         ]
       }
     ],
@@ -62,13 +66,13 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.54kYtkSMPcVlHzY2",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "_id": "54kYtkSMPcVlHzY2",
-  "sort": 100000,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

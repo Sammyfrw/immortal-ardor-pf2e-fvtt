@@ -19,10 +19,8 @@
         "alchemical-food"
       ],
       "value": [
-        "alchemical",
         "consumable",
-        "meal",
-        "processed"
+        "meal"
       ],
       "rarity": "common"
     },
@@ -91,12 +89,12 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.O17BYI2Ba8oVFbzA",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.5.2",
     "exportSource": null
   },
-  "sort": 800000,
+  "sort": 1300000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

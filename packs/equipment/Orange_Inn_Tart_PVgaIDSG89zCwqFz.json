@@ -1,0 +1,108 @@
+{
+  "name": "Orange Inn Tart",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> 200 sp<br /><strong>Ingredients</strong> 6 basic, 2 special<br /><strong>Preparation</strong> DC 24 Cooking Lore, DC 26 Survival</span><br /><strong>Requirements</strong> Improved Kitchen plus Magical or Alchemical Crafting OR Magic Kitchen<br /><strong>Favorite Meal</strong> As a favorite meal, you can move your full speed while you perform these checks.</p><hr /><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">The Orange Inn Tarts are local delicacies of Rodenia City, made popular by the heritage inn sharing its name. These are cup-sized custard tarts that are garnished with orange shavings, and features a half-slice of orange baked inside it. While variants of this dish exist - particularly non magical ones - the prime example of the Orange Inn Tart will have the citrus taste only exist in the garnish as an aftertaste, while the orange piece melts in a sweet, gooey goodness amongst the custard instead of having its tart sourness, much like a wellbaked apple pie.</span></p><p>Once consumed, an Orange Inn Tart bestows a +1 item bonus to checks when one is taking the @UUID[Compendium.pf2e.actionspf2e.TiNDYUGlMmxzxBYU]{Search} and @UUID[Compendium.pf2e.actionspf2e.EwgTZBWsc8qKaViP]{Investigate} exploration activities, or increase an existing item bonus by the same amount.</p><p>@UUID[Compendium.immortal-ardor.equipment.7OJcFeTWQTWlQHgv]{Effect: Orange Inn Tart}</p>"
+    },
+    "rules": [],
+    "slug": "orange-inn-tart",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "consumable",
+        "meal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 400
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "icons/consumables/meat/chicken-breast-raw-pink.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "img": "icons/consumables/fruit/orange-citrus-ripe.webp",
+  "folder": "I3N0LWkmyhk7xTuc",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2"
+  },
+  "_id": "PVgaIDSG89zCwqFz",
+  "sort": 500000,
+  "_key": "!items!PVgaIDSG89zCwqFz"
+}

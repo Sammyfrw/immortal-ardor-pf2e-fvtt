@@ -17,8 +17,10 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "concentrate",
         "constellation",
-        "focus"
+        "focus",
+        "manipulate"
       ],
       "rarity": "rare",
       "traditions": []
@@ -79,9 +81,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.iyrtzKoER0J36hxS",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "sort": 0,

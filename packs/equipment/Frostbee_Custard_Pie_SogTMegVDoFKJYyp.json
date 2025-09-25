@@ -22,9 +22,8 @@
         "alchemical-food"
       ],
       "value": [
-        "alchemical",
         "consumable",
-        "processed"
+        "meal"
       ],
       "rarity": "common"
     },
@@ -50,7 +49,8 @@
     "price": {
       "value": {
         "gp": 5
-      }
+      },
+      "per": 1
     },
     "equipped": {
       "carryType": "worn"
@@ -96,9 +96,9 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.equipment-srd.Item.oZBafUU1tk4tgwye",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.5.2",
     "exportSource": null
   },
   "ownership": {
@@ -107,6 +107,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "SogTMegVDoFKJYyp",
-  "sort": 1300000,
+  "sort": 1800000,
   "_key": "!items!SogTMegVDoFKJYyp"
 }

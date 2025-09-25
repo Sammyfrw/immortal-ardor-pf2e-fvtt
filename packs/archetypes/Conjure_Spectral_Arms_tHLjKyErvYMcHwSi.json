@@ -39,8 +39,8 @@
       "traditions": []
     },
     "publication": {
-      "title": "Sammy Rachman",
-      "authors": "Immortal Ardor",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
       "remaster": true
     },
@@ -75,9 +75,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.tHLjKyErvYMcHwSi",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.348",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.4.2",
     "exportSource": null
   },
   "_id": "tHLjKyErvYMcHwSi",
