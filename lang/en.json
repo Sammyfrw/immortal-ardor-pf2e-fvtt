@@ -1,19 +1,4 @@
 {
-  "PF2E": {
-    "TraitBugbear": "Agurunkhai",
-    "TraitCatfolk": "Hearthcat",
-    "TraitDwarf": "Saltan",
-    "TraitElf": "Liefen",
-    "TraitGoblin": "Fironkhai",
-    "TraitHobgoblin": "Erankhai",
-    "TraitHuman": "Piedan",
-    "TraitIruxi": "Telghrub",
-    "TraitNagaji": "Pythos",
-    "TraitOrc": "Hezonkhai",
-    "TraitShoony": "Pugnax",
-    "TraitTengu": "Corvis",
-    "TraitUnholy": "Profane"
-  },
   "IA": {
     "DamageType": {
       "Aqua": "Aqua",
@@ -56,6 +41,7 @@
     },
     "Trait": {
       "Aelkhazak": "Aelkhazak",
+      "Anima": "Anima",
       "Ascended": "Ascended",
       "Astral": "Astral",
       "Agamidan": "Agamidan",
@@ -113,6 +99,7 @@
     },
     "TraitDescription": {
       "Aelkhazak": "A creature with this trait is a member of the aelkhazak ancestry. These snake-like creatures come from aquatic environments, but are capable of inhabiting land.",
+      "Anima": "An option with the Anima trait relates to the natural power inherrent in the soul or a similar magical force that animates a nonliving creature such as a construct or undead. Anima spells or abilities come naturally to some creatures, while others either create facsimiles or borrow it from these creatures.",
       "Ascended": "Options with this trait grant or utilize ascendancy. A creature with the ascended trait has exceeded their natural limitations, either in mind, body or soul. They are more powerful than typical creatures of their level. Feats and spells with this trait can only be taken by characters who have gained ascendency.",
       "Agamidan": "A creature with this trait is a member of the agamidan ancestry. These repitillian humanoids have existed in Ardor for millenia, hailing from the desert lands of Eirlangga.",
       "Avekiri": "A creature with this trait is a member of the avekiri ancestry. The avian humanoids reside in mountainous or tree-top terrains typically, and their voices are said to be that of divinity.",

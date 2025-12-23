@@ -1,0 +1,122 @@
+{
+  "name": "Twinblade",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A twinblade is a polearm that features two glaive-like blades at each end. A wielder strikes with either end in quick succession, or uses it to strike an unsuspecting opponent who is trying to approach from behind. Its two halves can be split apart to make two separate blades as an Interact action.</p>"
+    },
+    "rules": [],
+    "slug": "twinblade",
+    "_migration": {
+      "version": 0.953,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agile",
+        "union",
+        "versatile-p"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "twinblade",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 2
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-plus-hands"
+    },
+    "category": "martial",
+    "group": "axe",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "ammo": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": []
+  },
+  "img": "icons/weapons/polearms/glaive-hooked-steel.webp",
+  "folder": "dYFsDc53urGscphr",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0"
+  },
+  "_id": "b4IKqQ4qXptFOFvs",
+  "sort": 0,
+  "_key": "!items!b4IKqQ4qXptFOFvs"
+}

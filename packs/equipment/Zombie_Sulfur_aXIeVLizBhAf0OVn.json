@@ -1,25 +1,23 @@
 {
-  "_id": "LdGG7iFmgmtOODap",
-  "name": "Glob of Ectoplasm",
+  "name": "Zombie Sulfur",
   "type": "treasure",
-  "img": "systems/pf2e/icons/spells/air-bubble.webp",
+  "img": "icons/commodities/stone/geode-raw-teal.webp",
   "effects": [],
   "folder": "yhyZdU156PVdNMsp",
   "flags": {},
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Ectoplasm is a residue of ghostly spirits who apparate in the material plane. The manifestation process leaves them with a bit of <em>ichor</em>, as it were -- which is then useful for alchemists and spellcasters for reagents.</p>"
+      "value": "<p>Sulfur is a curious component that is often associated with cleansing and purity, but it is notable that such elements are present on zombies born from necromancy and fire. The origin of chemicalyzed zombies is often debated, but every war involving necromancy frequently has them, which leads to the idea that they were built for war. Its prevalence in many military weapons does not discredit this conclusion.</p><p>Almost all too curiously, sulfur is also very commonly associated with and mined from the hellfire and brimstones of hellish realms.</p>"
     },
     "rules": [],
-    "slug": "glob-of-ectoplasm",
+    "slug": "zombie-sulfur",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null,
+      "version": 0.953,
       "previous": {
-        "schema": 0.934,
-        "foundry": "12.331",
-        "system": "6.7.2"
+        "schema": 0.948,
+        "foundry": "13.348",
+        "system": "7.7.4"
       }
     },
     "traits": {
@@ -39,7 +37,7 @@
     "quantity": 1,
     "baseItem": null,
     "bulk": {
-      "value": 0
+      "value": 0.1
     },
     "hp": {
       "value": 0,
@@ -48,8 +46,9 @@
     "hardness": 0,
     "price": {
       "value": {
-        "gp": 45
-      }
+        "sp": 100
+      },
+      "per": 1
     },
     "equipped": {
       "carryType": "worn"
@@ -64,41 +63,31 @@
       "status": "identified",
       "unidentified": {
         "name": "Unusual Treasure",
-        "img": "systems/pf2e/icons/spells/air-bubble.webp",
+        "img": "icons/commodities/flowers/buds-black-red.webp",
         "data": {
           "description": {
             "value": ""
           }
         }
-      },
-      "misidentified": {
-        "name": "Misidentified Item",
-        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
-        "data": {
-          "description": {
-            "value": "This treasure is misidentified."
-          }
-        }
       }
     },
-    "stackGroup": null,
-    "identified": {
-      "value": true
-    }
+    "category": null,
+    "temporary": false
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.LdGG7iFmgmtOODap",
+    "compendiumSource": null,
     "duplicateSource": null,
+    "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
-    "exportSource": null
+    "systemVersion": "7.8.0"
   },
-  "sort": 900000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!LdGG7iFmgmtOODap"
+  "_id": "aXIeVLizBhAf0OVn",
+  "sort": 300000,
+  "_key": "!items!aXIeVLizBhAf0OVn"
 }

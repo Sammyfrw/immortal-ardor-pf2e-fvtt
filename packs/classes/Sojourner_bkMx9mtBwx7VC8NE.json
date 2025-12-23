@@ -23,7 +23,7 @@
       },
       {
         "key": "ActiveEffectLike",
-        "mode": "downgrade",
+        "mode": "subtract",
         "path": "system.skills.religion.rank",
         "value": 1
       },
