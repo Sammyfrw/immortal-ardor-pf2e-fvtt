@@ -1,7 +1,7 @@
 {
   "id": "immortal-ardor",
   "title": "Immortal Ardor",
-  "version": "0.223",
+  "version": "0.224",
   "compatibility": {
     "minimum": "13.348",
     "verified": "13.348"
@@ -213,6 +213,7 @@
           "somnic-blade": "IA.BaseWeapon.SomnicBlade",
           "spirit-shackle": "IA.BaseWeapon.SpiritShackle",
           "tetherstaff": "IA.BaseWeapon.Tetherstaff",
+          "twinblade": "IA.BaseWeapon.Twinblade",
           "venom-coil": "IA.BaseWeapon.VenomCoil",
           "voltaic-fist": "IA.BaseWeapon.VoltaicFist",
           "wave-axe": "IA.BaseWeapon.WaveAxe"
@@ -253,6 +254,10 @@
           "aelkhazak": {
             "label": "IA.Trait.Aelkhazak",
             "description": "IA.TraitDescription.Aelkhazak"
+          },
+          "anima": {
+            "label": "IA.Trait.Anima",
+            "description": "IA.TraitDescription.Anima"
           },
           "ascended": {
             "label": "IA.Trait.Ascended",
