@@ -76,7 +76,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "6.9.0",
     "exportSource": {
@@ -88,6 +88,6 @@
     }
   },
   "_id": "X42tChR785X53xIo",
-  "sort": 200000,
+  "sort": 800000,
   "_key": "!items!X42tChR785X53xIo"
 }

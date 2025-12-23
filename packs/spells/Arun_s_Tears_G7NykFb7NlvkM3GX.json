@@ -22,6 +22,7 @@
       "value": [
         "concentrate",
         "constellation",
+        "focus",
         "manipulate"
       ],
       "rarity": "rare",
@@ -38,10 +39,10 @@
     },
     "requirements": "",
     "target": {
-      "value": ""
+      "value": "1 creature"
     },
     "range": {
-      "value": ""
+      "value": "30 feet"
     },
     "area": null,
     "time": {
@@ -69,9 +70,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.G7NykFb7NlvkM3GX",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "7.8.0",
     "exportSource": null
   },
   "sort": 0,
