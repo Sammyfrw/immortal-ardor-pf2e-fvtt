@@ -1,10 +1,10 @@
 {
   "id": "immortal-ardor",
   "title": "Immortal Ardor",
-  "version": "0.224",
+  "version": "0.225",
   "compatibility": {
-    "minimum": "13.348",
-    "verified": "13.348"
+    "minimum": "13.351",
+    "verified": "13.351"
   },
   "description": "A module that contains all data necessary for Immortal Ardor and its related games",
   "url": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt",
@@ -414,9 +414,17 @@
             "label": "IA.Trait.CazicFer",
             "description": "IA.TraitDescription.CazicFer"
           },
+          "catalyze": {
+            "label": "IA.Trait.Catalyze",
+            "description": "IA.TraitDescription.Catalyze"
+          },
           "constellation": {
             "label": "IA.Trait.Constellation",
             "description": "IA.TraitDescription.Constellation"
+          },
+          "covenant": {
+            "label": "IA.Trait.Covenant",
+            "description": "IA.TraitDescription.Covenant"
           },
           "dervish": {
             "label": "IA.Trait.Dervish",
@@ -458,6 +466,10 @@
             "label": "IA.Trait.Gangor",
             "description": "IA.TraitDescription.Gangor"
           },
+          "mana": {
+            "label": "IA.Trait.Mana",
+            "description": "IA.TraitDescription.Mana"
+          },
           "manafont": {
             "label": "IA.Trait.Manafont",
             "description": "IA.TraitDescription.Manafont"
@@ -473,6 +485,10 @@
           "soulreaver": {
             "label": "IA.Trait.Soulreaver",
             "description": "IA.TraitDescription.Soulreaver"
+          },
+          "symbiosis": {
+            "label": "IA.Trait.Symbiosis",
+            "description": "IA.TraitDescription.Symbiosis"
           },
           "vashlad": {
             "label": "IA.Trait.Vashlad",
@@ -511,6 +527,10 @@
           "constellation": {
             "label": "IA.Trait.Constellation",
             "description": "IA.TraitDescription.Constellation"
+          },
+          "covenant": {
+            "label": "IA.Trait.Covenant",
+            "description": "IA.TraitDescription.Covenant"
           },
           "meditation": {
             "label": "IA.Trait.Meditation",
