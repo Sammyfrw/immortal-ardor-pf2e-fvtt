@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> — (this recipe is available automatically)<br /><strong>Ingredients</strong> 4 basic<br /><strong>Preparation</strong> DC 14 </span>Cooking Lore or DC 16 Survival<br /><strong>Favorite Meal</strong> The eater recovers an additional amount of Hit Points equal to their level when they rest.</p><hr /><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">By taking extra time to prepare a meal, adding extra spices, and supplementing the meal with additional ingredients, you can turn a regular meal into a hearty one. Unlike other special meals, anyone can attempt to cook a hearty meal— no recipe is required.</span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">The meal grants the eater a +1 status bonus to the next saving throw they attempt during the next 24 hours.</span></p><p>@UUID[Compendium.immortal-ardor.equipment.Item.ezyOt2GRzSt3D9ln]{Hearty Meal}</p>"
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> — (this recipe is available automatically)<br /><strong>Ingredients</strong> 4 basic<br /><strong>Preparation</strong> DC 14 </span>Cooking Lore or DC 16 Survival<br /><strong>Favorite Meal</strong> The eater recovers an additional amount of Hit Points equal to their level when they rest.</p><hr /><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">By taking extra time to prepare a meal, adding extra spices, and supplementing the meal with additional ingredients, you can turn a regular meal into a hearty one. Unlike other special meals, anyone can attempt to cook a hearty meal— no recipe is required.</span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">The meal grants the eater a +1 status bonus to the next saving throw they attempt during the next 24 hours.</span></p><p>@UUID[Compendium.immortal-ardor.equipment.OLdWsbIF7L9Jg1UK]{Effect: Hearty Meal}</p>"
     },
     "rules": [],
     "slug": "hearty-meal",
@@ -81,17 +81,17 @@
     "usage": {
       "value": "held-in-one-hand"
     },
-    "stackGroup": null,
-    "spell": null
+    "spell": null,
+    "stackGroup": null
   },
   "img": "icons/consumables/food/pot-soup-white.webp",
   "flags": {},
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ezyOt2GRzSt3D9ln",
     "duplicateSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.5.2",
+    "systemVersion": "7.10.1",
     "exportSource": null
   },
   "_id": "ezyOt2GRzSt3D9ln",

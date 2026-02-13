@@ -1,0 +1,73 @@
+{
+  "folder": "YN98XSz3i0bXGAwA",
+  "name": "Visionary Catalysts",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">Your catalysts can be used for even more potent techniques. You can choose to have your luminary actions with the Catalyze trait benefit from a listed Visionary Catalyst effect. When you use a catalyst for a spell that requires you to add an action, you use one fewer actions.</span></p>"
+    },
+    "rules": [],
+    "slug": "visionary-catalysts",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/consumables/potions/bottle-circular-corked-labeled-green.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "T9x5XBLYtt9onJt3",
+  "sort": 1000000,
+  "_key": "!items!T9x5XBLYtt9onJt3"
+}

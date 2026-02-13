@@ -36,6 +36,42 @@
       },
       "category": null,
       "_key": "!journal.pages!Uyqkrx0RlxN9mMgS.vHsbmmIz6pdYA3H3"
+    },
+    {
+      "sort": 200000,
+      "name": "Luminary",
+      "type": "text",
+      "_id": "rKXaxU8FIiYZ3eCi",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>You are a bastion of talent and creativity, and while you can grasp magic, you see possibilities that extend beyond simple rote applications or manifestations bestowed by other entities. Some might think you a spellcaster bestowed with innate gifts, but that isn’t your gift – no, you don’t cast magic, you create magic. You are a creator that wields the tools of expression, envisioning what magic could be. Some might call you apocryphal, or even mistake you for a fake, talentless trickster. But you are an erudite and a visionary both; with a little bit of planning and a sprinkle of catalyzing reagents, you can express magic in beautiful, colorful ways.</em></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "_key": "!journal.pages!Uyqkrx0RlxN9mMgS.rKXaxU8FIiYZ3eCi"
     }
   ],
   "folder": null,

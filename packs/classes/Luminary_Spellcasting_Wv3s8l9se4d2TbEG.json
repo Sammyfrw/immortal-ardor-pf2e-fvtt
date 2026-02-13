@@ -1,0 +1,73 @@
+{
+  "folder": "YN98XSz3i0bXGAwA",
+  "name": "Luminary Spellcasting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As a luminary, you gather magic into a pool that you draw from when you evoke your creative magic. Through this, you bypass the typical limitations that prepared casters face so that you can use something you know when you need it like a spontaneous spellcaster. This comes at the cost of limiting your ability to cast spells, but you have other tricks to make up for that limitation.</p><p class=\"MsoNormal\">While you have the Cast a Spell activity, you are not a typical spellcaster. You can learn and prepare spells from any tradition, but your luminary’s motif determines your favored tradition. Your favored tradition determines which tradition of spells you automatically add to your portfolio when you level up and which tradition you use for the purpose of feat requirements.</p><p class=\"MsoNormal\">At 1<sup>st</sup> level, you have two 1<sup>st</sup> rank spells and 3 cantrips. Each day during your daily preparations, you prepare a spell collection rather than preparing spells into each slot individually. The number of spells in your spell collection each day equals the total number of spell slots you get each day from your class spells. You also gain additional spells from your Luminary’s Motif that are always prepared in your collection that do not count towards your total.</p><p class=\"MsoNormal\">As you increase in level as a luminary, the number of spell slots you have each day increases, which also then increases the size of your spell collection, as shown in the Luminary Spells per Day table.</p><p class=\"MsoNormal\">While holding your Luminary’s Medium, you can cast any of the spells in your collection by using a spell slot of an appropriate level. If a spell in your collection comes from multiple traditions, you decide which of those traditions it is when you cast the spell. Some of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Your spell attack modifier and spell DC use the modifier of your key attribute, which is either Intelligence or Charisma, determined by your choice of Luminary’s Medium.</p><h5>Heightening Spells</h5><p class=\"MsoNormal\">Once you gain 2nd-level spells, you can heighten any spell in your spell collection to any level you can cast, like a spontaneous spellcaster’s signature spell. The only restriction is that you must select at least one 1st-level spell for your collection each time you prepare, ensuring that you can use all your spell slots each day.</p><h5>Cantrips</h5><p class=\"MsoNormal\">Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up— this is usually equal to the highest rank of luminary spell slot you have. For example, as a 1st-level luminary, your cantrips are 1st-rank spells, and as a 5th-level luminary, your cantrips are 3rd-rank spells.</p><h5>Portfolio</h5><p class=\"MsoNormal\">Every luminary keeps track of their unique ways to replicate spells with their brand of specialized magic in a portfolio. These portfolios behave much like spellbooks, and a luminary starts with one worth 10 sp or less. Each day when you prepare your spells into your collection, you study and pick the spells you want to have ready for the day. How it appears and if it has a name is up to you. It might be a ring-bound collection of calligraphy depicting magical spells, artistic drawings that evoke the emotions of a spell, or a pattern or collection of lights and colors that best match a replicated spell. Its name might revolve around your luminary’s motif, like The Portfolio of Fulgur Frameworks.</p><p class=\"MsoNormal\">The portfolio contains your choice of eight cantrips and four 1st-rank spells from any tradition. You choose these from the common spells on their spell lists or from other spells you gain access to.</p><p class=\"MsoNormal\">Each time you gain a level, you add two spells of your motif’s favored tradition to your spellbook, of any spell rank for which you have spell slots, chosen from common spells of your tradition or others you gain access to and learn via Learn a Spell.</p>"
+    },
+    "rules": [],
+    "slug": "luminary-spellcasting",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "Wv3s8l9se4d2TbEG",
+  "sort": 1300000,
+  "_key": "!items!Wv3s8l9se4d2TbEG"
+}
