@@ -418,6 +418,10 @@
             "label": "IA.Trait.Catalyze",
             "description": "IA.TraitDescription.Catalyze"
           },
+          "catalyze1": {
+            "label": "IA.Trait.Catalyze1",
+            "description": "IA.TraitDescription.Catalyze1"
+          },
           "constellation": {
             "label": "IA.Trait.Constellation",
             "description": "IA.TraitDescription.Constellation"
