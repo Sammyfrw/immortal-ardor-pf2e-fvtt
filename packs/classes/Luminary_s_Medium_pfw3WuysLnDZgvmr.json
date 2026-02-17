@@ -1,0 +1,73 @@
+{
+  "folder": "YN98XSz3i0bXGAwA",
+  "name": "Luminary's Medium",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The applied half of a luminary is the magically imbued @UUID[Compendium.immortal-ardor.classes.6iauipFjk1aW7w83]{Luminary's Medium} they use to create magic. For most luminaries, the medium is a personal choice that aligns best with their talents or are trained to use. A luminary uses their medium to envision and conceptualize the magic they intend to create. Each medium has their unique qualities, with benefits and drawbacks that the luminary works around. You select a luminary’s medium at 1st level, which affects the outward methods and outcomes of your spellcasting.</p><p>Selecting a luminary’s medium determines your key attribute score and your luminary’s skill, which is essential to luminary actions and spellcasting. It also grants you a Catalyst Action, which gives you an alternative use for your Ephemeral Catalyst. The medium can take many different forms, but functionally they act as an implement you hold in one hand, and you must hold this implement to be able to perform your spellcasting. If you ever lose your medium, you can acquire a new one through common items in any settlement or make your own after a day of downtime at negligible cost. The list of mediums can be found at the end of this section.</p>"
+    },
+    "rules": [],
+    "slug": "luminarys-medium",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "pfw3WuysLnDZgvmr",
+  "sort": 0,
+  "_key": "!items!pfw3WuysLnDZgvmr"
+}

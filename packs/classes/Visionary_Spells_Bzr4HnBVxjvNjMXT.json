@@ -1,0 +1,73 @@
+{
+  "folder": "YN98XSz3i0bXGAwA",
+  "name": "Visionary Spells",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A vital component of the luminary’s arsenal is their ability to exploit the rules and limitations of magic. While their ephemeral catalysts are the tools to personalize their spellcraft, visionary spells are the culmination of how they express magic. Visionary spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to draft, plan or ponder your next masterpiece.<br />Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points.</p>"
+    },
+    "rules": [],
+    "slug": "visionary-spells",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "Bzr4HnBVxjvNjMXT",
+  "sort": 0,
+  "_key": "!items!Bzr4HnBVxjvNjMXT"
+}

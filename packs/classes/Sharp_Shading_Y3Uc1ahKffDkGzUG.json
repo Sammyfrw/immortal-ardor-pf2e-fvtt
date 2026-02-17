@@ -1,0 +1,75 @@
+{
+  "folder": "9aLaSmKkMLZBmQXg",
+  "name": "Sharp Shading",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">When you create, you make sure all your subjects are multifaceted and detailed; in ink sketches, they have meticulously detailed shadows. In writing, they have depth and histories to reflect their personalities. Nothing in this world is as simple as it seems, and the shading and depth you pour in reflects that. When you envision your spells, you leave no details unchecked so that all will feel the impression it can leave.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Primal</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells </strong>Energy Spells</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell</strong> You learn the Bold Detail visionary spell.</span></p>"
+    },
+    "rules": [],
+    "slug": "sharp-shading",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "luminary-motifs"
+      ],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/tools/scribal/pen-stylus-pencil.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "Y3Uc1ahKffDkGzUG",
+  "sort": 0,
+  "_key": "!items!Y3Uc1ahKffDkGzUG"
+}

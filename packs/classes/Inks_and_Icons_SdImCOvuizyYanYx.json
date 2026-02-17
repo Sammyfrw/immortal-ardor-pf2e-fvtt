@@ -1,0 +1,78 @@
+{
+  "folder": "K8G32foYyX2gNup5",
+  "name": "Inks and Icons",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your medium speaks to the might of the pen. Whether it’s to scribe the written word or the formula of a spell, to draw symbols representing magic, or to create splotches and smears of ink that invoke a spell’s interpretation, this medium argues the world’s understanding of magic as a social construct. Your medium could be an ink pen, quill, or calligraphy brush, enchanted to treat the world as your parchment. Your ephemeral catalyst and catalyst cache could be a collection of imbued inks. As you create strokes with your medium, your symbols and writings swerve and expand cursively as it takes shape of the magic in the tones of your ink.</p><p>Your key attribute score is Intelligence, and your visionary skill is Society. You gain the Ink Long Dry action.</p>"
+    },
+    "rules": [],
+    "slug": "inks-and-icons",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "luminary-medium"
+      ],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "int"
+      ]
+    }
+  },
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "SdImCOvuizyYanYx",
+  "sort": 0,
+  "_key": "!items!SdImCOvuizyYanYx"
+}

@@ -1,0 +1,61 @@
+{
+  "folder": "vYHBJE58YALlvv5w",
+  "name": "Ink Long Dry",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You are about to Cast a Spell that has a fixed or sustained duration.</p><hr /><p><span lang=\"EN\">As you inscribe your spell, you use a special ink to cause your writing to linger. Your spell seems to last longer until the ink dries out.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">When your catalyzed spell ends due to its duration elapsing or you did not sustain it during your turn, the spell instead lasts 1 additional round, which includes a sustained effect on your turn even though you do not spend the action to sustain it. Effects contingent on additional parameters, such as needing to stay within an area or being affected by an ongoing condition, are not extended once these requirements are not met.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Empowered Catalyst: </strong>A non-sustained spell that has a duration of 10 minutes or higher lasts an additional 10 minutes, and a spell that has a duration of 1 hour or higher lasts an additional hour instead.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "ink-long-dry",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "catalyze",
+        "luminary"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "o47mG4hFWL8zqfvI",
+  "sort": 400000,
+  "_key": "!items!o47mG4hFWL8zqfvI"
+}

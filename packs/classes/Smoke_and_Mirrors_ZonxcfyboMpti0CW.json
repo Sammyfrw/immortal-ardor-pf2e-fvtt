@@ -1,0 +1,78 @@
+{
+  "folder": "K8G32foYyX2gNup5",
+  "name": "Smoke and Mirrors",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">With a couple of reflective surfaces, a spark, and a bit of smoke, you give rise to experiences. It isn’t about the truth as much as the perception of it. This forms the foundation for your medium. If the smokey dragon you conjure is a good enough representation to be mistaken for a real one, then as it materializes before your captivated audience, the fire is just as real – because it is. When your refracted lights intertwine to portray a blue wall of ice, it materializes into a chilling barrier. Your medium could be a series of magical mirrors, able to fly forth and set your stage as you cast your magic. Or, it could be a magical censer, able to generate the colorful smoke in the form of your desired spell. Your ephemeral catalyst and catalyst cache could contain the coals or specialized prisms needed to create your very own show.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your key attribute is Charisma, and your visionary skill is Deception. You gain the Shadowplay action.</span></p>"
+    },
+    "rules": [],
+    "slug": "smoke-and-mirrors",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "luminary-medium"
+      ],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "cha"
+      ]
+    }
+  },
+  "img": "icons/tools/cooking/pot-camping-iron-black.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "ZonxcfyboMpti0CW",
+  "sort": 100000,
+  "_key": "!items!ZonxcfyboMpti0CW"
+}

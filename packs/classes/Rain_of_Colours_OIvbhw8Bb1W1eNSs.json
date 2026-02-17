@@ -1,0 +1,78 @@
+{
+  "folder": "K8G32foYyX2gNup5",
+  "name": "Rain of Colours",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">Your medium is one where you spread your palette to the world. It could be a magical brush, where you paint the air with vibrant flames or freezing ice. It might be a pouch of magical chalk, blown by the wind to bring colorful emotions. Your ephemeral catalyst and catalyst cache could be a palette, or a container for all the different colors you could use for your medium. As your draw, flourish and bring a cascade of colors, your envisioned magic takes shape with the world as your canvas. A painted flame could turn into a launched fireball, or a spray of earthen colors takes life into a wall of stone.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your key attribute score is Intelligence, and your visionary skill is Crafting. You gain the Smudge action.</span></p>"
+    },
+    "rules": [],
+    "slug": "rain-of-colours",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "luminary-medium"
+      ],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "int"
+      ]
+    }
+  },
+  "img": "icons/magic/control/buff-luck-fortune-rainbow.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "OIvbhw8Bb1W1eNSs",
+  "sort": 0,
+  "_key": "!items!OIvbhw8Bb1W1eNSs"
+}

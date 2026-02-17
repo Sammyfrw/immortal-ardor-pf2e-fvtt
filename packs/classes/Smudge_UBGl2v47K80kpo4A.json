@@ -1,0 +1,61 @@
+{
+  "folder": "vYHBJE58YALlvv5w",
+  "name": "Smudge",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You are about to Cast a Spell that has a duration or deals damage.</p><hr /><p><span lang=\"EN\">As you weave your art into a spell, you drop a hint of supercharged colors into it, making your spells leave a particularly stubborn splotch. Wherever your spell lands, you smudge your targets, so they truly feel the meaning behind your art.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your catalyzed spell leaves your targets painted in colors that you have used. If the spell deals damage, they take persistent damage of the same type of damage as the spell equal to half your level, rounded down. If the spell has a duration or while they are taking persistent damage, the colors persist on the target until the spell or persistent damage ends or after 1 minute has passed, whichever is shorter. A painted creature takes a -2 status penalty to Stealth checks and DCs. if the creature is invisible, it becomes concealed instead.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Empowered Catalyst</strong>: You always know the direction of a creature affected by your catalyst and the painted colors always lasts at least 1 minute.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "smudge",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "catalyze",
+        "luminary"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "UBGl2v47K80kpo4A",
+  "sort": 0,
+  "_key": "!items!UBGl2v47K80kpo4A"
+}

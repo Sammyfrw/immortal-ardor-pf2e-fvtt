@@ -1,15 +1,15 @@
 {
-  "folder": "YN98XSz3i0bXGAwA",
-  "name": "Visionary Catalysts",
+  "folder": "9aLaSmKkMLZBmQXg",
+  "name": "Quasi-Realism",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">Your catalysts can be used for even more potent techniques. You can choose to have your luminary actions with the Catalyze trait benefit from a listed Visionary Catalyst effect. When you use a catalyst for a spell that requires you to add an action, you use one fewer actions.</span></p>"
+      "value": "<p><span lang=\"EN\">Your descriptors and details are vague and leave much to the imagination. You might use terse imagery to describe something, or your painted shapes are vague enough to interpret something out of it. Beauty and meaning are in the eyes of beholder, and this is reflected in your work. When you envision your spells, they deliver their message while the observer is left pondering it even after it overtakes them.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Occult</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells </strong>Illusion Spells</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell </strong>You learn the Stippling Shades visionary spell.</span></p>"
     },
     "rules": [],
-    "slug": "visionary-catalysts",
+    "slug": "quasi-realism",
     "_migration": {
       "version": 0.955,
       "previous": {
@@ -19,7 +19,9 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "luminary-motifs"
+      ],
       "value": [
         "luminary"
       ],
@@ -32,7 +34,7 @@
       "remaster": true
     },
     "level": {
-      "value": 17
+      "value": 1
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -53,7 +55,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/consumables/potions/bottle-circular-corked-labeled-green.webp",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -67,7 +69,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.10.1"
   },
-  "_id": "T9x5XBLYtt9onJt3",
-  "sort": 1000000,
-  "_key": "!items!T9x5XBLYtt9onJt3"
+  "_id": "SE5Y5lHiYrf5Tptb",
+  "sort": 0,
+  "_key": "!items!SE5Y5lHiYrf5Tptb"
 }
