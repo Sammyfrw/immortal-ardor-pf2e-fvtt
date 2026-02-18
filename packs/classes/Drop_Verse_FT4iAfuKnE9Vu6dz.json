@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> You are about to Cast a Spell that targets a single creature or an area.</p><hr /><p><span lang=\"EN\">Finishing your oration of a spell to envision, you use a catalyst to give the final word an impactful boom. The strength of your words empowers the spell, changing it so that anyone who even feels the gravitas of your voice is affected.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your catalyzed spell gains the Auditory and Linguistic trait. Line of effect and line of sight requirements for the spell instead depend on if the creature can hear and understand you, though you must be aware of a creature’s occupied space and within range for the spell to affect them in this way. An affected creature ignores any bonuses to cover or benefits from being Concealed or Hidden. Interference to hearing your spell, such as muffled hearing, sound dampening walls, or loud noises, grants a creature a +1 to +4 circumstance bonus to a their AC or saving throws.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Empowered Catalyst: </strong>Creatures that would be immune to the Auditory trait or cannot understand you are affected by this spell normally, and interferences to hearing your spell grant only up to a +1 circumstance bonus.</span></p>",
+      "value": "<p><strong>Trigger</strong> You are about to Cast a Spell that targets a single creature or an area.</p><hr /><p><span lang=\"EN\">Finishing your oration of a spell to envision, you use a catalyst to give the final word an impactful boom. The strength of your words empowers the spell, changing it so that anyone who even feels the gravitas of your voice is affected.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your catalyzed spell gains the Auditory and Linguistic trait. Line of effect and line of sight requirements for the spell instead depend on if the creature can hear and understand you, though you must be aware of a creature’s occupied space and within range for the spell to affect them in this way. An affected creature ignores any bonuses to cover or benefits from being @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} or @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}. Interference to hearing your spell, such as muffled hearing, sound dampening walls, or loud noises, grants a creature a +1 to +4 circumstance bonus to a their AC or saving throws.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Empowered Catalyst: </strong>Creatures that would be immune to the Auditory trait or cannot understand you are affected by this spell normally, and interferences to hearing your spell grant only up to a +1 circumstance bonus.</span></p>",
       "gm": ""
     },
     "publication": {
@@ -22,7 +22,56 @@
       "license": "OGL",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "catalyze",
+        "placement": "spellcasting",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "alwaysActive": false,
+        "mergeable": true,
+        "toggleable": true,
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Luminary.Catalyze.DropVerse.Label",
+            "value": "drop-verse"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "mode": "add",
+        "priority": 121,
+        "property": "description",
+        "predicate": [
+          "catalyze:drop-verse"
+        ],
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Luminary.Catalyze.DropVerse.Description",
+            "title": "IA.SpecificRule.Luminary.Catalyze.DropVerse.Label"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Luminary.SpellEffects.StipplingShades.Label",
+        "mode": "add",
+        "predicate": [
+          "catalyze:drop-verse"
+        ],
+        "priority": 121,
+        "property": "traits",
+        "value": [
+          "auditory",
+          "linguistic"
+        ]
+      }
+    ],
     "slug": "drop-verse",
     "traits": {
       "otherTags": [],

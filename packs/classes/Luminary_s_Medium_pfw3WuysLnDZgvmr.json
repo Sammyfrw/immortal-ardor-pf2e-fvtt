@@ -18,8 +18,7 @@
         },
         "flag": "medium",
         "key": "ChoiceSet",
-        "prompt": "Select a luminary's medium.",
-        "selection": "Compendium.immortal-ardor.classes.Item.OIvbhw8Bb1W1eNSs"
+        "prompt": "Select a luminary's medium."
       },
       {
         "key": "GrantItem",

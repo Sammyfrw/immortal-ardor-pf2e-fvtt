@@ -11,7 +11,7 @@
     "rules": [
       {
         "key": "ActiveEffectLike",
-        "mode": "add",
+        "mode": "override",
         "path": "flags.pf2e.luminary.favoredTradition",
         "value": "occultism"
       }

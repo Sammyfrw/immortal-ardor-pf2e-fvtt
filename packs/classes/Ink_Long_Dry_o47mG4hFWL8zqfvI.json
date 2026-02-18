@@ -22,7 +22,41 @@
       "license": "OGL",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "catalyze",
+        "placement": "spellcasting",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "alwaysActive": false,
+        "mergeable": true,
+        "toggleable": true,
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Luminary.Catalyze.InkLongDry.Label",
+            "value": "ink-long-dry"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "mode": "add",
+        "priority": 121,
+        "property": "description",
+        "predicate": [
+          "catalyze:ink-long-dry"
+        ],
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Luminary.Catalyze.InkLongDry.Description",
+            "title": "IA.SpecificRule.Luminary.Catalyze.InkLongDry.Label"
+          }
+        ]
+      }
+    ],
     "slug": "ink-long-dry",
     "traits": {
       "otherTags": [],

@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> You are about to Cast a Spell that affects a single target or an area.</p><hr /><p><span lang=\"EN\">As you arrange your lights, smoke and mirrors, you use special reflective catalysts to create a spotlight or to darken an area and draw attention where you want. Your spell provides magical light or darkness to arrange the stage for greater, dramatic effect.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your catalyzed spell causes the center of the targeted area, a single creature in your spell’s area or yourself to be covered in your choice of a 10-foot burst of bright light or darkness for 1 round. The spell gains the light or darkness trait, and can counteract magical darkness or magical light respectively, with a counteract rank equal to the spell you cast.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Empowered Catalyst</strong>: Creatures of your choice can be unaffected by the light or darkness you cast.</span></p>",
+      "value": "<p><strong>Trigger</strong> You are about to Cast a Spell that affects a single target or an area.</p><hr /><p><span lang=\"EN\">As you arrange your lights, smoke and mirrors, you use special reflective catalysts to create a spotlight or to darken an area and draw attention where you want. Your spell provides magical light or darkness to arrange the stage for greater, dramatic effect.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your catalyzed spell causes the center of the targeted area, a single creature in your spell’s area or yourself to be covered in your choice of a @Template[burst|distance:10] of bright light or darkness for 1 round. The spell gains the light or darkness trait, and can counteract magical darkness or magical light respectively, with a counteract rank equal to the spell you cast.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Empowered Catalyst</strong>: Creatures of your choice can be unaffected by the light or darkness you cast.</span></p>",
       "gm": ""
     },
     "publication": {
@@ -22,11 +22,46 @@
       "license": "OGL",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "catalyze",
+        "placement": "spellcasting",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "alwaysActive": false,
+        "mergeable": true,
+        "toggleable": true,
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Luminary.Catalyze.Shadowplay.Label",
+            "value": "shadowplay"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "mode": "add",
+        "priority": 121,
+        "property": "description",
+        "predicate": [
+          "catalyze:shadowplay"
+        ],
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Luminary.Catalyze.Shadowplay.Description",
+            "title": "IA.SpecificRule.Luminary.Catalyze.Shadowplay.Label"
+          }
+        ]
+      }
+    ],
     "slug": "shadowplay",
     "traits": {
       "otherTags": [],
       "value": [
+        "catalyze",
         "luminary"
       ]
     },

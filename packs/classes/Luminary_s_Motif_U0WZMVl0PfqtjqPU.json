@@ -18,8 +18,7 @@
         },
         "flag": "motif",
         "key": "ChoiceSet",
-        "prompt": "Select a luminary's motif.",
-        "selection": "Compendium.immortal-ardor.classes.Item.Y3Uc1ahKffDkGzUG"
+        "prompt": "Select a luminary's motif."
       },
       {
         "key": "GrantItem",
