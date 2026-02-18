@@ -1,6 +1,6 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Zephyr Meditation",
+  "name": "Spell Effect: Zephyr Meditation",
   "type": "effect",
   "effects": [],
   "system": {
@@ -53,7 +53,7 @@
         "level": "floor(@actor.level/2)"
       }
     ],
-    "slug": "effect-zephyr-meditation",
+    "slug": "spell-effect-zephyr-meditation",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -97,9 +97,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "7.10.1",
     "exportSource": null
   },
   "_id": "5KFOBoXHsqbKQSm8",

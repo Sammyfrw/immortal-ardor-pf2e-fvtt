@@ -1,6 +1,6 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Flamedance Meditation",
+  "name": "Spell Effect: Flamedance Meditation",
   "type": "effect",
   "effects": [],
   "system": {
@@ -53,7 +53,7 @@
         "uuid": "Compendium.immortal-ardor.classes.Item.UIXJIuXfYAq6vrER"
       }
     ],
-    "slug": "effect-flamedance-meditation",
+    "slug": "spell-effect-flamedance-meditation",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -97,9 +97,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "7.10.1",
     "exportSource": null
   },
   "_id": "E0TUYubcShRv1QCm",

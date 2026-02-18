@@ -1,6 +1,6 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Moonblink Meditation",
+  "name": "Spell Effect: Moonblink Meditation",
   "type": "effect",
   "effects": [],
   "system": {
@@ -18,7 +18,7 @@
         "uuid": "Compendium.immortal-ardor.classes.Item.uuG9XjzZvuSEy1xo"
       }
     ],
-    "slug": "effect-moonblink-meditation",
+    "slug": "spell-effect-moonblink-meditation",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -62,9 +62,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "7.10.1",
     "exportSource": null
   },
   "_id": "H5u44a2JUR3VGyiD",

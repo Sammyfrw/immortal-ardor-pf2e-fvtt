@@ -6,9 +6,30 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">With a couple of reflective surfaces, a spark, and a bit of smoke, you give rise to experiences. It isn’t about the truth as much as the perception of it. This forms the foundation for your medium. If the smokey dragon you conjure is a good enough representation to be mistaken for a real one, then as it materializes before your captivated audience, the fire is just as real – because it is. When your refracted lights intertwine to portray a blue wall of ice, it materializes into a chilling barrier. Your medium could be a series of magical mirrors, able to fly forth and set your stage as you cast your magic. Or, it could be a magical censer, able to generate the colorful smoke in the form of your desired spell. Your ephemeral catalyst and catalyst cache could contain the coals or specialized prisms needed to create your very own show.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your key attribute is Charisma, and your visionary skill is Deception. You gain the Shadowplay action.</span></p>"
+      "value": "<p><span lang=\"EN\">With a couple of reflective surfaces, a spark, and a bit of smoke, you give rise to experiences. It isn’t about the truth as much as the perception of it. This forms the foundation for your medium. If the smokey dragon you conjure is a good enough representation to be mistaken for a real one, then as it materializes before your captivated audience, the fire is just as real – because it is. When your refracted lights intertwine to portray a blue wall of ice, it materializes into a chilling barrier. Your medium could be a series of magical mirrors, able to fly forth and set your stage as you cast your magic. Or, it could be a magical censer, able to generate the colorful smoke in the form of your desired spell. Your ephemeral catalyst and catalyst cache could contain the coals or specialized prisms needed to create your very own show.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your key attribute is Charisma, and your visionary skill is Deception. You gain the @UUID[Compendium.immortal-ardor.classes.CwhtD9i7jesFcQaK]{Shadowplay} action.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.deception.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "visionary-skill"
+        ],
+        "value": "@actor.system.skills.deception.value",
+        "type": "proficiency",
+        "label": "Proficiency"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.CwhtD9i7jesFcQaK",
+        "flag": "smudge"
+      }
+    ],
     "slug": "smoke-and-mirrors",
     "_migration": {
       "version": 0.955,

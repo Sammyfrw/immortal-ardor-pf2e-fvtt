@@ -1,0 +1,79 @@
+{
+  "folder": "gNebx2qWMvc5iAUU",
+  "name": "Stippling Shades",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">You cause your magic to create a full picture through numerous, smaller details, where tiny shapes form an illusion that trick the senses into believing a visible threat and leaving the true spell unseen.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">For the duration, your spells are veiled and gain the illusion trait, though the intent of the spell is still apparent to any observer; a fireball would still appear as an eruption of harmful magic, or an electric ray might seem to be taking a meandering way to reach its target. Prior to resolving the outcome of a spell against affected creatures, determine if the targets disbelieve the veiled spell based on their perception. If the spell requires a spell attack, compare the outcome of the roll to a creature’s Perception DC. If it requires a saving throw, targeted creatures need to make a Seek check before rolling their saving throw.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">If a creature fails to disbelieve the illusion, they take a -2 status penalty to their AC or saving throw against the spell. If they critically succeed in disbelieving the illusion, they gain a +1 status bonus instead.</span></p><p>@UUID[Compendium.immortal-ardor.classes.7V6zfl6anbjhvHNX]{Spell Effect: Stippling Shades}</p><hr /><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Heightened (4th) </strong>The duration of this spell increases to 2 rounds.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Heightened (8th) </strong>Even if you fail to overcome a target’s Perception DC or if they only succeed (but not critically succeed) in their Seek attempt, the target still takes a -1 status penalty to their AC or saving throws against the spell.</span></p>"
+    },
+    "rules": [],
+    "slug": "stippling-shades",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary",
+        "subtle"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 round",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/symbols/triangle-glow-purple.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "X3SHuud5tqrgznjP",
+  "sort": 300000,
+  "_key": "!items!X3SHuud5tqrgznjP"
+}

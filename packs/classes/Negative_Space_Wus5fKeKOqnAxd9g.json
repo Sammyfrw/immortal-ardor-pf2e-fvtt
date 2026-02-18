@@ -6,9 +6,16 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">In all your works, you leave an empty space which speaks volumes. If your medium uses color, your colors are concentrated, with the remainder of your art expanding in white or black. If your medium is poetry, pregnant pauses dot your recitation to give weight.</span><span style=\"mso-spacerun:yes\">  </span><span lang=\"EN\">The negative space speaks to the vast unknown and the moments of reflection and silence. When you envision your spells, you’re keenly aware that your reach is far greater than what you can perceive.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Divine</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells </strong></span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell</strong> You learn the Expand the Canvas visionary spell.</span></p>"
+      "value": "<p><span lang=\"EN\">In all your works, you leave an empty space which speaks volumes. If your medium uses color, your colors are concentrated, with the remainder of your art expanding in white or black. If your medium is poetry, pregnant pauses dot your recitation to give weight.</span><span style=\"mso-spacerun:yes\">  </span><span lang=\"EN\">The negative space speaks to the vast unknown and the moments of reflection and silence. When you envision your spells, you’re keenly aware that your reach is far greater than what you can perceive.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Divine</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells</strong></span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell</strong> You learn the @UUID[Compendium.immortal-ardor.classes.SIGLDwWAHF3E0SkG]{Expand the Canvas} foundation visionary spell.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.luminary.favoredTradition",
+        "value": "divine"
+      }
+    ],
     "slug": "negative-space",
     "_migration": {
       "version": 0.955,
@@ -20,7 +27,7 @@
     },
     "traits": {
       "otherTags": [
-        "luminary-motifs"
+        "luminary-motif"
       ],
       "value": [
         "luminary"

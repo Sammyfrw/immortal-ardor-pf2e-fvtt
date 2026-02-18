@@ -5,15 +5,16 @@
   "type": "Item",
   "_id": "Tnyq3fp1VyUMoSfu",
   "description": "",
-  "sort": 100000,
+  "sort": 900000,
   "color": null,
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "_key": "!folders!Tnyq3fp1VyUMoSfu"
 }

@@ -1,6 +1,6 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Entropy Meditation",
+  "name": "Spell Effect: Entropy Meditation",
   "type": "effect",
   "effects": [],
   "system": {
@@ -22,7 +22,7 @@
         "uuid": "Compendium.immortal-ardor.classes.Item.BryFcwrkOoW5Ez1D"
       }
     ],
-    "slug": "effect-entropy-meditation",
+    "slug": "spell-effect-entropy-meditation",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -66,9 +66,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "7.10.1",
     "exportSource": null
   },
   "_id": "Kt3l4l8GX8ZddpvQ",

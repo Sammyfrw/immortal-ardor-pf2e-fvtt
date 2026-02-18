@@ -6,9 +6,30 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">Your medium is one where you spread your palette to the world. It could be a magical brush, where you paint the air with vibrant flames or freezing ice. It might be a pouch of magical chalk, blown by the wind to bring colorful emotions. Your ephemeral catalyst and catalyst cache could be a palette, or a container for all the different colors you could use for your medium. As your draw, flourish and bring a cascade of colors, your envisioned magic takes shape with the world as your canvas. A painted flame could turn into a launched fireball, or a spray of earthen colors takes life into a wall of stone.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your key attribute score is Intelligence, and your visionary skill is Crafting. You gain the Smudge action.</span></p>"
+      "value": "<p><span lang=\"EN\">Your medium is one where you spread your palette to the world. It could be a magical brush, where you paint the air with vibrant flames or freezing ice. It might be a pouch of magical chalk, blown by the wind to bring colorful emotions. Your ephemeral catalyst and catalyst cache could be a palette, or a container for all the different colors you could use for your medium. As your draw, flourish and bring a cascade of colors, your envisioned magic takes shape with the world as your canvas. A painted flame could turn into a launched fireball, or a spray of earthen colors takes life into a wall of stone.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your key attribute score is Intelligence, and your visionary skill is Crafting. You gain the @UUID[Compendium.immortal-ardor.classes.UBGl2v47K80kpo4A]{Smudge} action.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.crafting.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "visionary-skill"
+        ],
+        "value": "@actor.system.skills.crafting.value",
+        "type": "proficiency",
+        "label": "Proficiency"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.UBGl2v47K80kpo4A",
+        "flag": "smudge"
+      }
+    ],
     "slug": "rain-of-colours",
     "_migration": {
       "version": 0.955,

@@ -1,0 +1,89 @@
+{
+  "folder": "gNebx2qWMvc5iAUU",
+  "name": "Tessellation",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">You conjure a straight line of a tessellating pattern on the ground between you and a target. This pattern follows you and your target, and extends and shrinks as either of you move closer or farther from each other. The spell ends if the distance between you and target exceeds range of this spell. The tessellation’s distorting surface allows you or a targeted ally to treat difficult terrain as normal terrain and greater difficult terrain as difficult terrain while moving along the line. You can also Sustain this spell once per turn to create an effect depending on if your target is an Ally or an Enemy:</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Ally</strong> –You or your ally can Stride away or towards each other in a straight line as a free action. If your ally moves, they have a +2 status bonus against any reactions triggered by their movement.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Enemy</strong> – You can attempt to magically Shove your target from a distance towards or away from you while they are on the surface of the Tesselation, using your Athletics, Visionary Skill, or Spell Attack modifier, whichever is highest. On a successful shove, the creature treats moving towards you as difficult terrain for 1 round.</span></p><p>@UUID[Compendium.immortal-ardor.classes.OuemSKaHe9hPpphW]{Spell Effect: Tessellation}</p><hr /><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Heightened</strong> <strong>(3rd) </strong>When you shove, you shove up to 5 feet farther on a success, or 10 feet farther on a critical success. You can choose to increase the range of the spell to 120 feet.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Heightened (5th)</strong> When you shove, you shove up to 10 feet farther on a success, or 20 feet farther on a critical success. When you Sustain a Tesselation with an ally, you can each Stride once, or one target can Stride twice.</span></p><p><strong>Heightened (7th)</strong> When you shove, you shove up to 15 feet farther on a success, or 30 feet farther on a critical success. If you are tethered to an ally and you dismiss this spell, you can teleport and swap places with your ally or teleport yourself or them towards the space adjacent to the other.</p>"
+    },
+    "rules": [],
+    "slug": "tessellation",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 ally or 1 enemy"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "fixed",
+      "levels": {
+        "3": {
+          "range": {
+            "value": "120 feet"
+          }
+        }
+      }
+    }
+  },
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "GMd0P8ZU34TbHHWM",
+  "sort": 200000,
+  "_key": "!items!GMd0P8ZU34TbHHWM"
+}

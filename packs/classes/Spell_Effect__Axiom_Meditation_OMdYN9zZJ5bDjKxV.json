@@ -1,6 +1,6 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Axiom Meditation",
+  "name": "Spell Effect: Axiom Meditation",
   "type": "effect",
   "effects": [],
   "system": {
@@ -22,7 +22,7 @@
         "uuid": "Compendium.immortal-ardor.classes.Item.Wf0qIr0X8psa4epV"
       }
     ],
-    "slug": "effect-axiom-meditation",
+    "slug": "spell-effect-axiom-meditation",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -66,9 +66,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "7.10.1",
     "exportSource": null
   },
   "_id": "OMdYN9zZJ5bDjKxV",

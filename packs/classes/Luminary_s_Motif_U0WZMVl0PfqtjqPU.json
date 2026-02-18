@@ -8,7 +8,25 @@
       "gm": "",
       "value": "<p><span lang=\"EN\">The creative half of a luminary is the signature style of their expression, known as their motif. Luminaries might create magic with vivid imagery that evokes life’s vibrancy, or evocative concepts that strike deep thoughts. This style could be something they were inspired by or taught by a luminary they studied under – but it serves as a luminary’s vision and message. As a budding luminary, you select one luminary’s motif at 1st level to represent the foundation of your motif that you would build upon, creating a style that is uniquely yours.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Selecting a luminary’s motif determines your favored tradition of magic, a visionary spell, additional spells that are added into your portfolio, and bonus motif spell slots that can be used to cast spells of the motif’s favored tradition. Spells you gain from the motif are always of its favored tradition. The list of motifs can be found at the end of this section.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:luminary-motif"
+          ]
+        },
+        "flag": "motif",
+        "key": "ChoiceSet",
+        "prompt": "Select a luminary's motif.",
+        "selection": "Compendium.immortal-ardor.classes.Item.Y3Uc1ahKffDkGzUG"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.motif}",
+        "flag": "sharpShading"
+      }
+    ],
     "slug": "luminarys-motif",
     "_migration": {
       "version": 0.955,

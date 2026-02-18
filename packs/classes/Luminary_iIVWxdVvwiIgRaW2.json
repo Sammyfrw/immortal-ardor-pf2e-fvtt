@@ -24,7 +24,122 @@
       "otherTags": [],
       "rarity": "uncommon"
     },
-    "items": {},
+    "items": {
+      "EJ1ra": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.U1FYaVliZ1sxtJRn",
+        "img": "icons/containers/bags/pouch-leather-leaf-green.webp",
+        "name": "Catalyst Cache",
+        "level": 1
+      },
+      "TBOcf": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.iInxedG0aWsKIx0p",
+        "img": "icons/consumables/potions/bottle-circular-corked-labeled-green.webp",
+        "name": "Enhanced Catalysts",
+        "level": 9
+      },
+      "JON95": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.ULqCiiStPnog4Xms",
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "name": "Expert Spellcaster",
+        "level": 7
+      },
+      "1iNsG": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.p0auikqZc13Vts8U",
+        "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+        "name": "Eye for Detail",
+        "level": 15
+      },
+      "7eDQt": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.ffyTZI3U79nVb76Y",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "name": "Eye for Talent",
+        "level": 7
+      },
+      "730VP": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.jCZebs5RrQyxOEjX",
+        "img": "icons/magic/life/cross-explosion-burst-green.webp",
+        "name": "Fortitude Expertise",
+        "level": 9
+      },
+      "7xvTy": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.k3ilvTgwXxCaJA5E",
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "name": "Legendary Spellcaster",
+        "level": 19
+      },
+      "XQgL3": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.QBJruOLVXZH4jVVv",
+        "img": "icons/equipment/back/mantle-collared-green.webp",
+        "name": "Light Armor Expertise",
+        "level": 11
+      },
+      "BYhgr": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.Wv3s8l9se4d2TbEG",
+        "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+        "name": "Luminary Spellcasting",
+        "level": 1
+      },
+      "GXSAJ": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.pfw3WuysLnDZgvmr",
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "name": "Luminary's Medium",
+        "level": 1
+      },
+      "Wnote": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.U0WZMVl0PfqtjqPU",
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "name": "Luminary's Motif",
+        "level": 1
+      },
+      "oDSCC": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.OWfhFR3Zj3ineQ0P",
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "name": "Master Spellcaster",
+        "level": 15
+      },
+      "jiumr": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.guYjUUNUD7YFlN4I",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Reflex Expertise",
+        "level": 5
+      },
+      "k6623": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.DD4zkckYvVknteEb",
+        "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+        "name": "Unerring Will",
+        "level": 11
+      },
+      "6PJ30": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.rtMRURzjpXVqDqP9",
+        "img": "icons/consumables/potions/flask-corked-blue-glow.webp",
+        "name": "Visionary Catalysts",
+        "level": 17
+      },
+      "jWPqx": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.tiSiP9t4LnJTfgrg",
+        "img": "icons/magic/control/buff-luck-fortune-rainbow.webp",
+        "name": "Visionary Paragon",
+        "level": 19
+      },
+      "7AXUx": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.Bzr4HnBVxjvNjMXT",
+        "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+        "name": "Visionary Spells",
+        "level": 1
+      },
+      "ORgvX": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.NX21GxjsqJuv936p",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Weapon Expertise",
+        "level": 11
+      },
+      "HRgwt": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.QH8usT5NF0hWk5vz",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 13
+      }
+    },
     "keyAbility": {
       "value": [
         "int"

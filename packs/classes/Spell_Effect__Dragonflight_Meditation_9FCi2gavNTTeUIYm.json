@@ -1,6 +1,6 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Dragonflight Meditation",
+  "name": "Spell Effect: Dragonflight Meditation",
   "type": "effect",
   "effects": [],
   "system": {
@@ -361,7 +361,7 @@
         ]
       }
     ],
-    "slug": "effect-dragonflight-meditation",
+    "slug": "spell-effect-dragonflight-meditation",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -405,9 +405,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "7.10.1",
     "exportSource": null
   },
   "_id": "9FCi2gavNTTeUIYm",

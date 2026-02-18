@@ -8,7 +8,20 @@
       "gm": "",
       "value": "<p>This toolkit contains a Luminary's ephemeral catalysts and any other catalysts they may have. The cache is necessary to make use of the features as described in the @UUID[Compendium.immortal-ardor.classes.U1FYaVliZ1sxtJRn]{Catalyst Cache} feature or the @UUID[Compendium.immortal-ardor.classes.DwGZS7yq4aWA3BHb]{Catalyze Spell} action. A luminary who loses their catalyst cache can typically acquire a new one for free making their own after a day of downtime or picking one up from a settlement.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemUUID": "Compendium.immortal-ardor.classes.Item.0Yw4xJ15CDRDq6H2",
+        "key": "SpecialResource",
+        "label": "Epehemeral Catalysts",
+        "max": "2 + ternary(eq(@actor.system.details.keyability.value, int), @actor.system.abilities.int.mod, @actor.system.abilities.cha.mod)",
+        "slug": "ephemeral-catalysts"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.DwGZS7yq4aWA3BHb",
+        "flag": "catalyzeSpell"
+      }
+    ],
     "slug": "catalyst-cache",
     "_migration": {
       "version": 0.955,

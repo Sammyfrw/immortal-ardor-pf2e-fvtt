@@ -6,9 +6,30 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">With the power of words you can paint a picture, or cut deep into the soul of those who would listen. Even language would not be a barrier, for your tongue has the power to convey the depths of your soul. As you recite poetry or verses to evoke imagery, words might flow out from your medium and take form, literal sentences might pour forth and literally strike at your foes, or adjectives and verbs might cut deep into the soul and manifest upon themselves. Your medium is a collection of your prepared verses in your portfolio, evocative poetry in a magic book, or pieces of short stories that you’ve scrambled together from forlorn tales on your travels. Your ephemeral catalyst and catalyst cache might be a collection of lozenges that empowers your voice, or a bell that can emit a strong boom to accentuate a crucial verse.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your key attribute is Charisma, and your visionary skill is Diplomacy. You gain the Drop Verse action.</span></p>"
+      "value": "<p><span lang=\"EN\">With the power of words you can paint a picture, or cut deep into the soul of those who would listen. Even language would not be a barrier, for your tongue has the power to convey the depths of your soul. As you recite poetry or verses to evoke imagery, words might flow out from your medium and take form, literal sentences might pour forth and literally strike at your foes, or adjectives and verbs might cut deep into the soul and manifest upon themselves. Your medium is a collection of your prepared verses in your portfolio, evocative poetry in a magic book, or pieces of short stories that you’ve scrambled together from forlorn tales on your travels. Your ephemeral catalyst and catalyst cache might be a collection of lozenges that empowers your voice, or a bell that can emit a strong boom to accentuate a crucial verse.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your key attribute is Charisma, and your visionary skill is Diplomacy. You gain the @UUID[Compendium.immortal-ardor.classes.FT4iAfuKnE9Vu6dz]{Drop Verse} action.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.diplomacy.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "visionary-skill"
+        ],
+        "value": "@actor.system.skills.diplomacy.value",
+        "type": "proficiency",
+        "label": "Proficiency"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.FT4iAfuKnE9Vu6dz",
+        "flag": "smudge"
+      }
+    ],
     "slug": "standing-oration",
     "_migration": {
       "version": 0.955,

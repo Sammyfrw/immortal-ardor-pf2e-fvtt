@@ -1,43 +1,37 @@
 {
   "folder": "m6tQe283kfhwQxYU",
-  "name": "Effect: Spellbound Meditation",
+  "name": "Spell Effect: Springwater Meditation",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.ZloBuLXdLwNhTDfU]{Spellbound Meditation}</p><p>You tap into the boundaries of other traditions of magic as you touch divinity. Once per round when you cast this spell and when you sustain this spell, you can choose one of the following Recitations:</p><ul><li><p>@UUID[Compendium.immortal-ardor.classes.scMfKsP4OmACBwnu]{Arcane Corrosion}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.Oy7bV7h4hoppi5oE]{Primal Haze}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.HO4zz8891xfRSl5J]{Occult Shock}</p></li></ul>"
+      "value": "<p>You conjure the purity of powerful springs. <span style=\"font-family:Roboto, sans-serif\">Once per round when you cast this spell or when you sustain this spell, the water surges with your movements. Choose one of the following recitations:</span></p><ul><li><p>@UUID[Compendium.immortal-ardor.classes.o1S4HX6vDJ09dYB1]{Purge the Ills}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.VtCMIGVl4QSueW19]{Contemplation of Purity}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.IypRnat88QrXm8K2]{Touch of Vitality}</p></li></ul><p></p>"
     },
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.classes.Item.scMfKsP4OmACBwnu"
+        "uuid": "Compendium.immortal-ardor.classes.Item.o1S4HX6vDJ09dYB1"
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.classes.Item.Oy7bV7h4hoppi5oE"
+        "uuid": "Compendium.immortal-ardor.classes.Item.VtCMIGVl4QSueW19"
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.classes.Item.HO4zz8891xfRSl5J"
+        "uuid": "Compendium.immortal-ardor.classes.Item.IypRnat88QrXm8K2"
       },
       {
         "itemType": "action",
         "key": "ItemAlteration",
-        "label": "Spellbound Meditation: 9th Rank",
+        "label": "Springwater Meditation: 7th Rank",
         "mode": "add",
         "predicate": [
+          "item:purge-the-ills",
           {
             "gte": [
               "self:level",
-              17
-            ]
-          },
-          {
-            "or": [
-              "item:arcane-corrosion",
-              "item:primal-haze",
-              "item:occult-shock"
+              13
             ]
           }
         ],
@@ -46,12 +40,12 @@
         "value": [
           {
             "divider": true,
-            "text": "IA.SpecificRule.Dervish.Recitations.SpellboundMeditation.Description9thRank"
+            "text": "IA.SpecificRule.Dervish.Recitations.SpringwaterMeditation.Description7thRank"
           }
         ]
       }
     ],
-    "slug": "effect-spellbound-meditation",
+    "slug": "spell-effect-springwater-meditation",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -86,7 +80,7 @@
     "context": null,
     "unidentified": false
   },
-  "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
+  "img": "icons/magic/water/wave-water-explosion.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -95,12 +89,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "7.10.1",
     "exportSource": null
   },
-  "_id": "u7nwxGLCR0KtXy1x",
-  "sort": 1800000,
-  "_key": "!items!u7nwxGLCR0KtXy1x"
+  "_id": "HEWk9NsHFIIfgcq8",
+  "sort": 500000,
+  "_key": "!items!HEWk9NsHFIIfgcq8"
 }

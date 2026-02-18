@@ -6,9 +6,16 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">The beauty of magic and all its boundless possibilities influences your work. Whether its drawing arcane sigils or recounting the elegance of magic, the endless expanse is represented in your work to draw your onlookers in. When you envision your spells, the brilliant sparks and engraved constellations form shapes that always impress.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Arcane</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells</strong> Force, Abjuration, Buffs</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell </strong>You learn the Tessellation visionary spell.</span></p>"
+      "value": "<p><span lang=\"EN\">The beauty of magic and all its boundless possibilities influences your work. Whether its drawing arcane sigils or recounting the elegance of magic, the endless expanse is represented in your work to draw your onlookers in. When you envision your spells, the brilliant sparks and engraved constellations form shapes that always impress.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Arcane</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells</strong> Force, Abjuration, Buffs</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell </strong>You learn the @UUID[Compendium.immortal-ardor.classes.GMd0P8ZU34TbHHWM]{Tessellation} foundation visionary spell.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.luminary.favoredTradition",
+        "value": "arcane"
+      }
+    ],
     "slug": "abstract-fractals",
     "_migration": {
       "version": 0.955,
@@ -20,7 +27,7 @@
     },
     "traits": {
       "otherTags": [
-        "luminary-motifs"
+        "luminary-motif"
       ],
       "value": [
         "luminary"

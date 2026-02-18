@@ -6,9 +6,16 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">When you create, you make sure all your subjects are multifaceted and detailed; in ink sketches, they have meticulously detailed shadows. In writing, they have depth and histories to reflect their personalities. Nothing in this world is as simple as it seems, and the shading and depth you pour in reflects that. When you envision your spells, you leave no details unchecked so that all will feel the impression it can leave.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Primal</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells </strong>Energy Spells</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell</strong> You learn the Bold Detail visionary spell.</span></p>"
+      "value": "<p><span lang=\"EN\">When you create, you make sure all your subjects are multifaceted and detailed; in ink sketches, they have meticulously detailed shadows. In writing, they have depth and histories to reflect their personalities. Nothing in this world is as simple as it seems, and the shading and depth you pour in reflects that. When you envision your spells, you leave no details unchecked so that all will feel the impression it can leave.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Primal</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells </strong>Energy Spells</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell</strong> You learn the @UUID[Compendium.immortal-ardor.classes.M2j5w4YwF8ThNHEu]{Bold Detail} visionary spell.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.luminary.favoredTradition",
+        "value": "primal"
+      }
+    ],
     "slug": "sharp-shading",
     "_migration": {
       "version": 0.955,
@@ -20,7 +27,7 @@
     },
     "traits": {
       "otherTags": [
-        "luminary-motifs"
+        "luminary-motif"
       ],
       "value": [
         "luminary"

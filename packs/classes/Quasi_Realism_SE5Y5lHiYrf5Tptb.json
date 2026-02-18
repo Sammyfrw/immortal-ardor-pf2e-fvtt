@@ -6,9 +6,16 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">Your descriptors and details are vague and leave much to the imagination. You might use terse imagery to describe something, or your painted shapes are vague enough to interpret something out of it. Beauty and meaning are in the eyes of beholder, and this is reflected in your work. When you envision your spells, they deliver their message while the observer is left pondering it even after it overtakes them.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Occult</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells </strong>Illusion Spells</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell </strong>You learn the Stippling Shades visionary spell.</span></p>"
+      "value": "<p><span lang=\"EN\">Your descriptors and details are vague and leave much to the imagination. You might use terse imagery to describe something, or your painted shapes are vague enough to interpret something out of it. Beauty and meaning are in the eyes of beholder, and this is reflected in your work. When you envision your spells, they deliver their message while the observer is left pondering it even after it overtakes them.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Occult</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells </strong>Illusion Spells</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell </strong>You learn the @UUID[Compendium.immortal-ardor.classes.X3SHuud5tqrgznjP]{Stippling Shades} foundation visionary spell.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.luminary.favoredTradition",
+        "value": "occultism"
+      }
+    ],
     "slug": "quasi-realism",
     "_migration": {
       "version": 0.955,
@@ -20,7 +27,7 @@
     },
     "traits": {
       "otherTags": [
-        "luminary-motifs"
+        "luminary-motif"
       ],
       "value": [
         "luminary"
