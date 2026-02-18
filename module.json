@@ -536,6 +536,18 @@
             "label": "IA.Trait.Covenant",
             "description": "IA.TraitDescription.Covenant"
           },
+          "dervish": {
+            "label": "IA.Trait.Dervish",
+            "description": "IA.TraitDescription.Dervish"
+          },
+          "diviner": {
+            "label": "IA.Trait.Diviner",
+            "description": "IA.TraitDescription.Diviner"
+          },
+          "luminary": {
+            "label": "IA.Trait.Luminary",
+            "description": "IA.TraitDescription.Luminary"
+          },
           "meditation": {
             "label": "IA.Trait.Meditation",
             "description": "IA.TraitDescription.Meditation"
