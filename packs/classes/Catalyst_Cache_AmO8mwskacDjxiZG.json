@@ -1,0 +1,101 @@
+{
+  "folder": "rEknlndpoTqob78N",
+  "name": "Catalyst Cache",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This toolkit contains a Luminary's ephemeral catalysts and any other catalysts they may have. The cache is necessary to make use of the features as described in the @UUID[Compendium.immortal-ardor.classes.U1FYaVliZ1sxtJRn]{Catalyst Cache} feature or the @UUID[Compendium.immortal-ardor.classes.DwGZS7yq4aWA3BHb]{Catalyze Spell} action. A luminary who loses their catalyst cache can typically acquire a new one for free making their own after a day of downtime or picking one up from a settlement.</p>"
+    },
+    "rules": [
+      {
+        "itemUUID": "Compendium.immortal-ardor.classes.Item.0Yw4xJ15CDRDq6H2",
+        "key": "SpecialResource",
+        "label": "Epehemeral Catalysts",
+        "max": "2 + ternary(eq(@actor.system.details.keyability.value, int), @actor.system.abilities.int.mod, @actor.system.abilities.cha.mod)",
+        "slug": "ephemeral-catalysts"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.DwGZS7yq4aWA3BHb",
+        "flag": "catalyzeSpell"
+      }
+    ],
+    "slug": "catalyst-cache",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "icons/containers/bags/pouch-leather-leaf-green.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "AmO8mwskacDjxiZG",
+  "sort": 100000,
+  "_key": "!items!AmO8mwskacDjxiZG"
+}

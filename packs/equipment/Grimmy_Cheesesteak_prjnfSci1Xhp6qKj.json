@@ -46,7 +46,8 @@
     "price": {
       "value": {
         "sp": 10
-      }
+      },
+      "per": 1
     },
     "equipped": {
       "carryType": "worn"
@@ -80,17 +81,17 @@
     "usage": {
       "value": "held-in-one-hand"
     },
-    "stackGroup": null,
-    "spell": null
+    "spell": null,
+    "stackGroup": null
   },
   "img": "icons/consumables/grains/pastry-bread-brown.webp",
   "flags": {},
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.prjnfSci1Xhp6qKj",
     "duplicateSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.5.2",
+    "systemVersion": "7.10.1",
     "exportSource": null
   },
   "_id": "prjnfSci1Xhp6qKj",

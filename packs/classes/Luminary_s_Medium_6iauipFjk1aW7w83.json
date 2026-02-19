@@ -1,0 +1,88 @@
+{
+  "folder": "rEknlndpoTqob78N",
+  "name": "Luminary's Medium",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A Luminary's Medium takes many shapes and sizes, depending on their selected medium. It could be an enchanted paintbrush, able to paint into space. It might be a flowing ink-pen, writing upon the air. It could be a magical book of poetry that lets the luminary weave their words to life. It could be a collection of floating mirrors and a match, or a censer that has fumes and embers the luminary could control. Regardless of what it is, it can weigh up to one bulk and is feasible enough to hold with 1 hand and can be easily replaced after spending a day of downtime or some time in a settlement to enchant a new set.</p>"
+    },
+    "rules": [],
+    "slug": "luminarys-medium",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "img": "icons/commodities/treasure/case-red-silver.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "6iauipFjk1aW7w83",
+  "sort": 200000,
+  "_key": "!items!6iauipFjk1aW7w83"
+}

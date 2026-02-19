@@ -1,0 +1,112 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Subtle Catalyst",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger </strong>You are about to cast a spell.</p><hr /><p><span lang=\"EN\">You can work rather quietly with the aid of a catalyst to conceal and simplify your spellcraft. Your catalyzed spell gains the subtle trait, hiding the evocative imagery or sounds of your spellcasting. The trait only hides the spell’s spellcasting actions and manifestations, and not its effects, so an observer will still see a ray streak out from you or see you vanish into thin air.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You can choose to use this feat without using an ephemeral catalyst by slowing your spellcraft instead. If you do, this action loses the Catalyze trait but requires you spend an action, and your next action must be to Cast a Spell, as normal for Spellshapes.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Enhanced Catalyst</strong> You spend your catalyst and take the time to empower your technique. You add 1 to this action’s catalyze trait and attempt a Stealth check or a check with your visionary skill against an observer’s Perception DC. On a success, you do not trigger reactions for your Catalyze Spell action or spellcasting. </span><span style=\"font-family:Roboto, sans-serif\">@Check[stealth,visionary-skill|against:perception]</span></p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "catalyze",
+        "placement": "spellcasting",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "alwaysActive": false,
+        "mergeable": true,
+        "toggleable": true,
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Luminary.Catalyze.SubtleCatalyst.Label",
+            "value": "subtle-catalyst"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "mode": "add",
+        "priority": 121,
+        "property": "description",
+        "predicate": [
+          "catalyze:subtle-catalyst"
+        ],
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Luminary.Catalyze.SubtleCatalyst.Description",
+            "title": "IA.SpecificRule.Luminary.Catalyze.SubtleCatalyst.Label"
+          }
+        ]
+      }
+    ],
+    "slug": "subtle-catalyst",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "catalyze-action"
+      ],
+      "value": [
+        "catalyze",
+        "concentrate",
+        "luminary",
+        "spellshape"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "fmfNRB3a61hBihdJ",
+  "sort": 1700000,
+  "_key": "!items!fmfNRB3a61hBihdJ"
+}

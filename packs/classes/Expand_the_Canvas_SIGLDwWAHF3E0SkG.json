@@ -1,0 +1,88 @@
+{
+  "folder": "gNebx2qWMvc5iAUU",
+  "name": "Expand the Canvas",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">With a swirl of well-defined lines of power, you create two overlapping fields to depict a scene of the known space and the unknown space. To those in the known space, the world beyond is hazy and mysterious, unless they can confront it.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">When you cast this spell, you create a @Template[burst|distance:5] at a location within range which represents the inner ring. You then create a @Template[burst|distance:15] at a location that includes the entirety of the inner ring which represents the outer ring. Then, you choose one of the following effects:</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Outside-In: </strong>Allied creatures in the inner ring take the spotlight and face against the unknown together. Allies in the inner ring gain a +1 status bonus to AC and are immune to flanking against creatures in the outer ring. As long as one ally in the inner ring is aware of or can detect a creature in the outer ring, other allies in the inner ring are also aware of them or their location. During your turn, you can Sustain the spell to move the inner ring to a new space within the outer ring. @UUID[Compendium.immortal-ardor.classes.pCqjvVrbfy6qPa97]{Spell Effect: Expand the Canvas (Outside-In)}</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Inside-Out: </strong>Creatures in the inner ring are faced with the crushing weight of the shrouded unknown. Each creature in the inner ring needs to make a Will save. A creature only needs to make a Will save when this spell is cast. During your turn, you can Sustain the spell to move the outer ring, but it must still be in an area where it envelops the inner ring. @UUID[Compendium.immortal-ardor.classes.KsTFSWE2aATb3IQB]{Spell Effect: Expand the Canvas (Inside-Out)}</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Critical Success</strong> The creature is unaffected.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Success </strong>The creature treats the outer ring’s area as difficult terrain until they exit it.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Failure </strong>As success, but the outer ring remains difficult terrain to it for the duration of the spell.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Critical Failure </strong>As failure, but for the duration the creature is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} to all creatures in the outer ring while the creature is within the outer ring.</span></p><hr /><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Heightened (+2) </strong>The maximum area of the inner ring increases by 5 feet, while the outer ring increases by 10 feet. You can choose to increase the area for both rings simultaneously by these heightened increments.</span></p>"
+    },
+    "rules": [],
+    "slug": "expand-the-canvas",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 15,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {},
+      "area": 10
+    }
+  },
+  "img": "icons/commodities/cloth/cloth-bolt-gold-pink.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "SIGLDwWAHF3E0SkG",
+  "sort": 0,
+  "_key": "!items!SIGLDwWAHF3E0SkG"
+}

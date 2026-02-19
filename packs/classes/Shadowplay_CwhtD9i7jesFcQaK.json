@@ -1,0 +1,97 @@
+{
+  "folder": "vYHBJE58YALlvv5w",
+  "name": "Shadowplay",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You are about to Cast a Spell that affects a single target or an area.</p><hr /><p><span lang=\"EN\">As you arrange your lights, smoke and mirrors, you use special reflective catalysts to create a spotlight or to darken an area and draw attention where you want. Your spell provides magical light or darkness to arrange the stage for greater, dramatic effect.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">Your catalyzed spell causes the center of the targeted area, a single creature in your spell’s area or yourself to be covered in your choice of a @Template[burst|distance:10] of bright light or darkness for 1 round. The spell gains the light or darkness trait, and can counteract magical darkness or magical light respectively, with a counteract rank equal to the spell you cast.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Empowered Catalyst</strong>: Creatures of your choice can be unaffected by the light or darkness you cast.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "catalyze",
+        "placement": "spellcasting",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "alwaysActive": false,
+        "mergeable": true,
+        "toggleable": true,
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Luminary.Catalyze.Shadowplay.Label",
+            "value": "shadowplay"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "mode": "add",
+        "priority": 121,
+        "property": "description",
+        "predicate": [
+          "catalyze:shadowplay"
+        ],
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Luminary.Catalyze.Shadowplay.Description",
+            "title": "IA.SpecificRule.Luminary.Catalyze.Shadowplay.Label"
+          }
+        ]
+      }
+    ],
+    "slug": "shadowplay",
+    "traits": {
+      "otherTags": [
+        "catalyze-action"
+      ],
+      "value": [
+        "catalyze",
+        "luminary"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "CwhtD9i7jesFcQaK",
+  "sort": 300000,
+  "_key": "!items!CwhtD9i7jesFcQaK"
+}

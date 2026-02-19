@@ -1,0 +1,116 @@
+{
+  "folder": "Sh7StbFx4ouAPaDy",
+  "name": "Effect: Artful Study",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.Ec3HqRf8pltIRUkr]{Artful Study}</p><p>You gain a +1 status bonus to your next spell attack or spell DC against a target you have studied with Artful Study.</p>"
+    },
+    "rules": [
+      {
+        "domain": "check",
+        "key": "RollOption",
+        "label": "Target is the subject of Artful Study",
+        "option": "artful-study",
+        "toggleable": true,
+        "placement": "spellcasting"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "artful-study"
+        ],
+        "removeAfterRoll": "if-enabled",
+        "type": "circumstance",
+        "value": "{item|flags.pf2e.rulesSelections.artfulStudy}",
+        "selector": [
+          "spell-attack",
+          "spell-dc"
+        ]
+      },
+      {
+        "key": "ChoiceSet",
+        "flag": "artfulStudy",
+        "prompt": "Artful Study Bonus",
+        "choices": [
+          {
+            "label": "+1 Bonus",
+            "value": "1"
+          },
+          {
+            "label": "+2 Bonus",
+            "value": "2",
+            "predicate": [
+              {
+                "or": [
+                  "skill:crafting:rank:3",
+                  "skill:society:rank:3",
+                  "skill:diplomacy:rank:3",
+                  "skill:deception:rank:3"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "effect-artful-study",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "i9PhaiGc7vl3l0ia",
+  "sort": 400000,
+  "_key": "!items!i9PhaiGc7vl3l0ia"
+}

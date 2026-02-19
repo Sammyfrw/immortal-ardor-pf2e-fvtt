@@ -100,7 +100,8 @@
     "badge": {
       "type": "counter",
       "value": 5,
-      "max": 5
+      "max": 5,
+      "min": null
     },
     "context": null,
     "unidentified": false
@@ -114,9 +115,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "7.10.1",
     "exportSource": null
   },
   "_id": "gNUeIkrWS6A7Zakz",

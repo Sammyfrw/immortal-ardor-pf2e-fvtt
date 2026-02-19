@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Luminary",
+  "color": "#c9af4f",
+  "sorting": "a",
+  "_id": "2l2hhfbqyLxFUp4W",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_key": "!folders!2l2hhfbqyLxFUp4W"
+}

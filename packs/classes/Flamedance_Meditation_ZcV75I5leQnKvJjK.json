@@ -18,6 +18,7 @@
       "otherTags": [],
       "value": [
         "concentrate",
+        "dervish",
         "emotion",
         "fire",
         "focus",
@@ -72,9 +73,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": "Item.LgJRHt96RKvOMKhF",
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "7.10.1",
     "exportSource": null
   },
   "_id": "ZcV75I5leQnKvJjK",

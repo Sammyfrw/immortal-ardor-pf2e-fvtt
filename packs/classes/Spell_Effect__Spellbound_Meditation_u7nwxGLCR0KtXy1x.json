@@ -1,0 +1,106 @@
+{
+  "folder": "m6tQe283kfhwQxYU",
+  "name": "Spell Effect: Spellbound Meditation",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.ZloBuLXdLwNhTDfU]{Spellbound Meditation}</p><p>You tap into the boundaries of other traditions of magic as you touch divinity. Once per round when you cast this spell and when you sustain this spell, you can choose one of the following Recitations:</p><ul><li><p>@UUID[Compendium.immortal-ardor.classes.scMfKsP4OmACBwnu]{Arcane Corrosion}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.Oy7bV7h4hoppi5oE]{Primal Haze}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.HO4zz8891xfRSl5J]{Occult Shock}</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.scMfKsP4OmACBwnu"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.Oy7bV7h4hoppi5oE"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.HO4zz8891xfRSl5J"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "label": "Spellbound Meditation: 9th Rank",
+        "mode": "add",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              17
+            ]
+          },
+          {
+            "or": [
+              "item:arcane-corrosion",
+              "item:primal-haze",
+              "item:occult-shock"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Dervish.Recitations.SpellboundMeditation.Description9thRank"
+          }
+        ]
+      }
+    ],
+    "slug": "spell-effect-spellbound-meditation",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "exportSource": null
+  },
+  "_id": "u7nwxGLCR0KtXy1x",
+  "sort": 1800000,
+  "_key": "!items!u7nwxGLCR0KtXy1x"
+}

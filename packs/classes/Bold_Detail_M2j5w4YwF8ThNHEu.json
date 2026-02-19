@@ -1,0 +1,79 @@
+{
+  "folder": "gNebx2qWMvc5iAUU",
+  "name": "Bold Detail",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">You channel magic to keen your senses, ensuring that your creative powers do not go unheard or unnoticed by employing vivid detail in your spellcraft. For the duration of the spell, your spells ignore resistances equal to the rank of the spell.</span></p><p>@UUID[Compendium.immortal-ardor.classes.tfLmSADWOQ9GbGTj]{Spell Effect: Bold Detail}</p><hr /><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Heightened (4th) </strong>The duration of this spell increases to 2 rounds.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Heightened (8th)</strong> Your spells ignore resistances equal to half your level if it the rank of the spell would be lower.</span></p>"
+    },
+    "rules": [],
+    "slug": "bold-detail",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary",
+        "subtle"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "Self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 round",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/fire/flame-burning-campfire-yellow-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "M2j5w4YwF8ThNHEu",
+  "sort": 100000,
+  "_key": "!items!M2j5w4YwF8ThNHEu"
+}

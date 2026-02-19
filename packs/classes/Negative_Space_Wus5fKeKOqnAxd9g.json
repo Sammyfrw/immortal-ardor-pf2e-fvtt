@@ -1,0 +1,82 @@
+{
+  "folder": "9aLaSmKkMLZBmQXg",
+  "name": "Negative Space",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">In all your works, you leave an empty space which speaks volumes. If your medium uses color, your colors are concentrated, with the remainder of your art expanding in white or black. If your medium is poetry, pregnant pauses dot your recitation to give weight.</span><span style=\"mso-spacerun:yes\">  </span><span lang=\"EN\">The negative space speaks to the vast unknown and the moments of reflection and silence. When you envision your spells, you’re keenly aware that your reach is far greater than what you can perceive.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Divine</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells</strong></span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell</strong> You learn the @UUID[Compendium.immortal-ardor.classes.SIGLDwWAHF3E0SkG]{Expand the Canvas} foundation visionary spell.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.luminary.favoredTradition",
+        "value": "divine"
+      }
+    ],
+    "slug": "negative-space",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "luminary-motif"
+      ],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/unholy/orb-hands-pink.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "Wus5fKeKOqnAxd9g",
+  "sort": 0,
+  "_key": "!items!Wus5fKeKOqnAxd9g"
+}

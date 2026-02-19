@@ -1,0 +1,82 @@
+{
+  "folder": "9aLaSmKkMLZBmQXg",
+  "name": "Quasi-Realism",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">Your descriptors and details are vague and leave much to the imagination. You might use terse imagery to describe something, or your painted shapes are vague enough to interpret something out of it. Beauty and meaning are in the eyes of beholder, and this is reflected in your work. When you envision your spells, they deliver their message while the observer is left pondering it even after it overtakes them.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Occult</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells </strong>Illusion Spells</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell </strong>You learn the @UUID[Compendium.immortal-ardor.classes.X3SHuud5tqrgznjP]{Stippling Shades} foundation visionary spell.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.luminary.favoredTradition",
+        "value": "occultism"
+      }
+    ],
+    "slug": "quasi-realism",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "luminary-motif"
+      ],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "SE5Y5lHiYrf5Tptb",
+  "sort": 0,
+  "_key": "!items!SE5Y5lHiYrf5Tptb"
+}

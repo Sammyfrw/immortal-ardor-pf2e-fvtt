@@ -1,0 +1,82 @@
+{
+  "folder": "9aLaSmKkMLZBmQXg",
+  "name": "Abstract Fractals",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">The beauty of magic and all its boundless possibilities influences your work. Whether its drawing arcane sigils or recounting the elegance of magic, the endless expanse is represented in your work to draw your onlookers in. When you envision your spells, the brilliant sparks and engraved constellations form shapes that always impress.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Favored Tradition </strong>Arcane</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Additional Spells</strong> Force, Abjuration, Buffs</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Visionary Spell </strong>You learn the @UUID[Compendium.immortal-ardor.classes.GMd0P8ZU34TbHHWM]{Tessellation} foundation visionary spell.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.luminary.favoredTradition",
+        "value": "arcane"
+      }
+    ],
+    "slug": "abstract-fractals",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "luminary-motif"
+      ],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "q3zFnfVW5mxT9Z9Z",
+  "sort": 0,
+  "_key": "!items!q3zFnfVW5mxT9Z9Z"
+}

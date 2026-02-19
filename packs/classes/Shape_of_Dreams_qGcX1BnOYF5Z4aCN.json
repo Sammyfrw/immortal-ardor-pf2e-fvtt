@@ -1,0 +1,79 @@
+{
+  "folder": "gNebx2qWMvc5iAUU",
+  "name": "Shape of Dreams",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">Your vivid imagery creates an item from your spellcraft. You create a facsimile of a level 0 common piece of adventuring gear that is worth less than 1 gp and weighs 5 bulk or less. The items appear in your hand or at your feet and persist only for 1 minute, but it could create a tool or a 10-foot pole or ladder as needed. These objects’ nature makes it so that any sufficient amount of force can destroy them and end the spell (10 hit points, AC 10, Hardness 0), but not so fragile as to prevent these tools from being used what they are meant to do, such as if they could hold or carry objects or a reasonable weight. Clothing that you make confers no real benefits except slight protection from the elements but can be of any style you want.</span></p><p class=\"MsoNormal\"><span lang=\"EN\">You can eschew spending an ephemeral catalyst by spending a focus point. If you do, the spell’s duration increases to 10 minutes, but the spell takes 3 actions to cast.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Heightened (2nd) </strong>You can create toolkits or other adventuring gear worth 5gp or less. If you spend a focus point, you can conjure an image or piece of writing over a five-foot space.</span></p><p class=\"MsoNormal\"><span lang=\"EN\"><strong>Heightened (4th) </strong>You can use this spell to create equally fragile but longer poles and ladders of up to 30 feet. If you spend a focus point,<strong> </strong>you can also create a flat but sturdy 30-foot long, five-foot wide pathway or platform that could hold a creature of your size or smaller.</span></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "luminary",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": "1 ephemeral catalyst"
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/light/circle-window-clock-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "qGcX1BnOYF5Z4aCN",
+  "sort": 0,
+  "_key": "!items!qGcX1BnOYF5Z4aCN"
+}
