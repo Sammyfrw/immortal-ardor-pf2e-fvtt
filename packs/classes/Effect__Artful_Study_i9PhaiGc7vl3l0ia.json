@@ -1,52 +1,62 @@
 {
   "folder": "Sh7StbFx4ouAPaDy",
-  "name": "Spell Effect: Stippling Shades (Target)",
+  "name": "Effect: Artful Study",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.X3SHuud5tqrgznjP]{Stippling Shades}</p><p>You gain one of the following benefits or penalties to the spell hidden by Stippling Shades:</p><p><strong>Critical Success </strong>+1 status bonus to your AC or saving throw.</p><p><strong>Success (8th Rank Only)</strong> -1 status penalty to your AC or saving throw.</p><p><strong>Failure </strong>You take a -2 status penalty to your AC or saving throw.</p>"
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.Ec3HqRf8pltIRUkr]{Artful Study}</p><p>You gain a +1 status bonus to your next spell attack or spell DC against a target you have studied with Artful Study.</p>"
     },
     "rules": [
       {
+        "domain": "check",
+        "key": "RollOption",
+        "label": "Target is the subject of Artful Study",
+        "option": "artful-study",
+        "toggleable": true,
+        "placement": "spellcasting"
+      },
+      {
         "key": "FlatModifier",
-        "selector": [
-          "ac",
-          "saving-throw"
+        "predicate": [
+          "artful-study"
         ],
-        "value": "{item|flags.pf2e.rulesSelections.stipplingShadesOutcome}",
-        "type": "status"
+        "removeAfterRoll": "if-enabled",
+        "type": "circumstance",
+        "value": "{item|flags.pf2e.rulesSelections.artfulStudy}",
+        "selector": [
+          "spell-attack",
+          "spell-dc"
+        ]
       },
       {
         "key": "ChoiceSet",
-        "flag": "stipplingShadesOutcome",
-        "prompt": "Disbelieve Illusion Outcome",
+        "flag": "artfulStudy",
+        "prompt": "Artful Study Bonus",
         "choices": [
           {
-            "label": "Critical Success",
+            "label": "+1 Bonus",
             "value": "1"
           },
           {
-            "label": "Success",
-            "value": "-1",
+            "label": "+2 Bonus",
+            "value": "2",
             "predicate": [
               {
-                "gte": [
-                  "self:level",
-                  15
+                "or": [
+                  "skill:crafting:rank:3",
+                  "skill:society:rank:3",
+                  "skill:diplomacy:rank:3",
+                  "skill:deception:rank:3"
                 ]
               }
             ]
-          },
-          {
-            "label": "Failure",
-            "value": "-2"
           }
         ]
       }
     ],
-    "slug": "spell-effect-stippling-shades-target",
+    "slug": "effect-artful-study",
     "_migration": {
       "version": 0.955,
       "previous": {
@@ -66,7 +76,7 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 2
     },
     "duration": {
       "value": 1,
@@ -86,7 +96,7 @@
     "unidentified": false,
     "fromSpell": false
   },
-  "img": "icons/magic/symbols/triangle-glow-purple.webp",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -100,7 +110,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.10.1"
   },
-  "_id": "cyjCynzHF2FshKa6",
-  "sort": 900000,
-  "_key": "!items!cyjCynzHF2FshKa6"
+  "_id": "i9PhaiGc7vl3l0ia",
+  "sort": 400000,
+  "_key": "!items!i9PhaiGc7vl3l0ia"
 }

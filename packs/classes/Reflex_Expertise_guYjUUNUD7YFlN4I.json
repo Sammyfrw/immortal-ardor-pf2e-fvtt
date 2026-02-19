@@ -9,7 +9,7 @@
       "value": "<p>Your reflexes are lightning fast. Your proficiency rank for Reflex saves increases to expert.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "reflex-expertise",
     "_migration": {
       "version": 0.955,
       "previous": {

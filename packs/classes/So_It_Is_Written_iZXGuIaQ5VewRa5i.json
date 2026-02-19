@@ -1,0 +1,112 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "So It Is Written",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p><strong>Trigger</strong> You are about to Cast a Spell that has a duration or has a counteract component.</p><hr /></div><p>As you inscribe your spell, you use particularly powerful ink to emphasize the declaration of your spell. Your spell becomes resilient and powerful enough to overcome its restraints, as if your spell becomes law. Your catalyzed spell treats its counteract rank as 1 rank higher, both for resisting counteract checks against it or if it attempts to counteract an effect.</p><p><strong>Visionary Catalyst</strong> The spell’s counteract rank is treated as 2 ranks higher.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "catalyze",
+        "placement": "spellcasting",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "alwaysActive": false,
+        "mergeable": true,
+        "toggleable": true,
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Luminary.Catalyze.SoItIsWritten.Label",
+            "value": "so-it-is-written"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "mode": "add",
+        "priority": 121,
+        "property": "description",
+        "predicate": [
+          "catalyze:so-it-is-written"
+        ],
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Luminary.Catalyze.SoItIsWritten.Description",
+            "title": "IA.SpecificRule.Luminary.Catalyze.SoItIsWritten.Label"
+          }
+        ]
+      }
+    ],
+    "slug": "so-it-is-written",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "catalyze-action"
+      ],
+      "value": [
+        "catalyze",
+        "concentrate",
+        "luminary",
+        "spellshape"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "iZXGuIaQ5VewRa5i",
+  "sort": 1900000,
+  "_key": "!items!iZXGuIaQ5VewRa5i"
+}

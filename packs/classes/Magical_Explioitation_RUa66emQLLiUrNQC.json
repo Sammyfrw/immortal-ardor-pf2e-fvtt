@@ -1,15 +1,20 @@
 {
-  "folder": "YN98XSz3i0bXGAwA",
-  "name": "Visionary Paragon",
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Magical Explioitation",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">You can peek at the apex of magic capable through your sheer talent and vision. You gain a single 10th rank spell slot and can prepare a spell in that slot. This slot and spell is separate from your collection, and unlike with other spell slots, you can’t use 10th rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don’t gain more 10th rank spells as you level up, but you can take the Unlimited Vision feat to gain a second slot.</span></p>"
+      "value": "<p><span lang=\"EN\">You have a knack for bypassing rote methods for activating magic items. You learn the @UUID[Compendium.pf2e.feats-srd.uR62fVC9FyQAMCO1]{Trick Magic Item} skill feat, even if you aren’t trained in any of the prerequisite skills. You can use your @Check[visionary-skill] in place of any checks for activating an item that requires any of the four magical traditions.</span></p>"
     },
-    "rules": [],
-    "slug": "visionary-paragon",
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.uR62fVC9FyQAMCO1"
+      }
+    ],
+    "slug": "magical-explioitation",
     "_migration": {
       "version": 0.955,
       "previous": {
@@ -32,9 +37,9 @@
       "remaster": true
     },
     "level": {
-      "value": 19
+      "value": 4
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -53,7 +58,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/magic/control/buff-luck-fortune-rainbow.webp",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -67,7 +72,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.10.1"
   },
-  "_id": "tiSiP9t4LnJTfgrg",
-  "sort": 0,
-  "_key": "!items!tiSiP9t4LnJTfgrg"
+  "_id": "RUa66emQLLiUrNQC",
+  "sort": 1100000,
+  "_key": "!items!RUa66emQLLiUrNQC"
 }

@@ -1,0 +1,112 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Vivid Mockeries",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p><strong>Trigger</strong> You are about to Cast a Spell that has the Summon trait</p><hr /></div><p>When you use your spellcraft to create or summon things to life, your medium and motif’s styles become noticeable on their form. Your catalyzed spell’s summoned creatures become @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for 1 round, immediately gaining 1 additional action when you cast the spell. They can use this action only to Stride or Strike (or a similar attack, in the event of summoning a swarm, for example). In addition, they share the same proficiency bonus as you to skill checks using your visionary skill.</p><p><strong>Visionary Catalyst</strong> Your summoned creatures become Quickened for 2 rounds instead of 1.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "catalyze",
+        "placement": "spellcasting",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "alwaysActive": false,
+        "mergeable": true,
+        "toggleable": true,
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Luminary.Catalyze.VividMockeries.Label",
+            "value": "vivid-mockeries"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "mode": "add",
+        "priority": 121,
+        "property": "description",
+        "predicate": [
+          "catalyze:vivid-mockeries"
+        ],
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Luminary.Catalyze.VividMockeries.Description",
+            "title": "IA.SpecificRule.Luminary.Catalyze.VividMockeries.Label"
+          }
+        ]
+      }
+    ],
+    "slug": "subtle-catalyst",
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "catalyze-action"
+      ],
+      "value": [
+        "catalyze",
+        "concentrate",
+        "luminary",
+        "spellshape"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "mLVp1EynrTTg9azF",
+  "sort": 800000,
+  "_key": "!items!mLVp1EynrTTg9azF"
+}

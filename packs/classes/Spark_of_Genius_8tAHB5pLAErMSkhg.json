@@ -1,15 +1,15 @@
 {
-  "folder": "YN98XSz3i0bXGAwA",
-  "name": "Visionary Paragon",
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Spark of Genius",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">You can peek at the apex of magic capable through your sheer talent and vision. You gain a single 10th rank spell slot and can prepare a spell in that slot. This slot and spell is separate from your collection, and unlike with other spell slots, you can’t use 10th rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don’t gain more 10th rank spells as you level up, but you can take the Unlimited Vision feat to gain a second slot.</span></p>"
+      "value": "<p><span lang=\"EN\">Your talent allows you to apply some of your knowledge through unique perspectives. You can use your </span><span style=\"font-family:Roboto, sans-serif\">@Check[visionary-skill]</span><span lang=\"EN\"> for the Aid reaction to help an ally in place of the usual check. You still have to prepare to aid an ally, and the application of your skill should match with how you prepare to aid them, such as using your talent for drawing things to life, or to give an inspiring verse of poetry.</span></p>"
     },
     "rules": [],
-    "slug": "visionary-paragon",
+    "slug": "spark-of-genius",
     "_migration": {
       "version": 0.955,
       "previous": {
@@ -32,9 +32,9 @@
       "remaster": true
     },
     "level": {
-      "value": 19
+      "value": 6
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -44,7 +44,11 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Expert in your Visionary Skill"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {
@@ -53,7 +57,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/magic/control/buff-luck-fortune-rainbow.webp",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -67,7 +71,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.10.1"
   },
-  "_id": "tiSiP9t4LnJTfgrg",
-  "sort": 0,
-  "_key": "!items!tiSiP9t4LnJTfgrg"
+  "_id": "8tAHB5pLAErMSkhg",
+  "sort": 1200000,
+  "_key": "!items!8tAHB5pLAErMSkhg"
 }

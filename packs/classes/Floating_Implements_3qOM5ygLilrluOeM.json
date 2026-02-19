@@ -1,15 +1,15 @@
 {
-  "folder": "YN98XSz3i0bXGAwA",
-  "name": "Visionary Paragon",
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Floating Implements",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">You can peek at the apex of magic capable through your sheer talent and vision. You gain a single 10th rank spell slot and can prepare a spell in that slot. This slot and spell is separate from your collection, and unlike with other spell slots, you can’t use 10th rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don’t gain more 10th rank spells as you level up, but you can take the Unlimited Vision feat to gain a second slot.</span></p>"
+      "value": "<p><span lang=\"EN\">You can mentally control your medium to cast your spells. You do not need a free hand to hold your medium for the purposes of spellcasting, though you still need a free hand to access your catalyst cache.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span lang=\"EN\"> If you have the @UUID[Compendium.immortal-ardor.classes.itHebNK68vVzAIBI]{Drawn to Life} feat, you automatically gain the Toolbearer Familiar ability, though it is only for holding your catalyst cache unless it possesses the manual dexterity ability; this does not count towards your number of familiar abilities.</span></p>"
     },
     "rules": [],
-    "slug": "visionary-paragon",
+    "slug": "floating-implements",
     "_migration": {
       "version": 0.955,
       "previous": {
@@ -32,9 +32,9 @@
       "remaster": true
     },
     "level": {
-      "value": 19
+      "value": 4
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -53,7 +53,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/magic/control/buff-luck-fortune-rainbow.webp",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -67,7 +67,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.10.1"
   },
-  "_id": "tiSiP9t4LnJTfgrg",
+  "_id": "3qOM5ygLilrluOeM",
   "sort": 0,
-  "_key": "!items!tiSiP9t4LnJTfgrg"
+  "_key": "!items!3qOM5ygLilrluOeM"
 }

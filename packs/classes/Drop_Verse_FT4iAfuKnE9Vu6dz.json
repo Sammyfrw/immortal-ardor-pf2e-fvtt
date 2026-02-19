@@ -74,7 +74,9 @@
     ],
     "slug": "drop-verse",
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "catalyze-action"
+      ],
       "value": [
         "catalyze",
         "luminary"

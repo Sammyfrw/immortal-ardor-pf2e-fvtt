@@ -74,7 +74,9 @@
     ],
     "slug": "smudge",
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "catalyze-action"
+      ],
       "value": [
         "catalyze",
         "luminary"
