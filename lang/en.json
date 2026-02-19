@@ -300,47 +300,47 @@
           "Label": "Catalyze",
           "Smudge": {
             "Label": "Smudge",
-            "Description": "Your catalyzed spell leaves your targets painted in colors that you have used. If the spell deals damage, they take persistent damage of the same type of damage as the spell equal to half your level, rounded down. If the spell has a duration or while they are taking persistent damage, the colors persist on the target until the spell or persistent damage ends or after 1 minute has passed, whichever is shorter. A painted creature takes a -2 status penalty to Stealth checks and DCs. if the creature is invisible, it becomes concealed instead. Empowered Catalyst: You always know the direction of a creature affected by your catalyst and the painted colors always lasts at least 1 minute."
+            "Description": "Your catalyzed spell leaves lingering effects on your target: @UUID[Compendium.immortal-ardor.classes.UBGl2v47K80kpo4A]{Smudge}"
           },
           "InkLongDry": {
             "Label": "Ink Long Dry",
-            "Description": "When your catalyzed spell ends due to its duration elapsing or you did not sustain it during your turn, the spell instead lasts 1 additional round, which includes a sustained effect on your turn even though you do not spend the action to sustain it. Effects contingent on additional parameters, such as needing to stay within an area or being affected by an ongoing condition, are not extended once these requirements are not met. Empowered Catalyst: A non-sustained spell that has a duration of 10 minutes or higher lasts an additional 10 minutes, and a spell that has a duration of 1 hour or higher lasts an additional hour instead."
+            "Description": "Your catalyzed spell imprints itself for longer: @UUID[Compendium.immortal-ardor.classes.o47mG4hFWL8zqfvI]{Ink Long Dry}"
           },
           "Shadowplay": {
             "Label": "Shadowplay",
-            "Description": "Your catalyzed spell causes the center of the targeted area, a single creature in your spell’s area or yourself to be covered in your choice of a @Template[burst|distance:10] of bright light or darkness for 1 round. The spell gains the light or darkness trait, and can counteract magical darkness or magical light respectively, with a counteract rank equal to the spell you cast. Empowered Catalyst: Creatures of your choice can be unaffected by the light or darkness you cast."
+            "Description": "Your catalyzed spell creates a field of light or dark: @UUID[Compendium.immortal-ardor.classes.CwhtD9i7jesFcQaK]{Shadowplay}"
           },
           "DropVerse": {
             "Label": "Drop Verse",
-            "Description": "Your catalyzed spell gains the Auditory and Linguistic trait. Line of effect and line of sight requirements for the spell instead depend on if the creature can hear and understand you, though you must be aware of a creature’s occupied space and within range for the spell to affect them in this way. An affected creature ignores any bonuses to cover or benefits from being @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} or @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}. Interference to hearing your spell, such as muffled hearing, sound dampening walls, or loud noises, grants a creature a +1 to +4 circumstance bonus to a their AC or saving throws. Empowered Catalyst: Creatures that would be immune to the Auditory trait or cannot understand you are affected by this spell normally, and interferences to hearing your spell grant only up to a +1 circumstance bonus."
+            "Description": "Your catalyzed spell reaches those who hear it: @UUID[Compendium.immortal-ardor.classes.FT4iAfuKnE9Vu6dz]{Drop Verse}"
           },
           "SubtleCatalyst": {
             "Label": "Subtle Catalyst",
-            "Description": ""
+            "Description": "Your catalyzed spell is more subtle: @UUID[Compendium.immortal-ardor.classes.fmfNRB3a61hBihdJ]{Subtle Catalyst}"
           },
           "DistantCatalyst": {
             "Label": "Distant Catalyst",
-            "Description": ""
+            "Description": "Your catalyzed spell has a greater range: @UUID[Compendium.immortal-ardor.classes.WiUAoh3ls60cFn3N]{Distant Catalyst}"
           },
           "WidenCatalyst": {
             "Label": "Widen Catalyst",
-            "Description": ""
+            "Description": "Your catalyzed spell has a wider area: @UUID[Compendium.immortal-ardor.classes.YbwYqCEkFBNrfVN0]{Widen Catalyst}"
           },
           "EnvisionCreation": {
             "Label": "Envision Creation",
-            "Description": ""
+            "Description": "Your catalyzed spell takes time to be realized: @UUID[Compendium.immortal-ardor.classes.eenXjMuJKM24UI8Z]{Envision Creation}"
           },
           "SoothingShapes": {
             "Label": "Soothing Shapes",
-            "Description": ""
+            "Description": "Your catalyzed spell has lingering healing: @UUID[Compendium.immortal-ardor.classes.4sQR4fsGQyUrNZcJ]{Soothing Shapes}"
           },
           "VividMockeries": {
             "Label": "Vivid Mockeries",
-            "Description": ""
+            "Description": "Your catalyzed spell’s summoned creatures are enhanced and bears an appearance matching your motif and medium: @UUID[Compendium.immortal-ardor.classes.mLVp1EynrTTg9azF]{Vivid Mockeries}"
           },
           "SoItIsWritten": {
             "Label": "So It Is Written",
-            "Description": ""
+            "Description": "Your catalyzed spell has a stronger counteract effect: @UUID[Compendium.immortal-ardor.classes.iZXGuIaQ5VewRa5i]{So It Is Written}"
           }
         },
         "SpellEffects": {
