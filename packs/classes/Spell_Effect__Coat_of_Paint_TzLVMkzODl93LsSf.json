@@ -1,0 +1,94 @@
+{
+  "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
+  "name": "Spell Effect: Coat of Paint",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.WuLKjMhLMhaFxRdc]{Coat of Paint}</p><p>You gain an item bonus to AC and a maximum Dexterity modifier of +2. At 4th rank or higher, you gain an item bonus to saving throws.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 10
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "fromEquipment": false,
+        "key": "FlatModifier",
+        "selector": "ac",
+        "slug": "coat-of-paint",
+        "type": "item",
+        "value": "ternary(gte(@item.level,10),5,ternary(gte(@item.level,6),4,3))"
+      },
+      {
+        "fromEquipment": false,
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "gte": [
+              "parent:level",
+              4
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "slug": "coat-of-paint",
+        "type": "item",
+        "value": "ternary(gte(@item.level,10),3,ternary(gte(@item.level,8),2,1))"
+      },
+      {
+        "key": "DexterityModifierCap",
+        "value": 2
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-mystic-armor",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "folder": "Sh7StbFx4ouAPaDy",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_id": "TzLVMkzODl93LsSf",
+  "sort": 50000,
+  "_key": "!items!TzLVMkzODl93LsSf"
+}

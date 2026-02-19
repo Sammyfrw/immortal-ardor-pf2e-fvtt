@@ -1,0 +1,79 @@
+{
+  "folder": "gNebx2qWMvc5iAUU",
+  "name": "Coat of Paint",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span lang=\"EN\">You weave an armor for yourself through your spellcraft, depicting what you are wearing as if it was an archmage’s enchanted robes or a knight’s valiant armor. You gain a +3 item bonus to your AC and a maximum dexterity modifier of +2. While you are surrounded by your coat of paint, you use your unarmored proficiency to calculate your AC.</span></p><p><span lang=\"EN\">You can eschew spending an ephemeral catalyst by spending a focus point. If you do, you can target yourself or another creature within 30 feet of you to gain this spell’s benefits, and this spell lasts 1 minute and takes 3 actions to cast.</span></p><p>@UUID[Compendium.immortal-ardor.classes.TzLVMkzODl93LsSf]{Spell Effect: Coat of Paint}</p><hr /><p><strong>Heightened (4th)</strong> You gain a +1 item bonus to saving throws.</p><p><strong>Heightened (6th)</strong> The item bonus to AC increases to +4 and you gain a +1 item bonus to saving throws.</p><p><strong>Heightened (8th)</strong> The item bonus to AC increases to +4 and you gain a +2 item bonus to saving throws.</p><p><strong>Heightened (10th)</strong> The item bonus to AC increases to +5 and you gain a +3 item bonus to saving throws.</p>"
+    },
+    "rules": [],
+    "slug": "coat-of-paint",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "luminary",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "10 minutes",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": "1 ephemeral catalyst"
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "WuLKjMhLMhaFxRdc",
+  "sort": 0,
+  "_key": "!items!WuLKjMhLMhaFxRdc"
+}
