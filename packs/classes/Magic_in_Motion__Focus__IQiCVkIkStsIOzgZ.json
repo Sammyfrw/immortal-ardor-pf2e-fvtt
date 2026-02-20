@@ -1,6 +1,6 @@
 {
   "folder": "gNebx2qWMvc5iAUU",
-  "name": "Magic in Motion",
+  "name": "Magic in Motion (Focus)",
   "type": "spell",
   "effects": [],
   "system": {
@@ -9,7 +9,7 @@
       "value": "<p>You invoke the imagery of magical elements and your catalysts bring your idea to a quick, violent life. Choose fire, electricity, or cold. You expend an ephemeral catalyst and launch a projectile of your chosen element at a target within 30 feet of you. Make a spell attack. On a hit, a target takes @Damage[1d6+1|] damage plus your attribute modifier, or double on a critical hit. The damage type is of the type you selected, and this spell gains that trait.</p><p>You can choose to eschew the ephemeral catalyst cost by spending a focus point instead. If you do, you cast this spell with 2 actions but the range of this spell increases to 60 feet and deals @Damage[3d6] damage instead (doubled on a critical hit).</p><hr /><p><strong>Heightened (3rd)</strong> The damage of the cantrip increases to 2d6+2 plus your modifier, or 6d6 if you use a focus point.</p><p><strong>Heightened (6th)</strong> The damage of the cantrip increases to 3d6+3 plus your modifier, or 12d6 if you use a focus point.</p><p><strong>Heightened (9th)</strong> The damage of the cantrip increases to 4d6+4 plus your modifier, or 18d6 if you use a focus point.</p>"
     },
     "rules": [],
-    "slug": "magic-in-motion",
+    "slug": "magic-in-motion-focus",
     "_migration": {
       "version": 0.955,
       "lastMigration": null
@@ -18,8 +18,8 @@
       "otherTags": [],
       "value": [
         "attack",
-        "cantrip",
         "concentrate",
+        "focus",
         "luminary",
         "manipulate"
       ],
@@ -40,11 +40,11 @@
       "value": "1 creature"
     },
     "range": {
-      "value": "30 feet"
+      "value": "60 feet"
     },
     "area": null,
     "time": {
-      "value": "1"
+      "value": "2"
     },
     "duration": {
       "value": "",
@@ -52,19 +52,19 @@
     },
     "damage": {
       "baJiSN8tckEnSMfz": {
-        "formula": "1d6+1",
+        "formula": "3d6",
         "kinds": [
           "damage"
         ],
         "type": "fire",
         "category": null,
         "materials": [],
-        "applyMod": true
+        "applyMod": false
       }
     },
     "defense": null,
     "cost": {
-      "value": "1 ephemeral catalyst"
+      "value": ""
     },
     "location": {
       "value": null
@@ -77,42 +77,42 @@
         "3": {
           "damage": {
             "baJiSN8tckEnSMfz": {
-              "formula": "2d6+2",
+              "formula": "6d6",
               "kinds": [
                 "damage"
               ],
               "type": "fire",
               "category": null,
               "materials": [],
-              "applyMod": true
+              "applyMod": false
             }
           }
         },
         "6": {
           "damage": {
             "baJiSN8tckEnSMfz": {
-              "formula": "3d6+3",
+              "formula": "12d6",
               "kinds": [
                 "damage"
               ],
               "type": "fire",
               "category": null,
               "materials": [],
-              "applyMod": true
+              "applyMod": false
             }
           }
         },
         "9": {
           "damage": {
             "baJiSN8tckEnSMfz": {
-              "formula": "4d6+4",
+              "formula": "18d6",
               "kinds": [
                 "damage"
               ],
               "type": "fire",
               "category": null,
               "materials": [],
-              "applyMod": true
+              "applyMod": false
             }
           }
         }
@@ -133,7 +133,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.10.1"
   },
-  "_id": "8gbXcaLDSHKk1XHE",
-  "sort": 0,
-  "_key": "!items!8gbXcaLDSHKk1XHE"
+  "_id": "IQiCVkIkStsIOzgZ",
+  "sort": 50000,
+  "_key": "!items!IQiCVkIkStsIOzgZ"
 }
