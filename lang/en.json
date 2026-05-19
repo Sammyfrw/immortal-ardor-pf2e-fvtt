@@ -73,7 +73,7 @@
       "Launching": "Launching",
       "Loupain": "Loupain",
       "Lucid": "Lucid",
-      "Luminary": "Luminary",
+      "Artifex": "Artifex",
       "Lyncan": "Lyncan",
       "Mana": "Mana",
       "Manafont": "Manafont",
@@ -131,7 +131,7 @@
       "Launching": "A weapon with the launching trait launches thrown weapons as projectiles. A launching weapon typically lists what thrown weapons it can take and launch, and its wielder can reload the weapon with a thrown weapon with one hand, and launch it through its mechanism with one or both hands afterward when they make a Strike. When launched, the throwing weapon acts as if you have thrown it with a strength modifier equal to what is listed on the trait, with a throwing range listed on the launching weapon. Runes on the Launching weapon that can apply to the thrown weapon will apply to the attack, overwriting any runes on the thrown weapon.",
       "Loupain": "A creature with this trait is a member of the loupain ancestry. These canines are equally capable of moving with their hind legs and four legs both, and possess a strong sense of camraderie and survival instincts.",
       "Lucid": "Actions with the lucid trait are those that are taken by figmentary creatures, typically those aligned or temporarily passing through the astral planes. A creature can only take one Lucid action each turn.",
-      "Luminary": "This indicates abilities from the Luminary class.",
+      "Artifex": "This indicates abilities from the Artifex class.",
       "Lyncan": "A creature with this trait is a member of the lyncan ancestry. These magically infused feline humanoids are said to have been created through a world-wide cascade of transformative magic on Ardor's feline animals, and are always trying to find their place in the world that perceives them in wildly different ways.",
       "Mana": "An option with the Mana trait relates to the astral powers of creation or oblivion prevalent in the astral planes. Typically, denizens of the astral planes have natural access to Mana, and it is their equivalent of Ether. Most options with the Ether trait are replaced with the Mana trait for these denizens.",
       "Manafont": "Options with the manafont trait pertain to a creature's manafont, or manatype. These options determine or unlock new ways for how a creature can use ether.",
@@ -295,7 +295,7 @@
           }
         }
       },
-      "Luminary": {
+      "Artifex": {
         "Catalyze": {
           "Label": "Catalyze",
           "Smudge": {

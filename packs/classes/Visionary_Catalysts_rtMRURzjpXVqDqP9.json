@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">Your catalysts can be used for even more potent techniques. You can choose to have your luminary actions with the Catalyze trait benefit from a listed Visionary Catalyst effect. When you use a catalyst for a spell that requires you to add an action, you use one fewer action.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">Your catalysts can be used for even more potent techniques. You can choose to have your artifex actions with the Catalyze trait benefit from a listed Visionary Catalyst effect.</span></p>"
     },
     "rules": [],
     "slug": "visionary-catalysts",
@@ -65,7 +65,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "systemVersion": "7.11.2"
   },
   "_id": "rtMRURzjpXVqDqP9",
   "sort": 900000,
