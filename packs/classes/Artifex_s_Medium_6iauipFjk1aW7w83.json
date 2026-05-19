@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A Artifex's Medium takes many shapes and sizes, depending on their selected medium. It could be an enchanted paintbrush, able to paint into space. It might be a flowing ink-pen, writing upon the air. It could be a magical book of poetry that lets the artifex weave their words to life. It could be a collection of floating mirrors and a match, or a censer that has fumes and embers the artifex could control. Regardless of what it is, it can weigh up to one bulk and is feasible enough to hold with 1 hand and can be easily replaced after spending a day of downtime or some time in a settlement to enchant a new set.</p>"
+      "value": "<p>An Artifex's Medium takes many shapes and sizes, depending on their selected medium. It could be an enchanted paintbrush, able to paint into space. It might be a flowing ink-pen, writing upon the air. It could be a magical book of poetry that lets the artifex weave their words to life. It could be a collection of floating mirrors and a match, or a censer that has fumes and embers the artifex could control. Regardless of what it is, it can weigh up to one bulk and is feasible enough to hold with 1 hand and can be easily replaced after spending a day of downtime or some time in a settlement to enchant a new set.</p>"
     },
     "rules": [],
     "slug": "artifexs-medium",

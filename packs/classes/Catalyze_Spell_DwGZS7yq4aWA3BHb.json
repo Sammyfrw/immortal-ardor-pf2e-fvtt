@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Requirements </strong>You are wearing a catalyst cache.</p><p><strong>Trigger</strong> You are about to Cast a Spell or you use an action with the catalyze trait, and your catalyst cache has an applicable catalyst.</p><hr /><p>In a practiced flourish, you draw out the power of a catalyst to influence your next spell. You Interact to Draw an applicable catalyst from your catalyst cache and Activate it as part of casting your spell. If the catalyst requires you to add additional actions, add those actions as necessary. If you are holding a artifex’s medium, you can use that same hand to draw and use the catalyst.</p><p>If you use an action with the Catalyze trait, you can Draw and Activate an ephemeral catalyst, applying the action's listed adjustments to its effects.</p>",
+      "value": "<p><strong>Requirements </strong>You are wearing a catalyst cache.</p><p><strong>Trigger</strong> You are about to Cast a Spell or you use an action with the catalyze trait, and your catalyst cache has an applicable catalyst.</p><hr /><p>In a practiced flourish, you draw out the power of a catalyst to influence your next spell. You Interact to Draw an applicable catalyst from your catalyst cache and Activate it as part of casting your spell. If the catalyst requires you to add additional actions, add those actions as necessary. If you are holding an artifex’s medium, you can use that same hand to draw and use the catalyst.</p><p>If you use an action with the Catalyze trait, you can Draw and Activate an ephemeral catalyst, applying the action's listed adjustments to its effects.</p>",
       "gm": ""
     },
     "publication": {

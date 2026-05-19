@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You look at other avenues of experimentation with magic and learn their techniques. Select a Artifex’s Motif other than your own. You learn the foundation Visionary spell associated with that motif and also treat that motif’s favored tradition as your own. If you have two favored traditions, you choose which tradition your spells belong to when you cast your spells, and you can cast spells of either tradition with your motif spell slots.</span></p>"
+      "value": "<p><span lang=\"EN\">You look at other avenues of experimentation with magic and learn their techniques. Select an Artifex’s Motif other than your own. You learn the foundation Visionary spell associated with that motif and also treat that motif’s favored tradition as your own. If you have two favored traditions, you choose which tradition your spells belong to when you cast your spells, and you can cast spells of either tradition with your motif spell slots.</span></p>"
     },
     "rules": [],
     "slug": "secondary-study",
