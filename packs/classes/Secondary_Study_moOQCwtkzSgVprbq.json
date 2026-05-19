@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You look at other avenues of experimentation with magic and learn their techniques. Select an Artifex’s Motif other than your own. You learn the foundation Visionary spell associated with that motif and also treat that motif’s favored tradition as your own. If you have two favored traditions, you choose which tradition your spells belong to when you cast your spells, and you can cast spells of either tradition with your motif spell slots.</span></p>"
+      "value": "<p>You look at other avenues of experimentation with magic and learn their techniques. Select an Artifex’s Motif other than your own. You learn the foundation Visionary spell associated with that motif and also treat that motif’s favored tradition as your own. If you have two favored traditions, you choose which tradition your spells belong to when you cast your spells, and you can cast spells of either tradition with your motif spell slots. When you gain the Visionary Paragon feat, you also learn and can prepare that motif’s additional 10th rank spell into your 10th rank spell slot.</p>"
     },
     "rules": [],
     "slug": "secondary-study",
@@ -69,7 +69,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "systemVersion": "7.11.2"
   },
   "_id": "moOQCwtkzSgVprbq",
   "sort": 1500000,

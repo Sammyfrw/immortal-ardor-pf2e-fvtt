@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">You can peek at the apex of magic capable through your sheer talent and vision. You gain a single 10th rank spell slot and can prepare a spell in that slot. This slot and spell is separate from your collection, and unlike with other spell slots, you can’t use 10th rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don’t gain more 10th rank spells as you level up, but you can take the Unlimited Vision feat to gain a second slot.</span></p>"
+      "value": "<p>You can peek at the apex of magic capable through your sheer talent and vision. You gain a single 10th rank spell slot and can prepare a spell in that slot. This slot and spell are separate from your collection, and unlike with other spell slots, you can’t use 10th rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You don’t gain more 10th rank spells as you level up. However, you can only learn &amp; prepare the spell listed by your Artifex’s Motif’s additional spell at 10th rank in this slot.</p>"
     },
     "rules": [],
     "slug": "visionary-paragon",
@@ -65,7 +65,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "systemVersion": "7.11.2"
   },
   "_id": "tiSiP9t4LnJTfgrg",
   "sort": 0,
