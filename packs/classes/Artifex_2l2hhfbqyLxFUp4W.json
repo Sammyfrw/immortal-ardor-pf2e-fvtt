@@ -1,10 +1,10 @@
 {
   "type": "Item",
-  "folder": "2l2hhfbqyLxFUp4W",
-  "name": "Luminary's Mediums",
-  "color": null,
+  "folder": null,
+  "name": "Artifex",
+  "color": "#c9af4f",
   "sorting": "a",
-  "_id": "K8G32foYyX2gNup5",
+  "_id": "2l2hhfbqyLxFUp4W",
   "description": "",
   "sort": 0,
   "flags": {},
@@ -16,5 +16,5 @@
     "systemId": "pf2e",
     "systemVersion": "7.10.1"
   },
-  "_key": "!folders!K8G32foYyX2gNup5"
+  "_key": "!folders!2l2hhfbqyLxFUp4W"
 }

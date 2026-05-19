@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>This toolkit contains a Luminary's ephemeral catalysts and any other catalysts they may have. The cache is necessary to make use of the features as described in the @UUID[Compendium.immortal-ardor.classes.U1FYaVliZ1sxtJRn]{Catalyst Cache} feature or the @UUID[Compendium.immortal-ardor.classes.DwGZS7yq4aWA3BHb]{Catalyze Spell} action. A luminary who loses their catalyst cache can typically acquire a new one for free making their own after a day of downtime or picking one up from a settlement.</p>"
+      "value": "<p>This toolkit contains a Artifex's ephemeral catalysts and any other catalysts they may have. The cache is necessary to make use of the features as described in the @UUID[Compendium.immortal-ardor.classes.U1FYaVliZ1sxtJRn]{Catalyst Cache} feature or the @UUID[Compendium.immortal-ardor.classes.DwGZS7yq4aWA3BHb]{Catalyze Spell} action. A artifex who loses their catalyst cache can typically acquire a new one for free making their own after a day of downtime or picking one up from a settlement.</p>"
     },
     "rules": [
       {

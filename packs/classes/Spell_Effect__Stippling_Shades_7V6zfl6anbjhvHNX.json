@@ -12,7 +12,7 @@
       {
         "itemType": "spell",
         "key": "ItemAlteration",
-        "label": "IA.SpecificRule.Luminary.SpellEffects.StipplingShades.Label",
+        "label": "IA.SpecificRule.Artifex.SpellEffects.StipplingShades.Label",
         "mode": "add",
         "predicate": [
           {
@@ -27,14 +27,14 @@
         "value": [
           {
             "divider": true,
-            "text": "IA.SpecificRule.Luminary.SpellEffects.StipplingShades.Description"
+            "text": "IA.SpecificRule.Artifex.SpellEffects.StipplingShades.Description"
           }
         ]
       },
       {
         "itemType": "spell",
         "key": "ItemAlteration",
-        "label": "IA.SpecificRule.Luminary.SpellEffects.StipplingShades.Label",
+        "label": "IA.SpecificRule.Artifex.SpellEffects.StipplingShades.Label",
         "mode": "add",
         "predicate": [],
         "priority": 121,
@@ -44,7 +44,7 @@
       {
         "itemType": "spell",
         "key": "ItemAlteration",
-        "label": "IA.SpecificRule.Luminary.SpellEffects.StipplingShades.Label",
+        "label": "IA.SpecificRule.Artifex.SpellEffects.StipplingShades.Label",
         "mode": "add",
         "predicate": [
           {
@@ -59,7 +59,7 @@
         "value": [
           {
             "divider": true,
-            "text": "IA.SpecificRule.Luminary.SpellEffects.StipplingShades.Description8thRank"
+            "text": "IA.SpecificRule.Artifex.SpellEffects.StipplingShades.Description8thRank"
           }
         ]
       }

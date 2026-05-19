@@ -13,13 +13,13 @@
         "key": "RollOption",
         "option": "catalyze",
         "placement": "spellcasting",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "alwaysActive": false,
         "mergeable": true,
         "toggleable": true,
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Luminary.Catalyze.SoothingShapes.Label",
+            "label": "IA.SpecificRule.Artifex.Catalyze.SoothingShapes.Label",
             "value": "soothing-shapes"
           }
         ]
@@ -27,7 +27,7 @@
       {
         "itemType": "spell",
         "key": "ItemAlteration",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "mode": "add",
         "priority": 121,
         "property": "description",
@@ -37,8 +37,8 @@
         "value": [
           {
             "divider": true,
-            "text": "IA.SpecificRule.Luminary.Catalyze.SoothingShapes.Description",
-            "title": "IA.SpecificRule.Luminary.Catalyze.SoothingShapes.Label"
+            "text": "IA.SpecificRule.Artifex.Catalyze.SoothingShapes.Description",
+            "title": "IA.SpecificRule.Artifex.Catalyze.SoothingShapes.Label"
           }
         ]
       }
@@ -59,7 +59,7 @@
       "value": [
         "catalyze1",
         "concentrate",
-        "luminary",
+        "artifex",
         "spellshape"
       ],
       "rarity": "common"

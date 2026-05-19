@@ -1,12 +1,12 @@
 {
   "folder": "N6A1Evhl0O3vyf9U",
-  "name": "Incredible Familiar (Luminary)",
+  "name": "Enhanced Familiar (Artifex)",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p>Your familiar is imbued with even more magic than other familiars. You can select a base of six familiar or master abilities each day, instead of four.</p></div>"
+      "value": "<p><span lang=\"EN\">You infuse your familiar with additional energy, increasing its abilities. You can select four familiar or master abilities each day, instead of two.</span></p>"
     },
     "rules": [
       {
@@ -14,10 +14,10 @@
         "mode": "upgrade",
         "path": "system.attributes.familiarAbilities.value",
         "priority": 9,
-        "value": 6
+        "value": 4
       }
     ],
-    "slug": "incredible-familiar-luminary",
+    "slug": "enhanced-familiar-artifex",
     "_migration": {
       "version": 0.955,
       "previous": {
@@ -29,7 +29,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "luminary"
+        "artifex"
       ],
       "rarity": "common"
     },
@@ -40,7 +40,7 @@
       "remaster": true
     },
     "level": {
-      "value": 8
+      "value": 2
     },
     "category": "class",
     "onlyLevel1": false,
@@ -52,11 +52,7 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "Enhanced Familiar"
-        }
-      ]
+      "value": []
     },
     "location": null,
     "subfeatures": {
@@ -79,7 +75,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.10.1"
   },
-  "_id": "S42yKLu0XS5mLEpI",
-  "sort": 1000000,
-  "_key": "!items!S42yKLu0XS5mLEpI"
+  "_id": "6IliskWWfd0Ae4UE",
+  "sort": 400000,
+  "_key": "!items!6IliskWWfd0Ae4UE"
 }

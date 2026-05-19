@@ -27,13 +27,13 @@
         "key": "RollOption",
         "option": "catalyze",
         "placement": "spellcasting",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "alwaysActive": false,
         "mergeable": true,
         "toggleable": true,
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Luminary.Catalyze.DropVerse.Label",
+            "label": "IA.SpecificRule.Artifex.Catalyze.DropVerse.Label",
             "value": "drop-verse"
           }
         ]
@@ -41,7 +41,7 @@
       {
         "itemType": "spell",
         "key": "ItemAlteration",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "mode": "add",
         "priority": 121,
         "property": "description",
@@ -51,15 +51,15 @@
         "value": [
           {
             "divider": true,
-            "text": "IA.SpecificRule.Luminary.Catalyze.DropVerse.Description",
-            "title": "IA.SpecificRule.Luminary.Catalyze.DropVerse.Label"
+            "text": "IA.SpecificRule.Artifex.Catalyze.DropVerse.Description",
+            "title": "IA.SpecificRule.Artifex.Catalyze.DropVerse.Label"
           }
         ]
       },
       {
         "itemType": "spell",
         "key": "ItemAlteration",
-        "label": "IA.SpecificRule.Luminary.SpellEffects.StipplingShades.Label",
+        "label": "IA.SpecificRule.Artifex.SpellEffects.StipplingShades.Label",
         "mode": "add",
         "predicate": [
           "catalyze:drop-verse"
@@ -79,7 +79,7 @@
       ],
       "value": [
         "catalyze",
-        "luminary"
+        "artifex"
       ]
     },
     "actionType": {

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">You have made a pact with a creature that is drawn to your impressive spellcraft. This might be a creature that has admired your work, or one of your pieces has magically come to life. You gain a familiar. Your familiar has a unique feature or appearance that has some similarities to your luminary’s medium or motif, or both.</span></p>"
+      "value": "<p><span lang=\"EN\">You have made a pact with a creature that is drawn to your impressive spellcraft. This might be a creature that has admired your work, or one of your pieces has magically come to life. You gain a familiar. Your familiar has a unique feature or appearance that has some similarities to your artifex’s medium or motif, or both.</span></p>"
     },
     "rules": [
       {
@@ -26,7 +26,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "luminary"
+        "artifex"
       ],
       "rarity": "common"
     },
