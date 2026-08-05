@@ -1,10 +1,10 @@
 {
   "id": "immortal-ardor",
   "title": "Immortal Ardor",
-  "version": "0.272",
+  "version": "0.273",
   "compatibility": {
-    "minimum": "13.351",
-    "verified": "13.351"
+    "minimum": "14.365",
+    "verified": "14.365"
   },
   "description": "A module that contains all data necessary for Immortal Ardor and its related games",
   "url": "https://github.com/sammyfrw/immortal-ardor-pf2e-fvtt",
@@ -394,6 +394,10 @@
             "label": "IA.Trait.Aelkhazak",
             "description": "IA.TraitDescription.Aelkhazak"
           },
+          "artifex": {
+            "label": "IA.Trait.Artifex",
+            "description": "IA.TraitDescription.Artifex"
+          },
           "ascended": {
             "label": "IA.Trait.Ascended",
             "description": "IA.TraitDescription.Ascended"
@@ -458,10 +462,6 @@
             "label": "IA.Trait.Lucid",
             "description": "IA.TraitDescription.Lucid"
           },
-          "artifex": {
-            "label": "IA.Trait.Artifex",
-            "description": "IA.TraitDescription.Artifex"
-          },
           "lyncan": {
             "label": "IA.Trait.Lyncan",
             "description": "IA.TraitDescription.Lyncan"
@@ -512,6 +512,10 @@
           }
         },
         "spellTraits": {
+          "artifex": {
+            "label": "IA.Trait.Artifex",
+            "description": "IA.TraitDescription.Artifex"
+          },
           "ascended": {
             "label": "IA.Trait.Ascended",
             "description": "IA.TraitDescription.Ascended"
@@ -543,10 +547,6 @@
           "diviner": {
             "label": "IA.Trait.Diviner",
             "description": "IA.TraitDescription.Diviner"
-          },
-          "artifex": {
-            "label": "IA.Trait.Artifex",
-            "description": "IA.TraitDescription.Artifex"
           },
           "meditation": {
             "label": "IA.Trait.Meditation",
