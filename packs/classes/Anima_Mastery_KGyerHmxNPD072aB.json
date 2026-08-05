@@ -1,0 +1,73 @@
+{
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Anima Mastery",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Reaching a new height of power, channeling your maelstrom becomes effortless. Your proficiency rank for your chimerian class DC increases to Master.</p>"
+    },
+    "rules": [],
+    "slug": "anima-mastery",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/nature/wolf-paw-glow-large-purple-teal.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "KGyerHmxNPD072aB",
+  "sort": 100000,
+  "_key": "!items!KGyerHmxNPD072aB"
+}

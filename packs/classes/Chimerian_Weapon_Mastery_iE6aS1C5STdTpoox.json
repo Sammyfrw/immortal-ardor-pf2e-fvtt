@@ -1,0 +1,86 @@
+{
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Chimerian Weapon Mastery",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You and your partner soul gain every advantage from your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master.</p>"
+    },
+    "rules": [],
+    "slug": "chimerian-weapon-mastery",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "unarmed": {
+          "rank": 3,
+          "attribute": null
+        },
+        "simple": {
+          "rank": 3,
+          "attribute": null
+        },
+        "martial": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "iE6aS1C5STdTpoox",
+  "sort": 1200000,
+  "_key": "!items!iE6aS1C5STdTpoox"
+}

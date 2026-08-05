@@ -1,6 +1,6 @@
 {
-  "folder": "YN98XSz3i0bXGAwA",
-  "name": "Weapon Expertise",
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Chimerian Weapon Expertise",
   "type": "feat",
   "effects": [],
   "system": {
@@ -9,19 +9,19 @@
       "value": "<p><span lang=\"EN\">You’ve dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons and unarmed attacks increase to expert.</span></p>"
     },
     "rules": [],
-    "slug": "weapon-expertise",
+    "slug": "chimerian-weapon-expertise",
     "_migration": {
-      "version": 0.955,
+      "version": 0.959,
       "previous": {
-        "schema": 0.953,
-        "foundry": "13.351",
-        "system": "7.10.1"
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "artifex"
+        "chimerian"
       ],
       "rarity": "common"
     },
@@ -32,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 11
+      "value": 9
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -63,20 +63,20 @@
     }
   },
   "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
   },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "pf2e",
-    "systemVersion": "7.10.1"
-  },
-  "_id": "NX21GxjsqJuv936p",
-  "sort": 400000,
-  "_key": "!items!NX21GxjsqJuv936p"
+  "_id": "KNuRT4cvcBF7FLbP",
+  "sort": 1100000,
+  "_key": "!items!KNuRT4cvcBF7FLbP"
 }

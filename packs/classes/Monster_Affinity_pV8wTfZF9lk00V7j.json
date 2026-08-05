@@ -1,0 +1,73 @@
+{
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Monster Affinity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As your twin souls grow in power, you begin to borrow some aspects from your paired half and their familial affinity, gaining advantages against their natural opponents. Select an affinity from the category of creature families from the list below. When you cast an anima spell with a trait that matches a family in the category you selected, you gain a +2 circumstance bonus to attack rolls and class DC against creatures with the same traits in that category. For example, if you selected the Natural Affinity, when you cast an anima spell from the Animal, Beast, or Plant families, you gain the bonus when casting it against creatures of those families.</p><ul><li><p class=\"MsoNormal\">Natural Affinity: Animal, Beast, Plant</p></li><li><p class=\"MsoNormal\">Planar Affinity: Celestial, Monitor, Fiend</p></li><li><p class=\"MsoNormal\">Magical Affinity: Dragon, Elemental, Construct</p></li><li><p class=\"MsoNormal\">Transitional Affinity: Ethereal, Shadow, Fey, Astral</p></li><li><p class=\"MsoNormal\">Apocryphal Affinity: Aberration, Undead</p></li></ul><p class=\"MsoNormal\">At 11th level, you also begin to change with the aspects you pull from your anima maelstrom. You can select another affinity.</p>"
+    },
+    "rules": [],
+    "slug": "monster-affinity",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "pV8wTfZF9lk00V7j",
+  "sort": 900000,
+  "_key": "!items!pV8wTfZF9lk00V7j"
+}

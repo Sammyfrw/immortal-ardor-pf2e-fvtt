@@ -1,0 +1,62 @@
+{
+  "folder": "RojWU7GMvEiCfWsr",
+  "name": "Soulreave",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> A creature you’ve encountered or have been tracking within the last day is dead or destroyed. It cannot have been dead or destroyed for more than a day, and it must be a creature whose soul you can devour; see below.</p><hr><p>While adjacent to your fallen quarry, you bare open your anima maelstrom, and draw in their soul. If you spend at least one minute doing so, you consume the soul and hold it in your maelstrom, allowing you to later absorb it to learn a new anima spell. Spending ten minutes instead for this activity can coincide with a Refocus as you can draw some of the soul’s anima to sate your hunger.</p><p class=\"MsoNormal\">In addition to the listed requirements, the creature must be one your souls could feasibly consume:</p><ul><li><p class=\"MsoNormal\">The creature must be at least level 1, up to four levels above yours.</p></li><li><p class=\"MsoNormal\">The creature must possess a soul that has yet to pass on or be taken away from its remains, though some soulless magical creature families such as constructs have an animating force that functions similar to a soul for the purpose of anima magic.</p></li><li><p class=\"MsoNormal\">The creature cannot possess the Minion trait.</p></li><li><p class=\"MsoNormal\">The souls of most mythical or extremely powerful creatures cannot be consumed and resists your efforts, even if it meets all other requirements.</p></li><li><p class=\"MsoNormal\">Ultimately, in the case of ambiguity, your GM has the final say if a particular creature meets the requirements.</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "soulreave",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "concentrate",
+        "exploration"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "4IdbC0GrLcVvng4h",
+  "sort": 300000,
+  "_key": "!items!4IdbC0GrLcVvng4h"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "hyq99xwaKr1KNdEg",
+  "name": "Anima Manifestations",
+  "color": null,
+  "sorting": "a",
+  "_id": "gIi4E8Fi9ncxZBgR",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!gIi4E8Fi9ncxZBgR"
+}

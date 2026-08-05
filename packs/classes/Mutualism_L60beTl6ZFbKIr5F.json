@@ -1,0 +1,62 @@
+{
+  "folder": "RojWU7GMvEiCfWsr",
+  "name": "Mutualism",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\">The cunning monster you are bound with aids you to ensure your mutual survival, granting you sense and guidance. Your twin soul prepares to Aid you to perform an action of your choice, and then you perform the chosen action with its aid. Use your own statistics to make the Aid check as a free action. The circumstance bonus from the Aid check cannot exceed a +2. When you become a Master in your class DC, this bonus can increase to a +3 if you meet the aid check’s proficiency requirements. When you gain the Unchained Affinity feature, this can increase to a +4.</p><p class=\"MsoNormal\">Alternatively, if an ally has prepared and goes to Aid you for your chosen action, your other soul can instead leverage their assistance for your survival, granting a +2 circumstance bonus to their Aid check and you spend one action for Mutualism instead of two.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls harmonize if your chosen action succeeds.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "predation",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "flourish",
+        "symbiosis"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "L60beTl6ZFbKIr5F",
+  "sort": 200000,
+  "_key": "!items!L60beTl6ZFbKIr5F"
+}

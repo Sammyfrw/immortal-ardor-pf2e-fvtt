@@ -1,0 +1,73 @@
+{
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Greater Chimerian Specialization",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your mastery of chimerian attacks continues to grow. Your bonus damage from Chimerian Specialization increases to 6 points. When you gain Unchained Affinity, it increases to 8.</p>"
+    },
+    "rules": [],
+    "slug": "greater-chimerian-specialization",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/nature/wolf-paw-glow-teal-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "jeQRAwKLPsyUjz5L",
+  "sort": 1000000,
+  "_key": "!items!jeQRAwKLPsyUjz5L"
+}

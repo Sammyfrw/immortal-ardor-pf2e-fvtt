@@ -1,0 +1,62 @@
+{
+  "folder": "RojWU7GMvEiCfWsr",
+  "name": "Synergism",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You have an anima spell prepared.</p><hr><p>Your monstrous half yearns for freedom, and you join with it and turn your body into a form more fitting for the maelstrom you share.</p><p class=\"MsoNormal\">Select one of the anima spells you have prepared. You transform, entering an Anima Transformation that resembles the creature whose soul granted your chosen spell. While in this Anima Transformation, you can cast other anima spells you have prepared, unlike normal, but you still have to meet any requirements, prerequisites, or costs. Your synergism transformation lasts up to a minute, until you Dismiss this form, you fall unconscious, or die. When your transformation ends, you cannot transform into a creature from the same family until you Refocus.</p><p class=\"MsoNormal\">If you have the Monster Affinity feature and your form’s family matches your selected affinity, all your unarmed attacks and anima spells can benefit from Monster Affinity when targeting creatures in the shared affinity group.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls harmonize when you transform. If your souls become no longer harmonized (such as if you cast an anima spell), your souls harmonize after spending 2 rounds transformed, at the start of your turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "synergism",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "polymorph",
+        "symbiosis"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ifUnp1eU5v52xjBW",
+  "sort": 0,
+  "_key": "!items!ifUnp1eU5v52xjBW"
+}

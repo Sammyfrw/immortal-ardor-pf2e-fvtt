@@ -1,0 +1,64 @@
+{
+  "folder": "RojWU7GMvEiCfWsr",
+  "name": "Mimicry",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Targets</strong> 1 creature</p><p class=\"MsoNormal\"><strong>Requirements </strong>You are wielding a staff.</p><p><strong>Range</strong> 30 feet</p><hr><p>Your monster’s soul observes its prey and tries to capture the essence of one of its powers out of empathy or intelligence.</p><p class=\"MsoNormal\">Make a skill check as if you were trying to Learn a new Anima Spell from the target creature’s soul. On a success, you gain information about the creature as if you were Learning an anima spell. If it has one, you can select one of its anima spells that you meet any requirements to learn, prepare, and cast. You can temporarily cast this spell once within the next ten minutes by channeling it through your staff, without spending a focus point. You can only have one temporary spell in this way at a time; if you use mimicry again and gain another spell, you lose your previous one.</p><p class=\"MsoNormal\">If you later Learn Anima Magic from the soul of a creature you have successfully used Mimicry on, you can forgo the check and use the same outcome of your roll when Learning the Spell permanently.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls harmonize when you successfully learn information about a creature, even if it does not have any anima spells. You can only harmonize from Mimicry against a creature once every 24 hours.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "mimicry",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "symbiosis"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "VHtOtpenBtap7Ftn",
+  "sort": 100000,
+  "_key": "!items!VHtOtpenBtap7Ftn"
+}

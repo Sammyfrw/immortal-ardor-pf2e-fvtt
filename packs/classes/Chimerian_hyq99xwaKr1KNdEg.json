@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Chimerian",
+  "color": "#c9af4f",
+  "sorting": "a",
+  "_id": "hyq99xwaKr1KNdEg",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!hyq99xwaKr1KNdEg"
+}

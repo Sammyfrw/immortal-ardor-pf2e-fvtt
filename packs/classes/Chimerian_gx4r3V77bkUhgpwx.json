@@ -1,0 +1,142 @@
+{
+  "name": "Chimerian",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><em>Through profane alchemical experiments, your body contains two souls bound together: yours, and that of a monster. Your soul wrestles for constant control with your pair, and a hunger gnaws at you both to devour other souls or risk cannibalizing one another. For this terrible price, however, you have gained the power to draw upon your anima maelstrom, allowing you to manifest the abilities of even the most dangerous creatures of the world.</em></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.Uyqkrx0RlxN9mMgS.JournalEntryPage.bnKKkjXVfsSXq03r]{Chimerian}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "chimerian",
+    "traits": {
+      "otherTags": [],
+      "rarity": "rare"
+    },
+    "items": {},
+    "keyAbility": {
+      "value": [
+        "wis"
+      ],
+      "selected": null
+    },
+    "hp": 8,
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "rank": 0,
+        "name": ""
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 1,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "trainedSkills": {
+      "value": [
+        "nature"
+      ],
+      "additional": 2
+    },
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "_id": "gx4r3V77bkUhgpwx",
+  "img": "icons/creatures/eyes/lizard-single-slit-blue.webp",
+  "folder": "hyq99xwaKr1KNdEg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!items!gx4r3V77bkUhgpwx"
+}

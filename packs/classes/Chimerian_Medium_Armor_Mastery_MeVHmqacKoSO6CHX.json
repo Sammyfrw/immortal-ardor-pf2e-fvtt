@@ -1,27 +1,27 @@
 {
-  "folder": "YN98XSz3i0bXGAwA",
-  "name": "Light Armor Expertise",
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Chimerian Medium Armor Mastery",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert</p>"
+      "value": "<p>Your skill with light and medium armor improves, increasing your ability to avoid blows. Your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to master.</p>"
     },
     "rules": [],
-    "slug": "light-armor-expertise",
+    "slug": "chimerian-medium-armor-mastery",
     "_migration": {
-      "version": 0.955,
+      "version": 0.959,
       "previous": {
         "schema": 0.935,
-        "foundry": "13.351",
-        "system": "7.10.1"
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "artifex"
+        "chimerian"
       ],
       "rarity": "common"
     },
@@ -32,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 11
+      "value": 19
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -50,11 +50,15 @@
     "subfeatures": {
       "proficiencies": {
         "light": {
-          "rank": 2,
+          "rank": 3,
           "attribute": null
         },
         "unarmored": {
-          "rank": 2,
+          "rank": 3,
+          "attribute": null
+        },
+        "medium": {
+          "rank": 3,
           "attribute": null
         }
       },
@@ -62,21 +66,21 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/equipment/back/mantle-collared-green.webp",
+  "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
   },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "pf2e",
-    "systemVersion": "7.10.1"
-  },
-  "_id": "QBJruOLVXZH4jVVv",
+  "_id": "MeVHmqacKoSO6CHX",
   "sort": 600000,
-  "_key": "!items!QBJruOLVXZH4jVVv"
+  "_key": "!items!MeVHmqacKoSO6CHX"
 }

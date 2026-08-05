@@ -1,0 +1,73 @@
+{
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Chimerian Anima Magic",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From your Anima Maelstrom, your bound souls conjure anima spells through your body. You have the power to use Anima Magic, as described in the Anima Magic section.</p><h5>Learning Anima Magic</h5><p class=\"MsoNormal\">You can Learn Anima Magic from a creature’s soul held in your Maelstrom, typically obtained when you Soulreave. When you do, you can use a modifier equal to your chimerian class DC -10 if it is higher than the skill you would normally use, and when you succeed, you consume the soul and learn the spell, adding the anima spell to the maelstrom. Once a soul is consumed for this purpose, it is forever lost. However, at a GM’s discretion, a particularly resilient soul, a soul that is consigned to another fate or drawn to a greater power might escape or be pulled from your maelstrom after you learn a new spell from it.</p><p>At 1st level, you begin with 3 anima spells already learnt, chosen from the list of 1st level anima spells. Typically, at least one of these spells come from the family that your twin soul’s creature comes from, such as a warg granting you Vengeful Bite, the 1st level beast family anima spell.</p><h5>Preparing Anima Magic</h5><p class=\"MsoNormal\">Even though your maelstrom grows with each soul it consumes, you can only make use of so much power before your twin souls are overwrought with strain. Each day during your daily preparations, you can select and prepare a number of these spells for use.</p><p class=\"MsoNormal\">At 1st level, you can prepare up to 3 anima spells from your maelstrom. At every odd level onward, you can prepare an additional anima spell. You can only prepare anima spells if you meet all requirements to use it.</p><p class=\"MsoNormal\">A chimerian begins with 3 focus points and regains all of them when they make their daily preparations. Throughout the day, they can refocus to regain a focus point, though the form this takes varies depending on the chimerian and the manifestation of their anima. Actions with the Symbiosis trait have requirements that, when met, harmonize their twin souls. When harmonized, they negate the focus point cost of the Chimerian’s next anima spell within 1 minute.</p>"
+    },
+    "rules": [],
+    "slug": "chimerian-anima-magic",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "A7tdCuCuYTjcAB1P",
+  "sort": 700000,
+  "_key": "!items!A7tdCuCuYTjcAB1P"
+}
