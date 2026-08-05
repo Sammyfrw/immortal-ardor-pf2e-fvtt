@@ -1,6 +1,6 @@
 {
   "folder": "N6A1Evhl0O3vyf9U",
-  "name": "Incredible Familiar (Luminary)",
+  "name": "Incredible Familiar (Artifex)",
   "type": "feat",
   "effects": [],
   "system": {
@@ -17,7 +17,7 @@
         "value": 6
       }
     ],
-    "slug": "incredible-familiar-luminary",
+    "slug": "incredible-familiar-artifex",
     "_migration": {
       "version": 0.955,
       "previous": {
@@ -29,7 +29,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "luminary"
+        "artifex"
       ],
       "rarity": "common"
     },

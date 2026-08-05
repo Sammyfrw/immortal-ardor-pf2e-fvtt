@@ -1,7 +1,7 @@
 {
   "id": "immortal-ardor",
   "title": "Immortal Ardor",
-  "version": "0.271",
+  "version": "0.272",
   "compatibility": {
     "minimum": "13.351",
     "verified": "13.351"
@@ -458,9 +458,9 @@
             "label": "IA.Trait.Lucid",
             "description": "IA.TraitDescription.Lucid"
           },
-          "luminary": {
-            "label": "IA.Trait.Luminary",
-            "description": "IA.TraitDescription.Luminary"
+          "artifex": {
+            "label": "IA.Trait.Artifex",
+            "description": "IA.TraitDescription.Artifex"
           },
           "lyncan": {
             "label": "IA.Trait.Lyncan",
@@ -544,9 +544,9 @@
             "label": "IA.Trait.Diviner",
             "description": "IA.TraitDescription.Diviner"
           },
-          "luminary": {
-            "label": "IA.Trait.Luminary",
-            "description": "IA.TraitDescription.Luminary"
+          "artifex": {
+            "label": "IA.Trait.Artifex",
+            "description": "IA.TraitDescription.Artifex"
           },
           "meditation": {
             "label": "IA.Trait.Meditation",

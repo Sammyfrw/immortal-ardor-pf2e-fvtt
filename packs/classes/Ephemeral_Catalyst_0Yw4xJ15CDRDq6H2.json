@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Activate </strong>Cast a Spell</p><hr /><p>An ephemeral catalyst is an unstable combination of materials, which will degrade quickly once enough time has passed since their creation. An enterprising luminary can use these to add a little extra punch to any spell cast using it. When a luminary uses the catalyst to Cast a Spell that deals damage or recovers hit points, they add the spell’s rank rounded down to the damage or healing.</p>"
+      "value": "<p><strong>Activate </strong>Cast a Spell</p><hr /><p>An ephemeral catalyst is an unstable combination of materials, which will degrade quickly once enough time has passed since their creation. An enterprising artifex can use these to add a little extra punch to any spell cast using it. When an artifex uses the catalyst to Cast a Spell that deals damage or recovers hit points, they add the spell’s rank rounded down to the damage or healing.</p>"
     },
     "rules": [],
     "slug": "ephemeral-catalyst",

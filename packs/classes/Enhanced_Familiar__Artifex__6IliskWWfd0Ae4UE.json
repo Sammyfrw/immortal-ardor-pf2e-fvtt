@@ -1,15 +1,23 @@
 {
   "folder": "N6A1Evhl0O3vyf9U",
-  "name": "Cantrip Expansion (Luminary)",
+  "name": "Enhanced Familiar (Artifex)",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">Study broadens your range of spells. You can prepare two additional cantrips each day.</span></p>"
+      "value": "<p><span lang=\"EN\">You infuse your familiar with additional energy, increasing its abilities. You can select four familiar or master abilities each day, instead of two.</span></p>"
     },
-    "rules": [],
-    "slug": "cantrip-expansion-luminary",
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.attributes.familiarAbilities.value",
+        "priority": 9,
+        "value": 4
+      }
+    ],
+    "slug": "enhanced-familiar-artifex",
     "_migration": {
       "version": 0.955,
       "previous": {
@@ -21,7 +29,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "luminary"
+        "artifex"
       ],
       "rarity": "common"
     },
@@ -67,7 +75,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.10.1"
   },
-  "_id": "MYZdguZAPqkGW62p",
-  "sort": 0,
-  "_key": "!items!MYZdguZAPqkGW62p"
+  "_id": "6IliskWWfd0Ae4UE",
+  "sort": 400000,
+  "_key": "!items!6IliskWWfd0Ae4UE"
 }

@@ -13,13 +13,13 @@
         "key": "RollOption",
         "option": "catalyze",
         "placement": "spellcasting",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "alwaysActive": false,
         "mergeable": true,
         "toggleable": true,
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Luminary.Catalyze.SoItIsWritten.Label",
+            "label": "IA.SpecificRule.Artifex.Catalyze.SoItIsWritten.Label",
             "value": "so-it-is-written"
           }
         ]
@@ -27,7 +27,7 @@
       {
         "itemType": "spell",
         "key": "ItemAlteration",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "mode": "add",
         "priority": 121,
         "property": "description",
@@ -37,8 +37,8 @@
         "value": [
           {
             "divider": true,
-            "text": "IA.SpecificRule.Luminary.Catalyze.SoItIsWritten.Description",
-            "title": "IA.SpecificRule.Luminary.Catalyze.SoItIsWritten.Label"
+            "text": "IA.SpecificRule.Artifex.Catalyze.SoItIsWritten.Description",
+            "title": "IA.SpecificRule.Artifex.Catalyze.SoItIsWritten.Label"
           }
         ]
       }
@@ -59,7 +59,7 @@
       "value": [
         "catalyze",
         "concentrate",
-        "luminary",
+        "artifex",
         "spellshape"
       ],
       "rarity": "common"

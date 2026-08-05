@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">You are able to use your craft to great effect, to practice and explore your techniques while you earn your keep. You gain the @UUID[Compendium.pf2e.feats-srd.xWY5omyIcILNR7y1]{Magical Crafting} feat, even if you do not meet its requirements. You can @UUID[Compendium.pf2e.actionspf2e.QyzlsLrqM0EEwd7j]{Earn Income} with your visionary skill, even if it is a skill that normally does not have that capability. You can also @UUID[Compendium.pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Craft} magical scrolls, using your visionary skill in place of Crafting, but it must be of a spell you have in your portfolio that you can cast.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span lang=\"EN\"> If your visionary skill is Crafting, you gain the @UUID[Compendium.pf2e.feats-srd.QLeMH5mQgh28sa5o]{Specialty Crafting} feat, selecting Artistry as your specialty.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">You are able to use your craft to great effect, to practice and explore your techniques while you earn your keep. You gain the @UUID[Compendium.pf2e.feats-srd.xWY5omyIcILNR7y1]{Magical Crafting} feat, even if you do not meet its requirements. You can @UUID[Compendium.pf2e.actionspf2e.QyzlsLrqM0EEwd7j]{Earn Income} with your visionary skill, even if it is a skill that normally does not have that capability. You can also @UUID[Compendium.pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Craft} magical scrolls, using your visionary skill in place of Crafting, but it must be of a spell you have in your portfolio that you can cast.</span></p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span lang=\"EN\"> If your visionary skill is Crafting, you gain the @UUID[Compendium.pf2e.feats-srd.QLeMH5mQgh28sa5o]{Specialty Crafting} feat, </span>If you have the @UUID[Compendium.immortal-ardor.classes.Pl5YLdiMtUCW1XLB]{Catalyst Artist} or @UUID[Compendium.immortal-ardor.classes.UGARByXDuXQ8Dy0Y]{Body is a Canvas} feat, you can use your visionary skill to craft Catalysts or Tattoos, depending on the feat you have.</p>"
     },
     "rules": [
       {
@@ -33,7 +33,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "luminary"
+        "artifex"
       ],
       "rarity": "common"
     },
@@ -81,7 +81,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "systemVersion": "7.11.2"
   },
   "_id": "LHFmSIuEEERwtEQc",
   "sort": 1600000,

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">A portfolio holds the unique ways by which a luminary can replicate spells with their brand of spellcraft. These portfolios behave much like spellbooks. A luminary can typically get one for free. A portfolio can hold up to 100 spells. The Price listed is for a blank portfolio.</p>"
+      "value": "<p class=\"MsoNormal\">A portfolio holds the unique ways by which an artifex can replicate spells with their brand of spellcraft. These portfolios behave much like spellbooks. An artifex can typically get one for free. A portfolio can hold up to 100 spells. The Price listed is for a blank portfolio.</p>"
     },
     "rules": [],
     "slug": "portfolio-blank",

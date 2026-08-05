@@ -13,13 +13,13 @@
         "key": "RollOption",
         "option": "catalyze",
         "placement": "spellcasting",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "alwaysActive": false,
         "mergeable": true,
         "toggleable": true,
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Luminary.Catalyze.WidenCatalyst.Label",
+            "label": "IA.SpecificRule.Artifex.Catalyze.WidenCatalyst.Label",
             "value": "widen-catalyst"
           }
         ]
@@ -27,7 +27,7 @@
       {
         "itemType": "spell",
         "key": "ItemAlteration",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "mode": "add",
         "priority": 121,
         "property": "description",
@@ -37,8 +37,8 @@
         "value": [
           {
             "divider": true,
-            "text": "IA.SpecificRule.Luminary.Catalyze.WidenCatalyst.Description",
-            "title": "IA.SpecificRule.Luminary.Catalyze.WidenCatalyst.Label"
+            "text": "IA.SpecificRule.Artifex.Catalyze.WidenCatalyst.Description",
+            "title": "IA.SpecificRule.Artifex.Catalyze.WidenCatalyst.Label"
           }
         ]
       }
@@ -59,7 +59,7 @@
       "value": [
         "catalyze",
         "concentrate",
-        "luminary",
+        "artifex",
         "spellshape"
       ],
       "rarity": "common"

@@ -27,13 +27,13 @@
         "key": "RollOption",
         "option": "catalyze",
         "placement": "spellcasting",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "alwaysActive": false,
         "mergeable": true,
         "toggleable": true,
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Luminary.Catalyze.Smudge.Label",
+            "label": "IA.SpecificRule.Artifex.Catalyze.Smudge.Label",
             "value": "smudge"
           }
         ]
@@ -41,7 +41,7 @@
       {
         "itemType": "spell",
         "key": "ItemAlteration",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "mode": "add",
         "priority": 121,
         "property": "description",
@@ -51,8 +51,8 @@
         "value": [
           {
             "divider": true,
-            "text": "IA.SpecificRule.Luminary.Catalyze.Smudge.Description",
-            "title": "IA.SpecificRule.Luminary.Catalyze.Smudge.Label"
+            "text": "IA.SpecificRule.Artifex.Catalyze.Smudge.Description",
+            "title": "IA.SpecificRule.Artifex.Catalyze.Smudge.Label"
           },
           {
             "text": "@UUID[Compendium.immortal-ardor.classes.Item.iHSECImQd2cGiC9N]{Effect: Smudge}"
@@ -79,7 +79,7 @@
       ],
       "value": [
         "catalyze",
-        "luminary"
+        "artifex"
       ]
     },
     "actionType": {

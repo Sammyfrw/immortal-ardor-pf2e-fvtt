@@ -1,6 +1,6 @@
 {
   "folder": "2l2hhfbqyLxFUp4W",
-  "name": "Luminary",
+  "name": "Artifex",
   "type": "class",
   "effects": [],
   "system": {
@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><em>You are a bastion of talent and creativity, and while you can grasp magic, you see possibilities that extend beyond simple rote applications or manifestations bestowed by other entities. Some might think you a spellcaster bestowed with innate gifts, but that isn’t your gift – no, you don’t cast magic, you create magic. You are a creator that wields the tools of expression, envisioning what magic could be. Some might call you apocryphal, or even mistake you for a fake, talentless trickster. But you are an erudite and a visionary both; with a little bit of planning and a sprinkle of catalyzing reagents, you can express magic in beautiful, colorful ways.</em></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.Uyqkrx0RlxN9mMgS.JournalEntryPage.rKXaxU8FIiYZ3eCi]{Luminary}</p>",
+      "value": "<p><em>You are a bastion of talent and creativity, and while you can grasp magic, you see possibilities that extend beyond simple rote applications or manifestations bestowed by other entities. Some might think you a spellcaster bestowed with innate gifts, but that isn’t your gift – no, you don’t cast magic, you create magic. You are a creator that wields the tools of expression, envisioning what magic could be. Some might call you apocryphal, or even mistake you for a fake, talentless trickster. But you are an erudite and a visionary both; with a little bit of planning and a sprinkle of catalyzing reagents, you can express magic in beautiful, colorful ways.</em></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.Uyqkrx0RlxN9mMgS.JournalEntryPage.rKXaxU8FIiYZ3eCi]{Artifex}</p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": "luminary",
+    "slug": "artifex",
     "traits": {
       "otherTags": [],
       "rarity": "uncommon"
@@ -76,19 +76,19 @@
       "BYhgr": {
         "uuid": "Compendium.immortal-ardor.classes.Item.Wv3s8l9se4d2TbEG",
         "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
-        "name": "Luminary Spellcasting",
+        "name": "Artifex Spellcasting",
         "level": 1
       },
       "GXSAJ": {
         "uuid": "Compendium.immortal-ardor.classes.Item.pfw3WuysLnDZgvmr",
         "img": "icons/magic/symbols/question-stone-yellow.webp",
-        "name": "Luminary's Medium",
+        "name": "Artifex's Medium",
         "level": 1
       },
       "Wnote": {
         "uuid": "Compendium.immortal-ardor.classes.Item.U0WZMVl0PfqtjqPU",
         "img": "icons/magic/symbols/question-stone-yellow.webp",
-        "name": "Luminary's Motif",
+        "name": "Artifex's Motif",
         "level": 1
       },
       "oDSCC": {

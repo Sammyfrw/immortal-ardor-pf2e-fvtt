@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">Your catalysts are more potent and long-lasting. You can choose to have your luminary actions with the Catalyze trait benefit from a listed Enhanced Catalyst effect. When you use a catalyst for a spell that requires you to add an action, you can activate the catalyst early, spending the actions needed. As long as you cast the spell the catalyst was added to by the end of your next turn, the spell benefits from the catalyst. Regardless, the catalyst is expended.</span></p>"
+      "value": "<p><span lang=\"EN\">Your catalysts are more potent and long-lasting. You can choose to have your artifex actions with the Catalyze trait benefit from a listed Enhanced Catalyst effect. When you use a catalyst for a spell that requires you to add an action, you can activate the catalyst early, spending the actions needed. As long as you cast the spell the catalyst was added to by the end of your next turn, the spell benefits from the catalyst. Regardless, the catalyst is expended.</span></p>"
     },
     "rules": [],
     "slug": "enhanced-catalysts",
@@ -21,7 +21,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "luminary"
+        "artifex"
       ],
       "rarity": "common"
     },

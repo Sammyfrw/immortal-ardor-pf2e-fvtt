@@ -27,13 +27,13 @@
         "key": "RollOption",
         "option": "catalyze",
         "placement": "spellcasting",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "alwaysActive": false,
         "mergeable": true,
         "toggleable": true,
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Luminary.Catalyze.Shadowplay.Label",
+            "label": "IA.SpecificRule.Artifex.Catalyze.Shadowplay.Label",
             "value": "shadowplay"
           }
         ]
@@ -41,7 +41,7 @@
       {
         "itemType": "spell",
         "key": "ItemAlteration",
-        "label": "IA.SpecificRule.Luminary.Catalyze.Label",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
         "mode": "add",
         "priority": 121,
         "property": "description",
@@ -51,8 +51,8 @@
         "value": [
           {
             "divider": true,
-            "text": "IA.SpecificRule.Luminary.Catalyze.Shadowplay.Description",
-            "title": "IA.SpecificRule.Luminary.Catalyze.Shadowplay.Label"
+            "text": "IA.SpecificRule.Artifex.Catalyze.Shadowplay.Description",
+            "title": "IA.SpecificRule.Artifex.Catalyze.Shadowplay.Label"
           }
         ]
       }
@@ -64,7 +64,7 @@
       ],
       "value": [
         "catalyze",
-        "luminary"
+        "artifex"
       ]
     },
     "actionType": {
