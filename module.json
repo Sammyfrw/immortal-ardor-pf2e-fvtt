@@ -426,6 +426,10 @@
             "label": "IA.Trait.Catalyze1",
             "description": "IA.TraitDescription.Catalyze1"
           },
+          "chimerian": {
+            "label": "IA.Trait.Chimerian",
+            "description": "IA.TraitDescription.Chimerian"
+          },
           "constellation": {
             "label": "IA.Trait.Constellation",
             "description": "IA.TraitDescription.Constellation"
@@ -485,10 +489,6 @@
           "sapien": {
             "label": "IA.Trait.Sapien",
             "description": "IA.TraitDescription.Sapien"
-          },
-          "soulreaver": {
-            "label": "IA.Trait.Soulreaver",
-            "description": "IA.TraitDescription.Soulreaver"
           },
           "symbiosis": {
             "label": "IA.Trait.Symbiosis",
