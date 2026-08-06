@@ -352,6 +352,12 @@
             "Description8thRank": "Your spells are veiled and gain the illusion trait. If your spells require a spell attack, compare the attack roll to a creature's Perception DC. If they require a saving throw, targeted creatures need to make a Seek check before rolling their saving throw. @UUID[Compendium.immortal-ardor.classes.Item.cyjCynzHF2FshKa6]{Spell Effect: Stippling Shades (Target)}"
           }
         }
+      },
+      "Chimerian": {
+        "MonsterAffinity": {
+          "Label": "Monster Affinity",
+          "PromptText": "Select a Monster Affinity"
+        }
       }
     }
   }
