@@ -1,31 +1,34 @@
 {
-  "folder": "Tq4PchBPHAioFBaI",
-  "name": "Anima Manifestation",
+  "folder": "dlPbPBHQiK5y42Xi",
+  "name": "Magical Affinity",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Each paired soul manifests their Anima Powers differently, depending on the relationship one's soul has with the monster's soul, and the type of monster soul used in the alchemical rites. Select an Anima Manifestation from the list below.</p>"
+      "value": "<p>The Magical Affinity consists of creatures of the Dragon, Elemental and Construct families. When you cast an anima spell with a trait that matches a family in the category you selected, you gain a +2 circumstance bonus to attack rolls and class DC against creatures with the same traits in that category.</p>"
     },
     "rules": [
       {
-        "adjustName": false,
-        "choices": {
-          "filter": [
-            "item:tag:chimerian-anima-manifestation"
-          ]
-        },
-        "flag": "animaManifestation",
-        "key": "ChoiceSet",
-        "prompt": "Select an anima manifestation."
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.animaManifestation}"
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "target:trait:dragon",
+              "target:trait:elemental",
+              "target:trait:construct"
+            ]
+          }
+        ],
+        "selector": [
+          "anima-attack-roll",
+          "anima-spell-dc"
+        ],
+        "type": "circumstance",
+        "value": 2
       }
     ],
-    "slug": "anima-manifestation",
+    "slug": "magical-affinity",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -35,7 +38,9 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "monster-affinity"
+      ],
       "value": [
         "chimerian"
       ],
@@ -48,7 +53,7 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 3
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -69,7 +74,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -83,7 +88,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "CsZAzREjEt3xy3gp",
-  "sort": 200000,
-  "_key": "!items!CsZAzREjEt3xy3gp"
+  "_id": "YMBJhUzjzkz8IyTr",
+  "sort": 0,
+  "_key": "!items!YMBJhUzjzkz8IyTr"
 }

@@ -1,15 +1,15 @@
 {
   "folder": "fju3QClW7TLWF66U",
-  "name": "Evolved Code",
+  "name": "Amber Anatomy",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>With each new soul you take on new characteristics. You can select another anima ability from a spell you have prepared each day to gain until your next daily preparations. You can select this feat again at 16th level to gain a third selection.</p>"
+      "value": "<p><strong>Frequency </strong>Once per hour</p><hr><p>Some creatures you’ve consumed have remarkable healing properties, and your body has synthesized them together into a healing factor. You recover 10 hit points. This increases to 15 when you become a Master in Medicine, and 30 when you become Legendary.</p><p class=\"MsoNormal\">If you have prepared an anima spell with the Healing trait, when you or your allies successfully Treat your Wounds, they can do so without a healer’s tool kit, and the frequency of this ability resets.</p>"
     },
     "rules": [],
-    "slug": "evolved-code",
+    "slug": "amber-anatomy",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -21,7 +21,9 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "chimerian"
+        "chimerian",
+        "concentrate",
+        "healing"
       ],
       "rarity": "common"
     },
@@ -32,21 +34,21 @@
       "remaster": true
     },
     "level": {
-      "value": 10
+      "value": 4
     },
     "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     },
     "prerequisites": {
       "value": [
         {
-          "value": "Blood Code"
+          "value": "Expert in Medicine"
         }
       ]
     },
@@ -55,6 +57,10 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
     }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
@@ -71,7 +77,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "q3EJxuNyGN1YmTHs",
-  "sort": 2300000,
-  "_key": "!items!q3EJxuNyGN1YmTHs"
+  "_id": "HwHF17vNnOi2f4lM",
+  "sort": 4300000,
+  "_key": "!items!HwHF17vNnOi2f4lM"
 }

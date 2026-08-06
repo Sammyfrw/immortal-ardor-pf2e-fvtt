@@ -1,15 +1,15 @@
 {
   "folder": "Tq4PchBPHAioFBaI",
-  "name": "Anima Mastery",
+  "name": "Anima Legend",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">Reaching a new height of power, channeling your maelstrom becomes effortless. Your proficiency rank for your chimerian class DC increases to Master.</p>"
+      "value": "<p class=\"MsoNormal\">Your twin souls flourish in harmony as the maelstrom swims around the pair of you, where it moves at your whims. Your proficiency rank for your chimerian class DC increases to Legendary.</p>"
     },
     "rules": [],
-    "slug": "anima-mastery",
+    "slug": "anima-legend",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -32,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 13
+      "value": 19
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -48,16 +48,17 @@
     },
     "location": null,
     "subfeatures": {
-      "proficiencies": {},
+      "proficiencies": {
+        "unarmed": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
       "senses": {},
       "suppressedFeatures": []
     }
   },
-  "img": "icons/magic/nature/wolf-paw-glow-large-purple-teal.webp",
-  "ownership": {
-    "default": 0,
-    "xrtJn5KNHicBTyJb": 3
-  },
+  "img": "icons/magic/nature/wolf-paw-glow-large-teal-blue.webp",
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
@@ -67,7 +68,11 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "KGyerHmxNPD072aB",
-  "sort": 100000,
-  "_key": "!items!KGyerHmxNPD072aB"
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "N4x3d9Kc2Ae08iaZ",
+  "sort": 0,
+  "_key": "!items!N4x3d9Kc2Ae08iaZ"
 }

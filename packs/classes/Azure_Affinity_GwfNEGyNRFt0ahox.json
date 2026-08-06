@@ -1,15 +1,15 @@
 {
   "folder": "fju3QClW7TLWF66U",
-  "name": "Blue Anatomy",
+  "name": "Azure Affinity",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency </strong>Once per hour</p><hr><p>Some creatures you’ve consumed have remarkable healing properties, and your body has synthesized them together into a healing factor. You recover 10 hit points. This increases to 15 when you become a Master in Medicine, and 30 when you become Legendary.</p><p class=\"MsoNormal\">If you have prepared an anima spell with the Healing trait, when you or your allies successfully Treat your Wounds, they can do so without a healer’s tool kit, and the frequency of this ability resets.</p>"
+      "value": "<p><strong>Frequency</strong> Once per ten minutes</p><hr><p class=\"MsoNormal\">Your anima flourishes with a surge of power as your soul connects to your target’s being with your next spell. If your next action is to cast an anima spell with the attack trait, it benefits from the circumstance bonus of Monster Affinity, even if you did not select your target creature’s family category or if the target creature does not have an associated category.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special</span> If you are currently harmonized, you can expend that state to make this action a free action.</p>"
     },
     "rules": [],
-    "slug": "blue-anatomy",
+    "slug": "azure-affinity",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -22,8 +22,7 @@
       "otherTags": [],
       "value": [
         "chimerian",
-        "concentrate",
-        "healing"
+        "spellshape"
       ],
       "rarity": "common"
     },
@@ -34,33 +33,25 @@
       "remaster": true
     },
     "level": {
-      "value": 4
+      "value": 12
     },
     "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "action"
+      "value": "passive"
     },
     "actions": {
-      "value": 1
+      "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "Expert in Medicine"
-        }
-      ]
+      "value": []
     },
     "location": null,
     "subfeatures": {
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
-    },
-    "frequency": {
-      "max": 1,
-      "per": "PT1H"
     }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
@@ -77,7 +68,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "HwHF17vNnOi2f4lM",
-  "sort": 4300000,
-  "_key": "!items!HwHF17vNnOi2f4lM"
+  "_id": "GwfNEGyNRFt0ahox",
+  "sort": 4000000,
+  "_key": "!items!GwfNEGyNRFt0ahox"
 }

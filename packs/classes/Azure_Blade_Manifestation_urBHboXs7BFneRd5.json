@@ -1,0 +1,83 @@
+{
+  "folder": "gIi4E8Fi9ncxZBgR",
+  "name": "Azure Blade Manifestation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your soul is bonded to a cunning, thoughtful creature. It does not fight you for control and is willing to share the same body as long as you seek mutual survival. Azure Blade chimerians often avoid risks and maintain their composure, otherwise the monster’s soul will try and wrestle for control to try and survive. Your controlled state allows you to manifest your powers in the form of ethereal appendages, even channeled through implements like weapons as if they were an extension of your twin-souled body.</p><p class=\"MsoNormal\">Your key attribute is Dexterity. You can invest a magic melee weapon (even though magic weapons can't normally be Invested) and use it to cast an anima spell instead of a free hand. When you wield this weapon, you treat it as an anima weapon, including for the purposes of feats, proficiencies and requirements. In addition, runes on your weapon benefit anima strikes the same way you would with an item that improves your unarmed strikes. When you gain the ability to benefit from the Brawling critical specialization with anima weapons, you use your weapon’s critical specialization instead. When you use your weapon to cast an anima spell, you can apply the traits or damage type from your weapon on any Anima Strikes made instead of what is listed on the spells’ anima weapon.</p><p>When you gain the @UUID[Compendium.immortal-ardor.classes.SG7YMq3tFT0lmA72]{Azure Anima Expertise} feat, your prowess using chimerian attacks improves. When you Strike with an anima weapon, you deal an additional 2 points of damage. This increases to 3 points when your class DC proficiency increases to Master. When you gain the @UUID[Compendium.immortal-ardor.classes.KGyerHmxNPD072aB]{Azure Anima Mastery} feat, this bonus damage increases to 6 points. When you gain @UUID[Compendium.immortal-ardor.classes.qvimj88y6rJXAuMM]{Unchained Affinity}, it increases to 8.</p><p class=\"MsoNormal\">Your symbiosis action is @UUID[Compendium.immortal-ardor.classes.L60beTl6ZFbKIr5F]{Mutualism}. When you use Mutualism, you can Raise a Shield or use a similar Defend action as a free action.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.L60beTl6ZFbKIr5F"
+      }
+    ],
+    "slug": "azure-blade-manifestation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "chimerian-anima-manifestation"
+      ],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "dex"
+      ]
+    }
+  },
+  "img": "icons/creatures/magical/spirit-undead-horned-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "urBHboXs7BFneRd5",
+  "sort": 0,
+  "_key": "!items!urBHboXs7BFneRd5"
+}

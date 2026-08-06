@@ -8,7 +8,12 @@
       "gm": "",
       "value": "<p>A chimerian's twin souls are surrounded and sustained by a well of anima called the Anima Maelstrom. This pool contains the memory and essence of all souls and animating force that a chimerian has devoured, and from it they manifest their anima magic. Sustaining the maelstrom for such power takes a great physical and spiritual toll on both souls, creating a hunger for anima that must be sated to avoid the chimerian from falling apart. Due to this, the chimerian must devour the souls or animating forces of other creatures for their anima. With each soul consumed, the maelstrom grows in power, allowing the chimerian the capability to create even greater manifestations of anima – though this often deepens their hunger.</p><h5>Soulreave</h5><p class=\"MsoNormal\">To stave off the hunger of your twin souls, you must devour the souls of other creatures into your anima maelstrom. You gain the Soulreave activity. When you successfully Soulreave, you hold the devoured soul in your anima maelstrom.</p><p class=\"MsoNormal\">Souls in your maelstrom are inert and are inaccessible to common forms of spells and rituals that affect those souls (such as resurrection spells) unless they are significantly more powerful than you. Until you Learn Anima Magic from the soul or you release it, it remains within your maelstrom. You can have up to five souls in your maelstrom in this way, though you can release any number of your held souls through a meditative ritual that takes ten minutes. If you acquire a new soul that would put you over this amount, you can immediately release one soul.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.4IdbC0GrLcVvng4h"
+      }
+    ],
     "slug": "anima-maelstrom",
     "_migration": {
       "version": 0.959,

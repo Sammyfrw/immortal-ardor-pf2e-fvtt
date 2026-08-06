@@ -1,15 +1,15 @@
 {
   "folder": "fju3QClW7TLWF66U",
-  "name": "Efflux",
+  "name": "Amber Affinity",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You shift and alter your physiology freely, unable to settle on one – a trait that your paired soul delights in. While you are in an Anima Transformation, you can use Synergism again to transform into a different form. If you are Harmonized while in an Anima Transformation, you can expend your harmonized state by spending 3 actions to Cast an Anima spell and use Synergism. Regardless of how you shift from one anima transformation to another, you do not become Harmonized by transforming if you use Synergism in this way.</p>"
+      "value": "<p><strong>Frequency</strong> Once per ten minutes</p><hr><p>As you unleash your anima magic, your body strains to pool its power into the spell. If your next spell is to cast an anima spell, you add the rank of the spell to the spell's damage or healing.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you are currently harmonized, you can expend that state to make this action a free action.</p>"
     },
     "rules": [],
-    "slug": "efflux",
+    "slug": "amber-affinity",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -21,7 +21,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "chimerian"
+        "chimerian",
+        "spellshape"
       ],
       "rarity": "common"
     },
@@ -32,7 +33,7 @@
       "remaster": true
     },
     "level": {
-      "value": 16
+      "value": 10
     },
     "category": "class",
     "onlyLevel1": false,
@@ -44,17 +45,17 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "Morpher Manifestation"
-        }
-      ]
+      "value": []
     },
     "location": null,
     "subfeatures": {
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
     }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
@@ -71,7 +72,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "SwbpqNJXnF7JACWm",
-  "sort": 2800000,
-  "_key": "!items!SwbpqNJXnF7JACWm"
+  "_id": "NVBYaWRzZkoxvhoE",
+  "sort": 4500000,
+  "_key": "!items!NVBYaWRzZkoxvhoE"
 }

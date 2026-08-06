@@ -1,0 +1,83 @@
+{
+  "folder": "gIi4E8Fi9ncxZBgR",
+  "name": "Mimic Manifestation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your soul is bonded to a creature that seems to observe and reflect upon the world it finds itself in through your eyes. It is empathetic, fearful, and wary, but also intelligent. It tries to reflect the world it experiences, expressing its understanding through your powers. Mimic chimerians are cautious and patient, as the monster’s soul bristles or reacts strongly to sudden spikes of emotion and needs time to acclimate and process.</p><p class=\"MsoNormal\">Your key attribute is Intelligence. Each day during your daily preparations, you can empower a staff to act as a magical conduit for your mimic soul to interface with the world. While holding this implement you can cast anima spells through it, and you can use any 5-foot space within 30 feet of you as the spell’s origin point, creating an ethereal facsimile of yourself or the creature to perform the spell. This facsimile uses your statistics, and any bonuses or penalties apply as if you were in its space instead of your own. Any reactions to the spellcasting can be triggered by you or the facsimile, and any of its effects affect you directly.</p><p>When you gain the @UUID[Compendium.immortal-ardor.classes.SG7YMq3tFT0lmA72]{Azure Anima Expertise} feat, your maelstrom surfaces new power. You gain the @UUID[Compendium.immortal-ardor.classes.xk57aGRh720rfBbJ]{Blood Code} feat. When you gain the @UUID[Compendium.immortal-ardor.classes.KGyerHmxNPD072aB]{Azure Anima Mastery} feat, you can take the Blood Code feat again or the @UUID[Compendium.immortal-ardor.classes.z4RTmOQdvLUbIMHj]{Apex Code} feat. Gaining the Blood Code feat in this way does not count towards the number of times you can take that feat.</p><p>Your symbiosis action is @UUID[Compendium.immortal-ardor.classes.VHtOtpenBtap7Ftn]{Mimicry}. If you observe a creature using an anima spell, you can use Mimicry against that creature as a reaction.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.VHtOtpenBtap7Ftn"
+      }
+    ],
+    "slug": "mimic-manifestation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "chimerian-anima-manifestation"
+      ],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "int"
+      ]
+    }
+  },
+  "img": "icons/creatures/eyes/slime-cluster-green.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "g6tOPvULOCEXAlsS",
+  "sort": 100000,
+  "_key": "!items!g6tOPvULOCEXAlsS"
+}

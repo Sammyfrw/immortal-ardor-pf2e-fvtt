@@ -1,0 +1,80 @@
+{
+  "folder": "gIi4E8Fi9ncxZBgR",
+  "name": "Morpher Manifestation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your soul is tied to an unpredictable creature that yearns for its freedom. Unable to easily escape, its manifestations regularly take shape on your very body when you tap into it. Morpher chimerians are often at risk of losing themselves if they cannot control their monstrous self; its wants are often esoteric and specific, though it always craves freedom. As you channel your anima magic, parts of your body morph into the creature whose soul you’ve devoured, and your malleable body can shift wholly into the creature.</p><p class=\"MsoNormal\">Your key attribute is Wisdom. All your anima spells gain the morph trait; however, any of your chimerian features and anima spells that have this or the polymorph trait do not counteract each other if one of them grants you a lasting effect of either trait. A polymorph or morph effect that does not come from these sources or is targeted at you attempts to counteract your polymorph or morph effects as normal, though you treat your effects as one rank higher.</p><p>When you gain the @UUID[Compendium.immortal-ardor.classes.SG7YMq3tFT0lmA72]{Azure Anima Expertise} feat, your maelstrom surfaces new power. You gain the @UUID[Compendium.immortal-ardor.classes.xk57aGRh720rfBbJ]{Blood Code} feat. When you gain the @UUID[Compendium.immortal-ardor.classes.KGyerHmxNPD072aB]{Azure Anima Mastery} feat, you can take the Blood Code feat again or the @UUID[Compendium.immortal-ardor.classes.z4RTmOQdvLUbIMHj]{Apex Code} feat. Gaining the Blood Code feat in this way does not count towards the number of times you can take that feat.</p><p>Your symbiosis action is @UUID[Compendium.immortal-ardor.classes.ifUnp1eU5v52xjBW]{Synergism}. When you use Synergism, you can Step, Strike, or Stride as a free action. If your form has another type of movement speed, you can move with those actions instead of a Stride.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.ifUnp1eU5v52xjBW"
+      }
+    ],
+    "slug": "morpher-manifestation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "chimerian-anima-manifestation"
+      ],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/creatures/slimes/slime-face-hollow-green.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "r5L7oa3KhxldbXyL",
+  "sort": 50000,
+  "_key": "!items!r5L7oa3KhxldbXyL"
+}

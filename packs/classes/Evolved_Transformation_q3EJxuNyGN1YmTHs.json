@@ -1,15 +1,15 @@
 {
   "folder": "fju3QClW7TLWF66U",
-  "name": "Efflux",
+  "name": "Evolved Transformation",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You shift and alter your physiology freely, unable to settle on one – a trait that your paired soul delights in. While you are in an Anima Transformation, you can use Synergism again to transform into a different form. If you are Harmonized while in an Anima Transformation, you can expend your harmonized state by spending 3 actions to Cast an Anima spell and use Synergism. Regardless of how you shift from one anima transformation to another, you do not become Harmonized by transforming if you use Synergism in this way.</p>"
+      "value": "<p class=\"MsoNormal\">You can transform into a powerful creature by drawing upon its anima from your maelstrom. You enter an Anima Transformation and turn into a creature listed in the Anima Morph of an anima spell you have prepared. This transformation lasts for 1 minute.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special</span> If you are of the Morpher anima manifestation, when you take this action, you can use Synergism instead; when you do, you transform with one action.</p>"
     },
     "rules": [],
-    "slug": "efflux",
+    "slug": "evolved-transformation",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -21,7 +21,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "chimerian"
+        "chimerian",
+        "polymorph"
       ],
       "rarity": "common"
     },
@@ -32,7 +33,7 @@
       "remaster": true
     },
     "level": {
-      "value": 16
+      "value": 10
     },
     "category": "class",
     "onlyLevel1": false,
@@ -44,11 +45,7 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "Morpher Manifestation"
-        }
-      ]
+      "value": []
     },
     "location": null,
     "subfeatures": {
@@ -71,7 +68,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "SwbpqNJXnF7JACWm",
-  "sort": 2800000,
-  "_key": "!items!SwbpqNJXnF7JACWm"
+  "_id": "q3EJxuNyGN1YmTHs",
+  "sort": 2300000,
+  "_key": "!items!q3EJxuNyGN1YmTHs"
 }

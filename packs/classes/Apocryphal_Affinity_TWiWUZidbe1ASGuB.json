@@ -1,15 +1,33 @@
 {
-  "folder": "fju3QClW7TLWF66U",
-  "name": "Efflux",
+  "folder": "dlPbPBHQiK5y42Xi",
+  "name": "Apocryphal Affinity",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You shift and alter your physiology freely, unable to settle on one – a trait that your paired soul delights in. While you are in an Anima Transformation, you can use Synergism again to transform into a different form. If you are Harmonized while in an Anima Transformation, you can expend your harmonized state by spending 3 actions to Cast an Anima spell and use Synergism. Regardless of how you shift from one anima transformation to another, you do not become Harmonized by transforming if you use Synergism in this way.</p>"
+      "value": "<p>The Apocryphal Affinity consists of creatures of the Aberration or Undead families. When you cast an anima spell with a trait that matches a family in the category you selected, you gain a +2 circumstance bonus to attack rolls and class DC against creatures with the same traits in that category.</p>"
     },
-    "rules": [],
-    "slug": "efflux",
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "target:trait:aberration",
+              "target:trait:undead"
+            ]
+          }
+        ],
+        "selector": [
+          "anima-attack-roll",
+          "anima-spell-dc"
+        ],
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "slug": "apocryphal-affinity",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -19,7 +37,9 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "monster-affinity"
+      ],
       "value": [
         "chimerian"
       ],
@@ -32,9 +52,9 @@
       "remaster": true
     },
     "level": {
-      "value": 16
+      "value": 3
     },
-    "category": "class",
+    "category": "classfeature",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -44,11 +64,7 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "Morpher Manifestation"
-        }
-      ]
+      "value": []
     },
     "location": null,
     "subfeatures": {
@@ -57,7 +73,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/creatures/eyes/slime-stalks-yellow-purple.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -71,7 +87,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "SwbpqNJXnF7JACWm",
-  "sort": 2800000,
-  "_key": "!items!SwbpqNJXnF7JACWm"
+  "_id": "TWiWUZidbe1ASGuB",
+  "sort": 0,
+  "_key": "!items!TWiWUZidbe1ASGuB"
 }

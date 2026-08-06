@@ -1,12 +1,12 @@
 {
   "folder": "Tq4PchBPHAioFBaI",
-  "name": "Greater Chimerian Specialization",
+  "name": "Amber Anima Mastery",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">Your mastery of chimerian attacks continues to grow. Your bonus damage from Chimerian Specialization increases to 6 points. When you gain Unchained Affinity, it increases to 8.</p>"
+      "value": "<p class=\"MsoNormal\">Your mastery of chimerian attacks continues to grow as your body gains in strength. You become a Master in unarmed attacks, which includes attacks made by your anima weapons.</p>"
     },
     "rules": [],
     "slug": "greater-chimerian-specialization",
@@ -32,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 15
+      "value": 13
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -48,12 +48,16 @@
     },
     "location": null,
     "subfeatures": {
-      "proficiencies": {},
+      "proficiencies": {
+        "unarmed": {
+          "rank": 3
+        }
+      },
       "senses": {},
       "suppressedFeatures": []
     }
   },
-  "img": "icons/magic/nature/wolf-paw-glow-teal-blue.webp",
+  "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3

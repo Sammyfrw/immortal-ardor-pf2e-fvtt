@@ -1,6 +1,6 @@
 {
   "folder": "Tq4PchBPHAioFBaI",
-  "name": "Monster Affinity",
+  "name": "Second Monster Affinity",
   "type": "feat",
   "effects": [],
   "system": {
@@ -49,7 +49,7 @@
       "remaster": true
     },
     "level": {
-      "value": 3
+      "value": 11
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -84,7 +84,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "pV8wTfZF9lk00V7j",
-  "sort": 900000,
-  "_key": "!items!pV8wTfZF9lk00V7j"
+  "_id": "FAvTwg8S4ubULjrR",
+  "sort": 0,
+  "_key": "!items!FAvTwg8S4ubULjrR"
 }

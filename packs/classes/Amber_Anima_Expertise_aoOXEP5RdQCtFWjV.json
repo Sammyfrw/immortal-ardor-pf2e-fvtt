@@ -1,15 +1,15 @@
 {
-  "folder": "fju3QClW7TLWF66U",
-  "name": "Burst Affinity",
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Amber Anima Expertise",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> Once per ten minutes</p><hr><p>As you unleash your anima magic, you convert some of the power to take on the influences of the creature who granted it to you. If your next spell is to cast an anima spell, you temporarily gain the anima ability listed by the spell for 1 minute.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special</span> If you are currently harmonized, you can expend that state to make this action a free action.</p>"
+      "value": "<p class=\"MsoNormal\">The Maelstrom’s orange hues are affiliated with the physical aspect of your transformation. Your body has grown strong to sustain the changes made by anima. Your unarmed attack proficiency increases to expert, which includes attacks made by your anima weapons. When you critically hit with an anima weapon attack, it gains the benefits of the Brawling critical specialization effect. If the attack deals a different type of damage other than physical, it could conditionally benefit from another type of effect instead.</p>"
     },
     "rules": [],
-    "slug": "burst-affinity",
+    "slug": "amber-anima-expertise",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -21,8 +21,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "chimerian",
-        "spellshape"
+        "chimerian"
       ],
       "rarity": "common"
     },
@@ -33,9 +32,9 @@
       "remaster": true
     },
     "level": {
-      "value": 10
+      "value": 5
     },
-    "category": "class",
+    "category": "classfeature",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -49,16 +48,16 @@
     },
     "location": null,
     "subfeatures": {
-      "proficiencies": {},
+      "proficiencies": {
+        "unarmed": {
+          "rank": 2
+        }
+      },
       "senses": {},
       "suppressedFeatures": []
-    },
-    "frequency": {
-      "max": 1,
-      "per": "PT10M"
     }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/magic/nature/wolf-paw-glow-orange.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -72,7 +71,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "NVBYaWRzZkoxvhoE",
-  "sort": 4500000,
-  "_key": "!items!NVBYaWRzZkoxvhoE"
+  "_id": "aoOXEP5RdQCtFWjV",
+  "sort": 300000,
+  "_key": "!items!aoOXEP5RdQCtFWjV"
 }

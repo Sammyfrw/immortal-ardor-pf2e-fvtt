@@ -1,15 +1,34 @@
 {
-  "folder": "Tq4PchBPHAioFBaI",
-  "name": "Chimerian Specialization",
+  "folder": "dlPbPBHQiK5y42Xi",
+  "name": "Natural Affinity",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">Your prowess using chimerian attacks improves. When you Strike with an anima weapon, you deal an additional 2 points of damage. This increases to 3 points when your class DC proficiency increases to Master.</p>"
+      "value": "<p>The Natural Affinity consists of creatures of the Animal, Beast or Plant families. When you cast an anima spell with a trait that matches a family in the category you selected, you gain a +2 circumstance bonus to attack rolls and class DC against creatures with the same traits in that category.</p>"
     },
-    "rules": [],
-    "slug": "chimerian-specialization",
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "target:trait:animal",
+              "target:trait:plant",
+              "target:trait:beast"
+            ]
+          }
+        ],
+        "selector": [
+          "anima-attack-roll",
+          "anima-spell-dc"
+        ],
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "slug": "natural-affinity",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -19,7 +38,9 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "monster-affinity"
+      ],
       "value": [
         "chimerian"
       ],
@@ -32,7 +53,7 @@
       "remaster": true
     },
     "level": {
-      "value": 7
+      "value": 3
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -53,7 +74,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/magic/nature/wolf-paw-glow-orange.webp",
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -67,7 +88,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "SG7YMq3tFT0lmA72",
-  "sort": 500000,
-  "_key": "!items!SG7YMq3tFT0lmA72"
+  "_id": "BtTqooPyVMLwCYcA",
+  "sort": 100000,
+  "_key": "!items!BtTqooPyVMLwCYcA"
 }

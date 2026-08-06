@@ -1,15 +1,22 @@
 {
-  "folder": "fju3QClW7TLWF66U",
-  "name": "Efflux",
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Azure Anima Mastery",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You shift and alter your physiology freely, unable to settle on one – a trait that your paired soul delights in. While you are in an Anima Transformation, you can use Synergism again to transform into a different form. If you are Harmonized while in an Anima Transformation, you can expend your harmonized state by spending 3 actions to Cast an Anima spell and use Synergism. Regardless of how you shift from one anima transformation to another, you do not become Harmonized by transforming if you use Synergism in this way.</p>"
+      "value": "<p class=\"MsoNormal\">Reaching a new height of power, channeling your maelstrom becomes effortless. Your proficiency rank for your chimerian class DC increases to Master.</p>"
     },
-    "rules": [],
-    "slug": "efflux",
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.chimerian.rank",
+        "value": 3
+      }
+    ],
+    "slug": "azure-anima-mastery",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -32,9 +39,9 @@
       "remaster": true
     },
     "level": {
-      "value": 16
+      "value": 15
     },
-    "category": "class",
+    "category": "classfeature",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -44,11 +51,7 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "Morpher Manifestation"
-        }
-      ]
+      "value": []
     },
     "location": null,
     "subfeatures": {
@@ -57,7 +60,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/magic/nature/wolf-paw-glow-large-purple-teal.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -71,7 +74,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "SwbpqNJXnF7JACWm",
-  "sort": 2800000,
-  "_key": "!items!SwbpqNJXnF7JACWm"
+  "_id": "KGyerHmxNPD072aB",
+  "sort": 100000,
+  "_key": "!items!KGyerHmxNPD072aB"
 }

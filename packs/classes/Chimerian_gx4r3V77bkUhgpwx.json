@@ -8,7 +8,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><em>Through profane alchemical experiments, your body contains two souls bound together: yours, and that of a monster. Your soul wrestles for constant control with your pair, and a hunger gnaws at you both to devour other souls or risk cannibalizing one another. For this terrible price, however, you have gained the power to draw upon your anima maelstrom, allowing you to manifest the abilities of even the most dangerous creatures of the world.</em></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.Uyqkrx0RlxN9mMgS.JournalEntryPage.bnKKkjXVfsSXq03r]{Chimerian}</p>",
+      "value": "<p><em>Through profane alchemical experiments, your body contains two souls bound together: yours, and that of a monster. Your soul wrestles for constant control with your pair, and a hunger gnaws at you both to devour other souls or risk cannibalizing one another. For this terrible price, however, you have gained the power to draw upon your anima maelstrom, allowing you to manifest the abilities of even the most dangerous creatures of the world.</em></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.Uyqkrx0RlxN9mMgS.JournalEntryPage.9o1L5AQL6VdtmHEk]{Chimerian}</p>",
       "gm": ""
     },
     "publication": {
@@ -23,7 +23,128 @@
       "otherTags": [],
       "rarity": "rare"
     },
-    "items": {},
+    "items": {
+      "CtN0V": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.aAhzRgWSwFFGJz1U",
+        "img": "icons/magic/fire/orb-vortex.webp",
+        "name": "Anima Maelstrom",
+        "level": 1
+      },
+      "6TbxI": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.CsZAzREjEt3xy3gp",
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "name": "Anima Manifestation",
+        "level": 1
+      },
+      "VzyHC": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.A7tdCuCuYTjcAB1P",
+        "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+        "name": "Chimerian Anima Magic",
+        "level": 1
+      },
+      "85QR4": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.S9KyscDT6VyTsbG7",
+        "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+        "name": "Chimerian Medium Armor Expertise",
+        "level": 11
+      },
+      "i8y8i": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.MeVHmqacKoSO6CHX",
+        "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+        "name": "Chimerian Medium Armor Mastery",
+        "level": 19
+      },
+      "XSUaG": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.KNuRT4cvcBF7FLbP",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Chimerian Weapon Expertise",
+        "level": 9
+      },
+      "xugu3": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.iE6aS1C5STdTpoox",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Chimerian Weapon Mastery",
+        "level": 13
+      },
+      "cPZzD": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.pV8wTfZF9lk00V7j",
+        "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+        "name": "Monster Affinity",
+        "level": 3
+      },
+      "L79jD": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.9epaC67Lo3YAErx0",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "name": "Perception Expertise",
+        "level": 7
+      },
+      "sQchy": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.xrr7tSNy86ZNmZ0O",
+        "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+        "name": "Perception Mastery",
+        "level": 13
+      },
+      "u02ox": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.bZLg9xiHogz6BI6m",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Reflex Expertise",
+        "level": 3
+      },
+      "hOKof": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.fi5pi9tn3iHPaTxs",
+        "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
+        "name": "Synergetic Minds",
+        "level": 9
+      },
+      "6DRLa": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.qvimj88y6rJXAuMM",
+        "img": "icons/magic/control/debuff-chains-orb-movement-blue.webp",
+        "name": "Unchained Affinity",
+        "level": 19
+      },
+      "xkzuG": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.C2AUip0sXNUPmry2",
+        "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+        "name": "Unified Body",
+        "level": 15
+      },
+      "lBLoz": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.FAvTwg8S4ubULjrR",
+        "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+        "name": "Second Monster Affinity",
+        "level": 11
+      },
+      "9saqX": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.SG7YMq3tFT0lmA72",
+        "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
+        "name": "Azure Anima Expertise",
+        "level": 7
+      },
+      "9plxM": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.KGyerHmxNPD072aB",
+        "img": "icons/magic/nature/wolf-paw-glow-large-purple-teal.webp",
+        "name": "Azure Anima Mastery",
+        "level": 15
+      },
+      "99vdr": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.aoOXEP5RdQCtFWjV",
+        "img": "icons/magic/nature/wolf-paw-glow-orange.webp",
+        "name": "Amber Anima Expertise",
+        "level": 5
+      },
+      "Qm8E4": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.jeQRAwKLPsyUjz5L",
+        "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
+        "name": "Amber Anima Mastery",
+        "level": 13
+      },
+      "J0PIH": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.N4x3d9Kc2Ae08iaZ",
+        "img": "icons/magic/nature/wolf-paw-glow-large-teal-blue.webp",
+        "name": "Anima Legend",
+        "level": 19
+      }
+    },
     "keyAbility": {
       "value": [
         "wis"

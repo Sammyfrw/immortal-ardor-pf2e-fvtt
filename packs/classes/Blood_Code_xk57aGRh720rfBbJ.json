@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A part of yourself changes as you inherit the powers of one of your consumed souls. Each day during your daily preparations, select an anima spell you have prepared with a non-apex anima ability. Until your next daily preparations, you gain the benefits of the anima ability of the spell. If you would gain the same anima ability from different sources, you only benefit from it once.</p>"
+      "value": "<p>A part of yourself changes as you inherit the powers of one of your consumed souls. Each day during your daily preparations, select an anima spell you have prepared with a non-apex anima ability. Until your next daily preparations, you gain the benefits of the anima ability of the spell. If you would gain the same anima ability from different sources, you only benefit from it once.</p><p>You can select this feat again at 10th and 16th level to gain a second and third selection.</p>"
     },
     "rules": [],
     "slug": "blood-code",

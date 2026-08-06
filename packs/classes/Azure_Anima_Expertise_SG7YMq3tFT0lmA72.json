@@ -1,15 +1,22 @@
 {
-  "folder": "fju3QClW7TLWF66U",
-  "name": "Chain Affinity",
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Azure Anima Expertise",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> Once per ten minutes</p><hr><p class=\"MsoNormal\">Your anima flourishes with a surge of power as your soul connects to your target’s being with your next spell. If your next action is to cast an anima spell with the attack trait, it benefits from the circumstance bonus of Monster Affinity, even if you did not select your target creature’s family category or if the target creature does not have an associated category.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special</span> If you are currently harmonized, you can expend that state to make this action a free action.</p>"
+      "value": "<p class=\"MsoNormal\">The blue colors of the maelstrom are associated with the spiritual elements of your transformation, and your twin souls have grown stronger its turbulent flows. Your proficiency rank for your chimerian class DC increase to expert. You also gain the Azure Anima Expertise benefit of your anima manifestation.</p>"
     },
-    "rules": [],
-    "slug": "chain-affinity",
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.chimerian.rank",
+        "value": 2
+      }
+    ],
+    "slug": "chimerian-specialization",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -21,8 +28,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "chimerian",
-        "spellshape"
+        "chimerian"
       ],
       "rarity": "common"
     },
@@ -33,9 +39,9 @@
       "remaster": true
     },
     "level": {
-      "value": 12
+      "value": 7
     },
-    "category": "class",
+    "category": "classfeature",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -54,7 +60,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/sundries/books/book-purple-cross.webp",
+  "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -68,7 +74,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "GwfNEGyNRFt0ahox",
-  "sort": 4000000,
-  "_key": "!items!GwfNEGyNRFt0ahox"
+  "_id": "SG7YMq3tFT0lmA72",
+  "sort": 500000,
+  "_key": "!items!SG7YMq3tFT0lmA72"
 }
