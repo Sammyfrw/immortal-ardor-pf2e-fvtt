@@ -438,6 +438,10 @@
             "label": "IA.Trait.Covenant",
             "description": "IA.TraitDescription.Covenant"
           },
+          "defend": {
+            "label": "IA.Trait.Defend",
+            "description": "IA.TraitDescription.Defend"
+          },
           "dervish": {
             "label": "IA.Trait.Dervish",
             "description": "IA.TraitDescription.Dervish"
@@ -512,6 +516,10 @@
           }
         },
         "spellTraits": {
+          "anima": {
+            "label": "IA.Trait.Anima",
+            "description": "IA.TraitDescription.Anima"
+          },
           "artifex": {
             "label": "IA.Trait.Artifex",
             "description": "IA.TraitDescription.Artifex"
@@ -540,6 +548,10 @@
             "label": "IA.Trait.Covenant",
             "description": "IA.TraitDescription.Covenant"
           },
+          "defend": {
+            "label": "IA.Trait.Defend",
+            "description": "IA.TraitDescription.Defend"
+          },
           "dervish": {
             "label": "IA.Trait.Dervish",
             "description": "IA.TraitDescription.Dervish"
@@ -566,6 +578,10 @@
           "twinblade": "IA.WeaponGroups.Twinblade"
         },
         "weaponTraits": {
+          "anima": {
+            "label": "IA.Trait.Anima",
+            "description": "IA.TraitDescription.Anima"
+          },
           "combo-acid": {
             "label": "IA.Trait.ComboAcid",
             "description": "IA.TraitDescription.Combo"
