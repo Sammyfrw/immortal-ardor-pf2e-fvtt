@@ -1,0 +1,74 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Cunning Defense",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are wielding a one-handed weapon.</p><hr><p class=\"MsoNormal\">Your monster’s soul ensures you cover your blind spots. You gain a +1 circumstance bonus to AC until the start of your next turn, or a +2 circumstance bonus if you have a free hand or are wielding a weapon with the parry trait. You lose this bonus when you no longer meet the requirements.</p>"
+    },
+    "rules": [],
+    "slug": "cunning-defense",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "defend"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "51gJhR2ZS2NIGYrY",
+  "sort": 2100000,
+  "_key": "!items!51gJhR2ZS2NIGYrY"
+}

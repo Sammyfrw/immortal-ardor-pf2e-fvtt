@@ -1,0 +1,82 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Wandering Knowledge",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per day</p><hr><p>Creatures of magic flow in your maelstrom, and their knowledge bleeds into your soul naturally. When you try to Recall Knowledge on a creature or try to Learn Anima Magic from a creature’s soul and it requires one of the four magical skills, you can use the highest among your Arcana, Occultism, Nature, or Religion proficiency in place of what you would normally use.</p><p class=\"MsoNormal\">If you have prepared an anima spell from a creature family that matches the skill you are about to use (such as Plant family for Nature, or Monitor family for Religion), the frequency of this action becomes once per hour if you have Master proficiency in that skill or once per ten minutes if it is Legendary.</p>"
+    },
+    "rules": [],
+    "slug": "wandering-knowledge",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "concentrate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Expert in Arcana, Occultism, Nature or Religion"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "nkjGg9nuDnSE1vVF",
+  "sort": 0,
+  "_key": "!items!nkjGg9nuDnSE1vVF"
+}

@@ -1,0 +1,77 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Coiled Spring",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A creature from a family in your selected Monster Affinity category uses a manipulate action, uses a move action, or leaves a square during a move action it’s using</p><p><strong>Requirements</strong> The triggering creature is within the reach or the first range increment of an anima weapon or a spell that requires an Anima Strike.</p><hr><p>The affinity of certain creatures triggers you and your twin’s heightened reflexes in combat, striking them to prevent their escape. Make a melee Strike or Cast an anima spell which requires an Anima Strike against the triggering creature. Casting a spell in this way does not trigger reactions from the triggering creature.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls harmonize if the attack is a critical hit.</p>"
+    },
+    "rules": [],
+    "slug": "coiled-spring",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Monster Affinity"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Ws8ljzrK2hyeJyko",
+  "sort": 3600000,
+  "_key": "!items!Ws8ljzrK2hyeJyko"
+}

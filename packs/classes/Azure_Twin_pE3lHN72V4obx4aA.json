@@ -1,0 +1,77 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Azure Twin",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your weapons are the tool of you and your paired soul to strike down and defend against your enemies as if they were natural weapons. During your daily preparations, when investing in a weapon you can choose to invest in two one-handed weapons instead to be treated as an anima weapon with a single investment slot. If a weapon you choose has the agile trait, it gains the parry trait. If a weapon you choose has the parry trait, it gains the agile trait. If you Strike with both weapons in the same turn or cast an anima spell through one of the weapons, you can defend with a weapon with the parry trait as a free action.</p><p><span style=\"text-decoration:underline\">Special</span> If you have the Cunning Defense feat, you can use that feat as a free action when you would defend with a weapo<span style=\"font-size:12.0pt;mso-bidi-font-size:11.0pt;font-family:'Calibri',sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:'Cordia New';mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">n.</span></p>"
+    },
+    "rules": [],
+    "slug": "azure-twin",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Azure Blade Manifestation"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "pE3lHN72V4obx4aA",
+  "sort": 3900000,
+  "_key": "!items!pE3lHN72V4obx4aA"
+}

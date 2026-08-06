@@ -1,0 +1,76 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Venomous Strikes",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are holding an alchemical poison of your level or lower or are suffering from a poison-based affliction that is of your level or lower.</p><hr><p>You have consumed the soul of a venomous creature, and have the means to cycle it in your body to turn it into a deadly weapon.</p><p class=\"MsoNormal\">You can Activate and willingly consume a poison as a single action, or spend an action to cycle the poison-based affliction you are suffering, and absorb it into your body. The next successful attack you make with an anima weapon (including an Anima Strike from an anima spell) by the end of your next turn exposes the target to that poison.</p><p class=\"MsoNormal\">If you consumed the poison from a consumable, the poison does not have its regular activation effects. You must make the successful Strike or take an action to cycle the poison out to harmlessly remove the poison from your body by the end of your next turn, or else you become exposed to it. If you cycle an affliction you are suffering from, you can attempt a counteract check against the poison on a successful Strike. On a successful counteract, you expel the poison from your body.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls harmonize when a target is exposed to a poison, or if you remove or counteract a poison from your body.</p>"
+    },
+    "rules": [],
+    "slug": "venomous-strikes",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "manipulate",
+        "poison",
+        "symbiosis"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ZCL2G9yFSSD7IzoT",
+  "sort": 0,
+  "_key": "!items!ZCL2G9yFSSD7IzoT"
+}

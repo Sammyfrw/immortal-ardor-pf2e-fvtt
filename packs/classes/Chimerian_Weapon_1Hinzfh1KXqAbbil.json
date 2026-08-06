@@ -1,0 +1,74 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Chimerian Weapon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You transform or grow a limb out of the lingering anima of one of your consumed souls, creating an anima weapon for you to have on hand. Each day during your daily preparations, select an anima spell you have prepared. Until your next daily preparations, you gain the anima weapon of the spell as an unarmed attack. You can only gain one anima weapon of the same type at a time. If another feature gives you an anima weapon from a spell you have prepared, you must select a different spell with a different weapon.</p>"
+    },
+    "rules": [],
+    "slug": "chimerian-weapon",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "morph"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "1Hinzfh1KXqAbbil",
+  "sort": 3200000,
+  "_key": "!items!1Hinzfh1KXqAbbil"
+}

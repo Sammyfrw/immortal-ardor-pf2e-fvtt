@@ -1,0 +1,74 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Evolved Mobility",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your body has adapted to new forms of movement beyond its normal capabilities. During your daily preparations, select an anima spell you have prepared that lists a movement speed you do not naturally have under its anima morph property. You gain a 25-foot movement speed of that type.</p><p><span style=\"text-decoration:underline\">Special</span> If you have the Shifting Mobility feat, if you select the same anima spell, the status bonus it grants increases to +10 to that movement speed. In addition, the Morph trait granted by that feat is included as part of Evolved Mobility.</p>"
+    },
+    "rules": [],
+    "slug": "evolved-mobility",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "morph"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "aieYJXgRFoSn8T4C",
+  "sort": 1000000,
+  "_key": "!items!aieYJXgRFoSn8T4C"
+}

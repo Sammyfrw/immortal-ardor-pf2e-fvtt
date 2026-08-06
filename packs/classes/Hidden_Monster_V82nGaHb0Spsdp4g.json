@@ -1,0 +1,73 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Hidden Monster",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have learned to hide your monstrous characteristics, such as any aberrant limbs you may have grown to better conceal yourself amongst common people who might not understand what you truly are. Through clever use of clothing or forcing your morphology to conceal your features as if you were using the Impersonate action, creatures must use a Seek action to attempt a Perception check against your choice of either your anima DC or your Deception DC with a +2 circumstance bonus to discover if your body has physical or magical irregularities due to your anima powers (such as anima weapons or anima morphs) or any other mutations, including if your body has grafts or implants.</p><p class=\"MsoNormal\">You typically remain disguised or hidden even in combat where appropriate, though certain actions (such as attacking with an anima weapon where you have an additional limb or firing quills from your back) will reveal you are more than what you might appear to any observers.</p>"
+    },
+    "rules": [],
+    "slug": "hidden-monster",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "V82nGaHb0Spsdp4g",
+  "sort": 1600000,
+  "_key": "!items!V82nGaHb0Spsdp4g"
+}

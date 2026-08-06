@@ -1,0 +1,77 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Staff Surge",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Anima magic is but a different form of magic, and as such, magical implements such as staves can channel your power. Each day during your daily preparations, you can charge a staff with anima magic. You provide it with two charges each day, and while holding it each charge can be used to cast one anima spell you have prepared. When you charge a staff in this way, you cannot charge another staff, including a normal magical staff for other types of spellcasting.</p><p><strong>Level (+4)</strong> You can add one more charge to your staff when you charge it.</p>"
+    },
+    "rules": [],
+    "slug": "staff-surge",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Mimicry Manifestation"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "W3V3kf5VeinHlNWe",
+  "sort": 600000,
+  "_key": "!items!W3V3kf5VeinHlNWe"
+}

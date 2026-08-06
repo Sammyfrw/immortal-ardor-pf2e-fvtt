@@ -1,0 +1,73 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Eternal Maelstrom",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The power that sustains you and your partnered soul within your maelstrom has grown immense and powerful at the peak of your shared journey. Through trials and tribulations, the two of you have reached a unified understanding and can think and act independently and together, knowing full well that this existence now feels natural and your instincts serve shared, mutual desires.</p><p>Your souls harmonize when you roll initiative, and at the start of each of your turns. Even if you fail the check to Learn Anima Magic, you always have the ability to learn the spell after resolving its outcome. Finally, your souls are brimming with power and independence even if you were to die and leave your body, so long as you are free. Checks to attempt to resurrect you always succeed if you choose to, and attempts to destroy, harm, consume or otherwise imprison your soul are modified to be very hard (+5 to the DC) unless it is made by an extremely powerful creature or being or an artifact.</p>"
+    },
+    "rules": [],
+    "slug": "eternal-maelstrom",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "sMgCbYWWQJ7WBX8Y",
+  "sort": 3000000,
+  "_key": "!items!sMgCbYWWQJ7WBX8Y"
+}

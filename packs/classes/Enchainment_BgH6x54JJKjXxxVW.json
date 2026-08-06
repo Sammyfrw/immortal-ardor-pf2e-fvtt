@@ -1,0 +1,74 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Enchainment",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> Your souls are harmonized.</p><hr><p>When you are working in tandem with your paired soul, the anima flows freely. You can Strike and Cast an Anima spell, in either order. If the outcome of your first action is a hit or a failed saving throw, the target is off-guard and takes a -2 circumstance penalty to their save DC to the second action.</p><p><strong>Symbiosis</strong> Your souls harmonize if both actions are successful.</p>"
+    },
+    "rules": [],
+    "slug": "enchainment",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "symbiosis"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "BgH6x54JJKjXxxVW",
+  "sort": 2900000,
+  "_key": "!items!BgH6x54JJKjXxxVW"
+}

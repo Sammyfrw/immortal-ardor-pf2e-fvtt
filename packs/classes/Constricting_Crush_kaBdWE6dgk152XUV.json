@@ -1,0 +1,78 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Constricting Crush",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You have a creature Grappled or Restrained.</p><hr><p>You try to squeeze the life out of a creature you have grabbed. The creature you have grabbed or restrained must make a basic Fortitude save against your class DC or take damage equal to your Menacing Crush damage. On a failure, the creature becomes Stunned 1, and on a critical failure, the creature becomes Stunned 3. A creature that critically succeeds is immune to becoming stunned from Constricting Crush for 1 minute</p>"
+    },
+    "rules": [],
+    "slug": "constricting-crush",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "incapacitation"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Menacing Crush"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "kaBdWE6dgk152XUV",
+  "sort": 3700000,
+  "_key": "!items!kaBdWE6dgk152XUV"
+}

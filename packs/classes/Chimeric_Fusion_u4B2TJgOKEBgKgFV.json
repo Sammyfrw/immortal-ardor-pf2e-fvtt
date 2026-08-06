@@ -1,0 +1,73 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Chimeric Fusion",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You have at least two anima weapons, or at least one anima weapon and are about to make an anima strike.</p><hr><p>The forms of your weapons shift and bend as your maelstrom runs its current. When you Strike with one of your anima weapons or cast an anima spell that calls for an anima strike, you can select one anima weapon you have, and add its traits to your Strike</p>"
+    },
+    "rules": [],
+    "slug": "chimeric-fusion",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "u4B2TJgOKEBgKgFV",
+  "sort": 3500000,
+  "_key": "!items!u4B2TJgOKEBgKgFV"
+}

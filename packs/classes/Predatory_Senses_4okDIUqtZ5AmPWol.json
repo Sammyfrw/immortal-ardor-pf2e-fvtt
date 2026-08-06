@@ -1,0 +1,74 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Predatory Senses",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You and your paired soul are sensitive to the presence of anima of other creatures, and your senses have evolved to aid your hunt for them. During your daily preparations, you can either heighten a vague sense you have to be an imprecise sense (typically sense of smell for most creatures), or select an anima spell you have prepared that lists a form of sense or vision in a non-apex anima ability to gain until your next daily preparations. In addition, when you observe a creature, you can tell if their soul is powerful enough to cast anima magic, even if they do not know how.</p><p><strong>Symbiosis</strong> Your souls harmonize when you make a successful Seek check against a creature that you are aware of that has become hidden or undetected to you.</p>"
+    },
+    "rules": [],
+    "slug": "predatory-senses",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "symbiosis"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "4okDIUqtZ5AmPWol",
+  "sort": 1500000,
+  "_key": "!items!4okDIUqtZ5AmPWol"
+}

@@ -1,0 +1,77 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Divergent Intellect",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your souls observe every single creature with focus and the deepest curiosity. When you successfully use Mimicry, you can cast your temporary spell as part of the action.</p><p class=\"MsoNormal\">In addition, your anima mimicry can manifest in ways that resemble a spell. You can use mimicry as a reaction to observing a creature casting a traditional spell of 7th rank or lower that targets themselves or a single creature. When you do and you succeed your mimicry’s skill check, you gain that spell as a temporary spell as if it were an anima spell using your anima proficiencies. You can cast it as part of the reaction, or later as normal. Once you use mimicry in this way, you cannot gain a temporary traditional spell until your next daily preparations.</p><p><span style=\"text-decoration:underline\">Special</span> If you have the Staff Surge feat, you can regain a charge in your staff when you successfully use Mimicry as a reaction against a creature that casts an anima spell or traditional spell instead of gaining a temporary spell. This benefit applies even if you have already gained a traditional spell this day.</p>"
+    },
+    "rules": [],
+    "slug": "divergent-intellect",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Mimic Manifestation"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ROY7IB3kJioFsUi8",
+  "sort": 2600000,
+  "_key": "!items!ROY7IB3kJioFsUi8"
+}
