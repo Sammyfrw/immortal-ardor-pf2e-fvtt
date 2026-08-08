@@ -579,68 +579,68 @@
         },
         "weaponTraits": {
           "anima": {
-            "label": "IA.Trait.Anima",
-            "description": "IA.TraitDescription.Anima"
+            "description": "IA.TraitDescription.Anima",
+            "label": "IA.Trait.Anima"
           },
           "combo-acid": {
-            "label": "IA.Trait.ComboAcid",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboAcid"
           },
           "combo-cold": {
-            "label": "IA.Trait.ComboCold",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboCold"
           },
           "combo-electricity": {
-            "label": "IA.Trait.ComboElectricity",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboElectricity"
           },
           "combo-fire": {
-            "label": "IA.Trait.ComboFire",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboFire"
           },
           "combo-sonic": {
-            "label": "IA.Trait.ComboSonic",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboSonic"
           },
           "combo-spirit": {
-            "label": "IA.Trait.ComboSpirit",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboSpirit"
           },
           "launching": {
-            "label": "IA.Trait.Launching",
-            "description": "IA.TraitDescription.Launching"
+            "description": "IA.TraitDescription.Launching",
+            "label": "IA.Trait.Launching"
           },
           "marine": {
-            "label": "IA.Trait.Marine",
-            "description": "IA.TraitDescription.Marine"
+            "description": "IA.TraitDescription.Marine",
+            "label": "IA.Trait.Marine"
           },
           "nascent-arcane": {
-            "label": "IA.Trait.NascentArcane",
-            "description": "IA.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent",
+            "label": "IA.Trait.NascentArcane"
           },
           "nascent-divine": {
-            "label": "IA.Trait.NascentDivine",
-            "description": "IA.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent",
+            "label": "IA.Trait.NascentDivine"
           },
           "nascent-occult": {
-            "label": "IA.Trait.NascentOccult",
-            "description": "IA.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent",
+            "label": "IA.Trait.NascentOccult"
           },
           "nascent-primal": {
-            "label": "IA.Trait.NascentPrimal",
-            "description": "IA.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent",
+            "label": "IA.Trait.NascentPrimal"
           },
           "soulforged": {
-            "label": "IA.Trait.Soulforged",
-            "description": "IA.TraitDescription.Soulforged"
+            "description": "IA.TraitDescription.Soulforged",
+            "label": "IA.Trait.Soulforged"
           },
           "spellcrux": {
-            "label": "IA.Trait.Spellcrux",
-            "description": "IA.TraitDescription.Spellcrux"
+            "description": "IA.TraitDescription.Spellcrux",
+            "label": "IA.Trait.Spellcrux"
           },
           "union": {
-            "label": "IA.Trait.Union",
-            "description": "IA.TraitDescription.Union"
+            "description": "IA.TraitDescription.Union",
+            "label": "IA.Trait.Union"
           }
         }
       }

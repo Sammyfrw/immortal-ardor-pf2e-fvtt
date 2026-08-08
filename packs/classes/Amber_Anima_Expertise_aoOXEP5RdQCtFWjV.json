@@ -8,7 +8,14 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\">The Maelstrom’s orange hues are affiliated with the physical aspect of your transformation. Your body has grown strong to sustain the changes made by anima. Your unarmed attack proficiency increases to expert, which includes attacks made by your anima weapons. When you critically hit with an anima weapon attack, it gains the benefits of the Brawling critical specialization effect. If the attack deals a different type of damage other than physical, it could conditionally benefit from another type of effect instead.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "origin:trait:anima"
+        ]
+      }
+    ],
     "slug": "amber-anima-expertise",
     "_migration": {
       "version": 0.959,

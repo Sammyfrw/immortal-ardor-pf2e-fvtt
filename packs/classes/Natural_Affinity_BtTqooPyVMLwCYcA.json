@@ -12,11 +12,19 @@
       {
         "key": "FlatModifier",
         "predicate": [
+          "origin:trait:anima",
           {
             "or": [
               "target:trait:animal",
               "target:trait:plant",
               "target:trait:beast"
+            ]
+          },
+          {
+            "and": [
+              "origin:trait:animal",
+              "origin:trait:plant",
+              "origin:trait:beast"
             ]
           }
         ],

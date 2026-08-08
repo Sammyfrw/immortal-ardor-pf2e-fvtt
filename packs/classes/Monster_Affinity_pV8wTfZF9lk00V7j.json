@@ -24,6 +24,22 @@
         "key": "GrantItem",
         "uuid": "{item|flags.pf2e.rulesSelections.monsterAffinity}",
         "allowDuplicate": false
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:blazing-bolt",
+              "item:slug:fireball"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-dragon"
       }
     ],
     "slug": "monster-affinity",

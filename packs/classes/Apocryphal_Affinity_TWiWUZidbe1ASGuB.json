@@ -12,6 +12,7 @@
       {
         "key": "FlatModifier",
         "predicate": [
+          "item:trait:anima",
           {
             "or": [
               "target:trait:aberration",
@@ -20,8 +21,8 @@
           }
         ],
         "selector": [
-          "anima-attack-roll",
-          "anima-spell-dc"
+          "spell-attack",
+          "spell-dc"
         ],
         "type": "circumstance",
         "value": 2

@@ -12,20 +12,45 @@
       {
         "key": "FlatModifier",
         "predicate": [
+          "item:trait:anima",
           {
             "or": [
               "target:trait:dragon",
               "target:trait:elemental",
               "target:trait:construct"
             ]
+          },
+          {
+            "or": [
+              "item:tag:anima-family-dragon",
+              "item:tag:anima-family-elemental",
+              "item:tag:anima-family-construct"
+            ]
           }
         ],
         "selector": [
-          "anima-attack-roll",
-          "anima-spell-dc"
+          "spell-attack"
         ],
         "type": "circumstance",
-        "value": 2
+        "value": 2,
+        "hideIfDisabled": true
+      },
+      {
+        "key": "EphemeralEffect",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "item:tag:anima-family-dragon",
+              "item:tag:anima-family-elemental",
+              "item:tag:anima-family-construct"
+            ]
+          }
+        ],
+        "selectors": [
+          "saving-throw"
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.0Lf5Le3DwlEoVFHe"
       }
     ],
     "slug": "magical-affinity",

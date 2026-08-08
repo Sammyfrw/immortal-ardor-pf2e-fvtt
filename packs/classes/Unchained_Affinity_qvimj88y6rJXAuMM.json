@@ -8,7 +8,24 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\">The affinity of your maelstrom is everflowing, and your paired souls tap into any connection it pleases to find meaningful prey. Each day during your daily preparations, you can choose an additional Monster Affinity that you do not have, as long as you prepare one anima spell from that affinity; you gain that affinity for the day. Alternatively, you can choose one of the affinities you have taken. All your prepared anima spells gain the circumstance bonuses when cast against creature families within that affinity, not just the anima spells that come from them.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "choices": {
+          "filter": [
+            "item:tag:monster-affinity"
+          ],
+          "itemType": "feature"
+        },
+        "flag": "monsterAffinity",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Chimerian.MonsterAffinity.PromptText"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.monsterAffinity}",
+        "allowDuplicate": false
+      }
+    ],
     "slug": "unchained-affinity",
     "_migration": {
       "version": 0.959,

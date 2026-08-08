@@ -12,6 +12,44 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.immortal-ardor.classes.Item.ifUnp1eU5v52xjBW"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.xk57aGRh720rfBbJ",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              "7"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.azureAnimaMasteryFeat}"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Compendium.immortal-ardor.classes.Item.xk57aGRh720rfBbJ"
+          },
+          {
+            "value": "Compendium.immortal-ardor.classes.Item.z4RTmOQdvLUbIMHj"
+          }
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              "15"
+            ]
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Select a feat",
+        "flag": "azureAnimaMasteryFeat"
       }
     ],
     "slug": "morpher-manifestation",

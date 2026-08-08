@@ -1,0 +1,95 @@
+{
+  "folder": "AdmU1DvZ80JPoBv9",
+  "name": "Effect: Azure Blade Weapon",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You can invest a magic melee weapon (even though magic weapons can't normally be Invested) and use it to cast an anima spell instead of a free hand. When you wield this weapon, you treat it as an anima weapon, including for the purposes of feats, proficiencies and requirements. In addition, runes on your weapon benefit anima strikes the same way you would with an item that improves your unarmed strikes. When you gain the ability to benefit from the Brawling critical specialization with anima weapons, you use your weapon’s critical specialization instead. When you use your weapon to cast an anima spell, you can apply the traits or damage type from your weapon on any Anima Strikes made instead of what is listed on the spells’ anima weapon.</p><p></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "trait",
+        "value": "anima",
+        "fromEquipment": false,
+        "itemId": "{item|flags.system.rulesSelections.azureBladeWeapon}"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "other-tags",
+        "value": "anima-weapon",
+        "fromEquipment": false,
+        "itemId": "{item|flags.system.rulesSelections.azureBladeWeapon}"
+      },
+      {
+        "choices": {
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "azureBladeWeapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Item"
+      }
+    ],
+    "slug": "effect-azure-blade-weapon",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "nHT5UGWD2quFahoJ",
+  "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nHT5UGWD2quFahoJ"
+}
