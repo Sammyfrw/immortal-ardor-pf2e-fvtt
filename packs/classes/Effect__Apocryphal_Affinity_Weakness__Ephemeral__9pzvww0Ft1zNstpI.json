@@ -1,6 +1,6 @@
 {
   "folder": "AdmU1DvZ80JPoBv9",
-  "name": "Effect: Magical Affinity Weakness (Ephemeral)",
+  "name": "Effect: Apocryphal Affinity Weakness (Ephemeral)",
   "type": "effect",
   "effects": [],
   "system": {
@@ -24,9 +24,9 @@
         "predicate": [
           {
             "or": [
-              "self:trait:dragon",
-              "self:trait:elemental",
-              "self:trait:construct"
+              "self:trait:aberration",
+              "self:trait:undead",
+              "self:trait:ooze"
             ]
           }
         ],
@@ -34,10 +34,11 @@
           "saving-throw"
         ],
         "value": -2,
-        "label": "Magical Affinity Weakness (DC+2)"
+        "label": "Magical Affinity Weakness (DC+2)",
+        "hideIfDisabled": true
       }
     ],
-    "slug": "effect-magical-affinity-weakness-ephemeral",
+    "slug": "effect-apocryphal-affinity-weakness-ephemeral",
     "traits": {
       "otherTags": [],
       "value": []
@@ -63,13 +64,7 @@
     "fromSpell": false,
     "context": null
   },
-  "_id": "0Lf5Le3DwlEoVFHe",
-  "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
-  "sort": 100000,
-  "ownership": {
-    "default": 0,
-    "xrtJn5KNHicBTyJb": 3
-  },
+  "img": "icons/creatures/eyes/slime-stalks-yellow-purple.webp",
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
@@ -79,5 +74,11 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!items!0Lf5Le3DwlEoVFHe"
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "9pzvww0Ft1zNstpI",
+  "sort": 300000,
+  "_key": "!items!9pzvww0Ft1zNstpI"
 }

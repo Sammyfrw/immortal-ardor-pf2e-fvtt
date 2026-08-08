@@ -6,10 +6,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your next anima spell costs no focus points.</p>"
+      "value": "<p>Granted by a Symbiosis effect from the Chimerian class.</p><p>Your next anima spell costs no focus points.</p>"
     },
     "rules": [],
-    "slug": "t-effect-recitation-template",
+    "slug": "effect-harmonizeed",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -64,6 +64,6 @@
     "exportSource": null
   },
   "_id": "NGV2AemOug2Rj21M",
-  "sort": 0,
+  "sort": 200000,
   "_key": "!items!NGV2AemOug2Rj21M"
 }

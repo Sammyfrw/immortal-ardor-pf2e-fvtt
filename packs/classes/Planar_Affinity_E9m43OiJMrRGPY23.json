@@ -18,14 +18,39 @@
               "target:trait:monitor",
               "target:trait:fiend"
             ]
+          },
+          {
+            "or": [
+              "item:tag:anima-family-celestial",
+              "item:tag:anima-family-monitor",
+              "item:tag:anima-family-fiend",
+              "unchained-affinity:planar"
+            ]
           }
         ],
         "selector": [
-          "anima-attack-roll",
-          "anima-spell-dc"
+          "spell-attack"
         ],
         "type": "circumstance",
         "value": 2
+      },
+      {
+        "key": "EphemeralEffect",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "item:tag:anima-family-celestial",
+              "item:tag:anima-family-fiend",
+              "item:tag:anima-family-monitor",
+              "unchained-affinity:planar"
+            ]
+          }
+        ],
+        "selectors": [
+          "saving-throw"
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.OXJ9DVhbuviGo9sh"
       }
     ],
     "slug": "planar-affinity",

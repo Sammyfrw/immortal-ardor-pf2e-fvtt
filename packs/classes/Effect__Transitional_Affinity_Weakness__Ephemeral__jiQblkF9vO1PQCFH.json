@@ -1,6 +1,6 @@
 {
   "folder": "AdmU1DvZ80JPoBv9",
-  "name": "Effect: Magical Affinity Weakness (Ephemeral)",
+  "name": "Effect: Transitional Affinity Weakness (Ephemeral)",
   "type": "effect",
   "effects": [],
   "system": {
@@ -24,9 +24,10 @@
         "predicate": [
           {
             "or": [
-              "self:trait:dragon",
-              "self:trait:elemental",
-              "self:trait:construct"
+              "self:trait:ethereal",
+              "self:trait:fey",
+              "self:trait:shadow",
+              "self:trait:astral"
             ]
           }
         ],
@@ -37,7 +38,7 @@
         "label": "Magical Affinity Weakness (DC+2)"
       }
     ],
-    "slug": "effect-magical-affinity-weakness-ephemeral",
+    "slug": "effect-transitional-affinity-weakness-ephemeral",
     "traits": {
       "otherTags": [],
       "value": []
@@ -63,13 +64,7 @@
     "fromSpell": false,
     "context": null
   },
-  "_id": "0Lf5Le3DwlEoVFHe",
-  "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
-  "sort": 100000,
-  "ownership": {
-    "default": 0,
-    "xrtJn5KNHicBTyJb": 3
-  },
+  "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
@@ -79,5 +74,11 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!items!0Lf5Le3DwlEoVFHe"
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "jiQblkF9vO1PQCFH",
+  "sort": 0,
+  "_key": "!items!jiQblkF9vO1PQCFH"
 }

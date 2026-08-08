@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The Apocryphal Affinity consists of creatures of the Aberration or Undead families. When you cast an anima spell with a trait that matches a family in the category you selected, you gain a +2 circumstance bonus to attack rolls and class DC against creatures with the same traits in that category.</p>"
+      "value": "<p>The Apocryphal Affinity consists of creatures of the Aberration, Ooze or Undead families. When you cast an anima spell with a trait that matches a family in the category you selected, you gain a +2 circumstance bonus to attack rolls and class DC against creatures with the same traits in that category.</p>"
     },
     "rules": [
       {
@@ -16,16 +16,42 @@
           {
             "or": [
               "target:trait:aberration",
-              "target:trait:undead"
+              "target:trait:undead",
+              "target:trait:ooze"
+            ]
+          },
+          {
+            "or": [
+              "item:tag:anima-family-aberration",
+              "item:tag:anima-family-undead",
+              "item:tag:anima-family-ooze",
+              "unchained-affinity:apocryphal"
             ]
           }
         ],
         "selector": [
-          "spell-attack",
-          "spell-dc"
+          "spell-attack"
         ],
         "type": "circumstance",
         "value": 2
+      },
+      {
+        "key": "EphemeralEffect",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "item:tag:anima-family-aberration",
+              "item:tag:anima-family-ooze",
+              "item:tag:anima-family-undead",
+              "unchained-affinity:apocryphal"
+            ]
+          }
+        ],
+        "selectors": [
+          "saving-throw"
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.9pzvww0Ft1zNstpI"
       }
     ],
     "slug": "apocryphal-affinity",

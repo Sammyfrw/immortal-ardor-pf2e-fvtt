@@ -372,7 +372,19 @@
       "Chimerian": {
         "MonsterAffinity": {
           "Label": "Monster Affinity",
-          "PromptText": "Select a Monster Affinity"
+          "PromptText": "Select a Monster Affinity."
+        },
+        "UnchainedAffinity": {
+          "EnhanceAffinityLabel": "Enhance an Affinity",
+          "MonsterAffinityLabel": "New Monster Affinity",
+          "PromptText": "Select Unchained Affinity Benefit."
+        },
+        "MonsterAffinityList": {
+          "Apocryphal": "Enhanced Apocryphal",
+          "Magical": "Enhanced Magical",
+          "Natural": "Enhanced Natural",
+          "Planar": "Enhanced Planar",
+          "Transitional": "Enhanced Transitional"
         }
       }
     }

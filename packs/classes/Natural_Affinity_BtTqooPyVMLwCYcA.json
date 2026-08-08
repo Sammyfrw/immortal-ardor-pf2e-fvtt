@@ -21,19 +21,37 @@
             ]
           },
           {
-            "and": [
-              "origin:trait:animal",
-              "origin:trait:plant",
-              "origin:trait:beast"
+            "or": [
+              "item:tag:anima-family-animal",
+              "item:tag:anima-family-plant",
+              "item:tag:anima-family-beast",
+              "unchained-affinity:natural"
             ]
           }
         ],
         "selector": [
-          "anima-attack-roll",
-          "anima-spell-dc"
+          "spell-attack"
         ],
         "type": "circumstance",
         "value": 2
+      },
+      {
+        "key": "EphemeralEffect",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "item:tag:anima-family-animal",
+              "item:tag:anima-family-beast",
+              "item:tag:anima-family-plant",
+              "unchained-affinity:natural"
+            ]
+          }
+        ],
+        "selectors": [
+          "saving-throw"
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.If8qBCAotLtBRGuJ"
       }
     ],
     "slug": "natural-affinity",

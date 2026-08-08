@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You transform or grow a limb out of the lingering anima of one of your consumed souls, creating an anima weapon for you to have on hand. Each day during your daily preparations, select an anima spell you have prepared. Until your next daily preparations, you gain the anima weapon of the spell as an unarmed attack. You can only gain one anima weapon of the same type at a time. If another feature gives you an anima weapon from a spell you have prepared, you must select a different spell with a different weapon.</p>"
+      "value": "<p>From the anima of your consumed soul or your twin soul, you transform, change your body or grow a limb to create and facilitate an anima weapon. Each day during your daily preparations, select an anima spell you have prepared. Until your next daily preparations, you gain the anima weapon of the spell as an unarmed attack. You can only gain one anima weapon of the same type at a time. If another feature gives you an anima weapon from a spell you have prepared, you must select a different spell with a different weapon.</p>"
     },
     "rules": [],
     "slug": "chimerian-weapon",
@@ -37,7 +37,7 @@
     },
     "category": "class",
     "onlyLevel1": false,
-    "maxTakable": 1,
+    "maxTakable": 2,
     "actionType": {
       "value": "passive"
     },

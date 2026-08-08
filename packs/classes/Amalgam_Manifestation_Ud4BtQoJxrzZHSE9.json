@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your soul is bonded to a domineering, powerful monster. As it tries to wrestle for control over you, your physical form shifts as you evolve together. Amalgam chimerians frequently have internal battles to ensure that they remain in charge and that their monstrous half knows it. As your maelstrom grows, your body changes; your limbs might become scaled or your hands might turn into claws.</p><p class=\"MsoNormal\">Your key attribute is Strength. Each day during your daily preparations, you can select up to two anima spells you have prepared with different anima weapons. Until your next daily preparations, you gain the spells’ anima weapons as part of your body, changing or even growing a limb if needed to facilitate the new attack. When you gain the @UUID[Compendium.immortal-ardor.classes.pV8wTfZF9lk00V7j]{Monster Affinity} feature, your Strikes with these weapons benefit from it as if they were cast as anima spells, using the selected spell’s family to determine if the attack qualifies for the bonus. These changes have the Morph trait specific to the limbs you use for this purpose.</p><p>When you gain the @UUID[Compendium.immortal-ardor.classes.SG7YMq3tFT0lmA72]{Azure Anima Expertise} feat, your prowess using chimerian attacks improves. When you Strike with an anima weapon, you deal an additional 2 points of damage. This increases to 4 points when you gain the @UUID[Compendium.immortal-ardor.classes.jeQRAwKLPsyUjz5L]{Amber Anima Mastery} feature. When you gain the @UUID[Compendium.immortal-ardor.classes.KGyerHmxNPD072aB]{Azure Anima Mastery} feature, this bonus damage increases to 6 points. When you gain @UUID[Compendium.immortal-ardor.classes.qvimj88y6rJXAuMM]{Unchained Affinity}, it increases to 8.</p><p class=\"MsoNormal\">Your Symbiosis action is @UUID[Compendium.immortal-ardor.classes.gPUpPJbjkOHm9J6T]{Predation}. When you use Predation, on a critical hit or a strike that benefits from Monster Affinity you deal persistent bleed damage or an equivalent damage type if the Strike does not deal physical damage. The damage is equal to 2 plus the number of damage die of the anima weapon attack, including the number of extra damage die from Predation.</p>"
+      "value": "<p>Your soul is bonded to a domineering, powerful monster. As it tries to wrestle for control over you, your physical form shifts as you evolve together. Amalgam chimerians frequently have internal battles to ensure that they remain in charge and that their monstrous half knows it. As your maelstrom grows, your body changes; your limbs might become scaled or your hands might turn into claws.</p><p class=\"MsoNormal\">Your key attribute is Strength. You gain the @UUID[Compendium.immortal-ardor.classes.1Hinzfh1KXqAbbil]{Chimerian Weapon} feat twice. When you gain it, your Strikes with these weapons benefit from the @UUID[Compendium.immortal-ardor.classes.pV8wTfZF9lk00V7j]{Monster Affinity} feature as if they were cast as anima spells, using the selected spell’s family to determine if the attack qualifies for the bonus. These changes have the Morph trait specific to the limbs you use for this purpose.</p><p>When you gain the @UUID[Compendium.immortal-ardor.classes.SG7YMq3tFT0lmA72]{Azure Anima Expertise} feat, your prowess using chimerian attacks improves. When you Strike with an anima weapon, you deal an additional 2 points of damage. This increases to 4 points when you gain the @UUID[Compendium.immortal-ardor.classes.jeQRAwKLPsyUjz5L]{Amber Anima Mastery} feature. When you gain the @UUID[Compendium.immortal-ardor.classes.KGyerHmxNPD072aB]{Azure Anima Mastery} feature, this bonus damage increases to 6 points. When you gain @UUID[Compendium.immortal-ardor.classes.N4x3d9Kc2Ae08iaZ]{Anima Legend}, it increases to 8.</p><p class=\"MsoNormal\">Your Symbiosis action is @UUID[Compendium.immortal-ardor.classes.gPUpPJbjkOHm9J6T]{Predation}. When you use Predation, on a critical hit or a strike that benefits from Monster Affinity you deal persistent bleed damage or an equivalent damage type if the Strike does not deal physical damage. The damage is equal to 2 plus the number of damage die of the anima weapon attack, including the number of extra damage die from Predation.</p>"
     },
     "rules": [
       {
@@ -18,10 +18,11 @@
         "key": "FlatModifier",
         "label": "PF2E.WeaponSpecialization",
         "predicate": [
-          "feature:azure-anima-expertise"
+          "feature:azure-anima-expertise",
+          "item:tag:anima-weapon"
         ],
         "selector": [
-          "anima-weapon-damage"
+          "attack-damage"
         ],
         "slug": "anima-weapon-specialization",
         "value": 2
@@ -41,7 +42,7 @@
         "slug": "anima-weapon-specialization",
         "value": 6,
         "selectors": [
-          "anima-weapon-damage"
+          "attack-damage"
         ]
       },
       {
@@ -59,7 +60,7 @@
         "slug": "anima-weapon-specialization",
         "value": 8,
         "selectors": [
-          "anima-weapon-damage"
+          "attack-damage"
         ]
       },
       {
@@ -77,8 +78,16 @@
         "slug": "anima-weapon-specialization",
         "value": 4,
         "selectors": [
-          "anima-weapon-damage"
+          "attack-damage"
         ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.1Hinzfh1KXqAbbil"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.1Hinzfh1KXqAbbil"
       }
     ],
     "slug": "amalgam-manifestation",

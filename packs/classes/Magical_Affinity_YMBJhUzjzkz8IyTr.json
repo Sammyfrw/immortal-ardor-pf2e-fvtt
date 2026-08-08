@@ -24,7 +24,8 @@
             "or": [
               "item:tag:anima-family-dragon",
               "item:tag:anima-family-elemental",
-              "item:tag:anima-family-construct"
+              "item:tag:anima-family-construct",
+              "unchained-affinity:magical"
             ]
           }
         ],
@@ -32,8 +33,7 @@
           "spell-attack"
         ],
         "type": "circumstance",
-        "value": 2,
-        "hideIfDisabled": true
+        "value": 2
       },
       {
         "key": "EphemeralEffect",
@@ -43,7 +43,8 @@
             "or": [
               "item:tag:anima-family-dragon",
               "item:tag:anima-family-elemental",
-              "item:tag:anima-family-construct"
+              "item:tag:anima-family-construct",
+              "unchained-affinity:magical"
             ]
           }
         ],

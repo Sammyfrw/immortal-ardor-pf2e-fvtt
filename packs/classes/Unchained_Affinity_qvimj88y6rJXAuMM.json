@@ -10,6 +10,71 @@
     },
     "rules": [
       {
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Chimerian.UnchainedAffinity.MonsterAffinityLabel",
+            "value": "monster-affinity"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.UnchainedAffinity.EnhanceAffinityLabel",
+            "value": "enhance-affinity",
+            "predicate": [
+              "feature:monster-affinity"
+            ]
+          }
+        ],
+        "flag": "unchainedAffinityChoice",
+        "rollOption": "unchained-affinity-choice",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Chimerian.UnchainedAffinity.PromptText"
+      },
+      {
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Chimerian.MonsterAffinityList.Apocryphal",
+            "value": "apocryphal",
+            "predicate": [
+              "feature:apocryphal-affinity"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.MonsterAffinityList.Magical",
+            "value": "magical",
+            "predicate": [
+              "feature:magical-affinity"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.MonsterAffinityList.Natural",
+            "value": "natural",
+            "predicate": [
+              "feature:natural-affinity"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.MonsterAffinityList.Planar",
+            "value": "planar",
+            "predicate": [
+              "feature:planar-affinity"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.MonsterAffinityList.Transitional",
+            "value": "transitional",
+            "predicate": [
+              "feature:apocryphal-transitional"
+            ]
+          }
+        ],
+        "flag": "unchainedAffinityChoice",
+        "rollOption": "unchained-affinity",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Chimerian.UnchainedAffinity.PromptText",
+        "predicate": [
+          "unchained-affinity-choice:enhance-affinity"
+        ]
+      },
+      {
         "choices": {
           "filter": [
             "item:tag:monster-affinity"
@@ -18,12 +83,18 @@
         },
         "flag": "monsterAffinity",
         "key": "ChoiceSet",
-        "prompt": "IA.SpecificRule.Chimerian.MonsterAffinity.PromptText"
+        "prompt": "IA.SpecificRule.Chimerian.MonsterAffinity.PromptText",
+        "predicate": [
+          "unchained-affinity-choice:monster-affinity"
+        ]
       },
       {
         "key": "GrantItem",
         "uuid": "{item|flags.pf2e.rulesSelections.monsterAffinity}",
-        "allowDuplicate": false
+        "allowDuplicate": false,
+        "predicate": [
+          "unchained-affinity-choice:monster-affinity"
+        ]
       }
     ],
     "slug": "unchained-affinity",

@@ -19,14 +19,41 @@
               "target:trait:fey",
               "target:trait:astral"
             ]
+          },
+          {
+            "or": [
+              "item:tag:anima-family-ethereal",
+              "item:tag:anima-family-shadow",
+              "item:tag:anima-family-fey",
+              "item:tag:anima-family-astral",
+              "unchained-affinity:transitional"
+            ]
           }
         ],
         "selector": [
-          "anima-attack-roll",
-          "anima-spell-dc"
+          "spell-attack"
         ],
         "type": "circumstance",
         "value": 2
+      },
+      {
+        "key": "EphemeralEffect",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "item:tag:anima-family-ethereal",
+              "item:tag:anima-family-shadow",
+              "item:tag:anima-family-fey",
+              "item:tag:anima-family-astral",
+              "unchained-affinity:transitional"
+            ]
+          }
+        ],
+        "selectors": [
+          "saving-throw"
+        ],
+        "uuid": "CompenCompendium.immortal-ardor.classes.Item.jiQblkF9vO1PQCFH"
       }
     ],
     "slug": "transitional-affinity",

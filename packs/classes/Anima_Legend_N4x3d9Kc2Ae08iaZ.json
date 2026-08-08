@@ -8,7 +8,14 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\">Your twin souls flourish in harmony as the maelstrom swims around the pair of you, where it moves at your whims. Your proficiency rank for your chimerian class DC increases to Legendary.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.chimerian.rank",
+        "value": 4
+      }
+    ],
     "slug": "anima-legend",
     "_migration": {
       "version": 0.959,
@@ -48,12 +55,7 @@
     },
     "location": null,
     "subfeatures": {
-      "proficiencies": {
-        "unarmed": {
-          "rank": 3,
-          "attribute": null
-        }
-      },
+      "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
     }
