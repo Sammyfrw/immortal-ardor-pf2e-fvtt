@@ -1,0 +1,95 @@
+{
+  "folder": "laJc9ZmSJVkdIJFN",
+  "name": "Anima Morph: Wild Fruit",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.kvRM8gs431xvxQpw]{Wild Fruit}</p><p><strong>Anima Morph </strong>Medium; leshy-like plant; 25 feet land</p>"
+    },
+    "rules": [
+      {
+        "hasHands": true,
+        "key": "BattleForm",
+        "ownUnarmed": true,
+        "overrides": {
+          "armorClass": {
+            "modifier": "max(@actor.attributes.classDC.dc,(10+@actor.system.proficiencies.defenses.unarmored.value+@actor.system.abilities.dex.mod))"
+          },
+          "size": "med",
+          "speeds": {
+            "land": 25
+          },
+          "traits": [
+            "plant"
+          ]
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.spells.Item.xMNJ9mb3YacM917V"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.spells.Item.YWxyLq39RYfOqnGb"
+      }
+    ],
+    "slug": "anima-morph-wild-fruit",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/commodities/flowers/bouquet-pink.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "bOOW1gglIkECyphH",
+  "sort": 0,
+  "_key": "!items!bOOW1gglIkECyphH"
+}
