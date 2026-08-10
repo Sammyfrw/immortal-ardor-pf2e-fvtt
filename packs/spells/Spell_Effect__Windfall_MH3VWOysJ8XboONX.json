@@ -1,8 +1,8 @@
 {
   "_id": "MH3VWOysJ8XboONX",
-  "folder": "8tTjc4qHDzLVb60w",
+  "folder": "EEVGbMBFEhc5UzPQ",
   "img": "icons/magic/air/air-wave-gust-blue.webp",
-  "name": "Effect: Windfall",
+  "name": "Spell Effect: Windfall",
   "system": {
     "description": {
       "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.7Fwf0Bnd2Prc8gEo]{Windfall}</p><p>You gain a +2 circumstance bonus to AC against ranged attacks.</p>",
@@ -18,10 +18,10 @@
       "value": 1
     },
     "publication": {
-      "license": "ORC",
+      "license": "OGL",
       "remaster": true,
-      "title": "Pathfinder GM Core",
-      "authors": ""
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
     },
     "rules": [
       {
@@ -47,7 +47,7 @@
       "value": [],
       "otherTags": []
     },
-    "slug": "effect-windfall",
+    "slug": "spell-effect-windfall",
     "_migration": {
       "version": 0.959,
       "previous": null

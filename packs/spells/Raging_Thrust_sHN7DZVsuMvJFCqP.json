@@ -1,0 +1,79 @@
+{
+  "folder": "uGkr5OVC8dsMlcfv",
+  "name": "Raging Thrust",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Beast</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.gFWrmb8P15pZc6bb]{Anima Weapon: Raging Thrust}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.SKidFmkmvvR0G1dv]{Anima Morph: Raging Thrust} </p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.jqFNcI2MnhT5XRqJ]{Anima Ability: Raging Thrust} </p><hr><p class=\"MsoNormal\">You rush forward in a gallop, and rearing up, you gore your target with a horn. Stride up to your speed and make an Anima Strike. If the attack hits, you deal an additional 1d8 damage, and the target needs to make a Reflex saving throw or become knocked prone.</p><p>@UUID[Compendium.immortal-ardor.spells.2O1tY2ers0bB3MU8]{Spell Effect: Raging Thrust} </p><p class=\"MsoNormal\"><strong>Heightened (8th) </strong>Increase the additional damage to 2d8.</p>"
+    },
+    "rules": [],
+    "slug": "raging-thrust",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "attack",
+        "concentrate",
+        "focus"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": "One creature you can reach with a Stride"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "sHN7DZVsuMvJFCqP",
+  "sort": 200000,
+  "_key": "!items!sHN7DZVsuMvJFCqP"
+}

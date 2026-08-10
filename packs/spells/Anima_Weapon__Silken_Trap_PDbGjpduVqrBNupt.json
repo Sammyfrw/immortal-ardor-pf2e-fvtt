@@ -1,5 +1,5 @@
 {
-  "folder": "63nyoQqRLjHYUMUn",
+  "folder": "brWCzrEcUCnAxR5w",
   "name": "Anima Weapon: Silken Trap",
   "type": "effect",
   "effects": [],
@@ -96,6 +96,6 @@
     "exportSource": null
   },
   "_id": "PDbGjpduVqrBNupt",
-  "sort": 0,
+  "sort": 50000,
   "_key": "!items!PDbGjpduVqrBNupt"
 }

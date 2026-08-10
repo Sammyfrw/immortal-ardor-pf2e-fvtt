@@ -1,12 +1,12 @@
 {
   "type": "Item",
-  "folder": "CDyM4cjwOg9cSaie",
+  "folder": "uGkr5OVC8dsMlcfv",
   "name": "Anima Weapons",
   "color": null,
   "sorting": "a",
   "_id": "63nyoQqRLjHYUMUn",
   "description": "",
-  "sort": 0,
+  "sort": 100000,
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",

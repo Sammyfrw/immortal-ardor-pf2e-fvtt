@@ -1,5 +1,5 @@
 {
-  "folder": "8tTjc4qHDzLVb60w",
+  "folder": "EEVGbMBFEhc5UzPQ",
   "name": "Spell Effect: Hydroveil",
   "type": "effect",
   "effects": [],
@@ -101,6 +101,6 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "sort": 300000,
+  "sort": 100000,
   "_key": "!items!Kw7tCgDoSV55BNsy"
 }

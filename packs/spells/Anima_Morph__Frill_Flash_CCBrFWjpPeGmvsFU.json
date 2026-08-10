@@ -1,12 +1,12 @@
 {
-  "folder": "sMQseATcqm4xvYTF",
+  "folder": "NueyPVEalPG7jt9s",
   "name": "Anima Morph: Frill Flash",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": ""
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.9YiKmluHJtDCyoz9]{Frill Flash}</p><p><strong>Anima Morph </strong>Medium; Frilled reptilian animal; 25 feet land</p>"
     },
     "rules": [
       {
@@ -90,6 +90,6 @@
     "exportSource": null
   },
   "_id": "CCBrFWjpPeGmvsFU",
-  "sort": 300000,
+  "sort": 275000,
   "_key": "!items!CCBrFWjpPeGmvsFU"
 }

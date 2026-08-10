@@ -1,5 +1,5 @@
 {
-  "folder": "8aov6KM2sPSGE4is",
+  "folder": "cBAhoMYwuej7BG6F",
   "name": "Anima Ability: Windfall",
   "type": "effect",
   "effects": [],
@@ -64,6 +64,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "sIiuJAZM48A2B18c",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!items!sIiuJAZM48A2B18c"
 }

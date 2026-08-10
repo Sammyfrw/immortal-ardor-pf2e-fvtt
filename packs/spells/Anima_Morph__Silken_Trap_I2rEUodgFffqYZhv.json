@@ -1,12 +1,12 @@
 {
-  "folder": "sMQseATcqm4xvYTF",
+  "folder": "NueyPVEalPG7jt9s",
   "name": "Anima Morph: Silken Trap",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": ""
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.Cmd5iKX5vMcfohXw]{Silken Trap}</p><p><strong>Anima Morph </strong>Medium, Insectoid animal; 20 feet land, 20 feet climb</p>"
     },
     "rules": [
       {
@@ -91,6 +91,6 @@
     "exportSource": null
   },
   "_id": "I2rEUodgFffqYZhv",
-  "sort": 100000,
+  "sort": 200000,
   "_key": "!items!I2rEUodgFffqYZhv"
 }

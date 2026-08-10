@@ -1,0 +1,75 @@
+{
+  "folder": "Qxbgkg5BWqyOZ3gr",
+  "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
+  "name": "Spell Effect: Moonlit Frenzy",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.NRj6U7sRiWCmazho]{Moonlit Frenzy}</p><p>Your anima weapon attacks gain the reach trait. If it already has the trait, you increase its reach by a further 5 feet.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "definition": [
+          "item:slug:anima-weapon-claws"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "reach"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-moonlit-frenzy",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "NdQHGVA3AUVzv4F2",
+  "sort": 0,
+  "_key": "!items!NdQHGVA3AUVzv4F2"
+}

@@ -1,0 +1,89 @@
+{
+  "folder": "Qxbgkg5BWqyOZ3gr",
+  "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+  "name": "Spell Effect: Raging Thrust",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.sHN7DZVsuMvJFCqP]{Raging Thrust}</p><p>If your Raging Thrust anima strike hits, you deal additional damage, and the target needs to make a Reflex saving throw or become knocked prone.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": [
+          "attack"
+        ],
+        "text": "On a hit, a creature gains a -10-foot status penalty to their speeds for 1 round. @UUID[Compendium.immortal-ardor.spells.I4PsUAaYSUJ8pwKC]{Hampered}",
+        "title": "{item|name}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ]
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": "ternary(gte(@actor.level, 17), 2,1)",
+        "dieSize": "d6",
+        "damageType": "piercing",
+        "label": "Raging Thrust",
+        "predicate": [
+          "item:slug:anima-weapon-horn"
+        ]
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-raging-thrust",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "2O1tY2ers0bB3MU8",
+  "sort": 200000,
+  "_key": "!items!2O1tY2ers0bB3MU8"
+}

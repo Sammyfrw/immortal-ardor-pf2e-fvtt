@@ -1,5 +1,5 @@
 {
-  "folder": "8aov6KM2sPSGE4is",
+  "folder": "cBAhoMYwuej7BG6F",
   "name": "Anima Ability: Lapine Kick",
   "type": "effect",
   "effects": [],
@@ -73,6 +73,6 @@
     "exportSource": null
   },
   "_id": "7pfzFjzST0N2KTZk",
-  "sort": 100000,
+  "sort": -100000,
   "_key": "!items!7pfzFjzST0N2KTZk"
 }

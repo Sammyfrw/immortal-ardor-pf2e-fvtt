@@ -1,0 +1,79 @@
+{
+  "folder": "uGkr5OVC8dsMlcfv",
+  "name": "Vengeful Bite",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A creature within your reach attacks one of your allies.</p><hr><p><strong>Family Beast</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.ciXP2jqSEXh9EXR1]{Anima Weapon: Vengeful Bite}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.WUIJ9Hdlcc7hwZGE]{Anima Morph: Vengeful Bite}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.xDqSyXCnv7irpJTw]{Anima Ability: Vengeful Bite}</p><hr><p class=\"MsoNormal\">You retaliate against an enemy trying to attack a member of your pack. You make an Anima Strike against the triggering creature.</p><p class=\"MsoNormal\"><strong>Heightened (5th) </strong>When you successfully Strike a creature with this spell, you can then attempt to @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip} them.</p>"
+    },
+    "rules": [],
+    "slug": "vengeful-bite",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "attack",
+        "concentrate",
+        "focus"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "The triggering creature"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "Reaction"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "NwRGWTLQcfZP97C9",
+  "sort": 300000,
+  "_key": "!items!NwRGWTLQcfZP97C9"
+}
