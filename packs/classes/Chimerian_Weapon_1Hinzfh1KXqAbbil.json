@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>From the anima of your consumed soul or your twin soul, you transform, change your body or grow a limb to create and facilitate an anima weapon. Each day during your daily preparations, select an anima spell you have prepared. Until your next daily preparations, you gain the anima weapon of the spell as an unarmed attack. You can only gain one anima weapon of the same type at a time. If another feature gives you an anima weapon from a spell you have prepared, you must select a different spell with a different weapon.</p>"
+      "value": "<p>From the anima of your consumed soul or your twin soul, you transform, change your body or grow a limb to create and facilitate an anima weapon. Each day during your daily preparations, select an anima spell you have prepared. Until your next daily preparations, you gain the anima weapon of the spell as an unarmed attack. You can only gain one anima weapon of the same type at a time. If another feature gives you an anima weapon from a spell you have prepared, you must select a different spell with a different weapon.</p><p>If you have it, your Strikes with these weapons benefit from your chosen @UUID[Compendium.immortal-ardor.classes.pV8wTfZF9lk00V7j]{Monster Affinity} feature as if they were cast as anima spells, using the selected spell’s family to determine if the attack qualifies for the bonus. These changes have the Morph trait specific to the limbs you use for this purpose.</p><p></p>"
     },
     "rules": [],
     "slug": "chimerian-weapon",

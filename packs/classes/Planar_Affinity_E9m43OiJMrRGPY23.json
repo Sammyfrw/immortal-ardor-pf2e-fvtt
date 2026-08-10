@@ -28,11 +28,11 @@
             ]
           }
         ],
-        "selector": [
-          "spell-attack"
-        ],
         "type": "circumstance",
-        "value": 2
+        "value": 2,
+        "selector": [
+          "attack-roll"
+        ]
       },
       {
         "key": "EphemeralEffect",

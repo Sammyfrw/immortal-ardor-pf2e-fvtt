@@ -31,7 +31,7 @@
           }
         ],
         "selector": [
-          "spell-attack"
+          "attack-roll"
         ],
         "type": "circumstance",
         "value": 2

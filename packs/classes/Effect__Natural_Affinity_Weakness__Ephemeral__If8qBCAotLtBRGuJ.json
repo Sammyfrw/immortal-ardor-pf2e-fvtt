@@ -1,6 +1,6 @@
 {
   "folder": "AdmU1DvZ80JPoBv9",
-  "name": "Effect: Nature Affinity Weakness (Ephemeral)",
+  "name": "Effect: Natural Affinity Weakness (Ephemeral)",
   "type": "effect",
   "effects": [],
   "system": {
@@ -37,7 +37,7 @@
         "label": "Magical Affinity Weakness (DC+2)"
       }
     ],
-    "slug": "effect-nature-affinity-weakness-ephemeral",
+    "slug": "effect-natural-affinity-weakness-ephemeral",
     "traits": {
       "otherTags": [],
       "value": []
