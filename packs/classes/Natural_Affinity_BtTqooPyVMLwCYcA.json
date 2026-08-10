@@ -12,7 +12,7 @@
       {
         "key": "FlatModifier",
         "predicate": [
-          "origin:trait:anima",
+          "item:trait:anima",
           {
             "or": [
               "target:trait:animal",

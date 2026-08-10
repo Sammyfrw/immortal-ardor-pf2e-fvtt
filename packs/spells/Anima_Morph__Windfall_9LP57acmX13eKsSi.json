@@ -1,0 +1,96 @@
+{
+  "folder": "sMQseATcqm4xvYTF",
+  "name": "Anima Morph: Windfall",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.7Fwf0Bnd2Prc8gEo]{Windfall}</p><p><strong>Anima Morph</strong> medium; Flying animal; 15 feet land, 30 feet fly</p>"
+    },
+    "rules": [
+      {
+        "hasHands": true,
+        "key": "BattleForm",
+        "ownUnarmed": true,
+        "overrides": {
+          "armorClass": {
+            "modifier": "max(@actor.attributes.classDC.dc,(10+@actor.system.proficiencies.defenses.unarmored.value+@actor.system.abilities.dex.mod))"
+          },
+          "size": "med",
+          "speeds": {
+            "land": 15,
+            "fly": 30
+          },
+          "traits": [
+            "animal"
+          ]
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.spells.Item.sIiuJAZM48A2B18c"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.spells.Item.0w3nYw0mmRa2ZnUf"
+      }
+    ],
+    "slug": "anima-morph-windfall",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "9LP57acmX13eKsSi",
+  "sort": 0,
+  "_key": "!items!9LP57acmX13eKsSi"
+}

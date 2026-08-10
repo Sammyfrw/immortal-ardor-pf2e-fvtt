@@ -13,14 +13,13 @@
       "gm": ""
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "rules": [
       {
-        "itemType": "weapon",
         "key": "ItemAlteration",
         "mode": "add",
         "property": "traits",
@@ -29,7 +28,6 @@
         "itemId": "{item|flags.system.rulesSelections.azureBladeWeapon}"
       },
       {
-        "itemType": "weapon",
         "key": "ItemAlteration",
         "mode": "add",
         "property": "other-tags",

@@ -1,12 +1,12 @@
 {
   "type": "Item",
-  "folder": "hyq99xwaKr1KNdEg",
+  "folder": "CDyM4cjwOg9cSaie",
   "name": "Effects",
   "color": null,
   "sorting": "a",
-  "_id": "AdmU1DvZ80JPoBv9",
+  "_id": "8tTjc4qHDzLVb60w",
   "description": "",
-  "sort": 100000,
+  "sort": 0,
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
@@ -16,5 +16,5 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!AdmU1DvZ80JPoBv9"
+  "_key": "!folders!8tTjc4qHDzLVb60w"
 }

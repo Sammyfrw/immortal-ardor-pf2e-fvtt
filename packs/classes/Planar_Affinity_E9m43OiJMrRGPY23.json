@@ -12,6 +12,7 @@
       {
         "key": "FlatModifier",
         "predicate": [
+          "item:trait:anima",
           {
             "or": [
               "target:trait:celestial",

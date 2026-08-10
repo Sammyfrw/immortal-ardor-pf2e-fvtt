@@ -1,12 +1,12 @@
 {
   "type": "Item",
-  "folder": "hyq99xwaKr1KNdEg",
-  "name": "Effects",
-  "color": null,
+  "folder": null,
+  "name": "Anima Spells",
+  "color": "#f0a400",
   "sorting": "a",
-  "_id": "AdmU1DvZ80JPoBv9",
+  "_id": "CDyM4cjwOg9cSaie",
   "description": "",
-  "sort": 100000,
+  "sort": 0,
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
@@ -16,5 +16,5 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!AdmU1DvZ80JPoBv9"
+  "_key": "!folders!CDyM4cjwOg9cSaie"
 }

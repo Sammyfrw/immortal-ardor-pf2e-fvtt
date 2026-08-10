@@ -1,0 +1,77 @@
+{
+  "_id": "MH3VWOysJ8XboONX",
+  "folder": "8tTjc4qHDzLVb60w",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "name": "Effect: Windfall",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.7Fwf0Bnd2Prc8gEo]{Windfall}</p><p>You gain a +2 circumstance bonus to AC against ranged attacks.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder GM Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "item:ranged"
+        ],
+        "selector": [
+          "ac"
+        ],
+        "type": "status",
+        "value": 2
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-windfall",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "sort": 200000,
+  "_key": "!items!MH3VWOysJ8XboONX"
+}

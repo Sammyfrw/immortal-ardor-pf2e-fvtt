@@ -1,0 +1,78 @@
+{
+  "folder": "CDyM4cjwOg9cSaie",
+  "name": "Hydroveil",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Animal</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.RhQja0RUVAVtNtzX]{Anima Weapon: Hydroveil}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.QyTv5pBqkEFZ2xTu]{Anima Morph: Hydroveil}</p><p><strong>Anima Ability </strong>@UUID[Compendium.immortal-ardor.spells.fYGla3CNY8PG8hV4]{Anima Ability: Hydroveil}</p><hr><p class=\"MsoNormal\">You surround yourself in a film of magical water. For the duration of the spell, you gain a swim speed equal to your land speed and can breathe underwater. Your attacks don’t take the normal penalties or restrictions for being used in water or underwater, and if you are capable of dealing fire damage, it functions underwater as well. Once during the duration of the spell, triggered by failing or critically failing a Reflex saving throw or being grabbed due to a check against you, you can use a reaction to attempt to surge away from the attempt, gaining a +2 circumstance bonus to your Reflex save or to the relevant DC used by the check, potentially avoiding danger. Being or going underwater resets the frequency of the reaction.</p><p>@UUID[Compendium.immortal-ardor.spells.Kw7tCgDoSV55BNsy]{Spell Effect: Hydroveil}</p><p><strong>Heightened (8th)</strong> You gain a +10-foot status bonus to your swim speed. When you use the reaction granted by this spell, you can Stride or Swim up to half your speed away from the creature that caused the trigger as long as the outcome does not result in you being incapable of moving. This movement does not trigger reactions.</p>"
+    },
+    "rules": [],
+    "slug": "hydroveil",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "concentrate",
+        "focus"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": "varies"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 hour",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/creatures/fish/fish-marlin-swordfight-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ve6Pio7roRWJB3lC",
+  "sort": 0,
+  "_key": "!items!ve6Pio7roRWJB3lC"
+}

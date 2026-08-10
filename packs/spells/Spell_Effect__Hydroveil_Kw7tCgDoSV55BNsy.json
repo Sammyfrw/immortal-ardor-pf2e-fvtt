@@ -1,0 +1,106 @@
+{
+  "folder": "8tTjc4qHDzLVb60w",
+  "name": "Spell Effect: Hydroveil",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your attacks don’t take the normal penalties or restrictions for being used in water or underwater, and if you are capable of dealing fire damage, it functions underwater as well. Once during the duration of the spell, triggered by failing or critically failing a Reflex saving throw or being grabbed due to a check against you, you can use a reaction to attempt to surge away from the attempt, gaining a +2 circumstance bonus to your Reflex save or to the relevant DC used by the check, potentially avoiding danger. Being or going underwater resets the frequency of the reaction.<br class=\"Apple-interchange-newline\"></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "aquatic-combat:not-off-guard"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "override",
+        "selector": "melee-attack-roll",
+        "slug": "aquatic-combat",
+        "suppress": true
+      },
+      {
+        "key": "BaseSpeed",
+        "value": "@actor.system.movement.speeds.land.value",
+        "selector": "swim"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 10,
+        "predicate": [
+          {
+            "gte": [
+              "@item.level",
+              8
+            ]
+          }
+        ],
+        "type": "status",
+        "selector": [
+          "swim-speed"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "reflex"
+        ],
+        "value": 2,
+        "type": "circumstance"
+      }
+    ],
+    "slug": "spell-effect-hydroveil",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "hours",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "Kw7tCgDoSV55BNsy",
+  "img": "icons/creatures/fish/fish-marlin-swordfight-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 300000,
+  "_key": "!items!Kw7tCgDoSV55BNsy"
+}

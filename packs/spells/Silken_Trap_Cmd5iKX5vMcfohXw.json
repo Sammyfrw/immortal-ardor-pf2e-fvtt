@@ -1,0 +1,97 @@
+{
+  "folder": "CDyM4cjwOg9cSaie",
+  "name": "Silken Trap",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Animal</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.PDbGjpduVqrBNupt]{Anima Weapon: Silken Trap}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.I2rEUodgFffqYZhv]{Anima Morph: Silken Trap}</p><p><strong>Anima Ability </strong>@UUID[Compendium.immortal-ardor.spells.qMo9RAJl8TDdpbvk]{Anima Ability: Silken Trap}</p><hr><p class=\"MsoNormal\">You weave and launch globs of sticky silk that ensnares creatures. For the duration of the spell, the floor of the target areas becomes covered in silk, though if the burst is large enough to reach walls or ceilings it will cover them as well. Creatures in the area when you cast the spell or moves across it during their turn must make a Reflex saving throw against your anima DC. You are immune to your own Silken Trap and are aware of any creature that attempts a saving throw or moves across it. You can dismiss this spell.</p><p class=\"MsoNormal\">A creature that successfully makes an Athletics check (including an attempt to escape), Strikes with a slashing weapon or uses fire against an affected burst clears its area of the silk. If all bursts are cleared, the spell ends.</p><p class=\"MsoNormal\"><strong>Critical Success </strong>The creature is unaffected.</p><p class=\"MsoNormal\"><strong>Success </strong>The creature treats the area as difficult terrain until it leaves the trap.</p><p class=\"MsoNormal\"><strong>Failure</strong> As success, and the creature takes a -10 circumstance penalty to its speeds until the end of its turn. @UUID[Compendium.immortal-ardor.spells.I4PsUAaYSUJ8pwKC]{Hampered}</p><p class=\"MsoNormal\"><strong>Critical Failure </strong>As failure, but the creature is @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} until the end of its turn. It can attempt to @UUID[Compendium.pf2e.action-macros.EpiQHXzHv0GS1tj0]{Escape} against your anima DC, clearing a burst if it succeeds.</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong>Heightened (8th) </strong>The area increases to three contiguous 10-foot bursts.</p>"
+    },
+    "rules": [],
+    "slug": "silken-trap",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "concentrate",
+        "focus"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "2 contiguous 5-foot bursts"
+    },
+    "range": {
+      "value": "30"
+    },
+    "area": {
+      "value": 5,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "fixed",
+      "levels": {
+        "8": {
+          "area": {
+            "value": 10,
+            "type": "burst"
+          }
+        }
+      }
+    }
+  },
+  "img": "icons/creatures/webs/web-thin-pruple.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Cmd5iKX5vMcfohXw",
+  "sort": 0,
+  "_key": "!items!Cmd5iKX5vMcfohXw"
+}

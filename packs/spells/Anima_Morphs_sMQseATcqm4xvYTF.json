@@ -1,12 +1,12 @@
 {
   "type": "Item",
-  "folder": "hyq99xwaKr1KNdEg",
-  "name": "Effects",
+  "folder": "CDyM4cjwOg9cSaie",
+  "name": "Anima Morphs",
   "color": null,
   "sorting": "a",
-  "_id": "AdmU1DvZ80JPoBv9",
+  "_id": "sMQseATcqm4xvYTF",
   "description": "",
-  "sort": 100000,
+  "sort": -100000,
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
@@ -16,5 +16,5 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!AdmU1DvZ80JPoBv9"
+  "_key": "!folders!sMQseATcqm4xvYTF"
 }

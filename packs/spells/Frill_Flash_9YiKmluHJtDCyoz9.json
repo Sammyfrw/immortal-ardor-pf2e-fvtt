@@ -1,0 +1,89 @@
+{
+  "folder": "CDyM4cjwOg9cSaie",
+  "name": "Frill Flash",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Animal</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.u2tdT8WisCE4uIjJ]{Anima Weapon: Frill Flash}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.CCBrFWjpPeGmvsFU]{Anima Morph: Frill Flash}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.n1qka9Og7QDE4rJV]{Anima Ability: Frill Flash}</p><hr><p class=\"MsoNormal\">You open a pair of photoluminescent frills and create a spark of light that creates an amplified reflection. Creatures in the area must make a Fortitude saving throw against your anima DC. The outcome determines this spell’s effects:</p><p class=\"MsoNormal\"><strong>Critical Success </strong>The creature is unaffected.</p><p class=\"MsoNormal\"><strong>Success </strong>The creature is @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p class=\"MsoNormal\"><strong>Failure </strong>The creature is @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 round and dazzled for 2 rounds.</p><p class=\"MsoNormal\"><strong>Critical Failure </strong>The creature is blinded for 1 round and dazzled for 1 minute.</p><p></p><p class=\"MsoNormal\"><strong>Heightened (7th) </strong>A creature who is affected by the spell is covered in photoluminescent motes while suffering from its effects. If the creature was invisible, it becomes concealed instead. If it was concealed for any reason, it is no longer concealed.</p>"
+    },
+    "rules": [],
+    "slug": "frill-flash",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "concentrate",
+        "focus",
+        "light",
+        "manipulate",
+        "visual"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 20,
+      "type": "cone"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/creatures/reptiles/lizard-mouth-glowing-red.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "9YiKmluHJtDCyoz9",
+  "sort": 0,
+  "_key": "!items!9YiKmluHJtDCyoz9"
+}

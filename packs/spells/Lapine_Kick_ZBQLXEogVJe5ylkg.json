@@ -1,0 +1,78 @@
+{
+  "folder": "CDyM4cjwOg9cSaie",
+  "name": "Lapine Kick",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Animal</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.Kd3YSsNyAgx0RwLe]{Anima Weapon: Lapine Kick}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.Item.BYI4zFhJ8k0xJtBw]{Anima Morph: Lapine Kick}</p><p><strong>Anima Ability </strong>@UUID[Compendium.immortal-ardor.spells.Item.7pfzFjzST0N2KTZk]{Anima Ability: Lapine Kick}</p><hr><p class=\"MsoNormal\">You charge forward and perform a leaping somersault, slamming against a target with your large kicking feet. Perform a @UUID[Compendium.pf2e.actionspf2e.JUvAvruz7yRQXfz2]{Long Jump} or a @UUID[Compendium.pf2e.actionspf2e.2HJ4yuEFY1Cast4h]{High Jump}; you can Stride before you do. At the end of your Leap, make an Anima Strike. On a hit, you can attempt to [[/act shove]] the creature. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both attacks.</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><strong>Heightened (3rd) </strong>When you successfully shove a creature, you shove them an additional 5 feet.</p><p class=\"MsoNormal\"><strong>Heightened (8th) </strong>When you successfully shove a creature, you shove them an additional 10 feet.</p>"
+    },
+    "rules": [],
+    "slug": "lapine-kick",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "concentrate",
+        "focus"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "varies"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/creatures/mammals/rabbit-movement-glowing-green.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ZBQLXEogVJe5ylkg",
+  "sort": 0,
+  "_key": "!items!ZBQLXEogVJe5ylkg"
+}
