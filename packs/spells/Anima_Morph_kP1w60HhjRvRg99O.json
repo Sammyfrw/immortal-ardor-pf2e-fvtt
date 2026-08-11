@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "RM7p6iVZjIrhvhPj",
+  "name": "Anima Morph",
+  "color": null,
+  "sorting": "a",
+  "_id": "kP1w60HhjRvRg99O",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!kP1w60HhjRvRg99O"
+}

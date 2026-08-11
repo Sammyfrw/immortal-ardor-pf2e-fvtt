@@ -1,0 +1,102 @@
+{
+  "folder": "4u5C7K73kx9izZ2O",
+  "name": "Anima Weapon: Pilfer Shadow",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.y0RTLH8VEIv1XwnD]{Pilfer Shadow}</p><p><strong>Anima Weapon</strong>: Claws (melee, 1d6 slashing, agile, finesse, grapple, unarmed)</p>"
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "img": "icons/creatures/claws/claw-curved-jagged-yellow.webp",
+        "group": "brawling",
+        "label": "Anima Weapon: Claws",
+        "traits": [
+          "agile",
+          "finesse",
+          "grapple",
+          "unarmed",
+          "anima"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "other-tags",
+        "value": "anima-family-shadow",
+        "fromEquipment": false,
+        "itemType": "weapon",
+        "predicate": [
+          "item:slug:anima-weapon-claws"
+        ]
+      }
+    ],
+    "slug": "anima-weapon-pilfer-shadow",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/death/undead-ghosts-trio-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "FYyKvll5y2Ma0CK1",
+  "sort": 0,
+  "_key": "!items!FYyKvll5y2Ma0CK1"
+}

@@ -1,0 +1,105 @@
+{
+  "folder": "WrArlMAkXE0gQ6lZ",
+  "name": "Anima Weapon: Wave of Truth",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.EJIEcU8oasvKQepB]{Wave of Truth}</p><p><strong>Anima Weapon</strong>: Ray (ranged, 1d6, agile, fire, magical, range 30 feet)</p>"
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "fire",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "img": "icons/magic/light/beam-explosion-orange.webp",
+        "group": "brawling",
+        "label": "Anima Weapon: Ray",
+        "range": {
+          "max": 30
+        },
+        "traits": [
+          "agile",
+          "fire",
+          "magical",
+          "unarmed",
+          "anima"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "other-tags",
+        "value": "anima-family-celestial",
+        "fromEquipment": false,
+        "itemType": "weapon",
+        "predicate": [
+          "item:slug:anima-weapon-ray"
+        ]
+      }
+    ],
+    "slug": "anima-weapon-wave-of-truth",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "oCKNT9zxd8XkJjAl",
+  "sort": 0,
+  "_key": "!items!oCKNT9zxd8XkJjAl"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "CaADKqPPtYumyIdG",
+  "name": "Anima Abilities",
+  "color": null,
+  "sorting": "a",
+  "_id": "qO0MN5bHtavM5ayx",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!qO0MN5bHtavM5ayx"
+}

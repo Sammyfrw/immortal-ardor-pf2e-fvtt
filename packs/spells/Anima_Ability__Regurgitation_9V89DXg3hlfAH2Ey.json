@@ -1,0 +1,92 @@
+{
+  "folder": "bA2IwC9tzeXwCWlM",
+  "name": "Anima Ability: Regurgitation",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.juDuPx8GycUIKtNQ]{Regurgitation}</p><p><strong>Anima Ability</strong> Your anima weapons gain the versatile acid trait.</p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "versatile-acid",
+        "fromEquipment": false,
+        "itemType": "spell",
+        "predicate": [
+          "item:trait:anima"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "versatile-acid",
+        "fromEquipment": false,
+        "itemType": "weapon",
+        "predicate": [
+          "item:trait:anima"
+        ]
+      }
+    ],
+    "slug": "anima-ability-regurgitation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/skills/toxins/cauldron-bubbles-overflow-green.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "9V89DXg3hlfAH2Ey",
+  "sort": 0,
+  "_key": "!items!9V89DXg3hlfAH2Ey"
+}

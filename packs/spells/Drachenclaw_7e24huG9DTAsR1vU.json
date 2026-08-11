@@ -1,0 +1,178 @@
+{
+  "folder": "dhDMyeHzVAWQRtso",
+  "name": "Drachenclaw",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Dragon</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.4TgaoZVKs7II2pqG]{Anima Weapon: Drachenclaw}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.xxLRZGI1DfnKHfR0]{Anima Morph: Drachenclaw}</p><p><strong>Anima Ability </strong>@UUID[Compendium.immortal-ardor.spells.781dCYPDO623K8MB]{Anima Ability: Drachenclaw}</p><hr><p class=\"MsoNormal\">You channel magic into your chimerian claws, and attack. Select one of the following elements: fire, water, air, cold, earth or mental. This spell gains that respective trait. Make two Anima Strikes against the same creature at the same multi-attack penalty, increasing after both attacks. If an attack hits, you add 1d6 damage with your selected element’s damage type, with water dealing piercing, air dealing slashing, and earth dealing bludgeoning damage. If both attacks hit, combine all identical damage types for the purposes of resistances and weaknesses.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you have access to a different damage type, such as from a drachiri benefactor, you can choose that damage type and respective trait instead.</p><p>@UUID[Compendium.immortal-ardor.spells.Item.k0XBf4QlCZfXzsNU]{Spell Effect: Drachenclaw}</p><p class=\"MsoNormal\"><strong>Heightened (+2) </strong>Increase the additional damage by 1d6.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageAlteration",
+        "property": "damage-type",
+        "predicate": [
+          "item:slug:drachenclaw",
+          "drachenclaw-damage-type:fire"
+        ],
+        "value": "fire",
+        "selectors": [
+          "spell-damage"
+        ],
+        "mode": "override"
+      },
+      {
+        "key": "DamageAlteration",
+        "property": "damage-type",
+        "predicate": [
+          "item:slug:drachenclaw",
+          "drachenclaw-damage-type:bludgeoning"
+        ],
+        "value": "bludgeoning",
+        "selectors": [
+          "spell-damage"
+        ],
+        "mode": "override"
+      },
+      {
+        "key": "DamageAlteration",
+        "property": "damage-type",
+        "predicate": [
+          "item:slug:drachenclaw",
+          "drachenclaw-damage-type:slashing"
+        ],
+        "value": "slashing",
+        "selectors": [
+          "spell-damage"
+        ],
+        "mode": "override"
+      },
+      {
+        "key": "DamageAlteration",
+        "property": "damage-type",
+        "predicate": [
+          "item:slug:drachenclaw",
+          "drachenclaw-damage-type:piercing"
+        ],
+        "value": "piercing",
+        "selectors": [
+          "spell-damage"
+        ],
+        "mode": "override"
+      },
+      {
+        "key": "DamageAlteration",
+        "property": "damage-type",
+        "predicate": [
+          "item:slug:drachenclaw",
+          "drachenclaw-damage-type:cold"
+        ],
+        "value": "cold",
+        "selectors": [
+          "spell-damage"
+        ],
+        "mode": "override"
+      },
+      {
+        "key": "DamageAlteration",
+        "property": "damage-type",
+        "predicate": [
+          "item:slug:drachenclaw",
+          "drachenclaw-damage-type:mental"
+        ],
+        "value": "mental",
+        "selectors": [
+          "spell-damage"
+        ],
+        "mode": "override"
+      }
+    ],
+    "slug": "drachenclaw",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "attack",
+        "concentrate",
+        "focus"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature within reach"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "KJGM4MmZDGMgj1mb": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "untyped",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "KJGM4MmZDGMgj1mb": "1d6"
+      },
+      "area": 0
+    },
+    "overlays": {}
+  },
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "7e24huG9DTAsR1vU",
+  "sort": 0,
+  "_key": "!items!7e24huG9DTAsR1vU"
+}

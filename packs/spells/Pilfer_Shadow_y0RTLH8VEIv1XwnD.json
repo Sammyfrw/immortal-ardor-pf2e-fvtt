@@ -1,0 +1,84 @@
+{
+  "folder": "quvyK6XFFu4wmym5",
+  "name": "Pilfer Shadow",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Ethereal</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.FYyKvll5y2Ma0CK1]{Anima Weapon: Pilfer Shadow}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.Item.KqbiYxmMith1WRlt]{Anima Morph: Pilfer Shadow}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.Item.RgogX6zpXgsNKvPS]{Anima Ability: Pilfer Shadow}</p><hr><p class=\"MsoNormal\">You pull apart shadows to a more advantageous position. You attempt to steal a shadow from a creature or object within range that is casting a shadow. If you are targeting a creature they need to make a Will saving throw against your attempt.</p><p class=\"MsoNormal\"><strong>Critical Success </strong>The creature is unaffected.</p><p class=\"MsoNormal\"><strong>Success </strong>The creature’s shadow is stolen and becomes @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 round.</p><p class=\"MsoNormal\"><strong>Failure </strong>The creature’s shadow is stolen and becomes enfeebled 1 for 1 minute.</p><p class=\"MsoNormal\"><strong>Critical Failure </strong>The creature’s shadow is stolen and becomes @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2} for 1 minute.</p><p>A creature whose shadow is stolen casts no shadow for the duration of the spell. Their shadow cloaks around you and makes the space you’re in count as magical dim light if it is in bright light, or darkness if it is in dim light. If the darkness is counteracted, this spell ends. @UUID[Compendium.immortal-ardor.spells.Item.HfkFAWMSH5awaODU]{Spell Effect: Pilfer Shadow}</p>"
+    },
+    "rules": [],
+    "slug": "phantom-flourish",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "concentrate",
+        "darkness",
+        "focus"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature or object that is casting a shadow"
+    },
+    "range": {
+      "value": "60"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/death/undead-ghosts-trio-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "y0RTLH8VEIv1XwnD",
+  "sort": 0,
+  "_key": "!items!y0RTLH8VEIv1XwnD"
+}

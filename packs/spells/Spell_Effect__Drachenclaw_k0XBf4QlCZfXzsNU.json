@@ -1,0 +1,97 @@
+{
+  "folder": "yXEIAiBoofP9B5Yd",
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "name": "Spell Effect: Drachenclaw",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.7e24huG9DTAsR1vU]{Drachenclaw}</p><p>Select one of the following elements: fire, water, air, cold, earth or mental. This spell gains that respective trait.<br class=\"Apple-interchange-newline\"></p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "Select Damage Type",
+        "choices": [
+          {
+            "label": "Fire",
+            "value": "fire"
+          },
+          {
+            "label": "Cold",
+            "value": "cold"
+          },
+          {
+            "label": "Air",
+            "value": "slashing"
+          },
+          {
+            "label": "Water",
+            "value": "piercing"
+          },
+          {
+            "label": "Earth",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "Mental",
+            "value": "mental"
+          }
+        ],
+        "rollOption": "drachenclaw-damage-type"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-drachenclaw",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "k0XBf4QlCZfXzsNU",
+  "sort": 0,
+  "_key": "!items!k0XBf4QlCZfXzsNU"
+}

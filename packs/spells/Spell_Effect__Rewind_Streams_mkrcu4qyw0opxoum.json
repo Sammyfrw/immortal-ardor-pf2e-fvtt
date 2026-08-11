@@ -1,0 +1,122 @@
+{
+  "folder": "XU3kAY4eRr3Jw9zZ",
+  "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
+  "name": "Spell Effect: Rewind Streams",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.VYPunJe721BJx6tF]{Rewind Streams}</p><p>The triggering creature takes either a status penalty or a status bonus to their check, and then gains the opposite effect on their next check within the spell’s duration.<br class=\"Apple-interchange-newline\"></p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "Select Status Bonus or Penalty",
+        "choices": [
+          {
+            "label": "+1",
+            "value": "1"
+          },
+          {
+            "label": "+2 (4th Rank)",
+            "value": "2"
+          },
+          {
+            "label": "+3 (7th Rank)",
+            "value": "3"
+          },
+          {
+            "label": "+4 (10th Rank)",
+            "value": "+4"
+          },
+          {
+            "label": "-1",
+            "value": "-1"
+          },
+          {
+            "label": "-2 (4th Rank)",
+            "value": "-2"
+          },
+          {
+            "label": "-3 (7th Rank)",
+            "value": "-3"
+          },
+          {
+            "label": "-4 (10th Rank)",
+            "value": "-4"
+          }
+        ],
+        "flag": "rewindStreamsBonus"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "{item|flags.system.rulesSelections.rewindStreamsBonus}",
+        "type": "status",
+        "selector": [
+          "check"
+        ],
+        "removeAfterRoll": "if-enabled"
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "check"
+        ],
+        "text": "Grant the opposite effect after using this effect if this was the first check after casting the spell. @UUID[Compendium.immortal-ardor.spells.mkrcu4qyw0opxoum]{Spell Effect: Rewind Streams}",
+        "visibility": "gm"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-rewind-streams",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "mkrcu4qyw0opxoum",
+  "sort": 100000,
+  "_key": "!items!mkrcu4qyw0opxoum"
+}

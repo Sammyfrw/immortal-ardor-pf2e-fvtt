@@ -1,0 +1,125 @@
+{
+  "folder": "gfPnWlFkGHLnxVo7",
+  "name": "Phantom Flourish",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Ethereal</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.uImZYfIXFrd2GFHp]{Anima Weapon: Phantom Flourish}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.Y0QHQGdkE6rz1xZl]{Anima Morph: Phantom Flourish}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.Item.rkE6BeClIyE6vP5u]{Anima Ability: Phantom Flourish}</p><hr><p class=\"MsoNormal\">You rapidly shift between the material and ethereal planes as you launch forward to a target to strike. You Teleport up to your speed and make an Anima Strike at a creature. On a hit, a creature takes 2d6 additional spirit damage from the attack.</p><p>This attack has the Flourish trait.</p><p class=\"MsoNormal\"><strong>Heightened (4th) </strong>You deal 3d6 additional spirit damage, and you regain half the amount of this damage you deal as temporary hit points.</p><p class=\"MsoNormal\"><strong>Heightened (6th) </strong>As 4th, but you also Teleport up to twice your speed.</p><p class=\"MsoNormal\"><strong>Heightened (8th)</strong> As 6th, but you deal 4d6 additional spirit damage instead.</p>"
+    },
+    "rules": [],
+    "slug": "phantom-flourish",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "attack",
+        "concentrate",
+        "focus",
+        "spirit",
+        "teleportation"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature "
+    },
+    "range": {
+      "value": "Up to your speed"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "owvsruhaLpf380Lz": {
+        "formula": "2d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "spirit",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "fixed",
+      "levels": {
+        "4": {
+          "damage": {
+            "owvsruhaLpf380Lz": {
+              "formula": "3d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "spirit",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          }
+        },
+        "8": {
+          "damage": {
+            "owvsruhaLpf380Lz": {
+              "formula": "4d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "spirit",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "img": "icons/skills/melee/blade-tips-triple-bent-white.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "wWQU4sVHnfy3nRQG",
+  "sort": 0,
+  "_key": "!items!wWQU4sVHnfy3nRQG"
+}

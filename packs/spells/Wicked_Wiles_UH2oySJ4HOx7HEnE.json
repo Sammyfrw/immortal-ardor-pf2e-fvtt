@@ -1,0 +1,87 @@
+{
+  "folder": "rvMMGg7OS7wOYseA",
+  "name": "Wicked Wiles",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Animal</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.gHCRM9BA0heWhrj4]{Anima Weapon: Wicked Wiles}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.fXV534XLuLgSlJwN]{Anima Morph: Wicked Wiles}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.Item.EZ2KdxVrJJdc1UGo]{Anima Ability: Wicked Wiles}</p><hr><p class=\"MsoNormal\">You use guile, glitter and explosive fey magics to draw someone’s attention and disappear. Select a point within the spell’s area. Creatures who are in the spell’s area see a distracting eruption of colors or hear a loud enchanting melody coming from the point, and are compelled to look. If you create a display of colors, this spell gains the visual trait, and if you create a melody this spell gains the auditory trait. Affected creatures must succeed on a Will save or become @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} with the display for 1 round. As part of casting this spell, you @UUID[Compendium.pf2e.actionspf2e.GkmbTGfg8KcgynOA]{Create a Diversion}, using your anima attack modifier if it is higher than your Deception modifier. You automatically succeed against creatures who critically failed their saving throw.</p>"
+    },
+    "rules": [],
+    "slug": "wicked-wiles",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 15,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/symbols/clover-luck-white-green.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "UH2oySJ4HOx7HEnE",
+  "sort": 0,
+  "_key": "!items!UH2oySJ4HOx7HEnE"
+}

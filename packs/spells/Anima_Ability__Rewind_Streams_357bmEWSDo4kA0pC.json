@@ -1,0 +1,74 @@
+{
+  "folder": "c1XiAkrTD93Z7cdS",
+  "name": "Anima Ability: Rewind Streams",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.VYPunJe721BJx6tF]{Rewind Streams}</p><p><strong>Anima Ability </strong>You gain darkvision.</p>"
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "darkvision"
+      }
+    ],
+    "slug": "anima-ability-rewind-streams",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "357bmEWSDo4kA0pC",
+  "sort": 100000,
+  "_key": "!items!357bmEWSDo4kA0pC"
+}

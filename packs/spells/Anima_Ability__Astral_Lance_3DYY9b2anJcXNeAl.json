@@ -1,0 +1,78 @@
+{
+  "folder": "EGcmbR0zcBIZ8c1W",
+  "name": "Anima Ability: Astral Lance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.yMW39sCsHzycE5VA]{Astral Lance}</p><p><strong>Anima Ability </strong>You gain a +1 status bonus to Arcana checks.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "status",
+        "selector": [
+          "arcana"
+        ]
+      }
+    ],
+    "slug": "anima-ability-astral-lance",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "3DYY9b2anJcXNeAl",
+  "sort": 0,
+  "_key": "!items!3DYY9b2anJcXNeAl"
+}

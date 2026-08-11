@@ -1,0 +1,132 @@
+{
+  "folder": "JwTNRJa78kpKunpE",
+  "name": "Empathic Chains",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Elemental</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.mBgUlLrikjkANRMR]{Anima Weapon: Empathic Chains}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.sruCfwRSdB7UyRm1]{Anima Morph: Empathic Chains}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.Item.pkt3F3BqNfvmGqJR]{Anima Ability: Empathic Chains}</p><hr><p class=\"MsoNormal\">You strike out with barbed chains with the intent on draining or inflicting emotional ills. When you cast this spell, declare whether you want to soothe or stoke emotions and make an anima attack roll against the target. This attack does not count towards your multi attack penalty.</p><p class=\"MsoNormal\">If you hit and you aim to soothe, you heal the target for 1d4 hit points and reduce the value of a target’s @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} condition (if any) as if a turn had passed, while you take as many hit points as mental damage. If you hit and you aim to stoke, the target takes 1d4 mental damage and becomes Frightened 1 while reducing the value of your Frightened condition (if any) as if a turn had passed. You always hit a willing target with this spell.</p><p class=\"MsoNormal\"><strong>Heightened (+1) </strong>The damage or healing increases by 1d4.</p><p class=\"MsoNormal\"><strong>Heightened (5th) </strong>You reduce the Frightened condition of a target by 2 when you soothe or you inflict Frightened 2 when you stoke.</p>"
+    },
+    "rules": [],
+    "slug": "empathic-chains",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "concentrate",
+        "emotion",
+        "focus",
+        "manipulate",
+        "mental"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "VO85YhbgQL89UZh8": {
+        "formula": "1d4",
+        "kinds": [
+          "healing"
+        ],
+        "type": "untyped",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "VO85YhbgQL89UZh8": "1d4"
+      },
+      "area": 0
+    },
+    "overlays": {
+      "ZAn1opOGzzfLSdU0": {
+        "name": "Empathic Chains (Healing)",
+        "system": {
+          "damage": {
+            "VO85YhbgQL89UZh8": {
+              "category": null
+            }
+          },
+          "defense": null
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "Tk4o2ox5BnhL46sG": {
+        "name": "Empathic Chains (Mental)",
+        "system": {
+          "damage": {
+            "VO85YhbgQL89UZh8": {
+              "kinds": [
+                "damage"
+              ],
+              "type": "mental",
+              "category": null
+            }
+          },
+          "defense": null
+        },
+        "sort": 2,
+        "overlayType": "override"
+      }
+    }
+  },
+  "img": "icons/magic/control/debuff-chains-purple.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "E9r3k0E9lRIYdOmY",
+  "sort": 0,
+  "_key": "!items!E9r3k0E9lRIYdOmY"
+}

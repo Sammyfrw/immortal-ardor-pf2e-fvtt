@@ -1,0 +1,113 @@
+{
+  "folder": "ZxyPfFWr3ENdSfJf",
+  "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+  "name": "Spell Effect: Wave of Truth",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.EJIEcU8oasvKQepB]{Wave of Truth}</p><p>The origin of the effect and their allies gain a +1 status bonus to Seek checks and Recall Knowledge checks and double the bonus to their damage rolls against you.<br class=\"Apple-interchange-newline\"></p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 10,
+          "bright": 5,
+          "animation": {
+            "type": "sunburst"
+          }
+        },
+        "predicate": [
+          "wave-of-truth-failure:critical"
+        ]
+      },
+      {
+        "key": "EphemeralEffect",
+        "selectors": [
+          "check",
+          "attack"
+        ],
+        "uuid": "Compendium.immortal-ardor.spells.Item.MyQRXOzbBQLIJUaL"
+      },
+      {
+        "key": "ChoiceSet",
+        "prompt": "Did the target critically fail?",
+        "choices": [
+          {
+            "label": "Failure",
+            "value": "fail"
+          },
+          {
+            "label": "Critical Failure",
+            "value": "critical"
+          }
+        ],
+        "rollOption": "wave-of-truth-failure"
+      },
+      {
+        "key": "FlatModifier",
+        "value": -2,
+        "predicate": [
+          "wave-of-truth-failure:critical"
+        ],
+        "selector": [
+          "stealth"
+        ],
+        "type": "status"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-wave-of-truth",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "0dTrcjH3ZjNkYlQD",
+  "sort": 0,
+  "_key": "!items!0dTrcjH3ZjNkYlQD"
+}

@@ -1,0 +1,89 @@
+{
+  "folder": "l6eVFalP0gDgcKGc",
+  "name": "Wave of Truth",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Celestial</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.oCKNT9zxd8XkJjAl]{Anima Weapon: Wave of Truth}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.htnH2qdk6vugbMPm]{Anima Morph: Wave of Truth}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.Item.VVyNdCiStJz5GUhT]{Anima Ability: Wave of Truth}</p><hr><p class=\"MsoNormal\">You unleash a light of revelation in an area. Creatures in the area must make a Reflex save or be emblazoned with light. Against creatures affected with this light, you and your allies gain a +1 status bonus to Seek checks and Recall Knowledge checks and double the bonus to their damage rolls.</p><p class=\"MsoNormal\"><strong>Critical Success</strong> The creature is unaffected.</p><p class=\"MsoNormal\"><strong>Success </strong>The creature is lit for 1 round.</p><p class=\"MsoNormal\"><strong>Failure </strong>The creature is lit for 1 minute.</p><p class=\"MsoNormal\"><strong>Critical Failure </strong>As failure, but the creature emits a 10-foot radius of dim light and 5-foot radius of bright light. They suffer a -2 status penalty to Stealth checks and if they are invisible, they become only hidden for the duration.</p><p>@UUID[Compendium.immortal-ardor.spells.0dTrcjH3ZjNkYlQD]{Spell Effect: Wave of Truth}</p><p class=\"MsoNormal\"><strong>Heightened (+4) </strong>The status bonus increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": "wave-of-truth",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "concentrate",
+        "focus",
+        "holy",
+        "light",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 20,
+      "type": "cone"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "EJIEcU8oasvKQepB",
+  "sort": 0,
+  "_key": "!items!EJIEcU8oasvKQepB"
+}
