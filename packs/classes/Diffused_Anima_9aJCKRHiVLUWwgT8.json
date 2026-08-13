@@ -8,7 +8,36 @@
       "gm": "",
       "value": "<p><strong>Frequency</strong> Once per ten minutes</p><hr><p class=\"MsoNormal\">Your soul can lightly reach into the anima of other creatures, and affect them with spells that are meant for you alone. If your next action is to cast an anima spell which has a target of self, you can choose up to 4 allies within 30 feet of you. Your allies are affected by the spell as if you had cast it on them, including for its duration if it has one. If the spell ends for one person, it ends for all targets. If the spell can be Dismissed, any target can dismiss the spell.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special</span> If you are currently harmonized, you can expend that state to make this action a free action.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "diffused-anima"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:diffused-anima"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      }
+    ],
     "slug": "diffused-anima",
     "_migration": {
       "version": 0.959,

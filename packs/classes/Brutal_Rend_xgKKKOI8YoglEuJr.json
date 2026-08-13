@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> You have hit the same enemy with two consecutive melee Strikes with anima weapons with the agile trait.</p><hr><p class=\"MsoNormal\">You aggravate the wounds you have left on your opponent with brutal efficiency. The target takes damage equal to a roll of your Strike’s damage dice without any other modifiers. If you used two different anima weapons, choose one.</p><p class=\"MsoNormal\"><strong>Symbiosis</strong> Your souls harmonize when one of your required Strikes was a critical hit and you use this action, or if Brutal Rend reduces an enemy’s hitpoints to 0.</p>"
+      "value": "<p><strong>Requirements</strong> You have hit the same enemy with two consecutive melee Strikes with anima weapons with the agile trait.</p><hr><p class=\"MsoNormal\">You aggravate the wounds you have left on your opponent with brutal efficiency. The target takes damage equal to a roll of your Strike’s damage dice without any other modifiers. If you used two different anima weapons, choose one.</p><p class=\"MsoNormal\"><strong>Symbiosis</strong> Your souls @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized} when one of your required Strikes was a critical hit and you use this action, or if Brutal Rend reduces an enemy’s hitpoints to 0.</p>"
     },
     "rules": [],
     "slug": "brutal-rend",

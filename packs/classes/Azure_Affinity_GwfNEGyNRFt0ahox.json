@@ -6,9 +6,38 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> Once per ten minutes</p><hr><p class=\"MsoNormal\">Your anima flourishes with a surge of power as your soul connects to your target’s being with your next spell. If your next action is to cast an anima spell with the attack trait, it benefits from the circumstance bonus of Monster Affinity, even if you did not select your target creature’s family category or if the target creature does not have an associated category.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special</span> If you are currently harmonized, you can expend that state to make this action a free action.</p>"
+      "value": "<p><strong>Frequency</strong> Once per ten minutes </p><hr><p class=\"MsoNormal\">Your anima flourishes with a surge of power as your soul connects to your target’s being with your next spell. If your next action is to cast an anima spell with the attack trait, it benefits from the circumstance bonus of @UUID[Compendium.immortal-ardor.classes.pV8wTfZF9lk00V7j]{Monster Affinity}, even if you did not select your target creature’s family category or if the target creature does not have an associated category.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you are currently @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized}, you can expend that state to make this action a free action.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "azure-affinity"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:azure-affinity"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      }
+    ],
     "slug": "azure-affinity",
     "_migration": {
       "version": 0.959,

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Nimble creatures that escape predators with ease are part of your maelstrom. When you successfully Tumble Through, you do not treat a creature’s space as difficult terrain.</p><p>If you have prepared an anima spell with the Attack trait, you can use your anima attack modifier to Escape.</p>"
+      "value": "<p>Nimble creatures that escape predators with ease are part of your maelstrom. When you successfully @UUID[Compendium.pf2e.actionspf2e.21WIfSu7Xd7uKqV8]{Tumble Through}, you do not treat a creature’s space as difficult terrain.</p><p>If you have prepared an anima spell with the Attack trait, you can use your anima attack modifier to Escape.</p>"
     },
     "rules": [],
     "slug": "darting-escape",

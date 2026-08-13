@@ -8,7 +8,14 @@
       "gm": "",
       "value": "<p>Your tearing strikes are more deadly as you hone your skills. The precision damage from Feral Rip increases to 2d6. This damage increases further to 3d6 at 16th level, and 4d6 at 20th level.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "flags.pf2e.chimerian.feralRipDamage.number",
+        "value": "ternary(gte(@actor.level, 20), 4, ternary(gte(@actor.level, 16), 3, 2))"
+      }
+    ],
     "slug": "ferocious-rip",
     "_migration": {
       "version": 0.959,

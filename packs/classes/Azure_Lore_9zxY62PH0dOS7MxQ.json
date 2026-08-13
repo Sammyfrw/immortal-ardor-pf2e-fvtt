@@ -6,9 +6,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> Trained in Arcana, Nature, Occultism or Religion</p><hr><p>Your maelstrom is calm, patient and deep. It drinks deep of the memories and thoughts of the souls that dwell within it and the souls of those you observe, and grant great epiphanies. You gain the Magical Shorthand feat without needing to meet its prerequisites.</p><p class=\"MsoNormal\">However, you cannot use the feat to learn and inscribe new anima magic; instead, you can use the feat to observe and slowly drain the anima off the soul of a willing, docile or domesticated creature (as appropriate to the creature you are trying to learn anima magic from) for the duration of covering the material costs. You must use your chimerian class DC for the Earn Income checks for Learning Anima Magic when doing so. If you already have taken the Magical Shorthand feat as a skill feat, you can retrain it when you take this feat.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls harmonize when you successfully learn anima magic. Unlike normal, your souls remain harmonized for 1 hour. This becomes 24 hours if you use Magical Shorthand to slowly cover the material costs instead.</p>"
+      "value": "<p><strong>Requirements</strong> Trained in Arcana, Nature, Occultism or Religion</p><hr><p>Your maelstrom is calm, patient and deep. It drinks deep of the memories and thoughts of the souls that dwell within it and the souls of those you observe, and grant great epiphanies. You gain the @UUID[Compendium.pf2e.feats-srd.v7Bt6hjmzYnLFLeG]{Magical Shorthand} feat without needing to meet its prerequisites.</p><p class=\"MsoNormal\">However, you cannot use the feat to learn and inscribe new anima magic; instead, you can use the feat to observe and slowly drain the anima off the soul of a willing, docile or domesticated creature (as appropriate to the creature you are trying to learn anima magic from) for the duration of covering the material costs. This does not harm the creature in any way, except a slight sense of fatigue. You must use your chimerian class DC for the @UUID[Compendium.pf2e.actionspf2e.QyzlsLrqM0EEwd7j]{Earn Income} checks for Learning Anima Magic when doing so. If you already have taken the Magical Shorthand feat as a skill feat, you can retrain it when you take this feat.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized} when you successfully learn anima magic. Unlike normal, your souls remain harmonized for 1 hour. This becomes 24 hours if you use Magical Shorthand to slowly cover the material costs instead.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.v7Bt6hjmzYnLFLeG"
+      }
+    ],
     "slug": "azure-lore",
     "_migration": {
       "version": 0.959,

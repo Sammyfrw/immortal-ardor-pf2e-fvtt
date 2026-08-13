@@ -6,9 +6,50 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> Once per ten minutes</p><hr><p>You can focus your anima magic to strike at a single target. If your next spell is to cast an anima spell which targets creatures in an area, you can choose one target to be the sole creature to be affected by the spell. When you do, your spell gains a +2 circumstance bonus to your anima DC. If the creature would be affected by your selected Monster Affinity category, this bonus increases to +3.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special</span> If you are currently harmonized, you can expend that state to make this action a free action.</p>"
+      "value": "<p><strong>Frequency</strong> Once per ten minutes</p><hr><p>You can focus your anima magic to strike at a single target. If your next spell is to cast an anima spell which targets creatures in an area, you can choose one target to be the sole creature to be affected by the spell. When you do, your spell gains a +2 status bonus to your anima DC.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you are currently @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized}, you can expend that state to make this action a free action.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "convergent-anima"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:convergent-anima"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "selector": [
+          "spell-dc",
+          "spell-attack"
+        ],
+        "predicate": [
+          "spellshape:convergent-anima"
+        ],
+        "type": "status"
+      }
+    ],
     "slug": "convergent-anima",
     "_migration": {
       "version": 0.959,

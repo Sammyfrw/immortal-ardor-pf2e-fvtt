@@ -8,7 +8,26 @@
       "gm": "",
       "value": "<p><strong>Requirements</strong> You have a ranged anima weapon.</p><hr><p>You take practiced aim with a long-ranged natural weapon as if you embody the creature it came from. You gain a +2 circumstance bonus to your next attack with the required ranged weapon by the end of your turn. This bonus can also apply to an anima spell that requires you to make a ranged Anima Strike.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "anima-ballista",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "anima-ballista",
+          "item:trait:anima"
+        ],
+        "selector": [
+          "spell-attack-roll",
+          "ranged-attack-roll"
+        ],
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
     "slug": "anima-ballista",
     "_migration": {
       "version": 0.959,

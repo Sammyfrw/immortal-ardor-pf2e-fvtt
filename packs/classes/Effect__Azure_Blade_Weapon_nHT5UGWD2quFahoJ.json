@@ -20,18 +20,21 @@
     },
     "rules": [
       {
-        "key": "ItemAlteration",
-        "mode": "add",
-        "property": "traits",
-        "value": "anima",
-        "fromEquipment": false,
-        "itemId": "{item|flags.system.rulesSelections.azureBladeWeapon}"
+        "choices": {
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "azureBladeWeapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Item"
       },
       {
         "key": "ItemAlteration",
         "mode": "add",
-        "property": "other-tags",
-        "value": "anima-weapon",
+        "property": "traits",
+        "value": "anima",
         "fromEquipment": false,
         "itemId": "{item|flags.system.rulesSelections.azureBladeWeapon}"
       },
@@ -42,9 +45,71 @@
             "weapon"
           ]
         },
-        "flag": "azureBladeWeapon",
+        "flag": "azureTwinWeapon",
+        "predicate": [
+          "feat:azure-twin"
+        ],
         "key": "ChoiceSet",
         "prompt": "PF2E.SpecificRule.Prompt.Item"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "anima",
+        "fromEquipment": false,
+        "itemId": "{item|flags.system.rulesSelections.azureTwinWeapon}",
+        "predicate": [
+          "feat:azure-twin"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "agile",
+        "fromEquipment": false,
+        "itemId": "{item|flags.system.rulesSelections.azureTwinWeapon}",
+        "predicate": [
+          "feat:azure-twin",
+          "item:trait:parry"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "parry",
+        "fromEquipment": false,
+        "itemId": "{item|flags.system.rulesSelections.azureTwinWeapon}",
+        "predicate": [
+          "feat:azure-twin",
+          "item:trait:agile"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "agile",
+        "fromEquipment": false,
+        "itemId": "{item|flags.system.rulesSelections.azureBladeWeapon}",
+        "predicate": [
+          "feat:azure-twin",
+          "item:trait:parry"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "parry",
+        "fromEquipment": false,
+        "itemId": "{item|flags.system.rulesSelections.azureBladeWeapon}",
+        "predicate": [
+          "feat:azure-twin",
+          "item:trait:agile"
+        ]
       }
     ],
     "slug": "effect-azure-blade-weapon",
@@ -75,7 +140,7 @@
   },
   "_id": "nHT5UGWD2quFahoJ",
   "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
-  "sort": 400000,
+  "sort": 800000,
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3

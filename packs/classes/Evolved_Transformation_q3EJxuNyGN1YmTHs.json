@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You can transform into a powerful creature by drawing upon its anima from your maelstrom. You enter an Anima Transformation and turn into a creature listed in the Anima Morph of an anima spell you have prepared. This transformation lasts for 1 minute.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special</span> If you are of the Morpher anima manifestation, when you take this action, you can use Synergism instead; when you do, you transform with one action.</p>"
+      "value": "<p class=\"MsoNormal\">You can transform into a powerful creature by drawing upon its anima from your maelstrom. You enter an Anima Transformation and turn into a creature listed in the Anima Morph of an anima spell you have prepared. This transformation lasts for 1 minute.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you are of the Morpher anima manifestation, when you take this action, you can use @UUID[Compendium.immortal-ardor.classes.ifUnp1eU5v52xjBW]{Synergism} instead; when you do, you transform with one action.</p>"
     },
     "rules": [],
     "slug": "evolved-transformation",

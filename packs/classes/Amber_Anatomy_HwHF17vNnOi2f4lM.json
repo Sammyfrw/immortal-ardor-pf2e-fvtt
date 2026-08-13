@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency </strong>Once per hour</p><hr><p>Some creatures you’ve consumed have remarkable healing properties, and your body has synthesized them together into a healing factor. You recover 10 hit points. This increases to 15 when you become a Master in Medicine, and 30 when you become Legendary.</p><p class=\"MsoNormal\">If you have prepared an anima spell with the Healing trait, when you or your allies successfully Treat your Wounds, they can do so without a healer’s tool kit, and the frequency of this ability resets.</p>"
+      "value": "<p><strong>Frequency </strong>Once per hour</p><hr><p>Some creatures you’ve consumed have remarkable healing properties, and your body has synthesized them together into a healing factor. You recover [[/r 10[healing]]] hit points. This increases to [[/r 15[healing]]] when you become a Master in Medicine, and [[/r 30[healing]]]when you become Legendary.</p><p class=\"MsoNormal\">If you have prepared an anima spell with the Healing trait, when you or your allies successfully Treat your Wounds, they can do so without a healer’s tool kit, and the frequency of this ability resets.</p>"
     },
     "rules": [],
     "slug": "amber-anatomy",

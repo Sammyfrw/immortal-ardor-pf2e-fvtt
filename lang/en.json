@@ -385,6 +385,20 @@
           "Natural": "Enhanced Natural",
           "Planar": "Enhanced Planar",
           "Transitional": "Enhanced Transitional"
+        },
+        "EvolvedMobility": {
+          "BenefitPromptText": "Select your Evolved Mobility Benefit.",
+          "EnhanceMovementLabel": "Enhance a Movement Speed",
+          "NewMovementLabel": "New Movement Speed"
+        },
+        "ShiftingMobility": {
+          "PromptText": "Select a movement speed",
+          "BenefitPromptText": "Select your Shifting Mobility Benefit.",
+          "Land": "Land",
+          "Swim": "Swim",
+          "Climb": "Climb",
+          "Burrow": "Burrow",
+          "Fly": "Fly"
         }
       }
     }

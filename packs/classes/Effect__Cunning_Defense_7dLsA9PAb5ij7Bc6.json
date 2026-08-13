@@ -1,0 +1,89 @@
+{
+  "_id": "7dLsA9PAb5ij7Bc6",
+  "img": "systems/pf2e/icons/equipment/shields/steel-shield.webp",
+  "name": "Effect: Cunning Defense",
+  "system": {
+    "description": {
+      "value": "<p>Granted by using @UUID[Compendium.immortal-ardor.classes.51gJhR2ZS2NIGYrY]{Cunning Defense}</p><p>You a +1 circumstance bonus to AC, or a +2 circumstance bonus if you have a free hand or are wielding a weapon with the parry trait.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 0
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "type": "circumstance",
+        "value": "{item|flags.pf2e.rulesSelections.cunningDefenseBonus}"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "+1",
+            "value": "1"
+          },
+          {
+            "label": "+2",
+            "value": "2"
+          }
+        ],
+        "prompt": "Select your AC Bonus",
+        "flag": "cunningDefenseBonus"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-cunning-defense",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "AdmU1DvZ80JPoBv9",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "sort": 200000,
+  "_key": "!items!7dLsA9PAb5ij7Bc6"
+}

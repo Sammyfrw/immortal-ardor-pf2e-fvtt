@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> Your souls are harmonized.</p><hr><p>When you are working in tandem with your paired soul, the anima flows freely. You can Strike and Cast an Anima spell, in either order. If the outcome of your first action is a hit or a failed saving throw, the target is off-guard and takes a -2 circumstance penalty to their save DC to the second action.</p><p><strong>Symbiosis</strong> Your souls harmonize if both actions are successful.</p>"
+      "value": "<p><strong>Requirements</strong> Your souls are harmonized.</p><hr><p>When you are working in tandem with your paired soul, the anima flows freely. You can Strike and Cast a 1-action or 2-action Anima spell, in either order. Both actions must target the same single creature. If the outcome of your first action is a hit or a failed saving throw, the target is off-guard and takes a -2 circumstance penalty to their saving throw to the second action.</p><p>@UUID[Compendium.immortal-ardor.classes.HwD5RbWYmIcbCMW7]{Effect: Enchainment}</p><p><strong>Symbiosis</strong> Your souls @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized} if both actions are successful.</p>"
     },
     "rules": [],
     "slug": "enchainment",

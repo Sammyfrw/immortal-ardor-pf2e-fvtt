@@ -55,6 +55,58 @@
           "saving-throw"
         ],
         "uuid": "CompenCompendium.immortal-ardor.classes.Item.jiQblkF9vO1PQCFH"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:bestial-gait",
+          {
+            "or": [
+              "action:feint",
+              "action:make-a-request",
+              "action:demoralize"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:fey",
+              "target:trait:ethereal",
+              "target:trait:shadow",
+              "target:trait:astral"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:eye-of-the-predator",
+          {
+            "or": [
+              "action:seek",
+              "action:track",
+              "action:recall-knowledge"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:ethereal",
+              "target:trait:fey",
+              "target:trait:shadow",
+              "target:trait:astral"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
       }
     ],
     "slug": "transitional-affinity",

@@ -6,9 +6,28 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> Your last action was a successful anima strike or a strike with an anima weapon.</p><hr><p>The domineering soul within you seeks to vanquish your foes utterly, pushing you to perform feats of strength. When you select this feat, choose one of the following creature abilities. After the required Strike, you can perform the attack action listed at the multi attack penalty of the Strike against the same target. You increase your multi-attack penalty for the action as normal after you make the attack.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Push</strong> You Shove the creature.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Knockdown</strong> You Trip the creature.</p></li><li><p><strong>Grab</strong> You Grapple the creature.</p></li></ul>"
+      "value": "<p><strong>Requirements</strong> Your last action was a successful anima strike or a strike with an anima weapon.</p><hr><p>The domineering soul within you seeks to vanquish your foes utterly, pushing you to perform feats of strength. When you select this feat, choose one of the following creature abilities. After the required Strike, you can perform the attack action listed at the multi attack penalty of the Strike against the same target. You increase your multi-attack penalty for the action as normal after you make the attack.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Push</strong> You @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove} the creature.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Knockdown</strong> You @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip} the creature.</p></li><li><p><strong>Grab</strong> You @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} the creature.</p></li></ul>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Push",
+            "value": "Push"
+          },
+          {
+            "label": "Knockdown",
+            "value": "Knockdown"
+          },
+          {
+            "label": "Grab",
+            "value": "Grab"
+          }
+        ],
+        "flag": "chimerianTactics"
+      }
+    ],
     "slug": "chimerian-tactics",
     "_migration": {
       "version": 0.959,
@@ -38,10 +57,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     },
     "prerequisites": {
       "value": [

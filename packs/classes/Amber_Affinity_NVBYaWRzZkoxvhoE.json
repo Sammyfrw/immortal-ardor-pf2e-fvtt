@@ -6,9 +6,38 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> Once per ten minutes</p><hr><p>As you unleash your anima magic, your body strains to pool its power into the spell. If your next spell is to cast an anima spell, you add the rank of the spell to the spell's damage or healing.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you are currently harmonized, you can expend that state to make this action a free action.</p>"
+      "value": "<p><strong>Frequency</strong> Once per ten minutes </p><hr><p>As you unleash your anima magic, your body strains to pool its power into the spell. If your next spell is to cast an anima spell, you add the rank of the spell to the spell's damage or healing.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you are currently @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized}, you can expend that state to make this action a free action.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "amber-affinity"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:amber-affinity"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      }
+    ],
     "slug": "amber-affinity",
     "_migration": {
       "version": 0.959,

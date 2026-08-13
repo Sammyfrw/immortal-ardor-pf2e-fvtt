@@ -24,24 +24,14 @@
         ],
         "category": "precision",
         "selector": "damage",
-        "value": {
-          "brackets": [
-            {
-              "end": 5,
-              "value": {
-                "diceNumber": 1,
-                "dieSize": "d4"
-              }
-            },
-            {
-              "start": 6,
-              "value": {
-                "diceNumber": 1,
-                "dieSize": "d6"
-              }
-            }
-          ]
-        }
+        "dieSize": "d{actor|flags.pf2e.chimerian.twinMoonStrikeDamage.faces}",
+        "diceNumber": "actor|flags.pf2e.chimerian.twinMoonStrikeDamage.number}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.chimerian.feralRipDamage.faces",
+        "value": "ternary(lt(@actor.level, 6), 4, 6)"
       }
     ],
     "slug": "twin-moon-strike",
@@ -89,9 +79,9 @@
   "_stats": {
     "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "_id": "t6bUuCzDahOaPikN",

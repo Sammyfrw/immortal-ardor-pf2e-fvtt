@@ -8,7 +8,45 @@
       "gm": "",
       "value": "<p><strong>Requirements</strong> You Strike with an anima weapon with the finesse or agile traits or an anima weapon with a range increment against an off-guard creature.</p><hr><p>Your body is a weapon that can rend flesh. When you Strike with the required anima weapon, you deal an additional 1d4 precision damage. This additional damage is not cumulative with any other source of precision damage. This precision damage increases to 1d6 at 6th level.</p><p class=\"MsoNormal\">When you gain the Monster Affinity feature, the requirements for this feat also include Strikes with an anima weapon against creatures that are part of the category of your selected Monster Affinity.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "damage",
+        "option": "feral-rip",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "item:trait:agile",
+              "item:trait:finesse",
+              "ranged"
+            ]
+          },
+          "target:condition:off-guard",
+          "feral-rip"
+        ],
+        "category": "precision",
+        "selector": "damage",
+        "dieSize": "d{actor|flags.pf2e.chimerian.feralRipDamage.faces}",
+        "diceNumber": "{actor|flags.pf2e.chimerian.feralRipDamage.number}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.chimerian.feralRipDamage.faces",
+        "value": "ternary(lt(@actor.level, 6), 4, 6)"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "flags.pf2e.chimerian.feralRipDamage.number",
+        "value": 1
+      }
+    ],
     "slug": "feral-rip",
     "_migration": {
       "version": 0.959,

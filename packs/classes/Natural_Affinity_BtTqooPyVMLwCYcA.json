@@ -52,6 +52,56 @@
           "saving-throw"
         ],
         "uuid": "Compendium.immortal-ardor.classes.Item.If8qBCAotLtBRGuJ"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:bestial-gait",
+          {
+            "or": [
+              "action:feint",
+              "action:make-a-request",
+              "action:demoralize"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:animal",
+              "target:trait:plant",
+              "target:trait:beast"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:eye-of-the-predator",
+          {
+            "or": [
+              "action:seek",
+              "action:track",
+              "action:recall-knowledge"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:animal",
+              "target:trait:plant",
+              "target:trait:beast"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
       }
     ],
     "slug": "natural-affinity",

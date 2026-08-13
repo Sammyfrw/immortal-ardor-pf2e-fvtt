@@ -8,7 +8,17 @@
       "gm": "",
       "value": "<p>Your body rapidly adapts to every injury through the countless experiences of different creatures that have become part of your maelstrom. You gain regeneration 10, which is deactivated by fire and acid. If you have another source of regeneration equal to or greater than 10, you instead increase your total regeneration by 5, and add fire and acid to the list of ways to disable that regeneration.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FastHealing",
+        "value": 10,
+        "type": "regeneration",
+        "deactivatedBy": [
+          "fire",
+          "acid"
+        ]
+      }
+    ],
     "slug": "autoregeneration",
     "_migration": {
       "version": 0.959,

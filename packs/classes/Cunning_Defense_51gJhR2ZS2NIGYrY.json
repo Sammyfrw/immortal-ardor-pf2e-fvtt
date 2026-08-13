@@ -52,6 +52,10 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "selfEffect": {
+      "uuid": "Compendium.immortal-ardor.classes.Item.7dLsA9PAb5ij7Bc6",
+      "name": "Effect: Cunning Defense"
     }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",

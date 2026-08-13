@@ -52,6 +52,56 @@
           "saving-throw"
         ],
         "uuid": "Compendium.immortal-ardor.classes.Item.0Lf5Le3DwlEoVFHe"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:bestial-gait",
+          {
+            "or": [
+              "action:feint",
+              "action:make-a-request",
+              "action:demoralize"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:construct",
+              "target:trait:dragon",
+              "target:trait:elemental"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:eye-of-the-predator",
+          {
+            "or": [
+              "action:seek",
+              "action:track",
+              "action:recall-knowledge"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:dragon",
+              "target:trait:elemental",
+              "target:trait:construct"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
       }
     ],
     "slug": "magical-affinity",

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> You have a creature Grappled or Restrained.</p><hr><p>You try to squeeze the life out of a creature you have grabbed. The creature you have grabbed or restrained must make a basic Fortitude save against your class DC or take damage equal to your Menacing Crush damage. On a failure, the creature becomes Stunned 1, and on a critical failure, the creature becomes Stunned 3. A creature that critically succeeds is immune to becoming stunned from Constricting Crush for 1 minute</p>"
+      "value": "<p><strong>Requirements</strong> You have a creature Grappled or Restrained.</p><hr><p>You try to squeeze the life out of a creature you have grabbed. The creature you have grabbed or restrained must make a basic Fortitude save against your class DC or take damage equal to your @UUID[Compendium.immortal-ardor.classes.gibmTHDmLbHgXyLw]{Menacing Crush} damage. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}, and on a critical failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 3}. A creature that critically succeeds is immune to becoming stunned from Constricting Crush for 1 minute</p>"
     },
     "rules": [],
     "slug": "constricting-crush",
@@ -39,10 +39,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     },
     "prerequisites": {
       "value": [

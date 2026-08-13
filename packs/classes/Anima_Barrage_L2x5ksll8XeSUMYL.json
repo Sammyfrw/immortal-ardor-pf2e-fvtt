@@ -8,7 +8,26 @@
       "gm": "",
       "value": "<p><strong>Requirements</strong> You have a ranged anima weapon.</p><p>You launch two attacks in quick succession at multiple targets with your granted weapons. Make a ranged Strike with the required weapon at two different targets within your first ranged increment. Each of these attacks are made at a -2 penalty and count towards your multi attack penalty, but you do not increase it until after you have made both Strikes.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "anima-barrage",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "anima-barrage",
+          "item:trait:anima"
+        ],
+        "selector": [
+          "spell-attack-roll",
+          "ranged-attack-roll"
+        ],
+        "type": "untyped",
+        "value": -2
+      }
+    ],
     "slug": "anima-barrage",
     "_migration": {
       "version": 0.959,

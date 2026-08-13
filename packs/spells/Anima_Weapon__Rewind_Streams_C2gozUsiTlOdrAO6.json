@@ -14,7 +14,7 @@
         "category": "unarmed",
         "damage": {
           "base": {
-            "damageType": "electric",
+            "damageType": "electricity",
             "dice": 1,
             "die": "d8"
           }
@@ -26,7 +26,7 @@
           "max": 30
         },
         "traits": [
-          "electric",
+          "electricity",
           "magical",
           "unarmed",
           "anima"

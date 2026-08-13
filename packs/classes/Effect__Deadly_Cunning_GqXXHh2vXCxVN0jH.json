@@ -1,19 +1,28 @@
 {
   "folder": "AdmU1DvZ80JPoBv9",
-  "name": "Effect: Harmonizeed",
+  "name": "Effect: Deadly Cunning",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by a Symbiosis effect from the Chimerian class.</p><p>Your next anima spell costs no focus points.</p>"
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.SqsTpCJqmCPyqOdc]{Deadly Cunning}</p><p>You suffer a -2 circumstance bonus to your saving throw.</p>"
     },
-    "rules": [],
-    "slug": "effect-harmonizeed",
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": -2,
+        "type": "circumstance",
+        "selector": [
+          "saving-throw"
+        ]
+      }
+    ],
+    "slug": "effect-deadly-cunning",
     "_migration": {
       "version": 0.959,
       "previous": {
-        "schema": 0.955,
+        "schema": 0.935,
         "foundry": "14.365",
         "system": "8.4.0"
       }
@@ -32,8 +41,8 @@
       "value": 1
     },
     "duration": {
-      "value": 1,
-      "unit": "minutes",
+      "value": 2,
+      "unit": "rounds",
       "expiry": "turn-start",
       "sustained": false
     },
@@ -49,11 +58,7 @@
     "unidentified": false,
     "fromSpell": false
   },
-  "img": "icons/creatures/abilities/wolf-heads-swirl-purple.webp",
-  "ownership": {
-    "default": 0,
-    "xrtJn5KNHicBTyJb": 3
-  },
+  "img": "icons/magic/death/bones-crossed-gray.webp",
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
@@ -63,7 +68,11 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "NGV2AemOug2Rj21M",
-  "sort": 200000,
-  "_key": "!items!NGV2AemOug2Rj21M"
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "GqXXHh2vXCxVN0jH",
+  "sort": 0,
+  "_key": "!items!GqXXHh2vXCxVN0jH"
 }

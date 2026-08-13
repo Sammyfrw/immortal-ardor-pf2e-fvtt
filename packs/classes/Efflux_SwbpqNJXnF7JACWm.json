@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You shift and alter your physiology freely, unable to settle on one – a trait that your paired soul delights in. While you are in an Anima Transformation, you can use Synergism again to transform into a different form. If you are Harmonized while in an Anima Transformation, you can expend your harmonized state by spending 3 actions to Cast an Anima spell and use Synergism. Regardless of how you shift from one anima transformation to another, you do not become Harmonized by transforming if you use Synergism in this way.</p>"
+      "value": "<p class=\"MsoNormal\">You shift and alter your physiology freely, unable to settle on one – a trait that your paired soul delights in. While you are in an Anima Transformation, you can use @UUID[Compendium.immortal-ardor.classes.ifUnp1eU5v52xjBW]{Synergism} again to transform into a different form. If you are Harmonized while in an Anima Transformation, you can expend your harmonized state by spending 3 actions to Cast an Anima spell and use Synergism. Regardless of how you shift from one anima transformation to another, you do not become Harmonized by transforming if you use Synergism in this way.</p>"
     },
     "rules": [],
     "slug": "efflux",
