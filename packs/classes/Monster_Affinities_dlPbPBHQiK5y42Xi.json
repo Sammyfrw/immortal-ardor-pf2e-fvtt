@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "hyq99xwaKr1KNdEg",
+  "name": "Monster Affinities",
+  "color": null,
+  "sorting": "a",
+  "_id": "dlPbPBHQiK5y42Xi",
+  "description": "",
+  "sort": 500000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!dlPbPBHQiK5y42Xi"
+}

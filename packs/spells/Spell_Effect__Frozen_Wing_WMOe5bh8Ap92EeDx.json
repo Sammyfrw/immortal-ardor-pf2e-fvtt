@@ -1,0 +1,95 @@
+{
+  "folder": "Qxbgkg5BWqyOZ3gr",
+  "img": "icons/creatures/birds/dove-pigeon-flying-white.webp",
+  "name": "Spell Effect: Frozen Wing",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.bk4RKnTGoFkpsRPe]{Frozen Wing}</p><p>Your Frozen Wing anima strike attack gains the versatile cold trait. On a hit, a creature gains a -10-foot status penalty to their speeds. @UUID[Compendium.immortal-ardor.spells.I4PsUAaYSUJ8pwKC]{Hampered} On a critical hit, they also need to make a Fortitude saving throw against your anima DC or become @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p><p></p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "attack",
+        "text": "On a hit, a creature gains a -10-foot status penalty to their speeds for 1 round. @UUID[Compendium.immortal-ardor.spells.I4PsUAaYSUJ8pwKC]{Hampered}",
+        "title": "{item|name}",
+        "outcome": [
+          "success"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "attack"
+        ],
+        "text": "On a critical hit, they also need to make a Fortitude saving throw against your anima DC or become @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.",
+        "title": "{item|name}",
+        "outcome": [
+          "criticalSuccess"
+        ]
+      },
+      {
+        "definition": [
+          "item:slug:anima-weapon-wing"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "versatile-cold"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-frozen-wing",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "WMOe5bh8Ap92EeDx",
+  "sort": 100000,
+  "_key": "!items!WMOe5bh8Ap92EeDx"
+}

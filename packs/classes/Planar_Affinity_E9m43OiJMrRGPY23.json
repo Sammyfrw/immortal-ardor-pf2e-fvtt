@@ -1,0 +1,170 @@
+{
+  "folder": "dlPbPBHQiK5y42Xi",
+  "name": "Planar Affinity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Planar Affinity consists of creatures of the Celestial, Monitor, or Fiend families. When you cast an anima spell with a trait that matches a family in the category you selected, you gain a +2 circumstance bonus to attack rolls and class DC against creatures with the same traits in that category.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "target:trait:celestial",
+              "target:trait:monitor",
+              "target:trait:fiend"
+            ]
+          },
+          {
+            "or": [
+              "item:tag:anima-family-celestial",
+              "item:tag:anima-family-monitor",
+              "item:tag:anima-family-fiend",
+              "unchained-affinity:planar"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 2,
+        "selector": [
+          "attack-roll"
+        ]
+      },
+      {
+        "key": "EphemeralEffect",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "item:tag:anima-family-celestial",
+              "item:tag:anima-family-fiend",
+              "item:tag:anima-family-monitor",
+              "unchained-affinity:planar"
+            ]
+          }
+        ],
+        "selectors": [
+          "saving-throw"
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.OXJ9DVhbuviGo9sh"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:bestial-gait",
+          {
+            "or": [
+              "action:feint",
+              "action:make-a-request",
+              "action:demoralize"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:celestial",
+              "target:trait:monitor",
+              "target:trait:fiend"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:eye-of-the-predator",
+          {
+            "or": [
+              "action:seek",
+              "action:track",
+              "action:recall-knowledge"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:celestial",
+              "target:trait:monitor",
+              "target:trait:fiend"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
+      }
+    ],
+    "slug": "planar-affinity",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "monster-affinity"
+      ],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/creatures/unholy/demon-winged-horned-orange.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "E9m43OiJMrRGPY23",
+  "sort": 50000,
+  "_key": "!items!E9m43OiJMrRGPY23"
+}

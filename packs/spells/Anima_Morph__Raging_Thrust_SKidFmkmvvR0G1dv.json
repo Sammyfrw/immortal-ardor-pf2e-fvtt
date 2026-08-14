@@ -1,0 +1,95 @@
+{
+  "folder": "sMQseATcqm4xvYTF",
+  "name": "Anima Morph: Raging Thrust",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">From @UUID[Compendium.immortal-ardor.spells.sHN7DZVsuMvJFCqP]{Raging Thrust}</p><p class=\"MsoNormal\"><strong>Anima Morph </strong>Large; Horned ungulate beast; 30 feet land</p>"
+    },
+    "rules": [
+      {
+        "hasHands": true,
+        "key": "BattleForm",
+        "ownUnarmed": true,
+        "overrides": {
+          "armorClass": {
+            "modifier": "max(@actor.attributes.classDC.dc,(10+@actor.system.proficiencies.defenses.unarmored.value+@actor.system.abilities.dex.mod))"
+          },
+          "size": "lg",
+          "speeds": {
+            "land": 30
+          },
+          "traits": [
+            "beast"
+          ]
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.spells.Item.gFWrmb8P15pZc6bb"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.spells.Item.jqFNcI2MnhT5XRqJ"
+      }
+    ],
+    "slug": "anima-morph-raging-thrust",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "SKidFmkmvvR0G1dv",
+  "sort": 0,
+  "_key": "!items!SKidFmkmvvR0G1dv"
+}

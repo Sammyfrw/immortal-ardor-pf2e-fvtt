@@ -1,0 +1,84 @@
+{
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Amber Anima Expertise",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">The Maelstrom’s orange hues are affiliated with the physical aspect of your transformation. Your body has grown strong to sustain the changes made by anima. Your unarmed attack proficiency increases to expert, which includes attacks made by your anima weapons. When you critically hit with an anima weapon attack, it gains the benefits of the Brawling critical specialization effect. If the attack deals a different type of damage other than physical, it could conditionally benefit from another type of effect instead.</p>"
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "origin:trait:anima"
+        ]
+      }
+    ],
+    "slug": "amber-anima-expertise",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "unarmed": {
+          "rank": 2
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/nature/wolf-paw-glow-orange.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "aoOXEP5RdQCtFWjV",
+  "sort": 300000,
+  "_key": "!items!aoOXEP5RdQCtFWjV"
+}

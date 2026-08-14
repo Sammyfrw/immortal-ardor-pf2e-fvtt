@@ -54,6 +54,7 @@
       "Catalyze": "Catalyze",
       "Catalyze1": "Catalyze 1",
       "Chaos": "Chaos",
+      "Chimerian": "Chimerian",
       "ComboAcid": "Combo Acid",
       "ComboCold": "Combo Cold",
       "ComboElectricity": "Combo Electricity",
@@ -62,6 +63,7 @@
       "ComboSpirit": "Combo Spirit",
       "Constellation": "Constellation",
       "Covenant": "Covenant",
+      "Defend": "Defend",
       "Dervish": "Dervish",
       "Diviner": "Diviner",
       "Drachiri": "Drachiri",
@@ -90,7 +92,6 @@
       "Pinotr": "Pinotr",
       "Sapien": "Sapien",
       "Soulforged": "Soulforged",
-      "Soulreaver": "Soulreaver",
       "Symbiosis": "Symbiosis",
       "Spellcrux": "Spellcrux",
       "Telluric": "Telluric",
@@ -105,7 +106,7 @@
     "TraitDescription": {
       "Artifex": "This indicates abilities from the Artifex class.",
       "Aelkhazak": "A creature with this trait is a member of the aelkhazak ancestry. These snake-like creatures come from aquatic environments, but are capable of inhabiting land.",
-      "Anima": "An option with the Anima trait relates to the natural power inherrent in the soul or a similar magical force that animates a nonliving creature such as a construct or undead. Anima spells or abilities come naturally to some creatures, while others either create facsimiles or borrow it from these creatures.",
+      "Anima": "An option with the Anima trait relates to the natural power inherrent in the soul or a similar magical force that animates a nonliving creature such as a construct or undead. Anima spells or abilities come naturally to some creatures, while others either create facsimiles or borrow it from these creatures. They are almost always affiliated with the origin creature's family.",
       "Ascended": "Options with this trait grant or utilize ascendancy. A creature with the ascended trait has exceeded their natural limitations, either in mind, body or soul. They are more powerful than typical creatures of their level. Feats and spells with this trait can only be taken by characters who have gained ascendency.",
       "Astral": "Effects with the Astral trait are tied to the mana forces of the astral planes. They often have stronger effects on telluric creatures. Creatures with this trait are tied to the workings of the astral planes and often have weakness to telluric.",
       "Agamidan": "A creature with this trait is a member of the agamidan ancestry. These repitillian humanoids have existed in Ardor for millenia, hailing from the desert lands of Eirlangga.",
@@ -117,9 +118,11 @@
       "Catalyze": "Actions with the catalyze trait indicate an alternate effect when activating an ephemeral catalyst to change a spell about to be cast. When you Activate the catalyst through the action, you use the action’s listed changes to the spell rather than the ephemeral catalyst’s regular effects. If a number follows the Catalyze trait, you add the number of actions required to activating the Ephemeral Catalyst. The action might also list additional effects you can choose to add if have the Enhanced Catalyst or Visionary Catalyst feature.",
       "Catalyze1": "Actions with the catalyze trait indicate an alternate effect when activating an ephemeral catalyst to change a spell about to be cast. When you Activate the catalyst through the action, you use the action’s listed changes to the spell rather than the ephemeral catalyst’s regular effects. If a number follows the Catalyze trait, you add the number of actions required to activating the Ephemeral Catalyst. The action might also list additional effects you can choose to add if have the Enhanced Catalyst or Visionary Catalyst feature.",
       "Chaos": "Effects with the Chaos trait are tied to the universal concepts of anarchy, disrupting order and fate. They often have stronger effects on axiomatic creatures. Creatures with this trait are emblematic of anarchic forces and often have weakness to order.",
+      "Chimerian": "This indicates abilities from the Chimerian class.",
       "Combo": "A weapon with the Combo trait has latent power or a mechanism to deal additional damage of the type listed in the trait. After a successful strike with the weapon, the next Strike they make before the end of their next turn gains the versatile damage trait of that type.",
       "Constellation": "An option with the Constellation trait borrows power from the constellations in the sky, which reflect the facets of creation and what it stands for. Typically, only asters, practitioners of somnistry, are able to select options with this trait.",
       "Covenant": "An option with the Covenant trait borrows power from the covenants inscribed into the universe's tapestry in the void of oblivion. Only those who can tap into or have been sworn into the covenants can access its powers and select options with this trait.",
+      "Defend": "An action with the Defend trait indicates abilities featuring a temporary act of defense. This typically comes in the form of a single action conferring a short-term circumstance bonus to AC or saving throw that lasts no more than until the start of the next turn of the character that used it. When an effect or another action calls for use of a Defend action or spell, you can take any Defend ability you have access unless it explicitly specifies that is the only action you can take.",
       "Dervish": "This indicates abilities from the Dervish class.",
       "Diviner": "This indicates abilities from the Diviner class.",
       "Drachiri": "Drachiri are draconic creatures of ether, empowered with the full array of telluric might and magic. Their family includes true drachiri and any of their magically created descendants.",
@@ -145,9 +148,8 @@
       "Pinotr": "A creature with this trait is a member of the pinotr ancestry. Humanoids who live on land but not too far from the water and capable of holding their breath for extended periods, they have a dependency on nature to provide, and rapidly expand wherever they settle.",
       "Sapien": "A creature with this trait is a member of the sapien ancestry. These are resilient humanoids who could historically thrive in just about any climate and are naturally resistant to disease, and have spread all over Ardor. As diverse as they are plentiful, they share spaces with almost every ancestry in Ardor.",
       "Soulforged": "Items with the soulforged trait are either weapons crafted in the primal plane imbued with astral essences, or weapons crafted in the astral plane imbued with primal essences, created through the process of soulforging. A soul is often a core component of this process, and is consumed in its creation. Soulforged weapons also frequently have the Unholy trait.",
-      "Soulreaver": "This indicates abilities from the Soulreaver class.",
       "Spellcrux": "A weapon with the spellcrux trait can take on the powers of a charged staff, and act like a staff to cast spells from it. The weapon either has a spell list of its own like a staff would, or if not, a spellcaster charging a staff can transfer its powers to a spellcrux weapon, transferring all spells and charges for the day into it.",
-      "Symbiosis": "A feat or action with the Symbiosis trait denotes a soulreaver action that both twin souls will take in tandem. Typically this requires both souls to be conscious and aware of the action being done, and depending on the outcome provides a way for the souls to realign and recover a focus point.",
+      "Symbiosis": "An option with the symbiosis trait indicates an action or activity that can align a chimerian’s twin souls to acting in tandem. If you meet the requirements listed by the action, your souls harmonize; this grants the chimerian the ability to cast an anima spell without expending a focus point. This benefit lasts for one minute or until it is used.",
       "Telluric": "Effects with the Telluric trait are tied to the etheric forces of the primal planes. They often have stronger effects on astral creatures. Creatures with this trait are tied to the workings of the primal planes and often have weakness to astral.",
       "Therian": "A creature with the Therian trait has their soul changed in some way than typical creatures of their kind. Ancestral therians are those whose souls have been shaped by strong spiritual or planar influences, while true therians are those whose souls are eroded due to the presence of another soul interfering with theirs.",
       "Union": "A weapon with the union trait is a 1+-handed weapon that is a combination of two separate paired weapons. When wielded in both hands, it is considered as if you were dual wielding two separate weapons for the purposes of meeting requirements of feats and actions that require weapons in separate hands. As a single interact action, it can be separated into two identical one-handed weapons with the same damage types, properties and traits as the weapon except for this trait, and they both gain the Twin trait. When separated in this way, you choose which of the two halves gains the benefits of any runes inscribed on the weapon. If you wield both halves at once, the half you did not choose replicates any runes from the main half. The two halves can be recombined with another interact action.",
@@ -349,6 +351,49 @@
             "Description": "Your spells are veiled and gain the illusion trait. If your spells require a spell attack, compare the attack roll to a creature's Perception DC. If they require a saving throw, targeted creatures need to make a Seek check before rolling their saving throw. @UUID[Compendium.immortal-ardor.classes.Item.cyjCynzHF2FshKa6]{Spell Effect: Stippling Shades (Target)}",
             "Description8thRank": "Your spells are veiled and gain the illusion trait. If your spells require a spell attack, compare the attack roll to a creature's Perception DC. If they require a saving throw, targeted creatures need to make a Seek check before rolling their saving throw. @UUID[Compendium.immortal-ardor.classes.Item.cyjCynzHF2FshKa6]{Spell Effect: Stippling Shades (Target)}"
           }
+        }
+      },
+      "Chimerian": {
+        "MonsterAffinity": {
+          "Label": "Monster Affinity",
+          "PromptText": "Select a Monster Affinity."
+        },
+        "UnchainedAffinity": {
+          "EnhanceAffinityLabel": "Enhance an Affinity",
+          "MonsterAffinityLabel": "New Monster Affinity",
+          "PromptText": "Select Unchained Affinity Benefit."
+        },
+        "MonsterAffinityList": {
+          "Apocryphal": "Enhanced Apocryphal",
+          "Magical": "Enhanced Magical",
+          "Natural": "Enhanced Natural",
+          "Planar": "Enhanced Planar",
+          "Transitional": "Enhanced Transitional"
+        },
+        "EvolvedMobility": {
+          "BenefitPromptText": "Select your Evolved Mobility Benefit.",
+          "EnhanceMovementLabel": "Enhance a Movement Speed",
+          "NewMovementLabel": "New Movement Speed"
+        },
+        "ShiftingMobility": {
+          "PromptText": "Select a movement speed",
+          "BenefitPromptText": "Select your Shifting Mobility Benefit.",
+          "Land": "Land",
+          "Swim": "Swim",
+          "Climb": "Climb",
+          "Burrow": "Burrow",
+          "Fly": "Fly"
+        },
+        "SymbioticManifestation": {
+          "PromptText": "Select a symbiosis action.",
+          "Predation": "Predation",
+          "Mutualism": "Mutualism",
+          "Synergism": "Synergism",
+          "Mimicry": "Mimicry",
+          "PredationText": "you use Predation, you deal persistent bleed damage or an equivalent damage type if the Strike does not deal physical damage. The damage is equal to 2 plus the number of damage die of the anima weapon attack, including the number of extra damage die from Predation",
+          "MutualismText": "When you use Mutualism, you can Raise a Shield or use a similar Defend action as a free action.",
+          "SynergismText": "When you use Synergism, you can Step, Strike, or Stride as a free action. If your form has another type of movement speed, you can move with those actions instead of a Stride.",
+          "MimicryText": "If you observe a creature using an anima spell, you can use Mimicry against that creature as a reaction."
         }
       }
     }

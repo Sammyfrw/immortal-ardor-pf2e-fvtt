@@ -1,0 +1,170 @@
+{
+  "folder": "dlPbPBHQiK5y42Xi",
+  "name": "Natural Affinity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Natural Affinity consists of creatures of the Animal, Beast or Plant families. When you cast an anima spell with a trait that matches a family in the category you selected, you gain a +2 circumstance bonus to attack rolls and class DC against creatures with the same traits in that category.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "target:trait:animal",
+              "target:trait:plant",
+              "target:trait:beast"
+            ]
+          },
+          {
+            "or": [
+              "item:tag:anima-family-animal",
+              "item:tag:anima-family-plant",
+              "item:tag:anima-family-beast",
+              "unchained-affinity:natural"
+            ]
+          }
+        ],
+        "selector": [
+          "attack-roll"
+        ],
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "key": "EphemeralEffect",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "item:tag:anima-family-animal",
+              "item:tag:anima-family-beast",
+              "item:tag:anima-family-plant",
+              "unchained-affinity:natural"
+            ]
+          }
+        ],
+        "selectors": [
+          "saving-throw"
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.If8qBCAotLtBRGuJ"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:bestial-gait",
+          {
+            "or": [
+              "action:feint",
+              "action:make-a-request",
+              "action:demoralize"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:animal",
+              "target:trait:plant",
+              "target:trait:beast"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:eye-of-the-predator",
+          {
+            "or": [
+              "action:seek",
+              "action:track",
+              "action:recall-knowledge"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:animal",
+              "target:trait:plant",
+              "target:trait:beast"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
+      }
+    ],
+    "slug": "natural-affinity",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "monster-affinity"
+      ],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "BtTqooPyVMLwCYcA",
+  "sort": 100000,
+  "_key": "!items!BtTqooPyVMLwCYcA"
+}

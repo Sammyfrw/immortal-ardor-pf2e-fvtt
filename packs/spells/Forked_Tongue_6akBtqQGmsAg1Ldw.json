@@ -1,0 +1,95 @@
+{
+  "folder": "NHZOFbXOt5yi831B",
+  "name": "Forked Tongue",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Fiend</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.jvc5EUBrdOF8sFdS]{Anima Weapon: Forked Tongue}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.Item.oWToMJV9IRGcrKno]{Anima Morph: Forked Tongue}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.vifYJLHdOjOyXBs1]{Anima Ability: Forked Tongue}</p><hr><p class=\"MsoNormal\">You whisper honeyed words in a fiendish tongue, describing a tempting gamble full of inflated promises. The target must succeed at a Will save against your Anima DC or be tricked into or directly accepting a promise of immediate gain in exchange for a ‘slight burn’, taking 2d4 persistent fire damage. If you instead choose to use a language the target understands, this spell gains the Linguistic trait and the target has a -2 circumstance bonus to their saving throw.</p><p>@UUID[Compendium.immortal-ardor.spells.Item.AXdgb9vqR5bJY0es]{Spell Effect: Forked Tongue}</p><p class=\"MsoNormal\"><strong>Critical Success </strong>The target is unaffected.</p><p class=\"MsoNormal\"><strong>Success </strong>The target does not accept or is not tricked into accepting your bargain, but the contractual words burn them still, taking the fire damage once at the end of their next turn.</p><p class=\"MsoNormal\"><strong>Failure </strong>The target falls for your gamble; they gain a +1 status bonus to their next check within the next minute and then takes the persistent fire damage at the end of their next turn.</p><p class=\"MsoNormal\"><strong>Critical Failure </strong>As failure, but the target misunderstands the terms. They do not gain the bonus and takes the persistent fire damage immediately.</p><p class=\"MsoNormal\"><strong>Heightened (+2)</strong> Increase the persistent fire damage by 2d4.</p>"
+    },
+    "rules": [],
+    "slug": "forked-tongue",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "KJGM4MmZDGMgj1mb": {
+        "formula": "2d4",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": "persistent",
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "6akBtqQGmsAg1Ldw",
+  "sort": 0,
+  "_key": "!items!6akBtqQGmsAg1Ldw"
+}

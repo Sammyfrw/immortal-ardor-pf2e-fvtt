@@ -1,0 +1,181 @@
+{
+  "folder": "gIi4E8Fi9ncxZBgR",
+  "name": "Amalgam Manifestation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your soul is bonded to a domineering, powerful monster. As it tries to wrestle for control over you, your physical form shifts as you evolve together. Amalgam chimerians frequently have internal battles to ensure that they remain in charge and that their monstrous half knows it. As your maelstrom grows, your body changes; your limbs might become scaled or your hands might turn into claws.</p><p class=\"MsoNormal\">Your key attribute is Strength, and you gain the @UUID[Compendium.immortal-ardor.classes.1Hinzfh1KXqAbbil]{Chimerian Weapon} feat twice.</p><p class=\"MsoNormal\">When you gain the @UUID[Compendium.immortal-ardor.classes.SG7YMq3tFT0lmA72]{Azure Anima Expertise} feat, your prowess using chimerian attacks improves. When you Strike with an anima weapon, you deal an additional 2 points of damage. This increases to 4 points when you gain the @UUID[Compendium.immortal-ardor.classes.jeQRAwKLPsyUjz5L]{Amber Anima Mastery} feature. When you gain the @UUID[Compendium.immortal-ardor.classes.KGyerHmxNPD072aB]{Azure Anima Mastery} feature, this bonus damage increases to 6 points. When you gain @UUID[Compendium.immortal-ardor.classes.N4x3d9Kc2Ae08iaZ]{Anima Legend}, it increases to 8.</p><p class=\"MsoNormal\">Your Symbiosis action is @UUID[Compendium.immortal-ardor.classes.gPUpPJbjkOHm9J6T]{Predation}. When you use Predation, you deal persistent bleed damage or an equivalent damage type if the Strike does not deal physical damage. The damage is equal to 2 plus the number of damage die of the anima weapon attack, including the number of extra damage die from Predation.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.gPUpPJbjkOHm9J6T"
+      },
+      {
+        "hideIfDisabled": true,
+        "key": "FlatModifier",
+        "label": "PF2E.WeaponSpecialization",
+        "predicate": [
+          "feature:azure-anima-expertise",
+          "item:tag:anima-weapon"
+        ],
+        "selector": [
+          "attack-damage"
+        ],
+        "slug": "anima-weapon-specialization",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              "15"
+            ]
+          }
+        ],
+        "priority": 0,
+        "slug": "anima-weapon-specialization",
+        "value": 6,
+        "selectors": [
+          "attack-damage"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              "19"
+            ]
+          }
+        ],
+        "priority": 0,
+        "slug": "anima-weapon-specialization",
+        "value": 8,
+        "selectors": [
+          "attack-damage"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              "13"
+            ]
+          }
+        ],
+        "priority": 0,
+        "slug": "anima-weapon-specialization",
+        "value": 4,
+        "selectors": [
+          "attack-damage"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.1Hinzfh1KXqAbbil"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.1Hinzfh1KXqAbbil"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "improved-manifestation:predation"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "improved-manifestation:predation",
+          "item:slug:predation"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Chimerian.SymbioticManifestation.PredationText",
+            "title": "IA.SpecificRule.Chimerian.SymbioticManifestation.Predation"
+          }
+        ]
+      }
+    ],
+    "slug": "amalgam-manifestation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "chimerian-anima-manifestation"
+      ],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "keyOptions": [
+        "str"
+      ]
+    }
+  },
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Ud4BtQoJxrzZHSE9",
+  "sort": 0,
+  "_key": "!items!Ud4BtQoJxrzZHSE9"
+}

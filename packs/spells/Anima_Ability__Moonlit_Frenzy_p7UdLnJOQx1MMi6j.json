@@ -1,0 +1,83 @@
+{
+  "folder": "8aov6KM2sPSGE4is",
+  "name": "Anima Ability: Moonlit Frenzy",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.NRj6U7sRiWCmazho]{Moonlit Frenzy}</p><p><strong>Anima Ability (Apex) </strong>You gain regeneration 15 (deactivated by silver) and weakness 15 to silver.</p>"
+    },
+    "rules": [
+      {
+        "key": "Weakness",
+        "type": "silver",
+        "value": 15
+      },
+      {
+        "key": "FastHealing",
+        "value": 15,
+        "deactivatedBy": [
+          "silver"
+        ],
+        "type": "regeneration"
+      }
+    ],
+    "slug": "anima-ability-moonlit-frenzy",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "p7UdLnJOQx1MMi6j",
+  "sort": 0,
+  "_key": "!items!p7UdLnJOQx1MMi6j"
+}

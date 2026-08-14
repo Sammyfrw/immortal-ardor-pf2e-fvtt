@@ -1,0 +1,91 @@
+{
+  "folder": "RojWU7GMvEiCfWsr",
+  "name": "Predation",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You have at least one anima weapon granted by a spell.</p><hr><p>Your mutated body surges with strength as you lash out at your prey. Make a Strike with one of your anima weapons. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal an extra die of weapon damage. If you’re at least 10th level, increase this to two extra dice, and if you’re at least 18th level, increase it to three extra dice.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized} if you critically hit, if you reduce the target's hit points to 0, if your Strike benefits from your Monster Affinity bonuses, or if your target is suffering from persistent damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "domain": "damage",
+        "key": "RollOption",
+        "option": "predation",
+        "toggleable": true
+      },
+      {
+        "diceNumber": "ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,10),2,1))",
+        "key": "DamageDice",
+        "predicate": [
+          "predation",
+          "item:trait:anima"
+        ],
+        "selector": "strike-damage"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "strike-damage"
+        ],
+        "value": "ternary(gte(@actor.level,18),5,ternary(gte(@actor.level,10),4,3))",
+        "damageCategory": "persistent",
+        "damageType": "bleed",
+        "predicate": [
+          "item:trait:anima",
+          "improved-manifestation:predation"
+        ]
+      }
+    ],
+    "slug": "predation",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "flourish",
+        "symbiosis"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "gPUpPJbjkOHm9J6T",
+  "sort": 400000,
+  "_key": "!items!gPUpPJbjkOHm9J6T"
+}

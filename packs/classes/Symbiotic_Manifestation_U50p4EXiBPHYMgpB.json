@@ -1,0 +1,126 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Symbiotic Manifestation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You and your monstrous other have had a journey to grow and develop your relationship, sparking new dynamics. Choose another anima manifestation other than the one you have. You gain the symbiosis action granted by that manifestation, but no other benefits from it.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Chimerian.SymbioticManifestation.Predation",
+            "value": "Compendium.immortal-ardor.classes.Item.gPUpPJbjkOHm9J6T",
+            "predicate": [
+              {
+                "not": "feature:amalgam-manifestation"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.SymbioticManifestation.Mutualism",
+            "value": "Compendium.immortal-ardor.classes.Item.L60beTl6ZFbKIr5F",
+            "predicate": [
+              {
+                "not": "feature:azure-blade-manifestation"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.SymbioticManifestation.Synergism",
+            "value": "Compendium.immortal-ardor.classes.Item.ifUnp1eU5v52xjBW",
+            "predicate": [
+              {
+                "not": "feature:morpher-manifestation"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.SymbioticManifestation.Mimicry",
+            "value": "Compendium.immortal-ardor.classes.Item.VHtOtpenBtap7Ftn",
+            "predicate": [
+              {
+                "not": "feature:morpher-manifestation"
+              }
+            ]
+          }
+        ],
+        "flag": "symbioticManifestation",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Chimerian.SymbioticManifestation.PromptText"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.symbioticManifestation}"
+      }
+    ],
+    "slug": "symbiotic-manifestation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Anima Manifestation"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "U50p4EXiBPHYMgpB",
+  "sort": 700000,
+  "_key": "!items!U50p4EXiBPHYMgpB"
+}

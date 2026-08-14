@@ -1,0 +1,102 @@
+{
+  "folder": "2VqSgz1WEe5TW6tv",
+  "name": "Anima Weapon: Astral Lance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.yMW39sCsHzycE5VA]{Astral Lance}</p><p><strong>Anima Weapon</strong>: Spectral weapon (melee, 1d6 slashing, magical, versatile b p, unarmed)</p>"
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "img": "icons/skills/melee/blade-tip-orange.webp",
+        "group": "brawling",
+        "label": "Anima Weapon: Spectral Weapon",
+        "traits": [
+          "versatile-p",
+          "versatile-b",
+          "magical",
+          "unarmed",
+          "anima"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "other-tags",
+        "value": "anima-family-astral",
+        "fromEquipment": false,
+        "itemType": "weapon",
+        "predicate": [
+          "item:slug:anima-weapon-spectral-weapon"
+        ]
+      }
+    ],
+    "slug": "anima-weapon-astral-lance",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "uwDCWTcZ8o5nvR79",
+  "sort": 0,
+  "_key": "!items!uwDCWTcZ8o5nvR79"
+}

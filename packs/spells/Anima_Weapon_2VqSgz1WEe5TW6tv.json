@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "xl644PPvOOBMre0O",
+  "name": "Anima Weapon",
+  "color": null,
+  "sorting": "a",
+  "_id": "2VqSgz1WEe5TW6tv",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!2VqSgz1WEe5TW6tv"
+}

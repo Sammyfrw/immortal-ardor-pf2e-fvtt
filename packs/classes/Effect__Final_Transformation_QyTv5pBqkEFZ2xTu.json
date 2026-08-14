@@ -1,0 +1,118 @@
+{
+  "folder": "AdmU1DvZ80JPoBv9",
+  "name": "Effect: Final Transformation",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From @UUID[Compendium.immortal-ardor.classes.XCOyEzauJAGF9lHe]{Final Transformation}</p><p>You become Huge. You gain a +4 status bonus to your damage rolls and gain resistance 5 to all damage, have regeneration 10 (deactivated by fire and acid), and your reach is increased by 10 feet. You are also always @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized} in this form. You can use your known chimerian feats and can cast all the anima spells you have prepared as normal. As long as one spell you have prepared lists it in its anima morph entry, you gain 25 feet of a movement speed you do not have or if it is lower.</p><p>However, the strain of being in this form can mortally tax you; after the first 3 rounds starting on the 4th, you begin accruing the @UUID[Compendium.pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded} condition, gaining it if you do not have it and incrementing it by 1 if you do for each round after, up to the amount that would instantly kill you if you were to become @UUID[Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying} (though your regeneration, unless deactivated, will only allow you to remain at dying 3). Your transformation ends when you Dismiss it, when you would die, or when the duration elapses. When it ends, you become @UUID[Compendium.pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued}.</p><p class=\"MsoNormal\"></p><p></p>"
+    },
+    "rules": [
+      {
+        "hasHands": true,
+        "key": "BattleForm",
+        "ownUnarmed": true,
+        "overrides": {
+          "armorClass": {
+            "modifier": "max(@actor.attributes.classDC.dc,(10+@actor.system.proficiencies.defenses.unarmored.value+@actor.system.abilities.dex.mod))"
+          },
+          "size": "sm",
+          "speeds": {
+            "land": 15,
+            "swim": 30
+          },
+          "traits": [
+            "animal"
+          ]
+        }
+      },
+      {
+        "key": "FastHealing",
+        "value": 10,
+        "type": "regeneration",
+        "deactivatedBy": [
+          "fire",
+          "acid"
+        ]
+      },
+      {
+        "key": "CreatureSize",
+        "reach": {
+          "override": 15
+        },
+        "resizeEquipment": true,
+        "value": "huge"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.NGV2AemOug2Rj21M",
+        "allowDuplicate": false
+      },
+      {
+        "key": "FlatModifier",
+        "value": 4,
+        "type": "status",
+        "selector": [
+          "damage-rolls"
+        ]
+      }
+    ],
+    "slug": "effect-final-transformation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "QyTv5pBqkEFZ2xTu",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "sort": 200000,
+  "_key": "!items!QyTv5pBqkEFZ2xTu"
+}

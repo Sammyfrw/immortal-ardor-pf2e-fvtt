@@ -1,0 +1,65 @@
+{
+  "folder": "G2TUCMwBFoaNOsgk",
+  "img": "icons/magic/death/undead-ghosts-trio-blue.webp",
+  "name": "Spell Effect: Pilfer Shadow",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.y0RTLH8VEIv1XwnD]{Pilfer Shadow}</p><p>You have stolen a creature's shadow. They do not cast a shadow for the duration, while their shadow cloaks around you and makes the space you're in count as magical dim light if it is in bright light, or darkness if it is in dim light. If the darkness is counteracted, this spell ends.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-pilfer-shadow",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "HfkFAWMSH5awaODU",
+  "sort": 0,
+  "_key": "!items!HfkFAWMSH5awaODU"
+}

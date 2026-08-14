@@ -1,0 +1,83 @@
+{
+  "folder": "AdmU1DvZ80JPoBv9",
+  "name": "Effect: Magical Affinity Weakness (Ephemeral)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Ephemeral effect for a Chimerian's @UUID[Compendium.immortal-ardor.classes.pV8wTfZF9lk00V7j]{Monster Affinity}</p><p>The Chimerian's save DC is 2 greater because you are making a saving throw against an anima effect that is strong against your creature family.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "self:trait:dragon",
+              "self:trait:elemental",
+              "self:trait:construct"
+            ]
+          }
+        ],
+        "selector": [
+          "saving-throw"
+        ],
+        "value": -2,
+        "label": "Magical Affinity Weakness (DC+2)"
+      }
+    ],
+    "slug": "effect-magical-affinity-weakness-ephemeral",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "0Lf5Le3DwlEoVFHe",
+  "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0Lf5Le3DwlEoVFHe"
+}

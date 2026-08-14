@@ -1,0 +1,248 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Shifting Mobility",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As your maelstrom contains the remnants of the souls of various creatures, your other half makes slight alterations to your body to gain some of their modes of locomotion. During your daily preparations, select an anima spell you have prepared for the day that has a movement speed listed in their anima morph property. If it lists multiple speeds, choose one. Until your next daily preparations, you gain a +5 status bonus to that speed if you have it, or you gain a 5-foot speed of that type if you do not have it. If you would gain or lose a movement type you do not have during the day, such as if you would benefit from a spell that grants you a swim speed, this feat retroactively applies to the gained or lost movement type.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Chimerian.EvolvedMobility.EnhanceMovementLabel",
+            "value": "enhance-movement"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.EvolvedMobility.NewMovementLabel",
+            "value": "new-movement"
+          }
+        ],
+        "flag": "shiftingMobilityChoice",
+        "rollOption": "shifting-mobility-choice",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Chimerian.ShiftingMobility.BenefitPromptText"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Land",
+            "value": "land"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Swim",
+            "value": "swim"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Climb",
+            "value": "climb"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Burrow",
+            "value": "burrow"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Fly",
+            "value": "fly"
+          }
+        ],
+        "predicate": [
+          "shifting-mobility-choice:enhance-movement"
+        ],
+        "prompt": "IA.SpecificRule.Chimerian.ShiftingMobility.PromptText",
+        "flag": "enhancedMovementSpeed",
+        "rollOption": "shifting-mobility-enhanced-speed"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Land",
+            "value": "land"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Swim",
+            "value": "swim"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Climb",
+            "value": "climb"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Burrow",
+            "value": "burrow"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Fly",
+            "value": "fly"
+          }
+        ],
+        "predicate": [
+          "shifting-mobility-choice:new-movement"
+        ],
+        "prompt": "IA.SpecificRule.Chimerian.ShiftingMobility.PromptText",
+        "flag": "newMovementSpeed",
+        "rollOption": "shifting-mobility-new-speed"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 5,
+        "type": "status",
+        "selector": [
+          "land-speed"
+        ],
+        "predicate": [
+          "shifting-mobility-enhanced-speed:land"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": 5,
+        "type": "status",
+        "predicate": [
+          "shifting-mobility-enhanced-speed:fly"
+        ],
+        "selector": [
+          "fly-speed"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": 5,
+        "type": "status",
+        "predicate": [
+          "shifting-mobility-enhanced-speed:burrow"
+        ],
+        "selector": [
+          "burrow-speed"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": 5,
+        "type": "status",
+        "predicate": [
+          "shifting-mobility-enhanced-speed:swim"
+        ],
+        "selector": [
+          "swim-speed"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": 5,
+        "type": "status",
+        "selector": [
+          "climb-speed"
+        ],
+        "predicate": [
+          "shifting-mobility-enhanced-speed:climb"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "land",
+        "value": 5,
+        "predicate": [
+          "shifting-mobility-new-speed:land"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "burrow",
+        "value": 5,
+        "predicate": [
+          "shifting-mobility-new-speed:burrow"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 5,
+        "predicate": [
+          "shifting-mobility-new-speed:climb"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 5,
+        "predicate": [
+          "shifting-mobility-new-speed:swim"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 5,
+        "predicate": [
+          "shifting-mobility-new-speed:fly"
+        ]
+      }
+    ],
+    "slug": "shifting-mobility",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "morph"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "58xcJfvCMkDiqSKJ",
+  "sort": 500000,
+  "_key": "!items!58xcJfvCMkDiqSKJ"
+}

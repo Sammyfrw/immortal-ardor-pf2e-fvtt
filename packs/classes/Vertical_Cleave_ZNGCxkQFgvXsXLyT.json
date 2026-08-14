@@ -1,0 +1,73 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Vertical Cleave",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You have a melee anima weapon that does not have the agile or finesse traits.</p><hr><p>You leverage your powerful transformation to break through an enemy’s defenses. Your next Strike by the end of your turn with the required anima weapon ignores up to 5 of the target’s hardness or physical resistances or circumstance bonuses they have from a Shield or similar defensive action with the Defend trait. At 12th level, you ignore up to 10 hardness and physical resistances. This bonus can also apply to an anima spell that requires you to make a melee Anima Strike with a weapon that meets the requirements.</p>"
+    },
+    "rules": [],
+    "slug": "vertical-cleave",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ZNGCxkQFgvXsXLyT",
+  "sort": 0,
+  "_key": "!items!ZNGCxkQFgvXsXLyT"
+}

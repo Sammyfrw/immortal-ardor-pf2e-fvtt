@@ -1,0 +1,87 @@
+{
+  "folder": "CaADKqPPtYumyIdG",
+  "name": "Mental Link",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Construct</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.l2pPrYeqsbXVXQw4]{Anima Weapon: Mental Link}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.ytQIRSWF8wBWSYWy]{Anima Morph: Mental Link}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.Item.xYPmGKKOhZr0hgKf]{Anima Ability: Mental Link}</p><hr><p class=\"MsoNormal\">You form a mental connection with a creature. For the duration, you and your target can take a concentrate action to impart information telepathically in an instant, typically what could be conveyed by senses or communication in 10 seconds. If either of you are unable to act or use concentrate actions, or go beyond 300 feet of each other without dismissing the spell, the connection erupts into mental feedback and you and your target take 1d10 mental damage and the spell ends. You can Dismiss this spell.</p><p class=\"MsoNormal\"> @UUID[Compendium.immortal-ardor.spells.Item.xyN2afeYPtpAcvDi]{Spell Effect: Mental Link}</p><p class=\"MsoNormal\"><strong>Heightened (4th) </strong>You or your ally can convey a minute’s worth of information when you take this action.</p><p class=\"MsoNormal\"><strong>Heightened (8th) </strong>You can increase the number of targets to 5 willing creatures. When any target imparts information, that information is given to all linked creatures.</p>"
+    },
+    "rules": [],
+    "slug": "mental-link",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "concentrate",
+        "focus",
+        "healing",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 willing creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "10 minutes",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {},
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {},
+      "area": 0
+    }
+  },
+  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "IQOMkPCQHvg37RgY",
+  "sort": 0,
+  "_key": "!items!IQOMkPCQHvg37RgY"
+}

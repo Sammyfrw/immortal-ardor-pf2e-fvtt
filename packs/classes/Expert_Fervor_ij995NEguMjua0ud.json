@@ -46,7 +46,15 @@
         }
       ]
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "dervish": {
+          "rank": 2,
+          "attribute": null
+        }
+      }
+    }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
   "sort": 1200000,
@@ -58,9 +66,9 @@
   "_stats": {
     "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
     "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "_id": "ij995NEguMjua0ud",

@@ -1,0 +1,96 @@
+{
+  "folder": "NueyPVEalPG7jt9s",
+  "name": "Anima Morph: Hydroveil",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>From @UUID[Compendium.immortal-ardor.spells.ve6Pio7roRWJB3lC]{Hydroveil}</p><p><strong>Anima Morph</strong> Small; Aquatic animal; 15 feet land, 30 feet swim</p>"
+    },
+    "rules": [
+      {
+        "hasHands": true,
+        "key": "BattleForm",
+        "ownUnarmed": true,
+        "overrides": {
+          "armorClass": {
+            "modifier": "max(@actor.attributes.classDC.dc,(10+@actor.system.proficiencies.defenses.unarmored.value+@actor.system.abilities.dex.mod))"
+          },
+          "size": "sm",
+          "speeds": {
+            "land": 15,
+            "swim": 30
+          },
+          "traits": [
+            "animal"
+          ]
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.spells.Item.fYGla3CNY8PG8hV4"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.spells.Item.RhQja0RUVAVtNtzX"
+      }
+    ],
+    "slug": "anima-morph-hydroveil",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/creatures/fish/fish-marlin-swordfight-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "QyTv5pBqkEFZ2xTu",
+  "sort": 250000,
+  "_key": "!items!QyTv5pBqkEFZ2xTu"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "xl644PPvOOBMre0O",
+  "name": "Anima Ability",
+  "color": null,
+  "sorting": "a",
+  "_id": "EGcmbR0zcBIZ8c1W",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!EGcmbR0zcBIZ8c1W"
+}

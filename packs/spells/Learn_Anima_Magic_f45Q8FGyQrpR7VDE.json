@@ -1,0 +1,56 @@
+{
+  "name": "Learn Anima Magic",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You have the capability to interact with a soul to draw out its power, and it is a soul that possesses anima magic, even if it cannot use it.</p><hr><p class=\"MsoNormal\">You try and draw out anima from a soul you have access to and gain a new anima spell from it.</p><p class=\"MsoNormal\">Learning new anima magic is like @UUID[Compendium.pf2e.actionspf2e.Q5iIYCFdqJFM31GW]{Learning a Spell}, but from a creature’s soul. Feats that affect the skill checks and outcomes for Learning a Spell typically affect Learning Anima Magic, but not the other way around. The soul you learn from must be of your level or lower, and you take half the creature's level (rounded down) as the spell’s rank for the length of time needed to learn the spell and the cost. You use various reagents, rituals, or meditation for the process, which makes up the material cost of learning a new power. For the skill check, use the magical skill appropriate to a Recall Knowledge check on the creature.</p><p class=\"MsoNormal\">If you are successful, prior to the regular outcomes of Learning a Spell you also learn crucial information about the creature the soul came from, as if you successfully @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recalled Knowledge}. In addition, you identify any anima magic the creature has or could have, based on the creature’s family and subfamily (see Anima Magic for a list of spells creature families possess). You then select one spell from their list of anima magic whose rank is at least half of your level rounded down, and learn the spell. If you fail, you can try again after a week or after you level, whichever is first. You expend half your materials on a critical failure, as normal for Learning a Spell.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "learn-anima-magic",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "exploration"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "_id": "f45Q8FGyQrpR7VDE",
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!f45Q8FGyQrpR7VDE"
+}

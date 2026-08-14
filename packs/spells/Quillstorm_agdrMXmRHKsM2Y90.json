@@ -1,0 +1,135 @@
+{
+  "folder": "uGkr5OVC8dsMlcfv",
+  "name": "Quillstorm",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Beast</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.5hAcoBiAzPJqawdj]{Anima Weapon: Quillstorm}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.HdYLxsxrETHFQ5G9]{Anima Morph: Quillstorm}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.Item.7giUuQZeG27ktiqf]{Anima Ability: Quillstorm}</p><hr><p class=\"MsoNormal\">You release a storm of magical quills within an area, intending on piercing and puncturing your enemies. Creatures in the area must make a basic Reflex saving throw or take 10d6 piercing damage. Creatures who fail take an additional 2d6 persistent bleed damage, or double on a critical failure.</p><p class=\"MsoNormal\"><strong>Heightened (+1) </strong>The piercing damage increases by 2d6, and the persistent bleed damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "quillstorm",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 30,
+      "type": "cone"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "9tM5CjCizwOnHwWQ": {
+        "formula": "10d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "piercing",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      },
+      "ySnrnOvKnsFLswIn": {
+        "formula": "2d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "bleed",
+        "category": "persistent",
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "9tM5CjCizwOnHwWQ": "2d6",
+        "ySnrnOvKnsFLswIn": "1d6"
+      },
+      "area": 0
+    },
+    "overlays": {
+      "aAtrMxvFrrnsPadP": {
+        "name": "Quillstorm (Emanation)",
+        "system": {
+          "area": {
+            "value": 20,
+            "type": "emanation"
+          },
+          "damage": {
+            "9tM5CjCizwOnHwWQ": {
+              "category": null
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      }
+    }
+  },
+  "img": "icons/creatures/abilities/mouth-teeth-rows-needles-purple.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "agdrMXmRHKsM2Y90",
+  "sort": 0,
+  "_key": "!items!agdrMXmRHKsM2Y90"
+}

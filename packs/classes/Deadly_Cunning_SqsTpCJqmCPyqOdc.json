@@ -1,0 +1,77 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Deadly Cunning",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When the opportunity comes, you and your other half are able to capitalize on any opening as quickly as you can draw your blade. When you use @UUID[Compendium.immortal-ardor.classes.L60beTl6ZFbKIr5F]{Mutualism} to make an attack roll against a creature and the @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} check succeeds (either from your twin soul or from an ally benefiting from your soul’s assistance), the target is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} or takes a -2 circumstance penalty to their saving throw, whichever applies to your attack. </p><p>@UUID[Compendium.immortal-ardor.classes.GqXXHh2vXCxVN0jH]{Effect: Deadly Cunning}</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you have the @UUID[Compendium.immortal-ardor.classes.pE3lHN72V4obx4aA]{Azure Twin} feat, in place of an Aid check you can Strike the target with one of your invested weapons. If the attack hits, the target suffers the penalties as if an Aid check had succeeded. If you make two Strikes with your weapons as part of Mutualism in this way, the second strike’s multi-attack penalty is reduced to -3 (or -2 with an agile attack).</p>"
+    },
+    "rules": [],
+    "slug": "deadly-cunning",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Azure Blade Manifestation"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "SqsTpCJqmCPyqOdc",
+  "sort": 2400000,
+  "_key": "!items!SqsTpCJqmCPyqOdc"
+}

@@ -1,0 +1,90 @@
+{
+  "folder": "ZxyPfFWr3ENdSfJf",
+  "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+  "name": "Spell Effect: Wave of Truth Bonus (Ephemeral)",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.EJIEcU8oasvKQepB]{Wave of Truth}</p><p>The origin of the effect and their allies gain a +1 status bonus to Seek checks and Recall Knowledge checks and double the bonus to their damage rolls against you.<br class=\"Apple-interchange-newline\"></p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": "ternary(gte(@item.level, 9), 3, ternary(gte(@item.level, 5), 2, 1))",
+        "predicate": [
+          {
+            "or": [
+              "action:seek",
+              "action:recall-knowledge"
+            ]
+          }
+        ],
+        "selector": [
+          "check"
+        ],
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "ternary(gte(@item.level, 9), 6, ternary(gte(@item.level, 5), 4, 2))",
+        "type": "status",
+        "selector": [
+          "damage"
+        ]
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-wave-of-truth-bonus-ephemeral",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "MyQRXOzbBQLIJUaL",
+  "sort": 100000,
+  "_key": "!items!MyQRXOzbBQLIJUaL"
+}

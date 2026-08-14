@@ -250,6 +250,24 @@
           "yethyenko": "IA.Language.Yethyenko",
           "zahnheimen": "IA.Language.Zahnheimen"
         },
+        "classTraits": {
+          "artifex": {
+            "label": "IA.Trait.Artifex",
+            "description": "IA.TraitDescription.Artifex"
+          },
+          "chimerian": {
+            "label": "IA.Trait.Chimerian",
+            "description": "IA.TraitDescription.Chimerian"
+          },
+          "dervish": {
+            "label": "IA.Trait.Dervish",
+            "description": "IA.TraitDescription.Dervish"
+          },
+          "diviner": {
+            "label": "IA.Trait.Diviner",
+            "description": "IA.TraitDescription.Diviner"
+          }
+        },
         "creatureTraits": {
           "aelkhazak": {
             "label": "IA.Trait.Aelkhazak",
@@ -426,6 +444,10 @@
             "label": "IA.Trait.Catalyze1",
             "description": "IA.TraitDescription.Catalyze1"
           },
+          "chimerian": {
+            "label": "IA.Trait.Chimerian",
+            "description": "IA.TraitDescription.Chimerian"
+          },
           "constellation": {
             "label": "IA.Trait.Constellation",
             "description": "IA.TraitDescription.Constellation"
@@ -433,6 +455,10 @@
           "covenant": {
             "label": "IA.Trait.Covenant",
             "description": "IA.TraitDescription.Covenant"
+          },
+          "defend": {
+            "label": "IA.Trait.Defend",
+            "description": "IA.TraitDescription.Defend"
           },
           "dervish": {
             "label": "IA.Trait.Dervish",
@@ -486,10 +512,6 @@
             "label": "IA.Trait.Sapien",
             "description": "IA.TraitDescription.Sapien"
           },
-          "soulreaver": {
-            "label": "IA.Trait.Soulreaver",
-            "description": "IA.TraitDescription.Soulreaver"
-          },
           "symbiosis": {
             "label": "IA.Trait.Symbiosis",
             "description": "IA.TraitDescription.Symbiosis"
@@ -512,6 +534,10 @@
           }
         },
         "spellTraits": {
+          "anima": {
+            "label": "IA.Trait.Anima",
+            "description": "IA.TraitDescription.Anima"
+          },
           "artifex": {
             "label": "IA.Trait.Artifex",
             "description": "IA.TraitDescription.Artifex"
@@ -540,6 +566,10 @@
             "label": "IA.Trait.Covenant",
             "description": "IA.TraitDescription.Covenant"
           },
+          "defend": {
+            "label": "IA.Trait.Defend",
+            "description": "IA.TraitDescription.Defend"
+          },
           "dervish": {
             "label": "IA.Trait.Dervish",
             "description": "IA.TraitDescription.Dervish"
@@ -566,65 +596,69 @@
           "twinblade": "IA.WeaponGroups.Twinblade"
         },
         "weaponTraits": {
+          "anima": {
+            "description": "IA.TraitDescription.Anima",
+            "label": "IA.Trait.Anima"
+          },
           "combo-acid": {
-            "label": "IA.Trait.ComboAcid",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboAcid"
           },
           "combo-cold": {
-            "label": "IA.Trait.ComboCold",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboCold"
           },
           "combo-electricity": {
-            "label": "IA.Trait.ComboElectricity",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboElectricity"
           },
           "combo-fire": {
-            "label": "IA.Trait.ComboFire",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboFire"
           },
           "combo-sonic": {
-            "label": "IA.Trait.ComboSonic",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboSonic"
           },
           "combo-spirit": {
-            "label": "IA.Trait.ComboSpirit",
-            "description": "IA.TraitDescription.Combo"
+            "description": "IA.TraitDescription.Combo",
+            "label": "IA.Trait.ComboSpirit"
           },
           "launching": {
-            "label": "IA.Trait.Launching",
-            "description": "IA.TraitDescription.Launching"
+            "description": "IA.TraitDescription.Launching",
+            "label": "IA.Trait.Launching"
           },
           "marine": {
-            "label": "IA.Trait.Marine",
-            "description": "IA.TraitDescription.Marine"
+            "description": "IA.TraitDescription.Marine",
+            "label": "IA.Trait.Marine"
           },
           "nascent-arcane": {
-            "label": "IA.Trait.NascentArcane",
-            "description": "IA.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent",
+            "label": "IA.Trait.NascentArcane"
           },
           "nascent-divine": {
-            "label": "IA.Trait.NascentDivine",
-            "description": "IA.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent",
+            "label": "IA.Trait.NascentDivine"
           },
           "nascent-occult": {
-            "label": "IA.Trait.NascentOccult",
-            "description": "IA.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent",
+            "label": "IA.Trait.NascentOccult"
           },
           "nascent-primal": {
-            "label": "IA.Trait.NascentPrimal",
-            "description": "IA.TraitDescription.Nascent"
+            "description": "IA.TraitDescription.Nascent",
+            "label": "IA.Trait.NascentPrimal"
           },
           "soulforged": {
-            "label": "IA.Trait.Soulforged",
-            "description": "IA.TraitDescription.Soulforged"
+            "description": "IA.TraitDescription.Soulforged",
+            "label": "IA.Trait.Soulforged"
           },
           "spellcrux": {
-            "label": "IA.Trait.Spellcrux",
-            "description": "IA.TraitDescription.Spellcrux"
+            "description": "IA.TraitDescription.Spellcrux",
+            "label": "IA.Trait.Spellcrux"
           },
           "union": {
-            "label": "IA.Trait.Union",
-            "description": "IA.TraitDescription.Union"
+            "description": "IA.TraitDescription.Union",
+            "label": "IA.Trait.Union"
           }
         }
       }

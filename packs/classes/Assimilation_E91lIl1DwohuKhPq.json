@@ -1,0 +1,73 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Assimilation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your maelstrom expands and becomes readily capable of absorbing the anima of souls you devour. Your maelstrom can hold 8 souls instead of 5. When you take ten minutes to Soulreave, you can immediately attempt the check to @UUID[Compendium.immortal-ardor.spells.f45Q8FGyQrpR7VDE]{Learn Anima Magic} without needing to spend extra time, but you must provide the material costs while doing so. On a successful attempt, you learn the new anima spell as normal and consume the soul immediately, and you can swap one of your prepared anima spells with it. If you fail, the soul is held in your Maelstrom as normal and you can attempt to learn the anima spell normally later.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you have the @UUID[Compendium.immortal-ardor.classes.9zxY62PH0dOS7MxQ]{Azure Lore} feat, your @UUID[Compendium.immortal-ardor.classes.E91lIl1DwohuKhPq]{Assimilation} attempt to Learn Anima Magic occurs after taking one minute to Soulreave instead of ten.</p>"
+    },
+    "rules": [],
+    "slug": "assimilation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "E91lIl1DwohuKhPq",
+  "sort": 5000000,
+  "_key": "!items!E91lIl1DwohuKhPq"
+}

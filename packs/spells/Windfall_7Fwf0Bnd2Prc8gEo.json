@@ -1,0 +1,80 @@
+{
+  "folder": "2IUJP0oam5bxeq8D",
+  "name": "Windfall",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Animal</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.0w3nYw0mmRa2ZnUf]{Anima Weapon: Windfall}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.9LP57acmX13eKsSi]{Anima Morph: Windfall}</p><p><strong>Anima Ability </strong>@UUID[Compendium.immortal-ardor.spells.sIiuJAZM48A2B18c]{Anima Ability: Windfall}</p><hr><p class=\"MsoNormal\">You cover yourself in a vortex of wind and feathers. For the duration of the spell, you gain a +2 status bonus to your AC against ranged attacks, and you can choose to reduce the rate of your fall to 60 feet per round. If your fall is slowed, you do not take falling damage when you reach the ground. As a move action on your turn, you can launch yourself with a gust up to 30 feet into the air in any direction. You begin falling at the end of this movement, unless you can fly.</p><p>@UUID[Compendium.immortal-ardor.spells.MH3VWOysJ8XboONX]{Effect: Windfall}</p><p class=\"MsoNormal\"><strong>Heightened (10th) </strong>You can launch yourself up to 60 feet into the air as an action. If you choose to go over 30 feet, you cannot use this action again this turn.</p>"
+    },
+    "rules": [],
+    "slug": "windfall",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "air",
+        "anima",
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "7Fwf0Bnd2Prc8gEo",
+  "sort": 500000,
+  "_key": "!items!7Fwf0Bnd2Prc8gEo"
+}

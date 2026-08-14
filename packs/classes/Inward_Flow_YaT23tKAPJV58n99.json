@@ -1,0 +1,74 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Inward Flow",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you Refocus, you can enter a meditative trance to retreat into the depths of your maelstrom, visualizing it and being in the same space as your chimerian other. This space appears in a way appropriate to you and your twinned soul, and is emblematic of your relationship with each other and can meet together as equals who share the same body.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized} when you Refocus as you explore your relationship with your paired soul, whether it is through commiseration, a shared appreciation for a recent combat, or through a fierce argument. Unlike normal, your souls remain harmonized for 1 hour after your Refocus. At a GM’s discretion, certain actions or lack thereof that cause you and your paired soul to vehemently disagree at fundamental level (typically based on the anima manifestation you have) may require you to roll an appropriate check to harmonize.</p>"
+    },
+    "rules": [],
+    "slug": "inward-flow",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "symbiosis"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "YaT23tKAPJV58n99",
+  "sort": 1700000,
+  "_key": "!items!YaT23tKAPJV58n99"
+}

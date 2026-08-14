@@ -1,0 +1,75 @@
+{
+  "folder": "m7te2kkEAYz6Curm",
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+  "name": "Spell Effect: Forked Tongue",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.6akBtqQGmsAg1Ldw]{Forked Tongue}</p><p>You gain a +1 status bonus to your next check within the next minute in exchange for a 'slight burn'.<br class=\"Apple-interchange-newline\"></p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "status",
+        "selector": [
+          "check"
+        ],
+        "removeAfterRoll": "if-enabled"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-forked-tongue",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "AXdgb9vqR5bJY0es",
+  "sort": 0,
+  "_key": "!items!AXdgb9vqR5bJY0es"
+}

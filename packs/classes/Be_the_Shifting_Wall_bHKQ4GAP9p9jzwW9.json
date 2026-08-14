@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr /><p>You perform the following as you Sustain your Meditation.</p><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\"><span style=\"font-family:Roboto, sans-serif\">You [[/act shove]]{Shove (Athletics)} / [[/act shove statistic=recitation]]{Shove (Recitation)} a creature, and your emanation of whirling sand becomes difficult terrain to your enemies until the start of your next turn.</span></p><p><br class=\"Apple-interchange-newline\" /></p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:'Roboto, sans-serif'\"><span style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em 0px\">You [[/act shove]]{Shove (Athletics)} / [[/act shove statistic=recitation]]{Shove (Recitation)} a creature, and your emanation of whirling sand becomes difficult terrain to your enemies until the start of your next turn.</span></span></p><p><br class=\"Apple-interchange-newline\"></p>",
       "gm": ""
     },
     "publication": {
@@ -48,9 +48,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "_id": "bHKQ4GAP9p9jzwW9",

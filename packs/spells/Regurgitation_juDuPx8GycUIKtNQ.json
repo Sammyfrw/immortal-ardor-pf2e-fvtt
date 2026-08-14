@@ -1,0 +1,99 @@
+{
+  "folder": "RM7p6iVZjIrhvhPj",
+  "name": "Regurgitation",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Aberration</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.om2A5LUzbEaaOkqa]{Anima Weapon: Regurgitation}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.RBUoFmMvlzooleuD]{Anima Morph: Regurgitation}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.Item.9V89DXg3hlfAH2Ey]{Anima Ability: Regurgitation}</p><hr><p class=\"MsoNormal\">You lob sticky stomach acid and bile at a target. Make an anima attack roll against the target. On a hit, you inflict 2d4 acid damage. On a critical hit, the target becomes @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round, unless they Escape against your anima DC.</p><p class=\"MsoNormal\"><strong>Heightened (+1) </strong>You increase the damage dealt by 2d4.</p>"
+    },
+    "rules": [],
+    "slug": "regurgitation",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "acid",
+        "anima",
+        "attack",
+        "concentrate",
+        "focus"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature "
+    },
+    "range": {
+      "value": "60"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "owvsruhaLpf380Lz": {
+        "formula": "2d4",
+        "kinds": [
+          "damage"
+        ],
+        "type": "acid",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "owvsruhaLpf380Lz": "2d4"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/skills/toxins/cauldron-bubbles-overflow-green.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "juDuPx8GycUIKtNQ",
+  "sort": 0,
+  "_key": "!items!juDuPx8GycUIKtNQ"
+}

@@ -1,0 +1,77 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Relentless Predator",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You constantly stalk for anima wherever you go, picking targets constantly. You can change the creature family you choose any time you manage to observe, find tracks or discover the presence of a creature in a different family during your exploration. Once you have changed the creature family you’ve selected, you can’t choose that family again until after the next time you make your daily preparations.</p><p class=\"MsoNormal\">If the creature family you choose for @UUID[Compendium.immortal-ardor.classes.bgBBM7EaFhhnVCI7]{Eye of the Predator} matches that of a family in a Monster Affinity category you have selected, the circumstance bonus increases to +2.</p>"
+    },
+    "rules": [],
+    "slug": "relentless-predator",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Eye of the Predator"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Zl470m0YiC008GBN",
+  "sort": 100000,
+  "_key": "!items!Zl470m0YiC008GBN"
+}

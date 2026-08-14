@@ -1,0 +1,93 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Anima Barrage",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You have a ranged anima weapon.</p><p>You launch two attacks in quick succession at multiple targets with your granted weapons. Make a ranged Strike with the required weapon at two different targets within your first ranged increment. Each of these attacks are made at a -2 penalty and count towards your multi attack penalty, but you do not increase it until after you have made both Strikes.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "anima-barrage",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "anima-barrage",
+          "item:trait:anima"
+        ],
+        "selector": [
+          "spell-attack-roll",
+          "ranged-attack-roll"
+        ],
+        "type": "untyped",
+        "value": -2
+      }
+    ],
+    "slug": "anima-barrage",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian",
+        "flourish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "L2x5ksll8XeSUMYL",
+  "sort": 4700000,
+  "_key": "!items!L2x5ksll8XeSUMYL"
+}

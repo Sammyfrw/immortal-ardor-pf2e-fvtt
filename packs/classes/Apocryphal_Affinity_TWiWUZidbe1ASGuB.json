@@ -1,0 +1,170 @@
+{
+  "folder": "dlPbPBHQiK5y42Xi",
+  "name": "Apocryphal Affinity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Apocryphal Affinity consists of creatures of the Aberration, Ooze or Undead families. When you cast an anima spell with a trait that matches a family in the category you selected, you gain a +2 circumstance bonus to attack rolls and class DC against creatures with the same traits in that category.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "target:trait:aberration",
+              "target:trait:undead",
+              "target:trait:ooze"
+            ]
+          },
+          {
+            "or": [
+              "item:tag:anima-family-aberration",
+              "item:tag:anima-family-undead",
+              "item:tag:anima-family-ooze",
+              "unchained-affinity:apocryphal"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 2,
+        "selector": [
+          "attack-roll"
+        ]
+      },
+      {
+        "key": "EphemeralEffect",
+        "predicate": [
+          "item:trait:anima",
+          {
+            "or": [
+              "item:tag:anima-family-aberration",
+              "item:tag:anima-family-ooze",
+              "item:tag:anima-family-undead",
+              "unchained-affinity:apocryphal"
+            ]
+          }
+        ],
+        "selectors": [
+          "saving-throw"
+        ],
+        "uuid": "Compendium.immortal-ardor.classes.Item.9pzvww0Ft1zNstpI"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:bestial-gait",
+          {
+            "or": [
+              "action:feint",
+              "action:make-a-request",
+              "action:demoralize"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:ooze",
+              "target:trait:aberration",
+              "target:trait:undead"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feat:eye-of-the-predator",
+          {
+            "or": [
+              "action:seek",
+              "action:track",
+              "action:recall-knowledge"
+            ]
+          },
+          {
+            "or": [
+              "target:trait:undead",
+              "target:trait:ooze",
+              "target:trait:aberration"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "value": 1,
+        "selector": [
+          "check"
+        ]
+      }
+    ],
+    "slug": "apocryphal-affinity",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "monster-affinity"
+      ],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/creatures/eyes/slime-stalks-yellow-purple.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "TWiWUZidbe1ASGuB",
+  "sort": 0,
+  "_key": "!items!TWiWUZidbe1ASGuB"
+}

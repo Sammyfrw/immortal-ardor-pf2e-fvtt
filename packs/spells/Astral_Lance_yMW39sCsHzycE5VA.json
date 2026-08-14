@@ -1,0 +1,124 @@
+{
+  "folder": "xl644PPvOOBMre0O",
+  "name": "Astral Lance",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Astral</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.Item.uwDCWTcZ8o5nvR79]{Anima Weapon: Astral Lance}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.eUtaI7sV8HMmc4XX]{Anima Morph: Astral Lance}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.Item.3DYY9b2anJcXNeAl]{Anima Ability: Astral Lance}</p><hr><p class=\"MsoNormal\">You channel the thoughts that swarm around you and create an astral weapon to defend yourself with. Select one creature within 30 feet of you, then make an Anima Strike against a target you can reach. The anima weapon gains a reach of up to 15 feet. The Strike deals additional 2d6 damage of a type that matches the creature you selected, based on whether they have a spellcasting tradition. If a creature has multiple, you can choose one.</p><p style=\"margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;border:none;mso-padding-alt:31.0pt 31.0pt 31.0pt 31.0pt;mso-border-shadow:yes\" class=\"MsoNormal\"><span style=\"mso-list:Ignore\"><span style=\"mso-fareast-font-family:'Noto Sans Symbols';mso-bidi-font-family:'Noto Sans Symbols';font-family:'Noto Sans Symbols'\">●</span></span><span style=\"font:7.0pt 'Times New Roman'\"><span style=\"mso-fareast-font-family:'Noto Sans Symbols';mso-bidi-font-family:'Noto Sans Symbols';font-family:'Noto Sans Symbols'\">       </span></span><span style=\"color:black\">None: Matches your strike’s damage type</span></p><p style=\"margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;border:none;mso-padding-alt:31.0pt 31.0pt 31.0pt 31.0pt;mso-border-shadow:yes\" class=\"MsoNormal\"><span style=\"mso-list:Ignore\"><span style=\"mso-fareast-font-family:'Noto Sans Symbols';mso-bidi-font-family:'Noto Sans Symbols';font-family:'Noto Sans Symbols'\">●</span></span><span style=\"font:7.0pt 'Times New Roman'\"><span style=\"mso-fareast-font-family:'Noto Sans Symbols';mso-bidi-font-family:'Noto Sans Symbols';font-family:'Noto Sans Symbols'\">       </span></span><span style=\"color:black\">Arcane: Force damage</span></p><p style=\"margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;border:none;mso-padding-alt:31.0pt 31.0pt 31.0pt 31.0pt;mso-border-shadow:yes\" class=\"MsoNormal\"><span style=\"mso-list:Ignore\"><span style=\"mso-fareast-font-family:'Noto Sans Symbols';mso-bidi-font-family:'Noto Sans Symbols';font-family:'Noto Sans Symbols'\">●</span></span><span style=\"font:7.0pt 'Times New Roman'\"><span style=\"mso-fareast-font-family:'Noto Sans Symbols';mso-bidi-font-family:'Noto Sans Symbols';font-family:'Noto Sans Symbols'\">       </span></span><span style=\"color:black\">Divine: Spirit damage</span></p><p style=\"margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;border:none;mso-padding-alt:31.0pt 31.0pt 31.0pt 31.0pt;mso-border-shadow:yes\" class=\"MsoNormal\"><span style=\"mso-list:Ignore\"><span style=\"mso-fareast-font-family:'Noto Sans Symbols';mso-bidi-font-family:'Noto Sans Symbols';font-family:'Noto Sans Symbols'\">●</span></span><span style=\"font:7.0pt 'Times New Roman'\"><span style=\"mso-fareast-font-family:'Noto Sans Symbols';mso-bidi-font-family:'Noto Sans Symbols';font-family:'Noto Sans Symbols'\">       </span></span><span style=\"color:black\">Occult: Mental damage</span></p><p style=\"margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;border:none;mso-padding-alt:31.0pt 31.0pt 31.0pt 31.0pt;mso-border-shadow:yes\" class=\"MsoNormal\"><span style=\"mso-list:Ignore\"><span style=\"mso-fareast-font-family:'Noto Sans Symbols';mso-bidi-font-family:'Noto Sans Symbols';font-family:'Noto Sans Symbols'\">●</span></span><span style=\"font:7.0pt 'Times New Roman'\"><span style=\"mso-fareast-font-family:'Noto Sans Symbols';mso-bidi-font-family:'Noto Sans Symbols';font-family:'Noto Sans Symbols'\">       </span></span><span style=\"color:black\">Primal: Fire damage</span> </p><p class=\"MsoNormal\"><strong>Heightened (3rd) </strong>The additional damage increases to 4d6.</p><p class=\"MsoNormal\"><strong>Heightened (5th) </strong>As above, and your reach increases to 20 feet.</p><p class=\"MsoNormal\"><strong>Heightened (7th) </strong>As 5th, but the additional damage increases to 6d6.</p><p class=\"MsoNormal\"><strong>Heightened (9th) </strong>As above, and your reach increases to 25 feet.</p>"
+    },
+    "rules": [],
+    "slug": "astral-lance",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "attack",
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "7hOKJj7sbfeQoerG": {
+        "formula": "2d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "untyped",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "fixed",
+      "levels": {
+        "3": {
+          "damage": {
+            "7hOKJj7sbfeQoerG": {
+              "formula": "4d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "untyped",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          }
+        },
+        "7": {
+          "damage": {
+            "7hOKJj7sbfeQoerG": {
+              "formula": "6d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "untyped",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "yMW39sCsHzycE5VA",
+  "sort": 0,
+  "_key": "!items!yMW39sCsHzycE5VA"
+}

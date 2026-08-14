@@ -1,0 +1,77 @@
+{
+  "folder": "fju3QClW7TLWF66U",
+  "name": "Unbridled Learning",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>At the apex of your power, you can scour the anima of other creatures with ease and navigate the breadth of your maelstrom to pull powers as you need it. Your maelstrom now can hold up to 12 souls instead of 8, and you can draw in a soul to your maelstrom by taking three actions instead of a minute. Any time you successfully @UUID[Compendium.immortal-ardor.classes.4IdbC0GrLcVvng4h]{Soulreave}, @UUID[Compendium.immortal-ardor.spells.f45Q8FGyQrpR7VDE]{Learn an Anima Spell} or @UUID[Compendium.pf2e.actionspf2e.OSefkMgojBLqmRDh]{Refocus}, you can swap one of your prepared anima spells for another in your maelstrom, which can include a spell you just learned.</p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you have the @UUID[Compendium.immortal-ardor.classes.9zxY62PH0dOS7MxQ]{Azure Lore} feat, your @UUID[Compendium.immortal-ardor.classes.E91lIl1DwohuKhPq]{Assimilation} attempt to Learn Anima Magic occurs after taking three actions to Soulreave instead of ten.</p>"
+    },
+    "rules": [],
+    "slug": "unbridled-learning",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Assimilation"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "wYY3we1CU34vtJiA",
+  "sort": 300000,
+  "_key": "!items!wYY3we1CU34vtJiA"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "uGkr5OVC8dsMlcfv",
+  "name": "Frozen Wing",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Family Beast</strong></p><p><strong>Anima Weapon </strong>@UUID[Compendium.immortal-ardor.spells.zS9lm0456jxjAAj6]{Anima Weapon: Frozen Wing}</p><p><strong>Anima Morph </strong>@UUID[Compendium.immortal-ardor.spells.m376EIqg27HEa46s]{Anima Morph: Frozen Wing}</p><p><strong>Anima Ability</strong> @UUID[Compendium.immortal-ardor.spells.gXwJFISfwojujXhs]{Anima Ability: Frozen Wing}</p><hr><p class=\"MsoNormal\">You cover your limbs in frost, and perform a wide swing around you. Make an Anima Strike against each target. This attack gains the versatile cold trait. On a hit, a creature gains a -10-foot status penalty to their speeds for 1 round. @UUID[Compendium.immortal-ardor.spells.I4PsUAaYSUJ8pwKC]{Hampered} On a critical hit, they also need to make a Fortitude saving throw against your anima DC or become @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p><p>@UUID[Compendium.immortal-ardor.spells.WMOe5bh8Ap92EeDx]{Effect: Frozen Wing}</p><p>This attack has the Flourish trait.</p>"
+    },
+    "rules": [],
+    "slug": "frozen-wing",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anima",
+        "attack",
+        "cold",
+        "concentrate",
+        "focus"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "A number of creatures equal to the actions you spend within reach"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/creatures/birds/dove-pigeon-flying-white.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "bk4RKnTGoFkpsRPe",
+  "sort": 100000,
+  "_key": "!items!bk4RKnTGoFkpsRPe"
+}

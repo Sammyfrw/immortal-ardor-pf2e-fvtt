@@ -1,0 +1,161 @@
+{
+  "folder": "Tq4PchBPHAioFBaI",
+  "name": "Unchained Affinity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">The affinity of your maelstrom is everflowing, and your paired souls tap into any connection it pleases to find meaningful prey. Each day during your daily preparations, you can choose an additional Monster Affinity that you do not have, as long as you prepare one anima spell from that affinity; you gain that affinity for the day. Alternatively, you can choose one of the affinities you have taken. All your prepared anima spells and anima weapons gain the circumstance bonuses when cast against creature families within that affinity, not just the anima spells that come from them.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Chimerian.UnchainedAffinity.MonsterAffinityLabel",
+            "value": "monster-affinity"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.UnchainedAffinity.EnhanceAffinityLabel",
+            "value": "enhance-affinity",
+            "predicate": [
+              "feature:monster-affinity"
+            ]
+          }
+        ],
+        "flag": "unchainedAffinityChoice",
+        "rollOption": "unchained-affinity-choice",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Chimerian.UnchainedAffinity.PromptText"
+      },
+      {
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Chimerian.MonsterAffinityList.Apocryphal",
+            "value": "apocryphal",
+            "predicate": [
+              "feature:apocryphal-affinity"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.MonsterAffinityList.Magical",
+            "value": "magical",
+            "predicate": [
+              "feature:magical-affinity"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.MonsterAffinityList.Natural",
+            "value": "natural",
+            "predicate": [
+              "feature:natural-affinity"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.MonsterAffinityList.Planar",
+            "value": "planar",
+            "predicate": [
+              "feature:planar-affinity"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.MonsterAffinityList.Transitional",
+            "value": "transitional",
+            "predicate": [
+              "feature:apocryphal-transitional"
+            ]
+          }
+        ],
+        "flag": "unchainedAffinityChoice",
+        "rollOption": "unchained-affinity",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Chimerian.UnchainedAffinity.PromptText",
+        "predicate": [
+          "unchained-affinity-choice:enhance-affinity"
+        ]
+      },
+      {
+        "choices": {
+          "filter": [
+            "item:tag:monster-affinity"
+          ],
+          "itemType": "feature"
+        },
+        "flag": "monsterAffinity",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Chimerian.MonsterAffinity.PromptText",
+        "predicate": [
+          "unchained-affinity-choice:monster-affinity"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.monsterAffinity}",
+        "allowDuplicate": false,
+        "predicate": [
+          "unchained-affinity-choice:monster-affinity"
+        ]
+      }
+    ],
+    "slug": "unchained-affinity",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chimerian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 19
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/control/debuff-chains-orb-movement-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "qvimj88y6rJXAuMM",
+  "sort": 1400000,
+  "_key": "!items!qvimj88y6rJXAuMM"
+}

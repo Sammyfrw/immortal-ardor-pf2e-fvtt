@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "CDyM4cjwOg9cSaie",
+  "name": "Shadow",
+  "color": null,
+  "sorting": "a",
+  "_id": "quvyK6XFFu4wmym5",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!quvyK6XFFu4wmym5"
+}
