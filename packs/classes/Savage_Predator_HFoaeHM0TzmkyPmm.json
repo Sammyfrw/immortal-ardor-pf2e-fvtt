@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You and your partner compete in the way you both know best, having to wrestle with who controls the vessel – by ensuring that the only competition left is each other. If your next action is Predation, you can choose to either Grapple, Trip, or Shove a creature before or after your Strike. You increase your multi-attack penalty only after you complete both actions. If the target belongs to a family in your selected Monster Affinity category, your maneuver attempt benefits from that feature’s circumstance bonus.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special</span> If you have Chimerian Tactics, when you take this feat, Chimerian Tactics and Savage Predator are free actions when you perform the maneuver you selected for that feat.</p>"
+      "value": "<p>You and your partner compete in the way you both know best, having to wrestle with who controls the vessel – by ensuring that the only competition left is each other. If your next action is @UUID[Compendium.immortal-ardor.classes.gPUpPJbjkOHm9J6T]{Predation} , you can choose to either @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip}, or @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove} a creature before or after your Strike. You increase your multi-attack penalty only after you complete both actions. If the target belongs to a family in your selected Monster Affinity category, your maneuver attempt benefits from that feature’s circumstance bonus.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you also have @UUID[Compendium.immortal-ardor.classes.YjTTl4kUZEvIWbdI]{Chimerian Tactics}, when you take this feat, Chimerian Tactics and Savage Predator become free actions when you perform the maneuver you selected for that feat.</p>"
     },
     "rules": [],
     "slug": "savage-predator",
@@ -55,6 +55,10 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "round"
     }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",

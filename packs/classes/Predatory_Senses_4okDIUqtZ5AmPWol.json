@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You and your paired soul are sensitive to the presence of anima of other creatures, and your senses have evolved to aid your hunt for them. During your daily preparations, you can either heighten a vague sense you have to be an imprecise sense (typically sense of smell for most creatures), or select an anima spell you have prepared that lists a form of sense or vision in a non-apex anima ability to gain until your next daily preparations. In addition, when you observe a creature, you can tell if their soul is powerful enough to cast anima magic, even if they do not know how.</p><p><strong>Symbiosis</strong> Your souls harmonize when you make a successful Seek check against a creature that you are aware of that has become hidden or undetected to you.</p>"
+      "value": "<p>You and your paired soul are sensitive to the presence of anima of other creatures, and your senses have evolved to aid your hunt for them. During your daily preparations, you can either heighten a vague sense you have to be an imprecise sense (typically sense of smell for most creatures), or select an anima spell you have prepared that lists a form of sense or vision in a non-apex anima ability to gain until your next daily preparations. In addition, when you observe a creature, you can tell if their soul is powerful enough to cast anima magic, even if they do not know how.</p><p><strong>Symbiosis</strong> Your souls @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized} when you make a successful Seek check against a creature that you are aware of that has become hidden or undetected to you.</p>"
     },
     "rules": [],
     "slug": "predatory-senses",

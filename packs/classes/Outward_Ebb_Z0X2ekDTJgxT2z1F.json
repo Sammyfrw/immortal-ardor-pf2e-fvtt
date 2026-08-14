@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> Once per hour</p><hr><p>In the thick of battle, you let the anima flow through both of your souls from the depths of your maelstrom, restoring its harmony.</p><p class=\"MsoNormal\"><strong>Symbiosis</strong> Your souls become harmonized when you use this ability.</p>"
+      "value": "<p><strong>Frequency</strong> Once per hour</p><hr><p>In the thick of battle, you let the anima flow through both of your souls from the depths of your maelstrom, restoring its harmony.</p><p class=\"MsoNormal\"><strong>Symbiosis</strong> Your souls become @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized} when you use this ability.</p>"
     },
     "rules": [],
     "slug": null,
@@ -39,10 +39,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     },
     "prerequisites": {
       "value": []

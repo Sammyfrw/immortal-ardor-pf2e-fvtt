@@ -399,6 +399,13 @@
           "Climb": "Climb",
           "Burrow": "Burrow",
           "Fly": "Fly"
+        },
+        "SymbioticManifestation": {
+          "PromptText": "Select a symbiosis action.",
+          "Predation": "Predation",
+          "Mutualism": "Mutualism",
+          "Synergism": "Synergism",
+          "Mimicry": "Mimicry"
         }
       }
     }

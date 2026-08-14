@@ -74,6 +74,10 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "round"
     }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",

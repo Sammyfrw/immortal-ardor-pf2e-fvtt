@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> Your last action was a successful Grapple, Trip, or Shove against a creature.</p><hr><p>The ferocity of beasts courses through you, maiming your foes as you wrestle them. You deal 1d6 bludgeoning damage to the target you maneuvered. If you become a Master in Athletics, this damage increases to 2d6. If you become Legendary in Athletics, this damage increases to 3d6. If you used an anima weapon for the maneuver attempt, you add your key attribute modifier to the damage.</p>"
+      "value": "<p><strong>Requirements</strong> Your last action was a successful Grapple, Trip, or Shove against a creature.</p><hr><p>The ferocity of beasts courses through you, maiming your foes as you wrestle them. You deal @Damage[1d6[bludgeoning]] damage to the target you maneuvered. If you become a Master in Athletics, this damage increases to @Damage[2d6[bludgeoning]]. If you become Legendary in Athletics, this damage increases to @Damage[3d6[bludgeoning]]. If you used an anima weapon for the maneuver attempt, you add your key attribute modifier to the damage.</p>"
     },
     "rules": [],
     "slug": "menacing-crush",

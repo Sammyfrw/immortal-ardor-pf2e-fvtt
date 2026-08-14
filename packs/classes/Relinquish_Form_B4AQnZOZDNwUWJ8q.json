@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> You are in a battle form</p><p><strong>Trigger</strong> You're critically hit by a damage-dealing effect or Strike.</p><hr><p>Your morphology is malleable and sudden to change, and at times such a feature can save you when you are about to meet mortal peril. You Dismiss your form and take 20 reduced damage, and become Quickened for 1 minute; you can use this additional action to contribute towards using Synergism. After you do, you are no longer quickened from Relinquish Form until you use it again.</p><p class=\"MsoNormal\"><strong>Level (+2) </strong>Increase the damage reduction by 5.</p>"
+      "value": "<p><strong>Requirements</strong> You are in a battle form</p><p><strong>Trigger</strong> You're critically hit by a damage-dealing effect or Strike.</p><hr><p>Your morphology is malleable and sudden to change, and at times such a feature can save you when you are about to meet mortal peril. You Dismiss your form and take 20 reduced damage, and become @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for 1 minute; you can use this additional action to contribute towards using Synergism. After you do, you are no longer quickened from Relinquish Form until you use it again.</p><p class=\"MsoNormal\"><strong>Level (+2) </strong>Increase the damage reduction by 5.</p>"
     },
     "rules": [],
     "slug": "relinquish-form",

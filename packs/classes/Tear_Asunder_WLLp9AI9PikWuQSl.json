@@ -8,7 +8,28 @@
       "gm": "",
       "value": "<p><strong>Requirements</strong> You have two different anima weapons, or you are in a battle form which grants an anima weapon.</p><hr><p>You unleash a relentless attack against your prey. You Strike twice against a single creature, once with each required anima weapon at your current multi-attack penalty. If you are in a battle form with an anima weapon, you can use the same weapon twice. If the second Strike is made with an anima weapon that doesn’t have the agile trait, it takes a –2 penalty.<br><br>If both attacks hit, combine their damage and apply resistances and weaknesses once. You add any precision damage only once, to the attack of your choice. This counts as two attacks when calculating your multiple attack penalty.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Tear Asunder Second Attack",
+        "option": "tear-asunder-second",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": -2,
+        "predicate": [
+          "tear-asunder-second",
+          "item:trait:anima",
+          {
+            "not": "item:trait:agile"
+          }
+        ],
+        "selector": [
+          "weapon-attack-roll"
+        ]
+      }
+    ],
     "slug": "tear-asunder",
     "_migration": {
       "version": 0.959,

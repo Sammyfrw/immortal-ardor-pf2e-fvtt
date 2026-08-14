@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You constantly stalk for anima wherever you go, picking targets constantly. You can change the creature family you choose any time you manage to observe, find tracks or discover the presence of a creature in a different family during your exploration. Once you have changed the creature family you’ve selected, you can’t choose that family again until after the next time you make your daily preparations.</p><p class=\"MsoNormal\">If the creature family you choose for Eye of the Predator matches that of a family in a Monster Affinity category you have selected, the circumstance bonus increases to +2.</p>"
+      "value": "<p class=\"MsoNormal\">You constantly stalk for anima wherever you go, picking targets constantly. You can change the creature family you choose any time you manage to observe, find tracks or discover the presence of a creature in a different family during your exploration. Once you have changed the creature family you’ve selected, you can’t choose that family again until after the next time you make your daily preparations.</p><p class=\"MsoNormal\">If the creature family you choose for @UUID[Compendium.immortal-ardor.classes.bgBBM7EaFhhnVCI7]{Eye of the Predator} matches that of a family in a Monster Affinity category you have selected, the circumstance bonus increases to +2.</p>"
     },
     "rules": [],
     "slug": "relentless-predator",

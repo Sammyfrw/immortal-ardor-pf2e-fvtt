@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> Once per day</p><p><strong>Trigger </strong>You would be reduced to 0 hit points but not immediately killed</p><hr><p>You and your paired soul fight on, despite how hurt your physical body may be. You avoid being knocked out and remain at 1 hit point, and your wounded condition increases by 1.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls harmonize when you use this reaction once per day. Unlike normal, your souls remain harmonized for 1 hour.</p>"
+      "value": "<p><strong>Frequency</strong> Once per day</p><p><strong>Trigger </strong>You would be reduced to 0 hit points but not immediately killed</p><hr><p>You and your paired soul fight on, despite how hurt your physical body may be. You avoid being knocked out and remain at 1 hit point, and your wounded condition increases by 1.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized} when you use this reaction once per day. Unlike normal, your souls remain harmonized for 1 hour.</p>"
     },
     "rules": [],
     "slug": "undying-ferocity",
