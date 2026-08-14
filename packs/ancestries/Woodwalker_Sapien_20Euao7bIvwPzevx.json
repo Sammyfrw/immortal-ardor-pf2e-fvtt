@@ -1,6 +1,6 @@
 {
   "_id": "20Euao7bIvwPzevx",
-  "name": "Woodstrider Heritage",
+  "name": "Woodwalker Sapien",
   "type": "heritage",
   "img": "systems/pf2e/icons/default-icons/heritage.svg",
   "effects": [],
@@ -9,10 +9,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your heritage consists of largely, if not exclusively, Liefen families, with pointed ears and limber figures compared to other Sapien and a bloodline tinged with woodland magics. You gain the Liefen trait. When you would be confused, frightened or stupefied for at least 2 rounds, reduce its duration by 1. You also gain immunity against effects that would cause you to fall asleep.</p>\n<p><span style=\"text-decoration:underline\">Special:</span> If you are using the Golarion Ancestries rule, you can select any Elf ancestry feats (at your GM’s discretion).</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You grew up amongst sapien that have strongly adapted to life in the wood, knowing how to navigate it. You treat difficult terrain in woodlands as normal terrain, and you treat greater difficult terrain in woodlands as difficult terrain. You also gain a +1 circumstance bonus to Hide, Sneak or Balance in woodland.</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "woodwalker-sapien",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -28,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "ancestry": {
       "name": "Sapien",
@@ -42,9 +42,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.20Euao7bIvwPzevx",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 0,

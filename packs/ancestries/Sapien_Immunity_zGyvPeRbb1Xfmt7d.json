@@ -1,25 +1,23 @@
 {
-  "_id": "B7CjlM4Y8bSg3EvP",
   "name": "Sapien Immunity",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "jLiGE1RfNh0cFGHq",
   "flags": {},
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You are well-traveled enough to where you can put your body’s natural antibodies to its fullest potential. Each successful roll against a disease reduces its stage by 2, or 1 for virulent disease. Each critical success reduces its stage by 3, or 2 for virulent disease.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are well-traveled enough to where you can put your body’s natural antibodies to its fullest potential. Each successful roll against a disease reduces its stage by 2, or 1 for virulent disease. Each critical success reduces its stage by 3, or 2 for virulent disease.</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "sapien-immunity",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null,
+      "version": 0.959,
       "previous": {
-        "schema": 0.934,
-        "foundry": "12.331",
-        "system": "6.7.2"
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
@@ -30,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 5
@@ -58,18 +56,18 @@
     }
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.B7CjlM4Y8bSg3EvP",
-    "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
     "exportSource": null
   },
-  "sort": 0,
   "ownership": {
     "default": 0,
-    "MDg2MGU5NzgyN2Nh": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!B7CjlM4Y8bSg3EvP"
+  "_id": "zGyvPeRbb1Xfmt7d",
+  "sort": 2200000,
+  "_key": "!items!zGyvPeRbb1Xfmt7d"
 }

@@ -1,25 +1,23 @@
 {
-  "_id": "I5Eba0nlkVnMkdU4",
-  "name": "Unconventional Mastery",
+  "name": "Bramblerush",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "jLiGE1RfNh0cFGHq",
   "flags": {},
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You can pick another weapon for Unconventional Familiarity. In addition, whenever you score a critical hit with a weapon you have Unconventional Familiarity with, you apply the weapon’s critical specialization effect.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Rough brambles and sharp thorns in woodlands pose no harm or risk to you as you learn a way to navigate through them and other forms of dangerous terrain safely. You gain resistance 5 against natural hazardous terrain.</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "bramblerush",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null,
+      "version": 0.959,
       "previous": {
-        "schema": 0.934,
-        "foundry": "12.331",
-        "system": "6.7.2"
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
@@ -30,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 5
@@ -50,7 +48,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Unconventional Familiarity"
+          "value": "Woodwalker Sapien heritage"
         }
       ]
     },
@@ -62,18 +60,18 @@
     }
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.I5Eba0nlkVnMkdU4",
-    "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
     "exportSource": null
   },
-  "sort": 0,
   "ownership": {
     "default": 0,
-    "MDg2MGU5NzgyN2Nh": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!I5Eba0nlkVnMkdU4"
+  "_id": "rpw1GtWQWrCHZeLw",
+  "sort": 2400000,
+  "_key": "!items!rpw1GtWQWrCHZeLw"
 }

@@ -1,6 +1,6 @@
 {
   "_id": "FySo0qYPO2SHc2iQ",
-  "name": "Mixedline Heritage",
+  "name": "Mixedline Sapien",
   "type": "heritage",
   "img": "systems/pf2e/icons/default-icons/heritage.svg",
   "effects": [],
@@ -9,10 +9,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your heritage is a mixed one, with a long line that merges families of other heritages. You gain the ability to select any sapien ancestry feat regardless of heritage requirements and have the ability to select 2 ancestry feats instead of 1 at character creation.</p>\n<p><span style=\"text-decoration:underline\">Special</span>: If you are using the Golarion Ancestries rule, you can pick one of the following: Human, Elf or Dwarf; you can select any ancestry feats from the selected ancestry (at your GM’s discretion).</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your heritage is a mixed one, with a long line that merges families of other lineages and heritages. You gain the ability to select any sapien ancestry feat regardless of lineage or heritage requirements.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"text-decoration:underline\">Special:</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you are using the Golarion Ancestries rule, you can pick one of the following: Human, Elf or Dwarf; you can select any ancestry feats from the selected ancestry (at your GM’s discretion).</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "mixedline-heritage",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -28,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "ancestry": {
       "name": "Sapien",
@@ -42,9 +42,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.FySo0qYPO2SHc2iQ",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 0,

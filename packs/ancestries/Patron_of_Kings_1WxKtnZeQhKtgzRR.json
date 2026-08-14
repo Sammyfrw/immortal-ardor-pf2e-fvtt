@@ -2,17 +2,17 @@
   "_id": "1WxKtnZeQhKtgzRR",
   "name": "Patron of Kings",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "jLiGE1RfNh0cFGHq",
   "flags": {},
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency </strong>Once per hour</p>\n<hr />\n<p>You feel empowered as you recall a story of ancient sapien kings. The next time you Strike an enemy, you have a +1 status bonus to the attack and its damage roll.</p>"
+      "value": "<p><strong>Frequency </strong>Once per hour</p><p><strong>Trigger</strong> You are about to make a Strike.</p><hr><p>You feel empowered as you recall a story of ancient sapien kings. You add a +1 status bonus to the attack roll and damage roll of the triggering Strike. The bonus to damage rolls increases to 2 at 5th level, 3 at 10th level, 4 at 15th level, and 5 at 20th level. If your Strike misses, you do not expend Patron of Kings for the day and can use it again after a round.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "patron-of-kings",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -30,10 +30,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -42,10 +42,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "action"
+      "value": "free"
     },
     "actions": {
-      "value": 1
+      "value": null
     },
     "prerequisites": {
       "value": []
@@ -55,17 +55,21 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
     }
   },
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.1WxKtnZeQhKtgzRR",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 2700000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

@@ -1,25 +1,23 @@
 {
-  "_id": "gp2lGRQ6S4lPpT6f",
-  "name": "Herbalist's Charm",
+  "name": "Nature-Touched",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "jLiGE1RfNh0cFGHq",
   "flags": {},
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain a +1 circumstance bonus when searching, foraging, crafting, handling, or resisting actions with regards to herbs and other plantlife.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have an affinity with the natural world and its denizens. You gain a +1 circumstance bonus to Recall Knowledge using Nature and other checks pertaining to nature-spirit related phenomena.</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "nature-touched",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null,
+      "version": 0.959,
       "previous": {
-        "schema": 0.934,
-        "foundry": "12.331",
-        "system": "6.7.2"
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
@@ -30,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 5
@@ -48,11 +46,7 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "Woodstrider Heritage"
-        }
-      ]
+      "value": []
     },
     "location": null,
     "subfeatures": {
@@ -62,18 +56,18 @@
     }
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.gp2lGRQ6S4lPpT6f",
-    "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
     "exportSource": null
   },
-  "sort": 0,
   "ownership": {
     "default": 0,
-    "MDg2MGU5NzgyN2Nh": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!gp2lGRQ6S4lPpT6f"
+  "_id": "078r2mS7GbC4BZfe",
+  "sort": 1900000,
+  "_key": "!items!078r2mS7GbC4BZfe"
 }

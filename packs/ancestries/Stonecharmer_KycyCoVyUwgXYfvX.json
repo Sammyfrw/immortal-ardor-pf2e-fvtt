@@ -1,25 +1,23 @@
 {
-  "_id": "vZ7X0HsOMZULMT1y",
-  "name": "Tunnelvision",
+  "name": "Stonecharmer",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "jLiGE1RfNh0cFGHq",
   "flags": {},
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain low-light vision. If you have it already, gain darkvision instead. When you use the Seek action to search for something in low-light environments, you gain a +2 circumstance bonus.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have a profound wealth of knowledge regarding geology. You gain a +1 circumstance bonus to Recall Knowledge, identify, investigate or craft with stone or related earthen materials, including gems.</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "stonecharmer",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null,
+      "version": 0.959,
       "previous": {
-        "schema": 0.934,
-        "foundry": "12.331",
-        "system": "6.7.2"
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
@@ -30,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 5
@@ -50,7 +48,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Rockclimber Heritage"
+          "value": "Earthdelver Sapien heritage"
         }
       ]
     },
@@ -62,18 +60,18 @@
     }
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.vZ7X0HsOMZULMT1y",
-    "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
     "exportSource": null
   },
-  "sort": 0,
   "ownership": {
     "default": 0,
-    "MDg2MGU5NzgyN2Nh": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!vZ7X0HsOMZULMT1y"
+  "_id": "KycyCoVyUwgXYfvX",
+  "sort": 2500000,
+  "_key": "!items!KycyCoVyUwgXYfvX"
 }

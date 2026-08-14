@@ -1,25 +1,23 @@
 {
-  "_id": "KyUWY3yqegdhVmvD",
-  "name": "Alertness",
+  "name": "Marching Expert",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "jLiGE1RfNh0cFGHq",
   "flags": {},
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You are keenly aware of your surroundings, especially with regards to things hiding in plain sight. When you use the Seek action, you gain a +2 circumstance bonus to your roll to overcome Stealth or Deception.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are well-trained in organizing others to travel as a group. You gain the Pick Up the Pace general feat, even if you don’t meet its prerequisites.</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "marching-expert",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null,
+      "version": 0.959,
       "previous": {
-        "schema": 0.934,
-        "foundry": "12.331",
-        "system": "6.7.2"
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
@@ -30,13 +28,13 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 5
     },
     "category": "ancestry",
     "onlyLevel1": false,
@@ -50,7 +48,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Plainswalker Heritage"
+          "value": "Plainstalker Sapien heritage"
         }
       ]
     },
@@ -62,18 +60,18 @@
     }
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.KyUWY3yqegdhVmvD",
-    "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
     "exportSource": null
   },
-  "sort": 0,
   "ownership": {
     "default": 0,
-    "MDg2MGU5NzgyN2Nh": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!KyUWY3yqegdhVmvD"
+  "_id": "oLlLGypyhMpAenEu",
+  "sort": 2300000,
+  "_key": "!items!oLlLGypyhMpAenEu"
 }

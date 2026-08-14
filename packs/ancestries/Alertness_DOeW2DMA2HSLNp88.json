@@ -1,25 +1,23 @@
 {
-  "_id": "mXXuY7Rpx79Rkw9J",
-  "name": "Stonecharmer",
+  "name": "Alertness",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "jLiGE1RfNh0cFGHq",
   "flags": {},
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You have a profound wealth of knowledge regarding geology. You gain a +1 circumstance bonus to identify, investigate or craft with stone.</p>"
+      "value": "<p>You are keenly aware of your surroundings, especially with regards to things hiding in plain sight. You gain the Incredible Initiative general feat. When you use the Seek action to look for hidden creatures or look past disguises or lies, you gain a +1 circumstance bonus to your roll.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "alertness",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null,
+      "version": 0.959,
       "previous": {
-        "schema": 0.934,
-        "foundry": "12.331",
-        "system": "6.7.2"
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
@@ -30,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 5
@@ -48,11 +46,7 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "Rockclimber Heritage"
-        }
-      ]
+      "value": []
     },
     "location": null,
     "subfeatures": {
@@ -62,18 +56,18 @@
     }
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.mXXuY7Rpx79Rkw9J",
-    "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
     "exportSource": null
   },
-  "sort": 0,
   "ownership": {
     "default": 0,
-    "MDg2MGU5NzgyN2Nh": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!mXXuY7Rpx79Rkw9J"
+  "_id": "DOeW2DMA2HSLNp88",
+  "sort": 1800000,
+  "_key": "!items!DOeW2DMA2HSLNp88"
 }

@@ -1,6 +1,5 @@
 {
-  "_id": "zj62LcM23SA4gWh4",
-  "name": "Queen's Grace",
+  "name": "Tales of Royalty",
   "type": "feat",
   "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
@@ -9,10 +8,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-style:italic\"><strong>Trigger</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-style:italic\"> You are about to make a Will saving throw.</span></p><p><strong>Frequency</strong> Once per day</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You recount a tale or channel the influence of an iron-willed leader of yore, giving you inner strength. You roll your saving throw twice, and take the better result.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your devotion to reciting the ancient tales is rewarded with power. When you use Queen’s Grace, it can be triggered for any saving throw, not just Will saves. When you use Patron of Kings, the status bonus to attack rolls increases to +2, and the status bonus to damage rolls increases by 2.</span></p>"
     },
     "rules": [],
-    "slug": "queens-grace",
+    "slug": "tales-of-royalty",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -24,7 +23,6 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "fortune",
         "sapien"
       ],
       "rarity": "common"
@@ -36,43 +34,44 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 17
     },
     "category": "ancestry",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "reaction"
+      "value": "passive"
     },
     "actions": {
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Queen's Grace or Patron of Kings"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
-    },
-    "frequency": {
-      "max": 1,
-      "per": "day"
     }
   },
   "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
     "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
     "exportSource": null
   },
-  "sort": 3000000,
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!zj62LcM23SA4gWh4"
+  "_id": "j1rIAEnLk0saL574",
+  "sort": 500000,
+  "_key": "!items!j1rIAEnLk0saL574"
 }

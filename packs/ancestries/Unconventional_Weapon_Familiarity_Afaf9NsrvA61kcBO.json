@@ -1,18 +1,18 @@
 {
   "_id": "Afaf9NsrvA61kcBO",
-  "name": "Unconventional Familiarity",
+  "name": "Unconventional Weapon Familiarity",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "jLiGE1RfNh0cFGHq",
   "flags": {},
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Choose an uncommon simple or martial weapon from another ancestry with a trait corresponding to that ancestry (such as loupain, vesperan, or avekiri) or from a culture with a trait corresponding to a region that is not yours (such as Mann, Rodda, or Rogalia). You gain access to that weapon and for the purpose of determining your proficiency, that weapon is a simple weapon.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Choose an uncommon simple, martial or advanced weapon from another ancestry with a trait corresponding to that ancestry (such as loupain, vesperan, or avekiri) or from a culture corresponding to a region that is not yours (such as Mann, Rodda, or Rogalia). You gain access and become familiar with that weapon. For determining your proficiency, a martial weapon is a simple weapon, and an advanced weapon is a martial weapon.</span></p><p>At 5th level, whenever you get a critical hit with one of these weapons, you get its critical specialization effect.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "unconventional-weapon-familiarity",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -30,10 +30,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -60,12 +60,12 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.Afaf9NsrvA61kcBO",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 2900000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

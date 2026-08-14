@@ -1,6 +1,5 @@
 {
-  "_id": "zj62LcM23SA4gWh4",
-  "name": "Queen's Grace",
+  "name": "Fear Not The Dark",
   "type": "feat",
   "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
@@ -9,10 +8,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-style:italic\"><strong>Trigger</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-style:italic\"> You are about to make a Will saving throw.</span></p><p><strong>Frequency</strong> Once per day</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You recount a tale or channel the influence of an iron-willed leader of yore, giving you inner strength. You roll your saving throw twice, and take the better result.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">No matter how dark the passage before you lies, you are not deterred. Whenever you are in dim light or darkness, your senses heighten, allowing you to benefit from the Search exploration activity and to make a Seek check at the start of your turns. You treat adjacent undetected creatures of your level or lower as Hidden from you.</span></p>"
     },
     "rules": [],
-    "slug": "queens-grace",
+    "slug": "fear-not-the-dark",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -24,7 +23,6 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "fortune",
         "sapien"
       ],
       "rarity": "common"
@@ -36,13 +34,13 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 9
     },
     "category": "ancestry",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "reaction"
+      "value": "passive"
     },
     "actions": {
       "value": null
@@ -55,24 +53,21 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
-    },
-    "frequency": {
-      "max": 1,
-      "per": "day"
     }
   },
   "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
     "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
     "exportSource": null
   },
-  "sort": 3000000,
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!zj62LcM23SA4gWh4"
+  "_id": "Mrt3e45NoEUYz7w8",
+  "sort": 1200000,
+  "_key": "!items!Mrt3e45NoEUYz7w8"
 }
