@@ -8,9 +8,28 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You are keenly aware of your surroundings, especially with regards to things hiding in plain sight. You gain the Incredible Initiative general feat. When you use the Seek action to look for hidden creatures or look past disguises or lies, you gain a +1 circumstance bonus to your roll.</p>"
+      "value": "<p>You are keenly aware of your surroundings, especially with regards to things hiding in plain sight. You gain the @UUID[Compendium.pf2e.feats-srd.2kwXTUjYYhoAGySr]{Incredible Initiative} general feat. When you use the @UUID[Compendium.pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} action to look for hidden creatures or look past disguises or lies, you gain a +1 circumstance bonus to your roll.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "predicate": [
+          "action:seek",
+          "hidden-things"
+        ],
+        "type": "circumstance",
+        "label": "Alertness (vs. hidden creatures or look past disguises)",
+        "selector": [
+          "skill-check",
+          "perception"
+        ]
+      }
+    ],
     "slug": "alertness",
     "_migration": {
       "version": 0.959,

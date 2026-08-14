@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per round</p><p class=\"MsoNormal\"><strong>Trigger</strong> an adjacent allied creature moves away from you.</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are agile and swift, moving in tandem with your companions. You can Stride in the same direction as the triggering ally up to half your speed.</span></p>"
+      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per round</p><p class=\"MsoNormal\"><strong>Trigger</strong> an adjacent allied creature moves away from you.</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are agile and swift, moving in tandem with your companions. You can @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} in the same direction as the triggering ally up to half your speed.</span></p>"
     },
     "rules": [],
     "slug": "freerunner",

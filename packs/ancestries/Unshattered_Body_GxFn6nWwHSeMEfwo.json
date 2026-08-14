@@ -10,7 +10,59 @@
       "gm": "",
       "value": "<p><strong>Standardized Ancestry Feat</strong>: Ancestral Unarmed Attacks</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">The sapien are known for their physical hardiness and immunities, and this is reflected when they use their body to its fullest through training. </span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When you select this feat, the damage die of your fist unarmed attack changes to 1d6 instead of 1d4. You don’t take the normal -2 circumstance penalty when making a lethal attack with your fist or any other unarmed attacks. Your fist also gains your choice of the trip, grapple, shove or disarm traits.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At 5th level, whenever you get a critical hit with your unarmed attacks, you get its critical specialization effect.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemId": "xxxxxxFISTxxxxxx",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "damage-dice-faces"
+      },
+      {
+        "fist": true,
+        "key": "Strike"
+      },
+      {
+        "itemId": "xxxxxxFISTxxxxxx",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "{item|flags.system.rulesSelections.unshatteredBodyTrait}"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Trip",
+            "value": "trip"
+          },
+          {
+            "label": "Grapple",
+            "value": "grapple"
+          },
+          {
+            "label": "Shove",
+            "value": "shove"
+          },
+          {
+            "label": "Disarm",
+            "value": "disarm"
+          }
+        ],
+        "flag": "unshatteredBodyTrait"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:slug:fist",
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "unshattered-body",
     "_migration": {
       "version": 0.959,

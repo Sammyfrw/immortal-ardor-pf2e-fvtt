@@ -9,9 +9,20 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are a natural hunter, being taught by families growing up in lands of open prairie and valleys. You can make the most of tall grass and the rare trees for the purposes of travel and hunting, and these harsh lessons can teach you in journeys elsewhere. You become trained in Survival (or another skill if you were already trained in Survival), and gain the Terrain Expertise feat with Plains. You can use the circumstance bonus from Terrain Expertise for Stealth rolls.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are a natural hunter, being taught by families growing up in lands of open prairie and valleys. You can make the most of tall grass and the rare trees for the purposes of travel and hunting, and these harsh lessons can teach you in journeys elsewhere. You become trained in Survival (or another skill if you were already trained in Survival), and gain the @UUID[Compendium.pf2e.feats-srd.4tTkRyOQ0VuRBac3]{Terrain Expertise}  feat with Plains. You can use the circumstance bonus from Terrain Expertise for Stealth rolls.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.4tTkRyOQ0VuRBac3"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.survival.rank",
+        "value": 1
+      }
+    ],
     "slug": "plainstalker-sapien",
     "_migration": {
       "version": 0.935,

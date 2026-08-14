@@ -10,7 +10,19 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your family line consists of Piedan, giving you longer limbs built for running and a keen sight. You gain an additional 5 feet to all your speeds.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"text-decoration:underline\">Special:</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you are using the Golarion Ancestries rule, you can select any Human ancestry feats (at your GM’s discretion).</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 5,
+        "selector": [
+          "land-speed",
+          "fly-speed",
+          "swim-speed",
+          "climb-speed",
+          "burrow-speed"
+        ]
+      }
+    ],
     "slug": "piedanborn",
     "_migration": {
       "version": 0.959,

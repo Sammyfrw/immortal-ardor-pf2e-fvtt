@@ -9,7 +9,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency </strong>Once per hour</p><p><strong>Trigger</strong> You are about to make a Strike.</p><hr><p>You feel empowered as you recall a story of ancient sapien kings. You add a +1 status bonus to the attack roll and damage roll of the triggering Strike. The bonus to damage rolls increases to 2 at 5th level, 3 at 10th level, 4 at 15th level, and 5 at 20th level. If your Strike misses, you do not expend Patron of Kings for the day and can use it again after a round.</p>"
+      "value": "<p><strong>Frequency </strong>Once per day</p><p><strong>Trigger</strong> You are about to make a Strike.</p><hr><p>You feel empowered as you recall a story of ancient sapien kings. You add a +1 status bonus to the attack roll and damage roll of the triggering Strike. The bonus to damage rolls increases to 2 at 5th level, 3 at 10th level, 4 at 15th level, and 5 at 20th level. If your Strike misses, you do not expend Patron of Kings for the day and can use it again after a round.</p><p>@UUID[Compendium.immortal-ardor.ancestries.57j4N8mzQg7p1vqa]{Effect: Patron of Kings}</p>"
     },
     "rules": [],
     "slug": "patron-of-kings",

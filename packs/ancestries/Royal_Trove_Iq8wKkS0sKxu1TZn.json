@@ -8,10 +8,31 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You find yourself further empowered by the tales of yore, drawing upon them as your guide. You can use Queen’s Grace or Patron of Kings once per hour, instead of once per day.</span></p>"
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You find yourself further empowered by the tales of yore, drawing upon them as your guide. You can use @UUID[Compendium.immortal-ardor.ancestries.zj62LcM23SA4gWh4]{Queen's Grace} or @UUID[Compendium.immortal-ardor.ancestries.1WxKtnZeQhKtgzRR]{Patron of Kings} once per hour, instead of once per day.</span></p>"
     },
-    "rules": [],
-    "slug": "t-sapien-ancestry-feat-template",
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:slug:patron-of-kings"
+        ],
+        "property": "frequency-per",
+        "value": "PT1H"
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:slug:queens-grace"
+        ],
+        "property": "frequency-per",
+        "value": "PT1H"
+      }
+    ],
+    "slug": "royal-trove",
     "_migration": {
       "version": 0.959,
       "previous": {

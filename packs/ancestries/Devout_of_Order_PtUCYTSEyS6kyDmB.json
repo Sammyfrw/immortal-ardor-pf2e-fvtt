@@ -10,7 +10,34 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You were raised by teachings that encouraged self-control and maintaining order, preventing you from being so easily influenced by forced flights of fancy. You gain a +2 circumstance bonus to effects with the Emotion trait. Whenever you succeed a saving throw against an Emotion effect, you critically succeed.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:emotion"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "type": "save"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "predicate": [
+          "item:trait:emotion"
+        ],
+        "type": "circumstance",
+        "selector": [
+          "saving-throw"
+        ]
+      }
+    ],
     "slug": "devout-of-order",
     "_migration": {
       "version": 0.959,

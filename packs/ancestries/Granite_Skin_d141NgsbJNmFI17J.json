@@ -10,7 +10,19 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your skin is hard and calloused, making it hard for surface wounds laced with poison to sink in. You gain a +1 circumstance bonus to Fortitude saves when resisting poison and poison-related effects.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "predicate": [
+          "item:trait:poison"
+        ],
+        "type": "circumstance",
+        "selector": [
+          "fortitude"
+        ]
+      }
+    ],
     "slug": "granite-skin",
     "_migration": {
       "version": 0.959,

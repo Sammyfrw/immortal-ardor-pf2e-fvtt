@@ -8,9 +8,22 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have a profound wealth of knowledge regarding geology. You gain a +1 circumstance bonus to Recall Knowledge, identify, investigate or craft with stone or related earthen materials, including gems.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have a profound wealth of knowledge regarding geology. You gain a +1 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge}, Identify, investigate or @UUID[Compendium.pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Craft} with stone or related earthen materials, including gems.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "predicate": [
+          "action:recall-knowledge",
+          "rock-phenomena"
+        ],
+        "type": "circumstance",
+        "selector": [
+          "skill-check"
+        ]
+      }
+    ],
     "slug": "stonecharmer",
     "_migration": {
       "version": 0.959,

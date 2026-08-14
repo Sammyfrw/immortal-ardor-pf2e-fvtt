@@ -8,9 +8,22 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have a green thumb, and understand the intricacies and limitations of all forms of plantlife. You gain a +1 circumstance bonus on any checks and saving throws pertaining to interactions with plantlife. This includes actions such as Seeking or Crafting with them, but also when it comes to resisting effects that come from such plants such as poisons or avoiding plant-based hazards.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have a green thumb, and understand the intricacies and limitations of all forms of plantlife. You gain a +1 circumstance bonus on any checks and saving throws pertaining to immediate interactions with plantlife you can touch or observe. This includes actions such as Seeking or Crafting with them, but also when it comes to resisting effects that come from such plants such as poisons or avoiding plant-based hazards.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "predicate": [
+          "item:trait:plant"
+        ],
+        "type": "circumstance",
+        "selector": [
+          "check",
+          "saving-throw"
+        ]
+      }
+    ],
     "slug": "herbalists-charm",
     "_migration": {
       "version": 0.959,

@@ -1,0 +1,122 @@
+{
+  "folder": "MWfHeECLjcZm4SoE",
+  "name": "Effect: Patron of Kings",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You add a status bonus to the attack roll and damage roll of your Strike. If your Strike misses, you do not expend Patron of Kings for the day and can use it again after a round.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": "match(when(lte(@actor.level, 4), 1), when(btwn(@actor.level, 5, 9), 2), when(btwn(@actor.level, 10,14), 3), when(btwn(@actor.level, 15,19), 4), when(gte(@actor.level, 20), 5))",
+        "predicate": [
+          {
+            "not": "feat:tales-of-royalty"
+          }
+        ],
+        "selector": [
+          "strike-damage"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "status",
+        "selector": [
+          "attack-roll"
+        ],
+        "predicate": [
+          {
+            "not": "feat:tales-of-royalty"
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": "match(when(lte(@actor.level, 4), 3), when(btwn(@actor.level, 5, 9), 4), when(btwn(@actor.level, 10,14), 5), when(btwn(@actor.level, 15,19), 6), when(gte(@actor.level, 20), 7))",
+        "predicate": [
+          "feat:tales-of-royalty"
+        ],
+        "selector": [
+          "strike-damage"
+        ],
+        "label": "Tales of Royalty",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "type": "status",
+        "selector": [
+          "attack-roll"
+        ],
+        "predicate": [
+          "feat:tales-of-royalty"
+        ],
+        "label": "Tales of Royalty",
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "effect-patron-of-kings",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/symbols/mask-metal-silver-white.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "57j4N8mzQg7p1vqa",
+  "sort": 0,
+  "_key": "!items!57j4N8mzQg7p1vqa"
+}

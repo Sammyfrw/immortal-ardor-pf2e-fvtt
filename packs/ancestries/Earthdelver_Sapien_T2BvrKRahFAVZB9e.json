@@ -10,7 +10,12 @@
       "gm": "",
       "value": "<p>You grew up in communities nestled within caverns or underground, and this has taught you important skills to survive in the depths. You gain low-light vision, and you can reduce the DC for the flat check to target a creature concealed or hidden from you due to natural darkness by 2.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "low-light-vision"
+      }
+    ],
     "slug": "earthdelver-sapien",
     "_migration": {
       "version": 0.959,

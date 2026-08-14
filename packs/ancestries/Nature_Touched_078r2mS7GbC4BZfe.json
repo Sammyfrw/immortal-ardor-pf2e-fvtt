@@ -8,9 +8,23 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have an affinity with the natural world and its denizens. You gain a +1 circumstance bonus to Recall Knowledge using Nature and other checks pertaining to nature-spirit related phenomena.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have an affinity with the natural world and its denizens. You gain a +1 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} using Nature and other checks pertaining to nature-spirit related phenomena.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "predicate": [
+          "action:recall-knowledge",
+          "nature-phenomena"
+        ],
+        "type": "circumstance",
+        "selector": [
+          "skill-check",
+          "nature"
+        ]
+      }
+    ],
     "slug": "nature-touched",
     "_migration": {
       "version": 0.959,

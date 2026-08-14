@@ -10,7 +10,16 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have a hale fortitude and a strong will to live. Increase your maximum hit points by your level. When you recover hit points or when you heal others, add a status bonus to the amount healed equal to your Constitution modifier.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "healing"
+        ],
+        "value": "@actor.system.abilities.con.mod",
+        "type": "status"
+      }
+    ],
     "slug": "persistent-soul",
     "_migration": {
       "version": 0.959,
