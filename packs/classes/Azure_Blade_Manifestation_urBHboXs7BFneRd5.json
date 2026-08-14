@@ -80,6 +80,28 @@
         ],
         "slug": "anima-weapon-specialization",
         "value": 2
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "improved-manifestation:mutualism"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "improved-manifestation:mutualism",
+          "item:slug:mutualism"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Chimerian.SymbioticManifestation.MutualismText",
+            "title": "IA.SpecificRule.Chimerian.SymbioticManifestation.Mutualism"
+          }
+        ]
       }
     ],
     "slug": "azure-blade-manifestation",

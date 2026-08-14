@@ -1,0 +1,174 @@
+{
+  "folder": "r6kfIv0NvsaseNPW",
+  "name": "Improved Manifestation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You gain the additional benefit listed for your manifestation that improves its symbiosis action, but no other benefits.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": true,
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Chimerian.SymbioticManifestation.Predation",
+            "value": "predation"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.SymbioticManifestation.Mutualism",
+            "value": "mutualism"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.SymbioticManifestation.Synergism",
+            "value": "synergism"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.SymbioticManifestation.Mimicry",
+            "value": "mimicry"
+          }
+        ],
+        "flag": "symbioticManifestation",
+        "rollOption": "improved-manifestation",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Chimerian.SymbioticManifestation.PromptText"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "improved-manifestation:predation",
+          "item:slug:predation"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Chimerian.SymbioticManifestation.PredationText",
+            "title": "IA.SpecificRule.Chimerian.SymbioticManifestation.Predation"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "improved-manifestation:mimicry",
+          "item:slug:mimicry"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Chimerian.SymbioticManifestation.MimicryText",
+            "title": "IA.SpecificRule.Chimerian.SymbioticManifestation.Mimicry"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "improved-manifestation:synergism",
+          "item:slug:synergism"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Chimerian.SymbioticManifestation.SynergismText",
+            "title": "IA.SpecificRule.Chimerian.SymbioticManifestation.Synergism"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "improved-manifestation:mutualism",
+          "item:slug:mutualism"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Chimerian.SymbioticManifestation.MutualismText",
+            "title": "IA.SpecificRule.Chimerian.SymbioticManifestation.Mutualism"
+          }
+        ]
+      }
+    ],
+    "slug": "improved-manifestation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Anima Manifestation"
+        },
+        {
+          "value": "Chimerian Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "8idiRR2407jzEqeD",
+  "sort": 700000,
+  "_key": "!items!8idiRR2407jzEqeD"
+}

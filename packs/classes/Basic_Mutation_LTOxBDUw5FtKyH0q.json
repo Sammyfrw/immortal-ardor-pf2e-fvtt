@@ -1,40 +1,43 @@
 {
-  "folder": "fju3QClW7TLWF66U",
-  "name": "Monstrous Strength",
+  "folder": "r6kfIv0NvsaseNPW",
+  "name": "Basic Mutation",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your body holds frightening strength, aided by the monster sharing your soul. The damage die for your fist changes to 1d6 instead of 1d4. You don't take the normal –2 circumstance penalty when making a lethal attack with your fist or any other unarmed attacks. You treat your fist unarmed attacks and any unarmed attacks granted by your ancestry as anima weapons.</p>"
+      "value": "<p>You gain a 1st or 2nd-level chimerian feat.</p>"
     },
     "rules": [
       {
-        "itemId": "xxxxxxFISTxxxxxx",
-        "key": "ItemAlteration",
-        "mode": "upgrade",
-        "property": "damage-dice-faces"
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:category:class",
+            "item:trait:chimerian",
+            {
+              "lte": [
+                "item:level",
+                2
+              ]
+            }
+          ],
+          "itemType": "feat"
+        },
+        "flag": "basicMutation",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.LevelOneOrTwoClassFeat"
       },
       {
-        "fist": true,
-        "key": "Strike"
-      },
-      {
-        "itemType": "weapon",
-        "key": "ItemAlteration",
-        "mode": "add",
-        "predicate": [
-          "item:category:unarmed"
-        ],
-        "property": "traits",
-        "value": "anima"
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.basicMutation}"
       }
     ],
-    "slug": "monstrous-strength",
+    "slug": "basic-mutation",
     "_migration": {
       "version": 0.959,
       "previous": {
-        "schema": 0.955,
+        "schema": 0.935,
         "foundry": "14.365",
         "system": "8.4.0"
       }
@@ -42,7 +45,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "chimerian"
+        "archetype"
       ],
       "rarity": "common"
     },
@@ -53,7 +56,7 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 4
     },
     "category": "class",
     "onlyLevel1": false,
@@ -65,7 +68,11 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Chimerian Dedication"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {
@@ -75,10 +82,6 @@
     }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
-  "ownership": {
-    "default": 0,
-    "xrtJn5KNHicBTyJb": 3
-  },
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
@@ -88,7 +91,11 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "GWwvOf0nJgIISZf8",
-  "sort": 1900000,
-  "_key": "!items!GWwvOf0nJgIISZf8"
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "LTOxBDUw5FtKyH0q",
+  "sort": 600000,
+  "_key": "!items!LTOxBDUw5FtKyH0q"
 }

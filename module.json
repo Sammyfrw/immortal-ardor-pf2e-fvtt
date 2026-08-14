@@ -250,6 +250,24 @@
           "yethyenko": "IA.Language.Yethyenko",
           "zahnheimen": "IA.Language.Zahnheimen"
         },
+        "classTraits": {
+          "artifex": {
+            "label": "IA.Trait.Artifex",
+            "description": "IA.TraitDescription.Artifex"
+          },
+          "chimerian": {
+            "label": "IA.Trait.Chimerian",
+            "description": "IA.TraitDescription.Chimerian"
+          },
+          "dervish": {
+            "label": "IA.Trait.Dervish",
+            "description": "IA.TraitDescription.Dervish"
+          },
+          "diviner": {
+            "label": "IA.Trait.Diviner",
+            "description": "IA.TraitDescription.Diviner"
+          }
+        },
         "creatureTraits": {
           "aelkhazak": {
             "label": "IA.Trait.Aelkhazak",

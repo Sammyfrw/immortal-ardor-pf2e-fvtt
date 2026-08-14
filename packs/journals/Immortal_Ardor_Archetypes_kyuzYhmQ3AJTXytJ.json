@@ -158,7 +158,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p><span lang=\"EN\">You have pondered your place in the world, and tapping into scripture and philosophy have allowed you to grasp a touch of the divine.</span></p><h2>@UUID[Compendium.immortal-ardor.classes.KRGQT0HF73gvhCAu]{Dervish Dedication} <span style=\"float:right\">Feat 2</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li class=\"tag traits\">dedication</li><li class=\"tag traits\">multiclass</li><li><p><span lang=\"EN\">@Embed[Compendium.immortal-ardor.classes.Item.KRGQT0HF73gvhCAu inline]</span></p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.NPqAq1VOpW2XRVSX]{Basic Philosophy} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.immortal-ardor.classes.Item.NPqAq1VOpW2XRVSX inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.ikE6xVmnZ15uxt2c]{Step Into the Path} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.Item.ikE6xVmnZ15uxt2c inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.0DX42LWITr9BnW02]{Advanced Philosophy} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.Item.0DX42LWITr9BnW02 inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.9wkQVNzh4QzVniP8]{Peace of Mind} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.immortal-ardor.classes.Item.9wkQVNzh4QzVniP8 inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.BwlqEBmXWp14ObqB]{Fervent Attacks} <span style=\"float:right\">Feat 8</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.Item.BwlqEBmXWp14ObqB inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.ij995NEguMjua0ud]{Expert Fervor} <span style=\"float:right\">Feat 12</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\">archetype</li></ul><p>@Embed[Compendium.immortal-ardor.classes.Item.ij995NEguMjua0ud inline]</p>"
+        "content": "<p><span lang=\"EN\">You have pondered your place in the world, and tapping into scripture and philosophy have allowed you to grasp a touch of the divine.</span></p><h2>@UUID[Compendium.immortal-ardor.classes.KRGQT0HF73gvhCAu]{Dervish Dedication} <span style=\"float:right\">Feat 2</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li class=\"tag traits\"><p>dedication</p></li><li class=\"tag traits\"><p>multiclass</p></li><li><p><span lang=\"EN\">@Embed[Compendium.immortal-ardor.classes.Item.KRGQT0HF73gvhCAu inline]</span></p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.NPqAq1VOpW2XRVSX]{Basic Philosophy} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.Item.NPqAq1VOpW2XRVSX inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.ikE6xVmnZ15uxt2c]{Step Into the Path} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.Item.ikE6xVmnZ15uxt2c inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.0DX42LWITr9BnW02]{Advanced Philosophy} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.Item.0DX42LWITr9BnW02 inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.9wkQVNzh4QzVniP8]{Peace of Mind} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.Item.9wkQVNzh4QzVniP8 inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.BwlqEBmXWp14ObqB]{Fervent Attacks} <span style=\"float:right\">Feat 8</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.Item.BwlqEBmXWp14ObqB inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.ij995NEguMjua0ud]{Expert Fervor} <span style=\"float:right\">Feat 12</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.Item.ij995NEguMjua0ud inline]</p>"
       },
       "video": {
         "controls": true,
@@ -173,13 +173,49 @@
       "_stats": {
         "compendiumSource": "JournalEntry.wWwuVkZ3Vk9NEhaT.JournalEntryPage.n4hqsmYDoXWNNCoM",
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "14.365",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "exportSource": null
       },
       "category": null,
       "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.n4hqsmYDoXWNNCoM"
+    },
+    {
+      "sort": 75000,
+      "name": "Chimerian",
+      "type": "text",
+      "_id": "orDz837AfGuNQRfx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span lang=\"EN\">You have pondered your place in the world, and tapping into scripture and philosophy have allowed you to grasp a touch of the divine.</span></p><h2>@UUID[Compendium.immortal-ardor.classes.layUg0f8nFDUvJZq]{Chimerian Dedication} <span style=\"float:right\">Feat 2</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li class=\"tag traits\"><p>dedication</p></li><li class=\"tag traits\"><p>multiclass</p></li><li><p><span lang=\"EN\">@Embed[</span>Compendium.immortal-ardor.classes.layUg0f8nFDUvJZq<span lang=\"EN\"> inline]</span></p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.LTOxBDUw5FtKyH0q]{Basic Mutation} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.LTOxBDUw5FtKyH0q inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.8idiRR2407jzEqeD]{Improved Manifestation}<span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.8idiRR2407jzEqeD inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.488TC8VG8wFfaIxG]{Advanced Mutation} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.488TC8VG8wFfaIxG inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.sZIh6PeZkwt8G6gm]{Evolved Affinity} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.sZIh6PeZkwt8G6gm inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.ybvxGQKY590Kwkkv]{Expanded Maelstrom} <span style=\"float:right\">Feat 8</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.ybvxGQKY590Kwkkv inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.qIqh42zPRfV7Qy42]{Expert Anima} <span style=\"float:right\">Feat 12</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.qIqh42zPRfV7Qy42 inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.j1uAmvWVZ9j9l6VU]{Master Anima}<span style=\"float:right\">Feat 18</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.j1uAmvWVZ9j9l6VU inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.orDz837AfGuNQRfx"
     }
   ],
   "folder": null,

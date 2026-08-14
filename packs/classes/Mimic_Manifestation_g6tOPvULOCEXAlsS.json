@@ -50,6 +50,28 @@
         "key": "ChoiceSet",
         "prompt": "Select a feat",
         "flag": "azureAnimaMasteryFeat"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "improved-manifestation:mimicry"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "improved-manifestation:mimicry",
+          "item:slug:mimicry"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Chimerian.SymbioticManifestation.MimicryText",
+            "title": "IA.SpecificRule.Chimerian.SymbioticManifestation.Mimicry"
+          }
+        ]
       }
     ],
     "slug": "mimic-manifestation",

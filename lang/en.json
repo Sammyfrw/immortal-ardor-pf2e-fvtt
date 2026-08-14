@@ -405,7 +405,11 @@
           "Predation": "Predation",
           "Mutualism": "Mutualism",
           "Synergism": "Synergism",
-          "Mimicry": "Mimicry"
+          "Mimicry": "Mimicry",
+          "PredationText": "you use Predation, you deal persistent bleed damage or an equivalent damage type if the Strike does not deal physical damage. The damage is equal to 2 plus the number of damage die of the anima weapon attack, including the number of extra damage die from Predation",
+          "MutualismText": "When you use Mutualism, you can Raise a Shield or use a similar Defend action as a free action.",
+          "SynergismText": "When you use Synergism, you can Step, Strike, or Stride as a free action. If your form has another type of movement speed, you can move with those actions instead of a Stride.",
+          "MimicryText": "If you observe a creature using an anima spell, you can use Mimicry against that creature as a reaction."
         }
       }
     }

@@ -11,9 +11,13 @@
     "rules": [
       {
         "key": "SpecialStatistic",
-        "extends": "class-spell",
+        "extends": "chimerian",
         "label": "IA.Trait.Anima",
         "slug": "anima"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.spells.Item.f45Q8FGyQrpR7VDE"
       }
     ],
     "slug": "chimerian-anima-magic",

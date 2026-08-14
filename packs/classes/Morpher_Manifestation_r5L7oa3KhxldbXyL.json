@@ -50,6 +50,28 @@
         "key": "ChoiceSet",
         "prompt": "Select a feat",
         "flag": "azureAnimaMasteryFeat"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "improved-manifestation:synergism"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "improved-manifestation:synergism",
+          "item:slug:synergism"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Chimerian.SymbioticManifestation.SynergismText",
+            "title": "IA.SpecificRule.Chimerian.SymbioticManifestation.Synergism"
+          }
+        ]
       }
     ],
     "slug": "morpher-manifestation",

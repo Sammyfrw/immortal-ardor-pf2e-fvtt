@@ -1,0 +1,99 @@
+{
+  "folder": "r6kfIv0NvsaseNPW",
+  "name": "Chimerian Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Choose an anima manifestation; you gain the symbiosis action granted by that manifestation and are considered to have that manifestation, but no other benefits. You can only benefit from Harmonizing from a symbiosis action once every ten minutes.</p><p class=\"MsoNormal\">You also gain the @UUID[Compendium.immortal-ardor.classes.GWwvOf0nJgIISZf8]{Monstrous Strength} chimerian feat, and you become trained in Chimerian class DC and must use it to determine the Anima DC of anima spells you cast from this archetype. When you make Strikes or an Anima Strike with an anima weapon granted through this dedication, you use your Chimerian class DC -10 for the attack modifier if it is higher than your unarmed attack modifier.</p><p class=\"MsoNormal\">You gain the @UUID[Compendium.immortal-ardor.classes.aAhzRgWSwFFGJz1U]{Anima Maelstrom} and @UUID[Compendium.immortal-ardor.classes.A7tdCuCuYTjcAB1P]{Chimerian Anima Magic} features and the Soulreave action, granting the ability to Cast and @UUID[Compendium.immortal-ardor.spells.f45Q8FGyQrpR7VDE]{Learn Anima Magic}. However, you only gain 1 focus point for each anima spell you can prepare. You can only prepare a number of spells and learn spells of a rank equal to a quarter of your level rounded down (minimum 1). You would be able to prepare 1 spell when you can learn 1st rank spells, and eventually you could prepare 5 spells when you can learn 5th rank spells at 20th level).</p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.kyuzYhmQ3AJTXytJ.JournalEntryPage.orDz837AfGuNQRfx]{Chimerian}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.GWwvOf0nJgIISZf8"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.A7tdCuCuYTjcAB1P"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.aAhzRgWSwFFGJz1U"
+      }
+    ],
+    "slug": "chimerian-dedication",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Constitution +2"
+        },
+        {
+          "value": "Wisdom +2"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "chimerian": {
+          "rank": 1,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "layUg0f8nFDUvJZq",
+  "sort": 500000,
+  "_key": "!items!layUg0f8nFDUvJZq"
+}

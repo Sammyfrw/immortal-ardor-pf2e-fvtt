@@ -88,6 +88,28 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.immortal-ardor.classes.Item.1Hinzfh1KXqAbbil"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "improved-manifestation:predation"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "improved-manifestation:predation",
+          "item:slug:predation"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Chimerian.SymbioticManifestation.PredationText",
+            "title": "IA.SpecificRule.Chimerian.SymbioticManifestation.Predation"
+          }
+        ]
       }
     ],
     "slug": "amalgam-manifestation",

@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> You have at least one anima weapon granted by a spell.</p><hr><p>Your mutated body surges with strength as you lash out at your prey. Make a Strike with one of your anima weapons. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal an extra die of weapon damage. If you’re at least 10th level, increase this to two extra dice, and if you’re at least 18th level, increase it to three extra dice.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls harmonize if you critically hit, if you reduce the target's hit points to 0, if your Strike benefits from your Monster Affinity bonuses, or if your target is suffering from persistent damage.</p>",
+      "value": "<p><strong>Requirements</strong> You have at least one anima weapon granted by a spell.</p><hr><p>Your mutated body surges with strength as you lash out at your prey. Make a Strike with one of your anima weapons. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal an extra die of weapon damage. If you’re at least 10th level, increase this to two extra dice, and if you’re at least 18th level, increase it to three extra dice.</p><p class=\"MsoNormal\"><strong>Symbiosis </strong>Your souls @UUID[Compendium.immortal-ardor.classes.NGV2AemOug2Rj21M]{Effect: Harmonized} if you critically hit, if you reduce the target's hit points to 0, if your Strike benefits from your Monster Affinity bonuses, or if your target is suffering from persistent damage.</p>",
       "gm": ""
     },
     "publication": {
@@ -22,7 +22,36 @@
       "license": "OGL",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "domain": "damage",
+        "key": "RollOption",
+        "option": "predation",
+        "toggleable": true
+      },
+      {
+        "diceNumber": "ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,10),2,1))",
+        "key": "DamageDice",
+        "predicate": [
+          "predation",
+          "item:trait:anima"
+        ],
+        "selector": "strike-damage"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "strike-damage"
+        ],
+        "value": "ternary(gte(@actor.level,18),5,ternary(gte(@actor.level,10),4,3))",
+        "damageCategory": "persistent",
+        "damageType": "bleed",
+        "predicate": [
+          "item:trait:anima",
+          "improved-manifestation:predation"
+        ]
+      }
+    ],
     "slug": "predation",
     "traits": {
       "otherTags": [],

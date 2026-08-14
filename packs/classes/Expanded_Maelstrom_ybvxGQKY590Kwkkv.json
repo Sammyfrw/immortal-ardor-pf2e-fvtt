@@ -1,18 +1,22 @@
 {
-  "folder": "nlddAp9WBxBssNGg",
-  "name": "Expert Fervor",
+  "folder": "r6kfIv0NvsaseNPW",
+  "name": "Expanded Maelstrom",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You become an expert in dervish class DC.</p>"
+      "value": "<p class=\"MsoNormal\">You can prepare 2 additional anima spells each day.</p>"
     },
     "rules": [],
-    "slug": "expert-fervor",
+    "slug": "expanded-maelstrom",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -28,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 12
+      "value": 8
     },
     "category": "class",
     "onlyLevel1": false,
@@ -42,35 +46,32 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Dervish Dedication"
+          "value": "Chimerian Dedication"
         }
       ]
     },
     "location": null,
     "subfeatures": {
-      "proficiencies": {
-        "dervish": {
-          "rank": 2,
-          "attribute": null
-        }
-      }
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
     }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
-  "sort": 1200000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
   },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
-    "duplicateSource": "Item.zYj1c1n8WGHNjb1U",
-    "coreVersion": "14.365",
-    "systemId": "pf2e",
-    "systemVersion": "8.4.0",
-    "exportSource": null
-  },
-  "_id": "ij995NEguMjua0ud",
-  "_key": "!items!ij995NEguMjua0ud"
+  "_id": "ybvxGQKY590Kwkkv",
+  "sort": 400000,
+  "_key": "!items!ybvxGQKY590Kwkkv"
 }
