@@ -1,0 +1,74 @@
+{
+  "name": "Schnauzen Pedigree",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "aqoWrLhZrhELgIP8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your lineage consists of purely or mostly schnauzen; with short, wiry fur, a smaller stature and a knack for interacting with magical objects. You are Small. You become trained in Arcana and also gain the Trick Magic Item feat, and you gain a +2 circumstance bonus to skill checks when trying to use that feat.</p>"
+    },
+    "rules": [],
+    "slug": "schnauzen-pedigree",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lineage",
+        "loupain"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "Yyuf5wkONgeEu1wY",
+  "sort": 1200000,
+  "_key": "!items!Yyuf5wkONgeEu1wY"
+}

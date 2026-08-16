@@ -480,6 +480,10 @@
             "label": "IA.Trait.Ether",
             "description": "IA.TraitDescription.Ether"
           },
+          "gangor": {
+            "label": "IA.Trait.Gangor",
+            "description": "IA.TraitDescription.Gangor"
+          },
           "loupain": {
             "label": "IA.Trait.Loupain",
             "description": "IA.TraitDescription.Loupain"
@@ -491,10 +495,6 @@
           "lyncan": {
             "label": "IA.Trait.Lyncan",
             "description": "IA.TraitDescription.Lyncan"
-          },
-          "gangor": {
-            "label": "IA.Trait.Gangor",
-            "description": "IA.TraitDescription.Gangor"
           },
           "mana": {
             "label": "IA.Trait.Mana",
@@ -596,9 +596,29 @@
           "twinblade": "IA.WeaponGroups.Twinblade"
         },
         "weaponTraits": {
+          "aelkhazak": {
+            "label": "IA.Trait.Aelkhazak",
+            "description": "IA.TraitDescription.Aelkhazak"
+          },
+          "agamidan": {
+            "label": "IA.Trait.Agamidan",
+            "description": "IA.TraitDescription.Agamidan"
+          },
           "anima": {
             "description": "IA.TraitDescription.Anima",
             "label": "IA.Trait.Anima"
+          },
+          "avekiri": {
+            "label": "IA.Trait.Avekiri",
+            "description": "IA.TraitDescription.Avekiri"
+          },
+          "azoph-fer": {
+            "label": "IA.Trait.AzophFer",
+            "description": "IA.TraitDescription.AzophFer"
+          },
+          "cazic-fer": {
+            "label": "IA.Trait.CazicFer",
+            "description": "IA.TraitDescription.CazicFer"
           },
           "combo-acid": {
             "description": "IA.TraitDescription.Combo",
@@ -624,13 +644,37 @@
             "description": "IA.TraitDescription.Combo",
             "label": "IA.Trait.ComboSpirit"
           },
+          "draichsar": {
+            "label": "IA.Trait.Draichsar",
+            "description": "IA.TraitDescription.Draichsar"
+          },
+          "gangor": {
+            "label": "IA.Trait.Gangor",
+            "description": "IA.TraitDescription.Gangor"
+          },
           "launching": {
             "description": "IA.TraitDescription.Launching",
             "label": "IA.Trait.Launching"
           },
+          "loupain": {
+            "label": "IA.Trait.Loupain",
+            "description": "IA.TraitDescription.Loupain"
+          },
+          "lyncan": {
+            "label": "IA.Trait.Lyncan",
+            "description": "IA.TraitDescription.Lyncan"
+          },
           "marine": {
             "description": "IA.TraitDescription.Marine",
             "label": "IA.Trait.Marine"
+          },
+          "pinotr": {
+            "label": "IA.Trait.Pinotr",
+            "description": "IA.TraitDescription.Pinotr"
+          },
+          "sapien": {
+            "label": "IA.Trait.Sapien",
+            "description": "IA.TraitDescription.Sapien"
           },
           "nascent-arcane": {
             "description": "IA.TraitDescription.Nascent",
@@ -659,6 +703,14 @@
           "union": {
             "description": "IA.TraitDescription.Union",
             "label": "IA.Trait.Union"
+          },
+          "vashlad": {
+            "label": "IA.Trait.Vashlad",
+            "description": "IA.TraitDescription.Vashlad"
+          },
+          "vesperan": {
+            "label": "IA.Trait.Vesperan",
+            "description": "IA.TraitDescription.Vesperan"
           }
         }
       }

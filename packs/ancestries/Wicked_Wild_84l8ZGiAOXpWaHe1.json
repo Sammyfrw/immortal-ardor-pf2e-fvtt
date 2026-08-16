@@ -1,0 +1,77 @@
+{
+  "name": "Wicked Wild",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "aqoWrLhZrhELgIP8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your skill at moving on all fours is legendary, being able to swap and have all range of motions available to you at once. You can adjust your grip for Wild Sprint as a free action, and while benefiting from Wild Sprint you can Take Cover while Prone as a free action during your turn and are able to attack without losing its benefits.</span></p>"
+    },
+    "rules": [],
+    "slug": "wicked-wild",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "loupain"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Wild Abandon"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "84l8ZGiAOXpWaHe1",
+  "sort": 0,
+  "_key": "!items!84l8ZGiAOXpWaHe1"
+}

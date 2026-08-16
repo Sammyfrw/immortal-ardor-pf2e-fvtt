@@ -1,0 +1,77 @@
+{
+  "name": "Lawmaster",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "aqoWrLhZrhELgIP8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Many long nights spent reading up Bernardii law and its history has given you plenty of useful applications for your day-to-day. You can use Society or Law Lore in place of Deception to Lie, and Diplomacy to Request actions, where the law applies and is appropriate. If you use the original skills for these actions, you gain a +1 circumstance bonus.</span></p>"
+    },
+    "rules": [],
+    "slug": "lawmaster",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "loupain"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in Society or Law Lore"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "YoL4pGHDjKAC9jQu",
+  "sort": 400000,
+  "_key": "!items!YoL4pGHDjKAC9jQu"
+}

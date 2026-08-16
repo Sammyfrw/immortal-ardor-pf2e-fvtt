@@ -1,0 +1,88 @@
+{
+  "name": "Quadrupedal Limbs",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "BaKvH0snSPotR98H",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Though you are primarily bipedal, your limb joints allow you to maintain a steady form. If you have both hands free, you increase your Speed to 30 feet as you run on all fours.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "quadrupedal-limbs",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "label": "PF2E.SpecificRule.Automaton.HunterAutomaton.ToggleLabel",
+        "predicate": [
+          "quadrupedal-limbs"
+        ],
+        "selector": "land-speed",
+        "value": 5
+      }
+    ],
+    "slug": "quadrupedal-limbs",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "loupain"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "rZYnUXx3SK2PVHBq",
+  "sort": 0,
+  "_key": "!items!rZYnUXx3SK2PVHBq"
+}

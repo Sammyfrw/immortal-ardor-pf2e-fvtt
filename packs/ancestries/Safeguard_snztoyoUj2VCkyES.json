@@ -1,0 +1,81 @@
+{
+  "name": "Safeguard",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "aqoWrLhZrhELgIP8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> Once per day</p><hr><p>You have been taught many tricks and secrets to keep yourself safe from would-be intruders and aggressors. You can cast @UUID[Compendium.pf2e.spells-srd.8xRzLhwGL7Dgy3EZ]{Sanctuary} and @UUID[Compendium.pf2e.spells-srd.4WAib3GichxLjp5p]{Alarm} as an innate 1st rank Arcane spell.</p>"
+    },
+    "rules": [],
+    "slug": "safeguard",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "loupain"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Sleekfur or Tombkeeper Loupain heritage"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "snztoyoUj2VCkyES",
+  "sort": 500000,
+  "_key": "!items!snztoyoUj2VCkyES"
+}
