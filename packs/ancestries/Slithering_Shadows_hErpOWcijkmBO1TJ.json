@@ -8,10 +8,23 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Garyu was known to slink across the dark corners of </span>Ixu’na’gaszh in perpetual silence, turning it to his plaything to instill a sense of caution amongst his people. As long as you are in shadows, dim-light or in darkness, you can Sneak at full speed or gain a +2 circumstance bonus to your attempts to Create a Diversion.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Garyu was known to slink across the dark corners of </span>Ixu’na’gaszh in perpetual silence, turning it to his plaything to instill a sense of caution amongst his people. As long as you are in shadows, dim-light or in darkness, you can @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} at full speed and gain a +2 circumstance bonus to your attempts to @UUID[Compendium.pf2e.actionspf2e.GkmbTGfg8KcgynOA]{Create a Diversion}.</p>"
     },
-    "rules": [],
-    "slug": "t-ancestry-feat-template",
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "selector": [
+          "skill-check"
+        ],
+        "predicate": [
+          "action:create-a-diversion",
+          "dim-light"
+        ],
+        "type": "circumstance"
+      }
+    ],
+    "slug": "slithering-shadows",
     "_migration": {
       "version": 0.959,
       "previous": {

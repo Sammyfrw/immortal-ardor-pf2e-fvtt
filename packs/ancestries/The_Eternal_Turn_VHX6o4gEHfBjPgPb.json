@@ -8,9 +8,35 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">The Serpent That Coils The World That Wakes turns eternally in perpetuity, and you are fated to cycle through its blood, much like every other aelkhazak and the Ana’zhak that spawned you. When you take this feat, your blood becomes black and writhing as your body surrenders to the Darksea, and gains immensely powerful healing properties.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">By taking an action to bite yourself, you can inflict yourself with 15 persistent bleeding damage. While you suffer any form of persistent bleeding, your black blood churns and activates as it spills from your wound. You gain resistance 5 to bleeding damage, and gain a +2 circumstance bonus to saving throws or checks to end any source of Fatigued, Drained, Enfeebled or Sickened conditions. Any time you roll your flat check to end your persistent bleeding, you attempt to counteract or make a saving throw to end these effects, whichever is more applicable.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">The Serpent That Coils The World That Wakes turns eternally in perpetuity, and you are fated to cycle through its blood, much like every other aelkhazak and the Ana’zhak that spawned you. When you take this feat, your blood becomes black and writhing as your body surrenders to the Darksea, and gains immensely powerful healing properties.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">By taking an action to bite yourself, you can inflict yourself with @Damage[15[bleeding,persistent]]{15 persistent bleeding damage}. While you suffer any form of persistent bleeding, your black blood churns and activates as it spills from your wound. You gain resistance 5 to bleeding damage, and gain a +2 circumstance bonus to saving throws or checks to end any source of Fatigued, Drained, Enfeebled or Sickened conditions. Any time you roll your flat check to end your persistent bleeding, you attempt to counteract or make a saving throw to end these effects, whichever is more applicable.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "bleed",
+        "value": "5"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw",
+          "counteract"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "self:condition:fatigued",
+              "self:condition:drained",
+              "self:condition:sickened",
+              "self:condition:enfeebled"
+            ]
+          },
+          "eternal-turn"
+        ]
+      }
+    ],
     "slug": "the-eternal-turn",
     "_migration": {
       "version": 0.959,

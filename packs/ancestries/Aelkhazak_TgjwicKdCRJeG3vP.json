@@ -39,7 +39,8 @@
           {
             "or": [
               "slithering-form:bipedal",
-              "slithering-form:winged"
+              "slithering-form:winged",
+              "slithering-form:cosmic"
             ]
           }
         ]
@@ -48,7 +49,12 @@
         "key": "BaseSpeed",
         "value": 25,
         "predicate": [
-          "slithering-form:bipedal"
+          {
+            "or": [
+              "slithering-form:bipedal",
+              "slithering-form:cosmic"
+            ]
+          }
         ],
         "selector": "land"
       },
@@ -57,13 +63,16 @@
         "selector": "fly",
         "value": 25,
         "predicate": [
-          {
-            "or": [
-              "slithering-form:bipedal",
-              "slithering-form:winged"
-            ]
-          }
+          "slithering-form:winged"
         ]
+      },
+      {
+        "key": "BaseSpeed",
+        "value": "max(20,@actor.system.movement.speeds.land.value)",
+        "predicate": [
+          "slithering-form:cosmic"
+        ],
+        "selector": "fly"
       }
     ],
     "slug": "aelkhazak",

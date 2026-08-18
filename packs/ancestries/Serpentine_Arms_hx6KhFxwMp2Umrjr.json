@@ -10,7 +10,125 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your body is a deadly weapon of its own. origins grant you powerful natural weapons. When you select this feat, you gain your choice of either a tail unarmed attack or improve your fangs unarmed attack. These attacks are in the Brawling </span>weapon group.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">Tail, 1d6 bludgeoning [grapple, trip, unarmed]</p></li><li><p class=\"MsoListParagraphCxSpLast\">Improved Fangs, 1d8 piercing [finesse, grapple, unarmed]</p></li></ul><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At 5th level, whenever you get a critical hit with one of these attacks, you get its critical specialization effect.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> You can take this feat a number of times equal to the attacks listed above. Each time you do, select a different attack.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.BattleForm.Attack.Tail",
+            "predicate": [
+              {
+                "not": "serpentine-arms:tail"
+              }
+            ],
+            "value": "tail"
+          },
+          {
+            "label": "IA.SpecificRule.Ancestries.Aelkhazak.SerpentineArms.ImprovedAelkhazakFangs",
+            "predicate": [
+              {
+                "not": "serpentine-arms:improved-aelkhazak-fangs"
+              }
+            ],
+            "value": "improved-aelkhazak-fangs"
+          },
+          {
+            "label": "IA.SpecificRule.Ancestries.Aelkhazak.SerpentineArms.ImprovedPoisonSpit",
+            "predicate": [
+              "feat:najazis-rivulet",
+              {
+                "not": "serpentine-arms:improved-poison-spit"
+              }
+            ],
+            "value": "improved-poison-spit"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.UnarmedAttack",
+        "rollOption": "serpentine-arms"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Tail",
+        "predicate": [
+          "serpentine-arms:tail"
+        ],
+        "range": null,
+        "slug": "tail",
+        "traits": [
+          "unarmed",
+          "grapple",
+          "trip",
+          "aelkhazak"
+        ]
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "damage-dice-faces",
+        "predicate": [
+          "item:trait:aelkhazak",
+          "item:slug:fangs",
+          "serpentine-arms:improved-aelkhazak-fangs"
+        ]
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "grapple",
+        "predicate": [
+          "item:trait:aelkhazak",
+          "serpentine-arms:improved-aelkhazak-fangs"
+        ]
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "damage-dice-faces",
+        "predicate": [
+          "item:trait:aelkhazak",
+          "serpentine-arms:improved-poison-spit",
+          "item:slug:poison-spit"
+        ]
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "property": "range-increment",
+        "value": 30,
+        "predicate": [
+          "item:trait:aelkhazak",
+          "serpentine-arms:improved-poison-spit",
+          "item:slug:poison-spit"
+        ]
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:id:{item|id}",
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "serpentine-arms",
     "_migration": {
       "version": 0.959,
@@ -38,7 +156,7 @@
     },
     "category": "ancestry",
     "onlyLevel1": false,
-    "maxTakable": 1,
+    "maxTakable": 3,
     "actionType": {
       "value": "passive"
     },

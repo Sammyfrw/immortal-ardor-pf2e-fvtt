@@ -8,9 +8,15 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per minute</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Tzalica was said to grow wings, trying to reach the heavens so that they could protect the sun from Aphos. When you take this feat, you gain a Climb speed equal to your land speed or 25 feet, whichever is higher. For 2 actions, you can coil yourself up for a dangerous jump. You Leap up to half your Climb speed rounded down vertically, and up to your Climb speed horizontally. You Fall at the end of the movement if you are in the air.</span></p><p>During your movement, you can attempt to Strike a creature or Grapple an adjacent creature. If you succeed against an adjacent creature up to one size larger than you, you can coil around them and slam them directly downward mid-Leap in their space. In addition to the normal effects of your Strike or Grapple, the creature moves to the nearest unoccupied ground space adjacent to you and it can’t Fly, levitate or otherwise leave the ground for 1 round. If you fall alongside the creature, you treat your fall as if it was half the distance.</p>"
+      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per minute</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Tzalica was said to grow wings, trying to reach the heavens so that they could protect the sun from Aphos. When you take this feat, you gain a Climb speed equal to your land speed or 25 feet, whichever is higher. For 2 actions, you can coil yourself up for a dangerous jump. You Leap up to half your Climb speed rounded down vertically, and up to your Climb speed horizontally. You Fall at the end of the movement if you are in the air.</span></p><p>During your movement, you can attempt to Strike a creature or @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} an adjacent creature. If you succeed against an adjacent creature up to one size larger than you, you can coil around them and slam them directly downward mid-Leap in their space. In addition to the normal effects of your Strike or Grapple, the creature moves to the nearest unoccupied ground space adjacent to you and it can’t Fly, levitate or otherwise leave the ground for 1 round. If you fall alongside the creature, you treat your fall as if it was half the distance.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 25
+      }
+    ],
     "slug": "sky-hunter",
     "_migration": {
       "version": 0.959,
@@ -40,10 +46,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     },
     "prerequisites": {
       "value": [

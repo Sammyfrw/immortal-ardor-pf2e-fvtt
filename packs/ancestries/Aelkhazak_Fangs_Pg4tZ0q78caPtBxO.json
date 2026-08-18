@@ -25,21 +25,12 @@
         "label": "PF2E.BattleForm.Attack.Fangs",
         "predicate": [],
         "range": null,
-        "slug": "aelkhazak-fangs",
+        "slug": "fangs",
         "traits": [
           "finesse",
-          "unarmed"
+          "unarmed",
+          "aelkhazak"
         ]
-      },
-      {
-        "itemType": "weapon",
-        "key": "ItemAlteration",
-        "mode": "add",
-        "predicate": [
-          "item:id:{item|id}"
-        ],
-        "property": "other-tags",
-        "value": "aelkhazak-fangs"
       }
     ],
     "slug": "aelkhazak-fangs",

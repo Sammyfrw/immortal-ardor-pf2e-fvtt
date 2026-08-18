@@ -10,7 +10,42 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have potent venom within your fangs and have a throat pouch that can store a different poison of your choice. Your fangs unarmed attack gains the versatile poison trait. If you already have the versatile poison trait, you get the critical specialization effect of your unarmed attacks whenever you get a critical hit with it. If an aelkhazak unarmed attack deals poison damage, you can instead choose to benefit from the Corrosive weapon critical specialization effect.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can Interact to store a dose of injury or touch poison in your throat; when using this action, you do not risk envenoming yourself as long as the poison is your level or lower. The next time you attack a target with an aelkhazak unarmed attack that deals poison damage, the poison is expended, and the target is exposed to the poison if they are successfully hit. You can only hold one dose of poison like this at a time.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:trait:versatile-poison",
+          "item:slug:fangs",
+          "item:trait:aelkhazak",
+          "feat:najazis-rivulet"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "versatile-poison",
+        "fromEquipment": false,
+        "itemType": "weapon",
+        "predicate": [
+          "item:slug:fangs",
+          "item:trait:aelkhazak",
+          {
+            "not": "feat:najazis-rivulet"
+          }
+        ]
+      },
+      {
+        "alternate": true,
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:slug:fangs",
+          "item:trait:aelkhazak",
+          "item:damage:type:poison"
+        ],
+        "text": "PF2E.Item.Weapon.CriticalSpecialization.corrosive"
+      }
+    ],
     "slug": "venomous-fangs",
     "_migration": {
       "version": 0.959,

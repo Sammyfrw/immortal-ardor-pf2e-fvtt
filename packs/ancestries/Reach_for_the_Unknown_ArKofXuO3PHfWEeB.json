@@ -10,7 +10,25 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You have a way when it comes to the farthest, strangest creatures, being able to communicate with the most alien minds. You have a +1 circumstance bonus to Diplomacy and Occultism checks pertaining to creatures or hazards with the Aberration and Nightmare traits.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "target:trait:aberration",
+              "target:trait:nightmare"
+            ]
+          }
+        ],
+        "selector": [
+          "diplomacy",
+          "occultism"
+        ]
+      }
+    ],
     "slug": "reach-for-the-unknown",
     "_migration": {
       "version": 0.959,

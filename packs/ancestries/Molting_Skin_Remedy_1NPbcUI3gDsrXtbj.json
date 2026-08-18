@@ -11,7 +11,7 @@
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You know of a way to make use of your skin molts to create a remedy that helps protect you from injury and disease. Each day during your daily preparation, you take parts of your molt and brew it into an alchemical drink. Attempt a Crafting or Medicine check against a DC 20. If you become Master in Crafting or Medicine, you can attempt the check at a DC of 30, but increase the bonus you benefit from by 1. Only you can benefit from your own remedy.</span></p><p>@UUID[Compendium.immortal-ardor.ancestries.oOQGd01j7SVPcElk]{Effect: Molting Skin Remedy}</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Critical Success</strong> You gain a +2 circumstance bonus to checks against Disease and Poison until your next daily preparations. If you suffer from persistent damage, reduce the flat check to end the condition to 12.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Success</strong> As critical success, but you do not reduce your flat check from persistent damage.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Failure</strong> As success, but the circumstance bonus is +1.</span></p>"
     },
     "rules": [],
-    "slug": "t-ancestry-feat-template",
+    "slug": "molting-skin-remedy",
     "_migration": {
       "version": 0.959,
       "previous": {

@@ -8,10 +8,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You have gained a technique to wrack the minds of those unprepared to face the deep truths of the beyond. When you take this feat, you choose between <em>Eldritch Lance</em> or <em>Haunting Hymn.</em> You can cast that cantrip as an innate occult cantrip. A cantrip is heightened equal to half your level rounded down.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You have gained a technique to wrack the minds of those unprepared to face the deep truths of the beyond. When you take this feat, you choose between </span>@UUID[Compendium.sf2e-anachronism.spells.FEaM1B4WuiqFO7Uk]{Eldritch Lance} or @UUID[Compendium.pf2e.spells-srd.b5BQbwmuBhgPXTyi]{Haunting Hymn}<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\"><em>.</em> You can cast that cantrip as an innate occult cantrip. A cantrip is heightened equal to half your level rounded down.</span></p>"
     },
     "rules": [],
-    "slug": "t-ancestry-feat-template",
+    "slug": "occult-lancet",
     "_migration": {
       "version": 0.959,
       "previous": {

@@ -204,10 +204,16 @@
             "ActionLabel": "Slithering Form",
             "BipedalLabel": "Bipedal",
             "SerpentineLabel": "Serpentine",
-            "WingedLabel": "Winged"
+            "WingedLabel": "Winged",
+            "CosmicLabel": "Cosmic"
           },
           "MoltingSkinRemedy": {
             "EffectPrompt": "Select your Molting Skin Remedy bonus, based on proficiency and check outcome"
+          },
+          "SerpentineArms": {
+            "PoisonSpit": "Poison Spit",
+            "ImprovedAelkhazakFangs": "Improved Aelkhazak Fangs",
+            "ImprovedPoisonSpit": "Improved Poison Spit"
           }
         },
         "Loupain": {

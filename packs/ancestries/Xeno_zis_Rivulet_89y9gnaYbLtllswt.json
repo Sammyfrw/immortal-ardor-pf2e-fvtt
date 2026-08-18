@@ -10,7 +10,19 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Your iridescent scales unveil your xeno’zis lineage, as does your eyes that gleam like gemstones. Magic flows readily through your scales and your eyes, giving you empowered sight and beauty. Your specialized eyes grant you low-light vision, while your glimmering scales grant you a +1 circumstance bonus to checks with and saves against the Mental trait. While you Seek, you can choose to make your sight an imprecise sense for the action, but you gain heatsense as an imprecise sense.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "item:trait:mental"
+        ]
+      }
+    ],
     "slug": "xenozis-rivulet",
     "_migration": {
       "version": 0.959,
@@ -51,7 +63,11 @@
     "location": null,
     "subfeatures": {
       "proficiencies": {},
-      "senses": {},
+      "senses": {
+        "low-light-vision": {
+          "range": null
+        }
+      },
       "suppressedFeatures": []
     }
   },

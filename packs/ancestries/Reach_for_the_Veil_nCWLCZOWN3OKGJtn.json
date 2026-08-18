@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Legends say that Serilis vanished into the Veil of Sand that surrounds the Darksea, where he sought to rebuilt all was lost. In your journey to discover the scattered pieces of knowledge, you gain psychometric powers. You gain the Read Psychometric Resonance skill feat, even if you do not meet its prerequisites. If you already have the feat, you gain a +2 circumstance bonus to further Identify or Recall Knowledge on an object that bears such psychic impressions, or a +4 circumstance bonus if it pertains to your chosen Additional Lores from your heritage. You also gain thoughtsense as a vague sense of up to 30 feet, and can communicate telepathically to creatures that bear thoughts within that same distance.</p>"
+      "value": "<p>Legends say that Serilis vanished into the Veil of Sand that surrounds the Darksea, where he sought to rebuilt all was lost. In your journey to discover the scattered pieces of knowledge, you gain psychometric powers. You gain the @UUID[Compendium.pf2e.feats-srd.p5Bmj3d0uAGnrzIn]{Read Psychometric Resonance} skill feat, even if you do not meet its prerequisites. If you already have the feat, you gain a +2 circumstance bonus to further Identify or Recall Knowledge on an object that bears such psychic impressions, or a +4 circumstance bonus if it pertains to your chosen Additional Lores from your heritage. You also gain thoughtsense as a vague sense of up to 30 feet, and can communicate telepathically to creatures that bear thoughts within that same distance.</p>"
     },
     "rules": [],
     "slug": "reach-for-the-veil",
@@ -55,7 +55,12 @@
     "location": null,
     "subfeatures": {
       "proficiencies": {},
-      "senses": {},
+      "senses": {
+        "thoughtsense": {
+          "acuity": "vague",
+          "range": 30
+        }
+      },
       "suppressedFeatures": []
     }
   },
