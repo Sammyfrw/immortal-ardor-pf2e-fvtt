@@ -8,9 +8,34 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Many long nights spent reading up Bernardii law and its history has given you plenty of useful applications for your day-to-day. You can use Society or Law Lore in place of Deception to Lie, and Diplomacy to Request actions, where the law applies and is appropriate. If you use the original skills for these actions, you gain a +1 circumstance bonus.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Many long nights spent reading up Bernardii law and its history has given you plenty of useful applications for your day-to-day. You can use Society or Law Lore in place of Deception to @UUID[Compendium.pf2e.actionspf2e.ewwCglB7XOPLUz72]{Lie}, and Diplomacy to @UUID[Compendium.pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request} actions, where the law applies and is appropriate. If you use the original skills for these actions, you gain a +1 circumstance bonus.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "deception"
+        ],
+        "value": 1,
+        "predicate": [
+          "action:lie"
+        ],
+        "type": "circumstance",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "diplomacy"
+        ],
+        "value": 1,
+        "predicate": [
+          "action:request"
+        ],
+        "type": "circumstance",
+        "hideIfDisabled": true
+      }
+    ],
     "slug": "lawmaster",
     "_migration": {
       "version": 0.959,

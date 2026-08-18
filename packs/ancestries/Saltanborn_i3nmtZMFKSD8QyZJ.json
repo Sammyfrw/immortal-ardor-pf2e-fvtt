@@ -25,17 +25,6 @@
         ],
         "selector": "saving-throw",
         "type": "save"
-      },
-      {
-        "key": "Sense",
-        "selector": "low-light-vision"
-      },
-      {
-        "key": "Sense",
-        "predicate": [
-          "self:low-light-vision:from-ancestry"
-        ],
-        "selector": "darkvision"
       }
     ],
     "slug": "saltanborn",
@@ -81,7 +70,19 @@
     "location": null,
     "subfeatures": {
       "proficiencies": {},
-      "senses": {},
+      "senses": {
+        "darkvision": {
+          "range": null,
+          "special": {
+            "ancestry": false,
+            "llv": true,
+            "second": false
+          }
+        },
+        "low-light-vision": {
+          "range": null
+        }
+      },
       "suppressedFeatures": []
     }
   },

@@ -34,7 +34,7 @@
             "value": "3"
           }
         ],
-        "prompt": "Select your Commanding Howl bonus, based on the user's proficiency",
+        "prompt": "IA.SpecificRule.Ancestries.Loupain.CommunalHowl.EffectPrompt",
         "flag": "communalHowlBonus"
       }
     ],
@@ -93,6 +93,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "g1DRqtRGa0M17Gvf",
-  "sort": 0,
+  "sort": 200000,
   "_key": "!items!g1DRqtRGa0M17Gvf"
 }

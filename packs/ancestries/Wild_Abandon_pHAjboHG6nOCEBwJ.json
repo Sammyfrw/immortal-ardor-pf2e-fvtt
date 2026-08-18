@@ -8,9 +8,18 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You’re extremely capable when on your quadrupedal form, even in dire situations. When you are benefiting from Wild Sprint, you can Stand or Drop Prone as a free action and you are no longer off-guard while you are prone.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You’re extremely capable when on your quadrupedal form, even in dire situations. When you are benefiting from @UUID[Compendium.immortal-ardor.ancestries.uToNV1ZDdJsSvf4x]{Wild Sprint}, </span><span>you can @UUID[Compendium.pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{Stand} or @UUID[Compendium.pf2e.actionspf2e.HYNhdaPtF1QmQbR3]{Drop Prone} as a free action during your turn. </span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Immunity",
+        "type": "off-guard",
+        "predicate": [
+          "quadrupedal-limbs",
+          "self:condition:prone"
+        ]
+      }
+    ],
     "slug": "wild-abandon",
     "_migration": {
       "version": 0.959,

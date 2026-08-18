@@ -1,0 +1,77 @@
+{
+  "name": "Reach for the Veil",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "wQQ4JNqU0wpyKKCD",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Legends say that Serilis vanished into the Veil of Sand that surrounds the Darksea, where he sought to rebuilt all was lost. In your journey to discover the scattered pieces of knowledge, you gain psychometric powers. You gain the Read Psychometric Resonance skill feat, even if you do not meet its prerequisites. If you already have the feat, you gain a +2 circumstance bonus to further Identify or Recall Knowledge on an object that bears such psychic impressions, or a +4 circumstance bonus if it pertains to your chosen Additional Lores from your heritage. You also gain thoughtsense as a vague sense of up to 30 feet, and can communicate telepathically to creatures that bear thoughts within that same distance.</p>"
+    },
+    "rules": [],
+    "slug": "reach-for-the-veil",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aelkhazak"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Brood of Serilis Aelkhazak heritage"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "nCWLCZOWN3OKGJtn",
+  "sort": 0,
+  "_key": "!items!nCWLCZOWN3OKGJtn"
+}

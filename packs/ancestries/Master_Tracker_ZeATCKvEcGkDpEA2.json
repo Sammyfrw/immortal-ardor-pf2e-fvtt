@@ -8,9 +8,28 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Others look to your exemplary snout, being able to follow the faintest of scent trails. You gain a +2 circumstance bonus when you Track if you can use your sense of smell. In addition, during Exploration you can use your sense of smell when you are taking the Investigate and Search activities, granting the same bonus to your Perception checks if it is applicable.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Others look to your exemplary snout, being able to follow the faintest of scent trails. You gain a +2 circumstance bonus when you @UUID[Compendium.pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Track} if you can use your sense of smell. In addition, during Exploration you can use your sense of smell when you are taking the Investigate and Search activities, granting the same bonus to your Perception checks if it is applicable.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "perception",
+          "survival"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "action:seek",
+              "action:track"
+            ]
+          }
+        ],
+        "label": "Master Tracker (Scent)"
+      }
+    ],
     "slug": "master-tracker",
     "_migration": {
       "version": 0.959,

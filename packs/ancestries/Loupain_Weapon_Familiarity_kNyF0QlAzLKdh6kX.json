@@ -10,7 +10,56 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You acquire training on how to fight with the loupain form effectively; with historical battle techniques making use of your digitigrade limbs and sometimes feral style of combat. You gain access to all uncommon weapons with the loupain trait. You have familiarity with weapons with the loupain trait plus the bardiche, khopesh, katana and longsword -- for the purpose of determining your proficiency, martial loupain weapons are simple weapons and advanced loupain weapons are martial weapons.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At 5th level, whenever you get a critical hit with one of these weapons, you get its critical specialization effect.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "definition": [
+          "item:trait:loupain",
+          "item:category:advanced"
+        ],
+        "key": "MartialProficiency",
+        "label": "Advanced Loupain Weapons",
+        "sameAs": "martial",
+        "slug": "advanced-loupain-weapons"
+      },
+      {
+        "definition": [
+          {
+            "or": [
+              "item:trait:loupain",
+              "item:base:bardiche",
+              "item:base:khopesh",
+              "item:base:katana",
+              "item:base:longsword"
+            ]
+          },
+          "item:category:martial"
+        ],
+        "key": "MartialProficiency",
+        "label": "Loupain Martial Weapons",
+        "sameAs": "simple",
+        "slug": "martial-loupain-weapons"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          },
+          {
+            "or": [
+              "item:trait:loupain",
+              "item:base:bardiche",
+              "item:base:khopesh",
+              "item:base:katana",
+              "item:base:longsword"
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "loupain-weapon-familiarity",
     "_migration": {
       "version": 0.959,

@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your skill at moving on all fours is legendary, being able to swap and have all range of motions available to you at once. You can adjust your grip for Wild Sprint as a free action, and while benefiting from Wild Sprint you can Take Cover while Prone as a free action during your turn and are able to attack without losing its benefits.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your skill at moving on all fours is legendary, being able to swap and have all range of motions available to you at once. You can adjust your grip for Wild Sprint as a free action during your turn, and while benefiting from Wild Sprint you do not trigger reactions from taking the @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride}, @UUID[Compendium.pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{Stand}, or @UUID[Compendium.pf2e.actionspf2e.HYNhdaPtF1QmQbR3]{Drop Prone} actions.</span></p>"
     },
     "rules": [],
     "slug": "wicked-wild",

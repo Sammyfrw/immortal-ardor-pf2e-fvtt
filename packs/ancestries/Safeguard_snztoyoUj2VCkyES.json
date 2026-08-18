@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> Once per day</p><hr><p>You have been taught many tricks and secrets to keep yourself safe from would-be intruders and aggressors. You can cast @UUID[Compendium.pf2e.spells-srd.8xRzLhwGL7Dgy3EZ]{Sanctuary} and @UUID[Compendium.pf2e.spells-srd.4WAib3GichxLjp5p]{Alarm} as an innate 1st rank Arcane spell.</p>"
+      "value": "<p><strong>Frequency</strong> Once per day</p><hr><p>You have been taught many tricks and secrets to keep yourself safe from would-be intruders and aggressors. You can cast @UUID[Compendium.pf2e.spells-srd.8xRzLhwGL7Dgy3EZ]{Sanctuary} and @UUID[Compendium.pf2e.spells-srd.4WAib3GichxLjp5p]{Alarm} each as an innate 1st rank Arcane spell once per day.</p>"
     },
     "rules": [],
     "slug": "safeguard",
@@ -58,10 +58,7 @@
       "senses": {},
       "suppressedFeatures": []
     },
-    "frequency": {
-      "max": 1,
-      "per": "day"
-    }
+    "frequency": null
   },
   "_stats": {
     "coreVersion": "14.365",

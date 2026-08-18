@@ -8,9 +8,31 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have trained to make use of your developed canine nose. You become an Expert in Survival, and, scent becomes an imprecise sense for you, allowing you to use it in the same vein as your hearing for the purposes of detecting undetected creatures. You can also use scent to follow tracks when Tracking.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have trained to make use of your developed canine nose. You become an Expert in Survival, and, scent becomes an imprecise sense of 30 feet for you, allowing you to use it in the same vein as your hearing for the purposes of detecting undetected creatures. You can also use scent to follow tracks when @UUID[Compendium.pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Tracking}.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.survival.rank",
+        "value": 2
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 60,
+        "selector": "scent",
+        "predicate": [
+          "feat:pinschen-pedigree"
+        ]
+      }
+    ],
     "slug": "trained-tracker",
     "_migration": {
       "version": 0.959,
@@ -46,12 +68,21 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Trained in Survival"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {
       "proficiencies": {},
-      "senses": {},
+      "senses": {
+        "scent": {
+          "acuity": "imprecise",
+          "range": 30
+        }
+      },
       "suppressedFeatures": []
     }
   },

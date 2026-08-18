@@ -8,10 +8,17 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-style:italic\">You are an Inuki loupain, with fox-like features that range from a more angular look to a square-like jowls, and an assortment of white and reddish fur. The ancient history that infuses your lineage manifests in a flicker of fortune or misfortune. You become Trained in Occultism and can Sure Strike spell once per day as an innate Occult spell. You can detect when a fortune or misfortune effect occurs within 30 feet of you, but you have no way of telling which is which. Once per day as a reaction when you notice this effect, you can impart a misfortune or a fortune effect to cancel it out. This is either a fortune effect or a misfortune effect.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-style:italic\">You are an Inuki loupain, with fox-like features that range from a more angular look to a square-like jowls, and an assortment of white and reddish fur. The ancient history that infuses your lineage manifests in a flicker of fortune or misfortune. You become Trained in Occultism and can cast the @UUID[Compendium.pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{Sure Strike} spell once per day as an innate Occult spell. You can detect when a fortune or misfortune effect occurs within 30 feet of you, but you have no way of telling which is which. Once per day as a reaction when you notice this effect, you can impart a misfortune or a fortune effect to cancel it out. This is either a fortune effect or a misfortune effect.</span></p>"
     },
-    "rules": [],
-    "slug": "garou-pedigree",
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.occultism.rank",
+        "value": 1
+      }
+    ],
+    "slug": "inuki-pedigree",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -41,7 +48,7 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "reaction"
     },
     "actions": {
       "value": null
@@ -54,6 +61,10 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
     }
   },
   "_stats": {

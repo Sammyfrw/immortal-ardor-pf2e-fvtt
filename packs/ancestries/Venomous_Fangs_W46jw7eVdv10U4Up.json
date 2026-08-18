@@ -1,0 +1,73 @@
+{
+  "name": "Venomous Fangs",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "wQQ4JNqU0wpyKKCD",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have potent venom within your fangs and have a throat pouch that can store a different poison of your choice. Your fangs unarmed attack gains the versatile poison trait. If you already have the versatile poison trait, you get the critical specialization effect of your unarmed attacks whenever you get a critical hit with it. If an aelkhazak unarmed attack deals poison damage, you can instead choose to benefit from the Corrosive weapon critical specialization effect.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can Interact to store a dose of injury or touch poison in your throat; when using this action, you do not risk envenoming yourself as long as the poison is your level or lower. The next time you attack a target with an aelkhazak unarmed attack that deals poison damage, the poison is expended, and the target is exposed to the poison if they are successfully hit. You can only hold one dose of poison like this at a time.</span></p>"
+    },
+    "rules": [],
+    "slug": "venomous-fangs",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aelkhazak"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "W46jw7eVdv10U4Up",
+  "sort": 0,
+  "_key": "!items!W46jw7eVdv10U4Up"
+}

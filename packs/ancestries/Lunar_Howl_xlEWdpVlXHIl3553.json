@@ -1,0 +1,81 @@
+{
+  "name": "Lunar Howl",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "aqoWrLhZrhELgIP8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You invoke a powerful sense of dread as you let out a howl to thoroughly demoralize your opponents. You @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} against any creature who can see or hear your howl, using the skill with the highest modifier amongst the skills listed in this feat’s prerequisites instead of Intimidation if it is higher. Up to 3 other allies who can see or hear your howl can also use a reaction to howl alongside you, granting a circumstance bonus to your check equal to the number of allies who respond.</p>"
+    },
+    "rules": [],
+    "slug": "lunar-howl",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "loupain"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Expert in Diplomacy, Society, Performance, Intimidation or Warfare Lore"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "xlEWdpVlXHIl3553",
+  "sort": 0,
+  "_key": "!items!xlEWdpVlXHIl3553"
+}

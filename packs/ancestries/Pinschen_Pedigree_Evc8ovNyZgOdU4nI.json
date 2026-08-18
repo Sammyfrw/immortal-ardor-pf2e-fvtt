@@ -8,9 +8,29 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You bear the hallmarks of a pinschen lineage; you have short, pointed ears, black and dark russet fur, with an athletic frame. Your sense of smell is unparallelled compared to other loupain lineages. You become Trained in Survival, and gain a +1 circumstance bonus to skill checks that require the use of your scent, or increase an existing circumstance bonus by that amount.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You bear the hallmarks of a pinschen lineage; you have short, pointed ears, black and dark russet fur, with an athletic frame. Your sense of smell is unparallelled compared to other loupain lineages. You become Trained in Survival, and gain a +1 circumstance bonus to skill checks that require the use of your scent and double the base range of your scent sense.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.survival.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "perception",
+          "skill-check"
+        ],
+        "value": 1,
+        "predicate": [
+          "sense-of-smell"
+        ],
+        "label": "Pinschen Pedigree (scent)",
+        "type": "circumstance"
+      }
+    ],
     "slug": "pinschen-pedigree",
     "_migration": {
       "version": 0.959,

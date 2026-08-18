@@ -8,9 +8,21 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You leverage the storied history of loupain who never surrender in the face of their enemies. If you have less than half of your hit points or you are at least Wounded 1, you gain a +1 circumstance bonus to all saving throws.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You leverage the storied history of loupain who never surrender in the face of their enemies. If you have less than half of your hit points or you are at least @UUID[Compendium.pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded 1}, you gain a +1 circumstance bonus to all saving throws.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "predicate": [
+          "self:condition:wounded"
+        ],
+        "type": "circumstance",
+        "selector": [
+          "saving-throw"
+        ]
+      }
+    ],
     "slug": "unyielding",
     "_migration": {
       "version": 0.959,

@@ -8,10 +8,39 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You and your comrades stand side by side, ensuring there are no holes in your defenses. You and any allies adjacent to you share the benefit from the highest status and circumstance bonuses to AC, DCs and saving throws amongst you.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You and your comrades stand side by side, ensuring there are no holes in your defenses. You and any allies adjacent to you share the benefit from the highest status and circumstance bonuses to AC, DCs and saving throws amongst you.</span></p><p>@UUID[Compendium.immortal-ardor.ancestries.1nfGUnb2F5pOBuFh]{Effect: Packwatch}</p>"
     },
-    "rules": [],
-    "slug": "t-sapien-ancestry-feat-template",
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "packwatch",
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "key": "Aura",
+        "radius": 15,
+        "appearance": {
+          "border": {},
+          "highlight": {}
+        },
+        "slug": "pack-bonus-aura",
+        "effects": [
+          {
+            "uuid": "Compendium.immortal-ardor.ancestries.Item.1nfGUnb2F5pOBuFh",
+            "affects": "allies",
+            "includesSelf": false
+          }
+        ],
+        "traits": [
+          "loupain"
+        ],
+        "predicate": [
+          "packwatch"
+        ]
+      }
+    ],
+    "slug": "packwatch",
     "_migration": {
       "version": 0.959,
       "previous": {

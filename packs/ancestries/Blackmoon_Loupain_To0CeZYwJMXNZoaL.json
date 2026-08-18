@@ -1,0 +1,55 @@
+{
+  "name": "Blackmoon Loupain",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "TXHUPlL1iwSA8z6d",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You and your families lived in areas of danger and fear, but have learned how to stand firm in the face of threats. Whenever you succeed in your roll against fear effects, you treat it as a critical success. Whenever you become frightened, you reduce its value by 1.</span></p>"
+    },
+    "rules": [],
+    "slug": "blackmoon-loupain",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Loupain",
+      "slug": "loupain",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TNakbCOKQZyc4Oyx"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "To0CeZYwJMXNZoaL",
+  "sort": 0,
+  "_key": "!items!To0CeZYwJMXNZoaL"
+}

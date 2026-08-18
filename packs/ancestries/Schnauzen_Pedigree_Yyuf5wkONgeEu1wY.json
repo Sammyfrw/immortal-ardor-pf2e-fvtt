@@ -8,9 +8,31 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your lineage consists of purely or mostly schnauzen; with short, wiry fur, a smaller stature and a knack for interacting with magical objects. You are Small. You become trained in Arcana and also gain the Trick Magic Item feat, and you gain a +2 circumstance bonus to skill checks when trying to use that feat.</p>"
+      "value": "<p>Your lineage consists of purely or mostly schnauzen; with short, wiry fur, a smaller stature and a knack for interacting with magical objects. You are Small. You become trained in Arcana and also gain the @UUID[Compendium.pf2e.feats-srd.uR62fVC9FyQAMCO1]{Trick Magic Item} feat, and you gain a +2 circumstance bonus to skill checks when trying to use that feat.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.arcana.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.uR62fVC9FyQAMCO1"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "skill-check"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "action:trick-magic-item"
+        ]
+      }
+    ],
     "slug": "schnauzen-pedigree",
     "_migration": {
       "version": 0.959,

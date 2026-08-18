@@ -1,0 +1,88 @@
+{
+  "name": "Flying Serpentry",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "wQQ4JNqU0wpyKKCD",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Reaching into your people’s ancient pasts, you have discovered new ways to use your mobility. In addition to your current choice of forms when use @UUID[Compendium.immortal-ardor.ancestries.YyAEWCoo0sMm672W]{Slithering Form}, you can enter a Winged Serpent form where you have brief aerial movement. This could take the form of arm flaps, a series of small wings sprouting along your body and tail, or a single set of great, but tattered wings. While in this form, your land speed and swim speed decreases to 15 feet, but you can take the Fly action to Fly up to 25 feet. You must end your movement on solid ground or on a surface, or else you fall unless you continue to Fly. In this form, any increases to the distance you can Leap, you also apply to your Fly speed.</span></p>"
+    },
+    "rules": [
+      {
+        "alwaysActive": true,
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Ancestries.Aelkhazak.SlitheringForm.ActionLabel",
+        "mergeable": true,
+        "option": "slithering-form",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Ancestries.Aelkhazak.SlitheringForm.WingedLabel",
+            "value": "winged"
+          }
+        ],
+        "toggleable": true
+      }
+    ],
+    "slug": "flying-serpentry",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aelkhazak"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "3umMeYp6F8sOJD0X",
+  "sort": 0,
+  "_key": "!items!3umMeYp6F8sOJD0X"
+}

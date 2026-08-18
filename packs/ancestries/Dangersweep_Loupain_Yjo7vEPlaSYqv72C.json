@@ -1,0 +1,90 @@
+{
+  "name": "Dangersweep Loupain",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "TXHUPlL1iwSA8z6d",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You come from a line of loupain Dangersweeps, a historical term for shorter or more keen loupain able to crawl into dangerous places and delve deep into old ruins, often laced with traps and hazards. You gain a +1 circumstance bonus to detect and disable hazards and to your saving throws and DCs against their effects.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "perception",
+          "skill-check"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "target:trait:hazard",
+              "origin:trait:hazard"
+            ]
+          },
+          {
+            "or": [
+              "action:disable-a-device",
+              "seek"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "origin:trait:hazard"
+        ]
+      }
+    ],
+    "slug": "dangersweep-loupain",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Loupain",
+      "slug": "loupain",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TNakbCOKQZyc4Oyx"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "Yjo7vEPlaSYqv72C",
+  "sort": 0,
+  "_key": "!items!Yjo7vEPlaSYqv72C"
+}

@@ -8,9 +8,56 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have characteristics that denote you as a selkes, with a sharp wit, lithe body and smooth fur. You become trained in your choice of Diplomacy, Deception or Society, and when you choose one, you gain either the Hobnobber, Charming Liar or Courtly Graces feat respectively as your natural grace improves your efforts to use these skills.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have characteristics that denote you as a selkes, with a sharp wit, lithe body and smooth fur. You become trained in your choice of Diplomacy, Deception or Society, and when you choose one, you gain either the @UUID[Compendium.pf2e.feats-srd.4RjDxgvNXNl5GG9d]{Hobnobber}, @UUID[Compendium.pf2e.feats-srd.B6HbYsLBWb1RR6Fx]{Charming Liar} or @UUID[Compendium.pf2e.feats-srd.JtjnFsOToBLnSRO9]{Courtly Graces} feat respectively as your natural grace improves your efforts to use these skills.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Diplomacy",
+            "value": "diplomacy"
+          },
+          {
+            "label": "Deception",
+            "value": "deception"
+          },
+          {
+            "label": "Society",
+            "value": "society"
+          }
+        ],
+        "flag": "selkesPedigreeChoice",
+        "rollOption": "selkes-pedigree-choice"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.4RjDxgvNXNl5GG9d",
+        "predicate": [
+          "selkes-pedigree-choice:diplomacy"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.JtjnFsOToBLnSRO9",
+        "predicate": [
+          "selkes-pedigree-choice:society"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.B6HbYsLBWb1RR6Fx",
+        "predicate": [
+          "selkes-pedigree-choice:deception"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.system.rulesSelections.selkesPedigreeChoice}.rank",
+        "value": 1
+      }
+    ],
     "slug": "selkes-pedigree",
     "_migration": {
       "version": 0.959,

@@ -1,0 +1,81 @@
+{
+  "name": "Inscribe Emotion",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "wQQ4JNqU0wpyKKCD",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You have the power to inscribe an emotion within a person or object you focus on, through occult powers, through guile, or through a wandering song. You gain the @UUID[Compendium.pf2e.spells-srd.OhD2Z6rIGGD5ocZA]{Read Aura} cantrip, which you can cast as an innate occult cantrip. Once per day, you can choose one person or object within 60 feet of you to imbue magic into, but this magic is affiliated with a general emotion you describe. This could be happiness, sadness, anger, fear, or any other general emotion. Make either a Diplomacy, Performance, or Occultism check against a creature’s Will DC. You increase the outcome by one degree if your target is a creature who is willing, Friendly or Helpful to you.</span></p><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Critical Success</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\"> The emotion is imbued onto the creature or object for 24 hours. They gain a +2 circumstance bonus to saving throws against effects that attempt to alter their emotions away from your chosen emotion, or a -2 circumstance penalty against effects that force that same emotion. While they are on the same plane as you, any time they come into contact with another creature or object that bears that emotion, you become aware of its source and gain a +2 circumstance bonus to identifying the source if you encounter it personally.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Success</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\"> As critical success, but the bonus is a +1 and penalty is a -1.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Failure</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\"> As critical success, but you do not gain any bonuses or penalties; you simply become aware of sources of the same information your target encounters.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Critical Failure</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\"> Your attempt fails and you fails to inscribe an emotion.</span></p>"
+    },
+    "rules": [],
+    "slug": "inscribe-emotion",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aelkhazak"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in Diplomacy, Performance, or Occultism"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "z7ua90zJpBXzVdZi",
+  "sort": 50000,
+  "_key": "!items!z7ua90zJpBXzVdZi"
+}

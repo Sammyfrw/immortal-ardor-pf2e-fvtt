@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your will to survive pushes your body on, despite your injuries. If your hit points are reduced to 0 and you are not <em>wounded</em>, you can choose to not fall unconscious, and remain able to act. In this state, you still gain <em>dying</em> and can make the saving throws to recover every turn. Once you successfully recover hit points or are stabilized, you gain <em style=\"mso-bidi-font-style:normal\">wounded 1</em>.</span></p>"
+      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p><p><strong>Trigger</strong> You would be reduced to 0 Hit Points but not immediately killed.</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your will to survive pushes your body on, despite your injuries. You avoid falling unconscious and remain at 1 hit point and your </span>@UUID[Compendium.pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded} <span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">value increases by 1.</span></p>"
     },
     "rules": [],
     "slug": "tenacity",
@@ -40,7 +40,7 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "reaction"
     },
     "actions": {
       "value": null
@@ -53,6 +53,10 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
     }
   },
   "_stats": {

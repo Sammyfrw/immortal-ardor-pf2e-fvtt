@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can bowl enemies over as you sprint past them, laying low to hit them on their limbs. You Stride or Tumble Through up to half your speed, and during this movement you can attempt to Trip one creature you move through or adjacent to.</span></p>"
+      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per round</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can bowl enemies over as you sprint past them, laying low to hit them on their limbs. You @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} or @UUID[Compendium.pf2e.actionspf2e.21WIfSu7Xd7uKqV8]{Tumble Through} up to half your speed, and during this movement you can attempt to @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip} one creature you move through or adjacent to.</span></p>"
     },
     "rules": [],
     "slug": "roll-over",
@@ -54,6 +54,10 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "round"
     }
   },
   "_stats": {

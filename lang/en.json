@@ -198,6 +198,29 @@
       "Twinblade": "Twinblade"
     },
     "SpecificRule": {
+      "Ancestries": {
+        "Aelkhazak": {
+          "SlitheringForm": {
+            "ActionLabel": "Slithering Form",
+            "BipedalLabel": "Bipedal",
+            "SerpentineLabel": "Serpentine",
+            "WingedLabel": "Winged"
+          },
+          "MoltingSkinRemedy": {
+            "EffectPrompt": "Select your Molting Skin Remedy bonus, based on proficiency and check outcome"
+          }
+        },
+        "Loupain": {
+          "PackBonuses": {
+            "PackBonusLabel": "Pack Bonuses",
+            "MarkOfThePackLabel": "Mark of the Pack",
+            "MarkOfThePackDescription": "You are adjacent to an ally. When you or the ally makes a successful Strike or spell attack against a creature, the other gains a circumstance bonus to their next Strike or spell attack against the same creature. \n @UUID[Compendium.immortal-ardor.ancestries.Item.kA7wubjq6CExJZt1]{Mark of the Pack Bonus}"
+          },
+          "CommunalHowl": {
+            "EffectPrompt": "Select your Commanding Howl bonus, based on the user's proficiency."
+          }
+        }
+      },
       "Dervish": {
         "Zeal": {
           "GainLabel": "Zeal Gain",

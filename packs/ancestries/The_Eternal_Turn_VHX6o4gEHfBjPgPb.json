@@ -1,0 +1,73 @@
+{
+  "name": "The Eternal Turn",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "wQQ4JNqU0wpyKKCD",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">The Serpent That Coils The World That Wakes turns eternally in perpetuity, and you are fated to cycle through its blood, much like every other aelkhazak and the Ana’zhak that spawned you. When you take this feat, your blood becomes black and writhing as your body surrenders to the Darksea, and gains immensely powerful healing properties.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">By taking an action to bite yourself, you can inflict yourself with 15 persistent bleeding damage. While you suffer any form of persistent bleeding, your black blood churns and activates as it spills from your wound. You gain resistance 5 to bleeding damage, and gain a +2 circumstance bonus to saving throws or checks to end any source of Fatigued, Drained, Enfeebled or Sickened conditions. Any time you roll your flat check to end your persistent bleeding, you attempt to counteract or make a saving throw to end these effects, whichever is more applicable.</span></p>"
+    },
+    "rules": [],
+    "slug": "the-eternal-turn",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aelkhazak"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "VHX6o4gEHfBjPgPb",
+  "sort": 0,
+  "_key": "!items!VHX6o4gEHfBjPgPb"
+}
