@@ -1,0 +1,78 @@
+{
+  "name": "Unified Phalanx",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "s2Yg2MK1eaTEmJ6V",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> An ally within 60 feet of you is about to take damage</p><p><strong>Frequency</strong> Once per hour</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">In moments where your cohesion with your allies begins to buckle under attack, you step in to prevent it from falling and briefly forge a connection with them through arcane power. When you forge this connection, you split the damage meant for the ally in half, after accounting for either your or their immunities, weaknesses and resistances (but not both). You and your ally each take one half of the damage. After this connection is used, both you and your ally are immune to United Phalanx for one hour.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have the Gift of Scales feat and have gifted one of your scales to someone else, they gain access to this reaction and can use it triggered by you taking damage as long as you are in the same plane of existence and they can sense that you have taken damage. Upon doing so, the scale loses its power.</span></p>"
+    },
+    "rules": [],
+    "slug": "unified-phalanx",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "arcane",
+        "draich"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "6nFeB0jzVW1xOXGX",
+  "sort": 1000000,
+  "_key": "!items!6nFeB0jzVW1xOXGX"
+}

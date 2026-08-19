@@ -66,6 +66,7 @@
       "Defend": "Defend",
       "Dervish": "Dervish",
       "Diviner": "Diviner",
+      "Draich": "Draich",
       "Drachiri": "Drachiri",
       "Draichsar": "Draichsar",
       "Empty": "Empty",
@@ -125,7 +126,8 @@
       "Defend": "An action with the Defend trait indicates abilities featuring a temporary act of defense. This typically comes in the form of a single action conferring a short-term circumstance bonus to AC or saving throw that lasts no more than until the start of the next turn of the character that used it. When an effect or another action calls for use of a Defend action or spell, you can take any Defend ability you have access unless it explicitly specifies that is the only action you can take.",
       "Dervish": "This indicates abilities from the Dervish class.",
       "Diviner": "This indicates abilities from the Diviner class.",
-      "Drachiri": "Drachiri are draconic creatures of ether, empowered with the full array of telluric might and magic. Their family includes true drachiri and any of their magically created descendants.",
+      "Draich": "A creature with this trait bears a draich heritage. They bear draconic features gifted by a draichsar benefactor.",
+      "Drachiri": "Drachiri are draconic creatures of ether, empowered with the full array of telluric might and magic. Their family includes true drachiri and any of their magically created descendants. An option with this trait signifies that a drachiri benefactor's influence can change its effect, if the creature possesses one.",
       "Draichsar": "A creature with this trait is a member of the draichsar ancestry. Creatures created in the image of the drachiri, they are humanoids with dragonlike wings and find their way in a life after the empire that created them.",
       "Empty": "A creature with the Empty trait cannot cast spells or use actions that imply the use of ether, such as magic or feats of supernatural power.",
       "Ether": "An option with the ether trait requires the use of ether. This includes spellcasting or using certain actions. At a GM's discretion, certain actions will have the Ether trait. Creatures who cannot use ether, such as empty, cannot select these options.",
@@ -198,6 +200,16 @@
       "Twinblade": "Twinblade"
     },
     "SpecificRule": {
+      "DrachiriBenefactor": {
+        "BenefactorLabel": "Drachiri Benefactor",
+        "Crimson": "Crimson",
+        "Azure": "Azure",
+        "Verdant": "Verdant",
+        "Ivory": "Ivory",
+        "Ebony": "Ebony",
+        "Violet": "Violet",
+        "Ochre": "Ochre"
+      },
       "Ancestries": {
         "Aelkhazak": {
           "SlitheringForm": {

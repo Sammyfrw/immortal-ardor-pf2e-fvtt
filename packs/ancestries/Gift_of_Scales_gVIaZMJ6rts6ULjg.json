@@ -1,0 +1,75 @@
+{
+  "name": "Gift of Scales",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "s2Yg2MK1eaTEmJ6V",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your scales carry power and a connection to you long after they have fallen off your body. You can choose to gift one to a creature, denoting a connection that bears a meaning that you determine as you bestow it to them. If they accept it, they can clutch the scale to sense your presence. As long as you and the creature are on the same plane of existence and are both alive, they will know of your present state, their direction from you, distance from you, and any conditions that affect you. If the creature you gift the scale to is a draconic creature with the same benefactor, this connection can transcend across planes.</span></p><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can impart a scale to only one creature at a time; if you gift a scale in the same manner to another creature, any previous scales you have gifted lose their power. You can also dismiss this gift at any time.</span></p>"
+    },
+    "rules": [],
+    "slug": "gift-of-scales",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "detection",
+        "draich"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "gVIaZMJ6rts6ULjg",
+  "sort": 0,
+  "_key": "!items!gVIaZMJ6rts6ULjg"
+}
