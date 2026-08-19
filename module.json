@@ -476,6 +476,10 @@
             "label": "IA.Trait.Drachiri",
             "description": "IA.TraitDescription.Drachiri"
           },
+          "draich": {
+            "label": "IA.Trait.Draich",
+            "description": "IA.TraitDescription.Draich"
+          },
           "draichsar": {
             "label": "IA.Trait.Draichsar",
             "description": "IA.TraitDescription.Draichsar"
