@@ -202,6 +202,9 @@
     "SpecificRule": {
       "DrachiriBenefactor": {
         "BenefactorLabel": "Drachiri Benefactor",
+        "BenefactorPrompt": "Select a Drachiri Benefactor.",
+        "TraitPrompt": "Select an Element & Energy trait.",
+        "TraitLabel": "Drachiri Element",
         "Crimson": "Crimson",
         "Azure": "Azure",
         "Verdant": "Verdant",
