@@ -1,0 +1,73 @@
+{
+  "name": "Draconic Arms",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">As beings molded in the image of dragons, you can bring their natural weapons to bear. When you select this feat, you gain your selection of one of the following unarmed attacks. These attacks are in the Brawling weapon group.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">Wing, 1d6 bludgeoning [shove, agile, unarmed]</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Bite, 1d8 piercing [forceful, unarmed]</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Claws, 1d4 slashing [finesse, agile, grapple, unarmed]</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Tail, 1d4 bludgeoning [trip, finesse, reach, unarmed]</p></li><li><p class=\"MsoListParagraphCxSpLast\">Dracoleum Spit, 1d4 damage[range 20 feet, drachiri, unarmed]*</p></li></ul><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At 5th level, whenever you get a critical hit with one of these attacks, you get its critical specialization effect. Dracoleum Spit will deal damage of a type and gains the trait that matches your selected trait for your Drachiri Benefactor.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> You can take this feat a number of times equal to the attacks listed above. Each time you do, select a different attack.</span></p>"
+    },
+    "rules": [],
+    "slug": "draconic-arms",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "evAxFVUdmJhPL3UG",
+  "sort": 2800000,
+  "_key": "!items!evAxFVUdmJhPL3UG"
+}

@@ -127,7 +127,7 @@
     },
     "category": "ancestry",
     "onlyLevel1": false,
-    "maxTakable": 1,
+    "maxTakable": 2,
     "actionType": {
       "value": "passive"
     },

@@ -1,0 +1,77 @@
+{
+  "name": "Exemplar of the Exemplar",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are amongst the strongest of your own phalanx, or the most prominent draichsar amongst the people you consider your community. Should a patron or matron pass without another in line, you are most likely to be selected to lead the phalanx in their stead; for your powers have grown to encompass all the qualities of your Drachiri Benefactor.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When you take this feat, you are considered to have selected all the traits of your Drachiri Benefactor from their Energies &amp; Elements table. Even if a draichsar feat requires that you select one trait from the traits you have selected, their benefits apply to all of your traits, or you can select one of the traits when you use an ability. You also gain a +2 circumstance bonus to saving throws against effects with those traits.</span></p><p><span style=\"text-decoration:underline\">Special</span> If you have the Ethercycling feat, the circumstance bonus it grants increases to +2 when you are in an environment or domain that matches that of your Benefactor’s Domains, Aspects and Themes</p>"
+    },
+    "rules": [],
+    "slug": "exemplar-of-the-exemplar",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Drachiri Benefactor"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "h0KJMBOsBYhrZtzl",
+  "sort": 800000,
+  "_key": "!items!h0KJMBOsBYhrZtzl"
+}

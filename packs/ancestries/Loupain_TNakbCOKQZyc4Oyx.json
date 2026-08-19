@@ -73,12 +73,15 @@
     },
     "languages": {
       "value": [
-        "common"
+        "common",
+        "eirlanggan",
+        "new-rogalian",
+        "zahnheimen"
       ],
       "custom": ""
     },
     "additionalLanguages": {
-      "count": 0,
+      "count": 1,
       "value": [],
       "custom": ""
     },

@@ -38,6 +38,7 @@
     },
     "hp": 10,
     "size": "med",
+    "hands": 2,
     "reach": 5,
     "speed": 25,
     "boosts": {
@@ -71,12 +72,15 @@
     },
     "languages": {
       "value": [
-        "common"
+        "common",
+        "eirlanggan",
+        "new-rogalian",
+        "zahnheimen"
       ],
       "custom": ""
     },
     "additionalLanguages": {
-      "count": 0,
+      "count": 1,
       "value": [],
       "custom": ""
     },
@@ -95,9 +99,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.TkMmXr68NCBuE4jA",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 0,

@@ -1,0 +1,77 @@
+{
+  "name": "Measured Breathing",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have attained a stronger degree of control of your breath weapon, not necessarily expelling it all at once. You gain a Dracoleum Breath unarmed ranged attack that deals 1d6 damage of the type of your selected trait from your Drachiri Benefactor. This attack has that element’s trait and the Area trait, allowing you to make Area Fire attacks at a range of a 20-foot cone or a 40-foot line, depending on your selection for your Draichsar Breath. Your Dracoleum Breath is in the appropriate weapon group as listed in your Draichsar Breath for the purpose of weapon critical specialization effects, which you benefit from if a creature critically fails their save.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can only use these attacks when your Draichsar Breath is not recharging, and after you have made 4 attacks with your Dracoleum Breath within ten minutes of your first attack, you must recharge your Draichsar Breath for 1d4 rounds.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have the Draconic Arms feat for a Dracoleum Spit unarmed attack, you increase its range to 60 feet when you take this feat.</span></p>"
+    },
+    "rules": [],
+    "slug": "measured-breathing",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Draichsar Breath"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "yhKFejQIPhqnjEP1",
+  "sort": 1200000,
+  "_key": "!items!yhKFejQIPhqnjEP1"
+}
