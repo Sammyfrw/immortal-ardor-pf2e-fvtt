@@ -242,6 +242,17 @@
           }
         }
       },
+      "Heritages": {
+        "Draich": {
+          "ArmorOfScales": {
+            "DragonhideScales": "Dragonhide Scales",
+            "DragonplateScales": "Dragonplate Scales"
+          },
+          "BondOfScales": {
+            "CriticalFailureNote": "Against draconic creatures who have the same type of Benefactor as you, when you critically fail to @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression} or @UUID[Compendium.pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request} against them their attitude towards you does not decrease, and if you critically fail to Sense their Motives, you do not get a false sense of their intentions."
+          }
+        }
+      },
       "Dervish": {
         "Zeal": {
           "GainLabel": "Zeal Gain",

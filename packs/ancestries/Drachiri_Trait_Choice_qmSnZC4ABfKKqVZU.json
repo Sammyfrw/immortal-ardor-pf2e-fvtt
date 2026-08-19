@@ -351,6 +351,24 @@
         ],
         "toggleable": true,
         "alwaysActive": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.drachiriBenefactor.activeTrait",
+        "value": "{item|flags.pf2e.rulesSelections.drachiriBenefactorActiveTrait}"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:trait:drachiri"
+        ],
+        "property": "damage-type",
+        "selectors": [
+          "inline-damage"
+        ],
+        "value": "{actor|flags.pf2e.drachiriBenefactor.activeTrait}"
       }
     ],
     "subfeatures": {

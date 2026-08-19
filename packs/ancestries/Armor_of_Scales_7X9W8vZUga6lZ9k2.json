@@ -8,10 +8,44 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Scales cover the entirety of your body, and they radiate with the great dragon magics you were endowed. When you take this feat, choose either the Dragonhide Scales, or Dragonplate Scales. While you are not wearing any armor, your chosen type of scales is considered armor, each with a different type:</span></p><ul><li><p class=\"MsoListParagraphCxSpFirst\">Dragonhide Scales (Unarmored): The scales give you a +1 item bonus to AC with a Dexterity cap of +3. The item bonus to AC increases to +2 at 5th level.</p></li><li><p class=\"MsoListParagraphCxSpLast\">Dragonplate Scales (Medium): The scales give you a +3 item bonus to AC with a Dexterity cap of +1, a check penalty of -2, and a Strength threshold of 3. The item bonus increases to +4 at 5th level.</p></li></ul><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your scales have the comfort trait and are in the plate armor group. You can etch armor runes directly to your scales, or onto specialized clothing designed to transfer the rune effects onto your scales.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Scales cover the entirety of your body, and they radiate with the great dragon magics you were endowed. When you take this feat, choose either the Dragonhide Scales, or Dragonplate Scales. While you are not wearing any armor, your chosen type of scales is considered armor, each with a different type:</span></p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Dragonhide Scales (Unarmored)</strong>: The scales give you a +1 item bonus to AC with a Dexterity cap of +3. The item bonus to AC increases to +2 at 5th level.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Dragonplate Scales (Medium)</strong>: The scales give you a +3 item bonus to AC with a Dexterity cap of +1, a check penalty of -2, and a Strength threshold of 3. The item bonus increases to +4 at 5th level.</p></li></ul><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your scales have the comfort trait and are in the plate armor group. You can etch armor runes directly to your scales, or onto specialized clothing designed to transfer the rune effects onto your scales.</span></p>"
     },
-    "rules": [],
-    "slug": "t-ancestry-feat-template",
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Heritages.Draich.ArmorOfScales.DragonhideScales",
+            "value": "Compendium.immortal-ardor.ancestries.Item.czC3SJqmzSWr04Jj"
+          },
+          {
+            "label": "IA.SpecificRule.Heritages.Draich.ArmorOfScales.DragonplateScales",
+            "value": "Compendium.immortal-ardor.ancestries.Item.G2luI6hYqqxqMj1l"
+          }
+        ],
+        "flag": "armorOfScales"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.armorOfScales}"
+      },
+      {
+        "itemId": "{item|flags.system.itemGrants.armorOfScales.id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "property": "ac-bonus",
+        "value": "1"
+      }
+    ],
+    "slug": "armor-of-scales",
     "_migration": {
       "version": 0.959,
       "previous": {

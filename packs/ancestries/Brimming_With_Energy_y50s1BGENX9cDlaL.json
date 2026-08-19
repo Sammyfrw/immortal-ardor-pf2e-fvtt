@@ -10,7 +10,49 @@
       "gm": "",
       "value": "<p>You have an affinity with your benefactor’s element, and you emphasize its strength anytime you interact with it in your day to day. Your spells and alchemical items that have the same trait as your selected trait for your @UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.T8JnPSTdBowegkTJ#drachiri-benefactor]{Benefactor’s} Elements &amp; Energies table and deal damage gain a status bonus to damage equal to half the spell's rank or one-quarter the item's level (minimum bonus +1). You also gain a +1 status bonus to any persistent damage you deal with that trait.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "damageType": "{actor|flags.pf2e.drachiriBenefactor.activeTrait}",
+        "key": "FlatModifier",
+        "selector": [
+          "strike-damage"
+        ],
+        "slug": "brimming-with-energy-strike",
+        "type": "status",
+        "value": "max(floor(@weapon.level/4), 1)",
+        "predicate": [
+          "item:trait:alchemical",
+          "item:trait:{actor|flags.pf2e.drachiriBenefactor.activeTrait}"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "damageType": "{actor|flags.pf2e.drachiriBenefactor.activeTrait}",
+        "key": "FlatModifier",
+        "selector": [
+          "spell-damage"
+        ],
+        "slug": "brimming-with-energy-spell",
+        "type": "status",
+        "value": "max(floor(@spell.level/2), 1)",
+        "predicate": [
+          "item:trait:{actor|flags.pf2e.drachiriBenefactor.activeTrait}"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "damageCategory": "persistent",
+        "damageType": "{actor|flags.pf2e.drachiriBenefactor.activeTrait}",
+        "key": "FlatModifier",
+        "selector": [
+          "damage"
+        ],
+        "slug": "brimming-with-energy-persistent",
+        "type": "status",
+        "value": 1,
+        "hideIfDisabled": true
+      }
+    ],
     "slug": "brimming-with-energy",
     "_migration": {
       "version": 0.959,
