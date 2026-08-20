@@ -8,10 +8,22 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your innate affinity to your benefactor’s energy grows stronger. Your resistance to your selected trait becomes equal to your level. You are capable of weathering most non-extreme cases of climate or conditions that pertain to your Benefactor’s domains or environments that align with their Domains, Aspects &amp; Themes.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have the @UUID[Compendium.immortal-ardor.ancestries.EM36aA87rp3QJ31E]{Terrain Gifts} feat, you are considered a Master in Survival for the purpose of that feat. If you become a Master in Survival, the circumstance bonus it grants increases to +3.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your innate affinity to your benefactor’s energy grows stronger. Your resistance to your selected trait becomes equal to your level. You are capable of weathering most non-extreme cases of climate or conditions that pertain to your Benefactor’s domains or environments that align with their Domains, Aspects &amp; Themes.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have the @UUID[Compendium.immortal-ardor.ancestries.EM36aA87rp3QJ31E]{Terrain Gifts} feat, you are considered a Master in Survival for the purpose of that feat. If your proficiency increases to become a Master in Survival, the circumstance bonus it grants increases to +3.</span></p>"
     },
-    "rules": [],
-    "slug": "t-ancestry-feat-template",
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "selector": "skill-check",
+        "predicate": [
+          "bonus:type:circumstance",
+          "feat:exemplary-awakening"
+        ],
+        "slug": "terrain-gifts",
+        "mode": "add",
+        "value": 1
+      }
+    ],
+    "slug": "exemplary-awakening",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -46,7 +58,11 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Exemplary Evolution"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {

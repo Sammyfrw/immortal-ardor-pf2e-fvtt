@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can magically project your grip to grab ahold of objects or creatures from farther away. When you do, you can manipulate them as if you were actually holding them or even pull them towards you. You can attempt to Interact with objects or Grapple or Reposition a creature from 20 feet away. If you take an object you could feasibly carry you can pull it towards you as if your reach is 20 feet. Your grip ends if you are ever farther than 20 feet away from the object or creature, or if you do not use this feat or physically grab the object or attempt to Grapple or Reposition a grabbed creature as your first action at the start of your next turn.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have the Draconic Arms feat for a Bite or a Claw unarmed attack, you can use this feat to make a Strike. You Strike once with a Bite, or twice with your Claws, combining your damage for the purpose of immunities, resistances or immunities if both Claw attacks hit. In place of a second Claw strike, or as part of this action after a Bite attack, you can attempt to Grapple or Reposition your target as described above. For any attack action you take, you increase your multi-attack penalty normally.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can magically project your grip to grab ahold of objects or creatures from farther away. When you do, you can manipulate them as if you were actually holding them or even pull them towards you. You can attempt to Interact with objects or @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} or @UUID[Compendium.pf2e.actionspf2e.lOE4yjUnETTdaf2T]{Reposition} a creature from 20 feet away. If you take an object you could feasibly carry you can pull it towards you as if your reach is 20 feet. Your grip ends if you are ever farther than 20 feet away from the object or creature, or if you do not use this feat or physically grab the object or attempt to Grapple or Reposition a grabbed creature as your first action at the start of your next turn.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have the @UUID[Compendium.immortal-ardor.ancestries.evAxFVUdmJhPL3UG]{Draconic Arms} feat for a Bite or a Claw unarmed attack, you can use this feat to make a Strike. You Strike once with a Bite, or twice with your Claws, combining your damage for the purpose of immunities, resistances or immunities if both Claw attacks hit. In place of a second Claw strike, or as part of this action after a Bite attack, you can attempt to Grapple or Reposition your target as described above. For any attack action you take, you increase your multi-attack penalty normally.</span></p>"
     },
     "rules": [],
     "slug": "astral-grip",
@@ -24,7 +24,8 @@
       "otherTags": [],
       "value": [
         "arcane",
-        "draichsar"
+        "draichsar",
+        "manipulate"
       ],
       "rarity": "common"
     },

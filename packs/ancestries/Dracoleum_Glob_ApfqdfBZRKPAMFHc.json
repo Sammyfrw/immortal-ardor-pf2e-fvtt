@@ -8,9 +8,24 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can delay the discharge of your dracoleum breath attack and create a small explosion of power instead by spitting it a distance away. When you use Draichsar Breath, you can spit a projectile to a space within 30 feet of you; when you do your Draichsar Breath erupts in a 10 foot burst.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can delay the discharge of your dracoleum breath attack and create a small explosion of power instead by spitting it a distance away. When you use Draichsar Breath, you can spit a projectile to a space within 30 feet of you; when you do your Draichsar Breath erupts in a @Template[burst|distance:10].</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:draichsar-breath"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      }
+    ],
     "slug": "dracoleum-glob",
     "_migration": {
       "version": 0.959,

@@ -10,7 +10,35 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Ever since you exhibited your gifts, you feel much more at home in domains that align with your drachiri benefactor. You gain a +1 circumstance bonus to Survival checks and to saving throws against natural effects while you are in domains or environments that align with your chosen Benefactor’s Domains, Aspects &amp; Themes. If you become a Master in Survival, the bonus to saving throws apply to even non-natural effects, and your bonus to Survival checks increase to +2.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "survival"
+        ],
+        "value": 1,
+        "predicate": [
+          "domains-aspects-themes"
+        ],
+        "type": "circumstance"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "skill-check",
+        "predicate": [
+          "bonus:type:circumstance",
+          {
+            "gte": [
+              "skill:survival:rank",
+              3
+            ]
+          }
+        ],
+        "slug": "terrain-gifts",
+        "mode": "add",
+        "value": 1
+      }
+    ],
     "slug": "terrain-gifts",
     "_migration": {
       "version": 0.959,

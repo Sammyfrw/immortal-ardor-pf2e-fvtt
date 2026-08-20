@@ -1,0 +1,89 @@
+{
+  "folder": "JYHQ1SrUyuuQ3xX7",
+  "name": "Effect: Fierce Presence (Master)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.ancestries.jqXUNG91nCmX7jD1]{Fierce Presence}</p><p>You take a circumstance penalty to your Will DC from the creature that exudes the fierce presence.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "will-dc"
+        ],
+        "value": 2,
+        "type": "circumstance"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "will"
+        ],
+        "value": -2,
+        "type": "circumstance",
+        "predicate": [
+          "item:slug:reign-of-terror"
+        ]
+      }
+    ],
+    "slug": "effect-fierce-presence-master",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/creatures/reptiles/lizard-mouth-glowing-red.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "es6JqvUze5pwJCcw",
+  "sort": 0,
+  "_key": "!items!es6JqvUze5pwJCcw"
+}

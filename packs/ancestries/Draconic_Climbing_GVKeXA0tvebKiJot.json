@@ -10,7 +10,13 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have strong enough claws, vestigial wings, or a tail that helps you climb. You gain a climb speed equal to 20 feet.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 20
+      }
+    ],
     "slug": "draconic-climbing",
     "_migration": {
       "version": 0.959,

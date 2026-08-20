@@ -8,9 +8,40 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have dracoleum glands, or have undertaken grafts to make it available to you when it was discovered you may have one. You gain the Adopted Ancestry feat for Draichsar, but you must select the Draichsar Breath feat. However, this Adopted Ancestry only qualifies you for feats that pertain to using Draichsar feats that require use of their breath weapon. You must acquire the feat again to select other Draichsar feats, in addition to meeting other physiological requirements to take them.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you are a Draichsar with the Draich heritage, you instead gain the Draichsar Breath feat, and gain a +1 status bonus to the damage of your Draichsar Breath. Each time your breath weapon’s damage increases, you increase this status bonus by 1.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have dracoleum glands, or have undertaken grafts to make it available to you when it was discovered you may have one. You gain the @UUID[Compendium.pf2e.feats-srd.ihN8gkHSdPG9Trte]{Adopted Ancestry} feat for Draichsar, but you must select the @UUID[Compendium.immortal-ardor.ancestries.4fi4ZHm5YpY3s4zw]{Draichsar Breath} feat. However, this Adopted Ancestry only qualifies you for feats that pertain to using Draichsar feats that require use of their breath weapon. You must acquire the feat again to select other Draichsar feats, in addition to meeting other physiological requirements to take them.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you are a Draichsar with the Draich heritage, you instead gain the Draichsar Breath feat, and gain a +1 status bonus to the damage of your Draichsar Breath. Each time your breath weapon’s damage increases, you increase this status bonus by 1.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte",
+        "predicate": [
+          {
+            "not": [
+              "self:ancestry:draichsar"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.4fi4ZHm5YpY3s4zw",
+        "predicate": [
+          "self:ancestry:draichsar"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "inline-damage"
+        ],
+        "value": "floor(max(1,@actor.level/2))",
+        "type": "status",
+        "predicate": [
+          "item:slug:draichsar-breath",
+          "self:ancestry:draichsar"
+        ]
+      }
+    ],
     "slug": "dracoleum-evolution",
     "_migration": {
       "version": 0.959,

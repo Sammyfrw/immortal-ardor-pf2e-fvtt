@@ -10,7 +10,58 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The draichsar used weapons that were well-fitting for their ability to fly. You gain access to all uncommon weapons with the draichsar trait. You gain familiarity with draichsar weapons and the halberd, the crescent cross, the gladius, the flyssa and the war flail. In addition, you gain access to all uncommon draichsar weapons – for the purpose of determining your proficiency, you treat any of these that are martial weapons as simple weapons and advanced weapons as martial weapons.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At 5th level, whenever you get a critical hit with one of these weapons, you get its critical specialization effect.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "definition": [
+          "item:trait:draichsar",
+          "item:category:advanced"
+        ],
+        "key": "MartialProficiency",
+        "label": "Advanced Draichsar Weapons",
+        "sameAs": "martial",
+        "slug": "advanced-draichsar-weapons"
+      },
+      {
+        "definition": [
+          {
+            "or": [
+              "item:trait:draichsar",
+              "item:base:halberd",
+              "item:base:crescent-cross",
+              "item:base:gladius",
+              "item:base:flyssa",
+              "item:base:war-flail"
+            ]
+          },
+          "item:category:martial"
+        ],
+        "key": "MartialProficiency",
+        "label": "Draichsar Martial Weapons",
+        "sameAs": "simple",
+        "slug": "martial-draichsar-weapons"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          },
+          {
+            "or": [
+              "item:trait:draichsar",
+              "item:base:halberd",
+              "item:base:crescent-cross",
+              "item:base:gladius",
+              "item:base:flyssa",
+              "item:base:war-flail"
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "draichsar-weapon-familiarity",
     "_migration": {
       "version": 0.959,

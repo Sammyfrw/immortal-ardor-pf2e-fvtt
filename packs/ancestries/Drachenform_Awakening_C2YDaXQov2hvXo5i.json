@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> Once per hour</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have become well-adapted to your draconic form, and have learned a technique that allows you to perform multiple acts as you blitz through the sky. You Fly twice, at a speed of 25-feet or your Fly speed, whichever is higher. You conjure ethereal wings to carry you if you do not have a Fly speed. During this movement, you can Strike, Cast up to a 2-action spell, or use your Draichsar Breath, if you can do so.</span></p>"
+      "value": "<p><strong>Frequency</strong> Once per hour</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have become well-adapted to your draconic form, and have learned a technique that allows you to perform multiple acts as you blitz through the sky. You @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly} twice, at a speed of 25-feet or your Fly speed, whichever is higher. You conjure ethereal wings to carry you if you do not have a Fly speed. During this movement, you can Strike, Cast up to a 2-action spell, or use your Draichsar Breath, if you can do so.</span></p>"
     },
     "rules": [],
     "slug": "drachenform-awakening",

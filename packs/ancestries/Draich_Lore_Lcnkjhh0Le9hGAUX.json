@@ -8,9 +8,26 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You have studied the lived experiences of the Draich. You become trained in Diplomacy and Intimidation. For each of these skills in which you were already trained, you become trained in a skill of your choice. You also become gain the Additional Lore feat for Draichsar Lore.</p>"
+      "value": "<p>You have studied the lived experiences of the Draich. You become trained in Diplomacy and Intimidation. For each of these skills in which you were already trained, you become trained in a skill of your choice. You also gain the @UUID[Compendium.pf2e.feats-srd.BocFD2KV0qgUC76x]{Additional Lore} feat for Draichsar Lore.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.diplomacy.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.intimidation.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
+      }
+    ],
     "slug": "draich-lore",
     "_migration": {
       "version": 0.959,

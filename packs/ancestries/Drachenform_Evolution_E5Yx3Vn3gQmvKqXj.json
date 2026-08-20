@@ -8,9 +8,35 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your body has amplified draconic physical features, such as a tail, claws, horns or even wings. You gain the Adopted Ancestry feat for Draichsar, but you must select the Draconic arms feat. However, this Adopted Ancestry only qualifies you for feats that pertain to using Draichsar feats that require use of draconic appendages (including selecting Draconic Arms again), based on the limb you select. You must acquire the feat again to select other Draichsar feats, in addition to meeting other physiological requirements to take them.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you are a Draichsar with the Draich heritage, you instead gain the Draconic Arms feat twice.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your body has amplified draconic physical features, such as a tail, claws, horns or even wings. You gain the @UUID[Compendium.pf2e.feats-srd.ihN8gkHSdPG9Trte]{Adopted Ancestry} feat for Draichsar, but you must select the @UUID[Compendium.immortal-ardor.ancestries.evAxFVUdmJhPL3UG]{Draconic Arms} feat. However, this Adopted Ancestry only qualifies you for feats that pertain to using Draichsar feats that require use of draconic appendages (including selecting Draconic Arms again), based on the limb you select. You must acquire the feat again to select other Draichsar feats, in addition to meeting other physiological requirements to take them.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you are a Draichsar with the Draich heritage, you instead gain the Draconic Arms feat twice.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte",
+        "predicate": [
+          {
+            "not": [
+              "self:ancestry:draichsar"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "self:ancestry:draichsar"
+        ],
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.evAxFVUdmJhPL3UG"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "self:ancestry:draichsar"
+        ],
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.evAxFVUdmJhPL3UG"
+      }
+    ],
     "slug": "drachenform-evolution",
     "_migration": {
       "version": 0.959,

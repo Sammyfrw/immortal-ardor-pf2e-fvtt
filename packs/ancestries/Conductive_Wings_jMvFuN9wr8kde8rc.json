@@ -8,9 +8,20 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your natural weapons are effortless conductors of your element. Your draichsar unarmed attacks gain the benefit of the Conducting rune. This does not count against the number of runes they would have (such as from property runes etched onto a handwarps of mighty blows).</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your natural weapons are effortless conductors of your element. Your draichsar unarmed attacks gain the benefit of the @UUID[Compendium.pf2e.equipment-srd.cHCaDiKel0qAIQmC]{Conducting} rune. This does not count against the number of runes they would have (such as from property runes etched onto a handwarps of mighty blows).</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "property-runes",
+        "value": "conducting",
+        "definition": [
+          "item:trait:unarmed",
+          "item:trait:draichsar"
+        ]
+      }
+    ],
     "slug": "conductive-wings",
     "_migration": {
       "version": 0.959,

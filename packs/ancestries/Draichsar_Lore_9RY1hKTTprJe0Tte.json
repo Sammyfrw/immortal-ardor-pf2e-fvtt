@@ -8,9 +8,26 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You have learned the ancestral skills and knowledge of the draichsar. You become trained in Intimidation and Arcana.</span> <span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">For each of these skills in which you were already trained, you become trained in a skill of your choice. You also become gain the Additional Lore feat for Draichsar Lore.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You have learned the ancestral skills and knowledge of the draichsar. You become trained in Intimidation and Arcana.</span> <span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">For each of these skills in which you were already trained, you become trained in a skill of your choice. You also become gain the @UUID[Compendium.pf2e.feats-srd.BocFD2KV0qgUC76x]{Additional Lore} feat for Draichsar Lore.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.arcana.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.intimidation.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
+      }
+    ],
     "slug": "draichsar-lore",
     "_migration": {
       "version": 0.959,

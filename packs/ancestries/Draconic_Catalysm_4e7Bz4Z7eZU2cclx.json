@@ -10,7 +10,31 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You can cast spells with any of your traits from your Drachiri Benefactor</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your mastery of draconic elements means you know how to channel either of your magical energies reliably in place of what a spell is meant to be. Spells with your selected traits gain the Drachiri trait, allowing you to substitute damage types and traits from one of your selected traits to another, as per Exemplary Qualities.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:trait:drachiri"
+        ],
+        "property": "damage-type",
+        "selectors": [
+          "spell-damage"
+        ],
+        "value": "{actor|flags.pf2e.drachiriBenefactor.damageType}"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "spell",
+        "mode": "add",
+        "property": "traits",
+        "value": "drachiri",
+        "fromEquipment": false,
+        "predicate": [
+          "item:trait:{actor|flags.pf2e.drachiriBenefactor.activeTrait}"
+        ]
+      }
+    ],
     "slug": "draconic-catalysm",
     "_migration": {
       "version": 0.959,

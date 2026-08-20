@@ -586,6 +586,10 @@
             "label": "IA.Trait.Diviner",
             "description": "IA.TraitDescription.Diviner"
           },
+          "drachiri": {
+            "label": "IA.Trait.Drachiri",
+            "description": "IA.TraitDescription.Drachiri"
+          },
           "meditation": {
             "label": "IA.Trait.Meditation",
             "description": "IA.TraitDescription.Meditation"

@@ -205,6 +205,7 @@
         "BenefactorPrompt": "Select a Drachiri Benefactor.",
         "TraitPrompt": "Select an Element & Energy trait.",
         "TraitLabel": "Drachiri Element",
+        "DamageLabel": "Drachiri Damage Type",
         "Crimson": "Crimson",
         "Azure": "Azure",
         "Verdant": "Verdant",
@@ -229,6 +230,12 @@
             "PoisonSpit": "Poison Spit",
             "ImprovedAelkhazakFangs": "Improved Aelkhazak Fangs",
             "ImprovedPoisonSpit": "Improved Poison Spit"
+          }
+        },
+        "Draichsar": {
+          "DraichsarBreath": {
+            "BreathShapeLabel": "Draichsar Breath Shape",
+            "BreathSpecLabel": "Draichsar Breath Damage Specialization"
           }
         },
         "Loupain": {

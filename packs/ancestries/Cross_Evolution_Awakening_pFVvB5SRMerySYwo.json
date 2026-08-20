@@ -8,9 +8,29 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You awaken latent powers that you did not know you had, coming from another branch of draconic power. You gain your choice of Dracoleum Evolution, Drachenform Evolution, or Exemplary Evolution, whichever of them you do not already have, even though you already have a lineage feat.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You awaken latent powers that you did not know you had, coming from another branch of draconic power. You gain your choice of @UUID[Compendium.immortal-ardor.ancestries.WZab2adCdFovtj4F]{Dracoleum Evolution}, @UUID[Compendium.immortal-ardor.ancestries.E5Yx3Vn3gQmvKqXj]{Drachenform Evolution}, or @UUID[Compendium.immortal-ardor.ancestries.PwqzGNesN6hgFXgm]{Exemplary Evolution}, whichever of them you do not already have, even though you already have a lineage feat.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.WZab2adCdFovtj4F"
+          },
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.E5Yx3Vn3gQmvKqXj"
+          },
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.PwqzGNesN6hgFXgm"
+          }
+        ],
+        "flag": "crossEvolutionAwakeningFeat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.crossEvolutionAwakeningFeat}"
+      }
+    ],
     "slug": "cross-evolution-awakening",
     "_migration": {
       "version": 0.959,

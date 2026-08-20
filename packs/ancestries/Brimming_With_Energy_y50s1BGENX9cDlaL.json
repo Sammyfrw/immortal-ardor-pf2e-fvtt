@@ -12,7 +12,7 @@
     },
     "rules": [
       {
-        "damageType": "{actor|flags.pf2e.drachiriBenefactor.activeTrait}",
+        "damageType": "{actor|flags.pf2e.drachiriBenefactor.damageType}",
         "key": "FlatModifier",
         "selector": [
           "strike-damage"
@@ -27,7 +27,7 @@
         "hideIfDisabled": true
       },
       {
-        "damageType": "{actor|flags.pf2e.drachiriBenefactor.activeTrait}",
+        "damageType": "{actor|flags.pf2e.drachiriBenefactor.damageType}",
         "key": "FlatModifier",
         "selector": [
           "spell-damage"
@@ -42,7 +42,7 @@
       },
       {
         "damageCategory": "persistent",
-        "damageType": "{actor|flags.pf2e.drachiriBenefactor.activeTrait}",
+        "damageType": "{actor|flags.pf2e.drachiriBenefactor.damageType}",
         "key": "FlatModifier",
         "selector": [
           "damage"
@@ -50,7 +50,10 @@
         "slug": "brimming-with-energy-persistent",
         "type": "status",
         "value": 1,
-        "hideIfDisabled": true
+        "hideIfDisabled": true,
+        "predicate": [
+          "item:trait:{actor|flags.pf2e.drachiriBenefactor.activeTrait}"
+        ]
       }
     ],
     "slug": "brimming-with-energy",

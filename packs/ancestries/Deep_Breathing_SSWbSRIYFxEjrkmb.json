@@ -8,9 +8,37 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You train and empower your dracoleum pathways to make your breath weapon more devastating. Your Draichsar Breath doubles its range, to a 60-foot line or a 30-foot cone, and its damage die increases to d6s instead of d4s. On a critical failure on a saving throw, you apply the critical weapon specialization effect to the creature. If your damage type is vitality or void, you add 2d6 persistent damage of that type on a critical failure.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have the Dracoleum Glob feat, its area also is doubled to a 20-foot burst.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You train and empower your dracoleum pathways to make your breath weapon more devastating. Your @UUID[Compendium.immortal-ardor.ancestries.4fi4ZHm5YpY3s4zw]{Draichsar Breath} doubles its range, to a @Template[line|distance:60] or a </span><span>@Template[cone|distance:30]</span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> 30-foot cone, and its damage die increases to d6s instead of d4s. On a critical failure on a saving throw, you apply the critical weapon specialization effect to the creature. If your damage type is vitality or void, you add 2d6 persistent damage of that type on a critical failure.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have the @UUID[Compendium.immortal-ardor.ancestries.ApfqdfBZRKPAMFHc]{Dracoleum Glob} feat, its area also is doubled to a @Template[burst|distance:20].</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:draichsar-breath"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:trait:drachiri",
+          "item:slug:draichsar-breath"
+        ],
+        "property": "dice-faces",
+        "selectors": [
+          "inline-damage"
+        ],
+        "value": 6
+      }
+    ],
     "slug": "deep-breathing",
     "_migration": {
       "version": 0.959,

@@ -8,9 +8,67 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your silhouette cuts a fierce aura that builds terror in your enemies. While within 45 feet of you, creatures you attempt to Demoralize take a -1 circumstance penalty to their Will DCs. If you become a Master in Intimidation, this penalty increases to -2.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your silhouette cuts a fierce aura that builds terror in your enemies. While within 45 feet of you, creatures you attempt to @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} take a -1 circumstance penalty to their Will DCs. If you become a Master in Intimidation, this penalty increases to -2.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 45,
+        "appearance": {
+          "border": {},
+          "highlight": {}
+        },
+        "traits": [
+          "fear",
+          "mental",
+          "emotion"
+        ],
+        "predicate": [
+          {
+            "lte": [
+              "skill:intimidation:rank",
+              2
+            ]
+          }
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.immortal-ardor.ancestries.Item.yySGWfRLvLvgTglv",
+            "affects": "enemies",
+            "includesSelf": false
+          }
+        ]
+      },
+      {
+        "key": "Aura",
+        "radius": 45,
+        "appearance": {
+          "border": {},
+          "highlight": {}
+        },
+        "traits": [
+          "fear",
+          "mental",
+          "emotion"
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "skill:intimidation:rank",
+              3
+            ]
+          }
+        ],
+        "mergeExisting": false,
+        "effects": [
+          {
+            "uuid": "Compendium.immortal-ardor.ancestries.Item.es6JqvUze5pwJCcw",
+            "affects": "enemies",
+            "includesSelf": false
+          }
+        ]
+      }
+    ],
     "slug": "fierce-presence",
     "_migration": {
       "version": 0.959,

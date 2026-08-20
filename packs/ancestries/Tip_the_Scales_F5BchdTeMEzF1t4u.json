@@ -10,7 +10,23 @@
       "gm": "",
       "value": "<p><strong>Trigger</strong> You would fail or critically fail a skill check.</p><p><strong>Frequency</strong> Once per day</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The innate magnetism of a dragon is sometimes all you need to push things in your favor. You treat your skill check as if you had rolled a 10, and gain a status bonus to the check equal to your Charisma modifier if it is positive.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "SubstituteRoll",
+        "label": "Tip The Scales",
+        "selector": "skill-check",
+        "slug": "tip-the-scales",
+        "value": "10+@actor.system.abilities.cha.mod"
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "substitute:tip-the-scales"
+        ],
+        "selector": "skill-check",
+        "suppress": true
+      }
+    ],
     "slug": "tip-the-scales",
     "_migration": {
       "version": 0.959,
