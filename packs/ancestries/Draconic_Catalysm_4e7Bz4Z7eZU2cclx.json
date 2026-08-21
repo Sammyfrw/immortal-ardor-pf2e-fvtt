@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You can cast spells with any of your traits from your Drachiri Benefactor</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your mastery of draconic elements means you know how to channel either of your magical energies reliably in place of what a spell is meant to be. Spells with your selected traits gain the Drachiri trait, allowing you to substitute damage types and traits from one of your selected traits to another, as per Exemplary Qualities.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your mastery of draconic elements means you know how to channel either of your magical energies reliably in place of what a spell is meant to be. If your next action is to Cast a Spell with a trait that matches any drachiri benefactor’s element, it gains the Drachiri trait, allowing you to substitute its damage type and trait to your attuned element. If the spell has multiple applicable elements, you apply this change to only one trait.</span></p>"
     },
     "rules": [
       {
@@ -47,8 +47,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "drachiri",
-        "draichsar"
+        "draichsar",
+        "spellshape"
       ],
       "rarity": "common"
     },
@@ -65,20 +65,13 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "Exemplary Qualities"
-        },
-        {
-          "value": "You have selected at least two traits from your Drachiri Benefactor"
-        }
-      ]
+      "value": []
     },
     "location": null,
     "subfeatures": {

@@ -8,9 +8,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">Draichsar are strongly dependent on the lineages of the matron or patron drachiri that incubated them as an egg. If you do not gain the Exemplary Qualities draichsar ancestry feat in any way when you create your character, you still select a Benefactor and one trait from the Elements &amp; Energies column for that Benefactor, but gain no other benefits.</p><p>@UUID[Compendium.immortal-ardor.ancestries.SLafrzEYuatDDJfW]{Drachiri Benefactor}</p><p>@UUID[Compendium.immortal-ardor.ancestries.qmSnZC4ABfKKqVZU]{Drachiri Trait Choice}</p>"
+      "value": "<p class=\"MsoNormal\">Draichsar are strongly dependent on the lineages of the matron or patron drachiri that incubated them as an egg. @UUID[Compendium.immortal-ardor.ancestries.SLafrzEYuatDDJfW]{Drachiri Benefactor}. If you have a Benefactor already, you can choose the same one and gain another trait you do not have.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.SLafrzEYuatDDJfW"
+      }
+    ],
     "slug": "drachiri-lineage",
     "_migration": {
       "version": 0.959,

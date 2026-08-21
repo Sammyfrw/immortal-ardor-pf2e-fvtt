@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You have an affinity with your benefactor’s element, and you emphasize its strength anytime you interact with it in your day to day. Your spells and alchemical items that have the same trait as your selected trait for your @UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.T8JnPSTdBowegkTJ#drachiri-benefactor]{Benefactor’s} Elements &amp; Energies table and deal damage gain a status bonus to damage equal to half the spell's rank or one-quarter the item's level (minimum bonus +1). You also gain a +1 status bonus to any persistent damage you deal with that trait.</p>"
+      "value": "<p>You have an affinity with your benefactor’s element, and you emphasize its strength anytime you interact with it in your day to day. Your spells and alchemical items that share traits with your attuned @UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.T8JnPSTdBowegkTJ#drachiri-benefactor]{Benefactor’s} trait and deal damage gain a status bonus to damage equal to half the spell's rank or one-quarter the item's level (minimum bonus +1). You also gain a +1 status bonus to any persistent damage you deal with that trait.</p>"
     },
     "rules": [
       {
