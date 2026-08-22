@@ -31,7 +31,10 @@
         "choices": [
           {
             "label": "PF2E.TraitAcid",
-            "value": "acid",
+            "value": {
+              "label": "PF2E.TraitAcid",
+              "trait": "acid"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:acid"
@@ -46,7 +49,10 @@
           },
           {
             "label": "PF2E.TraitCold",
-            "value": "cold",
+            "value": {
+              "label": "PF2E.TraitCold",
+              "trait": "cold"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:cold"
@@ -61,7 +67,10 @@
           },
           {
             "label": "PF2E.TraitElectricity",
-            "value": "electricity",
+            "value": {
+              "label": "PF2E.TraitElectricity",
+              "trait": "electricity"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:electricity"
@@ -76,7 +85,10 @@
           },
           {
             "label": "PF2E.TraitFire",
-            "value": "fire",
+            "value": {
+              "label": "PF2E.TraitFire",
+              "trait": "fire"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:fire"
@@ -91,7 +103,10 @@
           },
           {
             "label": "PF2E.TraitMental",
-            "value": "mental",
+            "value": {
+              "label": "PF2E.TraitMental",
+              "trait": "mental"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:mental"
@@ -106,7 +121,10 @@
           },
           {
             "label": "PF2E.TraitWater",
-            "value": "water",
+            "value": {
+              "label": "PF2E.TraitWater",
+              "trait": "water"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:water"
@@ -121,7 +139,10 @@
           },
           {
             "label": "PF2E.TraitSonic",
-            "value": "sonic",
+            "value": {
+              "label": "PF2E.TraitSonic",
+              "trait": "sonic"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:sonic"
@@ -136,7 +157,10 @@
           },
           {
             "label": "PF2E.TraitVitality",
-            "value": "vitality",
+            "value": {
+              "label": "PF2E.TraitVitality",
+              "trait": "vitality"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:vitality"
@@ -151,7 +175,10 @@
           },
           {
             "label": "PF2E.TraitVoid",
-            "value": "void",
+            "value": {
+              "label": "PF2E.TraitVoid",
+              "trait": "void"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:void"
@@ -166,7 +193,10 @@
           },
           {
             "label": "PF2E.TraitWood",
-            "value": "wood",
+            "value": {
+              "label": "PF2E.TraitWood",
+              "trait": "wood"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:wood"
@@ -181,7 +211,10 @@
           },
           {
             "label": "PF2E.TraitEarth",
-            "value": "earth",
+            "value": {
+              "label": "PF2E.TraitEarth",
+              "trait": "earth"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:earth"
@@ -196,7 +229,10 @@
           },
           {
             "label": "PF2E.TraitForce",
-            "value": "force",
+            "value": {
+              "label": "PF2E.TraitForce",
+              "trait": "force"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:force"
@@ -211,7 +247,10 @@
           },
           {
             "label": "PF2E.TraitMetal",
-            "value": "metal",
+            "value": {
+              "label": "PF2E.TraitMetal",
+              "trait": "metal"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:metal"
@@ -226,7 +265,10 @@
           },
           {
             "label": "PF2E.TraitAir",
-            "value": "air",
+            "value": {
+              "label": "PF2E.TraitAir",
+              "value": "air"
+            },
             "predicate": [
               {
                 "not": "drachiri-benefactor-chosen-trait:air"
@@ -241,9 +283,22 @@
           }
         ],
         "flag": "drachiriBenefactorChosenTrait",
-        "rollOption": "drachiri-benefactor-chosen-trait",
         "prompt": "IA.SpecificRule.DrachiriBenefactor.TraitPrompt",
         "key": "ChoiceSet"
+      },
+      {
+        "key": "RollOption",
+        "option": "drachiri-benefactor-chosen-trait:{item|flags.system.rulesSelections.drachiriBenefactorChosenTrait.trait}",
+        "priority": 45
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.system.drachiriBenefactor.benefactorChoices.traits",
+        "value": {
+          "label": "{item|flags.system.rulesSelections.drachiriBenefactorChosenTrait.label}",
+          "value": "{item|flags.system.rulesSelections.drachiriBenefactorChosenTrait.trait}"
+        }
       }
     ],
     "subfeatures": {

@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are able to magically infuse all your senses briefly to see and smell the flows of life, heat, and blood around you. You gain Lifesense as an imprecise sense for 60 feet around you for 1 minute.</span></p>"
+      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are able to magically infuse all your senses briefly to see and smell the flows of life, heat, and blood around you. You gain Lifesense as an imprecise sense for 60 feet around you for 1 minute.</span></p><p>@UUID[Compendium.immortal-ardor.ancestries.ujHJkPqyqFnZj4oj]{Effect: Eyes of Ember}</p>"
     },
     "rules": [],
     "slug": "eyes-of-ember",
@@ -57,6 +57,10 @@
     "frequency": {
       "max": 1,
       "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.ujHJkPqyqFnZj4oj",
+      "name": "Effect: Eyes of Ember"
     }
   },
   "_stats": {

@@ -32,6 +32,7 @@
           {
             "label": "IA.SpecificRule.DrachiriBenefactor.Crimson",
             "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Crimson",
               "dragon": "crimson"
             },
             "predicate": [
@@ -43,6 +44,7 @@
           {
             "label": "IA.SpecificRule.DrachiriBenefactor.Azure",
             "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Azure",
               "dragon": "azure"
             },
             "predicate": [
@@ -54,6 +56,7 @@
           {
             "label": "IA.SpecificRule.DrachiriBenefactor.Verdant",
             "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Verdant",
               "dragon": "verdant"
             },
             "predicate": [
@@ -65,6 +68,7 @@
           {
             "label": "IA.SpecificRule.DrachiriBenefactor.Ivory",
             "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Ivory",
               "dragon": "ivory"
             },
             "predicate": [
@@ -76,6 +80,7 @@
           {
             "label": "IA.SpecificRule.DrachiriBenefactor.Ebony",
             "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Ebony",
               "dragon": "ebony"
             },
             "predicate": [
@@ -87,6 +92,7 @@
           {
             "label": "IA.SpecificRule.DrachiriBenefactor.Violet",
             "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Violet",
               "dragon": "violet"
             },
             "predicate": [
@@ -98,6 +104,7 @@
           {
             "label": "IA.SpecificRule.DrachiriBenefactor.Ochre",
             "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Ochre",
               "dragon": "ochre"
             },
             "predicate": [
@@ -109,13 +116,22 @@
           }
         ],
         "flag": "drachiriBenefactor",
-        "actorFlag": true,
         "prompt": "IA.SpecificRule.DrachiriBenefactor.BenefactorPrompt",
         "key": "ChoiceSet"
       },
       {
         "key": "RollOption",
-        "option": "drachiri-benefactor:{actor|flags.system.drachiriBenefactor.dragon}"
+        "option": "drachiri-benefactor:{item|flags.system.rulesSelections.drachiriBenefactor.dragon}",
+        "priority": 40
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.system.drachiriBenefactor.benefactorChoices.benefactors",
+        "value": {
+          "label": "{item|flags.system.rulesSelections.drachiriBenefactor.label}",
+          "value": "{item|flags.system.rulesSelections.drachiriBenefactor.dragon}"
+        }
       }
     ],
     "subfeatures": {

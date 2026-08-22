@@ -10,7 +10,255 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\">As beings molded in the image of dragons, you can bring their natural weapons to bear. When you select this feat, you gain your selection of one of the following unarmed attacks. These attacks are in the Brawling weapon group.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">Wing, 1d6 bludgeoning [shove, agile, unarmed]</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Bite, 1d8 piercing [forceful, unarmed]</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Claws, 1d4 slashing [finesse, agile, grapple, unarmed]</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Tail, 1d4 bludgeoning [trip, finesse, reach, unarmed]</p></li><li><p class=\"MsoListParagraphCxSpLast\">Dracoleum Spit, 1d4 damage[range 20 feet, drachiri, unarmed]*</p></li></ul><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At 5th level, whenever you get a critical hit with one of these attacks, you get its critical specialization effect. Dracoleum Spit will deal damage of a type and gains the trait that matches your selected trait for your Drachiri Benefactor.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> You can take this feat a number of times equal to the attacks listed above. Each time you do, select a different attack.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.BattleForm.Attack.Claw",
+            "predicate": [
+              {
+                "not": "draconic-arms:claw"
+              }
+            ],
+            "value": "claw"
+          },
+          {
+            "label": "PF2E.BattleForm.Attack.Bite",
+            "predicate": [
+              {
+                "not": "draconic-arms:bite"
+              }
+            ],
+            "value": "bite"
+          },
+          {
+            "label": "PF2E.BattleForm.Attack.Tail",
+            "predicate": [
+              {
+                "not": "draconic-arms:tail"
+              }
+            ],
+            "value": "tail"
+          },
+          {
+            "label": "PF2E.BattleForm.Attack.Wing",
+            "predicate": [
+              {
+                "not": "draconic-arms:wing"
+              }
+            ],
+            "value": "wing"
+          },
+          {
+            "label": "IA.SpecificRule.Ancestries.Draichsar.DraconicArms.DracoleumSpit",
+            "predicate": [
+              {
+                "not": "draconic-arms:dracoleum-spit"
+              }
+            ],
+            "value": "dracoleum-spit"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.UnarmedAttack",
+        "rollOption": "draconic-arms"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Claw",
+        "predicate": [
+          "draconic-arms:claw"
+        ],
+        "range": null,
+        "slug": "claw",
+        "traits": [
+          "unarmed",
+          "agile",
+          "finesse",
+          "grapple",
+          "draichsar"
+        ]
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/bite.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Bite",
+        "predicate": [
+          "draconic-arms:bite"
+        ],
+        "range": null,
+        "slug": "bite",
+        "traits": [
+          "unarmed",
+          "forceful",
+          "draichsar"
+        ]
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/wing.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Wing",
+        "predicate": [
+          "draconic-arms:wing"
+        ],
+        "range": null,
+        "slug": "wing",
+        "traits": [
+          "unarmed",
+          "agile",
+          "shove",
+          "draichsar"
+        ]
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Tail",
+        "predicate": [
+          "draconic-arms:tail"
+        ],
+        "range": null,
+        "slug": "tail",
+        "traits": [
+          "unarmed",
+          "trip",
+          "finesse",
+          "reach",
+          "draichsar"
+        ]
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "{actor|flags.system.drachiriBenefactor.damageType}",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "img": "icons/skills/toxins/cauldron-bubbles-overflow-green.webp",
+        "key": "Strike",
+        "label": "IA.SpecificRule.Ancestries.Draichsar.DraconicArms.DracoleumSpit",
+        "predicate": [
+          "draconic-arms:dracoleum-spit"
+        ],
+        "range": {
+          "increment": 20
+        },
+        "slug": "dracoleum-spit",
+        "traits": [
+          "unarmed",
+          "draichsar"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "group",
+        "value": "{actor|flags.system.drachiriBenefactor.breathSpecialization}",
+        "predicate": [
+          "item:slug:dracoleum-spit",
+          {
+            "nor": [
+              "drachiri-benefactor-damage-type:vitality",
+              "drachiri-benefactor-damage-type:void"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:id:{item|id}",
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "alternate": true,
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:id:{item|id}",
+          "item:slug:dracoleum-spit",
+          "drachiri-benefactor-damage-type:vitality",
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "damageDice": {
+          "number": 2,
+          "damageType": "vitality",
+          "faces": 6,
+          "category": "persistent"
+        }
+      },
+      {
+        "alternate": true,
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:id:{item|id}",
+          "item:slug:dracoleum-spit",
+          "drachiri-benefactor-damage-type:void",
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "damageDice": {
+          "number": 2,
+          "damageType": "void",
+          "faces": 6,
+          "category": "persistent"
+        }
+      }
+    ],
     "slug": "draconic-arms",
     "_migration": {
       "version": 0.959,

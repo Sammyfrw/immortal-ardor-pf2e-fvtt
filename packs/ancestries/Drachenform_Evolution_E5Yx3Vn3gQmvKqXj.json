@@ -16,9 +16,7 @@
         "uuid": "Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte",
         "predicate": [
           {
-            "not": [
-              "self:ancestry:draichsar"
-            ]
+            "not": "self:ancestry:draichsar"
           }
         ]
       },

@@ -13,22 +13,38 @@
     "rules": [
       {
         "key": "ChoiceSet",
+        "adjustName": false,
         "choices": [
           {
-            "value": "Compendium.immortal-ardor.ancestries.Item.WZab2adCdFovtj4F"
+            "value": "Compendium.immortal-ardor.ancestries.Item.WZab2adCdFovtj4F",
+            "predicate": [
+              {
+                "not": "feat:dracoleum-evolution"
+              }
+            ]
           },
           {
-            "value": "Compendium.immortal-ardor.ancestries.Item.E5Yx3Vn3gQmvKqXj"
+            "value": "Compendium.immortal-ardor.ancestries.Item.E5Yx3Vn3gQmvKqXj",
+            "predicate": [
+              {
+                "not": "feat:drachenform-evolution"
+              }
+            ]
           },
           {
-            "value": "Compendium.immortal-ardor.ancestries.Item.PwqzGNesN6hgFXgm"
+            "value": "Compendium.immortal-ardor.ancestries.Item.PwqzGNesN6hgFXgm",
+            "predicate": [
+              {
+                "not": "feat:exemplary-evolution"
+              }
+            ]
           }
         ],
         "flag": "crossEvolutionAwakeningFeat"
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.crossEvolutionAwakeningFeat}"
+        "uuid": "{item|flags.system.rulesSelections.crossEvolutionAwakeningFeat}"
       }
     ],
     "slug": "cross-evolution-awakening",

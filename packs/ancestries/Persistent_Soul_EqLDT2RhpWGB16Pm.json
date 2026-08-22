@@ -18,6 +18,14 @@
         ],
         "value": "@actor.system.abilities.con.mod",
         "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "@actor.system.abilities.con.mod",
+        "selector": [
+          "healing-received"
+        ],
+        "type": "status"
       }
     ],
     "slug": "persistent-soul",

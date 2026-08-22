@@ -1,0 +1,72 @@
+{
+  "folder": "Lqtc5zPAr80N8DDL",
+  "name": "Effect: Eyes of Ember",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>From @UUID[Compendium.immortal-ardor.ancestries.LHbFjFTUzvqfkwgW]{Eyes of Ember}</p><p>You gain Lifesense as an imprecise sense for 60 feet around you.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 60,
+        "selector": "lifesense"
+      }
+    ],
+    "slug": "effect-eyes-of-ember",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "ujHJkPqyqFnZj4oj",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-red.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ujHJkPqyqFnZj4oj"
+}

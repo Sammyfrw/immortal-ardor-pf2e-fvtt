@@ -20,106 +20,84 @@
       },
       {
         "key": "RollOption",
-        "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.BreathSpecLabel",
+        "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.BreathShapeLabel",
         "mergeable": true,
-        "option": "draichsar-breath-specialization",
+        "option": "breath-shape",
         "suboptions": [
           {
-            "label": "PF2E.WeaponGroupCorrosive",
-            "value": "corrosive",
+            "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.LineLabel",
+            "value": "line-30"
+          },
+          {
+            "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.ConeLabel",
+            "value": "cone-15"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.BreathSaveLabel",
+        "mergeable": true,
+        "option": "breath-save",
+        "suboptions": [
+          {
+            "label": "PF2E.SavesFortitude",
+            "value": "fortitude",
             "predicate": [
-              "drachiri-benefactor-active-trait:acid"
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:fire",
+                  "drachiri-benefactor-active-trait:cold",
+                  "drachiri-benefactor-active-trait:electricity",
+                  "drachiri-benefactor-active-trait:air",
+                  "drachiri-benefactor-active-trait:water",
+                  "drachiri-benefactor-active-trait:mental",
+                  "drachiri-benefactor-active-trait:vitality",
+                  "drachiri-benefactor-active-trait:earth",
+                  "drachiri-benefactor-active-trait:wood",
+                  "drachiri-benefactor-active-trait:sonic",
+                  "drachiri-benefactor-active-trait:acid",
+                  "drachiri-benefactor-active-trait:force",
+                  "drachiri-benefactor-active-trait:void"
+                ]
+              }
             ]
           },
           {
-            "label": "PF2E.WeaponGroupCryo",
-            "value": "cryo",
+            "label": "PF2E.SavesReflex",
+            "value": "reflex",
             "predicate": [
-              "drachiri-benefactor-active-trait:cold"
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:fire",
+                  "drachiri-benefactor-active-trait:cold",
+                  "drachiri-benefactor-active-trait:electricity",
+                  "drachiri-benefactor-active-trait:air",
+                  "drachiri-benefactor-active-trait:water",
+                  "drachiri-benefactor-active-trait:earth",
+                  "drachiri-benefactor-active-trait:wood",
+                  "drachiri-benefactor-active-trait:acid",
+                  "drachiri-benefactor-active-trait:force",
+                  "drachiri-benefactor-active-trait:metal"
+                ]
+              }
             ]
           },
           {
-            "label": "PF2E.WeaponGroupPlasma",
-            "value": "plasma",
+            "label": "PF2E.SavesWill",
+            "value": "will",
             "predicate": [
-              "drachiri-benefactor-active-trait:electricity"
-            ]
-          },
-          {
-            "label": "PF2E.WeaponGroupFlame",
-            "value": "flame",
-            "predicate": [
-              "drachiri-benefactor-active-trait:fire"
-            ]
-          },
-          {
-            "label": "PF2E.WeaponGroupShock",
-            "value": "shock",
-            "predicate": [
-              "drachiri-benefactor-active-trait:mental"
-            ]
-          },
-          {
-            "label": "PF2E.WeaponGroupClub",
-            "value": "club",
-            "predicate": [
-              "drachiri-benefactor-active-trait:water"
-            ]
-          },
-          {
-            "label": "PF2E.WeaponGroupSonic",
-            "value": "sonic",
-            "predicate": [
-              "drachiri-benefactor-active-trait:sonic"
-            ]
-          },
-          {
-            "label": "PF2E.TraitVitality",
-            "value": "vitality",
-            "predicate": [
-              "drachiri-benefactor-active-trait:vitality"
-            ]
-          },
-          {
-            "label": "PF2E.TraitVoid",
-            "value": "void",
-            "predicate": [
-              "drachiri-benefactor-active-trait:void"
-            ]
-          },
-          {
-            "label": "PF2E.WeaponGroupSpear",
-            "value": "spear",
-            "predicate": [
-              "drachiri-benefactor-active-trait:wood"
-            ]
-          },
-          {
-            "label": "PF2E.WeaponGroupHammer",
-            "value": "hammer",
-            "predicate": [
-              "drachiri-benefactor-active-trait:earth"
-            ]
-          },
-          {
-            "label": "PF2E.WeaponGroupFlail",
-            "value": "flail",
-            "predicate": [
-              "drachiri-benefactor-active-trait:force"
-            ]
-          },
-          {
-            "label": "PF2E.WeaponGroupSword",
-            "value": "sword",
-            "predicate": [
-              "drachiri-benefactor-active-trait:metal"
-            ]
-          },
-          {
-            "label": "PF2E.WeaponGroupKnife",
-            "value": "knife",
-            "predicate": [
-              "drachiri-benefactor-active-trait:air"
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:mental",
+                  "drachiri-benefactor-active-trait:vitality",
+                  "drachiri-benefactor-active-trait:metal",
+                  "drachiri-benefactor-active-trait:sonic",
+                  "drachiri-benefactor-active-trait:void"
+                ]
+              }
             ]
           }
         ],
@@ -129,8 +107,57 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.pf2e.drachiriBenefactor.breathSpecialization",
-        "value": "{item|flags.pf2e.rulesSelections.draichsarBreathSpecialization}"
+        "path": "flags.system.drachiriBenefactor.breathTemplate",
+        "value": "{item|flags.system.rulesSelections.breathShape}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.system.drachiriBenefactor.breathSave",
+        "value": "{item|flags.system.rulesSelections.breathSave}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.system.drachiriBenefactor.breathDieSize",
+        "value": "4"
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:slug:draichsar-breath"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You reach into the well of magic within you and ignite the dracoleum within, launching a blast of energy through your maw. Your dragon breath deals @Damage[ceil(@actor.level/2)d{actor|flags.system.drachiriBenefactor.breathDieSize}[@actor.flags.pf2e.drachiriBenefactor.damageType]|options:area-damage]. Each creature in the area must attempt a @Check[type:{actor|flags.system.drachiriBenefactor.breathSave}|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] saving throw against the higher of your class DC or spell DC. You can’t use this ability again for [[/r 1d4 #rounds]]{1d4 rounds}. At 3rd level and every 2 levels onward you increase the damage you deal by 1d4, and you can change the shape and saving throw of your breath weapon in the same way or at the same time you attune to another element."
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:draichsar-breath"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.ConeDescription",
+            "predicate": [
+              "breath-shape:cone-15"
+            ]
+          },
+          {
+            "text": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.LineDescription",
+            "predicate": [
+              "breath-shape:line-30"
+            ]
+          }
+        ]
       }
     ],
     "slug": "draichsar-breath",

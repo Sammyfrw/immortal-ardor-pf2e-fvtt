@@ -12,7 +12,7 @@
     },
     "rules": [
       {
-        "damageType": "{actor|flags.pf2e.drachiriBenefactor.damageType}",
+        "damageType": "{actor|flags.system.drachiriBenefactor.damageType}",
         "key": "FlatModifier",
         "selector": [
           "strike-damage"
@@ -27,7 +27,7 @@
         "hideIfDisabled": true
       },
       {
-        "damageType": "{actor|flags.pf2e.drachiriBenefactor.damageType}",
+        "damageType": "{actor|flags.system.drachiriBenefactor.damageType}",
         "key": "FlatModifier",
         "selector": [
           "spell-damage"
@@ -36,13 +36,13 @@
         "type": "status",
         "value": "max(floor(@spell.level/2), 1)",
         "predicate": [
-          "item:trait:{actor|flags.pf2e.drachiriBenefactor.activeTrait}"
+          "item:trait:{actor|flags.system.drachiriBenefactor.activeTrait}"
         ],
         "hideIfDisabled": true
       },
       {
         "damageCategory": "persistent",
-        "damageType": "{actor|flags.pf2e.drachiriBenefactor.damageType}",
+        "damageType": "{actor|flags.system.drachiriBenefactor.damageType}",
         "key": "FlatModifier",
         "selector": [
           "damage"
@@ -52,7 +52,7 @@
         "value": 1,
         "hideIfDisabled": true,
         "predicate": [
-          "item:trait:{actor|flags.pf2e.drachiriBenefactor.activeTrait}"
+          "item:trait:{actor|flags.system.drachiriBenefactor.activeTrait}"
         ]
       }
     ],
@@ -68,6 +68,7 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "drachiri",
         "draich"
       ],
       "rarity": "common"

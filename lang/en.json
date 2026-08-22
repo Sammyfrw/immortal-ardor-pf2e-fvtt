@@ -204,7 +204,7 @@
         "BenefactorLabel": "Drachiri Benefactor",
         "BenefactorPrompt": "Select a Drachiri Benefactor.",
         "TraitPrompt": "Select an Element & Energy trait.",
-        "TraitLabel": "Drachiri Element",
+        "TraitLabel": "Drachiri Attuned Element",
         "DamageLabel": "Drachiri Damage Type",
         "Crimson": "Crimson",
         "Azure": "Azure",
@@ -235,7 +235,21 @@
         "Draichsar": {
           "DraichsarBreath": {
             "BreathShapeLabel": "Draichsar Breath Shape",
-            "BreathSpecLabel": "Draichsar Breath Damage Specialization"
+            "BreathSaveLabel": "Draichsar Breath Saving Throw",
+            "BreathSpecLabel": "Draichsar Breath Damage Specialization",
+            "BreathDescription": "You reach into the well of magic within you and ignite the dracoleum within, launching a blast of energy through your maw. Your dragon breath deals @Damage[ceil(@actor.level/2)d{actor|flags.system.drachiriBenefactor.breathDieSize}[@actor.flags.pf2e.drachiriBenefactor.damageType]|options:area-damage]. Each creature in the area must attempt a @Check[type:{actor|flags.system.drachiriBenefactor.breathSave}|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] saving throw against the higher of your class DC or spell DC. You can’t use this ability again for [[/r 1d4 #rounds]]{1d4 rounds}.",
+            "ConeLabel": "15-foot Cone",
+            "ConeDescription": "Your breath takes the shape of a @Template[type:cone|distance:15].",
+            "LineLabel": "30-foot Line",
+            "LineDescription": "Your breath takes the shape of a @Template[type:line|distance:30].",
+            "BurstLabel": "10-foot Burst",
+            "BurstDescription": "Your breath takes the shape of a @Template[type:burst|distance:10].",
+            "DeepConeLabel": "30-foot Cone",
+            "DeepConeDescription": "Your breath takes the shape of a @Template[type:cone|distance:30].",
+            "DeepLineLabel": "60-foot Line",
+            "DeepLineDescription": "Your breath takes the shape of a @Template[type:line|distance:60].",
+            "DeepBurstLabel": "20-foot Burst",
+            "DeepBurstDescription": "Your breath takes the shape of a @Template[type:burst|distance:20]."
           }
         },
         "Loupain": {

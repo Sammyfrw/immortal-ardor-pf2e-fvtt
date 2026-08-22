@@ -21,9 +21,26 @@
         "property": "description",
         "value": [
           {
-            "text": "{item|description}"
+            "text": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.BurstDescription",
+            "predicate": [
+              "breath-shape:burst-10"
+            ]
           }
         ]
+      },
+      {
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.BreathShapeLabel",
+        "mergeable": true,
+        "option": "breath-shape",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.BurstLabel",
+            "value": "burst-10"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
       }
     ],
     "slug": "dracoleum-glob",

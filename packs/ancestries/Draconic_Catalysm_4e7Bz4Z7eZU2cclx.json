@@ -15,7 +15,8 @@
         "key": "DamageAlteration",
         "mode": "override",
         "predicate": [
-          "item:trait:drachiri"
+          "item:trait:drachiri",
+          "draconic-catalysm"
         ],
         "property": "damage-type",
         "selectors": [
@@ -31,8 +32,16 @@
         "value": "drachiri",
         "fromEquipment": false,
         "predicate": [
-          "item:trait:{actor|flags.pf2e.drachiriBenefactor.activeTrait}"
+          "draconic-catalysm"
         ]
+      },
+      {
+        "key": "RollOption",
+        "option": "draconic-catalysm",
+        "domain": "all",
+        "toggleable": true,
+        "label": "{item|name}",
+        "value": true
       }
     ],
     "slug": "draconic-catalysm",
