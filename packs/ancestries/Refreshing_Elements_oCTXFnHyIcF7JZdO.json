@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can funnel yourself with the ambient magic around you to reinvigorate your body. You regain hit points equal to thrice your level. If you are in terrain or an environment that matches your benefactor’s Domain, Themes or Aspects listed in the Drachiri Benefactor table, you can use this ability outside of its frequency once per day; when you do, you can either regain hit points, or gain up to two focus points.</span></p>"
+      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can funnel yourself with the ambient magic around you to reinvigorate your body. You regain hit points equal to @Damage[@actor.level*3[healing]] thrice your level. If you are in terrain or an environment that matches your benefactor’s Domain, Themes or Aspects listed in the Drachiri Benefactor table, you can use this ability outside of its frequency once per day; when you do, you can either regain hit points, or gain up to two focus points.</span></p>"
     },
     "rules": [],
     "slug": "refreshing-elements",

@@ -8,9 +8,175 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have attained a stronger degree of control of your breath weapon, not necessarily expelling it all at once. You gain a Dracoleum Breath unarmed ranged attack that deals 1d6 damage of the type of your attuned Benefactor trait. This attack has that element’s trait and the Area trait, allowing you to make Area Fire attacks at a range of a 20-foot cone or a 40-foot line, depending on your selection for your Draichsar Breath. Your Dracoleum Breath is in the appropriate weapon group as listed in your Draichsar Breath for the purpose of weapon critical specialization effects, which you benefit from if a creature critically fails their save.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can only use these attacks when your Draichsar Breath is not recharging, and after you have made 4 attacks with your Dracoleum Breath within ten minutes of your first attack, you must recharge your Draichsar Breath for 1d4 rounds.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have the Draconic Arms feat for a Dracoleum Spit unarmed attack, you increase its range to 60 feet when you take this feat.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have attained a stronger degree of control of your breath weapon, not necessarily expelling it all at once. You gain a Dracoleum Exhaust unarmed ranged attack that deals 1d6 damage of the type of your attuned Benefactor trait. This attack has that element’s trait and the Area trait, allowing you to make Area Fire attacks at a range of a 20-foot cone or a 40-foot line, depending on your selection for your Draichsar Breath. Your Dracoleum Breath is in the appropriate weapon group as listed in your Draichsar Breath for the purpose of weapon critical specialization effects, which you benefit from if a creature critically fails their save.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can only use these attacks when your Draichsar Breath is not recharging, and after you have made 4 attacks with your Dracoleum Breath within ten minutes of your first attack, you must recharge your Draichsar Breath for 1d4 rounds.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have the Draconic Arms feat for a Dracoleum Spit unarmed attack, you increase its range to 60 feet when you take this feat.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "{actor|flags.system.drachiriBenefactor.damageType}",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "img": "icons/skills/ranged/cannon-barrel-firing-orange.webp",
+        "key": "Strike",
+        "label": "IA.SpecificRule.Ancestries.Draichsar.MeasuredBreathing.DracoleumExhaust",
+        "range": {
+          "increment": 40
+        },
+        "slug": "dracoleum-exhaust",
+        "traits": [
+          "unarmed",
+          "draichsar"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "property": "traits",
+        "value": "area-line",
+        "predicate": [
+          "item:slug:dracoleum-exhaust",
+          {
+            "or": [
+              "breath-shape:line-30",
+              "breath-shape:line-60"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "range-increment",
+        "value": "40",
+        "predicate": [
+          "item:slug:dracoleum-exhaust",
+          {
+            "or": [
+              "breath-shape:line-30",
+              "breath-shape:line-60"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "property": "traits",
+        "value": "area-cone",
+        "predicate": [
+          "item:slug:dracoleum-exhaust",
+          {
+            "or": [
+              "breath-shape:cone-15",
+              "breath-shape:cone-30"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "range-increment",
+        "value": "20",
+        "predicate": [
+          "item:slug:dracoleum-exhaust",
+          {
+            "or": [
+              "breath-shape:cone-15",
+              "breath-shape:cone-30"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "group",
+        "value": "{actor|flags.system.drachiriBenefactor.breathSpecialization}",
+        "predicate": [
+          "item:slug:dracoleum-exhaust",
+          {
+            "nor": [
+              "drachiri-benefactor-damage-type:vitality",
+              "drachiri-benefactor-damage-type:void"
+            ]
+          }
+        ]
+      },
+      {
+        "alternate": true,
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:id:{item|id}",
+          "item:slug:dracoleum-exhaust",
+          "drachiri-benefactor-damage-type:vitality",
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "damageDice": {
+          "number": 2,
+          "damageType": "vitality",
+          "faces": 6,
+          "category": "persistent"
+        }
+      },
+      {
+        "alternate": true,
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:id:{item|id}",
+          "item:slug:dracoleum-exhaust",
+          "drachiri-benefactor-damage-type:void",
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "damageDice": {
+          "number": 2,
+          "damageType": "void",
+          "faces": 6,
+          "category": "persistent"
+        }
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "range-increment",
+        "value": "60",
+        "predicate": [
+          "item:slug:dracoleum-spit"
+        ]
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:slug:dracoleum-exhaust",
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "measured-breathing",
     "_migration": {
       "version": 0.959,

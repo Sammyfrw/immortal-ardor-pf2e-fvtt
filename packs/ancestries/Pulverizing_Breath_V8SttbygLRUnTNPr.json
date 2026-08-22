@@ -8,9 +8,24 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your breath weapon devastates the environment you unleash it in. For 1 minute after you use your draichsar breath, the area is charged with your energy and is pulverized, turning it into difficult terrain. Creatures who enter the area of your draichsar breath or remains there at the end of their turn take an additional 4d6 damage of the same type and saving throw.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span>Your breath weapon devastates the environment you unleash it in. For 1 minute after you use your draichsar breath, the area is charged with your energy and is pulverized, turning it into difficult terrain. Creatures who enter the area of your draichsar breath or remains there at the end of their turn take an additional </span>@Damage[4d6[@actor.flags.system.drachiriBenefactor.damageType]]<span> damage of the same type and </span>@Check[type:@actor.flags.system.drachiriBenefactor.breathSave|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] <span>saving throw.</span></p><p></p><p class=\"MsoNormal\"></p><p></p><p></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:draichsar-breath"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "For 1 minute after you use your draichsar breath, the area is difficult terrain. Creatures who enter the area of your draichsar breath or remains there at the end of their turn take an additional @Damage[4d6[@actor.flags.system.drachiriBenefactor.damageType]] damage with a @Check[type:{actor|flags.system.drachiriBenefactor.breathSave}|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] saving throw."
+          }
+        ]
+      }
+    ],
     "slug": "pulverizing-breath",
     "_migration": {
       "version": 0.959,

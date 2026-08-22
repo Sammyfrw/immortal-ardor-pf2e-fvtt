@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> You have a Fly speed.</p><hr><p>You can keep yourself afloat through the beat of your wings and give yourself flexibility for more minute movements. This allows you to avoid contact with the ground and hover mid-air without needing to spend the action to Fly 0 feet. While hovering like this you can Step to float vertically (even though moving upward typically uses the rules for difficult terrain) or horizontally, but not diagonally, or you can Stride to move horizontally using your land speed. You can enter this stance either on the ground or while you are mid-air, and it ends if you Fly or land on the ground.</p>"
+      "value": "<p><strong>Requirements</strong> You have a Fly speed.</p><hr><p>You can keep yourself afloat through the beat of your wings and give yourself flexibility for more minute movements. This allows you to avoid contact with the ground and hover mid-air without needing to spend the action to @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly} 0 feet. While hovering like this you can @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Step}to float vertically (even though moving upward typically uses the rules for difficult terrain) or horizontally, but not diagonally, or you can @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} to move horizontally using your land speed. You can enter this stance either on the ground or while you are mid-air, and it ends if you Fly or land on the ground.</p><p>@UUID[Compendium.immortal-ardor.ancestries.APFaQbLLBlp1vL1M]{Stance: Hovering Stance}</p>"
     },
     "rules": [],
     "slug": "hovering-stance",
@@ -55,6 +55,10 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "selfEffect": {
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.APFaQbLLBlp1vL1M",
+      "name": "Stance: Hovering Stance"
     }
   },
   "_stats": {

@@ -10,7 +10,20 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your element manifests strongly in your natural weapons. Your unarmed attacks from Draconic Arms gains the Resonant trait. Any time you use a spell or action feat that has a trait matching your attuned Benefactor trait, you can use the Conduct Energy action and apply its benefits for that trait, even if it isn’t in the list of requirements for that action.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "resonant",
+        "fromEquipment": false,
+        "itemType": "weapon",
+        "predicate": [
+          "item:trait:unarmed",
+          "item:trait:draichsar"
+        ]
+      }
+    ],
     "slug": "resonant-wings",
     "_migration": {
       "version": 0.959,

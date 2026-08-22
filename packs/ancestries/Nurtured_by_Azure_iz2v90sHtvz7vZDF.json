@@ -8,10 +8,24 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your egg was imbued with the aspects of the storm from the azure drachiri who nurtured it, and your physical features reflect this. You bear fins and webbing along your limbs, and your scales range from teal and turquoise to deep blues of the oceans and skies. You gain the Exemplary Qualities feat twice, selecting Azure as your Benefactor. You gain a Swim speed that matches that of your Fly speed, and gain the Breath Control feat.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your egg was imbued with the aspects of the storm from the azure drachiri who nurtured it, and your physical features reflect this. You bear fins and webbing along your limbs, and your scales range from teal and turquoise to deep blues of the oceans and skies. You gain the @UUID[Compendium.immortal-ardor.ancestries.NlGzXdfbf3IsupSJ]{Exemplary Qualities} feat. You gain a Swim speed that matches that of your Fly speed, and gain the @UUID[Compendium.pf2e.feats-srd.aJUXbe9HJVvv0Mxa]{Breath Control} feat.</span></p>"
     },
-    "rules": [],
-    "slug": "t-ancestry-feat-template",
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": "@actor.system.movement.speeds.fly.value"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.aJUXbe9HJVvv0Mxa"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.NlGzXdfbf3IsupSJ"
+      }
+    ],
+    "slug": "nurtured-by-azure",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -47,7 +61,11 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Azure Drachiri Benefactor"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {

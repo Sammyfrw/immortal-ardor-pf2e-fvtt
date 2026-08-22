@@ -8,9 +8,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The drachiri who incubated your egg was crimson-scaled, and as a result you embody their physiological traits with vibrant reds and faint gold scales, and might possess horns, spikes or fins. You gain the Exemplary Qualities feat twice, selecting Crimson as your Benefactor. You heal more rapidly and exert more heat from your body; when you rest, you regain twice your Constitution modifier plus your level and treat environmental heat as one step less severe.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The drachiri who incubated your egg was crimson-scaled, and as a result you embody their physiological traits with vibrant reds and faint gold scales, and might possess horns, spikes or fins. You gain the @UUID[Compendium.immortal-ardor.ancestries.NlGzXdfbf3IsupSJ]{Exemplary Qualities} feat.</span> You heal more rapidly and exert more heat from your body; when you rest, you regain twice your Constitution modifier plus your level and treat environmental heat as one step less severe. </p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.NlGzXdfbf3IsupSJ"
+      }
+    ],
     "slug": "nurtured-by-crimson",
     "_migration": {
       "version": 0.959,
@@ -47,7 +52,11 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Crimson Drachiri Benefactor"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {

@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> You have a fly speed and you are on the ground.</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You ready yourself for a strong launch. You Fly twice upwards, ignoring difficult terrain caused by moving upwards or from the environmental conditions. If you become Master in Acrobatics or Athletics and are 13th level, you can perform Soaring Launch with 2 actions.</span></p>"
+      "value": "<p><strong>Requirements</strong> You have a fly speed and you are on the ground.</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You ready yourself for a strong launch. You @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly} twice upwards, ignoring difficult terrain caused by moving upwards or from the environmental conditions. If you become Master in Acrobatics or Athletics and are 13th level, you can perform Soaring Launch with 2 actions.</span></p>"
     },
     "rules": [],
     "slug": "soaring-launch",
