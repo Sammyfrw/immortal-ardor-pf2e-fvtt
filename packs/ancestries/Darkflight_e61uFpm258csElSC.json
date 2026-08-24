@@ -1,0 +1,75 @@
+{
+  "name": "Darkflight",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "4a9nlLKhNyYCElms",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Through a veil of dark, you can maneuver in the air effortlessly and slip through defenses unscathed. Whenever you Fly or use Gliding Wings, you are enshrouded in magical darkness, making you Concealed if you are in bright light, or allowing you to become Hidden when you are in dim light or darkness. This darkness appears as you begin your movement, allowing you to benefit against reactions triggered by using these actions, and you benefit even if a creature has darkvision, unless it is magical and of a level or spell rank greater than yours. You can see through the darkness you create. This darkness lasts until the end of your turn if you end your movement in bright light, or the start of your next turn if you end your turn in dim light or darkness.</span></p>"
+    },
+    "rules": [],
+    "slug": "darkflight",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "darkness",
+        "occult",
+        "vesperan"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "e61uFpm258csElSC",
+  "sort": 0,
+  "_key": "!items!e61uFpm258csElSC"
+}

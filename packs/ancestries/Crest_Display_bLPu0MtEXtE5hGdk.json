@@ -1,0 +1,61 @@
+{
+  "folder": "9GCzuLStQdzYjAtK",
+  "name": "Crest Display",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">As a greeting, a sign of intimidation or courtship, you flaunt your crest and your feathers, prominently displaying them. When you use this action in a social context, you can either Make an Impression or Coerce a creature immediately rather than needing to converse for 1 minute. In other contexts, including combat, you can make a Request or a Demoralize attempt with a +1 circumstance bonus. If you were to become a Master in the respective skill, you increase the corresponding attempt’s bonus to a +2.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "crest-display",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "avekiri",
+        "emotion"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "bLPu0MtEXtE5hGdk",
+  "sort": 0,
+  "_key": "!items!bLPu0MtEXtE5hGdk"
+}

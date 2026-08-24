@@ -2,7 +2,7 @@
   "_id": "ozysUYZcbjriDJyu",
   "name": "Bloodtinge",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "i5TqMcurowu1xN0y",
   "flags": {
@@ -11,10 +11,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "\n<p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Frequency </span></strong><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Once per hour</span></p>\n<hr />\n<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Bloody and dark magics run within you, and you have learned to channel it. You wound yourself, dealing damage equal to your level, but you add a +1 status bonus to your next check or saving throw for the next minute.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Frequency </strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Once per hour</span></p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Bloody and dark magics run within you, and you have learned to channel it. You wound yourself, dealing damage equal to your level, but you add a +1 status bonus to your next check or saving throw for the next minute.</span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">.</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "bloodtinge",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -32,13 +32,13 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 5
     },
     "category": "ancestry",
     "onlyLevel1": false,
@@ -57,17 +57,21 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
     }
   },
   "_stats": {
     "compendiumSource": "Item.3gMsvpvM1wURPDb4",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 1000000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

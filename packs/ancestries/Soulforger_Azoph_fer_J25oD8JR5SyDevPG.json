@@ -1,0 +1,57 @@
+{
+  "_id": "J25oD8JR5SyDevPG",
+  "name": "Soulforger Azoph-fer",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "vdrE5IURf9W3E57H",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You have inherited one of the azoph-fer’s deepest secrets; the art of soulforging. You are bound by a curse of secrecy, where you must never speak of it, but to clutch onto it and enact its edicts you will gain access to powerful arms as dictated by your birthright. As part of this, you have acquired an imbued bone of an azoph-fer warrior of eld, and you work to create a soulforged weapon from it. You become Trained in Crafting and gain the Curse of Secrecy ancestry feat. You also learn the Ritual to craft a Soulforged weapon.</span></p>"
+    },
+    "rules": [],
+    "slug": "soulforger-azoph-fer",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Azoph-fer",
+      "slug": "azoph-fer",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.6JAXzYb9Jg9SjoNk"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.J25oD8JR5SyDevPG",
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!J25oD8JR5SyDevPG"
+}

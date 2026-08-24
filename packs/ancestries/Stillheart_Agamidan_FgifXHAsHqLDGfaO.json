@@ -1,0 +1,51 @@
+{
+  "folder": "SJNFJ0o5AC7uKh4P",
+  "name": "Stillheart Agamidan",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When you were an egg, you had a brief moment where your heart lay still; the strange lack of rhythm had knock-on effects after your hatching. You do not adapt as strongly as agamidan, but your heart is able to withstand moments of time where it does not pulse and you do not breathe. You gain the Diehard feat. Whenever you would die from when your dying condition, roll a DC 18 flat check. On a success, you do not die. Instead, you stabilize and reduce your dying condition to 1 value below where it would. Each time you succeed, you increase the DC of this check by 1 for 1 week. If the DC would increase beyond 20, you die the next time you need to make this check.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "stillheart-agamidan",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Agamidan",
+      "slug": "agamidan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.p74SeKiQUaQJ4S8o"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "FgifXHAsHqLDGfaO",
+  "sort": 0,
+  "_key": "!items!FgifXHAsHqLDGfaO"
+}

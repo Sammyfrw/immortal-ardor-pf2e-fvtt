@@ -1,0 +1,74 @@
+{
+  "name": "Chain of Memories",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "zhOMSFBLyPZXVedB",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You focus on the moments you have experienced, and the moments others in the place you are have experienced, feeling a twinge of a connection. Some of these memories are yours, but they are also not truly yours – they are those whose lives your soul is connected to. You can cast Retrocognition at 7th rank once per day as an innate occult spell. If you witness a traumatic or turbulent event that pertains to or is similar to a memory of someone in a past life of yours, the GM can grant the Will save DC an adjustment to be Easy or Very Easy, whichever is appropriate.</span></p><p><span style=\"text-decoration:underline\">Special</span> If you have the Curse of Secrets feat and you have never broken it, your devotion allows you to cast this spell at 8th or 9th rank instead.</p>"
+    },
+    "rules": [],
+    "slug": "t-ancestry-feat-template",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "azoph-fer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": null
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "BJwIP2DM9qQKtEqi",
+  "sort": 0,
+  "_key": "!items!BJwIP2DM9qQKtEqi"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Skyward Launch",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "zb6zvfrfjjeSBp1d",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can suddenly propel yourself up into the air with surprising height through a burst of wind magic. You Fly directly upward 25 feet. If you are Prone, you can still take this action and Stand as part of the action. If were already Standing, you can take an extra action to either Fly directly upwards if you have a Fly speed or the Breath of the Winds feat, or perform a High Jump, even though you did not Stride 10 feet, and grant yourself extra movement.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Any momentum directly upwards ignores the difficult terrain penalty for flying directly upwards, and Flying or Leaping as part of this action does not incur reactions. If you are still in the air by the end of your turn, you glide harmlessly to the ground unless you can Fly and choose to stay in the air.</span></p>"
+    },
+    "rules": [],
+    "slug": "skyward-launch",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "air",
+        "avekiri"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Master in Athletics or Acrobatics"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "N9vc09pQV8PYWOWa",
+  "sort": 0,
+  "_key": "!items!N9vc09pQV8PYWOWa"
+}

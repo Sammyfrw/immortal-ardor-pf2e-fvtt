@@ -1,0 +1,62 @@
+{
+  "folder": "9GCzuLStQdzYjAtK",
+  "name": "Leysight",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your eyes peer into the flow of magic around you. You are able to discern the presence of channels and flows of magic, such as leylines beneath your feet. You can navigate and follow them to reach places where these leylines converge and diverge. The benefits of this exploration action can vary; if you know you are at a convergence of magical power, any rituals you cast will typically have a lower DC. If you are traveling and someone else is attempting to Search, Track, or Investigate, they may gain circumstance bonuses to their check (up to +2) if knowing the flow of magic could be helpful, such as if you are trying to find where these flows culminate or interact with magical traps or structures.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "leysight",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "arcane",
+        "avekiri",
+        "exploration"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Eq56EA7DbnsyV8pM",
+  "sort": 0,
+  "_key": "!items!Eq56EA7DbnsyV8pM"
+}

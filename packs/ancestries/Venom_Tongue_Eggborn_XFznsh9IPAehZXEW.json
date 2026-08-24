@@ -1,0 +1,74 @@
+{
+  "name": "Venom Tongue Eggborn",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "EkJYedklBzyGcja3",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your ancestors primarily were of the Venom Tongue clan. You have a portly and tall body with a long tail, and you have potent salivary glands that contain a powerful solvent that can be both harmful or helpful. You become trained in Crafting and gain the Alchemical Crafting feat, and if you were to gain that feat from another source you gain Specialty Crafting in Alchemy instead. As long as you have any simple form of containers or stirrers, your saliva can act as an Alchemist’s Lab for the purpose of Crafting alchemical items. Your unarmed attacks that use your bite gain the versatile poison trait.</span></p>"
+    },
+    "rules": [],
+    "slug": "venom-tongue-eggborn",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agamidan",
+        "lineage"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "XFznsh9IPAehZXEW",
+  "sort": 2900000,
+  "_key": "!items!XFznsh9IPAehZXEW"
+}

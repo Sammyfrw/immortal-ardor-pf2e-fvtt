@@ -1,0 +1,51 @@
+{
+  "folder": "YoLAauwV9BXH0dl1",
+  "name": "Sky Top Avekiri",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You’ve lived in avekiri communes or enclaves where you have tall homes and buildings built into cliff surfaces and walls, leveraging the winds and your wings to get you from place to place. You gain the Breath of the Wind feat, and can Arrest a Fall even if you don’t normally have a fly speed; when you attempt your Acrobatics check, you gain a +1 circumstance bonus, or a +2 if you have a fly speed at the time you use the reaction.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "sky-top-avekiri",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Avekiri",
+      "slug": "avekiri",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.nNtTrMVuAgB4bs4p"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ZUVILrALwZOtTLnF",
+  "sort": 300000,
+  "_key": "!items!ZUVILrALwZOtTLnF"
+}

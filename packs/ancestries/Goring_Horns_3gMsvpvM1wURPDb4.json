@@ -2,7 +2,7 @@
   "_id": "3gMsvpvM1wURPDb4",
   "name": "Goring Horns",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "i5TqMcurowu1xN0y",
   "flags": {},
@@ -31,7 +31,7 @@
         ]
       }
     ],
-    "slug": null,
+    "slug": "goring-horns",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -49,10 +49,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 9
@@ -86,12 +86,12 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.3gMsvpvM1wURPDb4",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 400000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

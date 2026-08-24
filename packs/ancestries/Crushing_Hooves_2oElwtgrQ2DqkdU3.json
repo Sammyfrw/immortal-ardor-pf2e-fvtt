@@ -2,7 +2,7 @@
   "_id": "2oElwtgrQ2DqkdU3",
   "name": "Crushing Hooves",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "i5TqMcurowu1xN0y",
   "flags": {
@@ -11,7 +11,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><strong><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Prerequisites </span></strong><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Bovid Armaments, Hoof unarmed attack</span></p>\n<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can stomp your hooves with such force that it can knock a foe off-balance. If you can move and are able to stomp one of your feet on the ground, you can Trip a target on the ground within 10 feet of you with a stomp. In addition, your hoof unarmed attack’s damage die increases by one step to 1d8 damage. </span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can stomp your hooves with such force that it can knock a foe off-balance. If you can move and are able to stomp one of your feet on the ground, you can Trip a target on the ground within 10 feet of you with a stomp. In addition, your hoof unarmed attack’s damage die increases by one step to 1d8 damage.</span></p>"
     },
     "rules": [
       {
@@ -33,7 +33,7 @@
         ]
       }
     ],
-    "slug": null,
+    "slug": "crushing-hooves",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -51,10 +51,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 9
@@ -88,12 +88,12 @@
   "_stats": {
     "compendiumSource": "Item.3gMsvpvM1wURPDb4",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

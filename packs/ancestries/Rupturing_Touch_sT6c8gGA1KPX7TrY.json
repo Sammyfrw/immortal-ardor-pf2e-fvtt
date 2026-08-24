@@ -1,0 +1,77 @@
+{
+  "name": "Rupturing Touch",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "4a9nlLKhNyYCElms",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are well-versed in how to treat the ill and dying, but this gives you the right knowledge on how to make injuries worse. When you Strike a creature with a slashing or piercing weapon or cast a spell that deals slashing or piercing damage against a creature suffering from persistent bleed or poison damage, you can rupture their injury or a regulating organ. The target gains weakness 5 to bleed or poison for 1 round, depending on which persistent damage they are suffering from. This weakness is doubled on a critical hit. At a GM’s discretion, a creature afflicted with a poison that deals poison damage can also qualify for Rupturing Touch.</span></p>"
+    },
+    "rules": [],
+    "slug": "rupturing-touch",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vesperan"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Deathtouched Vesperan heritage"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "sT6c8gGA1KPX7TrY",
+  "sort": 0,
+  "_key": "!items!sT6c8gGA1KPX7TrY"
+}

@@ -1,0 +1,61 @@
+{
+  "folder": "9GCzuLStQdzYjAtK",
+  "name": "Melodic Chirp",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You chirp a short jingle, which can serve as a message to those who hear and understand the tune. This could convey a short command or indication. While people who you’ve taught the meaning of the message can understand it immediately, those who do not must pass a Perception check against your Performance DC or Deception DC (whichever is higher) to discern it as a message, though they are unlikely to understand its meaning without seeing it repeated. A person who hears the chirp but does not know it is coming from you would also need to pass a similar check to realize it is a person making the jingle and not another chirping animal.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "melodic-chirp",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "avekiri"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "0TUbzRyzQKwIz60T",
+  "sort": 0,
+  "_key": "!items!0TUbzRyzQKwIz60T"
+}

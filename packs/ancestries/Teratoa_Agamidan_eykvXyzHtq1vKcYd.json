@@ -1,0 +1,51 @@
+{
+  "folder": "SJNFJ0o5AC7uKh4P",
+  "name": "Teratoa Agamidan",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You come from a community who reveres the great turtles of the world, and don great shells to wear once you have come of age. These shells are built specifically for the agamidan that is meant to wear them, and you’re have undergone the training needed to wear them in all occasions, as expected of you.</span></p><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You gain a Teratoa Shell that you can wear as body armor. </span><span style=\"mso-spacerun:yes\"> </span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">A Teratoa Shell is heavy armor in the Plate group and grants an AC bonus of +5, a Dexterity cap of +1, a check penalty of -3, a speed penalty of -10 feet, and strength requirement of +3. Because your shell is specifically designed for you and you have trained to use it, while wearing it you use the highest armor proficiency you have (including unarmored), and you add the Comfort and Flexible traits to your shell. While rare, if you need to remove the armor it takes ten minutes. Losing or being forced to surrender a Teratoa Shell is a taboo amongst your people.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "teratoa-agamidan",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Agamidan",
+      "slug": "agamidan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.p74SeKiQUaQJ4S8o"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "eykvXyzHtq1vKcYd",
+  "sort": 0,
+  "_key": "!items!eykvXyzHtq1vKcYd"
+}

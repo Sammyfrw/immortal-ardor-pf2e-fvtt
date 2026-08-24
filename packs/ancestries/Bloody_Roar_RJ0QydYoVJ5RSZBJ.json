@@ -2,7 +2,7 @@
   "_id": "RJ0QydYoVJ5RSZBJ",
   "name": "Bloody Roar",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "i5TqMcurowu1xN0y",
   "flags": {
@@ -11,10 +11,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "\n<p>You unleash a haunting, demonic roar whenever you @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} a creature. When you Demoralize a creature in this way, it loses the Linguistic trait and creatures do not need to understand you to be affected by it. When you inflict @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} on a creature, you can choose to make them bleed, dealing 1d6 persistent bleed damage.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You unleash a haunting, demonic roar whenever you Demoralize a creature. When you Demoralize a creature in this way, it loses the Linguistic trait and creatures do not need to understand you to be affected by it. Any time you inflict Frightened on a creature, you can choose to make them bleed, dealing 1d6 persistent bleed damage.</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "bloody-roar",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -28,13 +28,14 @@
       "otherTags": [],
       "value": [
         "cazic-fer",
-        "emotion"
+        "emotion",
+        "occult"
       ],
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
       "remaster": false
     },
@@ -51,7 +52,11 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Expert in Intimidation"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {
@@ -63,12 +68,12 @@
   "_stats": {
     "compendiumSource": "Item.3gMsvpvM1wURPDb4",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 700000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

@@ -1,0 +1,51 @@
+{
+  "folder": "6cbONhzApxwUKYSS",
+  "name": "Megabat Vesperan",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are unreasonably large and athletic for a vesperan; perhaps you came from a line of vesperan who performed dangerous experimentation, or your community had to focus on strength to survive. You gain the Chiropteran Arms feat twice.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "megabat-vesperan",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Vesperan",
+      "slug": "vesperan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.rTGDJLfWvAzbPOxx"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "iuLbnnlVgqM4t8qx",
+  "sort": 0,
+  "_key": "!items!iuLbnnlVgqM4t8qx"
+}

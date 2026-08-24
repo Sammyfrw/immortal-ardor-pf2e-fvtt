@@ -1,0 +1,56 @@
+{
+  "folder": "vdrE5IURf9W3E57H",
+  "name": "Helltouched Azoph-fer",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You are an ilzanar, or more commonly known as the helltouched in other languages. Your connection to Azoph-met is far stronger than most, and this creates a relentless drive to pursue a goal or a fixation, or risk restlessness and ensuing destructive tendencies. You become trained in a skill of your choice and gain a skill feat for that skill. You declare edicts for your character and choose an overarching goal for yourself, such as becoming the strongest around you or defeating a mortal enemy. While you pursue these edicts or goals, you gain the Echo of Balance action.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">If you spend an unreasonable amount of downtime without tackling something that is related to your goals or any edicts you may have (including those granted by your class or background), you become restless, and suffer a -2 penalty to all checks and saves until you actively pursue your goals or edicts. This could be 1 week at the minimum or up to 1 year depending on how recent you’ve had particularly major accomplishments.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.IYtqSWPF8jR7DNxV"
+      }
+    ],
+    "slug": "helltouched-azoph-fer",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Azoph-fer",
+      "slug": "azoph-fer",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.6JAXzYb9Jg9SjoNk"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "kZGIZwjBQHrOWBtm",
+  "sort": 700000,
+  "_key": "!items!kZGIZwjBQHrOWBtm"
+}

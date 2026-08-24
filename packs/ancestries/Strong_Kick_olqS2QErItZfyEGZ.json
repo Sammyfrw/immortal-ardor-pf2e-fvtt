@@ -1,0 +1,73 @@
+{
+  "name": "Strong Kick",
+  "type": "feat",
+  "img": "icons/skills/movement/feet-spurred-boots-brown.webp",
+  "effects": [],
+  "folder": "Tlg1oDsvexwmZyFG",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You have powerful legs with sharp claws, built to leap, climb or fend off your enemies. You gain a kick unarmed attack that deals 1d6 slashing damage. Your kick is in the brawling weapon group and has the versatile B and unarmed traits.</p>"
+    },
+    "rules": [],
+    "slug": "strong-kick",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "gangor"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "olqS2QErItZfyEGZ",
+  "sort": 0,
+  "_key": "!items!olqS2QErItZfyEGZ"
+}

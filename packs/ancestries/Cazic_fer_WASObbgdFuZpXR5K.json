@@ -9,7 +9,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p> </p>\n<div style=\"mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in\">\n<h2>Cazic-Fer</h2>\n</div>\n<p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>When a soul has been so inundated in the powers that swirl in Zaho, their bodies begin to show changes. First, there could be tufts of soft fur. Next, they may find a protrusion of bone growing from their skulls one morning. Their children might be born with horns. Eventually, they could bear hooves. For some, these changes might come incrementally; but for those who are showered in the frenetic magics of the azoph-fer, replete with the confluence of Zaho’s cosmic and spiritual energies, the transformation of the soul and body is violent – and often bloody.</p>\n<p class=\"MsoNormal\"><span style=\"mso-tab-count:1\">            </span>Cazic-fer is the name given to those who have been soulmorphed by the influences of the powers that suffuse the realm of Zaho. While this is often attributed to Azoph-met’s divine essence, other great spirits create and affect the domain as well. This includes not only the fiendish and war-forged divine spirits that influence Zaho, but also those that maintain the domain of Azoph-met’s lost siblings such as Ezmodun. Most cazic-fer are soulmorphed azoph-fer due to the nature of their creation and the land they are originated from, but in rarer cases people of other races have undergone this transformation or passed these traits to their children.</p>\n<p><span style=\"mso-tab-count:1\">         </span>   The cazic-fer often bear various bovid-like features, with cloven hooves, furred bodies with horns or antlers on their head. In some more benign cases, the transformation is only partial and leaves some part of the original ancestry’s features intact. More often than not however, the transformation is complete to the point where unless one were to learn the power to temporarily shift back, it is a permanent change. The most common cazic-fer resemble goats due to azoph-met’s image, but rarely forms of bulls and deer can be found, due to the other presences available in Zaho.</p>\n<p> </p>\n<p></p>"
+      "value": "<p class=\"MsoNormal\">Your soul is strongly influenced by one of the Sophic Siblings, or one of the great divine spirits residing in one of the Hells or Zaho. You gain bovid or fiendish features such as horns, a forked tongue, long or short tufted tails, or might bear cloven hooves for feet, or completely appear as a bovid humanoid closest in affiliation to these forces.</p><p class=\"MsoNormal\">You gain the Cazic-fer and Fiend trait. You gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can select Cazic-fer feats and feats from your ancestry whenever you gain an ancestry feat. Finally, you gain the Cazic-fer Shapeshift heritage action.</p>"
     },
     "rules": [
       {
@@ -52,9 +52,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.WASObbgdFuZpXR5K",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 0,

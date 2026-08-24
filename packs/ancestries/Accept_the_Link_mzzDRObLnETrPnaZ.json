@@ -1,0 +1,74 @@
+{
+  "name": "Accept the Link",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "zhOMSFBLyPZXVedB",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At the end of your life, you know you will return to Azoph-met, and that he would shelter you as you become born anew. This acceptance ushers your soul as quickly as you expire, and allows you to reincarnate. When you take this feat, you gain the Reincarnated trait. If you were to die, your soul is ferried instantly to Azoph-met, counteracting any attempt to steal, corrupt or otherwise prevent your soul from going towards him unless it is divine intervention or similar.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Once per week when you die, you have the ability to be reborn as you are with minor adjustments; you reincarnate a day later at a place important to you or one of your past incarnations as if you had successfully been the target of the reincarnate ritual, but you must be an azoph-fer. As part of this, you can change how you appear, and you can change your heritage to any other azoph-fer heritage or the cazic-fer versatile heritage. You can also retrain any of your ancestry feat selections immediately except this one. If you were to die again before a week has passed or if you choose to, your soul will be kept safe until it is reborn anew in a new azoph-fer in the future; this azoph-fer will retain the reincarnated trait and has a stronger imprint of your memories.</span></p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you have the Curse of Secrecy feat and you have never broken it, your devotion is rewarded by allowing you to reincarnate once per day.</p>"
+    },
+    "rules": [],
+    "slug": "t-ancestry-feat-template",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "azoph-fer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": null
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "mzzDRObLnETrPnaZ",
+  "sort": 700000,
+  "_key": "!items!mzzDRObLnETrPnaZ"
+}
