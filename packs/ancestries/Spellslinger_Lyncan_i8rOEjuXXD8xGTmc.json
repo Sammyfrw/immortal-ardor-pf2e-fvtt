@@ -1,0 +1,51 @@
+{
+  "folder": "7dIiOgpkHEMhcPJT",
+  "name": "Spellslinger Lyncan",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your family is well versed in using the magic that had created the lyncan. You become Trained in Arcana. Pick one cantrip from the arcane spell list. You can cast this cantrip as an arcane innate spell at will. You become trained in spell attack rolls and spell DCs, and your spellcasting attribute for lyncan ancestry spells is Intelligence or Charisma, whichever is higher.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "spellslinger-lyncan",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Lyncan",
+      "slug": "lyncan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TkMmXr68NCBuE4jA"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "i8rOEjuXXD8xGTmc",
+  "sort": 0,
+  "_key": "!items!i8rOEjuXXD8xGTmc"
+}

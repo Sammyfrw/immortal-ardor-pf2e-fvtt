@@ -1,0 +1,51 @@
+{
+  "folder": "7dIiOgpkHEMhcPJT",
+  "name": "Hearthmaker Lyncan",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Community and togetherness are at the core of your familial roots, and you carry those ideals close by always making sure everyone is fed and cared for. You gain Additional Lore in Cooking Lore, and gain the Seasoned skill feat. You can use your Cooking Lore in place of Crafting or Survival checks to ensure you have a reasonable workstation even if you don’t have a kitchen, as long as there’s even the most basic of materials.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "hearthmaker-lyncan",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Lyncan",
+      "slug": "lyncan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TkMmXr68NCBuE4jA"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "7RoWD9seZHNEPi4v",
+  "sort": 100000,
+  "_key": "!items!7RoWD9seZHNEPi4v"
+}

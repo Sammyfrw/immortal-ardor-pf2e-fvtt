@@ -1,0 +1,83 @@
+{
+  "name": "Magic Whiskers",
+  "type": "feat",
+  "img": "icons/skills/social/orb-gold-claw-yellow.webp",
+  "effects": [],
+  "folder": "1pEJ9Tpqo6jdoLqr",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your whiskers are react to the flows and movements of magic. You gain magicsense as a vague sense that has a range of 30 feet. It is about as precise as your sense of smell, meaning you can generally can predict if magic is present. Each etheric tradition has its own unique taste, allowing you to identify what tradition a magical effect belongs to.</p>"
+    },
+    "rules": [],
+    "slug": "magic-whiskers",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lyncan"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {
+        "magicsense": {
+          "acuity": "vague",
+          "range": 30,
+          "special": {
+            "ancestry": false,
+            "llv": false,
+            "second": false
+          }
+        }
+      },
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "2t6Zx5yigH4p6Cx9",
+  "sort": 0,
+  "_key": "!items!2t6Zx5yigH4p6Cx9"
+}

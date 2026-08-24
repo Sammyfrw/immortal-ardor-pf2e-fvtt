@@ -1,0 +1,51 @@
+{
+  "folder": "7dIiOgpkHEMhcPJT",
+  "name": "Moonkissed Lyncan",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">One full moon night, you had a vivid dream where you see a pool that reflects the full moon in a starlit meadow. Ever since, your fur seems to have gotten a new streak of color and people swear they occasionally can see your eyes reflect starry pools; further still, your intuition guides you to plantlife when you need it the most. You become Trained in Nature and gain the Natural Medicine feat. When you Search, your GM rolls your Seek check a second time and takes the higher result specifically for finding plant-related objects or hazards.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "moonkissed-lyncan",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Lyncan",
+      "slug": "lyncan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TkMmXr68NCBuE4jA"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "qCMY4J5T8vMkoTE4",
+  "sort": 200000,
+  "_key": "!items!qCMY4J5T8vMkoTE4"
+}

@@ -1,0 +1,51 @@
+{
+  "folder": "7dIiOgpkHEMhcPJT",
+  "name": "Sabermaster Lyncan",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You grew up in a militaristic lifestyle or a dangerous land where lyncan have had have had to fight for survival, teaching you how to use your natural weapons effectively. You gain the Feline Arms feat twice.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "sabermaster-lyncan",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Lyncan",
+      "slug": "lyncan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TkMmXr68NCBuE4jA"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "9NxToZ22IeL9eLs9",
+  "sort": 0,
+  "_key": "!items!9NxToZ22IeL9eLs9"
+}

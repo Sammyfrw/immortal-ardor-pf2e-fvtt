@@ -1,0 +1,51 @@
+{
+  "folder": "7dIiOgpkHEMhcPJT",
+  "name": "Tunneler Lyncan",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your community is that of lyncan who make their homes in natural cliffs, or tunnels beneath the earth, and have a very strong understanding of how to turn a cavern or shaded bough into a home. You gain Additional Lore twice, choosing from Architecture Lore or Mining Lore for one, and Lore about a specific type of terrain for the other (such as Mountain Lore, Cavern Lore, and so on).</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "tunneler-lyncan",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Lyncan",
+      "slug": "lyncan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TkMmXr68NCBuE4jA"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "7mxAR8FPo02qEeok",
+  "sort": 0,
+  "_key": "!items!7mxAR8FPo02qEeok"
+}
