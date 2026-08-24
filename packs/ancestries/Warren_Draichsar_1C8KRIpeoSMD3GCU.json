@@ -1,0 +1,61 @@
+{
+  "folder": "tG0bC1ZIiT8zH5sb",
+  "name": "Warren Draichsar",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You and your families have spent generations in the warrens of your phalanx; tending to the needs and running the warren or an equivalent type of home that houses your phalanx’s patron or matron, and have a great deal of knowledge on how to organize as a community around a figure. You increase the circumstance bonus from Following the Expert by 1 when you are leading others or following an ally.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "selector": "skill-check",
+        "predicate": [
+          "bonus:slug:follow-the-expert-circumstance"
+        ],
+        "value": 1,
+        "mode": "add"
+      }
+    ],
+    "slug": "warren-draichsar",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Draichsar",
+      "slug": "draichsar",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.y6dIDvKfSoC9natk"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "1C8KRIpeoSMD3GCU",
+  "sort": 0,
+  "_key": "!items!1C8KRIpeoSMD3GCU"
+}

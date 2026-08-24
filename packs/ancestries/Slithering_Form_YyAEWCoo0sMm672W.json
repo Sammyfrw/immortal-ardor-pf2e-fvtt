@@ -1,0 +1,75 @@
+{
+  "folder": "XSODMXD36SMQksfX",
+  "name": "Slithering Form",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p>Your serpentine tail shifts into a two humanoid legs, giving you a bipedal form. Your land speed increases to 25 feet and your swim speed decreases to 15 feet. You can remain in this state indefinitely, and you can shift back to your serpentine form by using this action again.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "alwaysActive": true,
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Ancestries.Aelkhazak.SlitheringForm.ActionLabel",
+        "mergeable": true,
+        "option": "slithering-form",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Ancestries.Aelkhazak.SlitheringForm.BipedalLabel",
+            "value": "bipedal"
+          }
+        ],
+        "toggleable": true
+      }
+    ],
+    "slug": "slithering-form",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aelkhazak"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "YyAEWCoo0sMm672W",
+  "sort": 0,
+  "_key": "!items!YyAEWCoo0sMm672W"
+}

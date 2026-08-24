@@ -1,0 +1,70 @@
+{
+  "folder": "tG0bC1ZIiT8zH5sb",
+  "name": "Defender Draichsar",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\">You and your family’s primary duty in the phalanx is to ensure everyone is well-guarded and safe and have undergone the mandatory military training to do so. You gain your choice of the @UUID[Compendium.pf2e.feats-srd.x9wxQ61HNkAVbDHr]{Weapon Proficiency}, @UUID[Compendium.pf2e.feats-srd.BStw1cANwx5baL6d]{Armor Proficiency}, or @UUID[Compendium.pf2e.feats-srd.jM72TjJ965jocBV8]{Shield Block} general feats, or the @UUID[Compendium.immortal-ardor.ancestries.evAxFVUdmJhPL3UG]{Draconic Arms} ancestry feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "shieldsOfThePhalanxFeat",
+        "choices": [
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.x9wxQ61HNkAVbDHr"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.BStw1cANwx5baL6d"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8"
+          },
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.evAxFVUdmJhPL3UG"
+          }
+        ]
+      }
+    ],
+    "slug": "defender-draichsar",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Draichsar",
+      "slug": "draichsar",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.y6dIDvKfSoC9natk"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Da0UAkObXggNawuG",
+  "sort": 300000,
+  "_key": "!items!Da0UAkObXggNawuG"
+}

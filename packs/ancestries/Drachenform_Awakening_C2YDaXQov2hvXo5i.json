@@ -1,0 +1,81 @@
+{
+  "name": "Drachenform Awakening",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "s2Yg2MK1eaTEmJ6V",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> Once per hour</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have become well-adapted to your draconic form, and have learned a technique that allows you to perform multiple acts as you blitz through the sky. You @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly} twice, at a speed of 25-feet or your Fly speed, whichever is higher. You conjure ethereal wings to carry you if you do not have a Fly speed. During this movement, you can Strike, Cast up to a 2-action spell, or use your Draichsar Breath, if you can do so.</span></p>"
+    },
+    "rules": [],
+    "slug": "drachenform-awakening",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draich"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Drachenform Evolution"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "C2YDaXQov2hvXo5i",
+  "sort": 1400000,
+  "_key": "!items!C2YDaXQov2hvXo5i"
+}

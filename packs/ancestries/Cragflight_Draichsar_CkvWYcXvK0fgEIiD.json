@@ -1,0 +1,58 @@
+{
+  "folder": "tG0bC1ZIiT8zH5sb",
+  "name": "Cragflight Draichsar",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\">Your communities live in the steep cliffs and ravines of mountains, or in the depths of expansive caverns where you could fly in. As a result, you can navigate these tight spaces more easily. You become trained in Survival, and you gain a +1 circumstance bonus to Survival checks while navigating, tracking or subsisting cavernous or mountainous terrain. While you are adjacent to a surface, ceiling or floor and take a Fly action, you gain a +5-foot status bonus to your Fly speed as you can leap or coast along it for a burst of speed.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.survival.rank",
+        "value": 1
+      }
+    ],
+    "slug": "cragflight-draichsar",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Draichsar",
+      "slug": "draichsar",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.y6dIDvKfSoC9natk"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "CkvWYcXvK0fgEIiD",
+  "sort": 100000,
+  "_key": "!items!CkvWYcXvK0fgEIiD"
+}

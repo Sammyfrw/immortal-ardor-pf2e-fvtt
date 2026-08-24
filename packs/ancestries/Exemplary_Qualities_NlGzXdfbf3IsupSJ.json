@@ -1,0 +1,78 @@
+{
+  "name": "Exemplary Qualities",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You exhibit the qualities of your drachiri benefactor, as per the Drachiri Benefactor table. </span>When you gain this feat, you gain a new trait from your Benefactor you do not have.<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> As described in @UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.T8JnPSTdBowegkTJ#playing-draconic-characters]{playing draconic characters}, you can attune to a different elemental trait you have each day during your daily preparations, or if you take ten minutes to meditate upon it.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can take this feat multiple times; each time you do, you add a new trait from your chosen Benefactor’s Elements &amp; Energies column that you do not have.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.qmSnZC4ABfKKqVZU"
+      }
+    ],
+    "slug": "exemplary-qualities",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "NlGzXdfbf3IsupSJ",
+  "sort": 3700000,
+  "_key": "!items!NlGzXdfbf3IsupSJ"
+}

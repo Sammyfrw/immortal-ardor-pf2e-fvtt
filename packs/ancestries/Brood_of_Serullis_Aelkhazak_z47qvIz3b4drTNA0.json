@@ -1,0 +1,51 @@
+{
+  "folder": "S7TJFT5HuSfPkCJ7",
+  "name": "Brood of Serullis Aelkhazak",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\">Your Tributary was of Serullis’ brood, who was the first to set out to reclaim and rebuild what was lost by acquiring vestiges of forgotten knowledge. As a result, your upbringing involved substantial study or searches for knowledge that could be shared with your people. You gain the Additional Lore feat twice, or the Aelkhazak Lore ancestry feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "brood-of-serullis-aelkhazak",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Aelkhazak",
+      "slug": "aelkhazak",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TgjwicKdCRJeG3vP"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "z47qvIz3b4drTNA0",
+  "sort": 600000,
+  "_key": "!items!z47qvIz3b4drTNA0"
+}

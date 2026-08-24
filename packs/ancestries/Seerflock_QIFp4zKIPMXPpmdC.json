@@ -1,0 +1,79 @@
+{
+  "name": "Seerflock",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "zb6zvfrfjjeSBp1d",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are of the Strigid Seerflock, an owl-like avekiri with a flatter face, smaller beak and wider eyes. Your ancestors devoted themselves to the study of magic and formed multitudes of schools, some secret, some open, to discover truly perplexing secrets of Ardor. Their techniques and evolutions flow through you today. You can cast the Detect Magic cantrip as an innate arcane spell, and gain the Leysight exploration activity. If you gain an innate spell from the avekiri ancestry, you can choose to learn it as an arcane spell instead of divine.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.Eq56EA7DbnsyV8pM"
+      }
+    ],
+    "slug": "seerflock",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "avekiri",
+        "lineage"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "QIFp4zKIPMXPpmdC",
+  "sort": 300000,
+  "_key": "!items!QIFp4zKIPMXPpmdC"
+}

@@ -1,0 +1,63 @@
+{
+  "folder": "jMIEH0umqE2wvJY1",
+  "name": "Foot in the Grave",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> Once per day</p><p><strong>Duration</strong> 1 minute</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You know how you can briefly slip into the spiritual realm to interface with ghosts. For the duration, you and all your equipment gain the ghost-touch property, allowing you and incorporeal creatures to interact physically and block each other’s spaces. When you Seek, you also have a +2 circumstance bonus to tell if an object is inhabited by an incorporeal creature.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "foot-in-the-grave",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vesperan"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "2sY5dyi7QgSJ4ZXF",
+  "sort": 0,
+  "_key": "!items!2sY5dyi7QgSJ4ZXF"
+}

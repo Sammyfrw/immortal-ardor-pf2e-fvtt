@@ -1,0 +1,341 @@
+{
+  "folder": null,
+  "img": "icons/magic/control/buff-flight-wings-purple.webp",
+  "name": "Drachiri Trait Choice",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>From @UUID[Compendium.immortal-ardor.ancestries.SLafrzEYuatDDJfW]{Drachiri Benefactor}</p><p>This feature is to select a Drachiri Benefactor's Trait.</p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.T8JnPSTdBowegkTJ]{Draconic Characters}</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Lost Omens Draconic Codex",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": {
+              "label": "PF2E.TraitAcid",
+              "trait": "acid"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:acid"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:ebony",
+                  "drachiri-benefactor:verdant"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": {
+              "label": "PF2E.TraitCold",
+              "trait": "cold"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:cold"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:azure",
+                  "drachiri-benefactor:ivory"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": {
+              "label": "PF2E.TraitElectricity",
+              "trait": "electricity"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:electricity"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:ochre",
+                  "drachiri-benefactor:azure"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": {
+              "label": "PF2E.TraitFire",
+              "trait": "fire"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:fire"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:crimson",
+                  "drachiri-benefactor:ebony"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "value": {
+              "label": "PF2E.TraitMental",
+              "trait": "mental"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:mental"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:violet",
+                  "drachiri-benefactor:ochre"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitWater",
+            "value": {
+              "label": "PF2E.TraitWater",
+              "trait": "water"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:water"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:azure",
+                  "drachiri-benefactor:crimson"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": {
+              "label": "PF2E.TraitSonic",
+              "trait": "sonic"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:sonic"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:violet",
+                  "drachiri-benefactor:azure"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "value": {
+              "label": "PF2E.TraitVitality",
+              "trait": "vitality"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:vitality"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:crimson",
+                  "drachiri-benefactor:ochre"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": {
+              "label": "PF2E.TraitVoid",
+              "trait": "void"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:void"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:ochre",
+                  "drachiri-benefactor:verdant"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitWood",
+            "value": {
+              "label": "PF2E.TraitWood",
+              "trait": "wood"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:wood"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:crimson",
+                  "drachiri-benefactor:verdant"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitEarth",
+            "value": {
+              "label": "PF2E.TraitEarth",
+              "trait": "earth"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:earth"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:ebony",
+                  "drachiri-benefactor:ivory"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "value": {
+              "label": "PF2E.TraitForce",
+              "trait": "force"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:force"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:ivory",
+                  "drachiri-benefactor:violet"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitMetal",
+            "value": {
+              "label": "PF2E.TraitMetal",
+              "trait": "metal"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:metal"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:violet",
+                  "drachiri-benefactor:ebony"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitAir",
+            "value": {
+              "label": "PF2E.TraitAir",
+              "value": "air"
+            },
+            "predicate": [
+              {
+                "not": "drachiri-benefactor-chosen-trait:air"
+              },
+              {
+                "or": [
+                  "drachiri-benefactor:ivory",
+                  "drachiri-benefactor:verdant"
+                ]
+              }
+            ]
+          }
+        ],
+        "flag": "drachiriBenefactorChosenTrait",
+        "prompt": "IA.SpecificRule.DrachiriBenefactor.TraitPrompt",
+        "key": "ChoiceSet"
+      },
+      {
+        "key": "RollOption",
+        "option": "drachiri-benefactor-chosen-trait:{item|flags.system.rulesSelections.drachiriBenefactorChosenTrait.trait}",
+        "priority": 45
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.system.drachiriBenefactor.benefactorChoices.traits",
+        "value": {
+          "label": "{item|flags.system.rulesSelections.drachiriBenefactorChosenTrait.label}",
+          "value": "{item|flags.system.rulesSelections.drachiriBenefactorChosenTrait.trait}"
+        }
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "drachiri-trait-choice",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "qmSnZC4ABfKKqVZU",
+  "sort": 0,
+  "_key": "!items!qmSnZC4ABfKKqVZU"
+}

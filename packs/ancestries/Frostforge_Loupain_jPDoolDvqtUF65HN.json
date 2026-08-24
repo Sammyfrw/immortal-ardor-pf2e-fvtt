@@ -1,0 +1,86 @@
+{
+  "name": "Frostforge Loupain",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "TXHUPlL1iwSA8z6d",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are a descendant of loupain that lived in colder climes, and as a result you have a larger body with thicker fur. You gain a +2 circumstance bonus to your Fortitude DC or Reflex DC against attempts to @UUID[Compendium.pf2e.actionspf2e.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip} you. This applies to saving throws against spells or effects that attempt a similar effect. If the Shove or Trip action fails and the initiating creature is one size larger than you or smaller, it is considered @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} to you until the end of your next turn.</span></p>"
+    },
+    "rules": [
+      {
+        "hideIfDisabled": true,
+        "key": "FlatModifier",
+        "label": "PF2E.SkillVariant.VsShoveOrTrip",
+        "predicate": [
+          {
+            "or": [
+              "action:shove",
+              "action:trip",
+              "action:reposition"
+            ]
+          }
+        ],
+        "selector": [
+          "fortitude",
+          "reflex"
+        ],
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "key": "FlatModifier",
+        "label": "PF2E.SkillVariant.VsProne",
+        "predicate": [
+          "inflicts:prone"
+        ],
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "slug": "frostforge-loupain",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Loupain",
+      "slug": "loupain",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TNakbCOKQZyc4Oyx"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "jPDoolDvqtUF65HN",
+  "sort": 100000,
+  "_key": "!items!jPDoolDvqtUF65HN"
+}

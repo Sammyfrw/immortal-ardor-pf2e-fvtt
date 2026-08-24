@@ -1,0 +1,51 @@
+{
+  "folder": "SJNFJ0o5AC7uKh4P",
+  "name": "Toxic Scales Agamidan",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your families reside close to jungles and wastes, where fumes and toxins are prevalent. As a result, your scales and your blood become resistant to such threats. You gain poison resistance equal to half your level. Whenever you need to make a saving throw against poisons, you treat the outcome of the roll as one degree of success greater. Your Acclimator terrain includes wastelands and jungles, or similar areas where poison is prevalent.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "toxic-scales-agamidan",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Agamidan",
+      "slug": "agamidan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.p74SeKiQUaQJ4S8o"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Di0hQ9yZsDL0ehWD",
+  "sort": 0,
+  "_key": "!items!Di0hQ9yZsDL0ehWD"
+}

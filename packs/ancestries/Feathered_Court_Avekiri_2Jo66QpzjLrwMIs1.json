@@ -1,0 +1,51 @@
+{
+  "folder": "YoLAauwV9BXH0dl1",
+  "name": "Feathered Court Avekiri",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your community growing up had a Feathered Court, where avekiri would engage in conversation and discussion about all manner of things over breakfast. As a result you can parse and discuss information fairly quickly amongst the din of all the noise while befriending others. You become trained in Society and gain the Streetwise feat. Trying to listen or speak in crowded areas or through loud sounds is not difficult for you, reducing any penalty to your checks to listen or DCs for others to hear you speak to them in these conditions by 2.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "feathered-court-avekiri",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Avekiri",
+      "slug": "avekiri",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.nNtTrMVuAgB4bs4p"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "2Jo66QpzjLrwMIs1",
+  "sort": 700000,
+  "_key": "!items!2Jo66QpzjLrwMIs1"
+}

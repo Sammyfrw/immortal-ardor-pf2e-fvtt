@@ -1,0 +1,92 @@
+{
+  "name": "Frekian Pedigree",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "aqoWrLhZrhELgIP8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are a Frekian Hound, having come from a people who once traveled the deserts and engaged and entreated spirits and deities, and this relationship bears itself upon your being. You bear sharp, angular features and have short fur that is well adapted for the desert and jungle lands. You become Trained in Religion, and you can use this skill to make Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression} or @UUID[Compendium.pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request} from spirits. This gains a +2 circumstance bonus when appealing to spirits that are historically affiliated to you, where you call home, or your ancestors.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.religion.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "type": "circumstance",
+        "selector": [
+          "skill-check"
+        ],
+        "predicate": [
+          "appealing-to-spirits"
+        ]
+      }
+    ],
+    "slug": "frekian-pedigree",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lineage",
+        "loupain"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "WNzruFZO6NMV5iRE",
+  "sort": 1400000,
+  "_key": "!items!WNzruFZO6NMV5iRE"
+}

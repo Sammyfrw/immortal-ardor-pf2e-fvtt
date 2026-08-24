@@ -1,0 +1,65 @@
+{
+  "folder": "Lqtc5zPAr80N8DDL",
+  "name": "Stance: Hovering Stance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>From @UUID[Compendium.immortal-ardor.ancestries.w5uNwdtMEYnNSHM8]{Hovering Stance}</p><p>You are hovering mid-air, avoiding contact with the ground. You do not need to Fly to remain airborne. You can Step to float vertically or horizontally, or Stride to move horizontally. You ignore difficult terrain for vertical movements in-air with these actions.This stance ends if you Fly or land on the ground.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "stance-hovering-stance",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/air/air-wave-gust-smoke-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "APFaQbLLBlp1vL1M",
+  "sort": 0,
+  "_key": "!items!APFaQbLLBlp1vL1M"
+}

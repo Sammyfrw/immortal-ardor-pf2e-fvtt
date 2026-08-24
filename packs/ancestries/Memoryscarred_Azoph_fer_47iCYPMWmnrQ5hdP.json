@@ -1,0 +1,51 @@
+{
+  "folder": "vdrE5IURf9W3E57H",
+  "name": "Memoryscarred Azoph-fer",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your family once served in profane, ancient temples, and the lingering effects of fiendish magics have somehow caused those memories to be passed down to you. You gain an understanding of the construction of temples, giving you a +2 circumstance bonus on checks pertaining to knowledge of a temple’s design (such as the nature of some rooms, trapped hallways or the temple’s layout), or to Search through it.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "memoryscarred-azoph-fer",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Azoph-fer",
+      "slug": "azoph-fer",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.6JAXzYb9Jg9SjoNk"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "47iCYPMWmnrQ5hdP",
+  "sort": 200000,
+  "_key": "!items!47iCYPMWmnrQ5hdP"
+}

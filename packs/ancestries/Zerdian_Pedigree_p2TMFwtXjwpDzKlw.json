@@ -1,0 +1,99 @@
+{
+  "name": "Zerdian Pedigree",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "aqoWrLhZrhELgIP8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your features denote you as a Zerdian, with a short stature and long pointed ears to regulate your body temperature and for listening for threats from far away. You are Small. You also become Trained in Stealth and gain a burrow speed of 10 feet. When you reach 10th level, this speed increases and becomes 25 feet. When you Seek to listen for something, you gain a +1 circumstance bonus to the check.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.stealth.rank",
+        "value": 1
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "burrow-speed",
+        "value": "@ternary(gte(@actor.level,10,25,10))"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "perception"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "action:seek",
+          "sense-of-hearing"
+        ],
+        "label": "Zerdian Pedigree (hearing)"
+      }
+    ],
+    "slug": "zerdian-pedigree",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lineage",
+        "loupain"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "p2TMFwtXjwpDzKlw",
+  "sort": 1500000,
+  "_key": "!items!p2TMFwtXjwpDzKlw"
+}

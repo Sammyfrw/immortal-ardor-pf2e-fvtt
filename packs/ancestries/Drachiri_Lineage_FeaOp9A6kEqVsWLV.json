@@ -1,0 +1,78 @@
+{
+  "name": "Drachiri Lineage",
+  "type": "feat",
+  "img": "icons/creatures/eyes/lizard-single-slit-green.webp",
+  "effects": [],
+  "folder": "1degfkGy9C2LQStu",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Draichsar are strongly dependent on the lineages of the matron or patron drachiri that incubated them as an egg. @UUID[Compendium.immortal-ardor.ancestries.SLafrzEYuatDDJfW]{Drachiri Benefactor}. If you have a Benefactor already, you can choose the same one and gain another trait you do not have.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.SLafrzEYuatDDJfW"
+      }
+    ],
+    "slug": "drachiri-lineage",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "FeaOp9A6kEqVsWLV",
+  "sort": 0,
+  "_key": "!items!FeaOp9A6kEqVsWLV"
+}

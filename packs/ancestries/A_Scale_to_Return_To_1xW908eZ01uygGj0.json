@@ -1,0 +1,85 @@
+{
+  "name": "A Scale to Return To",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "s2Yg2MK1eaTEmJ6V",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> Once per day</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The connection you have to one of your scales remains resolute, and you can follow the flow of magic to its bearer. When you gift a scale and as long as it remains empowered, you or the person you gifted it to can channel its power to teleport to an adjacent space to them, crossing planar boundaries if necessary. If there is no adjacent space, you teleport to the closest unoccupied space. Afterward, your gifted scale loses its power, so you must bestow a new scale.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">In addition, if you ever bear an empowered scale from a draconic creature that shares the same Benefactor as you, you can use this ability to teleport to them, even if it wasn’t originally gifted to you.</span></p>"
+    },
+    "rules": [],
+    "slug": "a-scale-to-return-to",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "drachiri",
+        "draich",
+        "manipulate",
+        "teleportation"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Gift of Scales"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "1xW908eZ01uygGj0",
+  "sort": 200000,
+  "_key": "!items!1xW908eZ01uygGj0"
+}

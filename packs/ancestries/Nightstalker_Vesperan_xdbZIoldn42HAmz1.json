@@ -1,0 +1,51 @@
+{
+  "folder": "6cbONhzApxwUKYSS",
+  "name": "Nightstalker Vesperan",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are a shadow in the night, darting and gliding from place to place. Whether your community emphasizes training your agility for militaristic reasons or because your environs require you to hide often from predators, you move very quickly. You are Trained in Stealth. When you Sneak, you can move via Gliding Wings. When you Hide, you can use your wings to try and help your concealment, granting you a +1 circumstance bonus if your wings would help you blend in.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "nightstalker-vesperan",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Vesperan",
+      "slug": "vesperan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.rTGDJLfWvAzbPOxx"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "xdbZIoldn42HAmz1",
+  "sort": 0,
+  "_key": "!items!xdbZIoldn42HAmz1"
+}

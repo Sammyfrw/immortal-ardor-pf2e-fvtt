@@ -1,0 +1,99 @@
+{
+  "name": "By Fang and Claw",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "aqoWrLhZrhELgIP8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your natural weapons are honed to perfect sharpness. You increase the damage die size of your unarmed attacks from @UUID[Compendium.immortal-ardor.ancestries.trw8uMfXnUy2Wtil]{Canine Arms} by one step.</span></p>"
+    },
+    "rules": [
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "damage-dice-faces",
+        "predicate": [
+          "item:trait:loupain",
+          {
+            "or": [
+              "canine-arms:fangs",
+              "canine-arms:claw"
+            ]
+          },
+          {
+            "or": [
+              "item:slug:fangs",
+              "item:slug:claw"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "by-fang-and-claw",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "loupain"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Canine Arms"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "s5R3vLbHdgAsmHcL",
+  "sort": 0,
+  "_key": "!items!s5R3vLbHdgAsmHcL"
+}

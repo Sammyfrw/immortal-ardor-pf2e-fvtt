@@ -1,0 +1,91 @@
+{
+  "folder": "tG0bC1ZIiT8zH5sb",
+  "name": "Lacuna Draichsar",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\">Your phalanx no longer has a patron or matron, or you live amongst draichsar who do not immediately have a drachiri that could lead you or help incubate your community’s eggs. As a result, your people have traveled far and smartly to find drachiri who might be able to help them, even secretly. You gain your choice of becoming Trained in Diplomacy or Society and gain the @UUID[Compendium.pf2e.feats-srd.IyJyZ1VQxS58Nk6V]{Eyes of the City} skill feat, even if you do not meet its requirements. If you choose Diplomacy, you also gain the @UUID[Compendium.pf2e.feats-srd.uF0ATN2Zw1Q67ew2]{Discreet Inquiry} skill feat. If you choose Society, you gain the @UUID[Compendium.pf2e.feats-srd.X2jGFfLU5qI5XVot]{Streetwise} skill feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.Skill.Diplomacy",
+            "value": "diplomacy"
+          },
+          {
+            "label": "PF2E.Skill.Society",
+            "value": "society"
+          }
+        ],
+        "flag": "lacunaDraichsarTraining",
+        "rollOption": "lacuna-draichsar-training",
+        "key": "ChoiceSet"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.system.rulesSelections.lacunaDraichsarTraining}.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "lacuna-draichsar-training:society"
+        ],
+        "uuid": "Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "lacuna-draichsar-training:society"
+        ],
+        "uuid": "Compendium.pf2e.feats-srd.Item.uF0ATN2Zw1Q67ew2"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.IyJyZ1VQxS58Nk6V"
+      }
+    ],
+    "slug": "lacuna-draichsar",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Draichsar",
+      "slug": "draichsar",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.y6dIDvKfSoC9natk"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "mCpAVaqqOi4GiLY7",
+  "sort": 200000,
+  "_key": "!items!mCpAVaqqOi4GiLY7"
+}

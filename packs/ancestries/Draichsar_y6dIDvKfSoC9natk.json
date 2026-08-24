@@ -1,0 +1,107 @@
+{
+  "folder": "UhLjW51UR5h07qRb",
+  "name": "Draichsar",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><em>The Draichsar were created by the Verum Drachiri at the peak of their ancient empire. Amongst the Drachenchild, they were once the cornerstone of the empire’s peoples, closest to the drachiri themselves, establishing architecture and arts as they served their creators dutifully. When the empire collapsed, the draichsar-kin spread across Ardor, though many stayed close to Drachiri patrons or matrons, as their eggs rarely hatch without the influence of arcane power, one more readily supplied by a dragon. But their intellect, ambition and power allowed them to find a home in numerous places in the world as they seem to have a knack for improving any field they apply themselves to.</em></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.PZLgQBaIV6Vk4Mjx]{Draichsar}</p>"
+    },
+    "rules": [],
+    "slug": "draichsar",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dragon",
+        "draichsar",
+        "humanoid"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 20,
+    "boosts": {
+      "0": {
+        "value": [
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "int"
+        ]
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "dex"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "eirlanggan",
+        "new-rogalian",
+        "zahnheimen"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 1,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "vAbUg": {
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.FeaOp9A6kEqVsWLV",
+        "img": "icons/creatures/eyes/lizard-single-slit-green.webp",
+        "name": "Drachiri Lineage",
+        "level": 1
+      }
+    },
+    "vision": "low-light-vision"
+  },
+  "_id": "y6dIDvKfSoC9natk",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!items!y6dIDvKfSoC9natk"
+}

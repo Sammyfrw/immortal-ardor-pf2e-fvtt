@@ -1,0 +1,162 @@
+{
+  "name": "Canine Arms",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "aqoWrLhZrhELgIP8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your fangs and claws are sharp weapons. When you select this feat, you gain either a claw or a fangs unarmed attack. These attacks are in the Brawling weapon group.</span></p><ul><li><p class=\"MsoListParagraphCxSpFirst\">Claws, 1d4 slashing [agile, finesse, grapple, unarmed]</p></li><li><p class=\"MsoListParagraphCxSpLast\">Fangs, 1d6 piercing [finesse, trip, unarmed]</p></li></ul><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At 5th level, whenever you get a critical hit with one of these attacks, you get its critical specialization effect.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> You can take this feat a number of times equal to the attacks listed above. Each time you do, select a different attack.</span></p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.BattleForm.Attack.Claw",
+            "predicate": [
+              {
+                "not": "canine-arms:claw"
+              }
+            ],
+            "value": "claw"
+          },
+          {
+            "label": "PF2E.BattleForm.Attack.Fangs",
+            "predicate": [
+              {
+                "not": "canine-arms:fangs"
+              }
+            ],
+            "value": "fangs"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.UnarmedAttack",
+        "rollOption": "canine-arms"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Claw",
+        "predicate": [
+          "canine-arms:claw"
+        ],
+        "range": null,
+        "slug": "claw",
+        "traits": [
+          "unarmed",
+          "agile",
+          "finesse",
+          "grapple",
+          "loupain"
+        ]
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+        "key": "Strike",
+        "label": "Fangs",
+        "predicate": [
+          "canine-arms:fangs"
+        ],
+        "range": null,
+        "slug": "fangs",
+        "traits": [
+          "unarmed",
+          "finesse",
+          "trip",
+          "loupain"
+        ]
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:id:{item|id}",
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "canine-arms",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "loupain"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 2,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "trw8uMfXnUy2Wtil",
+  "sort": 2300000,
+  "_key": "!items!trw8uMfXnUy2Wtil"
+}

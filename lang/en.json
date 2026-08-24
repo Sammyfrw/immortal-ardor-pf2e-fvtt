@@ -66,6 +66,7 @@
       "Defend": "Defend",
       "Dervish": "Dervish",
       "Diviner": "Diviner",
+      "Draich": "Draich",
       "Drachiri": "Drachiri",
       "Draichsar": "Draichsar",
       "Empty": "Empty",
@@ -125,7 +126,8 @@
       "Defend": "An action with the Defend trait indicates abilities featuring a temporary act of defense. This typically comes in the form of a single action conferring a short-term circumstance bonus to AC or saving throw that lasts no more than until the start of the next turn of the character that used it. When an effect or another action calls for use of a Defend action or spell, you can take any Defend ability you have access unless it explicitly specifies that is the only action you can take.",
       "Dervish": "This indicates abilities from the Dervish class.",
       "Diviner": "This indicates abilities from the Diviner class.",
-      "Drachiri": "Drachiri are draconic creatures of ether, empowered with the full array of telluric might and magic. Their family includes true drachiri and any of their magically created descendants.",
+      "Draich": "A creature with this trait bears a draich heritage. They bear draconic features gifted by a draichsar benefactor.",
+      "Drachiri": "Drachiri are draconic creatures of ether, empowered with the full array of telluric might and magic. Their family includes true drachiri and any of their magically created descendants. An option with this trait signifies that a drachiri benefactor's influence can change its effect, if the creature possesses one.",
       "Draichsar": "A creature with this trait is a member of the draichsar ancestry. Creatures created in the image of the drachiri, they are humanoids with dragonlike wings and find their way in a life after the empire that created them.",
       "Empty": "A creature with the Empty trait cannot cast spells or use actions that imply the use of ether, such as magic or feats of supernatural power.",
       "Ether": "An option with the ether trait requires the use of ether. This includes spellcasting or using certain actions. At a GM's discretion, certain actions will have the Ether trait. Creatures who cannot use ether, such as empty, cannot select these options.",
@@ -198,6 +200,87 @@
       "Twinblade": "Twinblade"
     },
     "SpecificRule": {
+      "DrachiriBenefactor": {
+        "BenefactorLabel": "Drachiri Benefactor",
+        "BenefactorPrompt": "Select a Drachiri Benefactor.",
+        "TraitPrompt": "Select an Element & Energy trait.",
+        "TraitLabel": "Drachiri Attuned Element",
+        "DamageLabel": "Drachiri Damage Type",
+        "Crimson": "Crimson",
+        "Azure": "Azure",
+        "Verdant": "Verdant",
+        "Ivory": "Ivory",
+        "Ebony": "Ebony",
+        "Violet": "Violet",
+        "Ochre": "Ochre"
+      },
+      "Ancestries": {
+        "Aelkhazak": {
+          "SlitheringForm": {
+            "ActionLabel": "Slithering Form",
+            "BipedalLabel": "Bipedal",
+            "SerpentineLabel": "Serpentine",
+            "WingedLabel": "Winged",
+            "CosmicLabel": "Cosmic"
+          },
+          "MoltingSkinRemedy": {
+            "EffectPrompt": "Select your Molting Skin Remedy bonus, based on proficiency and check outcome"
+          },
+          "SerpentineArms": {
+            "PoisonSpit": "Poison Spit",
+            "ImprovedAelkhazakFangs": "Improved Aelkhazak Fangs",
+            "ImprovedPoisonSpit": "Improved Poison Spit"
+          }
+        },
+        "Draichsar": {
+          "DraichsarBreath": {
+            "BreathShapeLabel": "Draichsar Breath Shape",
+            "BreathSaveLabel": "Draichsar Breath Saving Throw",
+            "BreathSpecLabel": "Draichsar Breath Damage Specialization",
+            "BreathDescription": "You reach into the well of magic within you and ignite the dracoleum within, launching a blast of energy through your maw. Your dragon breath deals @Damage[ceil(@actor.level/2)d{actor|flags.system.drachiriBenefactor.breathDieSize}[@actor.flags.pf2e.drachiriBenefactor.damageType]|options:area-damage]. Each creature in the area must attempt a @Check[type:{actor|flags.system.drachiriBenefactor.breathSave}|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] saving throw against the higher of your class DC or spell DC. You can’t use this ability again for [[/r 1d4 #rounds]]{1d4 rounds}.",
+            "BreathSpecDescription": "On a critical failure on a saving throw, you apply the breath weapon's critical weapon specialization effect to the creature. If your damage type is vitality or void, you add 2d6 persistent damage of that type on a critical failure.",
+            "ConeLabel": "15-foot Cone",
+            "ConeDescription": "Your breath takes the shape of a @Template[type:cone|distance:15].",
+            "LineLabel": "30-foot Line",
+            "LineDescription": "Your breath takes the shape of a @Template[type:line|distance:30].",
+            "BurstLabel": "10-foot Burst",
+            "BurstDescription": "Your breath takes the shape of a @Template[type:burst|distance:10].",
+            "DeepConeLabel": "30-foot Cone",
+            "DeepConeDescription": "Your breath takes the shape of a @Template[type:cone|distance:30].",
+            "DeepLineLabel": "60-foot Line",
+            "DeepLineDescription": "Your breath takes the shape of a @Template[type:line|distance:60].",
+            "DeepBurstLabel": "20-foot Burst",
+            "DeepBurstDescription": "Your breath takes the shape of a @Template[type:burst|distance:20]."
+          },
+          "DraconicArms": {
+            "DracoleumSpit": "Dracoleum Spit"
+          },
+          "MeasuredBreathing": {
+            "DracoleumExhaust": "Dracoleum Exhaust"
+          }
+        },
+        "Loupain": {
+          "PackBonuses": {
+            "PackBonusLabel": "Pack Bonuses",
+            "MarkOfThePackLabel": "Mark of the Pack",
+            "MarkOfThePackDescription": "You are adjacent to an ally. When you or the ally makes a successful Strike or spell attack against a creature, the other gains a circumstance bonus to their next Strike or spell attack against the same creature. \n @UUID[Compendium.immortal-ardor.ancestries.Item.kA7wubjq6CExJZt1]{Mark of the Pack Bonus}"
+          },
+          "CommunalHowl": {
+            "EffectPrompt": "Select your Commanding Howl bonus, based on the user's proficiency."
+          }
+        }
+      },
+      "Heritages": {
+        "Draich": {
+          "ArmorOfScales": {
+            "DragonhideScales": "Dragonhide Scales",
+            "DragonplateScales": "Dragonplate Scales"
+          },
+          "BondOfScales": {
+            "CriticalFailureNote": "Against draconic creatures who have the same type of Benefactor as you, when you critically fail to @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression} or @UUID[Compendium.pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request} against them their attitude towards you does not decrease, and if you critically fail to Sense their Motives, you do not get a false sense of their intentions."
+          }
+        }
+      },
       "Dervish": {
         "Zeal": {
           "GainLabel": "Zeal Gain",

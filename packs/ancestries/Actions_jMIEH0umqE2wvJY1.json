@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "R3Xsb56XM7DGG1jq",
+  "name": "Actions",
+  "color": null,
+  "sorting": "a",
+  "_id": "jMIEH0umqE2wvJY1",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!jMIEH0umqE2wvJY1"
+}

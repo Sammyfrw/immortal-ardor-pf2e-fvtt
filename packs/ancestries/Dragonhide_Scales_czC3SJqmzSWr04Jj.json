@@ -1,0 +1,101 @@
+{
+  "name": "Dragonhide Scales",
+  "type": "armor",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.ancestries.7X9W8vZUga6lZ9k2]{Armor of Scales}</p><p>Scales cover the entirety of your body, and they radiate with the great dragon magics you were endowed. While you are not wearing any armor, your chosen type of scales is considered armor, each with a different type:</p><p><strong>Dragonhide Scales (Unarmored):</strong> The scales give you a +1 item bonus to AC with a Dexterity cap of +3. The item bonus to AC increases to +2 at 5th level.</p><p>Your scales have the comfort trait and are in the plate armor group. You can etch armor runes directly to your scales, or onto specialized clothing designed to transfer the rune effects onto your scales.</p>"
+    },
+    "rules": [],
+    "slug": "dragonhide-scales",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "comfort"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "category": "unarmored",
+    "group": "plate",
+    "acBonus": 1,
+    "strength": 0,
+    "dexCap": 3,
+    "checkPenalty": 0,
+    "speedPenalty": 0,
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "czC3SJqmzSWr04Jj",
+  "img": "icons/equipment/chest/vest-leather-brown-gold.webp",
+  "folder": "FJnsWkImwUVZ9S6b",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!items!czC3SJqmzSWr04Jj"
+}

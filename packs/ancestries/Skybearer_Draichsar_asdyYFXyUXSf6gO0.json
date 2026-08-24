@@ -1,0 +1,81 @@
+{
+  "folder": "tG0bC1ZIiT8zH5sb",
+  "name": "Skybearer Draichsar",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\">Your community ruled the skies of wherever you had lived, whether it’s a life of freedom, of service, or of piracy through their own skills in flying and running an airship. You become Trained in Acrobatics and Computers, and you gain a +1 circumstance bonus to Acrobatics checks to Maneuver in Flight or Computer checks to Recall Knowledge.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.acrobatics.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.computers.rank",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "circumstance",
+        "selector": [
+          "acrobatics",
+          "computers"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "action:maneuver-in-flight",
+              "action:recall-knowledge"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "skybearer-draichsar",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Draichsar",
+      "slug": "draichsar",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.y6dIDvKfSoC9natk"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "asdyYFXyUXSf6gO0",
+  "sort": 0,
+  "_key": "!items!asdyYFXyUXSf6gO0"
+}

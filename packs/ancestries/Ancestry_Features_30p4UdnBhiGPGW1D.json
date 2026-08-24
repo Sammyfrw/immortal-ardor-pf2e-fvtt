@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "d4OUDFLHhCLBwzmS",
+  "name": "Ancestry Features",
+  "color": null,
+  "sorting": "a",
+  "_id": "30p4UdnBhiGPGW1D",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!30p4UdnBhiGPGW1D"
+}

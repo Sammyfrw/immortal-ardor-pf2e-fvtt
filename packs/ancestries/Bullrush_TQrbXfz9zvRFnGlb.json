@@ -2,7 +2,7 @@
   "_id": "TQrbXfz9zvRFnGlb",
   "name": "Bullrush",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "i5TqMcurowu1xN0y",
   "flags": {
@@ -11,10 +11,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "\n<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You charge and ram into a target. You @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride}, and then you @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove} a target. Alternatively, you @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride}, and then you @Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]{Force Open} a door.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You charge and ram into a target. You Stride, and then you Shove a creature or Force Open. You gain a +2 circumstance bonus to your attempt, and you do not get a penalty for not having a crowbar or similar lever.</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "bullrush",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -32,10 +32,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -47,7 +47,7 @@
       "value": "action"
     },
     "actions": {
-      "value": 1
+      "value": 2
     },
     "prerequisites": {
       "value": []
@@ -62,12 +62,12 @@
   "_stats": {
     "compendiumSource": "Item.3gMsvpvM1wURPDb4",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 800000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

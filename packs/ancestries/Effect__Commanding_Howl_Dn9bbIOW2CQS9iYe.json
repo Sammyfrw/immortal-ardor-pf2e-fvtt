@@ -1,0 +1,94 @@
+{
+  "folder": "DyS9IidgjZng5XsE",
+  "name": "Effect: Commanding Howl",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a circumstance bonus to your next saving throw within the next minute.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": "{item|flags.system.rulesSelections.commandingHowlBonus}",
+        "type": "circumstance",
+        "hideIfDisabled": true,
+        "selector": [
+          "saving-throw"
+        ]
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "+1",
+            "value": "1"
+          },
+          {
+            "label": "+2",
+            "value": "2"
+          }
+        ],
+        "prompt": "Select your Commanding Howl bonus, based on the user's proficiency",
+        "flag": "commandingHowlBonus"
+      }
+    ],
+    "slug": "effect-commanding-howl",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "Dn9bbIOW2CQS9iYe",
+  "sort": 100000,
+  "_key": "!items!Dn9bbIOW2CQS9iYe"
+}

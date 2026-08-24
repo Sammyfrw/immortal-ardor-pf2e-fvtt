@@ -1,0 +1,73 @@
+{
+  "name": "Airy Lungs",
+  "type": "feat",
+  "img": "icons/magic/air/fog-gas-smoke-dense-blue.webp",
+  "effects": [],
+  "folder": "DT9q6rN0tBzUzjSK",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Pinotr are capable swimmers and adapt to life in water readily. They are not off-guard while in water, and can hold their breath 25 times as long as usual before suffocating.</p>"
+    },
+    "rules": [],
+    "slug": "airy-lungs",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "pinotr"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "AWPT9Nxnz5oDW4f6",
+  "sort": 0,
+  "_key": "!items!AWPT9Nxnz5oDW4f6"
+}

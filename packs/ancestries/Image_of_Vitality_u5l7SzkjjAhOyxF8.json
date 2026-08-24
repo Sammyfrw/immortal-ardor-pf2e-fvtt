@@ -1,0 +1,146 @@
+{
+  "name": "Image of Vitality",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "jLiGE1RfNh0cFGHq",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your fortitude beggars belief, becoming the very image of sapien health. You are immune to diseases of your level or lower, unless they are of immense power or specific ones that are exceptionally dangerous to sapien. Whenever you succeed a saving throw to recover from or resist a disease, you treat the outcome as one step higher. You gain your choice of the @UUID[Compendium.pf2e.feats-srd.i4yRvVwvXbGZDsD1]{Canny Acumen} feat or the @UUID[Compendium.pf2e.feats-srd.AmP0qu7c5dlBSath]{Toughness} feat, though if you select Canny Acumen you must select Fortitude. If you have both feats from other sources, you increase your maximum Hit Points by 10, even if you did not choose Fortitude for Canny Acumen.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Canny Acumen",
+            "value": "canny-acumen",
+            "predicate": [
+              {
+                "not": "feat:canny-acumen"
+              }
+            ]
+          },
+          {
+            "label": "Toughness",
+            "value": "toughness",
+            "predicate": [
+              {
+                "not": "feat:toughness"
+              }
+            ]
+          },
+          {
+            "label": "Extra Hit Points",
+            "value": "extra-hit-points",
+            "predicate": [
+              "feat:toughness",
+              "feat:canny-acumen"
+            ]
+          }
+        ],
+        "flag": "imageOfVitality",
+        "rollOption": "image-of-vitality"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.i4yRvVwvXbGZDsD1",
+        "predicate": [
+          "image-of-vitality:canny-acumen"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath",
+        "predicate": [
+          "image-of-vitality:toughness"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "hp"
+        ],
+        "value": 10,
+        "predicate": [
+          "image-of-vitality:extra-hit-points"
+        ]
+      },
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:disease"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "type": "save"
+      }
+    ],
+    "slug": "image-of-vitality",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "sapien"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "u5l7SzkjjAhOyxF8",
+  "sort": 600000,
+  "_key": "!items!u5l7SzkjjAhOyxF8"
+}

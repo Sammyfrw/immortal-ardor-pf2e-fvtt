@@ -1,0 +1,51 @@
+{
+  "folder": "YoLAauwV9BXH0dl1",
+  "name": "Wanderflock Avekiri",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Never content to remain in one place or the other, your ancestors traveled across the lands and saw the world, bestowing the fruits of wanderlust to their descendants. You are trained in Survival, and gain a +2 circumstance bonus to saving throws against natural Hazards or Haunts.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "wanderflock-avekiri",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Avekiri",
+      "slug": "avekiri",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.nNtTrMVuAgB4bs4p"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "vGqPwHGhZlaYrs6K",
+  "sort": 200000,
+  "_key": "!items!vGqPwHGhZlaYrs6K"
+}

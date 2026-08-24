@@ -1,0 +1,71 @@
+{
+  "name": "Draich",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\">You bear draconic influences in your soul. You might have minor physical influences but your inner magic works similarly to a drachiri benefactor, or you might have substantial changes to your morphology and reflect the bloodline or magical form that has imprinted into your soul. You gain the Dragon and Draich trait, and you can select Draich ancestry feats. You gain a @UUID[Compendium.immortal-ardor.ancestries.SLafrzEYuatDDJfW]{Drachiri Benefactor}<span style=\"font-size:12.0pt;mso-bidi-font-size:11.0pt;font-family:'Calibri',sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:'Cordia New';mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">. </span>If you have a Benefactor already, you can choose the same one and gain another trait you do not have.</p><p class=\"MsoNormal\">In addition, you gain access to the Drachaic language and <span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">gain a +1 circumstance bonus to Diplomacy checks to Request or Make an Impression with draconic, spiritual or elemental denizens who are affiliated with domains or environments that align with your Benefactor’s Domains, Aspects &amp; Themes, and you can make Diplomacy checks with them even if you do not speak their language.</span></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.7sYOXAmK48hME2XP]{Draich}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "diplomacy"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "affiliated-targets",
+          {
+            "or": [
+              "action:request",
+              "action:make-an-impression"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.SLafrzEYuatDDJfW"
+      }
+    ],
+    "slug": "draich",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draich"
+      ],
+      "rarity": "common"
+    },
+    "ancestry": null
+  },
+  "_id": "OAATou1GD3YvgBCY",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "6zY3eWLYWVPxdVoQ",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!items!OAATou1GD3YvgBCY"
+}

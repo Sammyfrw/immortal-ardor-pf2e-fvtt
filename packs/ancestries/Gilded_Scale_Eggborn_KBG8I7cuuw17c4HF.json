@@ -1,0 +1,74 @@
+{
+  "name": "Gilded Scale Eggborn",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "EkJYedklBzyGcja3",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You display the characteristics of the Gilded Scale Clan; you have vibrant scales, a well-rounded physique and might bear a crest upon your forehead, with an ancestral blessing from Dhusamat coursing through you. You swap your ancestral attribute penalty to Charisma with your ancestral bonus to Strength. You gain a second non-Lineage 1st-level agamidan ancestry feat of your choice.</span></p>"
+    },
+    "rules": [],
+    "slug": "t-ancestry-feat-template",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agamidan",
+        "lineage"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "KBG8I7cuuw17c4HF",
+  "sort": 2700000,
+  "_key": "!items!KBG8I7cuuw17c4HF"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Teratoan Shield",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "EkJYedklBzyGcja3",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are wearing your Teratoa Shell.</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have learned how to defend yourself effectively by retreating into your Teratoa Shell and angling it against an attack. When you take this feat, you can consider the outer layer of your Teratoa Shell as a shield that uses the statistics of a Steel Shield. While you can’t physically wield it like a shield in your hands, you can treat it like one. For the purpose of feats that require wielding a shield in your hands, you must meet handedness requirements to properly utilize it for those feats.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can take an action to position yourself defensively to gain a +1 circumstance bonus to your AC until the start of your next turn. If you have a hand free, you increase this bonus to +2. You also can make Shield Bash attacks with your shell, and add shield runes to it and modify it like you would a shield. If you have the Shield Block general feat, you can block with it as you would with a shield, but if your outer layer of your shell is broken or destroyed, you must repair or replace it like you would with any shield. Even if you cannot use your outer layer of your shell, the inner layer of your shell can still be used as armor as normal.</span></p>"
+    },
+    "rules": [],
+    "slug": "teratoan-shield",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agamidan",
+        "defend"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Teratoa Agamidan heritage"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "pUOXbctP25ko2iX9",
+  "sort": 2600000,
+  "_key": "!items!pUOXbctP25ko2iX9"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Terrain Gifts",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "s2Yg2MK1eaTEmJ6V",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Ever since you exhibited your gifts, you feel much more at home in domains that align with your drachiri benefactor. You gain a +1 circumstance bonus to Survival checks and to saving throws against natural effects while you are in domains or environments that align with your chosen Benefactor’s Domains, Aspects &amp; Themes. If you become a Master in Survival, the bonus to saving throws apply to even non-natural effects, and your bonus to Survival checks increase to +2.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "survival"
+        ],
+        "value": 1,
+        "predicate": [
+          "domains-aspects-themes"
+        ],
+        "type": "circumstance"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "skill-check",
+        "predicate": [
+          "bonus:type:circumstance",
+          {
+            "gte": [
+              "skill:survival:rank",
+              3
+            ]
+          }
+        ],
+        "slug": "terrain-gifts",
+        "mode": "add",
+        "value": 1
+      }
+    ],
+    "slug": "terrain-gifts",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "drachiri",
+        "draich"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in Survival"
+        },
+        {
+          "value": "Drachiri Benefactor"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "EM36aA87rp3QJ31E",
+  "sort": 0,
+  "_key": "!items!EM36aA87rp3QJ31E"
+}

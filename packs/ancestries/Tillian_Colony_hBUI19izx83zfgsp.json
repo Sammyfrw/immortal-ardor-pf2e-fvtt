@@ -1,0 +1,74 @@
+{
+  "name": "Tillian Colony",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "4a9nlLKhNyYCElms",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have the morphology of a Tillian vesperan, with a shorter, smaller body with pronounced ears and flatter nose. While you can’t see in the dark with your eyes, you have vocal chords that help you navigate and find threats that would otherwise be missed. You are Small. When you take the Seek action, you can choose to echolocate; when you do, you use hearing as a precise sense with a range of 30 feet until the start of your next turn. You can also use this sense while you Search. Creatures who are able to hear the high pitched sound you make may not necessarily be able to determine the source, but it might clue them into the presence of something being nearby.</span></p>"
+    },
+    "rules": [],
+    "slug": "tillian-colony",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lineage",
+        "vesperan"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "hBUI19izx83zfgsp",
+  "sort": 2700000,
+  "_key": "!items!hBUI19izx83zfgsp"
+}

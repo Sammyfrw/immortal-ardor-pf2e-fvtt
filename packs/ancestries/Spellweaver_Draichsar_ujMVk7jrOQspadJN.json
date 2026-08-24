@@ -1,0 +1,63 @@
+{
+  "folder": "tG0bC1ZIiT8zH5sb",
+  "name": "Spellweaver Draichsar",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\">Magic flows through you and the environment you’re in readily, and you can effortlessly channel it great effect. You gain a +1 circumstance bonus to saving throws against magical effects, and a +1 circumstance bonus to skill checks that involve magically influencing your environment or create magic items.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "circumstance",
+        "selector": [
+          "saving-throw"
+        ],
+        "predicate": [
+          "item:trait:magical"
+        ]
+      }
+    ],
+    "slug": "spellweaver-draichsar",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Draichsar",
+      "slug": "draichsar",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.y6dIDvKfSoC9natk"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ujMVk7jrOQspadJN",
+  "sort": 0,
+  "_key": "!items!ujMVk7jrOQspadJN"
+}

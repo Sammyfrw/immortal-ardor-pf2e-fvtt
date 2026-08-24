@@ -1,0 +1,79 @@
+{
+  "name": "Holding the Warren",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are able to direct and drive large groups of people to ensure everyone is safe and secure, and unblocked from doing their tasks. Whenever you participate in or are in contact with anyone you are familiar with is taking an Exploration or Downtime activity, you can greatly assist them or take steps to get the assistance or materials you need. The first check made during these activities are rolled twice, taking the higher result. You must be present and focused on the activity of your choice, so you can only benefit one activity at a time, and you cannot assist anyone else if you are using this feat for your own activity. Once a creature benefits from this feat, they cannot receive its benefit again for another 24 hours.</p>"
+    },
+    "rules": [],
+    "slug": "holding-the-warren",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar",
+        "exploration",
+        "fortune"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warren Draichsar heritage"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "4MmUV1WuLA2uiAjK",
+  "sort": 1100000,
+  "_key": "!items!4MmUV1WuLA2uiAjK"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Line of Succession",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "jLiGE1RfNh0cFGHq",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A creature within 60 feet of you is about to meet the trigger for Queen’s Grace or Patron of Kings</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You impart the power and knowledge of a storied ruler in an instant to a creature, granting them a boon. The target creature gains the benefits of @UUID[Compendium.immortal-ardor.ancestries.zj62LcM23SA4gWh4]{Queen's Grace} or @UUID[Compendium.immortal-ardor.ancestries.1WxKtnZeQhKtgzRR]{Patron of Kings} for the triggering action or reaction. You can only use the feats you have learned, and this counts as a usage of Queen’s Grace or Patron of Kings for the day.</span></p>"
+    },
+    "rules": [],
+    "slug": "line-of-succession",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "sapien"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Queen's Grace or Patron of Kings"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "SoNJrMq4hoNWT3AL",
+  "sort": 1100000,
+  "_key": "!items!SoNJrMq4hoNWT3AL"
+}

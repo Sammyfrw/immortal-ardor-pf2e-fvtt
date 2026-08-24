@@ -1,0 +1,109 @@
+{
+  "name": "Dracoleum Glob",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can delay the discharge of your dracoleum breath attack and create a small explosion of power instead by spitting it a distance away. When you use Draichsar Breath, you can spit a projectile to a space within 30 feet of you; when you do your Draichsar Breath erupts in a @Template[burst|distance:10].</span></p>"
+    },
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:draichsar-breath"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.BurstDescription",
+            "predicate": [
+              "breath-shape:burst-10"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.BreathShapeLabel",
+        "mergeable": true,
+        "option": "breath-shape",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.BurstLabel",
+            "value": "burst-10"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      }
+    ],
+    "slug": "dracoleum-glob",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Draichsar Breath"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "ApfqdfBZRKPAMFHc",
+  "sort": 3000000,
+  "_key": "!items!ApfqdfBZRKPAMFHc"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Leap-Off",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Trigger</strong> <span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">You successfully @UUID[Compendium.pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Grab an Edge} or @UUID[Compendium.pf2e.actionspf2e.qm7xptMSozAinnPS]{Arrest a Fall}, or you fall on a creature or on a surface and do not take any falling damage.</span></p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can use your aerobatic movements to always be on the move. When you take this feat, you treat falls a 25 feet shorter if it is lower than any other sources of reducing fall damage.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When you meet the trigger and use this action, you @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} off a surface you come into contact with or are adjacent to, or a creature you fall on. If you fall more than the length of your Fly speed or land speed, you can make a Long Jump instead. You can choose to hover in space at the end of your Leap if you are in the air instead of falling.</span></p>"
+    },
+    "rules": [],
+    "slug": "leap-off",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar",
+        "move"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Skybearer Draichsar heritage"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "myfBoEeTs5JXUFaQ",
+  "sort": 1900000,
+  "_key": "!items!myfBoEeTs5JXUFaQ"
+}

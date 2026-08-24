@@ -1,0 +1,61 @@
+{
+  "folder": "9GCzuLStQdzYjAtK",
+  "name": "Dreamsense",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You intuit the area around you for signs of those who dream. When you take this action, you half-step into the astral plane (or half-step into the material if you were already in the astral plane) and become aware of astral forms, creatures with the astral trait and creatures who are dreaming or unconscious due to sleeping within 60 feet of you. You also know if a dreaming or unconscious creature is astrally projecting and know the direction of their astral form, or the direction of an astral form’s body. Of course, in most scenarios an astral entity is in a different plane than the material plane, so you would need to explore other means with to act on the information you learn.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "dreamsense",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "avekiri",
+        "primal"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "74ioUtCbXnFCyUBv",
+  "sort": 0,
+  "_key": "!items!74ioUtCbXnFCyUBv"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Wolf Pack",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "aqoWrLhZrhELgIP8",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Working together with your allies, you ensure that the enemy is always on the defensive and unable to wrestle control of the combat. While you are within 15 feet of two allies who are in reach of an enemy, you consider that enemy @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard}.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "wolf-pack",
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "key": "EphemeralEffect",
+        "selectors": [
+          "attack-roll"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg",
+        "predicate": [
+          "wolf-pack"
+        ]
+      }
+    ],
+    "slug": "wolf-pack",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "loupain"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "BXgAJgswmP9CrS2H",
+  "sort": 0,
+  "_key": "!items!BXgAJgswmP9CrS2H"
+}

@@ -1,0 +1,51 @@
+{
+  "folder": "S7TJFT5HuSfPkCJ7",
+  "name": "Brood of Meirghul Aelkhazak",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Meirghul, the Outcast of the Darksea took her most loyal followers into the darkest waters and corners of Ardor, and your Tributary has honored her pacts with the most ephemeral secrets. You are Trained in Occultism, and gain the Schooled in Secrets feat. In addition, you gain a +2 circumstance bonus to checks to identify people and symbols associated with cults or covenants.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "brood-of-meirghul-aelkhazak",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Aelkhazak",
+      "slug": "aelkhazak",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TgjwicKdCRJeG3vP"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "MY5sQIGalob7T1Yh",
+  "sort": 100000,
+  "_key": "!items!MY5sQIGalob7T1Yh"
+}

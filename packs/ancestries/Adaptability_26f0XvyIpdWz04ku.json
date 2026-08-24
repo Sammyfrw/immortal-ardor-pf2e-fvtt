@@ -2,17 +2,35 @@
   "_id": "26f0XvyIpdWz04ku",
   "name": "Adaptability",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "jLiGE1RfNh0cFGHq",
   "flags": {},
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You’re naturally adaptable and pick up a new trick for use. You learn a 1st level general or skill feat.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You’re naturally adaptable and pick up a new trick for use. You learn a 1st level general feat.</span></p>"
     },
-    "rules": [],
-    "slug": null,
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:1",
+            "item:trait:general"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "adaptability",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.GeneralTraining.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.adaptability}"
+      }
+    ],
+    "slug": "adaptability",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -30,10 +48,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -60,12 +78,12 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.26f0XvyIpdWz04ku",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 2800000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

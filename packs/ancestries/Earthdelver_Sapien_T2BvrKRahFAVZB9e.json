@@ -1,0 +1,60 @@
+{
+  "name": "Earthdelver Sapien",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "XtjfGk82Q5bS29gJ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You grew up in communities nestled within caverns or underground, and this has taught you important skills to survive in the depths. You gain low-light vision, and you can reduce the DC for the flat check to target a creature concealed or hidden from you due to natural darkness by 2.</p>"
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "low-light-vision"
+      }
+    ],
+    "slug": "earthdelver-sapien",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Sapien",
+      "slug": "sapien",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.ISWcBC32bihrBAA1"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "T2BvrKRahFAVZB9e",
+  "sort": 0,
+  "_key": "!items!T2BvrKRahFAVZB9e"
+}

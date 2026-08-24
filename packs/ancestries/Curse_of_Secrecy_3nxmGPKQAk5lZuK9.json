@@ -1,0 +1,79 @@
+{
+  "name": "Curse of Secrecy",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "zhOMSFBLyPZXVedB",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span>Through a pact, you have acquired ancient knowledge from an azoph-fer kingdom’s shadow clergy. You are bound to secrecy under the threat of death if you were to ever reveal this to anyone, though the terms and the arbiters of determining if you break this pact can vary with its source, such as strict reading of terms on a devil’s pact, or a series of eldritch watchers interpreting your actions. The knowledge you gained could be an ancient smithing technique, or history related to the creation of azoph-fer or Azoph-met’s Tower of Babel. This knowledge affords you great opportunities, though you are sworn to a task utilizing it or face consequences for reneging it – typically the threat of death as if you had spilled its secrets.</span></p><p class=\"MsoNormal\"><span>When you take this feat, you gain two additional general feats, two ancestry feats, or one of each, all at 1st level. However, should you speak of the knowledge you acquire or if anyone learns of this knowledge that is not aware of your pact, you must make a Will save with a DC of at least 30 and possibly as much as 50, depending on the severity of the secret gleaned. The pact actively prevents attempts to remove it, and has a counteract rank of 13. The GM ultimately acts as the arbiter of the pactmakers, and could allow opportunities for you to skirt around technicalities or fool them, or if you breach or renege its terms.</span></p><p class=\"MsoNormal\"><span><strong>Critical Success</strong> You are unaffected, and the curse ends. You are able to freely speak of your knowledge.</span></p><p class=\"MsoNormal\"><span><strong>Success</strong> You become Doomed 3, or increase this value by 3 if you were already Doomed. The knowledge you have disappears as the curse ends. If you were to die before your Doomed dissipates, your soul is immediately destroyed by the curse.</span></p><p class=\"MsoNormal\"><span><strong>Failure</strong> You die, and your soul is immediately destroyed by the curse. When you instantaneously die, the curse attempts to counteract any attempt to prevent your death with a rank of 13.</span></p><p class=\"MsoNormal\"><span><strong>Critical Failure</strong> As Failure, but any who learns of your knowledge is also affected by the Curse unless they successfully make a Will save at the same DC.</span></p>"
+    },
+    "rules": [],
+    "slug": "curse-of-secrecy",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "curse",
+        "death",
+        "vesperan"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": true,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You are born in Zaho and are in service to an azoph-fer kingdom with good standing."
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "3nxmGPKQAk5lZuK9",
+  "sort": 1500000,
+  "_key": "!items!3nxmGPKQAk5lZuK9"
+}

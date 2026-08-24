@@ -1,0 +1,107 @@
+{
+  "name": "Draconic Catalysm",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your mastery of draconic elements means you know how to channel either of your magical energies reliably in place of what a spell is meant to be. If your next action is to Cast a Spell with a trait that matches any drachiri benefactor’s element, it gains the Drachiri trait, allowing you to substitute its damage type and trait to your attuned element. If the spell has multiple applicable elements, you apply this change to only one trait.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:trait:drachiri",
+          "draconic-catalysm"
+        ],
+        "property": "damage-type",
+        "selectors": [
+          "spell-damage"
+        ],
+        "value": "{actor|flags.pf2e.drachiriBenefactor.damageType}"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "spell",
+        "mode": "add",
+        "property": "traits",
+        "value": "drachiri",
+        "fromEquipment": false,
+        "predicate": [
+          "draconic-catalysm"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "option": "draconic-catalysm",
+        "domain": "all",
+        "toggleable": true,
+        "label": "{item|name}",
+        "value": true
+      }
+    ],
+    "slug": "draconic-catalysm",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar",
+        "spellshape"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "4e7Bz4Z7eZU2cclx",
+  "sort": 1400000,
+  "_key": "!items!4e7Bz4Z7eZU2cclx"
+}

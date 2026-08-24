@@ -1,0 +1,74 @@
+{
+  "_id": "M0q5eM1awijHP64P",
+  "name": "Rockclimber Sapien",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "XtjfGk82Q5bS29gJ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your families lived by mountains and cliffsides. As a result, your community has a strong affinity for caverns and cliff walls. You gain a +2 circumstance bonus on rolls to @UUID[Compendium.pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Grab an Edge} or @UUID[Compendium.pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Climb}.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "predicate": [
+          {
+            "or": [
+              "action:climb",
+              "action:grab-an-edge"
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "selector": [
+          "skill-check"
+        ]
+      }
+    ],
+    "slug": "rockclimber-sapien",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Sapien",
+      "slug": "sapien",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.ISWcBC32bihrBAA1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.M0q5eM1awijHP64P",
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!M0q5eM1awijHP64P"
+}

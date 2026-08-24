@@ -1,0 +1,61 @@
+{
+  "folder": "9GCzuLStQdzYjAtK",
+  "name": "Shiny Sight",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have an odd knack for finding objects of interest to you. You Search or Investigate, and you can declare what an object of interest is for you, such as ‘hidden passageways’, ‘traps and hazards’, or ‘treasure’. You gain a +2 circumstance bonus to your Seek or Recall Knowledge attempts during the activity pertaining to objects of your interest, but a -2 circumstance penalty to all else. If you do find or learn information about the object of interest, you have a +2 circumstance bonus to your next action pertaining to it, such as Recall Knowledge checks on mysterious murals, Disable checks on a trap, Athletics checks to scale a hidden crevice, and so on.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "shiny-sight",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "avekiri",
+        "exploration"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "g9o4nOBpWxHdIjYF",
+  "sort": 100000,
+  "_key": "!items!g9o4nOBpWxHdIjYF"
+}

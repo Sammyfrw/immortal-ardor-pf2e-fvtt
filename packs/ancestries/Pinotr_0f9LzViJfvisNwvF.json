@@ -1,0 +1,106 @@
+{
+  "folder": "IbzUKOpnpkpQIMnW",
+  "name": "Pinotr",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>In the depths of untouched and untamed wilds by riverside forests or seaside glaciers, one might find the Pinotr, the apprentices of the giants of ice and the tides. Though few giants remain and fewer still remember their lutrine allies, the Pinotr still carry and build upon their taught and earned traditions. From their small tribes and communes they hunt and release magic back into the earth and the sea. Stewards in many ways, simple in others; the pinotr have only just recently began to truly interface with the world that is far larger than they could ever have been taught.</em></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.jgG0VfP2od4U9Xw0]{Pinotr}</p><p></p>"
+    },
+    "rules": [],
+    "slug": "pinotr",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "humanoid",
+        "pinotr"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "dex"
+        ]
+      },
+      "1": {
+        "value": [
+          "wis"
+        ]
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "con"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "eirlanggan",
+        "new-rogalian",
+        "zahnheimen"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 1,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "BXJiH": {
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.AWPT9Nxnz5oDW4f6",
+        "img": "icons/magic/air/fog-gas-smoke-dense-blue.webp",
+        "name": "Airy Lungs",
+        "level": 1
+      }
+    },
+    "vision": "low-light-vision"
+  },
+  "_id": "0f9LzViJfvisNwvF",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0f9LzViJfvisNwvF"
+}

@@ -9,10 +9,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The lands your lineage descends from is rife with ash, lava and brimstone. You do not suffer the effects of Extreme Heat, and you suffer from fatigue in 8 hours instead of 4 hours for Extreme and Severe Heat environments, and 4 hours for Incredible Heat environments. Your flat check to remove persistent fire damage is DC 10 instead of DC 15, which is reduced to DC 5 if another creature uses a particularly appropriate action to help.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">The lands your lineage descends from is rife with ash, lava and brimstone. You do not suffer the effects of Extreme Heat, and you suffer from fatigue in 8 hours instead of 4 hours for Extreme and Severe Heat environments, and 4 hours for Incredible Heat environments. </span>Your flat check to remove persistent fire damage is DC 10 instead of DC 15, which is reduced to DC 5 if another creature uses a particularly appropriate action to help.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "lavalurker-azoph-fer",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -28,10 +28,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "ancestry": {
       "name": "Azoph-fer",
@@ -42,12 +42,12 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.8Ubj8iHle8vt7i8d",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.4.2",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

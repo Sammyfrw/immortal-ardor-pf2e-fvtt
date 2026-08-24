@@ -1,0 +1,106 @@
+{
+  "folder": "mZpM8BqpyHW06E5S",
+  "name": "Effect: Molting Skin Remedy",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a circumstance bonus against disease and poison until your next daily preparations. If this was from a critical success effect, if you suffer from persistent damage, reduce the flat check to end the condition to 12.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "+1",
+            "value": "1"
+          },
+          {
+            "label": "+2",
+            "value": "2"
+          },
+          {
+            "label": "+3",
+            "value": "3"
+          }
+        ],
+        "prompt": "IA.SpecificRule.Ancestries.Aelkhazak.MoltingSkinRemedy.EffectPrompt",
+        "flag": "moltingSkinRemedyBonus"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "{item|flags.system.rulesSelections.moltingSkinRemedyBonus}",
+        "type": "circumstance",
+        "hideIfDisabled": true,
+        "selector": [
+          "saving-throw"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "item:trait:disease",
+              "item:trait:poison"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "effect-molting-skin-remedy",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/life/heart-hand-gold-green.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "oOQGd01j7SVPcElk",
+  "sort": 100000,
+  "_key": "!items!oOQGd01j7SVPcElk"
+}

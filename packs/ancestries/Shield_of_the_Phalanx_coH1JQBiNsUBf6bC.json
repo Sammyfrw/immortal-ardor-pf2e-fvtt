@@ -1,0 +1,113 @@
+{
+  "name": "Shield of the Phalanx",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You will protect your phalanx, no matter the cost. You gain the @UUID[Compendium.pf2e.feats-srd.NMWXHGWUcZGoLDKb]{Reactive Strike} feat or the @UUID[Compendium.pf2e.feats-srd.w8Ycgeq2zfyshtoS]{Reactive Shield} feat. Each time you use these feats, you gain resistance 3 to all physical damage for 1 round. If you already have both feats, you permanently gain this resistance.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At 17th level, this resistance increases to 5.</span></p><p>@UUID[Compendium.immortal-ardor.ancestries.xO2pDnf9j1B8yIpp]{Effect: Shields of the Phalanx}</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "shieldsOfThePhalanxFeat",
+        "choices": [
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.NMWXHGWUcZGoLDKb"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.w8Ycgeq2zfyshtoS"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{Item|flags.system.rulesSelections.shieldsOfThePhalanxFeat}"
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "feat:reactive-strikes",
+              "feat:reactive-shield"
+            ]
+          }
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "When you use Reactive Strikes or Reactive Shield, you gain @UUID[Compendium.immortal-ardor.ancestries.Item.xO2pDnf9j1B8yIpp]{Effect: Shield of the Phalanx}"
+          }
+        ]
+      }
+    ],
+    "slug": "shield-of-the-phalanx",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Defender Draichsar heritage"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "coH1JQBiNsUBf6bC",
+  "sort": 200000,
+  "_key": "!items!coH1JQBiNsUBf6bC"
+}

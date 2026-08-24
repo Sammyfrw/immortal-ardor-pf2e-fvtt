@@ -1,0 +1,92 @@
+{
+  "name": "Pulverizing Breath",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span>Your breath weapon devastates the environment you unleash it in. For 1 minute after you use your draichsar breath, the area is charged with your energy and is pulverized, turning it into difficult terrain. Creatures who enter the area of your draichsar breath or remains there at the end of their turn take an additional </span>@Damage[4d6[@actor.flags.system.drachiriBenefactor.damageType]]<span> damage of the same type and </span>@Check[type:@actor.flags.system.drachiriBenefactor.breathSave|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] <span>saving throw.</span></p><p></p><p class=\"MsoNormal\"></p><p></p><p></p>"
+    },
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:draichsar-breath"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "For 1 minute after you use your draichsar breath, the area is difficult terrain. Creatures who enter the area of your draichsar breath or remains there at the end of their turn take an additional @Damage[4d6[@actor.flags.system.drachiriBenefactor.damageType]] damage with a @Check[type:{actor|flags.system.drachiriBenefactor.breathSave}|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] saving throw."
+          }
+        ]
+      }
+    ],
+    "slug": "pulverizing-breath",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Draichsar Breath"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "V8SttbygLRUnTNPr",
+  "sort": 900000,
+  "_key": "!items!V8SttbygLRUnTNPr"
+}

@@ -74,8 +74,11 @@
         ],
         "type": "circumstance",
         "value": 1,
+        "label": "Bestial Gait",
         "selector": [
-          "check"
+          "deception",
+          "diplomacy",
+          "intimidation"
         ]
       },
       {
@@ -99,8 +102,10 @@
         ],
         "type": "circumstance",
         "value": 1,
+        "label": "Eye of the Predator",
         "selector": [
-          "check"
+          "perception",
+          "skill-check"
         ]
       }
     ],

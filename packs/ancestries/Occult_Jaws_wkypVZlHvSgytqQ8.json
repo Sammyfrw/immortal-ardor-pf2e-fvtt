@@ -1,0 +1,73 @@
+{
+  "name": "Occult Jaws",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "wQQ4JNqU0wpyKKCD",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Your ancestral magic allows you to unhinge your jaws and expand your stomach into an extradimensional space. </span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When you take this feat, you choose between </span>@UUID[Compendium.pf2e.spells-srd.wLWMswY7aBHEFTRb]{Snake Fangs} or @UUID[Compendium.pf2e.spells-srd.F9mA2Bg27QKniIdv]{Bottomless Stomach}<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">. You can cast your chosen spell once per day as an innate occult 5th rank spell.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> If you have the @UUID[Compendium.immortal-ardor.ancestries.W46jw7eVdv10U4Up]{Venomous Fangs} feat, you can choose to deal acid damage instead of bludgeoning when you use the Swallow Whole ability granted by Snake Fangs. If you have the Molting Skin Remedy feat and benefit from it for the day, you can still ingest things even while Sickened while under the effects of Bottomless Stomach.</span></p>"
+    },
+    "rules": [],
+    "slug": "occult-jaws",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aelkhazak"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "wkypVZlHvSgytqQ8",
+  "sort": 0,
+  "_key": "!items!wkypVZlHvSgytqQ8"
+}

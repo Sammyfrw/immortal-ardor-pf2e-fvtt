@@ -1,0 +1,68 @@
+{
+  "_id": "gc4q0alVZnJ2Nd82",
+  "name": "Plainstalker Sapien",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "XtjfGk82Q5bS29gJ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are a natural hunter, being taught by families growing up in lands of open prairie and valleys. You can make the most of tall grass and the rare trees for the purposes of travel and hunting, and these harsh lessons can teach you in journeys elsewhere. You become trained in Survival (or another skill if you were already trained in Survival), and gain the @UUID[Compendium.pf2e.feats-srd.4tTkRyOQ0VuRBac3]{Terrain Expertise}  feat with Plains. You can use the circumstance bonus from Terrain Expertise for Stealth rolls.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.4tTkRyOQ0VuRBac3"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.survival.rank",
+        "value": 1
+      }
+    ],
+    "slug": "plainstalker-sapien",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Sapien",
+      "slug": "sapien",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.ISWcBC32bihrBAA1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.gc4q0alVZnJ2Nd82",
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!gc4q0alVZnJ2Nd82"
+}

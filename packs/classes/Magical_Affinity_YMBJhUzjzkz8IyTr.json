@@ -75,8 +75,11 @@
         "type": "circumstance",
         "value": 1,
         "selector": [
-          "check"
-        ]
+          "deception",
+          "diplomacy",
+          "intimidation"
+        ],
+        "label": "Bestial Gait"
       },
       {
         "key": "FlatModifier",
@@ -100,8 +103,10 @@
         "type": "circumstance",
         "value": 1,
         "selector": [
-          "check"
-        ]
+          "perception",
+          "skill-check"
+        ],
+        "label": "Eye of the Predator"
       }
     ],
     "slug": "magical-affinity",

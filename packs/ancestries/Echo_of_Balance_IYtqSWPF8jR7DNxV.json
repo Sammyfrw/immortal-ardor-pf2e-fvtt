@@ -1,0 +1,64 @@
+{
+  "folder": "xDKGvYoA7LFJiPnQ",
+  "name": "Echo of Balance",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p><p><strong>Requirements</strong> You are actively pursuing your edicts and goals</p><p><strong>Trigger</strong> You fail, but not critically fail, a skill check or saving throw.</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">The cosmic balance demands that you succeed, and it nudges the cosmos in your favor. You reroll your check.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "echo-of-balance",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "azoph-fer",
+        "fortune"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "IYtqSWPF8jR7DNxV",
+  "sort": 0,
+  "_key": "!items!IYtqSWPF8jR7DNxV"
+}

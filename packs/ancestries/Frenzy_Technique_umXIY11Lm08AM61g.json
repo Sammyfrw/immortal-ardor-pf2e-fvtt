@@ -1,0 +1,77 @@
+{
+  "name": "Frenzy Technique",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirement</strong> You have two Draconic Arms unarmed attacks, at least one of which has the finesse or agile trait.</p><hr><p><span>You are trained well in the art of fighting with your draconic armaments. When you take this feat, you gain the @UUID[Compendium.immortal-ardor.ancestries.evAxFVUdmJhPL3UG]{Draconic Arms} feat again.</span></p><p class=\"MsoNormal\"><span>You make three Strikes with your Draconic Arms; two of which must be made with an unarmed attack with the Finesse or Agile trait. Increase your multi-attack penalty normally.</span></p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span><span> If you have the Draichsar Breath feat, you automatically recharge your Draichsar Breath if any of your hits critically hit.</span></p>"
+    },
+    "rules": [],
+    "slug": "frenzy-technique",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Draconic Arms"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "umXIY11Lm08AM61g",
+  "sort": 1500000,
+  "_key": "!items!umXIY11Lm08AM61g"
+}

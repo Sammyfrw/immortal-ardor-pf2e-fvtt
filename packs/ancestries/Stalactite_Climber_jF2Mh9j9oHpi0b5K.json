@@ -1,0 +1,73 @@
+{
+  "name": "Stalactite Climber",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "4a9nlLKhNyYCElms",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Vesperan architecture leverages high-vaunted ceilings and nooks where one could hide, climb or sleep closer to the ceiling, even upside-down, and you’ve adapted the learnings from it to everyday adventuring. You gain a +1 circumstance bonus to Climb and Squeeze checks, and you can comfortably rest and sleep in tight nooks and hanging against ceilings or walls without falling (though you must still remove armor or use armor with the Comfort trait as normal).</span></p>"
+    },
+    "rules": [],
+    "slug": "stalactite-climber",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vesperan"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "jF2Mh9j9oHpi0b5K",
+  "sort": 1800000,
+  "_key": "!items!jF2Mh9j9oHpi0b5K"
+}

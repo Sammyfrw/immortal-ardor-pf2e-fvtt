@@ -1,0 +1,51 @@
+{
+  "folder": "SJNFJ0o5AC7uKh4P",
+  "name": "Benthic Scales Agamidan",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your body is accustomed to being inundated in water, and your scales are excellent at repelling liquids. You gain acid resistance equal to half your level. You are not considered off-guard while you are underwater without a swim speed and gain a +1 circumstance bonus to your Swim checks. If you have a swim speed, this bonus increases to +2. Your Acclimator terrain includes riverlands, seasides and swamps.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "benthic-scales-agamidan",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Agamidan",
+      "slug": "agamidan",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.p74SeKiQUaQJ4S8o"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "l9IaPAF9j08eDQZG",
+  "sort": 100000,
+  "_key": "!items!l9IaPAF9j08eDQZG"
+}

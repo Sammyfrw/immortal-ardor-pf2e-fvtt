@@ -1,0 +1,178 @@
+{
+  "folder": "d4OUDFLHhCLBwzmS",
+  "name": "Aelkhazak",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><em>The Origin of Darkness tells the creation myth of how the Aelkhazak came to be; a tale of when the first primeval beings who lived upon the world plucked the heart of The Serpent That Coils The World That Wakes, a mythical being that was said to wind around the universe. From the wound, black blood spilled. One drop firmly landed upon the base of the ocean, and this particular drop spread into eight rivulets. Each of these would lead to the birth of the Ana’zhak, who would then spawn their brood – the Aelkhazak. As their tale would say, the world they came to was full of life, and they lived in it as the sole inheritors of the land. As it bled from the wound, the blackened blood of the Serpent coated the deepest oceans and coated the seas around the Aelkhazak. The sands turned black and the world’s depths are coated in darkness – creating the Darksea.</em></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.VfqPnTTkTwmJuWIM]{Aelkhazak}</p>"
+    },
+    "rules": [
+      {
+        "alwaysActive": true,
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Ancestries.Aelkhazak.SlitheringForm.ActionLabel",
+        "mergeable": true,
+        "option": "slithering-form",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Ancestries.Aelkhazak.SlitheringForm.SerpentineLabel",
+            "value": "serpentine"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 25,
+        "predicate": [
+          "slithering-form:serpentine"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 15,
+        "predicate": [
+          {
+            "or": [
+              "slithering-form:bipedal",
+              "slithering-form:winged",
+              "slithering-form:cosmic"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "value": 25,
+        "predicate": [
+          {
+            "or": [
+              "slithering-form:bipedal",
+              "slithering-form:cosmic"
+            ]
+          }
+        ],
+        "selector": "land"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 25,
+        "predicate": [
+          "slithering-form:winged"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "value": "max(20,@actor.system.movement.speeds.land.value)",
+        "predicate": [
+          "slithering-form:cosmic"
+        ],
+        "selector": "fly"
+      }
+    ],
+    "slug": "aelkhazak",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aelkhazak",
+        "amphibious"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 15,
+    "boosts": {
+      "0": {
+        "value": [
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "int"
+        ]
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "wis"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "eirlanggan",
+        "new-rogalian",
+        "zahnheimen"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 1,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "nA414": {
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.qgAZ5Sx5IZAvAzsI",
+        "img": "icons/creatures/reptiles/serpent-horned-green.webp",
+        "name": "Slithering Form",
+        "level": 1
+      },
+      "p9qba": {
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.Pg4tZ0q78caPtBxO",
+        "img": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+        "name": "Aelkhazak Fangs",
+        "level": 1
+      }
+    },
+    "vision": "normal"
+  },
+  "_id": "TgjwicKdCRJeG3vP",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!items!TgjwicKdCRJeG3vP"
+}

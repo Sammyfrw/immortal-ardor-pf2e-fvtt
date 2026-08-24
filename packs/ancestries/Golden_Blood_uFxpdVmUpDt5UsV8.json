@@ -1,0 +1,77 @@
+{
+  "name": "Golden Blood",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "wQQ4JNqU0wpyKKCD",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your regeneration has become more potent. You recover 1 hit point per minute, instead of 10 hit points per hour. You recover these hit points even when you are going through strenuous activity.</p>"
+    },
+    "rules": [],
+    "slug": "golden-blood",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aelkhazak"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Brood of Aphos Aelkhazak heritage"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "uFxpdVmUpDt5UsV8",
+  "sort": 0,
+  "_key": "!items!uFxpdVmUpDt5UsV8"
+}

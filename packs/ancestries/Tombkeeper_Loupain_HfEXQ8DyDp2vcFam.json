@@ -1,0 +1,60 @@
+{
+  "name": "Tombkeeper Loupain",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "TXHUPlL1iwSA8z6d",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your community has kept sacred rites and watches over the dead and went over processions for births and deaths in your settlements. You gain the @UUID[Compendium.pf2e.feats-srd.QShgLWlfKYJO750P]{Stitch Flesh} feat even if you don’t meet its prerequisites, and you gain the formula for @UUID[Compendium.pf2e.equipment-srd.z9T4c1hXwOotsMCp]{Holy Water} and @UUID[Compendium.pf2e.equipment-srd.EGhUorZhB7nV73Ev]{Unholy Water}. You gain a +1 circumstance bonus to skill checks that pertain to handling the dead, such as Rituals, inspecting them, embalming them, or the like.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.QShgLWlfKYJO750P"
+      }
+    ],
+    "slug": "tombkeeper-loupain",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Loupain",
+      "slug": "loupain",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TNakbCOKQZyc4Oyx"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "HfEXQ8DyDp2vcFam",
+  "sort": 0,
+  "_key": "!items!HfEXQ8DyDp2vcFam"
+}

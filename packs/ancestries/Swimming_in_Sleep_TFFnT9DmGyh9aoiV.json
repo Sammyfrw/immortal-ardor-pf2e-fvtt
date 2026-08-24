@@ -1,0 +1,104 @@
+{
+  "name": "Swimming in Sleep",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "wQQ4JNqU0wpyKKCD",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Walli-Walli is said to sleep in the Darksea to fly amongst dreams and bestow boons from the heavens above; through training or a discovery of a new talent in your sleep, you have also learned to swim in such spaces. Your Slithering Form feature expands to include a choice to enter a Cosmic form where you manifest energy upon your fins and tail. In this form, your land speed increases to 25 feet and your swim speed decreases to 15 feet, but you gain a fly speed equal to your land speed plus 10 feet while you are in a vacuum or in the astral plane. When you awake from a deep sleep after reaching 17th level, you gain the Cosmic trait.</span></p>"
+    },
+    "rules": [
+      {
+        "alwaysActive": true,
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Ancestries.Aelkhazak.SlitheringForm.ActionLabel",
+        "mergeable": true,
+        "option": "slithering-form",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Ancestries.Aelkhazak.SlitheringForm.CosmicLabel",
+            "value": "cosmic"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "cosmic"
+        ],
+        "predicate": {
+          "gte": [
+            "self:level",
+            "17"
+          ]
+        }
+      }
+    ],
+    "slug": "swimming-in-sleep",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aelkhazak"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Brood of Walli-Walli Aelkhazak heritage"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "TFFnT9DmGyh9aoiV",
+  "sort": 0,
+  "_key": "!items!TFFnT9DmGyh9aoiV"
+}

@@ -1,0 +1,103 @@
+{
+  "folder": "pJq8bVAwX5OtO54g",
+  "name": "Gangor",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\"><em>From the southern continent of Garrunga comes a people who once lived simple lives as hunter-gatherers. One day, the earth greatly shook and broke apart, and the air became acrid and stiff. The night remained in perpetuity. For a time, they did not know what caused this, until one known as Kuluru managed to walk in their dreams and come face to face with the beings of the sky at war with one another. He cast the spear to an Unduk-like being, where its two-faced body collapsed and bled through the sky, whereupon the night was given color, and a counterpart of day. The blood became shimmering and dancing auroras, and the platelets became the stars. From that moment on, the gangor knew of its beauty; as they slept, they would see dancing auroras and starlit nights that embraced them, and when they leapt into the Dreaming they fight to ensure such a beauty remains protected from those that would take it from them.</em></span></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.9BLbpp9AQAf0TPJO]{Gangor}</p>"
+    },
+    "rules": [],
+    "slug": "gangor",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "gangor",
+        "humanoid"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "med",
+    "hands": 2,
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha"
+        ]
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "int"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 1,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "m2oNl": {
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.olqS2QErItZfyEGZ",
+        "img": "icons/skills/movement/feet-spurred-boots-brown.webp",
+        "name": "Strong Kick",
+        "level": 1
+      }
+    },
+    "vision": "low-light-vision"
+  },
+  "_id": "umza3M2zHU2lIAib",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!umza3M2zHU2lIAib"
+}

@@ -1,0 +1,223 @@
+{
+  "name": "Draichsar Breath",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You reach into the well of magic within you and ignite the dracoleum within, launching a blast of energy through your maw. You exhale a breath weapon dealing </span>@Damage[ceil(@actor.level/2)d4[@actor.flags.pf2e.drachiriBenefactor.damageType]|options:area-damage]<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> </span>damage of your attuned element<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC, and you can’t use this ability again for </span>[[/r 1d4 #rounds]]{1d4 rounds}<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At 3rd level and every 2 levels onward you increase the damage you deal by 1d4. When you take this feat, you determine whether your breath weapon is a </span>@Template[type:cone|distance:15] <span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">or a </span>@Template[type:line|distance:30]<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">, </span>and choose the saving throw used for the breath weapon that is appropriate to your attuned trait for your Benefactor’s energy type. You can change these selections in the same way or at the same time you attune to another element.</p><p class=\"MsoNormal\"><span>@Check[fortitude,reflex,will|against:class-spell|basic]</span></p>"
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "{actor|flags.pf2e.drachiriBenefactor.activeTrait}"
+      },
+      {
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.BreathShapeLabel",
+        "mergeable": true,
+        "option": "breath-shape",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.LineLabel",
+            "value": "line-30"
+          },
+          {
+            "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.ConeLabel",
+            "value": "cone-15"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.BreathSaveLabel",
+        "mergeable": true,
+        "option": "breath-save",
+        "suboptions": [
+          {
+            "label": "PF2E.SavesFortitude",
+            "value": "fortitude",
+            "predicate": [
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:fire",
+                  "drachiri-benefactor-active-trait:cold",
+                  "drachiri-benefactor-active-trait:electricity",
+                  "drachiri-benefactor-active-trait:air",
+                  "drachiri-benefactor-active-trait:water",
+                  "drachiri-benefactor-active-trait:mental",
+                  "drachiri-benefactor-active-trait:vitality",
+                  "drachiri-benefactor-active-trait:earth",
+                  "drachiri-benefactor-active-trait:wood",
+                  "drachiri-benefactor-active-trait:sonic",
+                  "drachiri-benefactor-active-trait:acid",
+                  "drachiri-benefactor-active-trait:force",
+                  "drachiri-benefactor-active-trait:void"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.SavesReflex",
+            "value": "reflex",
+            "predicate": [
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:fire",
+                  "drachiri-benefactor-active-trait:cold",
+                  "drachiri-benefactor-active-trait:electricity",
+                  "drachiri-benefactor-active-trait:air",
+                  "drachiri-benefactor-active-trait:water",
+                  "drachiri-benefactor-active-trait:earth",
+                  "drachiri-benefactor-active-trait:wood",
+                  "drachiri-benefactor-active-trait:acid",
+                  "drachiri-benefactor-active-trait:force",
+                  "drachiri-benefactor-active-trait:metal"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PF2E.SavesWill",
+            "value": "will",
+            "predicate": [
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:mental",
+                  "drachiri-benefactor-active-trait:vitality",
+                  "drachiri-benefactor-active-trait:metal",
+                  "drachiri-benefactor-active-trait:sonic",
+                  "drachiri-benefactor-active-trait:void"
+                ]
+              }
+            ]
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.system.drachiriBenefactor.breathTemplate",
+        "value": "{item|flags.system.rulesSelections.breathShape}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.system.drachiriBenefactor.breathSave",
+        "value": "{item|flags.system.rulesSelections.breathSave}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.system.drachiriBenefactor.breathDieSize",
+        "value": "4"
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:slug:draichsar-breath"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You reach into the well of magic within you and ignite the dracoleum within, launching a blast of energy through your maw. Your dragon breath deals @Damage[ceil(@actor.level/2)d{actor|flags.system.drachiriBenefactor.breathDieSize}[@actor.flags.pf2e.drachiriBenefactor.damageType]|options:area-damage]. Each creature in the area must attempt a @Check[type:{actor|flags.system.drachiriBenefactor.breathSave}|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] saving throw against the higher of your class DC or spell DC. You can’t use this ability again for [[/r 1d4 #rounds]]{1d4 rounds}. At 3rd level and every 2 levels onward you increase the damage you deal by 1d4, and you can change the shape and saving throw of your breath weapon in the same way or at the same time you attune to another element."
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:draichsar-breath"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.ConeDescription",
+            "predicate": [
+              "breath-shape:cone-15"
+            ]
+          },
+          {
+            "text": "IA.SpecificRule.Ancestries.Draichsar.DraichsarBreath.LineDescription",
+            "predicate": [
+              "breath-shape:line-30"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "draichsar-breath",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "drachiri",
+        "draichsar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "4fi4ZHm5YpY3s4zw",
+  "sort": 2700000,
+  "_key": "!items!4fi4ZHm5YpY3s4zw"
+}

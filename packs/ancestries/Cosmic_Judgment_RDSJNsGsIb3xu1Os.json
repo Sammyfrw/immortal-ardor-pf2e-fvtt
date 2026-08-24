@@ -2,7 +2,7 @@
   "_id": "RDSJNsGsIb3xu1Os",
   "name": "Cosmic Judgment",
   "type": "feat",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "effects": [],
   "folder": "i5TqMcurowu1xN0y",
   "flags": {
@@ -14,7 +14,7 @@
       "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your being is aligned with the powers of order or chaos. When you select this feat, you gain the @UUID[Compendium.pf2e.spells-srd.qwZBXN6zBoB9BHXE]{Divine Lance} cantrip as an innate divine spell. You also gain the @UUID[Compendium.pf2e.spells-srd.hVU9msO9yGkxKZ3J]{Divine Wrath} spell as a 4<sup>th</sup>-level innate divine spell you can cast once per day. If you are sanctified to a planar force, this feat gains the corresponding trait.</span></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "cosmic-judgment",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -30,13 +30,13 @@
         "cazic-fer",
         "divine"
       ],
-      "rarity": "uncommon"
+      "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 13
@@ -63,12 +63,12 @@
   "_stats": {
     "compendiumSource": "Item.3gMsvpvM1wURPDb4",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

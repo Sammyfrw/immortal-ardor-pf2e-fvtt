@@ -1,0 +1,51 @@
+{
+  "folder": "S7TJFT5HuSfPkCJ7",
+  "name": "Brood of Garyu Aelkhazak",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Garyu, known as the False Dragon, was an Ana’zhak fabled with toppling kings and gods through deception. Your Tributary follows in his footsteps and favors shadows and cunning. You become Trained in your choice of Stealth or Deception. You gain low-light vision; if you would gain low-light vision you gain darkvision instead.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "brood-of-garyu-aelkhazak",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Aelkhazak",
+      "slug": "aelkhazak",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.TgjwicKdCRJeG3vP"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "SDogL1hIiFx2KJ07",
+  "sort": 200000,
+  "_key": "!items!SDogL1hIiFx2KJ07"
+}

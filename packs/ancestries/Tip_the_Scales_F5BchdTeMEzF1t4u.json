@@ -1,0 +1,94 @@
+{
+  "name": "Tip the Scales",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "s2Yg2MK1eaTEmJ6V",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You would fail or critically fail a skill check.</p><p><strong>Frequency</strong> Once per day</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The innate magnetism of a dragon is sometimes all you need to push things in your favor. You treat your skill check as if you had rolled a 10, and gain a status bonus to the check equal to your Charisma modifier if it is positive.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "SubstituteRoll",
+        "label": "Tip The Scales",
+        "selector": "skill-check",
+        "slug": "tip-the-scales",
+        "value": "10+@actor.system.abilities.cha.mod"
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "substitute:tip-the-scales"
+        ],
+        "selector": "skill-check",
+        "suppress": true
+      }
+    ],
+    "slug": "tip-the-scales",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draich",
+        "fortune"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "F5BchdTeMEzF1t4u",
+  "sort": 1100000,
+  "_key": "!items!F5BchdTeMEzF1t4u"
+}

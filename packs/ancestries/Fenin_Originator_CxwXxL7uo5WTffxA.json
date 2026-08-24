@@ -1,0 +1,74 @@
+{
+  "name": "Fenin Originator",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "p4m5HdepIDxhOe05",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are a Fenin lyncan; you have a small, rounded body with short ears, covered in thick fur and a short, thick tail. Your size is Small. Your body easily regulates its temperature and can detect fluctuations in your environment’s temperature that has surprising applications. When you are Prone or when you use a Defense action you gain resistance to fire and cold equal to half your level while you remain in their respective states. When you Seek, you gain heatsense as an imprecise sense while doing so.</span></p>"
+    },
+    "rules": [],
+    "slug": "fenin-originator",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lineage",
+        "lyncan"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "CxwXxL7uo5WTffxA",
+  "sort": 3600000,
+  "_key": "!items!CxwXxL7uo5WTffxA"
+}

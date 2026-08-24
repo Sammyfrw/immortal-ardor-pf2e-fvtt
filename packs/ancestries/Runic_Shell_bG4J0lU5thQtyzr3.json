@@ -1,0 +1,79 @@
+{
+  "name": "Runic Shell",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "EkJYedklBzyGcja3",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have learned how to engrave sacred runes onto Teratoa shells that improve them when their designated wearer dons them. You can spend eight hours of downtime to engrave one of the following listed runes onto a Teratoa Shell. These runes exemplify a tale amongst your people, and do not count against the maximum limit of the number of runes on a Teratoa Shell, but confers a unique benefit to them. You can spend another eight hours to replace an engraved rune with another.</span></p><ul><li><p class=\"MsoListParagraphCxSpFirst\">Rune of The Hare and The Tortoise: You reduce the speed penalty of your shell by 5.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Rune of The Adamant Shell: Your shell gains the Bulwark trait.</p></li><li><p class=\"MsoListParagraphCxSpLast\">Rune of The Halfshell: You reduce the strength requirement of the shell by 1 and increase the Dexterity cap of the shell by 1.</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "runic-shell",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agamidan",
+        "divine",
+        "downtime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Teratoan Agamidan Heritage"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "bG4J0lU5thQtyzr3",
+  "sort": 300000,
+  "_key": "!items!bG4J0lU5thQtyzr3"
+}

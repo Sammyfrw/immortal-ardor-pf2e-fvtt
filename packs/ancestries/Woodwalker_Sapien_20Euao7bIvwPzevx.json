@@ -1,0 +1,76 @@
+{
+  "_id": "20Euao7bIvwPzevx",
+  "name": "Woodwalker Sapien",
+  "type": "heritage",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "effects": [],
+  "folder": "XtjfGk82Q5bS29gJ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You grew up amongst sapien that have strongly adapted to life in the wood, knowing how to navigate it. You treat difficult terrain in woodlands as normal terrain, and you treat greater difficult terrain in woodlands as difficult terrain. You also gain a +1 circumstance bonus to Hide, Sneak or Balance in woodland.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              "action:hide",
+              "action:sneak",
+              "action:track"
+            ]
+          },
+          "terrain:forest"
+        ],
+        "selector": [
+          "skill-check"
+        ],
+        "type": "circumstance"
+      }
+    ],
+    "slug": "woodwalker-sapien",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Sapien",
+      "slug": "sapien",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.ISWcBC32bihrBAA1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.20Euao7bIvwPzevx",
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!20Euao7bIvwPzevx"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Magnatheca Magnificence",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "AXj9DSQL046fbnlQ",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are far more connected to the Magnatheca than your peers; perhaps you were particularly close to an Ivory Drachiri who knew more than they let on, or you are ivory-scaled yourself. Even so, this connection allows you to draw upon the Magnatheca through more conventional means. You can use and meet the requirements of the skill feats you gained through your heritage through Arcana in addition to Occultism. If you use the Magnatheca to @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} or @UUID[Compendium.pf2e.actionspf2e.eReSHVEPCsdkSL4G]{Identify Magic}, you gain a +1 circumstance bonus to your check if you use Arcana for an Arcane related topic or if you use Occultism for an Occult related topic.</span></p>"
+    },
+    "rules": [],
+    "slug": "magnatheca-magnificence",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "draichsar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in Arcana"
+        },
+        {
+          "value": "Magnahunter Draichsar heritage"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "TIJg2vu9lmT77OZv",
+  "sort": 2100000,
+  "_key": "!items!TIJg2vu9lmT77OZv"
+}

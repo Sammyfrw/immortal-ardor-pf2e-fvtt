@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "dGek33KCbDDeUrLO",
+  "name": "Gangor",
+  "color": "#5a0202",
+  "sorting": "a",
+  "_id": "pJq8bVAwX5OtO54g",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!pJq8bVAwX5OtO54g"
+}

@@ -1,0 +1,51 @@
+{
+  "folder": "YoLAauwV9BXH0dl1",
+  "name": "Golden Voice Avekiri",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Song and faith go hand in hand where you grew up, and there was a lot of expectation for you to partake. As such, hymnal prayers come frequently to you. You become Trained in Performance and can contextually use Performance in the place of Religion or Diplomacy skill checks for certain acts such as prayer, to communicate or impress people of a faith you know or follow, or to entreat people or spirits affiliated with deities. You gain a +1 circumstance bonus to these checks if it pertains to a deity or philosophy you follow.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "golden-voice-avekiri",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Avekiri",
+      "slug": "avekiri",
+      "uuid": "Compendium.immortal-ardor.ancestries.Item.nNtTrMVuAgB4bs4p"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "HNkKg81ODMkdoit3",
+  "sort": 600000,
+  "_key": "!items!HNkKg81ODMkdoit3"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Alertness",
+  "type": "feat",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "effects": [],
+  "folder": "jLiGE1RfNh0cFGHq",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are keenly aware of your surroundings, especially with regards to things hiding in plain sight. You gain the @UUID[Compendium.pf2e.feats-srd.2kwXTUjYYhoAGySr]{Incredible Initiative} general feat. When you use the @UUID[Compendium.pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} action to look for hidden creatures or look past disguises or lies, you gain a +1 circumstance bonus to your roll.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "predicate": [
+          "action:seek",
+          "hidden-things"
+        ],
+        "type": "circumstance",
+        "label": "Alertness (vs. hidden creatures or look past disguises)",
+        "selector": [
+          "skill-check",
+          "perception"
+        ]
+      }
+    ],
+    "slug": "alertness",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "sapien"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "DOeW2DMA2HSLNp88",
+  "sort": 1800000,
+  "_key": "!items!DOeW2DMA2HSLNp88"
+}

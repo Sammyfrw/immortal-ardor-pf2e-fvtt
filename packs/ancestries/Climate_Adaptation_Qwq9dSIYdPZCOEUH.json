@@ -1,0 +1,73 @@
+{
+  "name": "Climate Adaptation",
+  "type": "feat",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "effects": [],
+  "folder": "rBVcHdFsiatuDq6W",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your reptilian biology allows you to control your bodily functions as you experience new climates. After consistently spending at least a week in an area with a different climate, you treat temperature effects within that climate as one step milder. In addition, you become fatigued in twice the number of hours (up to 8 hours), and reduce circumstance penalties on checks by up to -2. You lose this benefit from any previous climates you were adapted to. These changes are largely internal, but spending months in your newly adapted climates may result in new scales adopting new colors.</p>"
+    },
+    "rules": [],
+    "slug": "climate-adaptation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agamidan"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "Qwq9dSIYdPZCOEUH",
+  "sort": 0,
+  "_key": "!items!Qwq9dSIYdPZCOEUH"
+}
