@@ -38,6 +38,7 @@
         "air",
         "attack",
         "cantrip",
+        "manafont",
         "manipulate"
       ],
       "rarity": "uncommon",
@@ -129,9 +130,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.aMMZf7niMKbi7X5K",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 100000,

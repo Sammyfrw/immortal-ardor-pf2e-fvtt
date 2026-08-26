@@ -30,7 +30,9 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "archetype"
+        "archetype",
+        "dedication",
+        "manafont"
       ],
       "rarity": "uncommon"
     },
@@ -63,16 +65,16 @@
     }
   },
   "_id": "GKGLNSzzb7Q7nSVs",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "flags": {
     "core": {}
   },
   "_stats": {
     "compendiumSource": "Item.w2RpRiIsfxpvelFr",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 0,

@@ -1,0 +1,82 @@
+{
+  "folder": "jpFu5Lzg5oVfBRNs",
+  "name": "Leaping Lightning",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You perform an elaborate leap into the air, whirling mid-leap as you bring your weapon down on your foe. You @UUID[Compendium.pf2e.actionspf2e.JUvAvruz7yRQXfz2]{Long Jump} or @UUID[Compendium.pf2e.actionspf2e.2HJ4yuEFY1Cast4h]{High Jump} and make a melee Strike at a creature you could reach at any point of the Leap, including as you fall. You treat any distance you fall as 20 feet shorter. If the outcome of your Long Jump or High Jump check exceeds the target’s Fortitude DC, they are off-guard to the Strike.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">If you are in an Arcblade Stance, on impact your Strike discharges electricity, arcing out lightning around your target. Your Strike deals additional splash electricity damage equal to your Strength attribute modifier plus your level; you are exempt from the splash damage.</span></p>"
+    },
+    "rules": [],
+    "slug": "leaping-lightning",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "air",
+        "archetype",
+        "discharge",
+        "electricity",
+        "ether",
+        "flourish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Arcblade Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "gl5LaF2bEbN11uHL",
+  "sort": 500000,
+  "_key": "!items!gl5LaF2bEbN11uHL"
+}

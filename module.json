@@ -416,6 +416,10 @@
             "label": "IA.Trait.Aelkhazak",
             "description": "IA.TraitDescription.Aelkhazak"
           },
+          "anima": {
+            "label": "IA.Trait.Anima",
+            "description": "IA.TraitDescription.Anima"
+          },
           "artifex": {
             "label": "IA.Trait.Artifex",
             "description": "IA.TraitDescription.Artifex"
@@ -448,6 +452,10 @@
             "label": "IA.Trait.Catalyze1",
             "description": "IA.TraitDescription.Catalyze1"
           },
+          "charge": {
+            "label": "IA.Trait.Charge",
+            "description": "IA.TraitDescription.Charge"
+          },
           "chimerian": {
             "label": "IA.Trait.Chimerian",
             "description": "IA.TraitDescription.Chimerian"
@@ -467,6 +475,10 @@
           "dervish": {
             "label": "IA.Trait.Dervish",
             "description": "IA.TraitDescription.Dervish"
+          },
+          "discharge": {
+            "label": "IA.Trait.Discharge",
+            "description": "IA.TraitDescription.Discharge"
           },
           "diviner": {
             "label": "IA.Trait.Diviner",
@@ -515,6 +527,10 @@
           "pinotr": {
             "label": "IA.Trait.Pinotr",
             "description": "IA.TraitDescription.Pinotr"
+          },
+          "runic": {
+            "label": "IA.Trait.Runic",
+            "description": "IA.TraitDescription.Runic"
           },
           "sapien": {
             "label": "IA.Trait.Sapien",
@@ -566,6 +582,10 @@
             "label": "IA.Trait.Chaos",
             "description": "IA.TraitDescription.Chaos"
           },
+          "charge": {
+            "label": "IA.Trait.Charge",
+            "description": "IA.TraitDescription.Charge"
+          },
           "constellation": {
             "label": "IA.Trait.Constellation",
             "description": "IA.TraitDescription.Constellation"
@@ -582,6 +602,10 @@
             "label": "IA.Trait.Dervish",
             "description": "IA.TraitDescription.Dervish"
           },
+          "discharge": {
+            "label": "IA.Trait.Discharge",
+            "description": "IA.TraitDescription.Discharge"
+          },
           "diviner": {
             "label": "IA.Trait.Diviner",
             "description": "IA.TraitDescription.Diviner"
@@ -590,6 +614,18 @@
             "label": "IA.Trait.Drachiri",
             "description": "IA.TraitDescription.Drachiri"
           },
+          "ether": {
+            "label": "IA.Trait.Ether",
+            "description": "IA.TraitDescription.Ether"
+          },
+          "mana": {
+            "label": "IA.Trait.Mana",
+            "description": "IA.TraitDescription.Mana"
+          },
+          "manafont": {
+            "label": "IA.Trait.Manafont",
+            "description": "IA.TraitDescription.Manafont"
+          },
           "meditation": {
             "label": "IA.Trait.Meditation",
             "description": "IA.TraitDescription.Meditation"
@@ -597,6 +633,10 @@
           "order": {
             "label": "IA.Trait.Order",
             "description": "IA.TraitDescription.Order"
+          },
+          "runic": {
+            "label": "IA.Trait.Runic",
+            "description": "IA.TraitDescription.Runic"
           },
           "telluric": {
             "label": "IA.Trait.Telluric",

@@ -33,6 +33,7 @@
       "value": [
         "concentrate",
         "focus",
+        "manafont",
         "manipulate"
       ],
       "rarity": "uncommon",
@@ -81,9 +82,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.J0XR8dPoWRMTKyAq",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "_id": "J0XR8dPoWRMTKyAq",

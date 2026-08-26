@@ -21,7 +21,7 @@
       "otherTags": [],
       "value": [
         "focus",
-        "wizard"
+        "manafont"
       ],
       "rarity": "uncommon",
       "traditions": []
@@ -69,9 +69,9 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.spells-srd.Item.LoBjvguamA12iyW0",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "ownership": {

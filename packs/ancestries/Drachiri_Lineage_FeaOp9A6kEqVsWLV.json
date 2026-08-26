@@ -8,12 +8,30 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">Draichsar are strongly dependent on the lineages of the matron or patron drachiri that incubated them as an egg. @UUID[Compendium.immortal-ardor.ancestries.SLafrzEYuatDDJfW]{Drachiri Benefactor}. If you have a Benefactor already, you can choose the same one and gain another trait you do not have.</p>"
+      "value": "<p class=\"MsoNormal\">Draichsar are strongly dependent on the lineages of the matron or patron drachiri that incubated them as an egg. @UUID[Compendium.immortal-ardor.ancestries.SLafrzEYuatDDJfW]{Drachiri Benefactor}. If you have a Benefactor already, you can choose the same one and gain another trait you do not have. You gain resistance equal to half your level to your attuned element.</p>"
     },
     "rules": [
       {
         "key": "GrantItem",
         "uuid": "Compendium.immortal-ardor.ancestries.Item.SLafrzEYuatDDJfW"
+      },
+      {
+        "key": "Resistance",
+        "value": "@actor.level/2",
+        "type": "{actor|flags.system.drachiriBenefactor.damageType}",
+        "predicate": [
+          {
+            "not": "feat:exemplary-qualities"
+          }
+        ]
+      },
+      {
+        "key": "Resistance",
+        "value": "@actor.level",
+        "type": "{actor|flags.system.drachiriBenefactor.damageType}",
+        "predicate": [
+          "feat:exemplary-qualities"
+        ]
       }
     ],
     "slug": "drachiri-lineage",

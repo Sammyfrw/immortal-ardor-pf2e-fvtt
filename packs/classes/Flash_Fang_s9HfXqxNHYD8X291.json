@@ -18,6 +18,7 @@
       "otherTags": [],
       "value": [
         "dervish",
+        "fighter",
         "flourish"
       ],
       "rarity": "common"
@@ -55,9 +56,9 @@
   "_stats": {
     "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
     "duplicateSource": "Item.buI0mnOiaIoUEcep",
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "_id": "s9HfXqxNHYD8X291",

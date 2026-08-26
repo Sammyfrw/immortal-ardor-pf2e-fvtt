@@ -1,0 +1,85 @@
+{
+  "folder": "dHGPQsHjyz995hKn",
+  "name": "Static Conduit",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You supercharge yourself with your aspect, turning yourself into a conduit. You enter Storm Surge stance if you aren’t already in that stance, but instead emit 10 feet of bright light and 20 feet of dim light. In addition, you gain resistance to your aspect’s damage type equal to half your level and your melee strikes with the required weapon deals additional damage equal to your weapon’s number of damage dice of your aspect’s damage type. If you use a Discharge action and it involves a melee strike, you deal double the number of damage dice instead.</p><p>@UUID[Compendium.immortal-ardor.archetypes.BVo5JoAfyKRy8cAw]{Effect: Static Conduit}</p>"
+    },
+    "rules": [],
+    "slug": "static-conduit",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "charge",
+        "concentrate",
+        "ether",
+        "focus",
+        "manafont"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute or until you Discharge",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/lightning/bolt-beam-strike-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "JBqC5hH4X8e75ZMW",
+  "sort": 0,
+  "_key": "!items!JBqC5hH4X8e75ZMW"
+}

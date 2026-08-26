@@ -60,11 +60,7 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "Exemplary Qualities"
-        }
-      ]
+      "value": []
     },
     "location": null,
     "subfeatures": {

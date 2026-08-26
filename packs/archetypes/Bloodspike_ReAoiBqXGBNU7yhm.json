@@ -22,6 +22,7 @@
       "value": [
         "concentrate",
         "focus",
+        "manafont",
         "manipulate"
       ],
       "rarity": "rare",
@@ -95,9 +96,9 @@
   "_stats": {
     "compendiumSource": "Actor.jWSCUAIpmfxW5LcC.Item.0Goi2jPNLZeUQFSs",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 100000,

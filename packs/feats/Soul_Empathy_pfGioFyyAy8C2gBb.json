@@ -27,7 +27,7 @@
       "value": [
         "manafont"
       ],
-      "rarity": "uncommon"
+      "rarity": "rare"
     },
     "publication": {
       "title": "Immortal Ardor",
@@ -64,9 +64,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.pfGioFyyAy8C2gBb",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 1200000,

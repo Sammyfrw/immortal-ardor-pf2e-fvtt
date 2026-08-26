@@ -1,0 +1,82 @@
+{
+  "folder": "jpFu5Lzg5oVfBRNs",
+  "name": "Tidal Zone",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are in Storm Surge Stance.</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You gather the forces of water and swing in a large circle around you, conjuring a whirlpool of water that carries you effortlessly to your targets. Water erupts in a 30-foot emanation around you, and its waves propel you towards a creature within the emanation, allowing you to Strike them. The waves can carry you to another creature to Strike up to two more times, each time targeting a different creature within the emanation. </span>You do not increase your multi-attack penalty until after all of your Strikes are made.</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">After you’ve made your Strikes, the whirlpool of water roils and tries to throw your opponents off-balance. Enemies of your choice in the emanation must make a Fortitude save, and creatures you have struck treat their outcome as one degree of success worse. On a failed save, you can move a creature up to 10 feet within the emanation, but on a critical failure, you can either knock them prone or move them anywhere else within the emanation.</span></p>"
+    },
+    "rules": [],
+    "slug": "tidal-zone",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "discharge",
+        "ether",
+        "flourish",
+        "move",
+        "water"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Arcblade Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "YTOY20JMxVYdhxl6",
+  "sort": 50000,
+  "_key": "!items!YTOY20JMxVYdhxl6"
+}

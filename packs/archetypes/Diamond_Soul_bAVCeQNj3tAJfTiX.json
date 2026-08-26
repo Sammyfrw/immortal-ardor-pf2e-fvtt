@@ -20,6 +20,7 @@
         "ascended",
         "concentrate",
         "focus",
+        "manafont",
         "manipulate"
       ],
       "rarity": "rare",
@@ -64,9 +65,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": {
       "worldId": "seekers-of-ardor",
       "uuid": null,

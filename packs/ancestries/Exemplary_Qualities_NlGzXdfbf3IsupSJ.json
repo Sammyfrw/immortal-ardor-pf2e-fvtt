@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You exhibit the qualities of your drachiri benefactor, as per the Drachiri Benefactor table. </span>When you gain this feat, you gain a new trait from your Benefactor you do not have.<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> As described in @UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.T8JnPSTdBowegkTJ#playing-draconic-characters]{playing draconic characters}, you can attune to a different elemental trait you have each day during your daily preparations, or if you take ten minutes to meditate upon it.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can take this feat multiple times; each time you do, you add a new trait from your chosen Benefactor’s Elements &amp; Energies column that you do not have.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You manifest more qualities from your benefactor. When you gain this feat, you gain a new trait from your Benefactor you do not have, allowing you to attune to it. Your Drachiri Lineage feature's resistance for your attuned element becomes equal to your level. </span></p>"
     },
     "rules": [
       {
@@ -39,7 +39,7 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 9
     },
     "category": "ancestry",
     "onlyLevel1": false,

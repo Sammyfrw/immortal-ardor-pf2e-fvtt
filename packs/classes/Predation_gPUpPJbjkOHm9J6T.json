@@ -48,7 +48,8 @@
         "damageType": "bleed",
         "predicate": [
           "item:trait:anima",
-          "improved-manifestation:predation"
+          "improved-manifestation:predation",
+          "predation"
         ]
       }
     ],

@@ -21,6 +21,7 @@
         "concentrate",
         "focus",
         "incarnate",
+        "manafont",
         "manipulate"
       ],
       "rarity": "rare",
@@ -107,9 +108,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.R4QC56Y0g9qszgho",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 100000,

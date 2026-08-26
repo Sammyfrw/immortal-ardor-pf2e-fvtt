@@ -25,6 +25,7 @@
       "otherTags": [],
       "value": [
         "focus",
+        "manafont",
         "manipulate"
       ],
       "rarity": "uncommon",
@@ -117,9 +118,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.1MsSIas0HPgr4li8",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "_id": "1MsSIas0HPgr4li8",
