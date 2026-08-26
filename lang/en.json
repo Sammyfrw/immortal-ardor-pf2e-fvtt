@@ -287,6 +287,19 @@
           }
         }
       },
+      "Archetypes": {
+        "Arcblade": {
+          "WeaponGroups": {
+            "MartialArcbladeWeapons": "Martial Arcblade Weapons",
+            "AdvancedArcbladeWeapons": "Advanced Arcblade Weapons"
+          },
+          "Aspects": {
+            "SelectAspectPrompt": "Select an Aspect of the Storm.",
+            "TidesLabel": "Aspect of Tides",
+            "SkiesLabel": "Aspect of Skies"
+          }
+        }
+      },
       "Dervish": {
         "Zeal": {
           "GainLabel": "Zeal Gain",

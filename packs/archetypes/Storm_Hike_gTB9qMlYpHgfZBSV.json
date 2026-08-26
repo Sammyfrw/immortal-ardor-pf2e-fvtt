@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are in @UUID[Compendium.immortal-ardor.archetypes.vNck1Oor9udzoSRj]{Storm Surge Stance}</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your aerial control grants you greater movements. When you take this feat, you gain the Cat Fall skill feat. If you already have the Cat Fall skill feat, you gain the Rolling Landing skill feat instead.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">While in your stance, if you have the Aspect of Skies, at any point after a Leap before you touch the ground, you can Leap again with an action as your motes propel you further with stormy winds. If you have the Aspect of Tides, your motes instead form a bed of water to dampen your fall as if you intentionally dove in to a 30 foot deep pool of water.</span></p>"
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are in @UUID[Compendium.immortal-ardor.archetypes.vNck1Oor9udzoSRj]{Storm Surge Stance}</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your aerial control grants you greater movements. While in your stance, </span><span>you can move 5 feet further or 3 feet higher when you Leap. You do not trigger reactions when you move through the air or land as part of a Leap (though you trigger reactions normally when you begin the Leap).</span></p><p class=\"MsoNormal\">While in the stance, <span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">if you have the @UUID[Compendium.immortal-ardor.archetypes.8ad23sFdfBpqwklz]{Aspect of Skies}, </span><span>at any point after a Leap before you touch the ground, </span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">you can take a second action to Leap again as your motes propel you further with stormy winds. If you have the @UUID[Compendium.immortal-ardor.archetypes.pid3Nv3o23ilx3n6]{Aspect of Tides}, as you fall, your motes instead automatically form a bed of water to dampen your fall as if you intentionally dove in to a 30 foot deep pool of water; you can use a reaction to similarly direct your motes on a falling creature within 60 feet of you to grant them this benefit.</span></p>"
     },
     "rules": [],
     "slug": "storm-hike",
@@ -35,7 +35,7 @@
     "level": {
       "value": 4
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {

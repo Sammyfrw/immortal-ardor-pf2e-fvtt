@@ -35,7 +35,7 @@
     "level": {
       "value": 4
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {

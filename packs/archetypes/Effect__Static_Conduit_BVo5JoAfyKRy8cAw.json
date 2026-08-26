@@ -8,7 +8,54 @@
       "gm": "",
       "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.JBqC5hH4X8e75ZMW]{Static Conduit}</p><p>You emit 10 feet of bright light and 20 feet of dim light. In addition, you gain resistance to your aspect’s damage type equal to half your level and your melee strikes with the required weapon deals additional damage equal to your weapon’s number of damage dice of your aspect’s damage type. If you use a Discharge action and it involves a melee strike, you deal double the number of damage dice instead.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 20,
+          "bright": 10,
+          "color": "#94b4ff"
+        }
+      },
+      {
+        "key": "Resistance",
+        "value": "max(floor(@actor.level/2),1)",
+        "type": "cold",
+        "predicate": [
+          "feature:aspect-of-tides"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "value": "max(floor(@actor.level/2),1)",
+        "type": "electricity",
+        "predicate": [
+          "feature:aspect-of-skies"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "strike-damage"
+        ],
+        "value": "@weapon.system.damage.dice",
+        "damageType": "cold",
+        "predicate": [
+          "feature:aspect-of-tides"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "strike-damage"
+        ],
+        "value": "@weapon.system.damage.dice",
+        "damageType": "electricity",
+        "predicate": [
+          "feature:aspect-of-skies"
+        ]
+      }
+    ],
     "slug": "effect-static-conduit",
     "_migration": {
       "version": 0.959,

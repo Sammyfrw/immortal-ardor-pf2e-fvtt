@@ -8,7 +8,21 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\">Granted by @UUID[Compendium.immortal-ardor.archetypes.vNck1Oor9udzoSRj]{Storm Surge Stance}</p><p class=\"MsoNormal\"><span>In this state, you can channel the aspect through your weapon and body. While in this form, you emit a glow of dim light up to 5 feet, and you can perform High Jump and Long Jump actions with Acrobatics and Tumble Through and Maneuver in Flight with Athletics.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 5,
+          "bright": 0,
+          "color": "#94b4ff"
+        },
+        "predicate": [
+          {
+            "not": "self:effect:static-conduit"
+          }
+        ]
+      }
+    ],
     "slug": "stance-storm-surge-stance",
     "_migration": {
       "version": 0.959,

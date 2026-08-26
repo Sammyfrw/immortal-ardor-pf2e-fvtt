@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are in Storm Surge Stance and are benefiting from Static Conduit.</p><p><strong>Frequency</strong> Once per day</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You hold so much power within you that you can release it in massive amounts. You use two Arcblade actions of your choice with the Discharge trait in succession; these can be the same or different actions. You only Discharge and end your stance at the end of the second action, and you can ignore the Flourish trait for the action if it has that trait. For any Strikes made as part of Double Discharge, you make these attacks as if you had only made one attack this round.</span></p>"
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are in @UUID[Compendium.immortal-ardor.archetypes.vNck1Oor9udzoSRj]{Storm Surge Stance} and are benefiting from @UUID[Compendium.immortal-ardor.archetypes.JBqC5hH4X8e75ZMW]{Static Conduit}.</p><p><strong>Frequency</strong> Once per day</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You hold so much power within you that you can release it in massive amounts. You use two Arcblade actions of your choice with the Discharge trait in succession; these can be the same or different actions. You only Discharge and end your stance at the end of the second action, and you can ignore the Flourish trait for the action if it has that trait. For any Strikes made as part of Double Discharge, you make these attacks as if you had only made one attack this round.</span></p>"
     },
     "rules": [],
     "slug": "double-discharge",
@@ -35,7 +35,7 @@
     "level": {
       "value": 18
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {

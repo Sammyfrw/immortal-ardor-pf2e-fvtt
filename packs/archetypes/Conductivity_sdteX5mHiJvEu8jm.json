@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger</strong> You land a critical hit on a creature, or you take damage.</p><hr><p>You are perpetually building charge on yourself, so that when adrenaline hits you mid combat, you can channel your aspect. You enter Storm Surge Stance. You can enter the stance even if you aren’t in a state of heightened power, but you must acquire the state by the end of your turn to remain in the stance.</p>"
+      "value": "<p><strong>Trigger</strong> You land a critical hit on a creature, or you take damage.</p><hr><p>You are perpetually building charge on yourself, so that when adrenaline hits you mid combat, you can channel your aspect. You enter @UUID[Compendium.immortal-ardor.archetypes.YuGGBsR7zotqRx7C]{Stance: Storm Surge Stance}. You can enter the stance even if you aren’t in a state of heightened power, but you must acquire the state by the end of your turn to remain in the stance.</p>"
     },
     "rules": [],
     "slug": "conductivity",
@@ -36,7 +36,7 @@
     "level": {
       "value": 8
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {

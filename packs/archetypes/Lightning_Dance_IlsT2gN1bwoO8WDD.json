@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are in @UUID[Compendium.immortal-ardor.archetypes.vNck1Oor9udzoSRj]{Storm Surge Stance}</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You perform a defensive battle dance to rebuff and parry attacks, whirling in place with your motes. You grant yourself a +2 circumstance bonus to your AC until the start of your next turn. If you are wielding a weapon with the parry trait, you can use this action without needing to be in Storm Surge Stance.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">While your stance and are dancing, your aspects confer an additional benefit if a creature attempts an attack against you. If you have the Aspect of Skies you can choose retaliate with a shock of lightning, dealing electricity damage equal to half your level. If you have the Aspect of Tides, you can choose to Step after the attack as water carries you away from harm. After using this benefit, you cease dancing.</span></p>"
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are in @UUID[Compendium.immortal-ardor.archetypes.vNck1Oor9udzoSRj]{Storm Surge Stance}</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You perform a defensive battle dance to rebuff and parry attacks, whirling in place with your motes. You grant yourself a +2 circumstance bonus to your AC until the start of your next turn. If you are wielding a weapon with the parry trait, you can use this action without needing to be in Storm Surge Stance.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">While you are in your stance and are dancing, your aspects confer an additional benefit if a creature attempts an attack against you. If you have the @UUID[Compendium.immortal-ardor.archetypes.8ad23sFdfBpqwklz]{Aspect of Skies} you can choose retaliate with a shock of lightning, dealing @Damage[(max(floor(@actor.level/2),1))[electricity]] damage equal to half your level. If you have the @UUID[Compendium.immortal-ardor.archetypes.pid3Nv3o23ilx3n6]{Aspect of Tides}, you can choose to @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Step} after the attack as water carries you away from harm. After using this benefit, you cease dancing.</span></p><p>@UUID[Compendium.immortal-ardor.archetypes.cyIQX3fnM3gMzFiz]{Effect: Lightning Dance}</p>"
     },
     "rules": [],
     "slug": "lightning-dance",
@@ -36,7 +36,7 @@
     "level": {
       "value": 4
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -57,6 +57,10 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "selfEffect": {
+      "uuid": "Compendium.immortal-ardor.archetypes.Item.cyIQX3fnM3gMzFiz",
+      "name": "Effect: Lightning Dance"
     }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",

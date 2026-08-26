@@ -1,15 +1,15 @@
 {
   "folder": "jpFu5Lzg5oVfBRNs",
-  "name": "Fury of Lightning",
+  "name": "Static Conduit",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You are a storm incarnate, sudden and quick to power. When you use @UUID[Compendium.immortal-ardor.archetypes.BZELuUd4VBiEspqH]{Surging Guard} or @UUID[Compendium.immortal-ardor.archetypes.sdteX5mHiJvEu8jm]{Conductivity} and enter @UUID[Compendium.immortal-ardor.archetypes.vNck1Oor9udzoSRj]{Storm Surge Stance}, you can immediately cast @UUID[Compendium.immortal-ardor.archetypes.JBqC5hH4X8e75ZMW]{Static Conduit} as part of the action.</span></p>"
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You have the control needed to channel an even greater amount of your storm’s aspect through your body. You learn the @UUID[Compendium.immortal-ardor.archetypes.JBqC5hH4X8e75ZMW]{Static Conduit} focus spell.</span></p>"
     },
     "rules": [],
-    "slug": "fury-of-lightning",
+    "slug": "static-conduit",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -21,7 +21,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "archetype"
+        "archetype",
+        "ether"
       ],
       "rarity": "common"
     },
@@ -32,7 +33,7 @@
       "remaster": true
     },
     "level": {
-      "value": 18
+      "value": 12
     },
     "category": "class",
     "onlyLevel1": false,
@@ -46,10 +47,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Static Conduit"
-        },
-        {
-          "value": "Surging Guard or Conductivity"
+          "value": "Arcblade Dedication"
         }
       ]
     },
@@ -74,7 +72,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "hCSmf4DI5CEcwhO7",
+  "_id": "QeOMfXLFSUlMHZ8u",
   "sort": 0,
-  "_key": "!items!hCSmf4DI5CEcwhO7"
+  "_key": "!items!QeOMfXLFSUlMHZ8u"
 }
