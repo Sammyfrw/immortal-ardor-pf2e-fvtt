@@ -1,6 +1,6 @@
 {
   "_id": "DVeFVcVwvnanCLnW",
-  "name": "Innvervation",
+  "name": "Innvervate Ether",
   "type": "action",
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
@@ -24,6 +24,7 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "ether",
         "manafont"
       ]
     },
@@ -40,17 +41,21 @@
     "actions": {
       "value": 1
     },
-    "deathNote": false
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
   },
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.DVeFVcVwvnanCLnW",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 400000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

@@ -9,7 +9,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can scavenge almost any natural object as a wellspring of latent ether, as well as imbued wands for its power. You can add wands as items you can use for Spell Catalyst. When you do, the wand’s charge must not have been spent yet, and you can use the wand’s spell to check for qualifying traits. When you use the wand as a catalyst, instead of becoming deaspected, the wand loses its charge as if it had been used for the day.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Finally, you gain the @UUID[Compendium.immortal-ardor.feats.Item.V8pqHynVScoLlQ2j]{Component Scavenger} free action</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can scavenge almost any natural object as a wellspring of latent ether, as well as imbued wands for its power. You can add wands as items you can use for @UUID[Compendium.immortal-ardor.feats.l3ecoYD2MwGUJhaa]{Spell Catalyst}. When you do, the wand’s charge must not have been spent yet, and you can use the wand’s spell to check for qualifying traits. When you use the wand as a catalyst, instead of becoming deaspected, the wand loses its charge as if it had been used for the day.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Finally, you gain the @UUID[Compendium.immortal-ardor.feats.3jVF7GYzXpbV2eMQ]{Spell Scavenger} free action.</span></p>"
     },
     "rules": [],
     "slug": "component-scavenger",
@@ -23,7 +23,10 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "aetherfont-feat",
+        "evoker-feat"
+      ],
       "value": [
         "manafont"
       ],
@@ -38,7 +41,7 @@
     "level": {
       "value": 15
     },
-    "category": "ancestryfeature",
+    "category": "general",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -64,9 +67,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.V8pqHynVScoLlQ2j",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 600000,

@@ -81,7 +81,7 @@
       "Lucid": "Lucid",
       "Lyncan": "Lyncan",
       "Mana": "Mana",
-      "Manafont": "Manafont",
+      "Aetherfont": "Aetherfont",
       "Marine": "Marine",
       "Meal": "Meal",
       "Meditation": "Meditation",
@@ -108,6 +108,7 @@
       "Zenith": "Zenith"
     },
     "TraitDescription": {
+      "Aetherfont": "Options with the aetherfont trait pertain to a creature's aetherfont, or manatype. These options determine or unlock new ways for how a creature can use ether, which can include Aetherfont actions, archetypes, and their spells, all of which use ether.",
       "Artifex": "This indicates abilities from the Artifex class.",
       "Aelkhazak": "A creature with this trait is a member of the aelkhazak ancestry. These snake-like creatures come from aquatic environments, but are capable of inhabiting land.",
       "Anima": "An option with the Anima trait relates to the natural power inherrent in the soul or a similar magical force that animates a nonliving creature such as a construct or undead. Anima spells or abilities come naturally to some creatures, while others either create facsimiles or borrow it from these creatures. They are almost always affiliated with the origin creature's family.",
@@ -144,7 +145,6 @@
       "Lucid": "Actions with the lucid trait are those that are taken by figmentary creatures, typically those aligned or temporarily passing through the astral planes. A creature can only take one Lucid action each turn.",
       "Lyncan": "A creature with this trait is a member of the lyncan ancestry. These magically infused feline humanoids are said to have been created through a world-wide cascade of transformative magic on Ardor's feline animals, and are always trying to find their place in the world that perceives them in wildly different ways.",
       "Mana": "An option with the Mana trait relates to the astral powers of creation or oblivion prevalent in the astral planes. Typically, denizens of the astral planes have natural access to Mana, and it is their equivalent of Ether. Most options with the Ether trait are replaced with the Mana trait for these denizens if they gain access to it.",
-      "Manafont": "Options with the manafont trait pertain to a creature's manafont, or manatype. These options determine or unlock new ways for how a creature can use ether, which can include Manafont actions, archetypes, and their spells, all of which use ether.",
       "Marine": "A weapon with the Marine trait functions well in aquatic environments. It ignores typical limitations of attacking in water for weapons of its kind or damage types. At a GM's discretion, this can apply to other places where gravity or pressure is different, as well.",
       "Meal": "Items with the meal trait are consumables that are crafted with Cooking Lore or Survival. They confer benefits that grant item bonuses, or increase existing item bonuses. These effects last 24 hours, until the next daily preparations, or until another meal is consumed.",
       "Meditation": "A spell with the Meditation trait means that you must have Zeal to Sustain it. Typically, casting a Meditation spell grants you Zeal, and they grant a series of actions you can take when you Cast or Sustain the spell, called Recitations. If you lose your Zeal, the spell immediately ends.",
@@ -219,6 +219,26 @@
         "Ebony": "Ebony",
         "Violet": "Violet",
         "Ochre": "Ochre"
+      },
+      "Aetherfonts": {
+        "SelectionPrompt": "Select an Aetherfont",
+        "EnforcerLabel": "Enforcer",
+        "EnforcerRefocusDescription": "When Enforcers refocus, they usually practice physical or mental exertion for the approximate duration of Refocus in relation to their source of their focus points. Upon refocusing, they return to 1 focus point. If you select a feat that improves your Refocus, you can gain up to 3 focus points in a single turn.",
+        "ReaverLabel": "Reaver",
+        "ReaverRefocusDescription": "When Reavers refocus, they incorporate various deeds as part of their Refocus. Depending on circumstance, these may require skill checks. If they have ready access to any source for their focus points, they are free to perform other activities during the ten-minute period. At the end of the activity, they gain 1 focus point. If you select a feat that improves your Refocus, you can gain an additional focus point in the ten-minute period by doubling up on an activity or performing multiple activities.",
+        "InvokerLabel": "Invoker",
+        "InvokerRefocusDescription": "When Invokers refocus, they spend ten minutes recovering their magical connection in an activity that is appropriate to their source of their focus spells or magic. These deeds can usually overlap with other tasks that relate to the source of your focus spells. For instance, a cleric can usually Refocus while tending the wounds of their allies, and a wizard might be able to Refocus while attempting to Identify Magic. At the end of this period, they recover 1 focus point and enter a state of @UUID[Compendium.immortal-ardor.feats.Item.4XSYk2WQYoTODUG4]{Clarity}. If you take a feat to improve your Refocus, you recover all your focus points within the ten-minute period.",
+        "InvokerConserveEtherDescription": "Whenever you use your focus points, you can roll a @Check[flat|dc:16]check. On a success, you retain one focus point.",
+        "EvokerLabel": "Evoker",
+        "EvokerRefocusDescription": "Evokers do not need to perform dedicated activities to Refocus as their bodies naturally take trace amounts of ether from the world around them. As long as they do not perform any strenuous activity such as combat, heavy travel or spellcasting, they are able to perform any other Exploration activity as part of their Refocus, regardless of their source of focus spells. At the end of a ten-minute period of these light activities, they regain one focus point.",
+        "EvokerSpellCatalystDescription": "You can use items and components that possess a suitable amount of ether to help charge your spell. To qualify, the consumable item must possess at least one trait that matches the spell being cast that is not concentrate, manipulate or a spell tradition trait, or the item interacts specifically with the spell. You negate 1 point of the focus point cost. This consumes, uses, or activates the item, whichever applies. If the item can be used as part of the spell, such as a qualifying catalyst for the spell it is made for, the spell still benefits from the catalyst’s effects.",
+        "EvokerSpellScavengerDescription": "Improvising on the fly, you can use natural items or nearby terrain as a source of ether. You use the object or terrain to negate one point of the focus point cost of the triggering spell.",
+        "EmptyLabel": "Empty",
+        "EmptyEmptyResiliencePrompt": "Select a benefit for Empty Resilience.",
+        "EmptyEmptyResilienceResolvePointLabel": "Resolve Point",
+        "EmptyEmptyResilienceAttributeLabel": "Attribute Boost",
+        "EmptyEmptyResilienceAttributePrompt": "Select an attribute boost.",
+        "Asterbound": "Aster-bound"
       },
       "Ancestries": {
         "Aelkhazak": {

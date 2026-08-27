@@ -5,13 +5,13 @@
   "type": "Item",
   "_id": "dYFsDc53urGscphr",
   "description": "",
-  "sort": 700000,
+  "sort": 800000,
   "color": null,
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "6.9.0",
     "exportSource": null

@@ -1,18 +1,23 @@
 {
-  "_id": "22ClXN69eHZzKgHM",
-  "name": "Invoke Self",
+  "_id": "3KKQqzNBAHHV3dH2",
+  "name": "Component Catalyst",
   "type": "feat",
-  "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+  "img": "icons/containers/bags/sack-simple-leather-teal.webp",
   "effects": [],
   "folder": "MJ3Wppz7DnV8a1wT",
   "flags": {},
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Through meditative breathing or an intense, trained focus, you can access the deep reserves of ether within. You gain the @UUID[Compendium.immortal-ardor.feats.Item.AdJ7xDrhEjpP6zn0]{Invoke Self} action.</span></p>"
+      "value": "<p>You are able to make greater use of spell components than other manafonts, drawing out the prime elements of the world from them. You learn the @UUID[Compendium.immortal-ardor.feats.Item.l3ecoYD2MwGUJhaa]{Spell Catalyst} free action.<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> </span></p>"
     },
-    "rules": [],
-    "slug": "invoke-self",
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.feats.Item.l3ecoYD2MwGUJhaa"
+      }
+    ],
+    "slug": "component-catalyst",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -23,7 +28,10 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "aetherfont-feat",
+        "evoker-feat"
+      ],
       "value": [
         "manafont"
       ],
@@ -36,9 +44,9 @@
       "remaster": true
     },
     "level": {
-      "value": 5
+      "value": 3
     },
-    "category": "ancestryfeature",
+    "category": "general",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -50,7 +58,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Invoker Manafont"
+          "value": "Evoker Manafont"
         }
       ]
     },
@@ -62,18 +70,18 @@
     }
   },
   "_stats": {
-    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.22ClXN69eHZzKgHM",
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.3KKQqzNBAHHV3dH2",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 900000,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,
     "xrtJn5KNHicBTyJb": 3
   },
-  "_key": "!items!22ClXN69eHZzKgHM"
+  "_key": "!items!3KKQqzNBAHHV3dH2"
 }

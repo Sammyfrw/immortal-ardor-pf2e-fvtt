@@ -9,7 +9,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You are able to energize the ether within you and around you, flaring it up for your immediate use. You gain the @UUID[Compendium.immortal-ardor.feats.Item.DVeFVcVwvnanCLnW]{Innvervation} action.</p>"
+      "value": "<p>You are able to energize the ether within you and around you, flaring it up for your immediate use. You gain the @UUID[Compendium.immortal-ardor.feats.Item.DVeFVcVwvnanCLnW]{Innvervate Ether} action.</p>"
     },
     "rules": [],
     "slug": "innervation",
@@ -23,7 +23,10 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "aetherfont-feat",
+        "enforcer-feat"
+      ],
       "value": [
         "manafont"
       ],
@@ -38,7 +41,7 @@
     "level": {
       "value": 15
     },
-    "category": "ancestryfeature",
+    "category": "general",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {

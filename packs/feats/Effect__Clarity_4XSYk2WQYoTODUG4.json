@@ -1,6 +1,6 @@
 {
   "_id": "4XSYk2WQYoTODUG4",
-  "name": "Effect: Clear Mind",
+  "name": "Effect: Clarity",
   "type": "effect",
   "img": "systems/pf2e/icons/spells/mind-reading.webp",
   "effects": [],
@@ -9,10 +9,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": ""
+      "value": "<p>Granted by the @UUID[Compendium.immortal-ardor.feats.cz5agwtxRqBCrvQK]{Invoker} feature and its feats.</p><p>Anytime you would spend a focus point, Clarity is used in place of the focus point, and this effect ends.</p>"
     },
     "rules": [],
-    "slug": "effect-clear-mind",
+    "slug": "effect-clarity",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -57,9 +57,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.4XSYk2WQYoTODUG4",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 0,

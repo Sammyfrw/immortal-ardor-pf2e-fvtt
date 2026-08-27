@@ -9,10 +9,25 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "\n<p>Your capacity to retain your wellspring of ether has grown substantially more powerful. Whenever you use your focus points, you can roll a flat DC16 check. On a success, you retain one focus point. In addition, you can use Invoke Self again after you Refocus or once per hour, whichever comes first.</p>"
+      "value": "<p>Your capacity to retain your wellspring of ether has grown substantially more powerful. Whenever you use your focus points, you can roll a @Check[flat|dc:16]. On a success, you retain one focus point. In addition, you can use Invoke Self again after you Refocus or once per hour, whichever comes first.</p>"
     },
-    "rules": [],
-    "slug": null,
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "spell",
+        "property": "description",
+        "mode": "add",
+        "value": [
+          {
+            "text": "IA.SpecificRule.Aetherfonts.InvokerConserveEtherDescription"
+          }
+        ],
+        "predicate": [
+          "item:trait:focus"
+        ]
+      }
+    ],
+    "slug": "conserve-ether",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -23,7 +38,10 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "aetherfont-feat",
+        "invoker-feat"
+      ],
       "value": [
         "manafont"
       ],
@@ -38,7 +56,7 @@
     "level": {
       "value": 15
     },
-    "category": "ancestryfeature",
+    "category": "general",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -51,6 +69,9 @@
       "value": [
         {
           "value": "Invoker Manafont"
+        },
+        {
+          "value": "Conserved Clarity"
         }
       ]
     },

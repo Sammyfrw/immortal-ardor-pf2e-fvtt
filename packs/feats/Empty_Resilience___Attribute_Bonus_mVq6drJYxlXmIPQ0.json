@@ -1,0 +1,111 @@
+{
+  "name": "Empty Resilience - Attribute Bonus",
+  "type": "feat",
+  "img": "icons/magic/life/cross-yellow-green.webp",
+  "effects": [],
+  "folder": "MJ3Wppz7DnV8a1wT",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As an Empty, you push your body farther than most. You gain either 1 additional Resolve Point, or gain an additional attribute bonus. This attribute bonus is in addition to and separate from the set of attribute bonuses you gain from your revels. Regardless of your choice, you also gain a skill increase to a skill you have. You must meet the level requirements to increase a skill to a new proficiency tier.</p><p class=\"MsoNormal\">You can take this feat again at 7th, 11th, and 15th level.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Strength",
+            "value": "system.abilities.str.mod"
+          },
+          {
+            "label": "Dexterity",
+            "value": "system.abilities.dex.mod"
+          },
+          {
+            "label": "Constitution",
+            "value": "system.abilities.con.mod"
+          },
+          {
+            "label": "Intelligence",
+            "value": "system.abilities.int.mod"
+          },
+          {
+            "label": "Wisdom",
+            "value": "system.abilities.wis.mod"
+          },
+          {
+            "label": "Charisma",
+            "value": "system.abilities.cha.mod"
+          }
+        ],
+        "prompt": "IA.SpecificRule.Aetherfonts.EmptyEmptyResilienceAttributePrompt",
+        "flag": "emptyResilienceAttributeMod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "{item|flags.system.rulesSelections.emptyResilienceAttributeMod}",
+        "value": 1
+      }
+    ],
+    "slug": "empty-resilience-attribute-bonus",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manafont"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "general",
+    "onlyLevel1": false,
+    "maxTakable": 4,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "mVq6drJYxlXmIPQ0",
+  "sort": 0,
+  "_key": "!items!mVq6drJYxlXmIPQ0"
+}

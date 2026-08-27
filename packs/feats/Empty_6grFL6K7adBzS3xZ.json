@@ -9,9 +9,35 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">Those born without the ability to manipulate ether are called The Empty. These people are brought into a world that has evolved with the use of magic, with large swathes of intricate devices and machinery that are operated by channeling ether and cultures that are reliant on spirits and creatures of the beyond by use of spells.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\">To the Empty, the world is blocked off – and thus they are often relegated to the cracks of society. With little power to their name, and the distinct lack of any of the biology related to any of the other manafonts, they are substantially weaker and vulnerable in a dangerous world. Despite wives-tales and myths of curses, diseases or karmic vengeance, Empty are born everywhere. It is considered a rare condition by doctors, a sign of low birth by socialites, or a maligned fate by religious devotees. Some may be fortunate to have family to look after them, but others are shunned or otherwise uncared for. To survive, Empty must rely on their wits, themselves, and push their physical bodies to their absolute limit – feats that very few are capable of, and even fewer, known for.</p>\n<p class=\"MsoNormal\"> </p>\n<p class=\"MsoNormal\"><u>Playing as an Empty</u></p>\n<p class=\"MsoNormal\">Empty are not able to use focus point features or cast spells, even if their class would normally allow them. They do not have any focus point totals, and are unable to gain any focus points or focus point-reliant powers from their class or other feats. They do not gain any ether feats; instead, when they would normally gain ether feats, they are able to select an additional general or class feat, so long as it does not involve magic, spellcasting or focus points. When they would normally gain manafont features, empty characters can give a bonus to their ability scores instead.</p>\n<p> </p>\n<p>They are immune to effects that would directly target a creature’s ether directly (such as certain Reaver features) or are reliant on them possessing ether.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Those born without the ability to manipulate ether are called Empty. These people are brought into a world that has evolved with the use of magic, with large swathes of intricate devices and machinery that are operated by channeling ether and cultures that are reliant on spirits and creatures of the beyond by use of spells.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">To the Empty, the world is blocked off – and thus they are often relegated to the cracks of society. With little magical power to their name, and the distinct lack of any of the biology related to any of the other manafonts, they are substantially weaker and vulnerable in a dangerous world. Despite wives-tales and myths of curses, diseases or karmic vengeance, Empty are born everywhere. It is considered a rare condition by doctors, a sign of low birth by socialites, or a maligned fate by religious devotees. Some may be fortunate to have family to look after them or are part of cultures that see their birth as a sign of fortune or a blessing, but others are shunned or otherwise uncared for. Prior to the resurgence of archaeotechnology and sygican technology, Empty had to rely on their wits, themselves, their communities. Those who wish to prove themselves had to push their physical bodies to their absolute limit – feats that very few are capable or known for. But now, many have had a chance of a more even playing field, as technology attempts to bridge the gap.</span></p><h2>Playing as an Empty</h2><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Empty can neither gain nor use focus points, and they cannot cast spells, even if their class would normally allow them. They cannot invest in magical items, and they cannot gain any feats or use class features that imply the use of magic. They also cannot be Sanctified.</span></p><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">As they are incapable of using magic and investing in magic items, they are more reliant on Tech items. In most communities that have an Empty or sygican presence, an Empty character would likely have easy access to items with the Tech trait, which would include weapons and armor that do not rely on runes and utilize upgrades instead (see Tech Equipment in the Equipment section of the handbook).</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Conversely, they are immune to effects that would directly target a creature’s ether directly (such as certain Reaver features) or are reliant on them possessing ether or magic in any form. Any attempt or effect that targets their soul or has the Death trait will treat their outcome as one step worse or have the saving throw outcome as one step better, and effects that do so that do not require a saving throw is automatically subject to a counteract check, using their class DC-10 or another appropriate modifier for their level with their half their level rounded down as their counteract rank. This includes effects that would return their soul to their body, such as Raise Dead or the Resurrect ritual, or effects that would consume their soul, such as the Chimerian's Soulreave feature.</span></p><p><span>Despite the drawbacks, it is imperative that the GM gives the person choosing to play an Empty adventurer ample assistance in their background and class during character creation allowing them to compare to adventurers of any other manafont and have fun playing the character. In situations of ambiguity for feats or features, the GM decides whether the feat or feature is usable but the GM should lean towards working with the player to create a non-magical explanation or alternatives, bearing in mind their potential immunities to certain effects.</span></p><h2>Empty Resolve Point Feature</h2><p><span>As their bodies are not as magically empowered the way non-Empty are, Empty characters also have less hit points from their class, instead gaining hit points and stamina points as per the Stamina variant rules of the Gamemastery Guide. They also gain 3 Resolve Points and gain the @UUID[Compendium.immortal-ardor.feats.qc0VsZ0UesnurUUB]{Empty Recovery} activity. Resolve Points can be used for Empty Recovery, but other feats might use Resolve Points as well.</span></p><p>@UUID[Compendium.immortal-ardor.feats.DmcuN1IjLUXVT2rN]{Empty Stamina Points}</p><p></p><table border=\"1\" class=\"pf2e lost-omens\"><thead><tr style=\"text-align:right\"><th data-colwidth=\"198\"><p>Normal Class HP</p></th><th data-colwidth=\"198\"><p>Class Stamina Points</p></th><th data-colwidth=\"186\"><p>Class Hit Points</p></th></tr></thead><tbody><tr><td data-colwidth=\"198\"><p>6 + Con Modifier</p></td><td data-colwidth=\"198\"><p>3 + Con Modifier</p></td><td data-colwidth=\"186\"><p>3</p></td></tr><tr><td data-colwidth=\"198\"><p>8 + Con Modifier</p></td><td data-colwidth=\"198\"><p>4 + Con Modifier</p></td><td data-colwidth=\"186\"><p>4</p></td></tr><tr><td data-colwidth=\"198\"><p>10 + Con Modifier</p></td><td data-colwidth=\"198\"><p>5 + Con Modifier</p></td><td data-colwidth=\"186\"><p>5</p></td></tr><tr><td data-colwidth=\"198\"><p>12 + Con Modifier</p></td><td data-colwidth=\"198\"><p>6 + Con Modifier</p></td><td data-colwidth=\"186\"><p>6</p></td></tr></tbody></table><h2>Empty General Feats</h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">@UUID[Compendium.immortal-ardor.feats.IY7S2J0iPElbWQlc]{Empty Resilience}</span></p><p>@Embed[Compendium.immortal-ardor.feats.IY7S2J0iPElbWQlc inline hr=false]</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.feats.Item.qc0VsZ0UesnurUUB"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.system.emptyResolvePoints.max",
+        "value": "3"
+      },
+      {
+        "key": "SpecialResource",
+        "label": "Resolve Points",
+        "max": "@actor.flags.system.emptyResolvePoints.max",
+        "slug": "empty-resolve-points",
+        "priority": 22
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "hp"
+        ],
+        "value": "-(((@actor.system.attributes.classhp/2)+@actor.system.abilities.con.mod)*@actor.level)",
+        "label": "Empty Hit Points"
+      }
+    ],
     "slug": "empty",
     "_migration": {
       "version": 0.935,
@@ -23,7 +49,9 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "aetherfont"
+      ],
       "value": [
         "manafont"
       ],
@@ -60,9 +88,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.6grFL6K7adBzS3xZ",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 0,

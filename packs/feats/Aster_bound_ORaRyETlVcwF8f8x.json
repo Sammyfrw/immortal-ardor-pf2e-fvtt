@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>This individual is an aster. They have the power to reach into the constellations of Alamein, and call forth its blessings.</p><p>They gain 1 focus point for every Solar or Stardust facet they invest in. </p>"
+      "value": "<p>This is a special aetherfont accessible only to denizens of Alamein. This individual is an aster. They have the power to reach into the constellations of Alamein, and call forth its blessings.</p><p>They can invest in Facets, and gain 1 focus point for every Solar or Stardust facet they invest in.</p>"
     },
     "rules": [],
     "slug": "aster-bound",
@@ -16,8 +16,13 @@
       "previous": null
     },
     "traits": {
-      "otherTags": [],
-      "value": [],
+      "otherTags": [
+        "aetherfont"
+      ],
+      "value": [
+        "constellation",
+        "mana"
+      ],
       "rarity": "uncommon"
     },
     "publication": {
@@ -53,9 +58,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "ownership": {

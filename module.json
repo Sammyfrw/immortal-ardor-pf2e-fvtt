@@ -329,9 +329,9 @@
             "label": "IA.Trait.Lyncan",
             "description": "IA.TraitDescription.Lyncan"
           },
-          "manafont": {
-            "label": "IA.Trait.Manafont",
-            "description": "IA.TraitDescription.Manafont"
+          "aetherfont": {
+            "label": "IA.Trait.Aetherfont",
+            "description": "IA.TraitDescription.Aetherfont"
           },
           "nightmare": {
             "label": "IA.Trait.Nightmare",
@@ -520,9 +520,9 @@
             "label": "IA.Trait.Mana",
             "description": "IA.TraitDescription.Mana"
           },
-          "manafont": {
-            "label": "IA.Trait.Manafont",
-            "description": "IA.TraitDescription.Manafont"
+          "aetherfont": {
+            "label": "IA.Trait.Aetherfont",
+            "description": "IA.TraitDescription.Aetherfont"
           },
           "pinotr": {
             "label": "IA.Trait.Pinotr",
@@ -622,9 +622,9 @@
             "label": "IA.Trait.Mana",
             "description": "IA.TraitDescription.Mana"
           },
-          "manafont": {
-            "label": "IA.Trait.Manafont",
-            "description": "IA.TraitDescription.Manafont"
+          "aetherfont": {
+            "label": "IA.Trait.Aetherfont",
+            "description": "IA.TraitDescription.Aetherfont"
           },
           "meditation": {
             "label": "IA.Trait.Meditation",
