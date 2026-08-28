@@ -1,0 +1,92 @@
+{
+  "img": "systems/pf2e/icons/equipment/weapons/bomb-launcher.webp",
+  "name": "Effect: Fusilier's Launcher",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.dVzf5TTwyi2EkXvm]{Fusilier's Modification}</p><p>The weapon has a portable @UUID[Compendium.pf2e.equipment-srd.ApMC9PSOnj7cPAGL]{Bomb Launcher} attached. As a result, the weapon is required to be held in two hands, its bulk is increased by 1, and gainst he Adjustment trait, but you can use it while wielding the weapon.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "actorFlag": true,
+        "choices": {
+          "ownedItems": true,
+          "predicate": [
+            {
+              "or": [
+                "item:ranged"
+              ]
+            }
+          ],
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "fusilierLauncherWeapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{actor|flags.system.fusilierLauncherWeapon}",
+        "property": "bulk",
+        "mode": "override",
+        "value": 2
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-fusiliers-launcher",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "JwuAvKlwi45m3a8S",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "7i1N6P3U37TP10RO",
+  "sort": 0,
+  "_key": "!items!7i1N6P3U37TP10RO"
+}

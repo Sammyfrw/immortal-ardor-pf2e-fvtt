@@ -50,7 +50,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Whenever a character is able to select an archetype feat, they can select aetherfont archetype feats. Like regular archetypes, the feat selection provided can give the characters mechanical and thematic focuses in developing their characters.  In general, aetherfont archetype feats tend to emphasize use of focus points and their aetherfont features in specific ways. </p><p>Selecting an aetherfont archetype is significant enough that it behaves similarly to a class archetype in that it is a decision made at 1st level, even though it may not alter the class the way a class archetype would. As a result, it restricts the character from selecting any other aetherfont or class archetypes. When characters select an aetherfont archetype, they must take the dedication for that archetype at 1st or 2nd level.</p><p>Finally, upon selecting an aetherfont archetype, a character gains the Cast a Spell activity, and any time a character gains a focus spell, they gain a focus point.</p>"
+        "content": "<p>Whenever a character is able to select an archetype feat, they can select aetherfont archetype feats. Like regular archetypes, the feat selection provided can give the characters mechanical and thematic focuses in developing their characters.  In general, aetherfont archetype feats tend to emphasize use of focus points and their aetherfont features in specific ways. </p><p>Selecting an aetherfont archetype is significant enough that it behaves similarly to a class archetype in that it is a decision made at 1st level, even though it may not alter the class the way a class archetype would. As a result, it restricts the character from selecting any other aetherfont or class archetypes. When characters select an aetherfont archetype, they must take the dedication for that archetype at 1st or 2nd level.</p>"
       },
       "video": {
         "controls": true,
@@ -65,7 +65,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "14.365",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "exportSource": null

@@ -1,0 +1,141 @@
+{
+  "folder": "EN8YapT6eD5Y0uEV",
+  "name": "Fusilier's Breakthrough",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your modifications to your weapon improve. You can select a second modification for your Fusilier’s Signature, or improve your selected modification.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Enhanced Siphon</strong>: You no longer suffer a multi attack penalty increase when your weapon has a siphon.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Enhanced Launcher</strong>: You can Reload in place of a regular Interact action to load your alchemical bombs or grenades, allowing you to benefit from actions that improve your Reload.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Enhanced Scanner</strong>: Your scanner’s Engram can add additional details when Striking an opponent you or an ally has targeted with a Strike or spell since the start of your last turn. You get a +2 circumstance bonus to your Recall Knowledge check, or a +4 if your Strike is a critical hit.</p></li></ul><p class=\"MsoNormal\">You can take this feat again at 14th level, adding a third modification for your Fusilier’s Signature, or improving one of your selected modifications.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "rollOption": "fusiliers-modification",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Archetypes.Fusilier.SignatureModifications.ModificationSiphonLabel",
+            "value": "siphon",
+            "predicate": [
+              {
+                "not": "fusiliers-modification:siphon"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Archetypes.Fusilier.SignatureModifications.ModificationLauncherLabel",
+            "value": "launcher",
+            "predicate": [
+              {
+                "not": "fusiliers-modification:launcher"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Archetypes.Fusilier.SignatureModifications.ModificationScannerLabel",
+            "value": "scanner",
+            "predicate": [
+              {
+                "not": "fusiliers-modification:scanner"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Archetypes.Fusilier.SignatureModifications.BreakthroughSiphonLabel",
+            "value": "breakthrough-siphon",
+            "predicate": [
+              "fusiliers-modification:siphon",
+              {
+                "not": "fusiliers-modification:breakthrough-siphon"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Archetypes.Fusilier.SignatureModifications.BreakthroughLauncherLabel",
+            "value": "breakthrough-launcher",
+            "predicate": [
+              "fusiliers-modification:launcher",
+              {
+                "not": "fusiliers-modification:breakthrough-launcher"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Archetypes.Fusilier.SignatureModifications.BreakthroughScannerLabel",
+            "value": "breakthrough-scanner",
+            "predicate": [
+              "fusiliers-modification:scanner",
+              {
+                "not": "fusiliers-modification:breakthrough-scanner"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "fusiliers-breakthrough",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fusilier Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "q7OlI6CBaiepWdoy",
+  "sort": 0,
+  "_key": "!items!q7OlI6CBaiepWdoy"
+}

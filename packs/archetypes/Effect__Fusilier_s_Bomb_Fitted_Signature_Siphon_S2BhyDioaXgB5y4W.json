@@ -1,0 +1,88 @@
+{
+  "_id": "S2BhyDioaXgB5y4W",
+  "img": "icons/commodities/tech/pipe-tin.webp",
+  "name": "Effect: Fusilier's Bomb Fitted Signature Siphon",
+  "system": {
+    "badge": {
+      "max": 3,
+      "min": null,
+      "type": "counter",
+      "value": 3,
+      "labels": null,
+      "loop": false
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.dVzf5TTwyi2EkXvm]{Fusilier's Modification}</p><p>The next three attacks made with the weapon deal 1d6 damage of the bomb's damage type in addition to the weapon's normal damage.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "choices": {
+          "config": "energyDamageTypes"
+        },
+        "flag": "damage",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.EnergyType"
+      },
+      {
+        "damageType": "{item|flags.system.rulesSelections.damage}",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "selector": "{actor|flags.system.fusilierSignatureSiphon}-damage"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-fusiliers-bomb-fitted-signature-siphon",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "JwuAvKlwi45m3a8S",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "sort": 0,
+  "_key": "!items!S2BhyDioaXgB5y4W"
+}

@@ -1,0 +1,74 @@
+{
+  "folder": "rmTEgNYUJtpN3JAH",
+  "name": "Bomb Blast",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are wielding a ranged or thrown weapon</p><hr><p class=\"MsoNormal\">You lob an explosive in your opponent’s direction, and fire at it to cause it to explode. You Draw and throw an alchemical bomb or grenade to a space within the first range increment of the required weapon or up to 50 feet away, whichever is closest, and use your weapon to denotate it. As long as you can briefly hold your ranged weapon in one hand for the throw, you do not need your hand free to draw the bomb or grenade.</p><p class=\"MsoNormal\">Creatures within 5 feet (or higher, if the blast radius is listed as greater) must make a basic Reflex save against your Class DC or take damage equal to the damage listed on the thrown explosive plus damage equal to the roll from your ranged weapon’s damage dice, not including any additional bonuses to its damage (such as from weapon specialization). The damage type matches that listed on the explosive and is combined. This counts as 2 attacks for your multi-attack penalty. Creatures who fail the saving throw and take damage are subject to any additional effects from the thrown explosive.</p>"
+    },
+    "rules": [],
+    "slug": "bomb-blast",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemist",
+        "attack"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "yohZsIVyncx0jYhh",
+  "sort": 0,
+  "_key": "!items!yohZsIVyncx0jYhh"
+}

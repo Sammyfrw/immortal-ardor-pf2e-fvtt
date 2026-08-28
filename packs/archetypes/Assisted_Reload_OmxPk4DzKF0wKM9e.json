@@ -1,0 +1,77 @@
+{
+  "folder": "EN8YapT6eD5Y0uEV",
+  "name": "Assisted Reload",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> You are within 30 feet of a non-sygican ally.</p><hr></div><p class=\"MsoNormal\">You know how to rely on your magic-bearing allies to help use everything at your disposal when you can’t do it yourself. You Reload a piece of magical ammunition into your firearm, but request assistance from your allies to Activate it. An ally in range can Activate the ammunition for you as a reaction, or as a free action if they can Cast a Spell as you reload your weapon.</p>"
+    },
+    "rules": [],
+    "slug": "assisted-reload",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fusilier Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "OmxPk4DzKF0wKM9e",
+  "sort": 600000,
+  "_key": "!items!OmxPk4DzKF0wKM9e"
+}

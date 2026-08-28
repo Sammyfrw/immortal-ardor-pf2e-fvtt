@@ -41,6 +41,7 @@
     },
     "Trait": {
       "Aelkhazak": "Aelkhazak",
+      "Aetherfont": "Aetherfont",
       "Anima": "Anima",
       "Artifex": "Artifex",
       "Ascended": "Ascended",
@@ -72,6 +73,7 @@
       "Drachiri": "Drachiri",
       "Draichsar": "Draichsar",
       "Empty": "Empty",
+      "Engram": "Engram",
       "Ether": "Ether",
       "Facet": "Facet",
       "Gangor": "Gangor",
@@ -81,7 +83,6 @@
       "Lucid": "Lucid",
       "Lyncan": "Lyncan",
       "Mana": "Mana",
-      "Aetherfont": "Aetherfont",
       "Marine": "Marine",
       "Meal": "Meal",
       "Meditation": "Meditation",
@@ -93,8 +94,10 @@
       "Nightmare": "Nightmare",
       "Order": "Order",
       "Pinotr": "Pinotr",
+      "Resolve": "Resolve",
       "Runic": "Runic",
       "Sapien": "Sapien",
+      "Sygican": "Sygican",
       "Soulforged": "Soulforged",
       "Symbiosis": "Symbiosis",
       "Spellcrux": "Spellcrux",
@@ -136,6 +139,7 @@
       "Drachiri": "Drachiri are draconic creatures of ether, empowered with the full array of telluric might and magic. Their family includes true drachiri and any of their magically created descendants. An option with this trait signifies that a drachiri benefactor's influence can change its effect, if the creature possesses one.",
       "Draichsar": "A creature with this trait is a member of the draichsar ancestry. Creatures created in the image of the drachiri, they are humanoids with dragonlike wings and find their way in a life after the empire that created them.",
       "Empty": "A creature with the Empty trait cannot cast spells or use actions that imply the use of ether, such as magic or feats of supernatural power.",
+      "Engram": "An item or feat with the Engram trait indicates that it has or adds an Ingrave activation to sygican technology, and thus it requires one to be using sygican equipment to make use of, unless indicated otherwise.",
       "Ether": "An option with the ether trait relates to the telluric source of magic of the same name. Creatures in Ardor and Espiria require the use of ether for magical effects, such as spellcasting or actions dependent on the use of magic. Creatures who cannot use ether, such as Empty, cannot select these options. Most options with the Mana trait are replaced with the Ether trait if a creature of the Telluric planes gain access to it.",
       "Facet": "A facet is a concept or idea given form, born out of imagination. It bears tangible form when in the astral planes. Denizens of the primal planes and asters in the astral planes can make use of facets in ways unique to each of them.",
       "Gangor": "A creature with this trait is a member of the gangor ancestry. These diverse marsupial humanoids hail from the lands of Garrunga, able to easily commune with the spiritual planes and wield magic in a measured way as to not upset the balance of the world.",
@@ -153,10 +157,12 @@
       "Nightmare": "A creature with the Nightmare trait hails from or the realm of Oblivion. They are comprised of the elements of the void and nonexistence, and actively drain the elements of creation to sustain themselves or risk fading to nonexistence.",
       "Order": "Effects with the Order trait are tied to the universal concepts of axiom, determining fate, fortune, and misfortune. They often have stronger effects on anarchic creatures. Creatures with this trait are emblematic of axiomatic forces and often have weakness to chaos.",
       "Pinotr": "A creature with this trait is a member of the pinotr ancestry. Humanoids who live on land but not too far from the water and capable of holding their breath for extended periods, they have a dependency on nature to provide, and rapidly expand wherever they settle.",
+      "Resolve": "An option with this trait indicates that it uses Resolve Points, typically available to Empty as they push themselves to the limit to perform superhuman feats.",
       "Runic": "An option with the runic trait pertains to runic magic or the runic language. Runes dictate commands that can create fantastical and great effects. Unlike a normal language, it isn’t one that can be easily spoken or used for communication, as one must use magic to speak or write it in a way that it becomes usable; it has very little linguistic properties otherwise. Due to its potential dangers, is typically outlawed in a majority of countries if a creature does not have the proper permissions.",
       "Sapien": "A creature with this trait is a member of the sapien ancestry. These are resilient humanoids who could historically thrive in just about any climate and are naturally resistant to disease, and have spread all over Ardor. As diverse as they are plentiful, they share spaces with almost every ancestry in Ardor.",
       "Soulforged": "Items with the soulforged trait are either weapons crafted in the primal plane imbued with astral essences, or weapons crafted in the astral plane imbued with primal essences, created through the process of soulforging. A soul is often a core component of this process, and is consumed in its creation. Soulforged weapons also frequently have the Unholy trait.",
       "Spellcrux": "A weapon with the spellcrux trait can take on the powers of a charged staff, and act like a staff to cast spells from it. The weapon either has a spell list of its own like a staff would, or if not, a spellcaster charging a staff can transfer its powers to a spellcrux weapon, transferring all spells and charges for the day into it.",
+      "Sygican": "An item with the sygican trait denotes that it is an item with sygicatech circuitry, allowing it to perform magical effects while being used by those who do not have the ability to wield ether, such as Empty. As long as the piece of equipment has a fuel or energy source, such as a battery, a user of the item can activate its magical effects. In some sygicatech items, this takes the form of Engrams.",
       "Symbiosis": "An option with the symbiosis trait indicates an action or activity that can align a chimerian’s twin souls to acting in tandem. If you meet the requirements listed by the action, your souls harmonize; this grants the chimerian the ability to cast an anima spell without expending a focus point. This benefit lasts for one minute or until it is used.",
       "Telluric": "Effects with the Telluric trait are tied to the etheric forces of the primal planes. They often have stronger effects on astral creatures. Creatures with this trait are tied to the workings of the primal planes and often have weakness to astral.",
       "Therian": "A creature with the Therian trait has their soul changed in some way than typical creatures of their kind. Ancestral therians are those whose souls have been shaped by strong spiritual or planar influences, while true therians are those whose souls are eroded due to the presence of another soul interfering with theirs.",
@@ -317,6 +323,16 @@
             "SelectAspectPrompt": "Select an Aspect of the Storm.",
             "TidesLabel": "Aspect of Tides",
             "SkiesLabel": "Aspect of Skies"
+          }
+        },
+        "Fusilier": {
+          "SignatureModifications": {
+            "ModificationSiphonLabel": "Siphon",
+            "ModificationLauncherLabel": "Launcher",
+            "ModificationScannerLabel": "Scanner",
+            "BreakthroughSiphonLabel": "Enhanced Siphon",
+            "BreakthroughLauncherLabel": "Enhanced Launcher",
+            "BreakthroughScannerLabel": "Enhanced Scanner"
           }
         }
       },

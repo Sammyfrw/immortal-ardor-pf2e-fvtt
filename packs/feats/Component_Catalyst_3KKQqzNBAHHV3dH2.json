@@ -9,14 +9,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You are able to make greater use of spell components than other aetherfonts, drawing out the prime elements of the world from them. You learn the @UUID[Compendium.immortal-ardor.feats.Item.l3ecoYD2MwGUJhaa]{Spell Catalyst} free action.<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> </span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can scrounge ether from other inscribed spells to fuel your magic. You can add Scrolls to the items you can use for @UUID[Compendium.immortal-ardor.feats.l3ecoYD2MwGUJhaa]{Spell Catalyst}. You can use the spell’s traits to check for qualifying traits. When you use a scroll for Spell Catalyst, the scroll is consumed as if it was used to cast a spell.</span></p>"
     },
-    "rules": [
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.feats.Item.l3ecoYD2MwGUJhaa"
-      }
-    ],
+    "rules": [],
     "slug": "component-catalyst",
     "_migration": {
       "version": 0.935,

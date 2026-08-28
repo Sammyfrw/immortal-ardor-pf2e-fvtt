@@ -1,0 +1,82 @@
+{
+  "folder": "EN8YapT6eD5Y0uEV",
+  "name": "Life Grenade",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> You are wielding a sygican ranged weapon.</p><p class=\"MsoNormal\"><strong>Cost</strong> 2 battery charges, Elixir of Life</p><hr></div><p class=\"MsoNormal\">You have made modified your sygican weapon to be able to fire a magical shot that empowers an Elixir of Life. You Invoke your ranged weapon and use Bomb Blast, but instead of throwing an alchemical bomb, you throw an Elixir of Life instead. Your Engram has the following effect when you Ingrave it.</p><p class=\"MsoNormal\"><strong>Ingrave (Manipulate, 2 charges)</strong> The contents of an Elixir of Life discharge into a volatile, empowering mist. Creatures in a 10-foot burst receive healing as if they had drunk it.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If your ranged weapon is loaded with a Life Shot that is activated, you do not need to Ingrave to benefit from the Engram’s effect.</p>"
+    },
+    "rules": [],
+    "slug": "life-grenade",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "engram",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fusilier Dedication"
+        },
+        {
+          "value": "Bomb Blast"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Nzy8MV3m1hk6CjgT",
+  "sort": 0,
+  "_key": "!items!Nzy8MV3m1hk6CjgT"
+}

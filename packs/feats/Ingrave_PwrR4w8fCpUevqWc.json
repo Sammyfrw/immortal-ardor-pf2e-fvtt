@@ -1,0 +1,58 @@
+{
+  "folder": null,
+  "name": "Ingrave",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p>Ingraving is similar to Activating an item, but for items with the Sygican trait that bear Engrams. It is typically consists of a single Interact action, but it may take more or use a different action if the Engram specifies otherwise.</p><p>Sygican technology items use mundane fuel sources, such as oil, coal, or an etheric battery to produce magical effects. For most items with Engrams meant for travel or adventuring, an etheric battery is more common and portable. For larger items, sygican fuel cores are used instead.</p><p>To Ingrave and activate the Engram's effect, a piece of sygican equipment with an Engram must be equipped with this fuel source. When activated through an Ingrave, the sygican item's Engram produces its listed effect and you take any necessary actions it describes as part of its activation. The Engram often lists a cost of a number of charges, which expends the amount of fuel available.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "ingrave",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "PwrR4w8fCpUevqWc",
+  "sort": 0,
+  "_key": "!items!PwrR4w8fCpUevqWc"
+}

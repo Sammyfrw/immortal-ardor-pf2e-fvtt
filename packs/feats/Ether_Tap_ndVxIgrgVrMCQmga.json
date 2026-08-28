@@ -1,6 +1,6 @@
 {
   "_id": "ndVxIgrgVrMCQmga",
-  "name": "Absorb Ether",
+  "name": "Ether Tap",
   "type": "feat",
   "img": "icons/magic/unholy/hand-claw-fog-green.webp",
   "effects": [],
@@ -9,10 +9,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can channel a connection another creature’s ether to pull it away from them to take it as your own. You learn the @UUID[Compendium.immortal-ardor.feats.Item.EI6tbxtfyMoiIGov]{Drain Ether} innate cantrip. As it is a cantrip, its spell level is automatically heightened to equal to half your level rounded up. You choose the spellcasting tradition of this cantrip, and it uses the higher of your spell DC or class DC. When you acquire this feature, choose which saving throw the cantrip will use. You can retrain this feat to change the saving throw after a week of downtime.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You know how to leverage figments of ether to assist you. In addition to other options when you have a mote of ether, you can absorb the mote as part of taking a skill action. You gain a +1 circumstance bonus to that action. This bonus increases depending on the proficiency of the creature you gained the mote from to a +2 if they are an Expert or Master or +3 if they are Legendary in that skill.</span></p>"
     },
     "rules": [],
-    "slug": "absorb-ether",
+    "slug": "ether-tap",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,

@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "e69g0nnAeaztO7mg",
+  "name": "Feats",
+  "color": null,
+  "sorting": "a",
+  "_id": "28v9R3GP3MW2VzAM",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!28v9R3GP3MW2VzAM"
+}

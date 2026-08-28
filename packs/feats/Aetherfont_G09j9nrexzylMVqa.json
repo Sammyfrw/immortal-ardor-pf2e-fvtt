@@ -1,0 +1,81 @@
+{
+  "folder": "XaKcxo560ohf3xPr",
+  "name": "Aetherfont",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Aetherfonts refer to how creatures manipulate ether. Colloquially, they are called manatypes, in the same vein as a person’s blood type. There are four known aetherfonts, which correlate to the exact methods used by the creatures to gain, store and utilize ether:</span></p><ul><li><p class=\"MsoListParagraphCxSpFirst\">@UUID[Compendium.immortal-ardor.feats.IuwhwQKbCZ4Gqtw9]{Enforcer}(Wielding volatile forms of ether)</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">@UUID[Compendium.immortal-ardor.feats.Vx2a6eOlp9NiFq6l]{Reaver} (Utilizing ether latent in living creatures and spirits)</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">@UUID[Compendium.immortal-ardor.feats.cz5agwtxRqBCrvQK]{Invoker} (Using free ether in the air)</p></li><li><p class=\"MsoListParagraphCxSpLast\">@UUID[Compendium.immortal-ardor.feats.qN5d5N6c3269jgjI]{Evoker} (Drawing out ether from inorganic objects and the environment)</p></li></ul><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Most creatures possess ether within them. The environment – be it within inorganic material such as rock or earth, or free such as in the air, or water – also possesses ether. Ether is what allows living creatures to cast magic, perform feats beyond biological capability or to alter the world around them. The creature’s aetherfont determines what becomes their primary source of ether, what type of ether they use, and how their body stores and uses ether.</span></p><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">In Seekers of Ardor, the total sum of ether available to a creature at any given moment is represented by Focus Points and their spell slots. During character creation, characters will select one of the four choices of Aetherfonts to represent how they interact with ether.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">There is a ‘fifth’ aetherfont, @UUID[Compendium.immortal-ardor.feats.6grFL6K7adBzS3xZ]{Emptiness}, which is not an aetherfont by definition but the state of being incapable of using ether. It is presented here as an option for those who wish to play a character bereft of ether and magic altogether.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "filter": [
+            "item:tag:aetherfont"
+          ],
+          "itemType": "feature"
+        },
+        "flag": "aetherfont",
+        "adjustName": false,
+        "prompt": "IA.SpecificRule.Aetherfonts.SelectionPrompt."
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.aetherfont}"
+      }
+    ],
+    "slug": "aetherfont",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "G09j9nrexzylMVqa",
+  "img": "icons/commodities/treasure/token-gold-gem-red.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "exportSource": null
+  },
+  "_key": "!items!G09j9nrexzylMVqa"
+}

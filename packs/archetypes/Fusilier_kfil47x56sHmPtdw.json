@@ -1,0 +1,149 @@
+{
+  "folder": "EfFPhz2qMY361KkO",
+  "name": "Fusilier",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You are an Empty who uses mundane or sygican ranged weaponry, able to understand the ins and outs of your weapon and use it to great effect despite and in spite of your nonmagical limits. If you choose this manafont archetype, you must select the Fusilier Dedication as your 2nd level class feat.</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Prerequisites</strong> You must be trained in Crafting, and you must have at least a +2 attribute modifier for your Dexterity or Intelligence. You must have the Empty aetherfont to use this archetype.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Fusilier Adjustments </strong></span>You choose one particular type of weapon group to gain familiarity with and access to: crossbows, bows, or firearms. You treat martial weapons in that group as simple weapons and advanced sygican weapons in that group as martial weapons for the purposes of proficiency. You also have access to uncommon or sygican weapons of that group. You also learn the formula for these weapons, and if you become an expert in that weapon group you gain access to their weapon critical specialization effect.</p><p class=\"MsoNormal\">When you take this archetype, you can modify one ranged weapon into your Fusilier’s Signature. As part of your modification, your Fusilier’s Signature becomes a sygican weapon if they aren’t already, and also gain one of the traits below depending on its type. Making this modification takes the weapon into a state where everyone else but you is untrained with it. You can only have one Fusilier’s Signature at a time.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>(Bow)</strong> Propulsive or Forceful</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>(Crossbow)</strong> Repeating (magazine of 5) or Backstabber</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>(Firearm)</strong> Capacity 5 or Concussive</p></li></ul><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Additional Feats </strong>@UUID[Compendium.pf2e.feats-srd.DQN7YC7s7T0pL6Aa]{Gadget Specialist} (4th), @UUID[Compendium.immortal-ardor.classes.yohZsIVyncx0jYhh]{Bomb Blast} (4th*), @UUID[Compendium.pf2e.feats-srd.lh3STEvbGnP7jVMr]{Munitions Machinist} (6th), @UUID[Compendium.pf2e.feats-srd.sjChYEuEWPqndCSK]{Dual-Weapon Reload} (6th), @UUID[Compendium.pf2e.feats-srd.ny0nfGTDUE4p8TtO]{Ubiquitous Gadgets} (8th), @UUID[Compendium.pf2e.feats-srd.vxDL78Yz0dPZdAJ5]{Precious Munitions} (10th), @UUID[Compendium.immortal-ardor.classes.YVMwUB8XyrcO5TQm]{Fast Hands} (10th*),</span></p><p class=\"MsoNormal\">* - this feat is a newly added feat in this handbook for their respective class.</p>"
+    },
+    "rules": [
+      {
+        "actorFlag": true,
+        "choices": {
+          "ownedItems": true,
+          "predicate": [
+            {
+              "or": [
+                "item:ranged"
+              ]
+            }
+          ],
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "fusilierSignature",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{actor|flags.system.fusilierSignature}",
+        "property": "traits",
+        "mode": "add",
+        "value": "sygican"
+      },
+      {
+        "choices": [
+          {
+            "label": "PF2E.TraitPropulsive",
+            "value": "propulsive"
+          },
+          {
+            "label": "PF2E.TraitForceful",
+            "value": "forceful"
+          },
+          {
+            "label": "PF2E.TraitRepeating",
+            "value": "repeating"
+          },
+          {
+            "label": "PF2E.TraitBackstabber",
+            "value": "backstabber"
+          },
+          {
+            "label": "PF2E.TraitCapacity5",
+            "value": "capacity-5"
+          },
+          {
+            "label": "PF2E.TraitConcussive",
+            "value": "concussive"
+          }
+        ],
+        "flag": "fusilierSignatureTrait",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Trait"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{actor|flags.system.fusilierSignature}",
+        "property": "traits",
+        "mode": "add",
+        "value": "{item|flags.system.rulesSelections.fusilierSignatureTrait}"
+      }
+    ],
+    "slug": "fusilier",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in Crafting"
+        },
+        {
+          "value": "+2 Dexterity or Intelligence"
+        },
+        {
+          "value": "Empty Aetherfont"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "kfil47x56sHmPtdw",
+  "sort": 0,
+  "_key": "!items!kfil47x56sHmPtdw"
+}

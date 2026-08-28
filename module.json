@@ -390,6 +390,10 @@
             "label": "IA.Trait.Catalogue",
             "description": "IA.TraitDescription.Catalogue"
           },
+          "engram": {
+            "label": "IA.Trait.Engram",
+            "description": "IA.TraitDescription.Engram"
+          },
           "facet": {
             "label": "IA.Trait.Facet",
             "description": "IA.TraitDescription.Facet"
@@ -405,6 +409,10 @@
           "music": {
             "label": "IA.Trait.Music",
             "description": "IA.TraitDescription.Music"
+          },
+          "sygican": {
+            "label": "IA.Trait.Sygican",
+            "description": "IA.TraitDescription.Sygican"
           },
           "vehicle": {
             "label": "IA.Trait.Vehicle",
@@ -496,6 +504,10 @@
             "label": "IA.Trait.Draichsar",
             "description": "IA.TraitDescription.Draichsar"
           },
+          "engram": {
+            "label": "IA.Trait.Engram",
+            "description": "IA.TraitDescription.Engram"
+          },
           "ether": {
             "label": "IA.Trait.Ether",
             "description": "IA.TraitDescription.Ether"
@@ -527,6 +539,10 @@
           "pinotr": {
             "label": "IA.Trait.Pinotr",
             "description": "IA.TraitDescription.Pinotr"
+          },
+          "resolve": {
+            "label": "IA.Trait.Resolve",
+            "description": "IA.TraitDescription.Resolve"
           },
           "runic": {
             "label": "IA.Trait.Runic",
@@ -727,6 +743,10 @@
           "sapien": {
             "label": "IA.Trait.Sapien",
             "description": "IA.TraitDescription.Sapien"
+          },
+          "sygican": {
+            "label": "IA.Trait.Sygican",
+            "description": "IA.TraitDescription.Sygican"
           },
           "nascent-arcane": {
             "description": "IA.TraitDescription.Nascent",

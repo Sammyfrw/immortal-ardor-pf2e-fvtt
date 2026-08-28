@@ -1,0 +1,79 @@
+{
+  "folder": "EN8YapT6eD5Y0uEV",
+  "name": "Wanted Shot",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> You are wielding a sygican ranged weapon.</p><p class=\"MsoNormal\"><strong>Cost</strong> 2 battery charges</p><hr></div><p class=\"MsoNormal\">You have modified your weapon to have magic that allows shots fired to veer toward your targets. You Ingrave your weapon with the following effect.</p><p class=\"MsoNormal\"><strong>Ingrave (Manipulate, 2 charges) </strong>You make a Strike with your weapon and gain a +2 circumstance bonus to your attack roll and ignore the target’s concealed condition. If the target is hidden, you reduce the flat check from being hidden from 11 to 5.</p>"
+    },
+    "rules": [],
+    "slug": "t-feature-template",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "engram",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fusilier Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "mm5nflC60Qu2KPym",
+  "sort": 400000,
+  "_key": "!items!mm5nflC60Qu2KPym"
+}

@@ -1,0 +1,98 @@
+{
+  "_id": "FYdyPSPz6566GlUs",
+  "img": "icons/commodities/tech/pipe-tin.webp",
+  "name": "Effect: Fusilier's Signature Siphon",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.dVzf5TTwyi2EkXvm]{Fusilier's Modification}</p><p>The multiple attack penalty with the weapon is one greater than usual.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "actorFlag": true,
+        "choices": {
+          "ownedItems": true,
+          "predicate": [
+            {
+              "or": [
+                "item:ranged"
+              ]
+            }
+          ],
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "fusilierSignatureSiphon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "subtract",
+        "predicate": [
+          "item:id:{actor|flags.system.fusilierSignatureSiphon}",
+          {
+            "not": "fusiliers-modification:breakthrough-siphon"
+          }
+        ],
+        "selector": "strike-attack-roll",
+        "slug": "multiple-attack-penalty",
+        "value": 1
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-fusiliers-signature-siphon",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "JwuAvKlwi45m3a8S",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "sort": 0,
+  "_key": "!items!FYdyPSPz6566GlUs"
+}

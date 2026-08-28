@@ -4,15 +4,16 @@
   "folder": null,
   "type": "Item",
   "description": "",
-  "sort": 100000,
+  "sort": 600000,
   "color": "#4d003c",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "_id": "HeaEXMxwQ9Ec0IRf",
   "_key": "!folders!HeaEXMxwQ9Ec0IRf"

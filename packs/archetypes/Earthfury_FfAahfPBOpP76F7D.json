@@ -2,7 +2,7 @@
   "name": "Earthfury",
   "type": "Item",
   "sorting": "a",
-  "sort": 100000,
+  "sort": 500000,
   "color": "#4d003c",
   "flags": {},
   "_id": "FfAahfPBOpP76F7D",
@@ -11,9 +11,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "_key": "!folders!FfAahfPBOpP76F7D"
 }
