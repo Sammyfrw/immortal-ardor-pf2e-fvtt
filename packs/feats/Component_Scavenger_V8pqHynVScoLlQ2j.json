@@ -28,7 +28,7 @@
         "evoker-feat"
       ],
       "value": [
-        "manafont"
+        "aetherfont"
       ],
       "rarity": "rare"
     },
@@ -53,7 +53,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Evoker Manafont"
+          "value": "Evoker Aetherfont"
         }
       ]
     },

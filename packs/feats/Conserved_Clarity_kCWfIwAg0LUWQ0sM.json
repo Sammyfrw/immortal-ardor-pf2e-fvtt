@@ -39,7 +39,7 @@
         "invoker-feat"
       ],
       "value": [
-        "manafont"
+        "aetherfont"
       ],
       "rarity": "uncommon"
     },
@@ -64,7 +64,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Invoker Manafont"
+          "value": "Invoker Aetherfont"
         },
         {
           "value": "Invoke The Mind"

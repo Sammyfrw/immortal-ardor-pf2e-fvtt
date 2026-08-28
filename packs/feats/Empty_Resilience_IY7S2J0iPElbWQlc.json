@@ -47,7 +47,7 @@
         "empty-feat"
       ],
       "value": [
-        "manafont"
+        "aetherfont"
       ],
       "rarity": "common"
     },
@@ -72,7 +72,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Empty Manafont"
+          "value": "Empty Aetherfont"
         }
       ]
     },

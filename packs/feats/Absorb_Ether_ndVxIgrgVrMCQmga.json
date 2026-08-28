@@ -28,7 +28,7 @@
         "reaver-feat"
       ],
       "value": [
-        "manafont"
+        "aetherfont"
       ],
       "rarity": "common"
     },
@@ -53,7 +53,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Reaver Manafont"
+          "value": "Reaver Aetherfont"
         }
       ]
     },

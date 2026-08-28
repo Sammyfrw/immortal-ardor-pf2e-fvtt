@@ -43,7 +43,7 @@
         "enforcer-feat"
       ],
       "value": [
-        "manafont"
+        "aetherfont"
       ],
       "rarity": "common"
     },
@@ -68,7 +68,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Enforcer Manafont"
+          "value": "Enforcer Aetherfont"
         }
       ]
     },

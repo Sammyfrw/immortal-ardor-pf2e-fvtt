@@ -33,7 +33,7 @@
         "invoker-feat"
       ],
       "value": [
-        "manafont"
+        "aetherfont"
       ],
       "rarity": "common"
     },
@@ -58,7 +58,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Invoker Manafont"
+          "value": "Invoker Aetherfont"
         }
       ]
     },
