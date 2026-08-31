@@ -32,10 +32,6 @@
         "uuid": "Compendium.immortal-ardor.ancestries.Item.KbFj8Khk3VNSu543"
       },
       {
-        "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.ancestries.Item.qmSnZC4ABfKKqVZU"
-      },
-      {
         "key": "ActiveEffectLike",
         "mode": "override",
         "path": "flags.system.drachiriBenefactor.benefactorChoices",

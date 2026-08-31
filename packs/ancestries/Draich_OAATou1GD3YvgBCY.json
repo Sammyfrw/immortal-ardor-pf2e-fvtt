@@ -36,8 +36,58 @@
         ]
       },
       {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "First Benefactor",
+            "value": "first-benefactor",
+            "predicate": [
+              {
+                "not": "feature:drachiri-benefactor"
+              }
+            ]
+          },
+          {
+            "label": "Additional Benefactor",
+            "value": "additional-benefactor",
+            "predicate": [
+              "feature:drachiri-benefactor"
+            ]
+          }
+        ],
+        "rollOption": "draich-heritage-benefactor"
+      },
+      {
         "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.ancestries.Item.SLafrzEYuatDDJfW"
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.SLafrzEYuatDDJfW",
+        "predicate": [
+          "draich-heritage-benefactor:first-benefactor"
+        ]
+      },
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "prompt": "IA.SpecificRule.DrachiriBenefactor.SecondBenefactorPrompt",
+        "choices": [
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.KbFj8Khk3VNSu543"
+          },
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.qmSnZC4ABfKKqVZU"
+          }
+        ],
+        "predicate": [
+          "draich-heritage-benefactor:additional-benefactor"
+        ],
+        "flag": "secondBenefactorChoice"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.secondBenefactorChoice}",
+        "predicate": [
+          "draich-heritage-benefactor:additional-benefactor"
+        ]
       }
     ],
     "slug": "draich",

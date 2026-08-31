@@ -1,0 +1,83 @@
+{
+  "folder": "twA4EvH7ITGXKuxk",
+  "name": "Bond of Greed",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You manifest a link to dragonkind through the mutable power you have with your drachensoul benefactor, and it is so potent that you feel the pull of the Curse more readily.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When you cast this spell, you can attune to a drachiri benefactor trait you have. Select a type of drachiri benefactor that shares your attuned trait. For the spell’s duration, you gain a +2 status bonus to your AC and saving throw against any effects with that benefactor’s trait and a type of saving throw, but suffer a -2 penalty to a different type of saving throw. You can attune to a different trait in your selected benefactor’s list of traits as a single concentrate action if you have that trait. You can Dismiss this spell.</span></p><p>@UUID[Compendium.immortal-ardor.archetypes.OnjCXtm6wpHVtARY]{Effect: Bond of Greed}</p><table border=\"1\" class=\"pf2e lost-omens\"><thead><tr style=\"text-align:right\"><th data-colwidth=\"198\"><p>Benefactor</p></th><th data-colwidth=\"198\"><p>Curse</p></th><th data-colwidth=\"186\"><p>Traits</p></th><th data-colwidth=\"186\"><p>Bonus</p></th><th data-colwidth=\"186\"><p>Penalty</p></th></tr></thead><tbody><tr><td data-colwidth=\"198\"><p>Crimson</p></td><td data-colwidth=\"198\"><p>Greed of Wealth</p></td><td data-colwidth=\"186\"><p>Fire, Wood, Vitality, Water</p></td><td data-colwidth=\"186\"><p>Fortitude</p></td><td data-colwidth=\"186\"><p>Reflex</p></td></tr><tr><td data-colwidth=\"198\"><p>Azure</p></td><td data-colwidth=\"198\"><p>Greed of Pride</p></td><td data-colwidth=\"186\"><p>Water, Cold, Electricity, Sonic</p></td><td data-colwidth=\"186\"><p>Reflex</p></td><td data-colwidth=\"186\"><p>Will</p></td></tr><tr><td data-colwidth=\"198\"><p>Verdant</p></td><td data-colwidth=\"198\"><p>Greed of Envy</p></td><td data-colwidth=\"186\"><p>Air, Wood, Acid, Void</p></td><td data-colwidth=\"186\"><p>Reflex</p></td><td data-colwidth=\"186\"><p>Will</p></td></tr><tr><td data-colwidth=\"198\"><p>Ivory</p></td><td data-colwidth=\"198\"><p>Greed of Apathy</p></td><td data-colwidth=\"186\"><p>Cold, Force, Air, Earth</p></td><td data-colwidth=\"186\"><p>Will</p></td><td data-colwidth=\"186\"><p>Fortitude</p></td></tr><tr><td data-colwidth=\"198\"><p>Ebony</p></td><td data-colwidth=\"198\"><p>Greed of Vengeance</p></td><td data-colwidth=\"186\"><p>Earth, Metal, Acid, Fire</p></td><td data-colwidth=\"186\"><p>Fortitude</p></td><td data-colwidth=\"186\"><p>Reflex</p></td></tr><tr><td data-colwidth=\"198\"><p>Violet</p></td><td data-colwidth=\"198\"><p>Greed of Pleasure</p></td><td data-colwidth=\"186\"><p>Mental, Force, Sonic, Metal</p></td><td data-colwidth=\"186\"><p>Will</p></td><td data-colwidth=\"186\"><p>Fortitude</p></td></tr></tbody></table><p><strong>Heightened (+4) T</strong>he status bonuses and penalty increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": "bond-of-greed",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "1inyVlkO2greeK8U",
+  "sort": 0,
+  "_key": "!items!1inyVlkO2greeK8U"
+}

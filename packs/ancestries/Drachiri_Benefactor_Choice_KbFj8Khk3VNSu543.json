@@ -132,6 +132,10 @@
           "label": "{item|flags.system.rulesSelections.drachiriBenefactor.label}",
           "value": "{item|flags.system.rulesSelections.drachiriBenefactor.dragon}"
         }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.qmSnZC4ABfKKqVZU"
       }
     ],
     "subfeatures": {

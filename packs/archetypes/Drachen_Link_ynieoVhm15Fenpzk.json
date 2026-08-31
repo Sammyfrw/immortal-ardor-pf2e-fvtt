@@ -1,0 +1,65 @@
+{
+  "folder": "IViWpUOk4M8YbNFP",
+  "name": "Drachen Link",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<div><p class=\"Standard\"><strong>Requirements</strong> You have a drachensoul benefactor and at least one trait from their Energies &amp; Elements column.</p></div><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You invoke your bond with your drachensoul benefactor to reach for draconic power. </span>Until the start of your next turn, you gain a +1 circumstance bonus to your AC and saving throws against effects with any of your benefactor’s traits. If you possess the trait, it increases to a +2 circumstance bonus instead.</p><p>@UUID[Compendium.immortal-ardor.archetypes.OnjCXtm6wpHVtARY]{Effect: Drachen Link}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "drachen-link",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "defend",
+        "drachiri"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ynieoVhm15Fenpzk",
+  "sort": 0,
+  "_key": "!items!ynieoVhm15Fenpzk"
+}

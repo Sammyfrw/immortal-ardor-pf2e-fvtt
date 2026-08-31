@@ -1,0 +1,202 @@
+{
+  "folder": "JNgPya19TyGxjrjM",
+  "name": "Drachensoul",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are someone who has a pact or a bond with a living dragon or the soul of a dragon that still persists. This bond grants you a fluid power that acts as a bridge to greater strength as you become more magically tuned with the gifts of dragons. If you choose this archetype, you must select the @UUID[Compendium.immortal-ardor.archetypes.BqG1yMw8akP9XcHh]{Drachensoul Dedication} as your 2nd level class feat.</p><p class=\"Standard\"><strong>Prerequisites </strong>You must have an ancestry, heritage or class that grants you access to a drachiri benefactor or dragon companion, patron, or eidolon. Alternatively, you have a class or feature that grants you anima magic. In addition to this, you must be trained in a skill affiliated with your drachensoul benefactor as listed in the Drachiri Benefactor skills table, and have at least a +2 attribute modifier for your Constitution or Charisma.</p><p class=\"Standard\"><strong>Drachensoul Adjustments</strong> Choose a @UUID[Compendium.immortal-ardor.ancestries.SLafrzEYuatDDJfW]{Drachiri Benefactor} and a trait from the Elements &amp; Energies column from the Drachiri Benefactor table. If your ancestry or class already grants you a benefactor, you can choose the same one and choose a @UUID[Compendium.immortal-ardor.ancestries.qmSnZC4ABfKKqVZU]{Drachiri Trait Choice} you do not have. Regardless if you have a single or multiple benefactors, the benefactor you choose for this archetype must be a living dragon or a persisting dragon’s soul. This benefactor is called your drachensoul benefactor to quickly identify them in case you have multiple benefactors.</p><p class=\"Standard\">Some Drachensoul features are dependent on your drachensoul benefactor, a benefactor trait you are attuned to or a drachiri benefactor that shares a trait you possess, which can include any traits selected from your drachiri benefactors from your ancestry, class, and this archetype, among others. Any time you gain new benefactor traits from any source, you can utilize them in this archetype, even if they are not from your own drachensoul benefactor.</p><table border=\"1\" class=\"pf2e lost-omens\"><thead><tr style=\"text-align:right\"><th data-colwidth=\"198\"><p>Benefactor</p></th><th data-colwidth=\"198\"><p>Curse</p></th><th data-colwidth=\"186\"><p>Skill</p></th><th data-colwidth=\"186\"><p>Traits</p></th><th data-colwidth=\"186\"><p>Soulstoke Spell</p></th></tr></thead><tbody><tr><td data-colwidth=\"198\"><p>Crimson</p></td><td data-colwidth=\"198\"><p>Greed of Wealth</p></td><td data-colwidth=\"186\"><p>Crafting</p></td><td data-colwidth=\"186\"><p>Fire, Wood, Vitality, Water</p></td><td data-colwidth=\"186\"><p>Ashen Bounty</p></td></tr><tr><td data-colwidth=\"198\"><p>Azure</p></td><td data-colwidth=\"198\"><p>Greed of Pride</p></td><td data-colwidth=\"186\"><p>Performance</p></td><td data-colwidth=\"186\"><p>Water, Cold, Electricity, Sonic</p></td><td data-colwidth=\"186\"><p>Pearls of Power</p></td></tr><tr><td data-colwidth=\"198\"><p>Verdant</p></td><td data-colwidth=\"198\"><p>Greed of Envy</p></td><td data-colwidth=\"186\"><p>Nature</p></td><td data-colwidth=\"186\"><p>Air, Wood, Acid, Void</p></td><td data-colwidth=\"186\"><p>Corrosion Cage</p></td></tr><tr><td data-colwidth=\"198\"><p>Ivory</p></td><td data-colwidth=\"198\"><p>Greed of Apathy</p></td><td data-colwidth=\"186\"><p>Arcana</p></td><td data-colwidth=\"186\"><p>Cold, Force, Air, Earth</p></td><td data-colwidth=\"186\"><p>Cryo Refraction</p></td></tr><tr><td data-colwidth=\"198\"><p>Ebony</p></td><td data-colwidth=\"198\"><p>Greed of Vengeance</p></td><td data-colwidth=\"186\"><p>Society</p></td><td data-colwidth=\"186\"><p>Earth, Metal, Acid, Fire</p></td><td data-colwidth=\"186\"><p>Molten Bulwark</p></td></tr><tr><td data-colwidth=\"198\"><p>Violet</p></td><td data-colwidth=\"198\"><p>Greed of Pleasure</p></td><td data-colwidth=\"186\"><p>Occultism</p></td><td data-colwidth=\"186\"><p>Mental, Force, Sonic, Metal</p></td><td data-colwidth=\"186\"><p>Indolent Elegy</p></td></tr></tbody></table><p>Becoming a Drachensoul means that you are affiliated spiritually with your drachensoul benefactor, becoming exposed to their Curse of Greed. Even if your power grows to gain the influences of other benefactors, this evolving strength is only made possible through maintaining your bond with them. You gain the @UUID[Compendium.immortal-ardor.archetypes.1inyVlkO2greeK8U]{Bond of Greed} focus spell to invoke your bond, and you gain an edict and anathema appropriate to your drachensoul benefactor and their curse. If you violate this anathema, you lose the ability to use Drachensoul features until you complete an @UUID[Compendium.pf2e.spells-srd.7Fd4lxozd11MQ55N]{Atone} ritual. Unlike normal, you can use the skill affiliated with your drachensoul benefactor for both the primary and secondary checks.</p><p class=\"Standard\">If you were not already, you become trained in spell attacks and spell DCs, and your spellcasting attribute is Charisma. If you gain access to this archetype through a class or feature with anima magic, you can use your Anima DC instead. When you Refocus, you can indulge in your drachensoul benefactor’s Curse of Greed, typically meeting their edicts to gain the benefits of a Refocus. As normal for draconic characters, you can attune to a new trait while you Refocus.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "First Benefactor",
+            "value": "first-benefactor",
+            "predicate": [
+              {
+                "not": "feature:drachiri-benefactor"
+              }
+            ]
+          },
+          {
+            "label": "Additional Benefactor",
+            "value": "additional-benefactor",
+            "predicate": [
+              "feature:drachiri-benefactor"
+            ]
+          }
+        ],
+        "rollOption": "drachensoul-archetype-benefactor"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.SLafrzEYuatDDJfW",
+        "predicate": [
+          "drachensoul-archetype-benefactor:first-benefactor"
+        ],
+        "priority": 102
+      },
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "prompt": "IA.SpecificRule.DrachiriBenefactor.SecondBenefactorPrompt",
+        "choices": [
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.KbFj8Khk3VNSu543"
+          },
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.qmSnZC4ABfKKqVZU"
+          }
+        ],
+        "predicate": [
+          "drachensoul-archetype-benefactor:additional-benefactor"
+        ],
+        "flag": "secondBenefactorChoice"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.secondBenefactorChoice}",
+        "predicate": [
+          "drachensoul-archetype-benefactor:additional-benefactor"
+        ]
+      },
+      {
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Archetypes.Drachensoul.BenefactorPrompt",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Ivory",
+            "value": "ivory",
+            "predicate": [
+              "drachiri-benefactor:ivory"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Crimson",
+            "value": "azure",
+            "predicate": [
+              "drachiri-benefactor:crimson"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Verdant",
+            "value": "verdant",
+            "predicate": [
+              "drachiri-benefactor:verdant"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Ochre",
+            "value": "ochre",
+            "predicate": [
+              "drachiri-benefactor:ochre"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Violet",
+            "value": "violet",
+            "predicate": [
+              "drachiri-benefactor:violet"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Ebony",
+            "value": "ebony",
+            "predicate": [
+              "drachiri-benefactor:ebony"
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Azure",
+            "value": "azure",
+            "predicate": [
+              "drachiri-benefactor:azure"
+            ]
+          }
+        ],
+        "rollOption": "drachensoul-benefactor",
+        "actorFlag": true,
+        "flag": "drachensoulBenefactor"
+      }
+    ],
+    "slug": "drachensoul",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Access to a Drachiri Benefactor or Dragon companion"
+        },
+        {
+          "value": "Trained in Benefactor's Skill"
+        },
+        {
+          "value": "+2 Constitution or Charisma"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 1
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "tkCj140hMjwCiZqw",
+  "sort": 0,
+  "_key": "!items!tkCj140hMjwCiZqw"
+}

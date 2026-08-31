@@ -215,6 +215,7 @@
       "DrachiriBenefactor": {
         "BenefactorLabel": "Drachiri Benefactor",
         "BenefactorPrompt": "Select a Drachiri Benefactor.",
+        "SecondBenefactorPrompt": "As you have an existing Benefactor and took an option that might allow you to have another benefactor, choose to gain a new Benefactor or a new Trait.",
         "TraitPrompt": "Select an Element & Energy trait.",
         "TraitLabel": "Drachiri Attuned Element",
         "DamageLabel": "Drachiri Damage Type",
@@ -229,14 +230,14 @@
       "Aetherfonts": {
         "SelectionPrompt": "Select an Aetherfont",
         "EnforcerLabel": "Enforcer",
-        "EnforcerRefocusDescription": "When Enforcers refocus, they usually practice physical or mental exertion for the approximate duration of Refocus in relation to their source of their focus points. Upon refocusing, they return to 1 focus point. If you select a feat that improves your Refocus, you can gain up to 3 focus points in a single turn.",
+        "EnforcerRefocusDescription": "When Enforcers refocus, they usually practice physical or mental exertion for the approximate duration of Refocus in relation to their source of their focus points. Upon refocusing, they recover 1 focus point. If you select a feat that improves your Refocus, the first time you would gain a focus point after your last Refocus, you gain 2 focus points.",
         "ReaverLabel": "Reaver",
-        "ReaverRefocusDescription": "When Reavers refocus, they incorporate various deeds as part of their Refocus. Depending on circumstance, these may require skill checks. If they have ready access to any source for their focus points, they are free to perform other activities during the ten-minute period. At the end of the activity, they gain 1 focus point. If you select a feat that improves your Refocus, you can gain an additional focus point in the ten-minute period by doubling up on an activity or performing multiple activities.",
+        "ReaverRefocusDescription": "When Reavers refocus, they incorporate various deeds as part of their Refocus. Depending on circumstance, these may require skill checks. If they have ready access to any source for their focus points, they are free to perform other activities during the ten-minute period. At the end of the activity, they gain 1 focus point. If you select a feat that improves your Refocus, you can gain two additional focus points in the ten-minute period by doubling up on an activity or performing multiple activities.",
         "InvokerLabel": "Invoker",
         "InvokerRefocusDescription": "When Invokers refocus, they spend ten minutes recovering their magical connection in an activity that is appropriate to their source of their focus spells or magic. These deeds can usually overlap with other tasks that relate to the source of your focus spells. For instance, a cleric can usually Refocus while tending the wounds of their allies, and a wizard might be able to Refocus while attempting to Identify Magic. At the end of this period, they recover 1 focus point and enter a state of @UUID[Compendium.immortal-ardor.feats.Item.4XSYk2WQYoTODUG4]{Clarity}. If you take a feat to improve your Refocus, you recover all your focus points within the ten-minute period.",
         "InvokerConserveEtherDescription": "Whenever you use your focus points, you can roll a @Check[flat|dc:16]check. On a success, you retain one focus point.",
         "EvokerLabel": "Evoker",
-        "EvokerRefocusDescription": "Evokers do not need to perform dedicated activities to Refocus as their bodies naturally take trace amounts of ether from the world around them. As long as they do not perform any strenuous activity such as combat, heavy travel or spellcasting, they are able to perform any other Exploration activity as part of their Refocus, regardless of their source of focus spells. At the end of a ten-minute period of these light activities, they regain one focus point.",
+        "EvokerRefocusDescription": "Evokers do not need to perform dedicated activities to Refocus as they take in ether naturally. As long as they do not perform any strenuous activity, they are able to perform any other Exploration activity as part of their Refocus. At the end of a ten-minute period of these light activities, they regain one focus point. If you take a feat that improves your Refocus, you can take up to two qualifying items you can use for Spell Catalyst and drain it during your Refocus. This acts as if the item had been used for Spell Catalyst, but you regain an additional focus point for each item you drain within the ten-minute period.",
         "EvokerSpellCatalystDescription": "You can use items and components that possess a suitable amount of ether to help charge your spell. To qualify, the consumable item must possess at least one trait that matches the spell being cast that is not concentrate, manipulate or a spell tradition trait, or the item interacts specifically with the spell. You negate 1 point of the focus point cost. This consumes, uses, or activates the item, whichever applies. If the item can be used as part of the spell, such as a qualifying catalyst for the spell it is made for, the spell still benefits from the catalyst’s effects.",
         "EvokerSpellScavengerDescription": "Improvising on the fly, you can use natural items or nearby terrain as a source of ether. You use the object or terrain to negate one point of the focus point cost of the triggering spell.",
         "EmptyLabel": "Empty",
@@ -334,6 +335,9 @@
             "BreakthroughLauncherLabel": "Enhanced Launcher",
             "BreakthroughScannerLabel": "Enhanced Scanner"
           }
+        },
+        "Drachensoul": {
+          "BenefactorPrompt": "Select one of your benefactors as your Drachensoul Benefactor."
         }
       },
       "Dervish": {
