@@ -1,0 +1,87 @@
+{
+  "folder": "twA4EvH7ITGXKuxk",
+  "name": "Pearls of Power",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You conjure pearls of stormy power in the hand of yourself or an ally within range. These pearls are affiliated with water, electricity, cold, or thunder, chosen when you cast the spell. If your target does not have a free hand, the pearl drops at their feet. As an Interact action, a creature can crush the pearl and grant themselves the fury of the storm; until the end of their turn, their next Strike or Spell deals an additional 1d12 damage of the type you select. The volatile power in a pearl means that a creature can only hold and benefit from one pearl at a time, but a creature can Interact to pass or toss the pearl at another creature within 30 feet, granting its benefits to them or for the targeted creature to grab with a free hand and activate it later.</p><p>@UUID[Compendium.immortal-ardor.archetypes.4l1e66CU2YFmXPXd]{Effect: Pearls of Power}</p><p class=\"MsoNormal\"><strong>Heightened (+2)</strong> When you cast the spell, you create an additional pearl, targeting a second creature in range.</p>"
+    },
+    "rules": [],
+    "slug": "pearls-of-power",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cold",
+        "concentrate",
+        "electricity",
+        "focus",
+        "manipulate",
+        "sonic",
+        "water"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/lightning/orb-ball-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "6kNXAIbQiXxn3r5r",
+  "sort": 600000,
+  "_key": "!items!6kNXAIbQiXxn3r5r"
+}

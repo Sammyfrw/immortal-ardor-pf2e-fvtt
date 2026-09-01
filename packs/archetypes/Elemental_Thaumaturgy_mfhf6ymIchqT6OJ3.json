@@ -1,0 +1,78 @@
+{
+  "folder": "qoSHTpNnjXsCYLhd",
+  "name": "Elemental Thaumaturgy",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"Standard\">You know how to manipulate the elemental energies or create minute quantities of it as ether flows through your draconically aspected body. You can target a space or an object of your attuned traits’ element within 30 feet of you and the Bulk of the target must be negligible or light. You can’t affect an element that is magical, secured in place, or attended by a creature unwilling to let you.</p><p class=\"Standard\">Choose one of the following options, though the GM might allow you to make similar effects. This feat cannot deal damage or cause conditions unless otherwise noted.</p><p style=\"margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1\" class=\"Standard\"><span style=\"mso-list:Ignore\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">·</span></span><span style=\"font:7.0pt 'Times New Roman'\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">         </span></span><strong>Create</strong> You create that element in a targeted space. You can use this element for any of its normal uses. For example, you can use Acid to melt, Air to breathe, Mental to create emotional impressions, Void to decay, or Sonic to create simple tones.</p><p style=\"margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1\" class=\"Standard\"><span style=\"mso-list:Ignore\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">·</span></span><span style=\"font:7.0pt 'Times New Roman'\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">         </span></span><strong>Unravel</strong> You destroy natural forms of an element, leaving it diminished or destroyed. For example, you can use Water to evaporate a cup’s worth of water, use Cold to melt ice, use Wood to shrink or disperse roots or bramble, or use Vitality to diminish the vibrancy of a healing elixir (enough to dampen its effects or aura as a healing drink, but not enough to remove its healing properties)</p><p style=\"margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1\" class=\"Standard\"><span style=\"mso-list:Ignore\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">·</span></span><span style=\"font:7.0pt 'Times New Roman'\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">         </span></span><strong>Translate</strong> You lift, carry, or transfer an element. You can move an existing element up to 20 feet in any direction. If you bring it into your space, you can catch it in an open hand. You can repeat this action to keep moving it.</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Level (+4)</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> The range you can manipulate increases by 15 feet, and the maximum Bulk increases by 1.</span></p>"
+    },
+    "rules": [],
+    "slug": "elemental-thaumaturgy",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "drachiri"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Drachensoul Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "mfhf6ymIchqT6OJ3",
+  "sort": 300000,
+  "_key": "!items!mfhf6ymIchqT6OJ3"
+}

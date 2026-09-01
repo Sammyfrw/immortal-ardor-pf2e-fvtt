@@ -1,0 +1,92 @@
+{
+  "folder": "twA4EvH7ITGXKuxk",
+  "name": "Indolent Elegy",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You impart a harmonic fluctuation upon a target that renders them lethargic. The harmony can resonate, spreading like a contagious malaise to others who feel or hear the emanating vibrations. When you cast this spell, your target must make a Will saving throw to resist the elegy. If the target is afflicted with the elegy, you can Sustain the spell to cause @UUID[Compendium.immortal-ardor.archetypes.ptbCDhBB9jZhgMoQ]{Effect: Indolent Elegy (Lethargy)} to spread from them. Enemies within @Template[emanation|distance:5] of the target must make a Will saving throw, or suffer the effects listed below. A creature afflicted with the elegy does not make further saving throws from the spell, even if a second creature would spread lethargy to them.</p><p class=\"MsoNormal\"><strong>Critical Success</strong> The target is unaffected and is immune for the spell’s duration to further saving throws.</p><p class=\"MsoNormal\"><strong>Success</strong> The initial target is afflicted with the @UUID[Compendium.immortal-ardor.archetypes.cwQe0zXi0ucSLpnO]{Effect: Indolent Elegy (Elegy)} and suffers a @UUID[Compendium.immortal-ardor.spells.I4PsUAaYSUJ8pwKC]{-10 foot status penalty} to their speeds for the spell’s duration, while a creature that is struck by lethargy suffers the penalty for 1 round.</p><p class=\"MsoNormal\"><strong>Failure</strong> The initial target is afflicted with the elegy and is @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for the spell’s duration, while a creature struck by lethargy is slowed 1 for 1 round.</p><p class=\"MsoNormal\"><strong>Critical Failure</strong> As failure, but a creature struck by lethargy is also afflicted with the elegy as if they failed. When you Sustain the spell, you sustain the elegy on all creatures afflicted by it but you choose one creature to be the vector for the contagious lethargy for that round.</p><p class=\"MsoNormal\"><strong>Heightened (+2) </strong>The radius of a spreading lethargy increases by 5 feet.</p>"
+    },
+    "rules": [],
+    "slug": "indolent-elegy",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "force",
+        "manipulate",
+        "mental",
+        "metal",
+        "sonic"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "4W9ODyX6CoxCSoh2",
+  "sort": 0,
+  "_key": "!items!4W9ODyX6CoxCSoh2"
+}

@@ -1,0 +1,114 @@
+{
+  "folder": "twA4EvH7ITGXKuxk",
+  "name": "Corrosion Cage",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You create a violent, caustic underbrush that harms those who try to traverse it. When you cast a spell, acidic vines and roots sprout in the area within range, even reaching out to affect creatures above or around corners. This area is difficult terrain. A creature that starts their turn in or enters the vines needs to make a Reflex saving throw. If they become @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} by this spell, they take 4d6 acid damage immediately and at the start of their turns while they remain immobilized. A creature can attempt to @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} from the vines using your spell DC. A creature who is reduced to 0 hit points by this spell has their vital energies drained from them, nourishing you, and you gain hit points equal to the creature’s level (minimum 0).</p><p class=\"MsoNormal\"><strong>Critical Success</strong> The creature is not immobilized, but the vines remain as difficult terrain.</p><p class=\"MsoNormal\"><strong>Success</strong> As critical success, but the creature takes the acid damage as if they were immobilized.</p><p class=\"MsoNormal\"><strong>Failure</strong> The creature becomes immobilized for 1 round or until they escape.</p><p class=\"MsoNormal\"><strong>Critical Failure</strong> The creature becomes immobilized until the spell ends or until they escape.<span style=\"mso-spacerun:yes\"> </span> </p><hr><p class=\"MsoNormal\"><strong>Heightened (+1)</strong> The acid damage increases by 1d6 and you can increase the area of the spell by up to 5 additional feet.</p>"
+    },
+    "rules": [],
+    "slug": "corrosion-cage",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "acid",
+        "air",
+        "concentrate",
+        "focus",
+        "manipulate",
+        "void",
+        "wood"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "sustained up to 1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "1D1jOYK8cdWOhXiJ": {
+        "formula": "4d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "acid",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "1D1jOYK8cdWOhXiJ": "1d6"
+      },
+      "area": 5
+    }
+  },
+  "img": "icons/magic/acid/orb-bubble-smoke-drip.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "22LjqHISMiittlnw",
+  "sort": 500000,
+  "_key": "!items!22LjqHISMiittlnw"
+}

@@ -1,0 +1,151 @@
+{
+  "folder": "twA4EvH7ITGXKuxk",
+  "name": "Ashen Bounty",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create a bountiful seed that glows with the gifts of nature, to be born by its elements. When you cast this spell, you create a glowing seed at the target location. Choose between Embers or Ashes. As a Sustain action on your next turn, or if the seed would be subject to a Fire, Wood, Vitality or Water effect, the seed blooms into a tree of Embers or a tree of Ashes. As it sprouts, the tree remains until the start of your next turn, before it withers back into ash. A seed that does not bloom within a minute disintegrates into ash.</p><p class=\"MsoNormal\">If you chose Embers, the tree lashes and burns targets within a 20-foot burst, potentially knocking them away from the center point of the burst. Creatures must make a Reflex save or take 6d6 fire damage. If the seed blooms from a Fire or Wood effect, you gain a +2 circumstance bonus to your DC.</p><p class=\"MsoNormal\"><strong>Critical Success</strong> A creature avoids damage and can choose to move directly away and out from the burst’s area into the next open space, or remain in its space. They must end their next turn outside of the radius.</p><p class=\"MsoNormal\"><strong>Success</strong> As critical success, but the creature takes half damage.</p><p class=\"MsoNormal\"><strong>Failure</strong> The creature takes full damage and is pushed directly away and out from the burst’s area into the next open space.</p><p class=\"MsoNormal\"><strong>Critical Failure</strong> The creature takes double damage and is pushed away and out from the burst’s area to a space of your choice.</p><p class=\"MsoNormal\">If you chose Ashes, the tree flourishes with nourishing, magical ash that heals creatures in a 20-foot burst for 6d6 points of healing. If the seed blooms from a Vitality or Water effect, the healing increases by 18.</p><hr><p class=\"MsoNormal\"><strong>Heightened (+1)</strong> Increase the damage and healing rolls by 1d6 and the added healing from blooming via a Vitality or Water effect by 3.</p>"
+    },
+    "rules": [],
+    "slug": "ashen-bounty",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "focus",
+        "manipulate",
+        "vitality",
+        "water",
+        "wood"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {
+      "k13JwZqOam2n4Dur": {
+        "name": "Ashen Bounty (Embers)",
+        "system": {
+          "damage": {
+            "tpvKc1MwQEl7PvGy": {
+              "formula": "6d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "fire",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "heightening": {
+            "type": "interval",
+            "interval": 1,
+            "damage": {
+              "tpvKc1MwQEl7PvGy": "1d6"
+            },
+            "area": 0
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "VNDTf3Kihnrho8zt": {
+        "name": "Ashen Bounty (Ashes)",
+        "system": {
+          "damage": {
+            "XmWtQ0tOqRohvE7B": {
+              "formula": "6d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "vitality",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "heightening": {
+            "type": "interval",
+            "interval": 1,
+            "damage": {
+              "XmWtQ0tOqRohvE7B": "1d6"
+            },
+            "area": 0
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      }
+    }
+  },
+  "img": "icons/magic/fire/flame-burning-embers-orange.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "nmJ29EwNzSIjr8FH",
+  "sort": 700000,
+  "_key": "!items!nmJ29EwNzSIjr8FH"
+}

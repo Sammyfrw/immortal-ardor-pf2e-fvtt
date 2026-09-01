@@ -22,7 +22,9 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "aetherfont",
         "concentrate",
+        "ether",
         "focus",
         "manipulate"
       ],
@@ -78,6 +80,6 @@
     "exportSource": null
   },
   "_id": "1inyVlkO2greeK8U",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!items!1inyVlkO2greeK8U"
 }

@@ -22,11 +22,11 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "aetherfont",
         "charge",
         "concentrate",
         "ether",
-        "focus",
-        "aetherfont"
+        "focus"
       ],
       "rarity": "uncommon",
       "traditions": []

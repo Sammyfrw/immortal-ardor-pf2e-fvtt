@@ -9,7 +9,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can scrounge ether from other inscribed spells to fuel your magic. You can add Scrolls to the items you can use for @UUID[Compendium.immortal-ardor.feats.l3ecoYD2MwGUJhaa]{Spell Catalyst}. You can use the spell’s traits to check for qualifying traits. When you use a scroll for Spell Catalyst, the scroll is consumed as if it was used to cast a spell.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can scrounge ether from other inscribed spells to fuel your magic. You can add Scrolls and Wands to the items you can use for @UUID[Compendium.immortal-ardor.feats.l3ecoYD2MwGUJhaa]{Spell Catalyst}. You can use the spell’s traits to check for qualifying traits. When you use a scroll for Spell Catalyst, the scroll is consumed as if it was used to cast a spell. When you use a wand, you expend its charge as if it has been used for the day.</span></p>"
     },
     "rules": [],
     "slug": "component-catalyst",

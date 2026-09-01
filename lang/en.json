@@ -337,7 +337,14 @@
           }
         },
         "Drachensoul": {
-          "BenefactorPrompt": "Select one of your benefactors as your Drachensoul Benefactor."
+          "BenefactorPrompt": "Select one of your benefactors as your Drachensoul Benefactor.",
+          "GreaterBond": {
+            "BondBenefactorPrompt": "Select either a Benefactor that shares a trait you possess, or a trait among your Benefactors.",
+            "BondPrompt": "Select an improvement to your Bond of Greed",
+            "EmpoweredLabel": "Empowered",
+            "EmergentLabel": "Emergent",
+            "ExtendedLabel": "Extended"
+          }
         }
       },
       "Dervish": {

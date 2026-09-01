@@ -168,14 +168,16 @@
         "type": "status",
         "selector": [
           "{item|flags.system.rulesSelections.bondOfGreed.bonus}"
-        ]
+        ],
+        "label": "Bond of Greed Bonus"
       },
       {
         "key": "FlatModifier",
         "value": "-(ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2)))",
         "selector": [
           "{item|flags.system.rulesSelections.bondOfGreed.penalty}"
-        ]
+        ],
+        "label": "Bond of Greed Penalty"
       },
       {
         "key": "FlatModifier",

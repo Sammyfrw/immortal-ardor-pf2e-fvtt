@@ -1,0 +1,125 @@
+{
+  "folder": "twA4EvH7ITGXKuxk",
+  "name": "Molten Bulwark",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You conjure a 15-foot long, 5-foot wide and 10-foot-tall palisade made of magma and molten metal in front of you. This semisolid bulwark spits magmatic rock readily as it acts as standard cover that emits strong heat and caustic fumes, but you can designate allies who are immune to its hazardous effects. The wall has AC 10, Hardness 10, and 60 hit points. It has object immunities and is immune to fire damage.</p><p class=\"MsoNormal\">A creature not immune to its effects who end their turn adjacent to the palisade are splashed by lobs of fire and are subject to acidic fumes. They must make a basic Fortitude saving throw or take 3d6 fire plus 3d6 acid damage. A creature that fails is @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}, or becomes @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure for the spell’s duration. If a creature within 60 feet of the wall attempts to attack an ally adjacent to the wall, you can use a reaction if they miss, or a free action if they critically miss, to command the bulwark to shift and take the damage that the ally would have taken on a hit, and in response to the impact lob magma at the attacking target, forcing them to make the saving throw as described above.</p><p class=\"MsoNormal\">When the bulwark reaches 0 hit points or the duration of the spell elapses, the magma hardens and the wall crumbles apart as the spell ends. You can Dismiss this spell.</p><hr><p class=\"MsoNormal\"><strong>Heightened (+2) </strong>The bulwark’s hit points increases by 20 and the fire and acid damage increase by 1d6 each.<span style=\"mso-spacerun:yes\"> </span></p>"
+    },
+    "rules": [],
+    "slug": "molten-bulwark",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "acid",
+        "concentrate",
+        "earth",
+        "fire",
+        "focus",
+        "manipulate",
+        "metal"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": {
+      "value": 15,
+      "type": "line"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "V03qtRvAxUA3QYi8": {
+        "formula": "3d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "acid",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      },
+      "qdFui4r9foaVQV6Y": {
+        "formula": "3d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "V03qtRvAxUA3QYi8": "1d6",
+        "qdFui4r9foaVQV6Y": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/earth/lava-explosion-orange.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "axuOaXnNGTVWJfBx",
+  "sort": 300000,
+  "_key": "!items!axuOaXnNGTVWJfBx"
+}
