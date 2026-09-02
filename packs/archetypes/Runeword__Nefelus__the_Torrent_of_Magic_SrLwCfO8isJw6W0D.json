@@ -1,0 +1,80 @@
+{
+  "folder": "WMPuGnuH6UxO8aC9",
+  "name": "Runeword: Nefelus, the Torrent of Magic",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Farum is charged and you can cast a runic cantrip or spell.</p><hr></div><p class=\"MsoNormal\">You invoke Nefelus to overcharge your runic spell through the accumulated magic in Farum. You cast a runic cantrip or spell with its number of actions. As the magic is unleashed and the spell hits, you deal an additional @Damage[1d4[force]] damage to creatures affected by your spell. At 10th level, the additional damage increases to @Damage[2d4[force]] force damage. At 18th level, it increases to @Damage[3d4[force]] force damage. Farum is no longer charged.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "nefelus",
+        "predicate": [
+          "self:effect:farum-charged"
+        ],
+        "toggleable": true
+      },
+      {
+        "damageType": "force",
+        "diceNumber": "ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,10),2,1))",
+        "dieSize": "d4",
+        "key": "DamageDice",
+        "selector": "spell-damage",
+        "slug": "nefelus"
+      }
+    ],
+    "slug": "runeword-nefelus-the-torrent-of-magic",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "arcane",
+        "concentrate",
+        "magical",
+        "runic"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneThreeActions.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "SrLwCfO8isJw6W0D",
+  "sort": 0,
+  "_key": "!items!SrLwCfO8isJw6W0D"
+}

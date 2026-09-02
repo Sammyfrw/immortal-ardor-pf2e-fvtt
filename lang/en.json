@@ -369,6 +369,11 @@
           },
           "ConvokeRage": {
             "RangedLabel": "Convoke Rage (Ranged Attack)"
+          },
+          "ConvokeWard": {
+            "Speed": "Speed Bonus",
+            "ArmorClass": "AC Bonus",
+            "DomainBoon": "Domain Boon"
           }
         },
         "Fusilier": {

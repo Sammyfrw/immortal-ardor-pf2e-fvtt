@@ -1,0 +1,95 @@
+{
+  "folder": "xnWh4aivYY5tw5rW",
+  "name": "Runescribe",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You utilize runewords in your magic, scribing it into your spells and taking ambient magic to power them. If you choose this aetherfont archetype, you must select the @UUID[Compendium.immortal-ardor.archetypes.9gpS1Vtr4ijxbXmX]{Runescribe Dedication} as your 2nd level class feat.</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Prerequisites</strong> You must be trained in Arcana, and you must have at least a +2 attribute modifier for your Intelligence or Wisdom. You must have a spellcasting class feature that prepares spells into spell slots.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Runescribe Adjustments</strong></span> You gain access to and learn the Runic language. Unlike a normal language, it isn’t one that can be easily spoken or used for communication, as you must expend ether to speak or write it in a way that it becomes usable; it has very little linguistic properties otherwise. Usage of this language is necessary as part of features in this archetype, but knowledge of it to the extent that you have is typically considered dangerous or outlawed in a majority of countries if you do not have the proper permissions.</p><p class=\"MsoNormal\">When you cast your cantrips or spells, you can cast them as a runic variant of the spell. Whenever you cast these runic spells, you invoke the runic language and draw its symbols as part of your casting. The spells function as normal, but Runescribe features utilize runewords to influence runic spells. However, when you use runewords to influence a runic spell cast from a spell slot, the spell slot is burnt until your next daily preparations. You cannot regain a burnt spell slot or use other means to cast the spell prepared on that slot until then. A runic cantrip does not get burnt when you cast it with a Runescribe feature’s influence.</p><p class=\"MsoNormal\">You gain the @UUID[Compendium.immortal-ardor.archetypes.yJGIAgbAdwST7u8q]{Runeword: Farum, the Nexus Within} reaction. The DC for an ability gained via this archetype is your spell DC.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.archetypes.Item.yJGIAgbAdwST7u8q"
+      }
+    ],
+    "slug": "runescribe",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "archetype"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in Arcana"
+        },
+        {
+          "value": "+2 Intelligence or Wisdom"
+        },
+        {
+          "value": "Prepared Spellcasting Feature"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "languages": {
+        "granted": [
+          "runic"
+        ],
+        "slots": 0
+      }
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "BNsFuyQscAo6Sq1y",
+  "sort": 0,
+  "_key": "!items!BNsFuyQscAo6Sq1y"
+}

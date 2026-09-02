@@ -22,7 +22,7 @@
             "value": "ac"
           },
           {
-            "label": "IA.SpecificRule.Archetypes.Convoker.ConvokeWard.Boon",
+            "label": "IA.SpecificRule.Archetypes.Convoker.ConvokeWard.DomainBoon",
             "value": "boon"
           }
         ]

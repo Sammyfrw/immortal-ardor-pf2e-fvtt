@@ -1,10 +1,10 @@
 {
   "type": "Item",
-  "folder": "j2cynwqyvheyWYlm",
-  "name": "Actions",
+  "folder": "xnWh4aivYY5tw5rW",
+  "name": "Spells",
   "color": null,
   "sorting": "a",
-  "_id": "GyKxF0iRVwSCB0zA",
+  "_id": "x8e4qVoo4BjaRjNt",
   "description": "",
   "sort": 0,
   "flags": {},
@@ -16,5 +16,5 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!GyKxF0iRVwSCB0zA"
+  "_key": "!folders!x8e4qVoo4BjaRjNt"
 }

@@ -1,0 +1,77 @@
+{
+  "folder": "S2xgsaTVjAV5U9ob",
+  "name": "Basic Fragmentary Runes",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You can scribe runewords onto pieces of runestones or magical parchment, dictating a command to channel a runic spell. These fragmentary runes contain mere traces of the command, so that it fades quickly or when used to ensure one isn’t caught with them.</p><p class=\"MsoNormal\">Each day during your daily preparations, you can create a single Fragmentary Rune containing a 1st-rank spell. The spell must be a common spell, a spell to which you have access, or a spell you are able to cast, and you must be trained in the skill corresponding to at least one of the spell’s traditions. Fragmentary Runes behave identically to a scroll, but as they are runic spells you can activate them as you use your Runeword features. You cannot Learn the Spell from your Fragmentary Rune. Once used or if left unused by your next daily preparations, the runes fade.</p><p class=\"MsoNormal\">When you reach 6th level, you can scribe a second, 2nd-rank fragmentary rune, and when you reach 8th level, you can scribe a third, 3rd-rank fragmentary rune.</p>"
+    },
+    "rules": [],
+    "slug": "basic-fragmentary-runes",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Runescribe Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "HgwLIRVq8nWEBQJn",
+  "sort": 0,
+  "_key": "!items!HgwLIRVq8nWEBQJn"
+}
