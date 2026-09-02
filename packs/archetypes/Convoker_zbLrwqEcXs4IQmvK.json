@@ -1,0 +1,236 @@
+{
+  "folder": "j2cynwqyvheyWYlm",
+  "name": "Convoker",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You are someone who has formed a pact with a companion to achieve a goal that would span the material and spiritual planes and the domains that preside over them. With you being able to channel such forces to your companion, you two share and pursue this mutual goal as a team. If you choose this archetype, you must select the Convoker Dedication as your 2nd level class feat.</p><p class=\"MsoNormal\"><strong>Prerequisites </strong>You must have a feature or feat that grants you an animal or other form of companion, familiar, or eidolon. In addition to this, you must be trained in Diplomacy and you must at least have a +2 attribute modifier to your Wisdom or Charisma.</p><p class=\"Standard\"><strong>Convoker Adjustments</strong> You form a pact with your animal companion, familiar or eidolon, referred to in Convoker feats as your convocator. Your convocator belongs to a spiritual domain they hail from or are beholden to, and your pact gives you a similar affinity and responsibility to this spiritual domain.</p><p class=\"Standard\">Choose a collection of four Domains that best represent your convocator, known as your Convoker Domains, with one of these being your Primary Domain. These could be Domains that correspond to a deity, spirit or pantheon your companion is affiliated with, or environmental locales or elements they are associated to (such as Sun Domain for a desert, or Soul for graveyards). Work with your GM if you need to make a collection of Domains. You also gain the Domain Convocation focus cantrip, to call a convocation with other entities of different domains and channel your domain’s powers by invoking your pact with your convocator.</p><p class=\"Standard\">As a Convoker, you use the same spellcasting tradition as your class for your magical abilities and spells, and the DC for an ability or spell granted by this archetype is either your class DC or spell DC, whichever is higher. If your class does not have an affiliated tradition, use the Divine or Primal tradition, whichever is appropriate for your convocator. Your Primary Domain is used for certain features and spells that use its listed Damage Type, Conditions and Boons, as listed in the @UUID[Compendium.immortal-ardor.journals.JournalEntry.HO16IW50jXn58kdN.JournalEntryPage.uU3lL75gS2sK9DSc]{Domain Characters} section.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "value": "mental"
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": "sonic"
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "value": "vitality"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": "void"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          },
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "value": "force"
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "value": "poison"
+          }
+        ],
+        "flag": "convokerPrimaryDomainDamageType",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Archetypes.Convoker.Domains.PrimaryDomainDamageTypePrompt"
+      },
+      {
+        "choices": [
+          {
+            "label": "PF2E.ConditionTypeSickened",
+            "value": "sickened"
+          },
+          {
+            "label": "PF2E.ConditionTypeClumsy",
+            "value": "clumsy"
+          },
+          {
+            "label": "PF2E.ConditionTypeEnfeebled",
+            "value": "enfeebled"
+          },
+          {
+            "label": "PF2E.ConditionTypeStupefied",
+            "value": "stupefied"
+          },
+          {
+            "label": "PF2E.ConditionTypeDrained",
+            "value": "drained"
+          },
+          {
+            "label": "PF2E.ConditionTypeFrightened",
+            "value": "frightened"
+          }
+        ],
+        "flag": "convokerPrimaryDomainCondition",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Archetypes.Convoker.Domains.PrimaryDomainConditionPrompt"
+      },
+      {
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Domains.Boons.QuickenedStride",
+            "value": "quickened-stride"
+          },
+          {
+            "label": "IA.SpecificRule.Domains.Boons.QuickenedStrike",
+            "value": "quickened-strike"
+          },
+          {
+            "label": "IA.SpecificRule.Domains.Boons.TemporaryHitPoints",
+            "value": "temporary-hit-points"
+          },
+          {
+            "label": "IA.SpecificRule.Domains.Boons.Invisibility",
+            "value": "invisibility"
+          },
+          {
+            "label": "IA.SpecificRule.Domains.Boons.FastHealing",
+            "value": "fast-healing"
+          },
+          {
+            "label": "IA.SpecificRule.Domains.Boons.StatusChecks",
+            "value": "status-checks"
+          }
+        ],
+        "flag": "convokerPrimaryDomainBoon",
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Archetypes.Convoker.Domains.PrimaryDomainBoonPrompt"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.system.convoker.primaryDomain.damageType",
+        "value": "{item|flags.system.rulesSelections.convokerPrimaryDomainDamageType}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.system.convoker.primaryDomain.condition",
+        "value": "{item|flags.system.rulesSelections.convokerPrimaryDomainCondition}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.system.convoker.primaryDomain.boon",
+        "value": "{item|flags.system.rulesSelections.convokerPrimaryDomainBoon}"
+      },
+      {
+        "key": "RollOption",
+        "option": "naturally-within-domain",
+        "label": "IA.SpecificRule.Archetypes.Convoker.DomainConvocation.NaturallyWithinDomainLabel",
+        "toggleable": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.system.convoker.aura",
+        "value": 20
+      }
+    ],
+    "slug": "convoker",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Animal Companion, Familiar or Eidolon"
+        },
+        {
+          "value": "Trained in Diplomacy"
+        },
+        {
+          "value": "+2 Wisdom or Charisma"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "zbLrwqEcXs4IQmvK",
+  "sort": 0,
+  "_key": "!items!zbLrwqEcXs4IQmvK"
+}

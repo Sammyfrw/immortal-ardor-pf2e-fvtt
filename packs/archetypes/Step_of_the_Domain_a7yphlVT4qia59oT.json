@@ -1,0 +1,77 @@
+{
+  "folder": "gCR1T0ZlhuEj9IuJ",
+  "name": "Step of the Domain",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"Standard\">When you walk upon your domain, the earth listens and clears a way for your steps. You and your convocator can treat natural difficult terrain as normal terrain, natural greater difficult terrain as difficult terrain and ignore hazardous natural terrain if they are affiliated with your Convoker Domains. If the terrain is magically caused, your Domain Convocation can mitigate its effects in a similar way if it is of your level or lower.</p>"
+    },
+    "rules": [],
+    "slug": "step-of-the-domain",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Convoker Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "a7yphlVT4qia59oT",
+  "sort": 600000,
+  "_key": "!items!a7yphlVT4qia59oT"
+}

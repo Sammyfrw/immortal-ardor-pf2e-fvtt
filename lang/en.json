@@ -227,6 +227,17 @@
         "Violet": "Violet",
         "Ochre": "Ochre"
       },
+      "Domains": {
+        "Boons": {
+          "BoonPrompt": "Select a Domain Boon",
+          "QuickenedStride": "Quickened (Stride)",
+          "QuickenedStrike": "Quickened (Strike)",
+          "TemporaryHitPoints": "Temporary Hit Points",
+          "Invisibility": "Invisibility",
+          "FastHealing": "Fast Healing",
+          "StatusChecks": "Status Bonus to Checks"
+        }
+      },
       "Aetherfonts": {
         "SelectionPrompt": "Select an Aetherfont",
         "EnforcerLabel": "Enforcer",
@@ -324,6 +335,40 @@
             "SelectAspectPrompt": "Select an Aspect of the Storm.",
             "TidesLabel": "Aspect of Tides",
             "SkiesLabel": "Aspect of Skies"
+          }
+        },
+        "Convoker": {
+          "Domains": {
+            "PrimaryDomainPrompt": "Select a Primary Convoker Domain.",
+            "PrimaryDomainDamageTypePrompt": "Select your Primary Convoker Domain's Damage Type.",
+            "PrimaryDomainConditionPrompt": "Select your Primary Convoker Domain's Condition.",
+            "PrimaryDomainBoonPrompt": "Select your Primary Convoker Domain's Boon.",
+            "AdditionalDomainPrompt": "Select additional Convoker Domains."
+          },
+          "DomainConvocation": {
+            "NaturallyWithinDomainLabel": "Naturally Within Domain"
+          },
+          "ConvocatorCompanionship": {
+            "PromptText": "Select an option based on your convocator.",
+            "EnhancedFamiliar": "Convocator Enhanced Familiar",
+            "MatureCompanion": "Mature Convocator Companion",
+            "TandemSustainEidolon": "Tandem Sustained Convocation",
+            "TandemSustainText": "When you Sustain Domain Convocation your Eidolon can Stride or Strike. Using the Sustain action in this way grants it the Tandem and Traversal trait."
+          },
+          "ConvocatorAllyship": {
+            "PromptText": "Select an option based on your convocator.",
+            "IncredibleFamiliar": "Convocator Incredible Familiar",
+            "IncredibleCompanion": "Incredible Convocator Companion",
+            "EvolutionFeatEidolon": "Evolution Feat"
+          },
+          "ConvocatorFellowship": {
+            "PromptText": "Select an option based on your convocator.",
+            "FamiliarAbilities": "Familiar Abilities",
+            "SpecializedCompanion": "Specialized Convocator Companion",
+            "SummonersCallEidolon": "Summoner's Call"
+          },
+          "ConvokeRage": {
+            "RangedLabel": "Convoke Rage (Ranged Attack)"
           }
         },
         "Fusilier": {

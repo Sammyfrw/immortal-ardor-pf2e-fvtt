@@ -1,0 +1,106 @@
+{
+  "folder": "Ab1ouCdPwRfQdo6K",
+  "name": "Effect: Domain Convocation (Aura)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.uUA6Z4NSiP6D0FC3]{Domain Convocation}</p><p>You channel a 20-foot aura around yourself and your convocator. While channeling, you take a 10-foot status penalty to your speeds, but if you Cast a Spell that targets your convocator (including if it targets a familiar, an animal companion, or eidolon), you increase the range by 30 feet.</p>"
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": "@actor.flags.system.convoker.aura",
+        "appearance": {
+          "border": {},
+          "highlight": {}
+        },
+        "effects": [
+          {
+            "uuid": "Compendium.immortal-ardor.archetypes.Item.CNgRG5Qz1QMJ5WHu",
+            "affects": "allies",
+            "includesSelf": false,
+            "predicate": [
+              "self:effect:domain-convocation-sustain"
+            ]
+          }
+        ],
+        "level": "@item.level"
+      },
+      {
+        "key": "RollOption",
+        "option": "domain-convocation",
+        "domain": "all"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "speed"
+        ],
+        "value": -10,
+        "predicate": [
+          {
+            "not": "naturally-within-domain"
+          }
+        ]
+      }
+    ],
+    "slug": "effect-domain-convocation-aura",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "vpAEaYdK4Rcow1ty",
+  "sort": 0,
+  "_key": "!items!vpAEaYdK4Rcow1ty"
+}

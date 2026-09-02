@@ -1,0 +1,160 @@
+{
+  "folder": "Ab1ouCdPwRfQdo6K",
+  "name": "Effect: Convoke Ward",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.gTVYCWQbByJg7D5s]{Convoke Ward}</p><p>You have gained a blessing from a convocator; either a status bonus to your speed, a bonus to your AC, or a boon from the convocator's Primary Domain.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "rollOption": "convoke-ward",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Archetypes.Convoker.ConvokeWard.Speed",
+            "value": "speed"
+          },
+          {
+            "label": "IA.SpecificRule.Archetypes.Convoker.ConvokeWard.ArmorClass",
+            "value": "ac"
+          },
+          {
+            "label": "IA.SpecificRule.Archetypes.Convoker.ConvokeWard.Boon",
+            "value": "boon"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "speed"
+        ],
+        "value": "ternary(gte(@item.level,8),15,10)",
+        "predicate": [
+          "convoke-ward:speed"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "value": 1,
+        "predicate": [
+          "convoke-ward:ac"
+        ]
+      },
+      {
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Domains.Boons.QuickenedStride",
+            "value": "Compendium.immortal-ardor.ancestries.Item.bCIPLq3g6G5oAVFr"
+          },
+          {
+            "label": "IA.SpecificRule.Domains.Boons.QuickenedStrike",
+            "value": "Compendium.immortal-ardor.ancestries.Item.ZdTjDhqh48l9PBsP"
+          },
+          {
+            "label": "IA.SpecificRule.Domains.Boons.TemporaryHitPoints",
+            "value": "Compendium.immortal-ardor.ancestries.Item.CEis8AS7a1oGJVO9"
+          },
+          {
+            "label": "IA.SpecificRule.Domains.Boons.Invisibility",
+            "value": "Compendium.immortal-ardor.ancestries.Item.bCNxK9relcnrBF00"
+          },
+          {
+            "label": "IA.SpecificRule.Domains.Boons.FastHealing",
+            "value": "Compendium.immortal-ardor.ancestries.Item.pUHDk7qww2NBgePo"
+          },
+          {
+            "label": "IA.SpecificRule.Domains.Boons.StatusChecks",
+            "value": "Compendium.immortal-ardor.ancestries.Item.bk2kOevj2dPu3JXe"
+          }
+        ],
+        "flag": "convokeWardBoon",
+        "key": "ChoiceSet",
+        "predicate": [
+          "convoke-ward:boon"
+        ],
+        "prompt": "IA.SpecificRule.Domains.Boons.BoonPrompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.convokeWardBoon}",
+        "predicate": [
+          "convoke-ward:boon"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "athletics",
+          "acrobatics"
+        ],
+        "value": "ternary(gte(@item.level,8),2,1)",
+        "predicate": [
+          "convoke-ward:speed"
+        ]
+      }
+    ],
+    "slug": "effect-convoke-ward",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "qBvkdZbfaNKxUE9j",
+  "sort": 100000,
+  "_key": "!items!qBvkdZbfaNKxUE9j"
+}

@@ -1,0 +1,133 @@
+{
+  "folder": "OtlVn1f4YccfmjUO",
+  "name": "Convoke Rage",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Your Domain Convocation is active and you and your convocator are within line of effect of each other.</p><hr></div><p class=\"MsoNormal\">You channel the rage of your domain into a singular attack delivered by your convocator. You form magic from your sacred pact that manifests in your convocator, who can either unleash a ranged spell attack at a creature within 60 feet of both of you, using the greater of you or your convocator’s spell attack modifier, or Stride and make a melee Strike at a creature they can reach with their movement.</p><p class=\"MsoNormal\">Regardless of your choice, the magic erupts on a successful hit, dealing 3d6 damage of the same type as your Primary Domain’s damage type, doubled on a critical hit. If you use a ranged spell attack, you also add half the number of damage die’s worth of d6 rounded down as persistent damage.</p><p class=\"MsoNormal\"><strong>Heightened (+1) </strong>Increase the magic’s damage by 1d6.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "spell-damage",
+        "diceNumber": "max(floor(@item.level/2),1)",
+        "dieSize": "d6",
+        "damageType": "{actor|flags.system.convoker.primaryDomain.damageType}",
+        "category": "persistent",
+        "label": "IA.SpecificRule.Archetypes.Convoker.ConvokeRage.RangedLabel",
+        "predicate": [
+          "item:slug:convoke-rage"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "DamageAlteration",
+        "itemType": "spell",
+        "predicate": [
+          "item:slug:convoke-rage"
+        ],
+        "property": "damage-type",
+        "mode": "override",
+        "value": "{actor|flags.system.convoker.primaryDomain.damageType}",
+        "selectors": [
+          "spell-damage"
+        ]
+      }
+    ],
+    "slug": "convoke-rage",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "attack",
+        "concentrate",
+        "ether",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "Your Domain Convocation is active and you and your convocator are within line of effect of each other",
+    "target": {
+      "value": "Your convocator"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "r5C4Yex7RmkhkrSv": {
+        "formula": "3d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "r5C4Yex7RmkhkrSv": "1d6"
+      },
+      "area": 0
+    },
+    "overlays": {}
+  },
+  "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "uBYgdm3RPicTxtOA",
+  "sort": 500000,
+  "_key": "!items!uBYgdm3RPicTxtOA"
+}

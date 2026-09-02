@@ -1,0 +1,77 @@
+{
+  "folder": "gCR1T0ZlhuEj9IuJ",
+  "name": "Bloodfused Pact",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Frequency</strong> Once per ten minutes</p><hr></div><p class=\"Standard\">You can rejuvenate your bond through your life force. When you take this action, you can activate your Domain Convocation and replenish a focus point. You and your convocator can overflow the replenishment beyond your physical capabilities. If you do, you or your convocator becomes @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} for 10 minutes, but you regain an additional focus point.</p>"
+    },
+    "rules": [],
+    "slug": "bloodfused-pact",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Convoker Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "1GenxxCrprcGhE4q",
+  "sort": 900000,
+  "_key": "!items!1GenxxCrprcGhE4q"
+}

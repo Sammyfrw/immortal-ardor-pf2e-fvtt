@@ -1,0 +1,79 @@
+{
+  "folder": "gCR1T0ZlhuEj9IuJ",
+  "name": "Convoker Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You and your convocator can ask questions of, receive answers from, and use the Diplomacy skill with animals, plants and spirits who reside in areas aligned with any of your Convoker Domains or a deity or greater spirit that projects these domains.</p><p class=\"Standard\">When your Domain Convocation is active, the auras surrounding both of you are considered to be part of your Convoker Domains, and you can communicate with animals, plants and spirits affiliated with other domains besides your own within them. The auras also functions as your Convoker Domains for the purpose of Convoker actions and spells that require or benefit from you or your companion being within your domains.</p>"
+    },
+    "rules": [],
+    "slug": "convoker-dedication",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "archetype",
+        "dedication"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Convoker"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "HKtUyZBfajxwEjiU",
+  "sort": 1200000,
+  "_key": "!items!HKtUyZBfajxwEjiU"
+}

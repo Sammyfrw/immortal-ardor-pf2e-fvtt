@@ -1,0 +1,115 @@
+{
+  "folder": "OtlVn1f4YccfmjUO",
+  "name": "Convoke Fury",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> Your Domain Convocation is active and you and your convocator are within line of effect of each other.</p><hr><p class=\"MsoNormal\">Your convocator unleashes the fury of your pactbound domain. Creatures within your convocator's Domain Convocation aura must make a Reflex save or take 6d6 damage of the type of your Primary Domain. Creatures who take damage also suffer from your Primary Domain’s associated condition. If they would be @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened}, they cannot reduce the Frightened condition below 1 while they can detect your convocator’s presence.</p><p class=\"MsoNormal\"><strong>Critical Success</strong> The creature takes no damage.</p><p class=\"MsoNormal\"><strong>Success</strong> The creature takes half damage and suffers the condition for 1 round.</p><p class=\"MsoNormal\"><strong>Failure</strong> The creature takes full damage and suffers the condition for 3 rounds.</p><p class=\"MsoNormal\"><strong>Critical Failure</strong> The creature takes double damage and suffers double the condition value for 3 rounds.</p><p>If your domain convocation aura’s radius has increased, you can reduce its radius by 10-foot increments, to a minimum to a 20-foot burst.</p><hr><p class=\"MsoNormal\"><strong>Heightened (+1) </strong>Increase the damage by 2d6.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageAlteration",
+        "itemType": "spell",
+        "predicate": [
+          "item:slug:convoke-fury"
+        ],
+        "property": "damage-type",
+        "mode": "override",
+        "value": "{actor|flags.system.convoker.primaryDomain.damageType}",
+        "selectors": [
+          "spell-damage"
+        ]
+      }
+    ],
+    "slug": "convoke-fury",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "concentrate",
+        "ether",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "Your Domain Convocation is active and you and your convocator are within line of effect of each other.",
+    "target": {
+      "value": "your convocator"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "GYiFobqhOG59xrfP": {
+        "formula": "6d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "48IKcZUKM2updSe3",
+  "sort": 400000,
+  "_key": "!items!48IKcZUKM2updSe3"
+}

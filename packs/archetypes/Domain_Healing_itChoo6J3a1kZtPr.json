@@ -1,0 +1,79 @@
+{
+  "folder": "gCR1T0ZlhuEj9IuJ",
+  "name": "Domain Healing",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You and your convocator flourish while you are in your domains. For every 10 minutes spent resting in an area affiliated with your Convoker Domains, you and your convocator regain 30 hit points. If you share a health pool, such as if your convocator is an eidolon, you only recover your health once.<span style=\"mso-spacerun:yes\">  </span>If you channel your Domain Convocation and persist it for 10 minutes, you can share some of this benefit to up to 6 other creatures, not including yourselves, where they regain 15 hit points. At a GM’s discretion, light exploration activities such as traveling, refocusing or investigating still counts as rest.</p><p class=\"MsoNormal\">At 20th level, this increases to 50 hit points for you or your convocator, or 25 for other creatures.</p>"
+    },
+    "rules": [],
+    "slug": "domain-healing",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "exploration",
+        "healing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Convoker Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "itChoo6J3a1kZtPr",
+  "sort": 400000,
+  "_key": "!items!itChoo6J3a1kZtPr"
+}
