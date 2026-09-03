@@ -1,0 +1,77 @@
+{
+  "folder": "EN8YapT6eD5Y0uEV",
+  "name": "Breakaway Shot",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You can use the force from your ranged weapon to give yourself some distance through the sheer force it emits. You make a ranged Strike at a creature up to 10 feet away from you. As you attack, you @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} directly away from your target with a +10 foot status bonus to your Leap. If you are @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} or @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} and you make a successful Strike, you can attempt to @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} as part of this action. You do not increase your multi-attack penalty until after the Escape attempt.</p>"
+    },
+    "rules": [],
+    "slug": "breakaway-shot",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fusilier Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Ft0DQ9SFWvrjy8bG",
+  "sort": 200000,
+  "_key": "!items!Ft0DQ9SFWvrjy8bG"
+}

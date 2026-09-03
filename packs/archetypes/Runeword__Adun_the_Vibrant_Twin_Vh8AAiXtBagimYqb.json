@@ -1,0 +1,111 @@
+{
+  "folder": "S2xgsaTVjAV5U9ob",
+  "name": "Runeword: Adun the Vibrant Twin",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Farum is charged.</p><hr></div><p class=\"MsoNormal\">You invoke Adun to activate Farum’s magic to empower yourself with healing. You heal @Damage[((@item.level*5)-10)[healing]] hit points. At 10th level and every 2 levels thereafter, the amount of healing increases by 5. Farum is no longer charged. You become immune to the healing for 10 minutes.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you have a runic spell with the healing trait, you can cast the spell as you invoke this runeword by spending the number of actions needed to cast the spell. When you do, you confer healing equal to 5 times the rank of the spell to the target if the spell does not heal hit points, or add a status bonus to the amount healed by half of this amount of healing if it does. Using Adun with a spell from your spell slots ignores a creature’s immunity to Adun’s healing.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "runeword",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.AdunLabel",
+            "value": "adun"
+          }
+        ],
+        "toggleable": true,
+        "mergeable": true,
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.RunewordLabel"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "runeword:adun",
+          "item:trait:healing"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "IA.SpecificRule.Archetypes.Runescribe.Runeword.AdunDescription"
+          }
+        ]
+      }
+    ],
+    "slug": "runeword-adun-the-vibrant-twin",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "concentrate",
+        "healing",
+        "magical",
+        "runic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Runescribe Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Vh8AAiXtBagimYqb",
+  "sort": 800000,
+  "_key": "!items!Vh8AAiXtBagimYqb"
+}

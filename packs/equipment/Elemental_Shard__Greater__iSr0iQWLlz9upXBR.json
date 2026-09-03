@@ -1,0 +1,102 @@
+{
+  "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
+  "name": "Elemental Shard (Greater)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p><hr><p>These crystals are crushed variants of @UUID[Compendium.immortal-ardor.equipment.ZCcpPbqOiTaAOHCZ]{Elemental Crystals}. The elemental crystal used dictates the damage type required by the spell for the shards to be used as a catalyst, while the purity of the elemental crystal dictates its potency. The shard gains the trait affiliated with that element. When activated for a spell that deals a matching damage type as the crystal’s aspected element, the spell deals an additional damage of that type to a single target. For example, a fire shard is used as a catalyst for spells that deal fire damage.</p><p><strong>Minor</strong> The spell deals an additional 5 damage.</p>"
+    },
+    "rules": [],
+    "slug": "elemental-shard",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "catalyst",
+        "consumable",
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 305
+      },
+      "per": 5
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "category": "catalyst",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "spell": null
+  },
+  "type": "consumable",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "esJr5uT3OEf6GCP0",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "iSr0iQWLlz9upXBR",
+  "sort": 400000,
+  "_key": "!items!iSr0iQWLlz9upXBR"
+}

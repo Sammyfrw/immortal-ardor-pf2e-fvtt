@@ -1,0 +1,105 @@
+{
+  "folder": "OtlVn1f4YccfmjUO",
+  "name": "Convoke Recovery",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Requirements </strong>Your Domain Convocation is active and you and your convocator are within line of effect of each other.</p><hr><p class=\"MsoNormal\">Your convocator channels their domain to alleviate ills. Allies within your convocator's aura, including them, gain your choice of one of the following healing effects. A creature who benefits from this spell is immune to its effects for 10 minutes.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Mend</strong> A creature in the area is healed for 5d6 points of healing. If your Primary Domain has a damage type that is Fire, Vitality, Void, Spirit or Mental, you add a status bonus to the healing equal to the number of damage die.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Nurse</strong> A creature in the area can make one recovery check as if they had helpful assistance to end one source of persistent damage. If your Primary Domain has the same or an opposing type of damage or is an opposing Domain (such as Cold damage or the Fire or Water domains for persistent Fire), you automatically end the persistent damage.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Recover</strong> You make a counteract check against one effect causing the @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}, @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened}, @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}, or @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained} conditions a creature in the area is suffering from. You choose for each creature, but this cannot counteract curses, diseases, or conditions that are part of the target’s normal state. If your Primary Domain is affiliated with these conditions, you treat the rank of your check as 2 higher.</p></li></ul><hr><p class=\"MsoNormal\"><strong>Heightened (+1)</strong> You increase the healing from Mend by 1d6.</p><p class=\"MsoNormal\"><strong>Heightened (7th)</strong> When you use Nurse, you can make one roll for each source of persistent damage. When you use Recover, you add Doomed, Stunned, and Slowed to the list of conditions you can attempt to counteract.</p>"
+    },
+    "rules": [],
+    "slug": "convoke-recovery",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "concentrate",
+        "ether",
+        "focus",
+        "healing",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "Your Domain Convocation is active and you and your convocator are within line of effect of each other.",
+    "target": {
+      "value": "your convocator"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "rBppzqZbL6cYT8TP": {
+        "formula": "5d6",
+        "kinds": [
+          "healing"
+        ],
+        "type": "untyped",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": true,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "rBppzqZbL6cYT8TP": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/magic/life/cross-area-circle-green-white.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "HHiTTNNL7AOpsxqL",
+  "sort": 300000,
+  "_key": "!items!HHiTTNNL7AOpsxqL"
+}

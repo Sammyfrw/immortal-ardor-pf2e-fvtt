@@ -1,7 +1,7 @@
 {
   "name": "Worn Items",
   "type": "Item",
-  "sort": 100000,
+  "sort": 200000,
   "flags": {},
   "sorting": "a",
   "color": null,
@@ -11,7 +11,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "6.9.0",
     "exportSource": null

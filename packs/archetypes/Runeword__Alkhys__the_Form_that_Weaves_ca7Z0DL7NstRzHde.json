@@ -1,0 +1,112 @@
+{
+  "folder": "S2xgsaTVjAV5U9ob",
+  "name": "Runeword: Alkhys, the Form that Weaves",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Farum is charged.</p><hr></div><p class=\"MsoNormal\">You invoke Alkhys to use Farum’s charged power to rewrite the parameters of your next spell. If your next action is to Cast a Spell, you can use a spellshape that you know as part of this action and cast it as a runic spell with this runeword. Farum is no longer charged.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "runeword",
+        "placement": "spellcasting",
+        "mergeable": true,
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.AlkhysLabel",
+            "value": "alkhys"
+          }
+        ],
+        "toggleable": true,
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.RunewordLabel"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "runeword:alkhys"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "IA.SpecificRule.Archetypes.Runescribe.Runeword.AlkhysDescription"
+          }
+        ]
+      }
+    ],
+    "slug": "runeword-alkhys-the-form-that-weaves",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "concentrate",
+        "magical",
+        "runic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Runescribe Dedication"
+        },
+        {
+          "value": "Access to a Spellshape"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ca7Z0DL7NstRzHde",
+  "sort": 600000,
+  "_key": "!items!ca7Z0DL7NstRzHde"
+}

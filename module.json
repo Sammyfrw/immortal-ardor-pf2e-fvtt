@@ -1,7 +1,7 @@
 {
   "id": "immortal-ardor",
   "title": "Immortal Ardor",
-  "version": "0.573",
+  "version": "0.640",
   "compatibility": {
     "minimum": "14.365",
     "verified": "14.365"
@@ -329,9 +329,9 @@
             "label": "IA.Trait.Lyncan",
             "description": "IA.TraitDescription.Lyncan"
           },
-          "manafont": {
-            "label": "IA.Trait.Manafont",
-            "description": "IA.TraitDescription.Manafont"
+          "aetherfont": {
+            "label": "IA.Trait.Aetherfont",
+            "description": "IA.TraitDescription.Aetherfont"
           },
           "nightmare": {
             "label": "IA.Trait.Nightmare",
@@ -390,6 +390,10 @@
             "label": "IA.Trait.Catalogue",
             "description": "IA.TraitDescription.Catalogue"
           },
+          "engram": {
+            "label": "IA.Trait.Engram",
+            "description": "IA.TraitDescription.Engram"
+          },
           "facet": {
             "label": "IA.Trait.Facet",
             "description": "IA.TraitDescription.Facet"
@@ -406,6 +410,10 @@
             "label": "IA.Trait.Music",
             "description": "IA.TraitDescription.Music"
           },
+          "sygican": {
+            "label": "IA.Trait.Sygican",
+            "description": "IA.TraitDescription.Sygican"
+          },
           "vehicle": {
             "label": "IA.Trait.Vehicle",
             "description": "IA.TraitDescription.Vehicle"
@@ -415,6 +423,10 @@
           "aelkhazak": {
             "label": "IA.Trait.Aelkhazak",
             "description": "IA.TraitDescription.Aelkhazak"
+          },
+          "anima": {
+            "label": "IA.Trait.Anima",
+            "description": "IA.TraitDescription.Anima"
           },
           "artifex": {
             "label": "IA.Trait.Artifex",
@@ -448,6 +460,10 @@
             "label": "IA.Trait.Catalyze1",
             "description": "IA.TraitDescription.Catalyze1"
           },
+          "charge": {
+            "label": "IA.Trait.Charge",
+            "description": "IA.TraitDescription.Charge"
+          },
           "chimerian": {
             "label": "IA.Trait.Chimerian",
             "description": "IA.TraitDescription.Chimerian"
@@ -468,6 +484,10 @@
             "label": "IA.Trait.Dervish",
             "description": "IA.TraitDescription.Dervish"
           },
+          "discharge": {
+            "label": "IA.Trait.Discharge",
+            "description": "IA.TraitDescription.Discharge"
+          },
           "diviner": {
             "label": "IA.Trait.Diviner",
             "description": "IA.TraitDescription.Diviner"
@@ -483,6 +503,10 @@
           "draichsar": {
             "label": "IA.Trait.Draichsar",
             "description": "IA.TraitDescription.Draichsar"
+          },
+          "engram": {
+            "label": "IA.Trait.Engram",
+            "description": "IA.TraitDescription.Engram"
           },
           "ether": {
             "label": "IA.Trait.Ether",
@@ -508,13 +532,21 @@
             "label": "IA.Trait.Mana",
             "description": "IA.TraitDescription.Mana"
           },
-          "manafont": {
-            "label": "IA.Trait.Manafont",
-            "description": "IA.TraitDescription.Manafont"
+          "aetherfont": {
+            "label": "IA.Trait.Aetherfont",
+            "description": "IA.TraitDescription.Aetherfont"
           },
           "pinotr": {
             "label": "IA.Trait.Pinotr",
             "description": "IA.TraitDescription.Pinotr"
+          },
+          "resolve": {
+            "label": "IA.Trait.Resolve",
+            "description": "IA.TraitDescription.Resolve"
+          },
+          "runic": {
+            "label": "IA.Trait.Runic",
+            "description": "IA.TraitDescription.Runic"
           },
           "sapien": {
             "label": "IA.Trait.Sapien",
@@ -566,6 +598,10 @@
             "label": "IA.Trait.Chaos",
             "description": "IA.TraitDescription.Chaos"
           },
+          "charge": {
+            "label": "IA.Trait.Charge",
+            "description": "IA.TraitDescription.Charge"
+          },
           "constellation": {
             "label": "IA.Trait.Constellation",
             "description": "IA.TraitDescription.Constellation"
@@ -582,6 +618,10 @@
             "label": "IA.Trait.Dervish",
             "description": "IA.TraitDescription.Dervish"
           },
+          "discharge": {
+            "label": "IA.Trait.Discharge",
+            "description": "IA.TraitDescription.Discharge"
+          },
           "diviner": {
             "label": "IA.Trait.Diviner",
             "description": "IA.TraitDescription.Diviner"
@@ -590,6 +630,18 @@
             "label": "IA.Trait.Drachiri",
             "description": "IA.TraitDescription.Drachiri"
           },
+          "ether": {
+            "label": "IA.Trait.Ether",
+            "description": "IA.TraitDescription.Ether"
+          },
+          "mana": {
+            "label": "IA.Trait.Mana",
+            "description": "IA.TraitDescription.Mana"
+          },
+          "aetherfont": {
+            "label": "IA.Trait.Aetherfont",
+            "description": "IA.TraitDescription.Aetherfont"
+          },
           "meditation": {
             "label": "IA.Trait.Meditation",
             "description": "IA.TraitDescription.Meditation"
@@ -597,6 +649,10 @@
           "order": {
             "label": "IA.Trait.Order",
             "description": "IA.TraitDescription.Order"
+          },
+          "runic": {
+            "label": "IA.Trait.Runic",
+            "description": "IA.TraitDescription.Runic"
           },
           "telluric": {
             "label": "IA.Trait.Telluric",
@@ -687,6 +743,10 @@
           "sapien": {
             "label": "IA.Trait.Sapien",
             "description": "IA.TraitDescription.Sapien"
+          },
+          "sygican": {
+            "label": "IA.Trait.Sygican",
+            "description": "IA.TraitDescription.Sygican"
           },
           "nascent-arcane": {
             "description": "IA.TraitDescription.Nascent",

@@ -1,0 +1,130 @@
+{
+  "folder": "qoSHTpNnjXsCYLhd",
+  "name": "Greater Bond",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Through you or your benefactor’s continued pursuit of your goals, your benefactor’s reach expands into the realms of other dragons. As a result, your connection grows more powerful. When you take this feat, you can either add a new trait aligned with any benefactor you have, or add a new benefactor and a trait they have if that benefactor shares a trait that you already possess. For instance, if you have the Fire trait from a Crimson benefactor, you can choose Earth from an Ebony benefactor because you share the Fire trait.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your Bond of Greed also improves in one of the following ways of your choice:</span></p><ul><li><p class=\"Standard\"><strong>Empowered Bond</strong> The status bonus to a skill check with your chosen benefactor applies for its entire duration.</p></li><li><p class=\"Standard\"><strong>Emergent Bond</strong> You can cast Bond of Greed as a reaction, triggered in response to being targeted by an attack or having to make a saving throw against an effect with a trait you possess. You must choose the corresponding benefactor with that trait if you do.</p></li><li><p class=\"Standard\"><strong>Extended Bond</strong> Your Bond of Greed’s duration increases to 10 minutes.</p></li></ul><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can take this feat again at 14th and 20th level. Each time you do, you make a new selection for a trait or benefactor as described above and can choose an improvement to Bond of Greed you do not have.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "prompt": "IA.SpecificRule.Archetypes.Drachensoul.GreaterBond.BondBenefactorPrompt",
+        "choices": [
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.KbFj8Khk3VNSu543"
+          },
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.qmSnZC4ABfKKqVZU"
+          }
+        ],
+        "flag": "bondBenefactorChoice"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.bondBenefactorChoice}"
+      },
+      {
+        "key": "ChoiceSet",
+        "rollOption": "greater-bond",
+        "prompt": "IA.SpecificRule.Archetype.Drachensoul.GreaterBond.BondPrompt",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Archetype.Drachensoul.GreaterBond.EmpoweredLabel",
+            "value": "empowered",
+            "predicate": [
+              {
+                "not": "greater-bond:empowered"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Archetype.Drachensoul.GreaterBond.EmergentLabel",
+            "value": "emergent",
+            "predicate": [
+              {
+                "not": "greater-bond:emergent"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.Archetype.Drachensoul.GreaterBond.ExtendedLabel",
+            "value": "extended",
+            "predicate": [
+              {
+                "not": "greater-bond:extended"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "greater-bond",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 3,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Drachensoul Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "iOxWvZ8qBxxlfbzG",
+  "sort": 700000,
+  "_key": "!items!iOxWvZ8qBxxlfbzG"
+}

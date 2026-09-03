@@ -1,0 +1,116 @@
+{
+  "folder": "gCR1T0ZlhuEj9IuJ",
+  "name": "Domain Diplomat",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Domain boundaries are almost a political entity in their own with how it affects the material plane. Even though spirits do not harbor or view these boundaries as territory the way creatures of the material would, a spiritual domain is only as strong as its sustainers, and thus diplomacy remains key. When you use Diplomacy to converse with animals, plants or spirits affiliated with any domain besides your own, you gain a +1 circumstance bonus. If they are affiliated with any of your Convoker Domains, this bonus increases to a +2.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "diplomacy"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "label": "Domain Diplomat (Different Domains)",
+        "predicate": [
+          {
+            "or": [
+              "target:trait:plant",
+              "target:trait:animal",
+              "target:trait:spirit"
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "diplomacy"
+        ],
+        "value": 2,
+        "label": "Domain Diplomat (Aligned Domains)",
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "target:trait:plant",
+              "target:trait:animal",
+              "target:trait:spirit"
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "domain-diplomat",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Convoker Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "jz1Yp1RvqCh32Xjd",
+  "sort": 1600000,
+  "_key": "!items!jz1Yp1RvqCh32Xjd"
+}

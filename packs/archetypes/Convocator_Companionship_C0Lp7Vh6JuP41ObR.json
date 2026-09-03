@@ -1,0 +1,125 @@
+{
+  "folder": "gCR1T0ZlhuEj9IuJ",
+  "name": "Convocator Companionship",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"Standard\">Your convocator grows more powerful through your journey, though how they grow is dependent on the nature of your companionship:</p><ul><li><p class=\"Standard\">If your convocator is an animal companion or similar, you gain the @UUID[Compendium.pf2e.feats-srd.yozSCfdLFHVBbTxj]{Mature Animal Companion} feat (or an equivalent for a different type of companion). When you Sustain Domain Convocation, you also Command an Animal.</p></li><li><p class=\"Standard\">If your convocator is a familiar, you gain the @UUID[Compendium.pf2e.feats-srd.N7dTFxpjXGn4ddq8]{Enhanced Familiar} feat. When you Sustain Domain Convocation, you also Command your familiar.</p></li><li><p class=\"Standard\">If your convocator is an eidolon, when you Sustain Domain Convocation your Eidolon can Stride or Strike. Using the Sustain action in this way grants it the Tandem and Traversal trait.        </p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Archetype.Convoker.ConvocatorCompanionship.PromptText",
+        "rollOption": "convocator-companionship",
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Archetype.Convoker.ConvocatorCompanionship.EnhancedFamiliar",
+            "value": "familiar"
+          },
+          {
+            "label": "IA.SpecificRule.Archetype.Convoker.ConvocatorCompanionship.MatureCompanion",
+            "value": "companion"
+          },
+          {
+            "label": "IA.SpecificRule.Archetype.Convoker.ConvocatorCompanionship.TandemSustainEidolon",
+            "value": "eidolon"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.N7dTFxpjXGn4ddq8",
+        "predicate": [
+          "convocator-companionship:familiar"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.yozSCfdLFHVBbTxj",
+        "predicate": [
+          "convocator-companionship:companion"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "spell",
+        "predicate": [
+          "convocator-companionship:eidolon",
+          "item:slug:domain-convocation"
+        ],
+        "property": "description",
+        "mode": "add",
+        "value": {
+          "text": "IA.SpecificRule.Archetypes.Convoker.ConvocatorCompanionship.TandemSustainText"
+        }
+      }
+    ],
+    "slug": "convocator-companionship",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Convoker Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "C0Lp7Vh6JuP41ObR",
+  "sort": 1500000,
+  "_key": "!items!C0Lp7Vh6JuP41ObR"
+}

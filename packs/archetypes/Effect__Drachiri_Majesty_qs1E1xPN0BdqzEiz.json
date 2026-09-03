@@ -1,0 +1,101 @@
+{
+  "folder": "59GuOnWu8AqLSaZJ",
+  "name": "Effect: Drachiri Majesty",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.1inyVlkO2greeK8U]{Bond of Greed} &amp; @UUID[Compendium.immortal-ardor.archetypes.2ESyqJuTTOTB0rlb]{Drachiri Majesty}</p><p>You gain a status bonus to your AC and saving throws against effects with the origin benefactor's traits and a type of saving throw.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2))",
+        "type": "status",
+        "predicate": [
+          "drachiri-majesty-save"
+        ],
+        "selector": [
+          "saving-throw"
+        ],
+        "label": "Drachiri Majesty (Saving Throw)"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac",
+          "saving-throw"
+        ],
+        "value": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2))",
+        "predicate": [
+          "drachiri-majesty-traits"
+        ],
+        "hideIfDisabled": true,
+        "type": "status",
+        "label": "Drachiri Majesty (Matching Traits)"
+      },
+      {
+        "key": "RollOption",
+        "option": "drachiri-majesty-traits",
+        "toggleable": true
+      }
+    ],
+    "slug": "effect-drachiri-majesty",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "qs1E1xPN0BdqzEiz",
+  "sort": 0,
+  "_key": "!items!qs1E1xPN0BdqzEiz"
+}

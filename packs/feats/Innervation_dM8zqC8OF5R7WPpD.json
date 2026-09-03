@@ -9,7 +9,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You are able to energize the ether within you and around you, flaring it up for your immediate use. You gain the @UUID[Compendium.immortal-ardor.feats.Item.DVeFVcVwvnanCLnW]{Innvervation} action.</p>"
+      "value": "<p>You are able to energize the ether within you and around you, flaring it up for your immediate use. You gain the @UUID[Compendium.immortal-ardor.feats.Item.DVeFVcVwvnanCLnW]{Innvervate Ether} action.</p>"
     },
     "rules": [],
     "slug": "innervation",
@@ -23,11 +23,14 @@
       }
     },
     "traits": {
-      "otherTags": [],
-      "value": [
-        "manafont"
+      "otherTags": [
+        "aetherfont-feat",
+        "enforcer-feat"
       ],
-      "rarity": "common"
+      "value": [
+        "aetherfont"
+      ],
+      "rarity": "rare"
     },
     "publication": {
       "title": "Immortal Ardor",
@@ -38,7 +41,7 @@
     "level": {
       "value": 15
     },
-    "category": "ancestryfeature",
+    "category": "general",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -50,7 +53,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Enforcer Manafont"
+          "value": "Enforcer Aetherfont"
         }
       ]
     },
@@ -64,9 +67,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.dM8zqC8OF5R7WPpD",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 800000,

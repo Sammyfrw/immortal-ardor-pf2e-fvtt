@@ -1,0 +1,82 @@
+{
+  "_id": "3KKQqzNBAHHV3dH2",
+  "name": "Component Catalyst",
+  "type": "feat",
+  "img": "icons/containers/bags/sack-simple-leather-teal.webp",
+  "effects": [],
+  "folder": "MJ3Wppz7DnV8a1wT",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can scrounge ether from other inscribed spells to fuel your magic. You can add Scrolls and Wands to the items you can use for @UUID[Compendium.immortal-ardor.feats.l3ecoYD2MwGUJhaa]{Spell Catalyst}. You can use the spell’s traits to check for qualifying traits. When you use a scroll for Spell Catalyst, the scroll is consumed as if it was used to cast a spell. When you use a wand, you expend its charge as if it has been used for the day.</span></p>"
+    },
+    "rules": [],
+    "slug": "component-catalyst",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "aetherfont-feat",
+        "evoker-feat"
+      ],
+      "value": [
+        "aetherfont"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "general",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Evoker Aetherfont"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.3KKQqzNBAHHV3dH2",
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MDg2MGU5NzgyN2Nh": 3,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_key": "!items!3KKQqzNBAHHV3dH2"
+}

@@ -9,9 +9,24 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Invokers are born with ether lobes located in their brain, which can store large amounts of ether. Furthermore, they utilize ether freely available in the air to directly affect the world around them. By and large, invokers have access to the largest reserves of ether compared to any other manafont. However, while their lobes can develop in strength like muscles they do require a substantial amount of rest or select minerals to recover.</span></p><h2><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Invoker Focus Point Feature</span></span></h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At the end of their daily preparations, Invokers begin with their full focus points available and are in a state of @UUID[Compendium.immortal-ardor.feats.Item.4XSYk2WQYoTODUG4]{Clear Mind}. Clear Mind is a state that represents their surplus of ether; anytime they would spend a focus point, they can and must use Clear Mind in place of their own focus points. When used in this way, Clear Mind is equivalent to one focus point, and the effect ends.</span></p><h2><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Invoker Refocus</span></span></h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When Invokers refocus, they spend ten minutes recovering their magical connection in an activity that is appropriate to their source of their focus spells or magic. </span>These deeds can usually overlap with other tasks that relate to the source of your focus spells. For instance, a cleric can usually Refocus while tending the wounds of their allies, and a wizard might be able to Refocus while attempting to Identify Magic. At the end of this period, they recover 1 focus point and enter a state of Clear Mind.</p><p class=\"MsoNormal\">If you take a feat to improve your Refocus, you recover all your focus points within the ten-minute period.</p><h2><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>@UUID[Compendium.immortal-ardor.feats.Item.22ClXN69eHZzKgHM]{Invoke Self}</strong><strong style=\"mso-bidi-font-weight:normal\"> (5</strong></span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">th</strong></span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">)</strong></span></h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Through meditative breathing or an intense, trained focus, you can access the deep reserves of ether within. You gain the @UUID[Compendium.immortal-ardor.feats.Item.AdJ7xDrhEjpP6zn0]{Invoke Self} action.</span></p><h2><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">@UUID[Compendium.immortal-ardor.feats.Item.kCWfIwAg0LUWQ0sM]{Conserved Clarity} (10</strong></span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">th</strong></span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">)</strong></span></h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You’ve grown capable in conserving your ether when you’re in peak performance. You can treat your Clear Mind as if it was two focus points for the purpose of meeting focus point costs. In addition, you can use Invoke Self once per hour instead of once per day.</span></p><h2><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">@UUID[Compendium.immortal-ardor.feats.Item.AgejrTnCXjyLchzN]{Conserve Ether } (15</strong></span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">th</strong></span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">)</strong></span></h2><p>Your capacity to retain your wellspring of ether has grown substantially more powerful. Whenever you use your focus points, you can roll a flat DC16 check. On a success, you retain one focus point. In addition, you can use Invoke Self again after you Refocus or once per hour, whichever comes first.</p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Invokers are born with ether lobes located in their brain, which can store large amounts of ether. Furthermore, they utilize ether freely available in the air to directly affect the world around them. By and large, invokers have access to the largest reserves of ether compared to any other aetherfont. However, while their lobes can develop in strength like muscles they do require a substantial amount of rest or select minerals to recover.</span></p><h2><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Invoker Focus Point Feature</span></span></h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">At the end of their daily preparations, Invokers begin with their full focus points available and are in a state of @UUID[Compendium.immortal-ardor.feats.Item.4XSYk2WQYoTODUG4]{Clarity}. Clear Mind is a state that represents their surplus of ether; anytime they would spend a focus point, they can and must use Clarity in place of their own focus points. </span><span style=\"font-size:12.0pt;font-family:'Calibri',sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">When used in this way, Clarity is equivalent to one focus point, and the effect ends. </span>When you reach 10th level, you treat Clarity as equivalent to two focus points for the purpose of meeting focus point costs.</p><h2><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Invoker Refocus</span></span></h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When Invokers refocus, they spend ten minutes recovering their magical connection in an activity that is appropriate to their source of their focus spells or magic. </span>These deeds can usually overlap with other tasks that relate to the source of your focus spells. For instance, a cleric can usually Refocus while tending the wounds of their allies, and a wizard might be able to Refocus while attempting to Identify Magic. At the end of this period, they recover 1 focus point and enter a state of Clarity.</p><p class=\"MsoNormal\">If you take a feat to improve your Refocus, you recover all your focus points within the ten-minute period.</p><h2>Invoker General Feats</h2><h3>@UUID[Compendium.immortal-ardor.feats.Item.22ClXN69eHZzKgHM]{Invoke the Mind} (3rd)</h3><p class=\"MsoNormal\">@Embed[Compendium.immortal-ardor.feats.Item.22ClXN69eHZzKgHM inline hr=false]</p><h3>@UUID[Compendium.immortal-ardor.feats.Item.kCWfIwAg0LUWQ0sM]{Conserved Clarity} (11th)</h3><p class=\"MsoNormal\">@Embed[Compendium.immortal-ardor.feats.Item.kCWfIwAg0LUWQ0sM inline hr=false]</p><h3>@UUID[Compendium.immortal-ardor.feats.Item.AgejrTnCXjyLchzN]{Conserve Ether } (15th)</h3><p>@Embed[Compendium.immortal-ardor.feats.Item.AgejrTnCXjyLchzN inline hr=false]</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "property": "description",
+        "mode": "override",
+        "value": [
+          {
+            "text": "IA.SpecificRule.Aetherfonts.InvokerRefocusDescription"
+          }
+        ],
+        "predicate": [
+          "item:refocus"
+        ]
+      }
+    ],
     "slug": "invoker",
     "_migration": {
       "version": 0.935,
@@ -23,9 +38,11 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "aetherfont"
+      ],
       "value": [
-        "manafont"
+        "aetherfont"
       ],
       "rarity": "common"
     },
@@ -60,9 +77,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.cz5agwtxRqBCrvQK",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 0,

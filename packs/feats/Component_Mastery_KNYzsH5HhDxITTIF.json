@@ -9,9 +9,20 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can leverage your catalysts as components for a wider variety of spells. You can add Wands and Spellhearts to the items you can use for Spell Catalyst.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When you use a Spellheart, you can use the Spellheart’s traits to check for qualifying traits. When used as a catalyst, the Spellheart becomes inert, unable to be used normally or for Spell Catalyst until your next daily preparations.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When you use a wand, the wand’s charge must not have been spent yet, and you can use the wand’s spell to check for qualifying traits. When you use the wand as a catalyst, the wand loses its charge as if it had been used for the day.</span></p><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">In addition, when you use Spell Catalyst, you can negate up to 2 points of focus point costs.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You can leverage your catalysts more frequently as you’ve become defter at pulling ether from objects. You can use @UUID[Compendium.immortal-ardor.feats.l3ecoYD2MwGUJhaa]{Spell Catalyst} twice per hour.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "property": "frequency-max",
+        "predicate": [
+          "item:slug:spell-catalyst"
+        ],
+        "mode": "upgrade",
+        "value": 2
+      }
+    ],
     "slug": "component-mastery",
     "_migration": {
       "version": 0.935,
@@ -23,22 +34,25 @@
       }
     },
     "traits": {
-      "otherTags": [],
-      "value": [
-        "manafont"
+      "otherTags": [
+        "aetherfont-feat",
+        "evoker-feat"
       ],
-      "rarity": "common"
+      "value": [
+        "aetherfont"
+      ],
+      "rarity": "uncommon"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
-      "value": 10
+      "value": 11
     },
-    "category": "ancestryfeature",
+    "category": "general",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -50,7 +64,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Evoker Manafont"
+          "value": "Evoker Aetherfont"
         }
       ]
     },
@@ -64,9 +78,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.KNYzsH5HhDxITTIF",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 400000,

@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The verdant drachiri that incubated your egg gave you a relatively sleek body with underbite jaws, and a lankier gait than most of your kin. You possess scales with deeper browns and green colorations. You gain the @UUID[Compendium.immortal-ardor.ancestries.NlGzXdfbf3IsupSJ]{Exemplary Qualities} feat. You bear acidic glands that serve as a natural weapon, and your unarmed attacks gain the versatile acid trait.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The verdant drachiri that incubated your egg gave you a relatively sleek body with underbite jaws, and a lankier gait than most of your kin. You possess scales with deeper browns and green colorations. </span>You gain a second trait from your Verdant Drachiri benefactor.<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> You bear acidic glands that serve as a natural weapon, and your unarmed attacks gain the versatile acid trait.</span></p>"
     },
     "rules": [
       {

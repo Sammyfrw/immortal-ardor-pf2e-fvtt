@@ -1,0 +1,77 @@
+{
+  "folder": "EN8YapT6eD5Y0uEV",
+  "name": "Jackpot",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> You are wielding two ranged weapons, one in each hand.</p><hr></div><p class=\"MsoNormal\">You fire both your weapons at once at a single target. Make two ranged strikes, one with each weapon. If both attacks hit, combine the damage for the purpose of resistances, weaknesses and hardness, and add any applicable effects from both weapons. Add precision damage only once, to the attack of your choice. This counts as two attacks when calculating your multiple attack penalty. If one of your ranged weapons is a sygican weapon, you can Ingrave one prior to your Strike as part of this action.</p>"
+    },
+    "rules": [],
+    "slug": "jackpot",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fusilier Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "C5RFYvGYNefUvWrZ",
+  "sort": 0,
+  "_key": "!items!C5RFYvGYNefUvWrZ"
+}

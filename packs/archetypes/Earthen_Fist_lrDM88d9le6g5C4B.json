@@ -36,6 +36,7 @@
         "cantrip",
         "concentrate",
         "earth",
+        "aetherfont",
         "manipulate"
       ],
       "rarity": "uncommon",
@@ -128,9 +129,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.lrDM88d9le6g5C4B",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 150000,

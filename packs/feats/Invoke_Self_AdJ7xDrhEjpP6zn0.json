@@ -9,7 +9,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p> <span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Frequency: </strong>Once per day</span></p><hr /><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You reach in for the deep reserves of ether within you. You gain </span>@UUID[Compendium.immortal-ardor.feats.Item.4XSYk2WQYoTODUG4]{Effect: Clear Mind}</p>"
+      "value": "<p> <span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Frequency: </strong>Once per day</span></p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You reach in for the deep reserves of ether within you. You gain </span>@UUID[Compendium.immortal-ardor.feats.4XSYk2WQYoTODUG4]{Effect: Clarity}</p>"
     },
     "rules": [],
     "slug": "invoke-self",
@@ -24,7 +24,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "manafont"
+        "ether",
+        "aetherfont"
       ]
     },
     "publication": {
@@ -40,17 +41,21 @@
     "actions": {
       "value": 1
     },
-    "deathNote": false
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
   },
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.AdJ7xDrhEjpP6zn0",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
-  "sort": 0,
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "MDg2MGU5NzgyN2Nh": 3,

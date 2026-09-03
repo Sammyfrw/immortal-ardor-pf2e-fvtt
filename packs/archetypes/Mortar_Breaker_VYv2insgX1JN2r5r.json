@@ -1,0 +1,80 @@
+{
+  "folder": "EN8YapT6eD5Y0uEV",
+  "name": "Mortar Breaker",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> You are wielding a sygican ranged weapon.</p><p class=\"MsoNormal\"><strong>Cost</strong> 2 battery charges</p><hr></div><p class=\"MsoNormal\">Your weapon can launch a shot that arcs up, over, and around at a target you know is there, even if you can’t see them. Your Engram has the following effect.</p><p class=\"MsoNormal\"><strong>Ingrave (Manipulate, 2 charges) </strong>Make a ranged Strike against a creature up to three times your ranged increment without penalty. You ignore any bonuses the target might have from Cover or Concealment, unless they are protected from above.</p>"
+    },
+    "rules": [],
+    "slug": "t-feature-template",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "engram",
+        "flourish",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fusilier Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "VYv2insgX1JN2r5r",
+  "sort": 0,
+  "_key": "!items!VYv2insgX1JN2r5r"
+}

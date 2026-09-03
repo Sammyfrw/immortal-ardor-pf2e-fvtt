@@ -1,0 +1,83 @@
+{
+  "folder": "OtlVn1f4YccfmjUO",
+  "name": "Convoke Ward",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> Your Domain Convocation is active and you and your convocator are within line of effect of each other.</p><hr><p class=\"MsoNormal\">Your pact-granted powers conjure blessings from your domain. Up to 6 creatures of your choice within your convocator’s aura, including them, are granted a boon of your choice for the next minute. You can Dismiss this spell early, and this spell also ends if your Domain Convocation is no longer active or you cast this spell again. You can grant one of the following blessings:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">A +10 status bonus to their Speeds,</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">A +1 status bonus to their AC,</p></li><li><p class=\"MsoListParagraphCxSpLast\">The listed boon for your Primary Domain.</p></li></ul><p>@UUID[Compendium.immortal-ardor.archetypes.qBvkdZbfaNKxUE9j]{Effect: Convoke Ward}</p><hr><p class=\"MsoNormal\"><strong>Heightened (6th) </strong>You add saving throws when you convey a bonus to AC, and a +1 status bonus to Athletics and Acrobatics checks when you convey a bonus to Speed.</p><p class=\"MsoNormal\"><strong>Heightened (8th)</strong> As 6th, but your status bonus to AC and saving throws or Athletics and Acrobatics checks increases to +2, and your status bonus to speeds increases to +15.</p><p class=\"MsoNormal\"><strong>Heightened (9th)</strong> You can grant boons to any number of creatures.</p>"
+    },
+    "rules": [],
+    "slug": "convoke-ward",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "Your Domain Convocation is active and you and your convocator are within line of effect of each other.",
+    "target": {
+      "value": "your convocator"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "gTVYCWQbByJg7D5s",
+  "sort": 200000,
+  "_key": "!items!gTVYCWQbByJg7D5s"
+}

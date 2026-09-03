@@ -1,0 +1,20 @@
+{
+  "_id": "MJ3Wppz7DnV8a1wT",
+  "name": "Aetherfont Feats",
+  "type": "Item",
+  "sort": 7900000,
+  "flags": {},
+  "sorting": "a",
+  "color": null,
+  "folder": "XaKcxo560ohf3xPr",
+  "description": "",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0",
+    "exportSource": null
+  },
+  "_key": "!folders!MJ3Wppz7DnV8a1wT"
+}

@@ -1,0 +1,77 @@
+{
+  "folder": "S2xgsaTVjAV5U9ob",
+  "name": "Expert Fragmentary Runes",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can inscribe more powerful commands onto runestones. In addition to the fragmentary runes you can make from Basic Fragmentary Runes, you can scribe a 4th-rank fragmentary rune. At 12th level, you can scribe an additional 5th-rank fragmentary rune, and at 14th you can scribe another 6th-rank fragmentary rune.</p>"
+    },
+    "rules": [],
+    "slug": "expert-fragmentary-runes",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Basic Fragmentary Runes"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "gyJXKTwSVoOgOb1H",
+  "sort": 400000,
+  "_key": "!items!gyJXKTwSVoOgOb1H"
+}

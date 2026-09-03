@@ -1,0 +1,96 @@
+{
+  "folder": "EN8YapT6eD5Y0uEV",
+  "name": "Fusilier's Modification",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You are able to make adjustments to your weapon to make it uniquely yours. When you take this feat, you select one of the modifications below to learn and apply to your Fusilier’s Signature.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Siphon</strong>: You can attach a @UUID[Compendium.pf2e.equipment-srd.touk9g0Lc2REwowo]{Weapon Siphon} to your weapon, even if it’s a ranged weapon, and the damage bonus of a weapon siphon attached to your weapon increases to 1d6.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Launcher</strong>: You can attach a portable @UUID[Compendium.pf2e.equipment-srd.ApMC9PSOnj7cPAGL]{Bomb Launcher} to your weapon. This functions identically to a Bomb Launcher but it has the Adjustment trait, and allows you to use it while you are wielding your weapon. This does weigh and shift the balance of the ranged weapon, requiring it to be held in 2 hands if it was not already, and increases its bulk by 1.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Scanner</strong>: You can attach a scanner to your weapon. This is an attachment with the Adjustment trait, and grants you an additional Engram for your weapon. <strong>Ingrave </strong><span class=\"action-glyph\">1</span><strong> (Manipulate, 2 charges)</strong>: You Strike with your weapon. On a hit, your scanner casts an identifying magic that feeds you information of the creature you attacked, allowing you to Recall Knowledge. If you critically hit, you gain a +2 circumstance bonus to your check. The target is then immune to your Scanner for a day.</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "rollOption": "fusiliers-modification",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Archetypes.Fusilier.SignatureModifications.ModificationSiphonLabel",
+            "value": "siphon"
+          },
+          {
+            "label": "IA.SpecificRule.Archetypes.Fusilier.SignatureModifications.ModificationLauncherLabel",
+            "value": "launcher"
+          },
+          {
+            "label": "IA.SpecificRule.Archetypes.Fusilier.SignatureModifications.ModificationScannerLabel",
+            "value": "scanner"
+          }
+        ]
+      }
+    ],
+    "slug": "fusiliers-modification",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fusilier Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "dVzf5TTwyi2EkXvm",
+  "sort": 500000,
+  "_key": "!items!dVzf5TTwyi2EkXvm"
+}

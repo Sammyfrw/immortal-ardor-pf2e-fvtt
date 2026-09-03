@@ -1,0 +1,86 @@
+{
+  "folder": "OtlVn1f4YccfmjUO",
+  "name": "Convoke Judgment",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements </strong>Your Domain Convocation is active and you and your convocator are within line of effect of each other.</p><hr><p class=\"MsoNormal\">Power flows through your convocator, filling them to the brim where they temporarily become an incarnate of your pactbound domain. When you cast this spell, your convocator vanishes and reappears in a space of your choice within range as if they were summoned by an incarnate spell, giving them an Arrive and Depart action. While this spell is in effect, they are considered as an incarnate entity, with the same size and speeds that it would have normally. If the spell ends early (such as if it was dispelled), your convocator reappears by your side as it was when it first vanished at the start of your next turn.</p><p class=\"MsoNormal\"><strong>Arrive</strong> <em>Flow of the Domain</em> You use Domain Convocation as your convocator arrives, immediately using @UUID[Compendium.immortal-ardor.archetypes.uBYgdm3RPicTxtOA]{Convoke Rage} or @UUID[Compendium.immortal-ardor.archetypes.48IKcZUKM2updSe3]{Convoke Fury}(even if you do not know those focus spells). As normal for Incarnate spells, these spells ignore targeting your allies. The spell also triggers from your Domain Convocation aura or your space as well. If you chose Convoke Rage, you can fire a spell attack at a different creature than your convocator’s target. If you chose Convoke Fury, a creature can only take damage from the spell once, even if your Convocation auras intersect.</p><p class=\"MsoNormal\"><strong>Depart</strong> <em>Ebb of the Domain </em>Your convocator leaves with a final blessing for you and those fighting for its domain, using @UUID[Compendium.immortal-ardor.archetypes.gTVYCWQbByJg7D5s]{Convoke Ward} or @UUID[Compendium.immortal-ardor.archetypes.HHiTTNNL7AOpsxqL]{Convoke Recovery} (even if you do not know those focus spells). The spell also triggers from your Domain Convocation aura as well. A creature can only benefit from the spell once, even if your Convocation auras intersect. After it departs, the convocator reappears at the start of your next turn.</p><p class=\"MsoNormal\">Your convocator can only be the target of Convoke Judgment once per day.</p><hr><p class=\"MsoNormal\"><strong>Heightened (10th) </strong>You can target your convocator with this spell once per hour.</p>"
+    },
+    "rules": [],
+    "slug": "convoke-judgment",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "concentrate",
+        "ether",
+        "focus",
+        "incarnate",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "requirements": "Your Domain Convocation is active and you and your convocator are within line of effect of each other.",
+    "target": {
+      "value": "your convocator"
+    },
+    "range": {
+      "value": "200 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/symbols/mask-yellow-orange.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "UktEeTvyIHgLoqgB",
+  "sort": 0,
+  "_key": "!items!UktEeTvyIHgLoqgB"
+}

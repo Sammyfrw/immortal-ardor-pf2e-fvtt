@@ -9,9 +9,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your control over volatile ether grows to a point where you can make the most of its ephemeral power. You treat your focus points as if it were double their current amount, for the purpose of meeting focus point costs. In addition, you gain the @UUID[Compendium.immortal-ardor.feats.Item.ifJkYzy345762JRN]{Volatility} free action.</span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your control over volatile ether grows to a point where you can make the most of its ephemeral power. In addition, you gain the @UUID[Compendium.immortal-ardor.feats.Item.ifJkYzy345762JRN]{Volatile Surge} free action.</span></p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.feats.Item.ifJkYzy345762JRN"
+      }
+    ],
     "slug": "volatility",
     "_migration": {
       "version": 0.935,
@@ -23,22 +28,25 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "aetherfont-feat",
+        "enforcer-feat"
+      ],
       "value": [
-        "manafont"
+        "aetherfont"
       ],
       "rarity": "uncommon"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
-      "value": 10
+      "value": 11
     },
-    "category": "ancestryfeature",
+    "category": "general",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -50,7 +58,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Enforcer Manafont"
+          "value": "Enforcer Aetherfont"
         }
       ]
     },
@@ -64,9 +72,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.RI8wChFJugGKAunP",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 500000,

@@ -1,0 +1,104 @@
+{
+  "folder": "S2xgsaTVjAV5U9ob",
+  "name": "Runeword: Zelkar, the Hungry Void",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p style=\"border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><strong>Prerequisites</strong> Runescribe dedication</p><div><p class=\"MsoNormal\"><strong>Requirements</strong> You have prepared spells in your three highest ranked spell slots that you have not cast and you have Farum inscribed on your person.</p><p class=\"MsoNormal\"><strong>Frequency</strong> Once per hour</p><hr></div><p class=\"MsoNormal\">You invoke Zelkar to draw upon one element of your magic, converting it to another usable form of ether. You select a spell that meets the requirements. That spell slot becomes burnt, and Farum becomes @UUID[Compendium.immortal-ardor.archetypes.pjTWK2jZCEe87Fly]{Effect: Farum Charged} and you gain a focus point. If you consume a spell from your highest ranked spell slots, you gain two focus points instead.</p><p class=\"MsoNormal\">If you have the @UUID[Compendium.immortal-ardor.archetypes.HgwLIRVq8nWEBQJn]{Fragmentary Runes} feat, you can sacrifice a fragmentary rune for 1 focus point when you use this action instead of a spell slot.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "runeword",
+        "mergeable": true,
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.ZelkarLabel",
+            "value": "zelkar"
+          }
+        ],
+        "toggleable": true,
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.RunewordLabel"
+      }
+    ],
+    "slug": "runeword-zelkar-the-hungry-void",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "concentrate",
+        "ether",
+        "magical",
+        "runic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Runescribe Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.immortal-ardor.archetypes.Item.pjTWK2jZCEe87Fly",
+      "name": "Effect: Farum Charged"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "MSIUW5Lu1u1B8vN3",
+  "sort": 50000,
+  "_key": "!items!MSIUW5Lu1u1B8vN3"
+}

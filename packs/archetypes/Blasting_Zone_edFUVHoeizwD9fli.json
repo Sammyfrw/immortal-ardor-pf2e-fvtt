@@ -1,0 +1,79 @@
+{
+  "folder": "EN8YapT6eD5Y0uEV",
+  "name": "Blasting Zone",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> You are wielding a ranged sygican weapon.</p><p class=\"MsoNormal\"><strong>Cost</strong> 2 battery charges</p><hr></div><p class=\"MsoNormal\">Your sygican weapon can blast an area as your bullet spreads out in a wide vicinity. You Ingrave your weapon with the following effect.</p><p class=\"MsoNormal\"><strong>Ingrave (Manipulate, 2 charges) </strong>Your Area Fire with your weapon, even if it does not normally have that capability. You expend one ammo for your attack, and the magic duplicates it for the Area Fire. It has your choice of a @Template[burst|distance:10] or a @Template[cone|distance:15] within your firearm’s first ranged increment. If your weapon has the Scatter trait, you increase these areas by 5 feet (@Template[burst|distance:15] or a @Template[cone|distance:20])</p>"
+    },
+    "rules": [],
+    "slug": "blasting-zone",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "engram",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fusilier Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "edFUVHoeizwD9fli",
+  "sort": 0,
+  "_key": "!items!edFUVHoeizwD9fli"
+}

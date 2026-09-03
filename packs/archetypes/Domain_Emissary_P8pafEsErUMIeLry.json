@@ -1,0 +1,77 @@
+{
+  "folder": "gCR1T0ZlhuEj9IuJ",
+  "name": "Domain Emissary",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You and your convocator speak with the authority and protection of your domain. When you use Diplomacy to converse with animals, plants or spirits affiliated with a domain, even if you critically fail a @UUID[Compendium.pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Request} or to @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression}, your reputation ensures that their attitudes do not decrease as a result (this does not prevent it from decreasing if you are actively hostile in your Diplomacy). Creatures of these types that are of a lower level than you will immediately have a greater disposition when you first encounter them, and your Make an Impression attempts will treat their outcome as one step higher.</p>"
+    },
+    "rules": [],
+    "slug": "domain-emissary",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Domain Diplomat"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "P8pafEsErUMIeLry",
+  "sort": 1100000,
+  "_key": "!items!P8pafEsErUMIeLry"
+}

@@ -1,0 +1,97 @@
+{
+  "folder": "jpFu5Lzg5oVfBRNs",
+  "name": "Arcblade Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">If you have the @UUID[Compendium.immortal-ardor.archetypes.pid3Nv3o23ilx3n6]{Aspect of Tides}, you gain the @UUID[Compendium.pf2e.feats-srd.iOY6YfGBaOvMNAor]{Underwater Marauder} skill feat. If you have the @UUID[Compendium.immortal-ardor.archetypes.8ad23sFdfBpqwklz]{Aspect of Skies}, you gain the @UUID[Compendium.pf2e.feats-srd.ZBhvJ9O8MvBFAlhq]{Quick Jump} skill feat. In addition, you can channel etheric magic attuned to your aspect, allowing you to enter a fighting style that combines grace and strength with the fury of the storm. You gain the @UUID[Compendium.immortal-ardor.archetypes.vNck1Oor9udzoSRj]{Storm Surge Stance} action.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.iOY6YfGBaOvMNAor",
+        "predicate": [
+          "feature:aspect-of-tides"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq",
+        "predicate": [
+          "feature:aspect-of-skies"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.archetypes.Item.vNck1Oor9udzoSRj"
+      }
+    ],
+    "slug": "arcblade-dedication",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "dedication"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Arcblade"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "GTnSy5eC6Ometrfg",
+  "sort": 100000,
+  "_key": "!items!GTnSy5eC6Ometrfg"
+}

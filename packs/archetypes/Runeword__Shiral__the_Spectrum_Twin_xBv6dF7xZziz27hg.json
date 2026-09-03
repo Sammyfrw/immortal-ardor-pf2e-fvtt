@@ -1,0 +1,185 @@
+{
+  "folder": "S2xgsaTVjAV5U9ob",
+  "name": "Runeword: Shiral, the Spectrum Twin",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Farum is charged.</p><hr></div><p class=\"MsoNormal\">You invoke Shiral to channel Farum’s magic and command your next spell to be charged with a different form of ether emblematic of a tradition. You cast a runic cantrip or spell with its number of actions, and you can change its damage type and traits from its original type to force, spirit, fire or mental. Farum is no longer charged.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "runeword",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.ShiralLabel",
+            "value": "shiral"
+          }
+        ],
+        "toggleable": true,
+        "mergeable": true,
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.RunewordLabel"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "runeword:shiral"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "IA.SpecificRule.Archetypes.Runescribe.Runeword.ShiralDescription"
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.ShiralChoiceLabel",
+        "option": "shiral-element",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitForce",
+            "value": "force"
+          },
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "value": "mental"
+          }
+        ],
+        "predicate": [
+          "runeword:shiral"
+        ],
+        "toggleable": true,
+        "placement": "spellcasting"
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "spell-damage"
+        ],
+        "property": "damage-type",
+        "mode": "override",
+        "value": "fire",
+        "predicate": [
+          "shiral-element:fire"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "spell-damage"
+        ],
+        "property": "damage-type",
+        "mode": "override",
+        "value": "spirit",
+        "predicate": [
+          "shiral-element:spirit"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "spell-damage"
+        ],
+        "property": "damage-type",
+        "mode": "override",
+        "value": "force",
+        "predicate": [
+          "shiral-element:force"
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "spell-damage"
+        ],
+        "property": "damage-type",
+        "mode": "override",
+        "value": "mental",
+        "predicate": [
+          "shiral-element:mental"
+        ]
+      }
+    ],
+    "slug": "runeword-shiral-the-spectrum-twin",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "concentrate",
+        "magical",
+        "runic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Runescribe Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "xBv6dF7xZziz27hg",
+  "sort": 700000,
+  "_key": "!items!xBv6dF7xZziz27hg"
+}

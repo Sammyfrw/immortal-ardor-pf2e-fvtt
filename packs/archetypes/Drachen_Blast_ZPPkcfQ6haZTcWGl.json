@@ -1,0 +1,109 @@
+{
+  "folder": "qoSHTpNnjXsCYLhd",
+  "name": "Drachen Blast",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your link to your benefactor grants you a potent attack. You gain the @UUID[Compendium.immortal-ardor.archetypes.PekR9gqpbVQocnka]{Drachen Blast} focus cantrip.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:slug:drachen-blast"
+        ],
+        "property": "damage-type",
+        "selectors": [
+          "spell-damage"
+        ],
+        "value": "{actor|flags.system.drachiriBenefactor.damageType}"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "spell-damage",
+        "slug": "melee-drachen-blast",
+        "value": "@actor.system.abilities.str.mod",
+        "mode": "add"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 0,
+        "slug": "melee-drachen-blast",
+        "selector": [
+          "spell-damage"
+        ],
+        "damageType": "{actor|flags.system.drachiriBenefactor.damageType}",
+        "predicate": [
+          "item:slug:drachen-blast"
+        ]
+      }
+    ],
+    "slug": "drachen-blast",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Drachensoul Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ZPPkcfQ6haZTcWGl",
+  "sort": 200000,
+  "_key": "!items!ZPPkcfQ6haZTcWGl"
+}

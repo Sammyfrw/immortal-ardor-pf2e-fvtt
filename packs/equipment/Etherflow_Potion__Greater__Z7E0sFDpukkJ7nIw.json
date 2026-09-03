@@ -8,7 +8,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A bubbling vial of condensed ether, designed to replenish a drinker's ether reserves. Unlike the condensed ether potions made for Invokers which heals the strain on their etherlobes, Etherweave tinctures provide a rejuvenating effect to the body itself, replenishing one's existing reserves. </p>\n<p>If you are a spellcaster that utilizes spell slots, while you are in the middle of a Refocus activity you can drink this potion to recover your spell slots. If you are a prepared spellcaster, you regain the spells allocated to the spell slots you recover.</p>\n<p>The spell slots can have a combined level that is equal to or less than your level, up to a maximum of 16. None of the slots can be of 8th level or higher. If you are a spellcaster with a wave spell level progression, you can have a combined level of up to 32, and you can use it on any of your available slots.</p>"
+      "value": "<p>A bubbling vial of condensed ether, designed to replenish a drinker's ether reserves. Unlike the condensed ether potions made for Invokers which heals the strain on their etherlobes, Etherweave tinctures provide a rejuvenating effect to the body itself, replenishing one's existing reserves. </p><p>If you are a spellcaster that utilizes spell slots, while you are in the middle of a Refocus activity you can drink this potion to recover your spell slots. If you are a prepared spellcaster, you regain the spells allocated to the spell slots you recover.</p><p>The spell slots can have a combined level that is equal to or less than your level, up to a maximum of 16. None of the slots can be of 8th level or higher.</p>"
     },
     "rules": [],
     "slug": "etherflow-potion-greater",
@@ -52,7 +52,8 @@
     "price": {
       "value": {
         "gp": 2500
-      }
+      },
+      "per": 1
     },
     "equipped": {
       "carryType": "worn"
@@ -86,15 +87,15 @@
     "usage": {
       "value": "held-in-one-hand"
     },
-    "stackGroup": null,
-    "spell": null
+    "spell": null,
+    "stackGroup": null
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "ownership": {

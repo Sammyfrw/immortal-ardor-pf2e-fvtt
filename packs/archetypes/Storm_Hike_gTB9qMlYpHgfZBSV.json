@@ -1,0 +1,78 @@
+{
+  "folder": "jpFu5Lzg5oVfBRNs",
+  "name": "Storm Hike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are in @UUID[Compendium.immortal-ardor.archetypes.vNck1Oor9udzoSRj]{Storm Surge Stance}</p><hr><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your aerial control grants you greater movements. While in your stance, </span><span>you can move 5 feet further or 3 feet higher when you Leap. You do not trigger reactions when you move through the air or land as part of a Leap (though you trigger reactions normally when you begin the Leap).</span></p><p class=\"MsoNormal\">While in the stance, <span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">if you have the @UUID[Compendium.immortal-ardor.archetypes.8ad23sFdfBpqwklz]{Aspect of Skies}, </span><span>at any point after a Leap before you touch the ground, </span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">you can take a second action to Leap again as your motes propel you further with stormy winds. If you have the @UUID[Compendium.immortal-ardor.archetypes.pid3Nv3o23ilx3n6]{Aspect of Tides}, as you fall, your motes instead automatically form a bed of water to dampen your fall as if you intentionally dove in to a 30 foot deep pool of water; you can use a reaction to similarly direct your motes on a falling creature within 60 feet of you to grant them this benefit.</span></p>"
+    },
+    "rules": [],
+    "slug": "storm-hike",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "ether"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Arcblade Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "gTB9qMlYpHgfZBSV",
+  "sort": 200000,
+  "_key": "!items!gTB9qMlYpHgfZBSV"
+}

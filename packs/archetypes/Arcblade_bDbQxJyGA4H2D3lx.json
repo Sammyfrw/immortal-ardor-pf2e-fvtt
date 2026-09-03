@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Arcblade",
+  "color": "#4d003c",
+  "sorting": "a",
+  "_id": "bDbQxJyGA4H2D3lx",
+  "description": "",
+  "sort": 1100000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!bDbQxJyGA4H2D3lx"
+}

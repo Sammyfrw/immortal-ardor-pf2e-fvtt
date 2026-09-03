@@ -1,0 +1,77 @@
+{
+  "folder": "gCR1T0ZlhuEj9IuJ",
+  "name": "Convoke Rage",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">When diplomacy fails, you channel the wrath of your domain. You gain the @UUID[Compendium.immortal-ardor.archetypes.uBYgdm3RPicTxtOA]{Convoke Rage} focus spell. When you cast this spell, you Command your convocator to grant them the actions needed for their part in the spell (if they are a familiar or animal companion), or to act with you and grant this spell the Tandem trait (if they are an eidolon), imparting any relevant limitations or requirements.</p>"
+    },
+    "rules": [],
+    "slug": "t-feature-template",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Convoker Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "X6O0WtkR9ClRavLi",
+  "sort": 1400000,
+  "_key": "!items!X6O0WtkR9ClRavLi"
+}

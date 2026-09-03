@@ -28,7 +28,8 @@
         "key": "ItemAlteration",
         "mode": "add",
         "predicate": [
-          "spellshape:convergent-anima"
+          "spellshape:convergent-anima",
+          "item:trait:anima"
         ],
         "property": "description",
         "value": [
@@ -45,7 +46,8 @@
           "spell-attack"
         ],
         "predicate": [
-          "spellshape:convergent-anima"
+          "spellshape:convergent-anima",
+          "item:trait:anima"
         ],
         "type": "status"
       }

@@ -1,0 +1,407 @@
+{
+  "folder": "59GuOnWu8AqLSaZJ",
+  "name": "Effect: Bond of Greed",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.1inyVlkO2greeK8U]{Bond of Greed}</p><p>You gain a status bonus to your AC and saving throws against effects with any of your chosen benefactor's traits and a type of saving throw. You can attune to a different trait in your selected benefactor’s list of traits as a single concentrate action if you have that trait.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Crimson",
+            "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Crimson",
+              "dragon": "crimson",
+              "bonus": "fortitude",
+              "penalty": "reflex",
+              "skill": "crafting"
+            },
+            "predicate": [
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:fire",
+                  "drachiri-benefactor-active-trait:wood",
+                  "drachiri-benefactor-active-trait:vitality",
+                  "drachiri-benefactor-active-trait:water"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Azure",
+            "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Azure",
+              "dragon": "azure",
+              "bonus": "reflex",
+              "penalty": "will",
+              "skill": "performance"
+            },
+            "predicate": [
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:water",
+                  "drachiri-benefactor-active-trait:cold",
+                  "drachiri-benefactor-active-trait:electricity",
+                  "drachiri-benefactor-active-trait:sonic"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Verdant",
+            "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Verdant",
+              "dragon": "verdant",
+              "bonus": "reflex",
+              "penalty": "will",
+              "skill": "nature"
+            },
+            "predicate": [
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:air",
+                  "drachiri-benefactor-active-trait:wood",
+                  "drachiri-benefactor-active-trait:acid",
+                  "drachiri-benefactor-active-trait:void"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Ivory",
+            "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Ivory",
+              "dragon": "ivory",
+              "bonus": "will",
+              "penalty": "fortitude",
+              "skill": "arcana"
+            },
+            "predicate": [
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:cold",
+                  "drachiri-benefactor-active-trait:force",
+                  "drachiri-benefactor-active-trait:air",
+                  "drachiri-benefactor-active-trait:earth"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Ebony",
+            "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Ebony",
+              "dragon": "ebony",
+              "bonus": "fortitude",
+              "penalty": "reflex",
+              "skill": "society"
+            },
+            "predicate": [
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:earth",
+                  "drachiri-benefactor-active-trait:metal",
+                  "drachiri-benefactor-active-trait:acid",
+                  "drachiri-benefactor-active-trait:fire"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Violet",
+            "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Violet",
+              "dragon": "violet",
+              "bonus": "will",
+              "penalty": "fortitude",
+              "skill": "occultism"
+            },
+            "predicate": [
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:mental",
+                  "drachiri-benefactor-active-trait:force",
+                  "drachiri-benefactor-active-trait:sonic",
+                  "drachiri-benefactor-active-trait:metal"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Ochre",
+            "value": {
+              "label": "IA.SpecificRule.DrachiriBenefactor.Ochre",
+              "dragon": "ochre",
+              "bonus": "fortitude",
+              "penalty": "fortitude",
+              "skill": "religion"
+            },
+            "predicate": [
+              "ochre-unlocked",
+              {
+                "or": [
+                  "drachiri-benefactor-active-trait:void",
+                  "drachiri-benefactor-active-trait:mental",
+                  "drachiri-benefactor-active-trait:vitality",
+                  "drachiri-benefactor-active-trait:electricity",
+                  "drachiri-benefactor-active-trait:spirit"
+                ]
+              }
+            ]
+          }
+        ],
+        "flag": "bondOfGreed",
+        "prompt": "IA.SpecificRule.DrachiriBenefactor.BenefactorPrompt",
+        "key": "ChoiceSet"
+      },
+      {
+        "key": "RollOption",
+        "option": "bond-of-greed:{item|flags.system.rulesSelections.bondOfGreed.dragon}"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2))",
+        "type": "status",
+        "selector": [
+          "{item|flags.system.rulesSelections.bondOfGreed.bonus}"
+        ],
+        "label": "Bond of Greed Bonus"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "-(ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2)))",
+        "selector": [
+          "{item|flags.system.rulesSelections.bondOfGreed.penalty}"
+        ],
+        "label": "Bond of Greed Penalty"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw",
+          "ac"
+        ],
+        "value": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2))",
+        "predicate": [
+          "bond-of-greed:crimson",
+          {
+            "or": [
+              "item:trait:fire",
+              "item:trait:wood",
+              "item:trait:vitality",
+              "item:trait:water"
+            ]
+          }
+        ],
+        "label": "Crimson Bond",
+        "hideIfDisabled": true,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw",
+          "ac"
+        ],
+        "value": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2))",
+        "predicate": [
+          "bond-of-greed:azure",
+          {
+            "or": [
+              "item:trait:cold",
+              "item:trait:electricity",
+              "item:trait:sonic",
+              "item:trait:water"
+            ]
+          }
+        ],
+        "label": "Azure Bond",
+        "hideIfDisabled": true,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw",
+          "ac"
+        ],
+        "value": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2))",
+        "predicate": [
+          "bond-of-greed:verdant",
+          {
+            "or": [
+              "item:trait:air",
+              "item:trait:wood",
+              "item:trait:acid",
+              "item:trait:void"
+            ]
+          }
+        ],
+        "label": "Verdant Bond",
+        "hideIfDisabled": true,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw",
+          "ac"
+        ],
+        "value": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2))",
+        "predicate": [
+          "bond-of-greed:ivory",
+          {
+            "or": [
+              "item:trait:cold",
+              "item:trait:force",
+              "item:trait:air",
+              "item:trait:earth"
+            ]
+          }
+        ],
+        "label": "Ivory Bond",
+        "hideIfDisabled": true,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw",
+          "ac"
+        ],
+        "value": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2))",
+        "predicate": [
+          "bond-of-greed:ebony",
+          {
+            "or": [
+              "item:trait:earth",
+              "item:trait:metal",
+              "item:trait:acid",
+              "item:trait:fire"
+            ]
+          }
+        ],
+        "label": "Ebony Bond",
+        "hideIfDisabled": true,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw",
+          "ac"
+        ],
+        "value": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2))",
+        "predicate": [
+          "bond-of-greed:violet",
+          {
+            "or": [
+              "item:trait:mental",
+              "item:trait:force",
+              "item:trait:sonic",
+              "item:trait:metal"
+            ]
+          }
+        ],
+        "label": "Violet Bond",
+        "hideIfDisabled": true,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw",
+          "ac"
+        ],
+        "value": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2))",
+        "predicate": [
+          "bond-of-greed:ochre",
+          {
+            "or": [
+              "item:trait:mental",
+              "item:trait:electricity",
+              "item:trait:vitality",
+              "item:trait:void"
+            ]
+          }
+        ],
+        "label": "Ochre Bond",
+        "hideIfDisabled": true,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,5),3,2))",
+        "selector": [
+          "{item|flags.system.rulesSelections.bondOfGreed.skill}"
+        ],
+        "label": "Skill of Greed",
+        "predicate": [
+          "feat:drachensoul-dedication",
+          "greater-bond:empowered"
+        ],
+        "type": "status"
+      }
+    ],
+    "slug": "effect-bond-of-greed",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "OnjCXtm6wpHVtARY",
+  "sort": 0,
+  "_key": "!items!OnjCXtm6wpHVtARY"
+}

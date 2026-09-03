@@ -1,0 +1,140 @@
+{
+  "folder": "twA4EvH7ITGXKuxk",
+  "name": "Elemental Miracle",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"Standard\">Your elemental thaumaturgy allows you to wrestle control of an element directly. As part of Casting this Spell, you can attune to a different element. You then bend an element you are attuned with to your whim, h<span style=\"mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">owever, but you can affect elements that are magical, secured in place, or attended by a creature that is unwilling.</span></p><p class=\"Standard\"><span style=\"mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">This has the following effects, depending on your chosen option:</span></p><p style=\"margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1\" class=\"Standard\"><span style=\"mso-list:Ignore\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">·</span></span><span style=\"font:7.0pt 'Times New Roman'\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">         </span></span><span style=\"mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Create</strong></span><span style=\"mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> You create a 20-foot burst of that element in a targeted space. This behaves very similarly to the Thaumaturgy effect, but creatures in the area must make a basic Reflex save or take 6d6 damage of the type affiliated with the element. Depending on the element chosen, this can create a myriad of lingering effects, such as Earth causing difficult terrain, Fire or Metal causing hazardous terrain, or Water pouring a large amount of water as the effect resolves.</span></p><p style=\"margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1\" class=\"Standard\"><span style=\"mso-list:Ignore\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">·</span></span><span style=\"font:7.0pt 'Times New Roman'\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">         </span></span><span style=\"mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Unravel</strong></span><span style=\"mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> You can pull apart an element. An object or creature made up of that element takes 6d6 damage, or you can attempt to counteract a magical effect that shares that element’s trait. A creature made up of an element can make a basic Reflex save, while a creature attending to or wearing an object with that element can make a Reflex save to avoid your effects on a success.</span></p><p style=\"margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1\" class=\"Standard\"><span style=\"mso-list:Ignore\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">·</span></span><span style=\"font:7.0pt 'Times New Roman'\"><span style=\"mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;font-family:'Symbol'\">         </span></span><span style=\"mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Translate</strong></span><span style=\"mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> You can move 4 bulk of an element up to 20 feet in any direction. If you choose this option, this spell has a sustained duration of up to 10 minutes, and you can move large amounts of the element at a time each time you Sustain the spell.</span></p><hr><p><strong>Heighten (+2)</strong> You increase the range of this spell by 15 feet, and the Bulk you can move increases by 2. The damage the spell can deal increases by 2d6.</p>"
+    },
+    "rules": [],
+    "slug": "elemental-miracle",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "concentrate",
+        "ether",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "a space or an object or magical effect affiliated with a chosen element"
+    },
+    "range": {
+      "value": "60"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "EggB4DQaYNYc56vW": {
+        "formula": "6d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "untyped",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "fixed",
+      "levels": {
+        "8": {
+          "damage": {
+            "EggB4DQaYNYc56vW": {
+              "formula": "8d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "untyped",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "range": {
+            "value": "75"
+          }
+        },
+        "10": {
+          "range": {
+            "value": "90"
+          },
+          "damage": {
+            "EggB4DQaYNYc56vW": {
+              "formula": "10d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "untyped",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "img": "icons/magic/earth/explosion-lava-stone-red.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "IduG1xytcxD2NAPQ",
+  "sort": 800000,
+  "_key": "!items!IduG1xytcxD2NAPQ"
+}

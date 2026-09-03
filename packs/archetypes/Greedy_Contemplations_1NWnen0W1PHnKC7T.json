@@ -1,0 +1,80 @@
+{
+  "folder": "qoSHTpNnjXsCYLhd",
+  "name": "Greedy Contemplations",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You amass items affiliated with your drachensoul benefactor that interest either of you, and have an innate understanding of how they would work.</p><p class=\"MsoNormal\">You can use your drachensoul benefactor’s skill to @UUID[Compendium.pf2e.actionspf2e.eReSHVEPCsdkSL4G]{Identify Magic} items that have their affiliated traits. As this indulges your Curse of Greed for the purpose of Refocusing, if you are capable of casting it and can focus on the task without interruption, you can sustain a @UUID[Compendium.immortal-ardor.archetypes.1inyVlkO2greeK8U]{Bond of Greed} with your drachensoul benefactor for its duration to benefit your skill check.</p><p class=\"MsoNormal\">With your magical connection, you can use these items even if you do not have the listed action to Activate them (such as Cast a Spell), and use the skill to wear or prepare them if they require a skill check to do so. If the item requires it and does not list a DC or a spell modifier for its use, you use the higher of your spell DC or class DC.</p>"
+    },
+    "rules": [],
+    "slug": "greedy-contemplations",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Drachensoul Dedication"
+        },
+        {
+          "value": "Expert in your drachensoul benefactor’s skill"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "1NWnen0W1PHnKC7T",
+  "sort": 1000000,
+  "_key": "!items!1NWnen0W1PHnKC7T"
+}

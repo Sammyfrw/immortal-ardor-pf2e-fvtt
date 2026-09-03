@@ -1,0 +1,81 @@
+{
+  "folder": "WMPuGnuH6UxO8aC9",
+  "name": "Runeword: Farum, the Nexus Within",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Farum is not charged.</p><p class=\"MsoNormal\"><strong>Trigger</strong> Another creature within 30 feet Casts a Spell or uses an action, activity, or reaction with the arcane, divine, magical, occult, or primal trait</p><hr></div><p class=\"MsoNormal\">You inscribe the runeword Farum on your person, turning your body into a nexus that holds magic. When you use this reaction, you invoke its command, causing you absorb a portion of the magic to empower the rune. Your Farum rune becomes charged. It remains charged for up to 1 minute before the magic fades. While it is charged, you gain a +1 status bonus to saving throws against effects with the arcane, divine, magical, occult and primal traits. This bonus becomes +2 at 15th level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "runeword",
+        "mergeable": true,
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.FarumLabel",
+            "value": "farum"
+          }
+        ],
+        "toggleable": true,
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.RunewordLabel"
+      }
+    ],
+    "slug": "runeword-farum-the-nexus-within",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "magical",
+        "runic"
+      ]
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null,
+    "selfEffect": {
+      "uuid": "Compendium.immortal-ardor.archetypes.Item.pjTWK2jZCEe87Fly",
+      "name": "Effect: Farum Charged"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "yJGIAgbAdwST7u8q",
+  "sort": 0,
+  "_key": "!items!yJGIAgbAdwST7u8q"
+}

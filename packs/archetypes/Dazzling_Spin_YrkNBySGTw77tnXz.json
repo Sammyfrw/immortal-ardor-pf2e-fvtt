@@ -32,6 +32,7 @@
       "otherTags": [],
       "value": [
         "focus",
+        "aetherfont",
         "manipulate"
       ],
       "rarity": "common",
@@ -74,9 +75,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "ownership": {

@@ -1,0 +1,77 @@
+{
+  "folder": "qoSHTpNnjXsCYLhd",
+  "name": "Eternal Bond",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"Standard\">You are never disconnected from your drachensoul benefactor, and the connection flows freely through you. You are always under the effects of a Bond of Greed with your drachensoul benefactor, and you can activate or deactivate it as a Concentrate action during your turn.</p><p class=\"Standard\">If you cast Bond of Greed, it functions as normal for a separate benefactor of your choice if you possess a trait they share. If you have Benefactor’s Largesse, your Bond of Greed always includes both aspects that your drachensoul benefactor embodies. If you have Drachiri Majesty, you can activate and deactivate the aura you extend at the same time you activate or deactivate the permanent Bond’s effects.</p>"
+    },
+    "rules": [],
+    "slug": "eternal-bond",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Greater Bond"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "SbOr3nmSLgKpMUjP",
+  "sort": 0,
+  "_key": "!items!SbOr3nmSLgKpMUjP"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "EN8YapT6eD5Y0uEV",
+  "name": "Armor Piercer",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> You are wielding a sygican ranged weapon.</p><p class=\"MsoNormal\"><strong>Cost</strong> 2 battery charges</p><hr></div><p class=\"MsoNormal\">Your weapon has an engram that empowers your shots to break through armor. Your Engram has the following effect. </p><p class=\"MsoNormal\"><strong>Ingrave (Manipulate, 2 charges) </strong>Make a ranged strike. This attack ignores 5 of the target’s hardness or resistance to physical damage, or half plus 5 if you use adamantine or similar ammunition.</p>"
+    },
+    "rules": [],
+    "slug": "armor-piercer",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "engram",
+        "flourish",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fusilier Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ifJvB7Y8NcdSIkGD",
+  "sort": 0,
+  "_key": "!items!ifJvB7Y8NcdSIkGD"
+}

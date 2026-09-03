@@ -1,0 +1,109 @@
+{
+  "folder": "x8e4qVoo4BjaRjNt",
+  "name": "Runic Caliber",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> You have Farum inscribed on your person.</p><hr></div><p class=\"MsoNormal\">You create a weapon made of pure rune magic that floats and follows alongside you from a weapon you’re wielding or wearing, and launch it at a target within range. Attempt a spell attack roll against a target’s AC, dealing 3d8 damage on a hit (or double damage on a critical hit). On a critical hit, you charge Farum.</p><p class=\"MsoNormal\">The damage type is the same as the weapon’s (or any of its type for a versatile weapon) or force damage. This attack uses and contributes to your multiple attack penalty. On a hit, if Farum is charged, you can choose to invoke Runeword: Nefelus to add force damage to your attack, combining the damage if you dealt force damage. After the attack, the weapon returns and floats by your side. Each time you Sustain the spell, you can repeat the attack against any creature within 120 feet.</p><p>@UUID[Compendium.immortal-ardor.archetypes.OcxUlM1X8Ow4c6tY]{Effect: Runic Caliber}</p><hr><p class=\"MsoNormal\"><strong>Heightened (+2) </strong>Increase the damage you deal by 1d8.</p>"
+    },
+    "rules": [],
+    "slug": "runic-caliber",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "magical",
+        "manipulate",
+        "runic"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "40ElnvyoFxo3tDct": {
+        "formula": "3d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "force",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "passive": {
+        "statistic": "ac"
+      },
+      "save": null
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "40ElnvyoFxo3tDct": "1d8"
+      },
+      "area": 0
+    }
+  },
+  "img": "icons/weapons/swords/sword-winged-pink.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "2n0NmRaxy4YJ8zNi",
+  "sort": 0,
+  "_key": "!items!2n0NmRaxy4YJ8zNi"
+}

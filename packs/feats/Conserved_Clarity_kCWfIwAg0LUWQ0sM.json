@@ -9,10 +9,21 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "\n<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You’ve grown capable in conserving your ether when you’re in peak performance. You can treat your Clear Mind as if it was two focus points for the purpose of meeting focus point costs. In addition, you can use Invoke Self once per hour instead of once per day. </span></p>"
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">You’ve grown capable in conserving your ether when you’re in peak performance. You can use Invoke Self once per hour instead of once per day.</span></p>"
     },
-    "rules": [],
-    "slug": null,
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "predicate": [
+          "item:slug:invoke-self"
+        ],
+        "property": "frequency-per",
+        "value": "PT1H"
+      }
+    ],
+    "slug": "conserved-clarity",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -23,11 +34,14 @@
       }
     },
     "traits": {
-      "otherTags": [],
-      "value": [
-        "manafont"
+      "otherTags": [
+        "aetherfont-feat",
+        "invoker-feat"
       ],
-      "rarity": "common"
+      "value": [
+        "aetherfont"
+      ],
+      "rarity": "uncommon"
     },
     "publication": {
       "title": "Immortal Ardor",
@@ -36,9 +50,9 @@
       "remaster": true
     },
     "level": {
-      "value": 10
+      "value": 11
     },
-    "category": "ancestryfeature",
+    "category": "general",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -50,7 +64,10 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Invoker Manafont"
+          "value": "Invoker Aetherfont"
+        },
+        {
+          "value": "Invoke The Mind"
         }
       ]
     },
@@ -64,9 +81,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.kCWfIwAg0LUWQ0sM",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 1000000,

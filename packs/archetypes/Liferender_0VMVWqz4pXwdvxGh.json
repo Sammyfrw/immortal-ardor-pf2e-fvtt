@@ -2,18 +2,19 @@
   "_id": "0VMVWqz4pXwdvxGh",
   "name": "Liferender",
   "type": "Item",
-  "sort": 13500000,
+  "sort": 1200000,
   "flags": {},
   "sorting": "a",
   "color": "#4d003c",
-  "folder": "RPjr8JF6kbtB7wZ3",
+  "folder": null,
   "description": "",
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "_key": "!folders!0VMVWqz4pXwdvxGh"
 }

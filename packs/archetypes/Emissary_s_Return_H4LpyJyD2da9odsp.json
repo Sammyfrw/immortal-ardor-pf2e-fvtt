@@ -1,0 +1,77 @@
+{
+  "folder": "gCR1T0ZlhuEj9IuJ",
+  "name": "Emissary's Return",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You always have a means to return to your domain. When you take this feat, you and your convocator are under the permanent effects of a successful Gathering Call ritual, bound to the site where your pact was made. As long as your Domain Convocation is active and no other planar effects would interfere with it, you can Dismiss its effect even if you are in a different plane. Once the Ritual has been Dismissed, you must wait 7 days before the binding reforms. At 20th level, you can bring up to 6 other creatures with you if they are in your Domain Convocation when you teleport.</p>"
+    },
+    "rules": [],
+    "slug": "emissarys-return",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Convoker Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "H4LpyJyD2da9odsp",
+  "sort": 300000,
+  "_key": "!items!H4LpyJyD2da9odsp"
+}

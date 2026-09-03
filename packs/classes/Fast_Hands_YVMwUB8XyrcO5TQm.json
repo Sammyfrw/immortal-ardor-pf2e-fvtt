@@ -1,0 +1,77 @@
+{
+  "folder": "28v9R3GP3MW2VzAM",
+  "name": "Fast Hands",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Frequency</strong> Once per round</p><hr></div><p class=\"MsoNormal\">You have practiced hands, able to reload weapons that have many moving parts quickly. You Reload twice. This would allow you to Reload two one-handed ranged weapons, reload two shots of a capacity weapon, or contribute two actions to replacing the magazine of a weapon with the repeating trait. If you have a weapon with Reload 1, you can Reload and Strike, or Strike and Reload.</p>"
+    },
+    "rules": [],
+    "slug": "fast-hands",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "gunslinger"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "YVMwUB8XyrcO5TQm",
+  "sort": 0,
+  "_key": "!items!YVMwUB8XyrcO5TQm"
+}

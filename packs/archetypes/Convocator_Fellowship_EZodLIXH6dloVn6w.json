@@ -1,0 +1,122 @@
+{
+  "folder": "gCR1T0ZlhuEj9IuJ",
+  "name": "Convocator Fellowship",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your companionship grows stronger the longer your pact persists. Your Domain Convocation aura increases to 40 feet. In addition, you gain a new feat to grow your convocator.</p><ul><li><p class=\"Standard\">If your convocator is an animal companion or similar, you gain the @UUID[Compendium.pf2e.feats-srd.3r5rg0BCqSh5RBNS]{Specialized Companion (Druid)} feat (or an equivalent for a different type of companion). You can select this feat up to three times, adding a different specialization to your companion.</p></li><li><p class=\"Standard\">If your convocator is a familiar, your familiar gains your choice of either the @UUID[Compendium.pf2e.familiar-abilities.O5TIjqXAuta8iVSz]{Focused Rejuvenation} or @UUID[Compendium.pf2e.familiar-abilities.asOhEdyF8CWFbR96]{Spellcasting} familiar ability and you gain the @UUID[Compendium.pf2e.familiar-abilities.deC1yIM2S5szGdzT]{Lifelink} or @UUID[Compendium.pf2e.familiar-abilities.jdlefpPcSCIe27vO]{Familiar Focus} master ability. This selection does not count against your limit.</p></li><li><p class=\"Standard\">If your convocator is an eidolon, you gain the @UUID[Compendium.pf2e.feats-srd.mSDKKRgK6sRMjqQo]{Summoner's Call} feat.</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Archetype.Convoker.ConvocatorCompanionship.PromptText",
+        "rollOption": "convocator-fellowship",
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Archetype.Convoker.ConvocatorFellowship.FamiliarAbilities",
+            "value": "familiar"
+          },
+          {
+            "label": "IA.SpecificRule.Archetype.Convoker.ConvocatorFellowship.SpecializedCompanion",
+            "value": "companion"
+          },
+          {
+            "label": "IA.SpecificRule.Archetype.Convoker.ConvocatorFellowship.SummonersCallEidolon",
+            "value": "eidolon"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.3r5rg0BCqSh5RBNS",
+        "predicate": [
+          "convocator-fellowship:companion"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "convocator-fellowship:eidolon"
+        ],
+        "uuid": "Compendium.pf2e.feats-srd.Item.mSDKKRgK6sRMjqQo"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "flags.system.convoker.aura",
+        "predicate": [
+          "convocator-fellowship"
+        ],
+        "priority": 51,
+        "value": 40
+      }
+    ],
+    "slug": "convocator-fellowship",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Convoker Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "EZodLIXH6dloVn6w",
+  "sort": 200000,
+  "_key": "!items!EZodLIXH6dloVn6w"
+}

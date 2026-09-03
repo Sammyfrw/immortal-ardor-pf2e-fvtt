@@ -1,0 +1,101 @@
+{
+  "name": "Empty Resilience",
+  "type": "feat",
+  "img": "icons/magic/life/cross-yellow-green.webp",
+  "effects": [],
+  "folder": "MJ3Wppz7DnV8a1wT",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As an Empty, you push your body farther than most. You gain either 1 additional @UUID[Compendium.immortal-ardor.feats.xlxtzvhGLTVVcBrp]{Empty Resilience - Resolve Point}, or gain an additional attribute bonus. This attribute bonus is in addition to and separate from the set of @UUID[Compendium.immortal-ardor.feats.mVq6drJYxlXmIPQ0]{Empty Resilience - Attribute Bonus} you gain from your revels. Regardless of your choice, you also gain a skill increase to a skill you have. You must meet the level requirements to increase a skill to a new proficiency tier.</p><p class=\"MsoNormal\">You can take this feat again at 7th, 11th, and 15th level.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "EmptyEmptyResilienceResolvePointLabel",
+            "value": "Compendium.immortal-ardor.feats.Item.xlxtzvhGLTVVcBrp"
+          },
+          {
+            "label": "EmptyEmptyResilienceAttributeLabel",
+            "value": "Compendium.immortal-ardor.feats.Item.mVq6drJYxlXmIPQ0"
+          }
+        ],
+        "prompt": "IA.SpecificRule.Aetherfonts.EmptyEmptyResiliencePrompt.",
+        "flag": "emptyResilienceChoice"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.emptyResilienceChoice}"
+      }
+    ],
+    "slug": "empty-resilience",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "aetherfont-feat",
+        "empty-feat"
+      ],
+      "value": [
+        "aetherfont"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "general",
+    "onlyLevel1": false,
+    "maxTakable": 4,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Empty Aetherfont"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "IY7S2J0iPElbWQlc",
+  "sort": 0,
+  "_key": "!items!IY7S2J0iPElbWQlc"
+}

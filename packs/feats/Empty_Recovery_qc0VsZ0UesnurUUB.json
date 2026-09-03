@@ -1,0 +1,56 @@
+{
+  "_id": "qc0VsZ0UesnurUUB",
+  "folder": "DrCBDzgZp69pYa75",
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "name": "Empty Recovery",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "description": {
+      "value": "<p><strong>Cost</strong> 1 Resolve Point</p><hr><p>You rest for 10 minutes and recover your stamina. After you complete this activity, you regain all your Stamina Points.</p><p>@UUID[Compendium.immortal-ardor.feats.DmcuN1IjLUXVT2rN]{Empty Stamina Points}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "exploration",
+        "stamina"
+      ],
+      "otherTags": []
+    },
+    "slug": "empty-recovery",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "deathNote": false
+  },
+  "type": "action",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "sort": 500000,
+  "_key": "!items!qc0VsZ0UesnurUUB"
+}

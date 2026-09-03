@@ -1,0 +1,69 @@
+{
+  "folder": "1nCLvFy4gBPGHbJ7",
+  "name": "Effect: Runic Caliber",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.archetypes.2n0NmRaxy4YJ8zNi]{Runic Caliber}</p><p>You can sustain the spell to make another spell attack with your Runic Caliber within 120 feet of you, dealing @Damage[match(     when(lte(@item.level, 7), 3),when(btwn(@item.level, 8, 9),4),     when(gte(@actor.level, 10), 5))d8[force]] damage. On a hit, if Farum is charged, you can choose to invoke Runeword: Nefelus to add force damage to your attack, combining the damage if you dealt force damage</p>"
+    },
+    "rules": [],
+    "slug": "effect-runic-caliber",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/weapons/swords/sword-winged-pink.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "OcxUlM1X8Ow4c6tY",
+  "sort": 0,
+  "_key": "!items!OcxUlM1X8Ow4c6tY"
+}

@@ -1,0 +1,96 @@
+{
+  "folder": "S2xgsaTVjAV5U9ob",
+  "name": "Runeword: Tirranos, the Pure Magic",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Farum is charged.</p><hr></div><p>You invoke Tirranos to unleash Farum’s power in a blast of magic. The blast targets one creature within 30 feet, dealing @Damage[(floor(@actor.level/4))d12[force]] damage with a @Check[reflex|against:class-spell|basic] save. The force damage increases by 1d12 at 8th level and every 4 levels after. Farum is no longer charged.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "runeword",
+        "mergeable": true,
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.TirranosLabel",
+            "value": "tirranos"
+          }
+        ],
+        "toggleable": true,
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.RunewordLabel"
+      }
+    ],
+    "slug": "runeword-tirranos-the-pure-magic",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "concentrate",
+        "magical",
+        "manipulate",
+        "runic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Runescribe Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "1tcdncWcog71Basd",
+  "sort": 100000,
+  "_key": "!items!1tcdncWcog71Basd"
+}

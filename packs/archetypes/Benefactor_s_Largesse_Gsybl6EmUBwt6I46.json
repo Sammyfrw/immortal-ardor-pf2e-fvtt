@@ -1,0 +1,221 @@
+{
+  "folder": "qoSHTpNnjXsCYLhd",
+  "name": "Benefactor's Largesse",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"Standard\">As Dragon magic overflows through you, your drachensoul benefactor fully encompasses the aspect of another dragon. Select a benefactor that meets the prerequisites. Your drachensoul benefactor is also considered to be of this new type. For the purposes of any feats or spells that grants you benefits or selections based on your drachensoul benefactor, you gain the effects or choices from both benefactors, as well as a new set of edict and anathema from the new type of benefactor that their Curse of Greed encompasses.</p><p class=\"Standard\">For example, if your drachensoul benefactor was Crimson and you selected Ebony since you have the Fire and Earth traits, you become an Expert in Society and gain a Society skill feat. If you have Greedy Contemplations, you would be able to use Society for that feat in addition to Crafting.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Archetypes.Drachensoul.BenefactorPrompt",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Ivory",
+            "value": "ivory",
+            "predicate": [
+              "drachiri-benefactor:ivory",
+              {
+                "not": "drachensoul-benefactor:ivory"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Crimson",
+            "value": "azure",
+            "predicate": [
+              "drachiri-benefactor:crimson",
+              {
+                "not": "drachensoul-benefactor:crimson"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Verdant",
+            "value": "verdant",
+            "predicate": [
+              "drachiri-benefactor:verdant",
+              {
+                "not": "drachensoul-benefactor:verdant"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Ochre",
+            "value": "ochre",
+            "predicate": [
+              "drachiri-benefactor:ochre",
+              {
+                "not": "drachensoul-benefactor:ochre"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Violet",
+            "value": "violet",
+            "predicate": [
+              "drachiri-benefactor:violet",
+              {
+                "not": "drachensoul-benefactor:violet"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Ebony",
+            "value": "ebony",
+            "predicate": [
+              "drachiri-benefactor:ebony",
+              {
+                "not": "drachensoul-benefactor:ebony"
+              }
+            ]
+          },
+          {
+            "label": "IA.SpecificRule.DrachiriBenefactor.Azure",
+            "value": "azure",
+            "predicate": [
+              "drachiri-benefactor:azure",
+              {
+                "not": "drachensoul-benefactor:azure"
+              }
+            ]
+          }
+        ],
+        "rollOption": "second-drachensoul-benefactor",
+        "actorFlag": true,
+        "flag": "secondDrachensoulBenefactor"
+      },
+      {
+        "choices": [
+          {
+            "label": "Arcana",
+            "value": "arcana",
+            "predicate": [
+              "second-drachensoul-benefactor:ivory"
+            ]
+          },
+          {
+            "label": "Crafting",
+            "value": "crafting",
+            "predicate": [
+              "second-drachensoul-benefactor:crimson"
+            ]
+          },
+          {
+            "label": "Nature",
+            "value": "nature",
+            "predicate": [
+              "second-drachensoul-benefactor:verdant"
+            ]
+          },
+          {
+            "label": "Religion",
+            "value": "religion",
+            "predicate": [
+              "second-drachensoul-benefactor:ochre"
+            ]
+          },
+          {
+            "label": "Occultism",
+            "value": "occultism",
+            "predicate": [
+              "second-drachensoul-benefactor:violet"
+            ]
+          },
+          {
+            "label": "Society",
+            "value": "society",
+            "predicate": [
+              "second-drachensoul-benefactor:ebony"
+            ]
+          },
+          {
+            "label": "Performance",
+            "value": "performance",
+            "predicate": [
+              "drachensoul-benefactor:azure"
+            ]
+          }
+        ],
+        "key": "ChoiceSet",
+        "flag": "secondBenefactorSkill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.system.rulesSelections.secondBenefactorSkill}.rank",
+        "value": 2
+      }
+    ],
+    "slug": "benefactors-largesse",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Greater Bond"
+        },
+        {
+          "value": "You possess at least 2 traits from a single drachiri benefactor that is not your drachensoul benefactor"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Gsybl6EmUBwt6I46",
+  "sort": 0,
+  "_key": "!items!Gsybl6EmUBwt6I46"
+}

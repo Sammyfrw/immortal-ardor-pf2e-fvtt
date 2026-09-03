@@ -2,7 +2,7 @@
   "_id": "U9W5dalJinyDt4Ok",
   "name": "Cragweaver",
   "type": "Item",
-  "sort": 100000,
+  "sort": 700000,
   "flags": {},
   "sorting": "a",
   "color": "#4d003c",
@@ -11,9 +11,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0"
+    "systemVersion": "6.9.0",
+    "exportSource": null
   },
   "_key": "!folders!U9W5dalJinyDt4Ok"
 }

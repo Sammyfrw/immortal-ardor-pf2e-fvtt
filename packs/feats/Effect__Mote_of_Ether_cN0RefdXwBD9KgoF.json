@@ -9,10 +9,10 @@
   "system": {
     "description": {
       "gm": "",
-      "value": ""
+      "value": "<p>Granted from @UUID[Compendium.immortal-ardor.feats.EI6tbxtfyMoiIGov]{Drain Ether} or @UUID[Compendium.immortal-ardor.feats.1ATKSEf1zPBfGODM]{Draw Ether}.</p><p>A mote of ether allows you to absorb it as hit points or as a focus point. If you have the @UUID[Compendium.immortal-ardor.feats.pfGioFyyAy8C2gBb]{Soul Empathy} feat, you can absorb the mote to gain a creature's resistance temporarily.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "effect-mote-of-ether",
     "_migration": {
       "version": 0.935,
       "lastMigration": null,
@@ -28,18 +28,18 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
-      "authors": "",
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
       "license": "OGL",
-      "remaster": false
+      "remaster": true
     },
     "level": {
       "value": 1
     },
     "duration": {
-      "value": -1,
-      "unit": "unlimited",
-      "expiry": null,
+      "value": 10,
+      "unit": "minutes",
+      "expiry": "turn-start",
       "sustained": false
     },
     "start": {
@@ -57,9 +57,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.cN0RefdXwBD9KgoF",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.4.0",
     "exportSource": null
   },
   "sort": 0,

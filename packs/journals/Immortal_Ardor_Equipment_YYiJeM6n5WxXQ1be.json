@@ -1,0 +1,59 @@
+{
+  "name": "Immortal Ardor Equipment",
+  "_id": "YYiJeM6n5WxXQ1be",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Technological Armaments",
+      "type": "text",
+      "_id": "fsh7koND5jVYuu0C",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Equipment has evolved following the growth of technology in Ardor in the three different classifications of technology: Archaeotechnology, Arcanotechnology, and Sygican Technology. While these terms typically refer to large devices, appliances and machinery, adventuring or combat gear in Ardor will fall into these three categories as well, though the distinction is seldomly important, mostly from a narrative perspective unless one is playing an Empty.</p><p class=\"MsoNormal\">As Immortal Ardor borrows from both Pathfinder and Starfinder mechanics, it is important to assume that in most cases, the archaic, tech or analog trait have no final bearing on the strength or capabilities of a piece of equipment as much as the statblock of the item or other traits it may have.</p><h2>Archaeotech Equipment</h2><p class=\"MsoNormal\">Archaeotech equipment is completely mundane and does not operate on the use of magic; it runs entirely on its own or uses non-magical sources of fuel or power (such as oil or steam). Gear that is built from archaeotech is typically any form of standard weapons or armor. In these cases, quality and properties are what determines a weapon or armor’s capabilities, as listed under High-Quality gear variants (Pathfinder Gamemastery Guide) or weapon, armor or shield grades (Starfinder Player Core). For them to remain archaeotech, their upgrade equivalents for property runes would be non-magical upgrades. While archaeotechnology itself flourishes, gear that is completely mundane or does not eventually veer into sygicatech territory is rare.</p><p class=\"MsoNormal\">In Starfinder, these would be non-magical items with the archaic trait, or non-magical analog or tech items.<span style=\"mso-spacerun:yes\">  </span>If these pieces of gear were upgradeable further due to their construction through runes or magic-based sygican upgrades, they would be considered arcanotech or sygicatech, depending on their nature. Anyone, including Empty, can use all forms of archaeotech devices or gear with little issue as they are non-magical.</p><h2>Arcanotech Equipment</h2><p class=\"MsoNormal\">Arcanotech equipment contains magical properties and is often activated through the use of ether. If it bears some form of magical circuitry or enchantment, the magic is what gives it its properties. Gear that is arcanotech is among the most commonplace and is the assumed default in Ardor as it relies on magical crafting, enchantments or applications of runes on their material. Arcanotech equipment benefits from all forms of spell and magic-related crafting and creation, including through feats and rituals such as Aspektus Enchanting, runecrafting, or soulforging.</p><p class=\"MsoNormal\">In Starfinder, these would be magical Pathfinder items with the archaic and magical traits. In many instances, magical items like these are also invested items. Empty can’t use or benefit from all but the simplest arcanotech devices or equipment, especially if the item requires investment or is activated by Casting a Spell or Envisioning, or requiring any form of ether to use.</p><h2>Sygicatech Equipment</h2><p class=\"MsoNormal\">Sygicatech equipment proliferated with the arrival of the sygican people from Garrunga to the Ardorean mainland. These weapons are operated by mundane means or utilize a fuel source, but possess the ability to empower their weapons through magic that is grafted into their make. Sygicatech gear is developed to bridge the gap between ether-bearing and Empty adventurers, and thus it often bears magical circuitry that activates a continuous or a single-fire effect. In Sygicatech items this circuitry is called an Engram, and activating them uses the @UUID[Compendium.immortal-ardor.feats.PwrR4w8fCpUevqWc]{Ingrave} action, which is typically an Interact action to operate its mechanisms to energize the engram’s effects. Ingraving usually requires the fuel source the piece of equipment might have, which is typically some form of etheric battery or sygican fuel core. A piece of equipment might have multiple Engrams, but a single battery can supply the fuel needed for all of its Engrams.</p><p class=\"MsoNormal\">In Starfinder, these items would bear the analog or tech trait, as well as the magical trait. All Sygicatech gear has the Sygican trait. Anyone, including Empty can use Sygicatech equipment, and Empty frequently have easier access to this equipment. Starfinder @UUID[Compendium.sf2e-anachronism.equipment.5PS5ESGpnQfJNOdg]{Batteries}  act as the etheric batteries (the ammo-based consumable) or sygican fuel cores (for larger devices).</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!YYiJeM6n5WxXQ1be.fsh7koND5jVYuu0C"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!YYiJeM6n5WxXQ1be"
+}

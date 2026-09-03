@@ -1,0 +1,64 @@
+{
+  "folder": "lw5kVzXFmfI2I45Z",
+  "name": "Resolute Reload",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are wielding one or more ranged weapons.</p><div><p class=\"MsoNormal\"><strong>Cost</strong> 1 resolve point</p><p class=\"MsoNormal\"><strong>Frequency</strong> Once per hour</p><hr></div><p class=\"MsoNormal\">You reload like your life depends on it. For each action you spend on Resolute Reload, you can Reload twice. These reload actions can contribute to reloading separate chambers and barrels of your capacity weapon, replacing the magazine on your repeating weapon, or reloading any ranged weapons worn or stowed on your person. As long as you spend at least 2 actions, you can Stow any number of your ranged weapons, and Draw one ranged weapon after you finish Reloading. These Interact actions do not trigger reactions.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "resolute-reload",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manipulate",
+        "resolve"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "meE4xdhhfBXFiAuK",
+  "sort": 0,
+  "_key": "!items!meE4xdhhfBXFiAuK"
+}

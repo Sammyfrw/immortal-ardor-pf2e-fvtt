@@ -1,0 +1,89 @@
+{
+  "folder": "OtlVn1f4YccfmjUO",
+  "name": "Domain Convocation",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You plant your feet firm and call a convocation. You channel a 20-foot aura around yourself and your convocator. While channeling, you take a -10-foot status penalty to your speeds, but if you Cast a Spell that targets your convocator (including if it targets a familiar, an animal companion, or eidolon), you increase the range by 30 feet. This aura lasts until you Dismiss this spell, until either of you move beyond range of each other, or if you or your convocator falls unconscious, break your pact, or your convocator unmanifests. If you are ever in areas associated with any of your Convoker Domains without this spell, your aura ignores the penalty to your speeds and you can Cast or Dismiss this spell as a free action.</p><p class=\"Standard\">You can Sustain this spell once during your turn. When you do or when you cast this spell, you empower the area of your or your convocator’s aura. Allied creatures in the area including the target gain a +1 status bonus to their attack rolls and gain resistance 2 to your primary domain’s damage type for 1 round.</p><p>@UUID[Compendium.immortal-ardor.archetypes.vpAEaYdK4Rcow1ty]{Effect: Domain Convocation (Aura)}</p><p>@UUID[Compendium.immortal-ardor.archetypes.CNgRG5Qz1QMJ5WHu]{Effect: Domain Convocation (Sustain)}</p><hr><p class=\"Standard\"><strong>Heightened (+1)</strong> Increase the resistance gained by Sustaining the convocation by 1.</p>"
+    },
+    "rules": [],
+    "slug": "domain-convocation",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont",
+        "aura",
+        "cantrip",
+        "concentrate",
+        "ether",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "your convocator"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "Until dismissed",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "uUA6Z4NSiP6D0FC3",
+  "sort": 100000,
+  "_key": "!items!uUA6Z4NSiP6D0FC3"
+}

@@ -8,12 +8,80 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">Draichsar are strongly dependent on the lineages of the matron or patron drachiri that incubated them as an egg. @UUID[Compendium.immortal-ardor.ancestries.SLafrzEYuatDDJfW]{Drachiri Benefactor}. If you have a Benefactor already, you can choose the same one and gain another trait you do not have.</p>"
+      "value": "<p class=\"MsoNormal\">Draichsar are strongly dependent on the lineages of the matron or patron drachiri that incubated them as an egg. @UUID[Compendium.immortal-ardor.ancestries.SLafrzEYuatDDJfW]{Drachiri Benefactor}. If you have a Benefactor already, you can choose the same one and gain another trait you do not have. You gain resistance equal to half your level to your attuned element.</p>"
     },
     "rules": [
       {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "First Benefactor",
+            "value": "first-benefactor",
+            "predicate": [
+              {
+                "not": "feature:drachiri-benefactor"
+              }
+            ]
+          },
+          {
+            "label": "Additional Benefactor",
+            "value": "additional-benefactor",
+            "predicate": [
+              "feature:drachiri-benefactor"
+            ]
+          }
+        ],
+        "rollOption": "drachiri-lineage-benefactor"
+      },
+      {
         "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.ancestries.Item.SLafrzEYuatDDJfW"
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.SLafrzEYuatDDJfW",
+        "predicate": [
+          "drachiri-lineage-benefactor:first-benefactor"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "value": "max(floor(@actor.level/2),1)",
+        "type": "{actor|flags.system.drachiriBenefactor.damageType}",
+        "predicate": [
+          {
+            "not": "feat:exemplary-qualities"
+          }
+        ]
+      },
+      {
+        "key": "Resistance",
+        "value": "@actor.level",
+        "type": "{actor|flags.system.drachiriBenefactor.damageType}",
+        "predicate": [
+          "feat:exemplary-qualities"
+        ]
+      },
+      {
+        "key": "ChoiceSet",
+        "adjustName": false,
+        "prompt": "IA.SpecificRule.DrachiriBenefactor.SecondBenefactorPrompt",
+        "choices": [
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.KbFj8Khk3VNSu543"
+          },
+          {
+            "value": "Compendium.immortal-ardor.ancestries.Item.qmSnZC4ABfKKqVZU"
+          }
+        ],
+        "predicate": [
+          "drachiri-lineage-benefactor:additional-benefactor"
+        ],
+        "flag": "secondBenefactorChoice"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.secondBenefactorChoice}",
+        "predicate": [
+          "drachiri-lineage-benefactor:additional-benefactor"
+        ]
       }
     ],
     "slug": "drachiri-lineage",
