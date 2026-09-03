@@ -6,21 +6,22 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p class=\"MsoNormal\"><strong>Frequency</strong> Once per ten minutes</p><p class=\"MsoNormal\"><strong>Requirements</strong> You have Farum inscribed on your person.</p><p class=\"MsoNormal\"><strong>Trigger</strong> You are the target or within an area of a damaging spell or ability with the arcane, divine, magical, occult, or primal trait.</p><hr></div><p class=\"MsoNormal\">You invoke Califax to overcharge Farum to drain the magic that flows around you. As part of invoking the runeword, you burn a spell slot as if you cast it as a runic spell. Farum becomes charged if it is not already, and you reduce the amount of damage the triggering spell or ability deals by 1d6 plus additional number of d6 equal to the rank of the burnt spell for all creatures targeted by the spell or ability. This reduction is applied before any weaknesses or resistances are taken into account. If you completely mitigate the damage to a creature, the triggering spell or ability has no effect.</p><p class=\"MsoNormal\">If the spell you choose to burn has traits that matches or directly opposes the nature of the spell (such as revelation against detection, or water against fire), you increase the amount of damage reduced by an additional 2d6.</p><p class=\"MsoNormal\">The amount of damage reduced increases by 1d6 at 14th level and every 2 levels thereafter.</p>"
+      "value": "<div><p class=\"MsoNormal\"><strong>Frequency</strong> Once per ten minutes</p><p class=\"MsoNormal\"><strong>Requirements</strong> You have Farum inscribed on your person.</p><p class=\"MsoNormal\"><strong>Trigger</strong> You are the target or within an area of a damaging spell or ability with the arcane, divine, magical, occult, or primal trait.</p><hr></div><p class=\"MsoNormal\">You invoke Califax to overcharge Farum to drain the magic that flows around you. As part of invoking the runeword, you burn a spell slot as if you cast it as a runic spell. Farum becomes @UUID[Compendium.immortal-ardor.archetypes.pjTWK2jZCEe87Fly]{Effect: Farum Charged} if it is not already, and you reduce the amount of damage the triggering spell or ability deals by 1d6 plus additional number of d6 equal to the rank of the burnt spell for all creatures targeted by the spell or ability. This reduction is applied before any weaknesses or resistances are taken into account. If you completely mitigate the damage to a creature, the triggering spell or ability has no effect.</p><p class=\"MsoNormal\">If the spell you choose to burn has traits that matches or directly opposes the nature of the spell (such as revelation against detection, or water against fire), you increase the amount of damage reduced by an additional 2d6.</p><p class=\"MsoNormal\">The amount of damage reduced increases by 1d6 at 14th level and every 2 levels thereafter.</p>"
     },
     "rules": [
       {
         "key": "RollOption",
         "option": "runeword",
+        "placement": "spellcasting",
         "mergeable": true,
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Runescribe.Runeword.CalifaxLabel",
+            "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.CalifaxLabel",
             "value": "califax"
           }
         ],
         "toggleable": true,
-        "label": "IA.SpecificRule.Runescribe.Runeword.RunewordLabel"
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.RunewordLabel"
       }
     ],
     "slug": "runeword-califax-the-golden-shield",
@@ -72,6 +73,14 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "selfEffect": {
+      "uuid": "Compendium.immortal-ardor.archetypes.Item.pjTWK2jZCEe87Fly",
+      "name": "Effect: Farum Charged"
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
     }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",

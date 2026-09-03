@@ -216,6 +216,186 @@
         "exportSource": null
       },
       "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.orDz837AfGuNQRfx"
+    },
+    {
+      "sort": 300000,
+      "name": "Arcblade: Storm Personified",
+      "type": "text",
+      "_id": "xBeTDeq3VWSIDsbH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The Arcblade is a dedicated blademaster who harnesses the power of storms, wielding metallic bladed weaponry as a conduit for fearsome control of electricity and water. The art was said to have originated amongst an order of swordsmen known as the Blades of Krymmenos, who were blessed by an azure drachiri protector. Over the course of history, this knowledge has been passed on to smaller circles of fighters, keeping it secluded from the prying eyes of the world. The art of the Arcblade is half spectacle as it is deadly. With lightning-fast strikes, electrifying sorcery and dazzling channeling of tides, an opponent will never see the Arcblade’s true intention until the fight is over in a flash of light.</span></p><h2>@UUID[Compendium.immortal-ardor.archetypes.oowMJU16cN6vt6oh]{Arcblade} <span style=\"float:right\">1st</span></h2><p>@Embed[Compendium.immortal-ardor.archetypes.oowMJU16cN6vt6oh inline]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.GTnSy5eC6Ometrfg]{Arcblade Dedication} 2nd</h2><p>@Embed[Compendium.immortal-ardor.archetypes.GTnSy5eC6Ometrfg inline]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.Item.bAS48rCY46EgBsEf]{Stinging Thrust} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.Item.bAS48rCY46EgBsEf inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.gTB9qMlYpHgfZBSV]{Storm Hike} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.gTB9qMlYpHgfZBSV inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.IlsT2gN1bwoO8WDD]{Lightning Dance} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.IlsT2gN1bwoO8WDD inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.gl5LaF2bEbN11uHL]{Leaping Lightning} 6th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.gl5LaF2bEbN11uHL inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.0uOdrFda8laYKYMj]{Slipping Tide} 6th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.0uOdrFda8laYKYMj inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.BZELuUd4VBiEspqH]{Surging Guard} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.BZELuUd4VBiEspqH inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.BZELuUd4VBiEspqH]{Surging Guard} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.BZELuUd4VBiEspqH inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.sdteX5mHiJvEu8jm]{Conductivity} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.sdteX5mHiJvEu8jm inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.QeOMfXLFSUlMHZ8u]{Static Conduit} 12th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.QeOMfXLFSUlMHZ8u inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.l4MvRyUU9bJJ1mxY]{Riptide Riot} 14th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.l4MvRyUU9bJJ1mxY inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.oSnGiBlVCZtm09kx]{Chain Lightning Strike} 16th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.oSnGiBlVCZtm09kx inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.YTOY20JMxVYdhxl6]{Tidal Zone} 16th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.YTOY20JMxVYdhxl6 inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.mtFp5JeMy0O2dprK]{Double Discharge} 18th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.mtFp5JeMy0O2dprK inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.hCSmf4DI5CEcwhO7]{Fury of Lightning} 18th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.hCSmf4DI5CEcwhO7 inline hr=false]</p><p></p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.xBeTDeq3VWSIDsbH"
+    },
+    {
+      "sort": 400000,
+      "name": "Convoker: Domain Pactmaster",
+      "type": "text",
+      "_id": "VNy31mnuDLnCska6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>In numerous Ardorean cultures, unity with spirits is a defining tenet. Many mythologies and cultural tenets revolve around the harmony between man and spirit, and how both ensure their mutual survival and their destruction. In these cultures, there are those whose entire purpose is to alleviate difficulties or enforce boundaries, by becoming emissaries that travel with representatives of spiritual domains domains through a powerful pact. Whether it’s a summoned spirit, a cherished animal companion, or a special familiar, a Convoker is one that channels the powers of the domains through their partner to see their ideals realized. The companion may be in servitude to greater forces, or perhaps the agent of such actions themselves, but they are unable to perform this task on their own; thus, the Convoker becomes their conduit for their sacred task.</p><h2>@UUID[Compendium.immortal-ardor.archetypes.zbLrwqEcXs4IQmvK]{Convoker} <span style=\"float:right\">1st</span></h2><p>@Embed[Compendium.immortal-ardor.archetypes.zbLrwqEcXs4IQmvK inline]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.HKtUyZBfajxwEjiU]{Convoker Dedication}  2nd</h2><p>@Embed[Compendium.immortal-ardor.archetypes.HKtUyZBfajxwEjiU inline]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.C0Lp7Vh6JuP41ObR]{Convocator Companionship} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.Item.C0Lp7Vh6JuP41ObR inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.1eD6Qy7i1cbpzTsK]{Convoker Domain Initiate} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.1eD6Qy7i1cbpzTsK inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.jz1Yp1RvqCh32Xjd]{Domain Diplomat} 6th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.jz1Yp1RvqCh32Xjd inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.X6O0WtkR9ClRavLi]{Convoke Rage} 6th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.X6O0WtkR9ClRavLi inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.L80jOp7uO0LZqTxg]{Convoke Ward} 6th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.L80jOp7uO0LZqTxg inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.LspAmBqDAsbNOqU3]{Convocator Allyship} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.LspAmBqDAsbNOqU3 inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.a7yphlVT4qia59oT]{Step of the Domain} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.a7yphlVT4qia59oT inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.1GenxxCrprcGhE4q]{Bloodfused Pact} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.1GenxxCrprcGhE4q inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.pJmAVuyvWb085hqe]{Advanced Convocator Domain} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.pJmAVuyvWb085hqe inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.frkpH6DHtyJGTaEs]{Convoke Fury} 10th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.frkpH6DHtyJGTaEs inline hr=false]</p><p></p><h2>@UUID[Compendium.immortal-ardor.archetypes.P8pafEsErUMIeLry]{Domain Emissary} 12th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.P8pafEsErUMIeLry inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.EZodLIXH6dloVn6w]{Convocator Fellowship} 14th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.EZodLIXH6dloVn6w inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.itChoo6J3a1kZtPr]{Domain Healing} 14th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.itChoo6J3a1kZtPr inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.doCU83EMIiAfeLnQ]{Convoke Judgment} 16th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.doCU83EMIiAfeLnQ inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.H4LpyJyD2da9odsp]{Emissary's Return} 16th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.H4LpyJyD2da9odsp inline hr=false]</p><p></p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.VNy31mnuDLnCska6"
+    },
+    {
+      "sort": 500000,
+      "name": "Drachensoul: Draconic Warriors",
+      "type": "text",
+      "_id": "0LPdo0v1aLlsvyse",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Dragons of Ardor are beings of magic; never ceasing in their affiliation with ether that radiates from their very bodies. In that, the Drachiri Empire took to great advantage in moulding the world to their whims, even creating other draconic creatures or suffusing their champions with their magic. Among these are those who take a dragon’s influence to their very limits, where one bonds so closely to a dragon that they can channel powers beyond their wildest dreams. A Drachensoul need not be a Draichsar nor a Draich, but they must be one who has an immutable bond with a dragon that still lives or persists spiritually, whether through a pact or dangerous therianization. The result is a mutable power that grows with each draconic influence.</p><h2>@UUID[Compendium.immortal-ardor.archetypes.tkCj140hMjwCiZqw]{Drachensoul} <span style=\"float:right\">1st</span></h2><p>@Embed[Compendium.immortal-ardor.archetypes.tkCj140hMjwCiZqw inline]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.BqG1yMw8akP9XcHh]{Drachensoul Dedication} 2nd</h2><p>@Embed[Compendium.immortal-ardor.archetypes.BqG1yMw8akP9XcHh inline]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.1NWnen0W1PHnKC7T]{Greedy Contemplations} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.Item.1NWnen0W1PHnKC7T inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.ZPPkcfQ6haZTcWGl]{Drachen Blast} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.ZPPkcfQ6haZTcWGl inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.mfhf6ymIchqT6OJ3]{Elemental Thaumaturgy} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.mfhf6ymIchqT6OJ3 inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.XcyDk4FFAUAuZtCt]{Soulstoke} 6th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.XcyDk4FFAUAuZtCt inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.2ESyqJuTTOTB0rlb]{Drachiri Majesty} 6th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.2ESyqJuTTOTB0rlb inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.iOxWvZ8qBxxlfbzG]{Greater Bond} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.iOxWvZ8qBxxlfbzG inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.IscHLhnm6AS3Bqt7]{Elemental Miracle} 12th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.IscHLhnm6AS3Bqt7 inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.ffmCLfEDcpe9sl1K]{Everpresent Bond} 12th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.ffmCLfEDcpe9sl1K inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.R2yOE9oWBWvOSDoT]{Double Drachen Blast} 12th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.R2yOE9oWBWvOSDoT inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.Gsybl6EmUBwt6I46]{Benefactor's Largesse} 16th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.Gsybl6EmUBwt6I46 inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.SbOr3nmSLgKpMUjP]{Eternal Bond} 18th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.SbOr3nmSLgKpMUjP inline hr=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.0LPdo0v1aLlsvyse"
+    },
+    {
+      "sort": 600000,
+      "name": "Fusilier: Sygican Marksman",
+      "type": "text",
+      "_id": "cuQ432xYkMq6RTYX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>When the Empty exiles arrived on the shores of Garrunga, they found themselves in a dangerous land. Their allies were the gangoran tribes who saw their Emptiness as a hidden gift, and one tribe shared with the new settlers their ways of gunpowder. For decades, the Gangoran tribes had used gunpowder to hunt for great beasts in the earliest forms of firearms and explosives, to create great alchemical powders for use by their dreaming warriors, or to mine the depths of Garrunga’s caverns. With gunpowder, oil, metal and steam, the sygican settlers began to thrive. Since then, gunpowder and ranged weaponry became part and parcel of their armaments, even wielded by their non-empty descendants. Those speaking Domish had coined the term ‘Fusilier’ for those who bore these weapons in their day to day. When sygican technology flourished, this discipline evolved further, spreading across the world. To many, Fusiliers resemble the unification of the talents and hardship that the sygican had undergone in their quest to cement their place in Ardor’s history, not forgotten.</p><h2>@UUID[Compendium.immortal-ardor.archetypes.kfil47x56sHmPtdw]{Fusilier} <span style=\"float:right\">1st</span></h2><p>@Embed[Compendium.immortal-ardor.archetypes.kfil47x56sHmPtdw inline]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.F8H4qNmm3QWEy5F5]{Fusilier Dedication} 2nd</h2><p>@Embed[Compendium.immortal-ardor.archetypes.F8H4qNmm3QWEy5F5 inline]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.Ft0DQ9SFWvrjy8bG]{Breakaway Shot} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.Item.Ft0DQ9SFWvrjy8bG inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.dVzf5TTwyi2EkXvm]{Fusilier's Modification} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.dVzf5TTwyi2EkXvm inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.OmxPk4DzKF0wKM9e]{Assisted Reload} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.OmxPk4DzKF0wKM9e inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.TOm5jWawSnL8ngw1]{Time Extension} 6th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.TOm5jWawSnL8ngw1 inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.mm5nflC60Qu2KPym]{Wanted Shot} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.mm5nflC60Qu2KPym inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.iOxWvZ8qBxxlfbzG]{Greater Bond} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.iOxWvZ8qBxxlfbzG inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.C5RFYvGYNefUvWrZ]{Jackpot} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.C5RFYvGYNefUvWrZ inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.edFUVHoeizwD9fli]{Blasting Zone} 10th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.edFUVHoeizwD9fli inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.q7OlI6CBaiepWdoy]{Fusilier's Breakthrough} 10th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.q7OlI6CBaiepWdoy inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.N0nAQVQGhzzQMFpr]{Continue Credit} 12th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.N0nAQVQGhzzQMFpr inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.Nzy8MV3m1hk6CjgT]{Life Grenade} 12th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.Nzy8MV3m1hk6CjgT inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.ifJvB7Y8NcdSIkGD]{Armor Piercer} 14th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.ifJvB7Y8NcdSIkGD inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.VYv2insgX1JN2r5r]{Mortar Breaker} 14th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.VYv2insgX1JN2r5r inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.v0NO75QMzpqJuPJO]{Bless This Shot} 16th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.Nzy8MV3m1hk6CjgT inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.bLICWUxNft1sUGzM]{Double Engram} 16th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.bLICWUxNft1sUGzM inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.m7NZ0omOrYGLJggu]{Last Life} 18th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.m7NZ0omOrYGLJggu inline hr=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.cuQ432xYkMq6RTYX"
+    },
+    {
+      "sort": 700000,
+      "name": "Runescribe: Forbidden Lexicon",
+      "type": "text",
+      "_id": "whDFbR0gNQEbO7FB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The fabric of the world is written in runes, or so it is said. When runes were discovered, their potential was exploited to the fullest, and it only grew as runic magic was used to create magic one could only dream of. For in their use, anything could be commanded upon the tapestry so long as one knew how to. But such things lead to untold destruction and the unraveling of the boundaries between realms. As Oblivion yawned upon a battlefield, and as an entire nation was levelled, the world collectively came together to restrict the use of runic magic. Knowledge of the art was greatly restrained and kept secret over centuries, and laws were passed to forbid unsanctioned uses. And yet, there are those who still practice in secret or under the auspices of nations willing to bend law or to enact it to the extent that it is still legally justifiable. Such are the Runescribes; bearers of the forbidden language, who can delve into the magic that defines reality.</p><h2>@UUID[Compendium.immortal-ardor.archetypes.BNsFuyQscAo6Sq1y]{Runescribe} <span style=\"float:right\">1st</span></h2><p>@Embed[Compendium.immortal-ardor.archetypes.BNsFuyQscAo6Sq1y inline]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.9gpS1Vtr4ijxbXmX]{Runescribe Dedication} 2nd</h2><p>@Embed[Compendium.immortal-ardor.archetypes.9gpS1Vtr4ijxbXmX inline]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.1tcdncWcog71Basd]{Runeword: Tirranos, the Pure Magic} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.Item.1tcdncWcog71Basd inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.HgwLIRVq8nWEBQJn]{Basic Fragmentary Runes} 4th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.HgwLIRVq8nWEBQJn inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.86fMCU46tzRCr2gs]{Secret Spell} 6th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.86fMCU46tzRCr2gs inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.zin8uBUOtS69zrIn]{Runic Font} 6th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.zin8uBUOtS69zrIn inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.Vh8AAiXtBagimYqb]{Runeword: Adun the Vibrant Twin} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.Vh8AAiXtBagimYqb inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.xBv6dF7xZziz27hg]{Runeword: Shiral, the Spectrum Twin} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.xBv6dF7xZziz27hg inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.C5RFYvGYNefUvWrZ]{Jackpot} 8th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.C5RFYvGYNefUvWrZ inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.gyJXKTwSVoOgOb1H]{Expert Fragmentary Runes} 10th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.gyJXKTwSVoOgOb1H inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.9PljuKCuiT1RS24J]{Runic Caliber} 10th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.9PljuKCuiT1RS24J inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.5motorYu1bprabsk]{Runeword: Califax, the Golden Shield} 12th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.5motorYu1bprabsk inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.2tU9gvZ7mvghdhXo]{Quick Runes} 14th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.2tU9gvZ7mvghdhXo inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.MSIUW5Lu1u1B8vN3]{Runeword: Zelkar, the Hungry Void} 16th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.MSIUW5Lu1u1B8vN3 inline hr=false]</p><h2>@UUID[Compendium.immortal-ardor.archetypes.sGzmtuKuwwmv3Ihs]{Master Fragmentary Runes} 16th</h2><p>@Embed[Compendium.immortal-ardor.archetypes.sGzmtuKuwwmv3Ihs inline hr=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.4.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.whDFbR0gNQEbO7FB"
     }
   ],
   "folder": null,

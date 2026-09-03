@@ -12,21 +12,16 @@
       {
         "key": "RollOption",
         "option": "runeword",
+        "placement": "spellcasting",
         "mergeable": true,
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Runescribe.Runeword.AlkhysLabel",
+            "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.AlkhysLabel",
             "value": "alkhys"
           }
         ],
         "toggleable": true,
-        "disabledIf": [
-          {
-            "not": "self:effect:farum-charged"
-          }
-        ],
-        "disabledValue": false,
-        "label": "IA.SpecificRule.Runescribe.Runeword.RunewordLabel"
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.RunewordLabel"
       },
       {
         "itemType": "spell",
@@ -38,7 +33,7 @@
         "property": "description",
         "value": [
           {
-            "text": "IA.SpecificRule.Runescribe.Runeword.AlkhysDescription"
+            "text": "IA.SpecificRule.Archetypes.Runescribe.Runeword.AlkhysDescription"
           }
         ]
       }

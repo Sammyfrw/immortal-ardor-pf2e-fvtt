@@ -1,6 +1,6 @@
 {
   "folder": "jpFu5Lzg5oVfBRNs",
-  "name": "Riptide",
+  "name": "Riptide Riot",
   "type": "feat",
   "effects": [],
   "system": {
@@ -9,7 +9,7 @@
       "value": "<p><strong>Requirements</strong> You are in Storm Surge Stance.</p><hr><p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Your weapon creates a wave of your aspect’s element with a wide swing. You swing your weapon outward as if to make a Strike, channeling your aspect in a 20-foot cone. Creatures in the area are assailed by a magical wave of your storm aspect and must make a Reflex saving throw.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Critical Success </strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The creature is unaffected.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Success </strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The creature takes half the damage of a roll of your weapon’s damage dice as your aspect damage.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Failure </strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">As success, but it deals full damage instead of half.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Critical Failure</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> As success, but it deals double damage instead of half.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">If you have the @UUID[Compendium.immortal-ardor.archetypes.8ad23sFdfBpqwklz]{Aspect of Skies}, your wave forms as a storm cloud in the area. The area crackles with lightning for 1 round, and any creature who ends their turn in the area or enters it must make the saving throw against your aspected damage again. If you have the @UUID[Compendium.immortal-ardor.archetypes.pid3Nv3o23ilx3n6]{Aspect of Tides}, creatures who fail are trapped in a watery bubble and suffer a -10 foot status penalty to their speeds on a failure or become Immobilized on a critical failure for 1 round.</span></p>"
     },
     "rules": [],
-    "slug": "riptide",
+    "slug": "riptide-riot",
     "_migration": {
       "version": 0.959,
       "previous": {

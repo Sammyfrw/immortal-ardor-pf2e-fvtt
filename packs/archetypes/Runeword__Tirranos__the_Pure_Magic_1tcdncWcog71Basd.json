@@ -13,20 +13,15 @@
         "key": "RollOption",
         "option": "runeword",
         "mergeable": true,
+        "placement": "spellcasting",
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Runescribe.Runeword.TiranosLabel",
-            "value": "tiranos"
+            "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.TirranosLabel",
+            "value": "tirranos"
           }
         ],
-        "disabledIf": [
-          {
-            "not": "self:effect:farum-charged"
-          }
-        ],
-        "disabledValue": false,
         "toggleable": true,
-        "label": "IA.SpecificRule.Runescribe.Runeword.RunewordLabel"
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.RunewordLabel"
       }
     ],
     "slug": "runeword-tirranos-the-pure-magic",

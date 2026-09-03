@@ -400,17 +400,18 @@
           "Runeword": {
             "RunewordLabel": "Runeword",
             "NefelusLabel": "Nefelus",
-            "NefelusDescription": "You deal an additional @Damage[ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,10),2,1))[force]] damage with your spell.",
+            "NefelusDescription": "You deal an additional @Damage[(ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,10),2,1)))d4[force]] damage with your spell.",
             "AdunLabel": "Adun",
-            "AdunDescription": "Your healing spell adds @Damage[((@item.level*5)-10)[healing]] hit points if it does not heal on its own, or add half as a status bonus if it does.",
+            "AdunDescription": "Your healing spell confers healing equal to 5 times the rank of the spell (@Damage[(@item.level*5)[healing]] to the target if it does not heal on its own, or gain half this amount as a status bonus if it does.",
             "ShiralLabel": "Shiral",
+            "ShiralChoiceLabel": "Shiral Damage Type",
             "ShiralDescription": "You change your next spell's damage type to force, spirit, fire or mental.",
             "AlkhysLabel": "Alkhys",
             "AlkhysDescription": "You can use a spellshape that you know as part of this action, and cast a runic spell with this runeword.",
             "FarumLabel": "Farum",
             "CalifaxLabel": "Califax",
             "TirranosLabel": "Tirranos",
-            "Zelkar Label": "Zelkar"
+            "ZelkarLabel": "Zelkar"
           }
         }
       },

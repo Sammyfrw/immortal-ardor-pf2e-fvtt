@@ -24,25 +24,6 @@
     },
     "rules": [
       {
-        "key": "RollOption",
-        "option": "runeword",
-        "mergeable": true,
-        "suboptions": [
-          {
-            "label": "IA.SpecificRule.Runescribe.Runeword.NefelusLabel",
-            "value": "nefelus"
-          }
-        ],
-        "toggleable": true,
-        "disabledIf": [
-          {
-            "not": "self:effect:farum-charged"
-          }
-        ],
-        "disabledValue": false,
-        "label": "IA.SpecificRule.Runescribe.Runeword.RunewordLabel"
-      },
-      {
         "damageType": "force",
         "diceNumber": "ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,10),2,1))",
         "dieSize": "d4",
@@ -55,14 +36,28 @@
         "key": "ItemAlteration",
         "mode": "add",
         "predicate": [
-          "spellshape:reach-spell"
+          "runeword:nefelus"
         ],
         "property": "description",
         "value": [
           {
-            "text": "PF2E.SpecificRule.Spellshape.ReachSpell"
+            "text": "IA.SpecificRule.Archetypes.Runescribe.Runeword.NefelusDescription"
           }
         ]
+      },
+      {
+        "key": "RollOption",
+        "option": "runeword",
+        "mergeable": true,
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.NefelusLabel",
+            "value": "nefelus"
+          }
+        ],
+        "toggleable": true,
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.RunewordLabel"
       }
     ],
     "slug": "runeword-nefelus-the-torrent-of-magic",

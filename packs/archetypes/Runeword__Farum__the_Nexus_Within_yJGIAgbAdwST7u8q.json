@@ -27,16 +27,15 @@
         "key": "RollOption",
         "option": "runeword",
         "mergeable": true,
+        "placement": "spellcasting",
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Runescribe.Runeword.FarumLabel",
+            "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.FarumLabel",
             "value": "farum"
           }
         ],
-        "disabledIf": "self:effect:farum-charged",
-        "disabledValue": false,
         "toggleable": true,
-        "label": "IA.SpecificRule.Runescribe.Runeword.RunewordLabel"
+        "label": "IA.SpecificRule.Archetypes.Runescribe.Runeword.RunewordLabel"
       }
     ],
     "slug": "runeword-farum-the-nexus-within",
