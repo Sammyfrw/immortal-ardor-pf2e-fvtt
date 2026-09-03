@@ -1,35 +1,50 @@
 {
   "folder": "S2xgsaTVjAV5U9ob",
-  "name": "Runeword: Tirranos, the Pure Magic",
+  "name": "Runeword: Adun the Vibrant Twin",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Farum is charged.</p><hr></div><p>You invoke Tirranos to unleash Farum’s power in a blast of magic. The blast targets one creature within 30 feet, dealing @Damage[(floor(@actor.level/4))d12[force]] damage with a @Check[reflex|against:class-spell|basic] save. The force damage increases by 1d12 at 8th level and every 4 levels after. Farum is no longer charged.</p>"
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Farum is charged.</p><hr></div><p class=\"MsoNormal\">You invoke Adun to activate Farum’s magic to empower yourself with healing. You heal @Damage[((@item.level*5)-10)[healing]] hit points. At 10th level and every 2 levels thereafter, the amount of healing increases by 5. Farum is no longer charged.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you have a runic spell with the healing trait, you can cast the spell as you invoke this runeword by spending the amount of actions needed to cast the spell. When you do, you confer this healing if the spell does not heal hit points, or add a status bonus to the amount healed by half of its amount of healing if it does.</p>"
     },
     "rules": [
       {
         "key": "RollOption",
         "option": "runeword",
-        "mergeable": true,
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Runescribe.Runeword.TiranosLabel",
-            "value": "tiranos"
+            "label": "IA.SpecificRule.Runescribe.Runeword.AdunLabel",
+            "value": "adun"
           }
         ],
+        "toggleable": true,
+        "mergeable": true,
         "disabledIf": [
           {
             "not": "self:effect:farum-charged"
           }
         ],
         "disabledValue": false,
-        "toggleable": true,
         "label": "IA.SpecificRule.Runescribe.Runeword.RunewordLabel"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "runeword:adun",
+          "item:trait:healing"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "IA.SpecificRule.Runescribe.Runeword.AdunDescription"
+          }
+        ]
       }
     ],
-    "slug": "runeword-tirranos-the-pure-magic",
+    "slug": "runeword-adun-the-vibrant-twin",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -43,8 +58,8 @@
       "value": [
         "archetype",
         "concentrate",
+        "healing",
         "magical",
-        "manipulate",
         "runic"
       ],
       "rarity": "common"
@@ -56,16 +71,16 @@
       "remaster": true
     },
     "level": {
-      "value": 4
+      "value": 8
     },
     "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "action"
+      "value": "passive"
     },
     "actions": {
-      "value": 1
+      "value": null
     },
     "prerequisites": {
       "value": [
@@ -95,7 +110,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "1tcdncWcog71Basd",
-  "sort": 100000,
-  "_key": "!items!1tcdncWcog71Basd"
+  "_id": "Vh8AAiXtBagimYqb",
+  "sort": 800000,
+  "_key": "!items!Vh8AAiXtBagimYqb"
 }

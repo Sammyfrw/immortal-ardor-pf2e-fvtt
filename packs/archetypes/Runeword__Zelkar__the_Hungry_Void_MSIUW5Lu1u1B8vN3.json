@@ -1,12 +1,12 @@
 {
   "folder": "S2xgsaTVjAV5U9ob",
-  "name": "Runeword: Tirranos, the Pure Magic",
+  "name": "Runeword: Zelkar, the Hungry Void",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Farum is charged.</p><hr></div><p>You invoke Tirranos to unleash Farum’s power in a blast of magic. The blast targets one creature within 30 feet, dealing @Damage[(floor(@actor.level/4))d12[force]] damage with a @Check[reflex|against:class-spell|basic] save. The force damage increases by 1d12 at 8th level and every 4 levels after. Farum is no longer charged.</p>"
+      "value": "<p style=\"border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><strong>Prerequisites</strong> Runescribe dedication</p><div><p class=\"MsoNormal\"><strong>Requirements</strong> You have prepared spells in your three highest ranked spell slots that you have not cast and you have Farum inscribed on your person.</p><p class=\"MsoNormal\"><strong>Frequency</strong> Once per hour</p><hr></div><p class=\"MsoNormal\">You invoke Zelkar to draw upon one element of your magic, converting it to another usable form of ether. You select a spell that meets the requirements. That spell slot becomes burnt, and Farum becomes charged and you gain a focus point. If you consume a spell from your highest ranked spell slots, you gain two focus points instead.</p><p class=\"MsoNormal\">If you have the @UUID[Compendium.immortal-ardor.archetypes.HgwLIRVq8nWEBQJn]{Fragmentary Runes} feat, you can sacrifice a fragmentary rune for 1 focus point when you use this action instead of a spell slot.</p>"
     },
     "rules": [
       {
@@ -15,21 +15,15 @@
         "mergeable": true,
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Runescribe.Runeword.TiranosLabel",
-            "value": "tiranos"
+            "label": "IA.SpecificRule.Runescribe.Runeword.ZelkarLabel",
+            "value": "zelkar"
           }
         ],
-        "disabledIf": [
-          {
-            "not": "self:effect:farum-charged"
-          }
-        ],
-        "disabledValue": false,
         "toggleable": true,
         "label": "IA.SpecificRule.Runescribe.Runeword.RunewordLabel"
       }
     ],
-    "slug": "runeword-tirranos-the-pure-magic",
+    "slug": "runeword-zelkar-the-hungry-void",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -43,8 +37,8 @@
       "value": [
         "archetype",
         "concentrate",
+        "ether",
         "magical",
-        "manipulate",
         "runic"
       ],
       "rarity": "common"
@@ -56,7 +50,7 @@
       "remaster": true
     },
     "level": {
-      "value": 4
+      "value": 16
     },
     "category": "class",
     "onlyLevel1": false,
@@ -79,6 +73,10 @@
       "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
     }
   },
   "img": "icons/sundries/books/book-purple-cross.webp",
@@ -95,7 +93,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "1tcdncWcog71Basd",
-  "sort": 100000,
-  "_key": "!items!1tcdncWcog71Basd"
+  "_id": "MSIUW5Lu1u1B8vN3",
+  "sort": 50000,
+  "_key": "!items!MSIUW5Lu1u1B8vN3"
 }

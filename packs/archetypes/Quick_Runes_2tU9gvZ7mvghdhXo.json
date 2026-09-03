@@ -1,20 +1,15 @@
 {
   "folder": "S2xgsaTVjAV5U9ob",
-  "name": "Runescribe Dedication",
+  "name": "Quick Runes",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You understand Runic enough to be able to craft, read, and identify Runes used for equipment with Arcana, even if you do not have the @UUID[Compendium.pf2e.feats-srd.xWY5omyIcILNR7y1]{Magical Crafting} feat, and you can @UUID[Compendium.pf2e.actionspf2e.Q5iIYCFdqJFM31GW]{Learn a Spell} or @UUID[Compendium.pf2e.actionspf2e.eReSHVEPCsdkSL4G]{Identify Magic} from runes that depict a spell you could learn or infer meaning behind runes you read (such as runes inscribed to enact an effect) after successfully using @UUID[Compendium.pf2e.actionspf2e.d9gbpiQjChYDYA2L]{Decipher Writing} with Arcana. You gain the @UUID[Compendium.immortal-ardor.archetypes.SrLwCfO8isJw6W0D]{Runeword: Nefelus, the Torrent of Magic} action, which you can use whenever Farum is charged.</p>"
+      "value": "<p>You’re incredibly quick to call upon runes when you need to. At the start of each of your turns, you gain an additional reaction that can only be used for invoking Farum.</p>"
     },
-    "rules": [
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.immortal-ardor.archetypes.Item.SrLwCfO8isJw6W0D"
-      }
-    ],
-    "slug": "runescribe-dedication",
+    "rules": [],
+    "slug": "quick-runes",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -26,9 +21,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "aetherfont",
-        "archetype",
-        "dedication"
+        "archetype"
       ],
       "rarity": "common"
     },
@@ -39,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 2
+      "value": 14
     },
     "category": "class",
     "onlyLevel1": false,
@@ -53,7 +46,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Runescribe"
+          "value": "Runescribe Dedication"
         }
       ]
     },
@@ -78,7 +71,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "9gpS1Vtr4ijxbXmX",
-  "sort": 300000,
-  "_key": "!items!9gpS1Vtr4ijxbXmX"
+  "_id": "2tU9gvZ7mvghdhXo",
+  "sort": 0,
+  "_key": "!items!2tU9gvZ7mvghdhXo"
 }

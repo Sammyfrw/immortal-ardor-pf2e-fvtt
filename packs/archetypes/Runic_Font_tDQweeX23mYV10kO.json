@@ -1,0 +1,84 @@
+{
+  "folder": "x8e4qVoo4BjaRjNt",
+  "name": "Runic Font",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> Your turn begins.</p><div><p class=\"MsoNormal\"><strong>Requirements</strong> You have Farum inscribed on your person.</p><p class=\"MsoNormal\"><strong>Frequency</strong> Once per hour</p><hr></div><p class=\"MsoNormal\">Through magical trickery, you convert some of your innate magic to activate Farum. Farum becomes charged, or if it was charged already, your next Runeword applied to a Runic spell does not burn the spell slot. If the duration elapses or regardless whether or not your next Runeword does so, Farum becomes no longer charged after using it.</p><p>@UUID[Compendium.immortal-ardor.archetypes.pjTWK2jZCEe87Fly]{Effect: Farum Charged}</p>"
+    },
+    "rules": [],
+    "slug": "runic-font",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "magical",
+        "runic"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "You have Farum inscribed on your person.",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "free"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/symbols/rune-sigil-green.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "tDQweeX23mYV10kO",
+  "sort": 0,
+  "_key": "!items!tDQweeX23mYV10kO"
+}

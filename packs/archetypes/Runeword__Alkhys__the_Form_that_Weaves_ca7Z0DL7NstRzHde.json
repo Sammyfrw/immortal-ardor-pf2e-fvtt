@@ -1,12 +1,12 @@
 {
   "folder": "S2xgsaTVjAV5U9ob",
-  "name": "Runeword: Tirranos, the Pure Magic",
+  "name": "Runeword: Alkhys, the Form that Weaves",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Farum is charged.</p><hr></div><p>You invoke Tirranos to unleash Farum’s power in a blast of magic. The blast targets one creature within 30 feet, dealing @Damage[(floor(@actor.level/4))d12[force]] damage with a @Check[reflex|against:class-spell|basic] save. The force damage increases by 1d12 at 8th level and every 4 levels after. Farum is no longer charged.</p>"
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> Farum is charged.</p><hr></div><p class=\"MsoNormal\">You invoke Alkhys to use Farum’s charged power to rewrite the parameters of your next spell. If your next action is to Cast a Spell, you can use a spellshape that you know as part of this action and cast it as a runic spell with this runeword. Farum is no longer charged.</p>"
     },
     "rules": [
       {
@@ -15,21 +15,35 @@
         "mergeable": true,
         "suboptions": [
           {
-            "label": "IA.SpecificRule.Runescribe.Runeword.TiranosLabel",
-            "value": "tiranos"
+            "label": "IA.SpecificRule.Runescribe.Runeword.AlkhysLabel",
+            "value": "alkhys"
           }
         ],
+        "toggleable": true,
         "disabledIf": [
           {
             "not": "self:effect:farum-charged"
           }
         ],
         "disabledValue": false,
-        "toggleable": true,
         "label": "IA.SpecificRule.Runescribe.Runeword.RunewordLabel"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "runeword:alkhys"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "IA.SpecificRule.Runescribe.Runeword.AlkhysDescription"
+          }
+        ]
       }
     ],
-    "slug": "runeword-tirranos-the-pure-magic",
+    "slug": "runeword-alkhys-the-form-that-weaves",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -44,7 +58,6 @@
         "archetype",
         "concentrate",
         "magical",
-        "manipulate",
         "runic"
       ],
       "rarity": "common"
@@ -56,21 +69,24 @@
       "remaster": true
     },
     "level": {
-      "value": 4
+      "value": 6
     },
     "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "action"
+      "value": "free"
     },
     "actions": {
-      "value": 1
+      "value": null
     },
     "prerequisites": {
       "value": [
         {
           "value": "Runescribe Dedication"
+        },
+        {
+          "value": "Access to a Spellshape"
         }
       ]
     },
@@ -95,7 +111,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "1tcdncWcog71Basd",
-  "sort": 100000,
-  "_key": "!items!1tcdncWcog71Basd"
+  "_id": "ca7Z0DL7NstRzHde",
+  "sort": 600000,
+  "_key": "!items!ca7Z0DL7NstRzHde"
 }

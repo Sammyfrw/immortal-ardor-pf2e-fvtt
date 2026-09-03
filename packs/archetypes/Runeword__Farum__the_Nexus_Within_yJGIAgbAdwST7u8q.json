@@ -22,12 +22,27 @@
       "license": "OGL",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "runeword",
+        "mergeable": true,
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Runescribe.Runeword.FarumLabel",
+            "value": "farum"
+          }
+        ],
+        "disabledIf": "self:effect:farum-charged",
+        "disabledValue": false,
+        "toggleable": true,
+        "label": "IA.SpecificRule.Runescribe.Runeword.RunewordLabel"
+      }
+    ],
     "slug": "runeword-farum-the-nexus-within",
     "traits": {
       "otherTags": [],
       "value": [
-        "arcane",
         "concentrate",
         "magical",
         "runic"
