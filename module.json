@@ -208,6 +208,7 @@
           "ritual-blade": "IA.BaseWeapon.RitualBlade",
           "roaring-revolver": "IA.BaseWeapon.RoaringRevolver",
           "rootrazor": "IA.BaseWeapon.Rootrazoor",
+          "scepter": "IA.BaseWeapon.Scepter",
           "sickle-rifle": "IA.BaseWeapon.SickleRifle",
           "sidewinder": "IA.BaseWeapon.Sidewinder",
           "somnic-blade": "IA.BaseWeapon.SomnicBlade",
@@ -659,10 +660,6 @@
             "description": "IA.TraitDescription.Telluric"
           }
         },
-        "weaponGroups": {
-          "scepter": "IA.WeaponGroups.Scepter",
-          "twinblade": "IA.WeaponGroups.Twinblade"
-        },
         "weaponTraits": {
           "aelkhazak": {
             "label": "IA.Trait.Aelkhazak",
@@ -763,6 +760,10 @@
           "nascent-primal": {
             "description": "IA.TraitDescription.Nascent",
             "label": "IA.Trait.NascentPrimal"
+          },
+          "scepter": {
+            "description": "IA.TraitDescription.Scepter",
+            "label": "IA.BaseWeapon.Scepter"
           },
           "soulforged": {
             "description": "IA.TraitDescription.Soulforged",

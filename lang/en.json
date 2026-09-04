@@ -160,6 +160,7 @@
       "Resolve": "An option with this trait indicates that it uses Resolve Points, typically available to Empty as they push themselves to the limit to perform superhuman feats.",
       "Runic": "An option with the runic trait pertains to runic magic or the runic language. Runes dictate commands that can create fantastical and great effects. Unlike a normal language, it isn’t one that can be easily spoken or used for communication, as one must use magic to speak or write it in a way that it becomes usable; it has very little linguistic properties otherwise. Due to its potential dangers, is typically outlawed in a majority of countries if a creature does not have the proper permissions.",
       "Sapien": "A creature with this trait is a member of the sapien ancestry. These are resilient humanoids who could historically thrive in just about any climate and are naturally resistant to disease, and have spread all over Ardor. As diverse as they are plentiful, they share spaces with almost every ancestry in Ardor.",
+      "Scepter": "A scepter is a type of magical implement that a spellcaster can charge with a spell to be cast later more readily.",
       "Soulforged": "Items with the soulforged trait are either weapons crafted in the primal plane imbued with astral essences, or weapons crafted in the astral plane imbued with primal essences, created through the process of soulforging. A soul is often a core component of this process, and is consumed in its creation. Soulforged weapons also frequently have the Unholy trait.",
       "Spellcrux": "A weapon with the spellcrux trait can take on the powers of a charged staff, and act like a staff to cast spells from it. The weapon either has a spell list of its own like a staff would, or if not, a spellcaster charging a staff can transfer its powers to a spellcrux weapon, transferring all spells and charges for the day into it.",
       "Sygican": "An item with the sygican trait denotes that it is an item with sygicatech circuitry, allowing it to perform magical effects while being used by those who do not have the ability to wield ether, such as Empty. As long as the piece of equipment has a fuel or energy source, such as a battery, a user of the item can activate its magical effects. In some sygicatech items, this takes the form of Engrams.",
@@ -206,10 +207,6 @@
       "VenomCoil": "Venom Coil",
       "VoltaicFist": "Voltaic Fist",
       "WaveAxe": "Wave Axe"
-    },
-    "WeaponGroups": {
-      "Scepter": "Scepter",
-      "Twinblade": "Twinblade"
     },
     "SpecificRule": {
       "DrachiriBenefactor": {

@@ -1,0 +1,118 @@
+{
+  "name": "Ardorean Magic Creature (PC)",
+  "type": "feat",
+  "img": "icons/commodities/treasure/token-gold-gem-red.webp",
+  "effects": [],
+  "folder": "XaKcxo560ohf3xPr",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a PC that uses normal Ardorean Magic rules and does not use one of the available Aetherfonts.</p><p>Creatures (including PCs) gain the following:</p><ul><li><p>A trait associated with one of the magic traditions: arcane, divine, occult, or primal.</p></li><li><p>The ability to cast a cantrip (PCs choose one upon character creation) from the tradition associated with that trait.</p></li><li><p>The @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast a Spell} activity.</p></li><li><p>Trained in spell DCs and spell attack rolls. For Innate Spells granted by pervasive magic, they use their class DC or their highest proficiency rank in spell DCs, whichever is higher. They can choose any mental ability score (Intelligence, Wisdom, or Charisma) to be associated with their innate spells granted by pervasive magic.</p></li><li><p>Creatures of level 1-8 will typically have 1 focus point and 1 pervasive innate spell, creatures of level 9-16 will have at least 2 focus points and 1 or 2 pervasive innate spell, while creatures of a higher level have 3 focus points and 1 to 3 pervasive innate spells.</p></li><li><p>Access to backgrounds and feats with the pervasive magic trait. @UUID[Compendium.pf2e.feats-srd.I2DGiMcof703Cnjc]{Cantrip Casting} @UUID[Compendium.pf2e.feats-srd.B5f7eCAC3ZEmlR9h]{Basic Spellcasting} @UUID[Compendium.pf2e.feats-srd.2UogDoEJ2M2tQFxn]{Expert Spellcasting} @UUID[Compendium.pf2e.feats-srd.NAgaDfwUSjPAon4o]{Master Spellcasting}</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "ardoreanMagicTradition",
+        "choices": [
+          {
+            "label": "PF2E.TraitArcane",
+            "value": "arcane"
+          },
+          {
+            "label": "PF2E.TraitDivine",
+            "value": "divine"
+          },
+          {
+            "label": "PF2E.TraitPrimal",
+            "value": "primal"
+          },
+          {
+            "label": "PF2E.TraitOccult",
+            "value": "occult"
+          }
+        ]
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "{item|flags.system.rulesSelections.ardoreanMagicTradition}"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.resources.focus.max",
+        "priority": 10,
+        "value": "match(when(lte(@actor.level, 8), 1), when(btwn(@actor.level, 9, 16), 2), when(gte(@actor.level, 17), 3))"
+      }
+    ],
+    "slug": "ardorean-magic-creature-pc",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aetherfont"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 1,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "qA4etpeeTK5ewX34",
+  "sort": 0,
+  "_key": "!items!qA4etpeeTK5ewX34"
+}

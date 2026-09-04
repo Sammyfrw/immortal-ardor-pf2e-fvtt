@@ -1,0 +1,102 @@
+{
+  "folder": "zxyk2vcgkwS2mE2S",
+  "img": "icons/magic/symbols/runes-carved-stone-purple.webp",
+  "name": "Empowering",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your magical implement empowers your spells further. Your spell DCs gain a +1 item bonus.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "spell-dc"
+        ],
+        "value": 1,
+        "type": "item"
+      }
+    ],
+    "slug": "empowering",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 850
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "installed-in-a-weapon"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "7lDREHSqaCRVOEC0",
+  "sort": 800000,
+  "_key": "!items!7lDREHSqaCRVOEC0"
+}
