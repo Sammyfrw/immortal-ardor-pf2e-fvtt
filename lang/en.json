@@ -217,6 +217,65 @@
       "WaveAxe": "Wave Axe"
     },
     "SpecificRule": {
+      "RulesAdjustments": {
+        "Title": "Ardorean Rules Adjustment",
+        "Actions": {
+          "Aid": {
+            "Title": "Aid",
+            "Text": "When two characters are using the same skill, one of which to Aid the other, to achieve the same goal, you can use the higher outcome of the two checks to accomplish the goal at its intended DC while the lower of the two is used for the Aid check outcome. Both characters must meet all prerequisites and requirements, such as feats or proficiencies, and the nature of the Aid must be such that both characters are performing identical or combined tasks for its duration."
+          },
+          "Avert Gaze": {
+            "Title": "Avert Gaze",
+            "Text": "Avert Gaze: Avert Gaze is now a free action you can take at the start of your turn, which confers a +2 circumstance bonus to saves to persistent gaze effects as normal. In the case of instantaneous gaze effects, so long as you are averting your gaze at the time the effect triggers, you treat the degree of success of your saving throw as one step higher."
+          },
+          "Ready": {
+            "Title": "Ready",
+            "Text": "Readying a non-Move free action or 1 action activity now only requires 1 action instead of 2 actions. You can also ready a 2 action activity with 2 actions, or a 1-action Move action with 2 actions. Depending on circumstances and the action you are readying, the trigger you designate can be freely changed."
+          },
+          "Stride": {
+            "Title": "Stride",
+            "Text": "Striding will allow a simple Interact action as part of the same action. Opening an easy to open door mid movement, fetching or passing an easy to take unattended item, etc. This Stride cannot be a subordinate action, such as a Stride as part of Sudden Charge, or a move action that is part of a movement with the Traversal trait. When Interacting like this, Stride gains the Manipulate trait."
+          }
+        },
+        "WeaponTraits": {
+          "Backswing": {
+            "Title": "Backswing",
+            "Text": "Attacking again after missing with this weapon grants you a +2 circumstance bonus to the attack rather than a +1."
+          },
+          "Backstabber": {
+            "Title": "Backstabber",
+            "Text": "Attacks against an off-guard creature deals precision damage equal to the number of weapon damage die, rather than 1 (or 2 if it is a +3 weapon)."
+          },
+          "Bomb": {
+            "Title": "Bomb",
+            "Text": "Alchemical Bombs function identically to how they are in Pathfinder, but their base range is 30 feet."
+          },
+          "Grenade": {
+            "Title": "Grenade",
+            "Text": "Grenades function identically to how they work in Starfinder, but they are Martial weapons instead of Simple weapons."
+          },
+          "Forceful": {
+            "Title": "Forceful",
+            "Text": "Subsequent attacks with a Forceful weapon adds a circumstance bonus to damage equal to 2 times the number of weapon damage die, rather than just equal to the number of weapon damage die."
+          },
+          "Maneuver": {
+            "Title": "Disarm, Grapple, Shove, Trip",
+            "Text": "As you can swap between 1-handedness or 2-handedness as a free action, these traits are adjusted so that attempts to use these actions with the weapon or unarmed attack with this trait allows the action to benefit from a target’s off-guard condition."
+          },
+          "Monk": {
+            "Title": "Forceful",
+            "Text": "A Monk or anyone who has similar form of monastic training can use weapons with this trait in place of unarmed attacks for feats with the Monk trait or similar, assuming the weapon meets the requirements listed for the attack (such as needing a particular trait on an unarmed attack)."
+          },
+          "Sweep": {
+            "Title": "Sweep",
+            "Text": "Attacking another target with this weapon after the first on a turn grants a +2 circumstance bonus to the attack rather than a +1."
+          },
+          "Twin": {
+            "Title": "Twin",
+            "Text": "Attacks with the second weapon in the pair adds a circumstance bonus to damage equal to 2 times the weapon damage die rather than just equal to the weapon damage die."
+          }
+        }
+      },
       "DrachiriBenefactor": {
         "BenefactorLabel": "Drachiri Benefactor",
         "BenefactorPrompt": "Select a Drachiri Benefactor.",
