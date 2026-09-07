@@ -224,7 +224,7 @@
             "Title": "Aid",
             "Text": "When two characters are using the same skill, one of which to Aid the other, to achieve the same goal, you can use the higher outcome of the two checks to accomplish the goal at its intended DC while the lower of the two is used for the Aid check outcome. Both characters must meet all prerequisites and requirements, such as feats or proficiencies, and the nature of the Aid must be such that both characters are performing identical or combined tasks for its duration."
           },
-          "Avert Gaze": {
+          "AvertGaze": {
             "Title": "Avert Gaze",
             "Text": "Avert Gaze: Avert Gaze is now a free action you can take at the start of your turn, which confers a +2 circumstance bonus to saves to persistent gaze effects as normal. In the case of instantaneous gaze effects, so long as you are averting your gaze at the time the effect triggers, you treat the degree of success of your saving throw as one step higher."
           },
@@ -259,8 +259,9 @@
             "Text": "Subsequent attacks with a Forceful weapon adds a circumstance bonus to damage equal to 2 times the number of weapon damage die, rather than just equal to the number of weapon damage die."
           },
           "Maneuver": {
+            "WeaponManeuverLabel": "Using Maneuver With Weapon",
             "Title": "Disarm, Grapple, Shove, Trip",
-            "Text": "As you can swap between 1-handedness or 2-handedness as a free action, these traits are adjusted so that attempts to use these actions with the weapon or unarmed attack with this trait allows the action to benefit from a target’s off-guard condition."
+            "Text": "As you can swap between 1-handedness or 2-handedness as a free action, these traits are adjusted so that attempts to use these actions with the weapon or unarmed attack with this trait allows the action to benefit from a target’s off-guard condition. @UUID[Compendium.immortal-ardor.equipment.Item.FgCLUHcWx97ZSbJU]{Effect: Maneuver Weapon}"
           },
           "Monk": {
             "Title": "Forceful",
