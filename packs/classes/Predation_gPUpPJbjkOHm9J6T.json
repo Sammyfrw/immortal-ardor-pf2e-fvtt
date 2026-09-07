@@ -50,6 +50,18 @@
           "item:trait:anima",
           "improved-manifestation:predation",
           "predation"
+        ],
+        "slug": "predation-damage"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "strike-damage",
+        "slug": "predation-damage",
+        "value": "@weapon.system.damage.dice",
+        "mode": "add",
+        "predicate": [
+          "improved-manifestation:predation",
+          "predation"
         ]
       }
     ],
@@ -72,7 +84,7 @@
     "deathNote": false,
     "frequency": null
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -81,7 +93,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

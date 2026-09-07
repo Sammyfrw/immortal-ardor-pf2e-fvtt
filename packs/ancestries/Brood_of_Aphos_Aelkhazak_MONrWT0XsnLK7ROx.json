@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Your Tributary was affiliated with the Brood of Aphos, which appreciates the hotter and drier climates of the world and are trained to move in sand and underbrush as well as you would in water. Your land speed in either Slithering Form increases to 25 feet. While you’re in your serpentine form on sand, underbrush or soft dirt, you can bury yourself just underneath the surface by Taking Cover. You can then Hide and Sneak as long as the terrain does not substantially change. If the terrain would already provide you with cover, you increase the quality of the cover by one step.</span></p>",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Your Tributary was affiliated with the Brood of Aphos, which appreciates the hotter and drier climates of the world and are trained to move in sand and underbrush as well as you would in water. Your land speed in any Slithering Form increases to 25 feet. While you’re in your serpentine form on sand, underbrush or soft dirt, you can bury yourself just underneath the surface by @UUID[Compendium.pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Taking Cover}. You can then @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} and @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} as long as the terrain does not substantially change. If the terrain would already provide you with cover, you increase the quality of the cover by one step.</span></p>",
       "gm": ""
     },
     "publication": {
@@ -40,7 +40,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

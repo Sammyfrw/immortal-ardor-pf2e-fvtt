@@ -28,7 +28,11 @@
         "selector": "swim",
         "value": 25,
         "predicate": [
-          "slithering-form:serpentine"
+          {
+            "or": [
+              "slithering-form:serpentine"
+            ]
+          }
         ]
       },
       {
@@ -52,7 +56,8 @@
           {
             "or": [
               "slithering-form:bipedal",
-              "slithering-form:cosmic"
+              "slithering-form:cosmic",
+              "heritage:brood-of-aphos-aelkhazak"
             ]
           }
         ],
@@ -73,6 +78,24 @@
           "slithering-form:cosmic"
         ],
         "selector": "fly"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 30,
+        "predicate": [
+          "heritage:brood-of-levios",
+          "slithering-form:serpentine"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "land",
+        "value": 20,
+        "predicate": [
+          "heritage:brood-of-levios",
+          "slithering-form:bipedal"
+        ]
       }
     ],
     "slug": "aelkhazak",
@@ -165,7 +188,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

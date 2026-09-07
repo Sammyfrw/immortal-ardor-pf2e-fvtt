@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Your tributary followed Vrathur, who was known to be wary and selective with how aelkhazak should lavish their homes and crafts. You are Trained in Crafting, and gain the Specialty Crafting feat. When you benefit from Specialty Crafting, you increase the circumstance bonus it gives by 1, but you take a -1 circumstance penalty to Craft checks for things outside your Specialty. If you choose alchemical items for @UUID[Compendium.pf2e.feats-srd.QLeMH5mQgh28sa5o]{Specialty Crafting}, you also gain the @UUID[Compendium.pf2e.feats-srd.is3Oz9wt11lNq62K]{Alchemical Crafting} feat. Otherwise, you gain the @UUID[Compendium.pf2e.feats-srd.voYr7ygVcWmlg1f4]{Crafter's Appraisal} feat.</span></p>",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Your tributary followed Vrathur, who was known to be wary and selective with how aelkhazak should lavish their homes and crafts. You are Trained in Crafting, and gain the @UUID[Compendium.pf2e.feats-srd.QLeMH5mQgh28sa5o]{Specialty Crafting} feat. When you benefit from Specialty Crafting, you increase the circumstance bonus it gives by 1, but you take a -1 circumstance penalty to Craft checks for things outside your Specialty. If you choose alchemical items for @UUID[Compendium.pf2e.feats-srd.QLeMH5mQgh28sa5o]{Specialty Crafting}, you also gain the @UUID[Compendium.pf2e.feats-srd.is3Oz9wt11lNq62K]{Alchemical Crafting} feat. Otherwise, you gain the @UUID[Compendium.pf2e.feats-srd.voYr7ygVcWmlg1f4]{Crafter's Appraisal} feat.</span></p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,60 @@
       "license": "OGL",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.crafting.rank",
+        "predicate": [
+          "captivator-skill:deception-trained"
+        ],
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feat:specialty-crafting:alchemy"
+        ],
+        "uuid": "Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "not": "feat:specialty-crafting:alchemy"
+          }
+        ],
+        "uuid": "Compendium.pf2e.feats-srd.Item.voYr7ygVcWmlg1f4"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "skill-check",
+        "slug": "specialty-crafting",
+        "value": "1",
+        "mode": "add",
+        "predicate": [
+          "action:craft"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "crafting"
+        ],
+        "value": -1,
+        "type": "circumstance",
+        "predicate": [
+          "action:craft",
+          "vrathur-selectivism"
+        ],
+        "label": "Vrathur Aelkhazak: Unspecialized Craft"
+      }
+    ],
     "slug": "brood-of-vrathur-aelkhazak",
     "traits": {
       "otherTags": [],
@@ -40,7 +93,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
