@@ -391,6 +391,10 @@
           }
         },
         "equipmentTraits": {
+          "aspektus": {
+            "label": "IA.Trait.Aspektus",
+            "description": "IA.TraitDescription.Aspektus"
+          },
           "catalogue": {
             "label": "IA.Trait.Catalogue",
             "description": "IA.TraitDescription.Catalogue"
@@ -688,6 +692,10 @@
           "anima": {
             "description": "IA.TraitDescription.Anima",
             "label": "IA.Trait.Anima"
+          },
+          "aspektus": {
+            "label": "IA.Trait.Aspektus",
+            "description": "IA.TraitDescription.Aspektus"
           },
           "avekiri": {
             "label": "IA.Trait.Avekiri",

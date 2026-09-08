@@ -1,0 +1,170 @@
+{
+  "name": "Ardorean General & Skill Adjustments",
+  "type": "feat",
+  "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+  "effects": [],
+  "folder": "8576ZvH7RTr23nRp",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a feature added onto characters to enable various rules adjustments and changes, as described in @UUID[Compendium.immortal-ardor.journals.rN7GRW2OrOZmmzr3]{Immortal Ardor Features &amp; Rules Adjustments}.</p><p>This feature specifically causes changes in how general feats, skill feats, skills and skill feats work. Removing this feature returns these features to how they would work by default.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.MjQyTcV8Jiv1Jtln",
+        "predicate": [
+          {
+            "or": [
+              {
+                "gte": [
+                  "skill:arcana:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:nature:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:religion:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:occultism:rank",
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.feats.Item.2OjQBrPcXSdobZTO",
+        "predicate": [
+          {
+            "gte": [
+              "skill:crafting:rank",
+              1
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.0GF2j54roPFIDmXf",
+        "predicate": [
+          {
+            "gte": [
+              "skill:crafting:rank",
+              1
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "description",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": [
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.RecognizeSpell.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.RecognizeSpell.Text",
+            "predicate": [
+              "item:recognize-spell"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.BonMot.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.BonMot.Text",
+            "predicate": [
+              "item:bon-mot"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.Fortify.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.Fortify.Text",
+            "predicate": [
+              "item:fortify"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem"
+      }
+    ],
+    "slug": "ardorean-general-skill-adjustments",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "ardorean-rules-adjustments"
+      ],
+      "value": [
+        "ardorean"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "woGoyhTHJUnyvtRM",
+  "sort": 200000,
+  "_key": "!items!woGoyhTHJUnyvtRM"
+}

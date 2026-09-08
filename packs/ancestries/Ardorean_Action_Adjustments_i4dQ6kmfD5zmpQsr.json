@@ -1,0 +1,153 @@
+{
+  "name": "Ardorean Action Adjustments",
+  "type": "feat",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "effects": [],
+  "folder": "8576ZvH7RTr23nRp",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a feature added onto characters to enable various rules adjustments and changes, as described in @UUID[Compendium.immortal-ardor.journals.rN7GRW2OrOZmmzr3]{Immortal Ardor Features &amp; Rules Adjustments}.</p><p>This feature specifically causes changes in how non-feat actions work. Removing this feature returns non-feat actions to how they would work by default.</p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "property": "name",
+        "mode": "override",
+        "itemType": "action",
+        "predicate": [
+          "item:refocus"
+        ],
+        "value": "Aetherfont Refocus"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "property": "description",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": [
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Aid.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Aid.Text",
+            "predicate": [
+              "item:aid"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.AvertGaze.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.AvertGaze.Text",
+            "predicate": [
+              "item:avert-gaze"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Ready.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Ready.Text",
+            "predicate": [
+              "item:ready"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Stride.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Stride.Text",
+            "predicate": [
+              "item:stride"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Craft.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Craft.Text",
+            "predicate": [
+              "item:craft"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.CreateADiversion.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.CreateADiversion.Text",
+            "predicate": [
+              "item:create-a-diversion"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "property": "traits",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "ardorean",
+        "predicate": [
+          "item:aid",
+          "item:avert-gaze",
+          "item:ready",
+          "item:stride",
+          "item:craft",
+          "item:create-a-diversion"
+        ]
+      }
+    ],
+    "slug": "ardorean-action-adjustments",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "ardorean-rules-adjustments"
+      ],
+      "value": [
+        "ardorean"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "i4dQ6kmfD5zmpQsr",
+  "sort": 100000,
+  "_key": "!items!i4dQ6kmfD5zmpQsr"
+}

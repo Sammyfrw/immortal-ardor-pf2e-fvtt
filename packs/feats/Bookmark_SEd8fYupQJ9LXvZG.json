@@ -1,0 +1,93 @@
+{
+  "folder": "oHLJpSBUq8cQHNPt",
+  "name": "Bookmark",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Anytime you have read something, you always have an inkling for which book, poster, or catalog and which page or section it would be in. You gain a +2 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} of anything you have read in the last week. Even on a failure (but not a critical failure) to recall something you had read, you would remember where you have seen it before.</p><p class=\"MsoNormal\">When you find the object you had read it from, you can typically find the approximate area, page number or section it was written in within 10 minutes, though the GM can increase or reduce the time taken substantially depending on the circumstances, such as immediately if it was a very small leaflet, or greater if it is a dense or haphazardly written catalog. If you need to, you also gain a +2 circumstance bonus to a @UUID[Compendium.pf2e.actionspf2e.d9gbpiQjChYDYA2L]{Decipher Writing} check to re-parse what you had read when you find it again.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "skill-check"
+        ],
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "action:recall-knowledge",
+              "action:decipher-writing"
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "bookmark",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Expert in Lore, Arcana, Occultism, Religion or Society"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "SEd8fYupQJ9LXvZG",
+  "sort": 300000,
+  "_key": "!items!SEd8fYupQJ9LXvZG"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Ardorean Cross-Class Feat Adjustments",
+  "type": "feat",
+  "img": "icons/skills/targeting/triangle-glow-blue.webp",
+  "effects": [],
+  "folder": "8576ZvH7RTr23nRp",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a feature added onto characters to enable various rules adjustments and changes, as described in @UUID[Compendium.immortal-ardor.journals.rN7GRW2OrOZmmzr3]{Immortal Ardor Features &amp; Rules Adjustments}.</p><p>This feature specifically causes changes in how class feats shared across multiple classes work. Removing this feature returns these feats to how they would work by default.</p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "description",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": [
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.Counterspell.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.Counterspell.Text",
+            "predicate": [
+              "item:counterspell",
+              "item:counterspell-spontaneous",
+              "item:counterspell-prepared"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.QuickDraw.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.QuickDraw.Text",
+            "predicate": [
+              "item:quick-draw",
+              "item:quick-draw-dervish"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.LightningSwap.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.LightningSwap.Text",
+            "predicate": [
+              "item:lightning-swap"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "ardorean-cross-class-feat-adjustments",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "ardorean-rules-adjustments"
+      ],
+      "value": [
+        "ardorean"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "9BK7gbJixmTKm8KA",
+  "sort": 300000,
+  "_key": "!items!9BK7gbJixmTKm8KA"
+}

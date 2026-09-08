@@ -1,0 +1,56 @@
+{
+  "name": "Spell Replacement",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are a prepared or spontaneous spellcaster.</p><hr><p class=\"MsoNormal\">You can replace a spell you have prepared for the day, or a spell that you know. By spending time appropriate to how you normally prepare or learn spells, you can adjust what spells are available to you.</p><ul><li><p>If you prepare spells into your slots, you can change the spell prepared into an unused spell slot to another by taking ten minutes per spell rank to swap the spell with another spell from your repository or spell list.</p></li><li><p>If you are a spellcaster with a repertoire, you can swap out one non-signature spell from your repertoire by using the @UUID[Compendium.pf2e.actionspf2e.Q5iIYCFdqJFM31GW]{Learn a Spell} activity. You can swap the spell you learned with a spell in your repertoire of the same rank. If it is a spell you already know (such as if you've learned it before through the Learn a Spell activity or from gaining a level), you can replace it by taking one hour per spell rank. Replacing a signature spell still requires retraining or gaining a new level, as normal.</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "spell-replacement",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "exploration"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "OXLH5zzHjtzffHTg",
+  "sort": 300000,
+  "_key": "!items!OXLH5zzHjtzffHTg"
+}

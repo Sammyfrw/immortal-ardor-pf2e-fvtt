@@ -1,0 +1,77 @@
+{
+  "folder": "oHLJpSBUq8cQHNPt",
+  "name": "Fortify",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You’re wearing or holding a Repair or Artisan’s Toolkit, and have a free hand to use them.</p><hr><p class=\"MsoNormal\">You very quickly hammer or shape up an item to be more sturdy. The adjustments you make are temporary and for immediate use, so it falls apart or unwinds after some time or use.</p><p class=\"MsoNormal\">Make a Crafting check against an adjacent, unbroken item that is unattended or attended by or worn by a willing creature. The DC is the standard DC for the item’s level, but rarer items or those you are not as familiar with might have a higher DC. On a success, the item becomes @UUID[Compendium.immortal-ardor.equipment.Iab5xxxgR9bT97v0]{Effect: Fortified 3}.</p><p>If you become an Expert in Crafting, the item’s hardness instead increases by @UUID[Compendium.immortal-ardor.equipment.Iab5xxxgR9bT97v0]{Effect: Fortified 4}. If you become a Master, it increases by @UUID[Compendium.immortal-ardor.equipment.Iab5xxxgR9bT97v0]{Effect: Fortified 5}. If you become Legendary, it increases by @UUID[Compendium.immortal-ardor.equipment.Iab5xxxgR9bT97v0]{Effect: Fortified 6}.</p><p class=\"MsoNormal\">The duration of the fortification depends on the outcome of the Crafting check:</p><p class=\"MsoNormal\"><strong>Critical Success </strong>The item is fortified until it is broken, or for 1 round.</p><p class=\"MsoNormal\"><strong>Success</strong> The item is fortified until it has taken damage, or for 1 round.</p><p class=\"MsoNormal\"><strong>Failure </strong>The item is not fortified.</p><p class=\"MsoNormal\"><strong>Critical Failure </strong>Your tool snags against the item and you become @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} for 1 round.</p>"
+    },
+    "rules": [],
+    "slug": "fortify",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in Crafting"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "2OjQBrPcXSdobZTO",
+  "sort": 0,
+  "_key": "!items!2OjQBrPcXSdobZTO"
+}

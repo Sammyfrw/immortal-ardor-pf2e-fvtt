@@ -3,7 +3,7 @@
   "type": "feat",
   "img": "icons/commodities/treasure/plaque-wood-leaves.webp",
   "effects": [],
-  "folder": null,
+  "folder": "8576ZvH7RTr23nRp",
   "flags": {},
   "system": {
     "description": {
@@ -12,232 +12,20 @@
     },
     "rules": [
       {
-        "key": "AdjustModifier",
-        "selector": "attack-roll",
-        "slug": "backswing",
-        "mode": "override",
-        "value": 2
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.i4dQ6kmfD5zmpQsr"
       },
       {
-        "key": "ItemAlteration",
-        "itemType": "weapon",
-        "property": "description",
-        "mode": "add",
-        "label": "IA.SpecificRule.RulesAdjustments.Title",
-        "value": [
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Backswing.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Backswing.Text",
-            "predicate": [
-              "item:trait:backswing"
-            ]
-          },
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Backstabber.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Backstabber.Text",
-            "predicate": [
-              "item:trait:backstabber"
-            ]
-          },
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Bomb.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Bomb.Text",
-            "predicate": [
-              "item:trait:bomb"
-            ]
-          },
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Grenade.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Grenade.Text",
-            "predicate": [
-              "item:trait:grenade"
-            ]
-          },
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Forceful.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Forceful.Text",
-            "predicate": [
-              "item:trait:forceful"
-            ]
-          },
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Maneuver.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Maneuver.Text",
-            "predicate": [
-              {
-                "or": [
-                  "item:trait:disarm",
-                  "item:trait:grapple",
-                  "item:trait:shove",
-                  "item:trait:trip"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Monk.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Monk.Text",
-            "predicate": [
-              "item:trait:monk"
-            ]
-          },
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Sweep.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Sweep.Text",
-            "predicate": [
-              "item:trait:sweep"
-            ]
-          },
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Twin.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Twin.Text",
-            "predicate": [
-              "item:trait:twin"
-            ]
-          }
-        ]
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.DPD2VzejlBqLysLb"
       },
       {
-        "key": "ItemAlteration",
-        "itemType": "action",
-        "property": "description",
-        "mode": "add",
-        "label": "IA.SpecificRule.RulesAdjustments.Title",
-        "value": [
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.Actions.Aid.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.Actions.Aid.Text",
-            "predicate": [
-              "item:aid"
-            ]
-          },
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.Actions.AvertGaze.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.Actions.AvertGaze.Text",
-            "predicate": [
-              "item:avert-gaze"
-            ]
-          },
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.Actions.Ready.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.Actions.Ready.Text",
-            "predicate": [
-              "item:ready"
-            ]
-          },
-          {
-            "title": "IA.SpecificRule.RulesAdjustments.Actions.Stride.Title",
-            "text": "IA.SpecificRule.RulesAdjustments.Actions.Stride.Text",
-            "predicate": [
-              "item:stride"
-            ]
-          }
-        ]
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.woGoyhTHJUnyvtRM"
       },
       {
-        "key": "ItemAlteration",
-        "itemType": "weapon",
-        "property": "range-increment",
-        "mode": "add",
-        "predicate": [
-          "item:base:alchemical-bomb"
-        ],
-        "value": "10"
-      },
-      {
-        "definition": [
-          "item:base:alchemical-bomb"
-        ],
-        "key": "AdjustStrike",
-        "mode": "upgrade",
-        "property": "range-increment",
-        "value": 60,
-        "predicate": [
-          "feat:far-lobber"
-        ]
-      },
-      {
-        "key": "FlatModifier",
-        "selector": [
-          "attack-roll"
-        ],
-        "value": 2,
-        "label": "Backswing",
-        "type": "circumstance",
-        "predicate": [
-          "item:trait:backswing",
-          "penalty:slug:multiple-attack-penalty"
-        ]
-      },
-      {
-        "key": "FlatModifier",
-        "selector": [
-          "attack-roll"
-        ],
-        "value": 2,
-        "label": "Sweep",
-        "type": "circumstance",
-        "predicate": [
-          "item:trait:sweep",
-          "penalty:slug:multiple-attack-penalty"
-        ]
-      },
-      {
-        "key": "FlatModifier",
-        "value": "2*(@weapon.system.damage.dice)",
-        "label": "Forceful 2nd Attack",
-        "selector": [
-          "strike-damage"
-        ],
-        "predicate": [
-          "item:trait:forceful",
-          "penalty:slug:multiple-attack-penalty"
-        ],
-        "type": "circumstance",
-        "slug": "forceful-second"
-      },
-      {
-        "key": "FlatModifier",
-        "value": "3*(@weapon.system.damage.dice)",
-        "label": "Forceful 3rd+ Attack",
-        "selector": [
-          "strike-damage"
-        ],
-        "predicate": [
-          "item:trait:forceful",
-          "penalty:slug:multiple-attack-penalty"
-        ],
-        "type": "circumstance",
-        "slug": "forceful-third"
-      },
-      {
-        "key": "FlatModifier",
-        "value": "2*(@weapon.system.damage.dice)",
-        "label": "Twin 2nd+ Attack",
-        "selector": [
-          "strike-damage"
-        ],
-        "predicate": [
-          "item:trait:twin",
-          "penalty:slug:multiple-attack-penalty"
-        ],
-        "type": "circumstance",
-        "slug": "twin-second"
-      },
-      {
-        "key": "FlatModifier",
-        "value": "@weapon.system.damage.dice",
-        "label": "Backstabber",
-        "selector": [
-          "strike-damage"
-        ],
-        "predicate": [
-          "item:trait:backstabber",
-          "target:condition:off-guard"
-        ],
-        "type": "circumstance",
-        "slug": "backstabber",
-        "damageCategory": "precision"
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.ancestries.Item.9BK7gbJixmTKm8KA"
       }
     ],
     "slug": "ardorean-character",
@@ -299,6 +87,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "kdZVRbeLfk7g6wBG",
-  "sort": 0,
+  "sort": 500000,
   "_key": "!items!kdZVRbeLfk7g6wBG"
 }

@@ -1,0 +1,98 @@
+{
+  "name": "Ritualize Spell",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You have a spell with the Ritual trait in your repository of spells (such as if you were a Wizard or Witch), have the spell prepared from your spell list (such as if you were a Cleric or Druid), or in your repertoire. </p><hr><p>You prepare yourself to cast a spell that typically has a shorter cast time or immediate effect as a ritual, exchanging immediacy and a large application of magic in favor of a longer-term, more measured use of magic to avoid exerting yourself. </p><p>You Ritualize the spell, which adjusts how you cast it. The spell gains the Exploration trait and you cast the spell as a Ritual. A spontaneous caster can ritualize a spell in their repertoire heightened to any rank, while a prepared spellcaster can cast the spell at a rank they can prepare (if they have a repository) or at a rank they have the spell prepared (if they do not).</p><p>You are the primary caster of the ritual, and one secondary caster can optionally join in to assist you in casting the spell if they meet the requirements of knowing or having the spell on hand, or if they can use a skill affiliated with the same tradition as the spell. Both Primary and Secondary casters make the same check with the skill affiliated with the spell's tradition, against a Normal DC for the spell's rank. This difficulty is modified for the Primary caster in the following ways:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">The rarity of the spell adjusts the DC by one difficulty step higher if the spell is Uncommon, or two steps higher if it is Rare. This can be waived by a GM’s decision, depending on the spellcaster’s familiarity with the spell (if it is particularly important to them or more common in a spellcaster’s place of upbringing or learning, for example).</p></li><li><p class=\"MsoListParagraphCxSpLast\">The difficulty step is adjusted one step lower if the spellcaster is a prepared caster who has the spell prepared at a rank matching or higher than the rank they intend to cast the Ritualized spell, a Spontaneous caster that has that spell selected as a Signature spell, or if a secondary caster assists and succeeds on their check.</p></li></ul><p>The cast time of the ritual is adjusted depending on the spellcaster’s highest rank and the rank of the ritualized spell being cast. If the cast time of the spell is greater than the adjustment, use the cast time of the original spell.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">The spell takes 10 minutes per spell rank or 1 hour to cast, whichever is lower, if the spell is no lower than 1 rank below the spellcaster’s highest spell rank.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">The spell takes 10 minutes to cast if the spell is 2 or 3 ranks lower than the spellcaster’s highest spell rank.</p></li><li><p class=\"MsoListParagraphCxSpLast\">The spell takes 1 minute to cast if the spell is 4 ranks lower than the spellcaster’s highest spell rank.</p></li></ul><p class=\"MsoNormal\">On a Successful casting of the Ritualized spell, the spell is cast as normal without expending spell slots or the prepared spell. On a Failure but not a Critical Failure, the spell fails unless the spellcaster supplies some of their magic to complete the spell. This takes the form of a spell they have prepared of the rank of the ritualized spell if they are a prepared spellcaster, or a spell slot of the rank of the ritualized spell if they are a spontaneous spellcaster. On a Critical Failure, the spell fails to cast.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "property": "traits",
+        "itemType": "spell",
+        "mode": "add",
+        "value": "ritual",
+        "predicate": [
+          {
+            "or": [
+              "item:alarm",
+              "item:ant-haul",
+              "item:carryall",
+              "item:cleanse-cuisine",
+              "item:create-water",
+              "item:detect-poison",
+              "item:imprint-message",
+              "item:instant-pottery",
+              "item:item-facade",
+              "item:lock",
+              "item:mending",
+              "item:pet-cache",
+              "item:animal-messenger",
+              "item:augury",
+              "item:create-food",
+              "item:darkvision",
+              "item:environmental-endurance",
+              "item:everlight",
+              "item:gecko-grip",
+              "item:knock",
+              "item:marvelous-mount",
+              "item:peaceful-rest",
+              "item:shape-wood",
+              "item:speak-with-animals",
+              "item:status",
+              "item:translate",
+              "item:water-breathing",
+              "item:water-walk"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "ritualize-spell",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "exploration"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "uDJqLFSksmiGqjKU",
+  "sort": 200000,
+  "_key": "!items!uDJqLFSksmiGqjKU"
+}

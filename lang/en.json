@@ -46,10 +46,11 @@
     "Trait": {
       "Aelkhazak": "Aelkhazak",
       "Aetherfont": "Aetherfont",
-      "Ardorean": "Ardorean",
       "Anima": "Anima",
+      "Ardorean": "Ardorean",
       "Artifex": "Artifex",
       "Ascended": "Ascended",
+      "Aspektus": "Aspektus",
       "Astral": "Astral",
       "Agamidan": "Agamidan",
       "Avekiri": "Avekiri",
@@ -118,11 +119,12 @@
     },
     "TraitDescription": {
       "Aetherfont": "Options with the aetherfont trait pertain to a creature's aetherfont, or manatype. These options determine or unlock new ways for how a creature can use ether, which can include Aetherfont actions, archetypes, and their spells, all of which use ether.",
-      "Artifex": "This indicates abilities from the Artifex class.",
       "Aelkhazak": "A creature with this trait is a member of the aelkhazak ancestry. These snake-like creatures come from aquatic environments, but are capable of inhabiting land.",
-      "Ardorean": "An option with this trait indicates a high-powered variant of an existing Pathfinder option, or contains an adjustment that makes it more powerful than its original counterpart.",
       "Anima": "An option with the Anima trait relates to the natural power inherrent in the soul or a similar magical force that animates a nonliving creature such as a construct or undead. Anima spells or abilities come naturally to some creatures, while others either create facsimiles or borrow it from these creatures. They are almost always affiliated with the origin creature's family.",
+      "Artifex": "This indicates abilities from the Artifex class.",
+      "Ardorean": "An option with this trait indicates a high-powered variant of an existing Pathfinder option, or contains an adjustment that makes it more powerful than its original counterpart.",
       "Ascended": "Options with this trait grant or utilize ascendancy. A creature with the ascended trait has exceeded their natural limitations, either in mind, body or soul. They are more powerful than typical creatures of their level. Feats and spells with this trait can only be taken by characters who have gained ascendency.",
+      "Aspektus": "An item with the aspektus trait has benefited from aspektus enchanting. Its power has been heightened from its original form.",
       "Astral": "Effects with the Astral trait are tied to the mana forces of the astral planes. They often have stronger effects on telluric creatures. Creatures with this trait are tied to the workings of the astral planes and often have weakness to telluric.",
       "Agamidan": "A creature with this trait is a member of the agamidan ancestry. These repitillian humanoids have existed in Ardor for millenia, hailing from the desert lands of Eirlangga.",
       "Avekiri": "A creature with this trait is a member of the avekiri ancestry. The avian humanoids reside in mountainous or tree-top terrains typically, and their voices are said to be that of divinity.",
@@ -228,6 +230,10 @@
             "Title": "Avert Gaze",
             "Text": "Avert Gaze: Avert Gaze is now a free action you can take at the start of your turn, which confers a +2 circumstance bonus to saves to persistent gaze effects as normal. In the case of instantaneous gaze effects, so long as you are averting your gaze at the time the effect triggers, you treat the degree of success of your saving throw as one step higher."
           },
+          "Craft": {
+            "Title": "Craft",
+            "Text": "Crafting has seen substantial adjustments in the Seekers of Ardor ruleset, as seen here: @UUID[Compendium.immortal-ardor.journals.JournalEntry.rN7GRW2OrOZmmzr3.JournalEntryPage.9nt9G1C7mXGDCYVB]{Ardorean Crafting}. Crafting is made with 2 checks; the first to prepare and plan materials to set the time and difficulty of a project, and a second for creating the item in question."
+          },
           "Ready": {
             "Title": "Ready",
             "Text": "Readying a non-Move free action or 1 action activity now only requires 1 action instead of 2 actions. You can also ready a 2 action activity with 2 actions, or a 1-action Move action with 2 actions. Depending on circumstances and the action you are readying, the trigger you designate can be freely changed."
@@ -235,6 +241,70 @@
           "Stride": {
             "Title": "Stride",
             "Text": "Striding will allow a simple Interact action as part of the same action. Opening an easy to open door mid movement, fetching or passing an easy to take unattended item, etc. This Stride cannot be a subordinate action, such as a Stride as part of Sudden Charge, or a move action that is part of a movement with the Traversal trait. When Interacting like this, Stride gains the Manipulate trait."
+          },
+          "CreateADiversion": {
+            "Title": "Create a Diversion",
+            "Text": "You can declare to distract others away from you or towards you. If you declare to distract others towards you, an ally of your choice gains the benefits of a successful diversion instead. You don't need to be observing your ally or know where they are, but you need to know they're present to choose them, and the hidden condition lasts until the end of that ally's turn."
+          },
+          "MakeAnImpression": {
+            "Title": "Make an Impression",
+            "Text": "Make an Impression allows you to target up to 5 targets without penalty if you are Trained. This becomes 20 targets if you are an expert, 50 if you're a master, and 100 if you're legendary. Beyond these listed numbers, you take a -2 penalty, and the penalty increases by an additional 2 for each multiple of these numbers."
+          },
+          "Coerce": {
+            "Title": "Coerce",
+            "Text": "Coerce allows you to target up to 5 targets when you are trained. These numbers increase to 10 if you’re an Expert, 25 if you’re a Master, and 50 if you’re Legendary. Beyond these listed numbers, you take a -2 penalty to your attempts, and the penalty increases by an additional 2 for each multiple of these numbers."
+          },
+          "Demoralize": {
+            "Title": "Demoralize",
+            "ReplacementText": "Using your words or your physique, you can shake an enemy’s resolve. Choose a creature within 30 feet of you who you’re aware of. Attempt an Intimidation check against that target’s Will DC. If you use your words or shout, this action gains an Auditory trait. If you menace with your actions or looks, this action gains the Visual trait. When you become a Master in Intimidation, this range increases to 60 feet. Critical Success The target becomes frightened 2. Success The target becomes frightened 1."
+          }
+        },
+        "CrossClassFeats": {
+          "Counterspell": {
+            "Title": "Counterspell",
+            "Text": "In place of the usual requirements or triggers, you can use counterspell if you have identified the spell and have a qualifying spell and can cast it. A qualifying spell is a spell that is the same as the triggering spell or a spell that shares at least one of the triggering spell’s traits other than concentrate, manipulate or its tradition trait. If you use the same spell as the triggering spell, you suffer no penalty to the counteract check. If you use a different spell, you take a -2 circumstance penalty to the counteract check. For each additional qualifying trait that matches after the first, you reduce this penalty by 1."
+          },
+          "QuickDraw": {
+            "Title": "Quick Draw",
+            "Text": "Your hands move quickly. You can either Interact twice to perform any combination of Drawing, Put Away, or Swap items in your hands, or Interact once to perform these actions and Strike with a weapon afterward. If you have multiple sets of hands, one of these Interact actions can be to @UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]{Switch Hands}."
+          },
+          "LightningSwap": {
+            "Title": "Lightning Swap",
+            "Text": "You have practiced quickly switching between combat styles and the equipment needed for them. You Interact to stow any number of items in your hands, and draw up to two items into your hands. If you have multiple sets of hands, you can @UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]{Switch Hands} in place of drawing an item."
+          }
+        },
+        "GeneralSkillFeats": {
+          "ImpeccableCrafting": {
+            "Title": "Impeccable Crafting",
+            "Text": "This feat applies only to the Crafting phase of Ardorean Crafting, not the Preparation and Planning Phase."
+          },
+          "ImproviseTool": {
+            "Title": "Improvise Tool",
+            "Text": "You can temporarily craft a jury-rigged tool from the list offered by spending 10 minutes and succeeding a Crafting check against the DC to craft them if you have the materials. These tools fall apart by the start of your next daily preparations."
+          },
+          "RecognizeSpell": {
+            "Title": "Recognize Spell",
+            "Text": "Recognize Spell is a trained skill action for the magical skills. Classes that prepare their spells through a repository or collection can identify spells automatically if it is available in their list of prepared spells, even if they do not have those spells prepared."
+          },
+          "Fortify": {
+            "Title": "Fortify",
+            "Text": "Fortify is a trained skill action for Crafting."
+          },
+          "BonMot": {
+            "Title": "Bon Mot",
+            "Text": "Bon Mot is a trained skill action for Diplomacy."
+          },
+          "Group Impression": {
+            "Title": "Group Impression",
+            "Text": "Group Impression is unused as the revamped Make an Impression already includes its functionality."
+          },
+          "GroupCoercion": {
+            "Title": "Group Coercion",
+            "Text": "Group Coercion is unused as the revamped Coerce already includes its functionality."
+          },
+          "IntimidatingGlare": {
+            "Title": "IntimidatingGlare",
+            "Text": "Intimidating Glare is unused as Demoralize already includes its functionality."
           }
         },
         "WeaponTraits": {
