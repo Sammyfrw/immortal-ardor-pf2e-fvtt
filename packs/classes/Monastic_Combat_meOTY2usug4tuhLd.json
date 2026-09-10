@@ -1,0 +1,97 @@
+{
+  "folder": "sVa9DpvhL0jkvhoH",
+  "name": "Monastic Combat",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You are trained in the art of using specific weapons, and your body is a deadly weapon. The damage die for your fist increases to 1d6 instead of 1d4. You don’t take the normal -2 circumstance penalty when making a lethal attack with your fist or any other unarmed attacks.</p><p class=\"MsoNormal\">When you roll initiative, you can enter a Stance. In addition, you gain the @UUID[Compendium.immortal-ardor.classes.4uzuNijCDAYXuD3g]{Monastic Weaponry (Ardorean)} feat.</p>"
+    },
+    "rules": [
+      {
+        "fist": true,
+        "img": "systems/pf2e/icons/features/classes/powerful-fist.webp",
+        "key": "Strike"
+      },
+      {
+        "itemId": "xxxxxxFISTxxxxxx",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "property": "damage-dice-faces"
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "initiative"
+        ],
+        "text": "When you roll initiative, you can enter a stance.",
+        "title": "{item|name} <span class=\"action-glyph\">F</span>"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.4uzuNijCDAYXuD3g"
+      }
+    ],
+    "slug": "monastic-combat",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "monk"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "systems/pf2e/icons/features/classes/powerful-fist.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "meOTY2usug4tuhLd",
+  "sort": 100000,
+  "_key": "!items!meOTY2usug4tuhLd"
+}

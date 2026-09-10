@@ -272,6 +272,42 @@
             "Text": "Perform is adjusted to be able to Fascinate a target if you are Trained, to account for the changes to the Fascinate condition."
           }
         },
+        "Classes": {
+          "Monk": {
+            "Stances": {
+              "Title": "Stance Changes",
+              "Text": "Stances that impart a restriction on the unarmed attacks you can use while on a Stance no longer do so. Dropping a Stance is a free action."
+            },
+            "PowerfulFist": {
+              "Title": "Powerful Fist",
+              "Text": "Powerful Fist is removed in favor of @UUID[Compendium.immortal-ardor.classes.meOTY2usug4tuhLd]{Monastic Combat}."
+            },
+            "ReflexiveStance": {
+              "Title": "Reflexive Stance",
+              "Text": "Reflexive Stance is removed as its functionality is baked into @UUID[Compendium.immortal-ardor.classes.meOTY2usug4tuhLd]{Monastic Combat}."
+            },
+            "FlurryOfManeuvers": {
+              "Title": "Flurry of Maneuvers",
+              "Text": "Flurry of Maneuvers is adjusted to allow for a greater deal of flexibility. @UUID[Compendium.immortal-ardor.classes.NMyq32rg7CeIeZJ4]{Flurry of Maneuvers (Ardorean)}"
+            },
+            "DeflectProjectile": {
+              "Title": "Deflect Projectile",
+              "Text": "Deflect Projectile allows for use of wielding a ranged weapon. You can fire your ranged weapon with Deflect Projectile to take the reaction."
+            },
+            "ReturnFire": {
+              "Title": "Return Fire",
+              "Text": "Return Fire is changed to accommodate either Monastic Archer Stance or Black Powder Stance. @UUID[Compendium.immortal-ardor.classes.DuVVakzjFBdQkF4u]{Return Fire (Ardorean)}"
+            },
+            "MonasticWeaponry": {
+              "Title": "Monastic Weaponry",
+              "Text": "Monastic Weaponry is adjusted to also include Advanced Monastic Weaponry. @UUID[Compendium.immortal-ardor.classes.4uzuNijCDAYXuD3g]{Monastic Weaponry (Ardorean)}"
+            },
+            "AdvancedMonasticWeaponry": {
+              "Title": "Advanced Monastic Weaponry",
+              "Text": "Monastic Weaponry is adjusted to also include Advanced Monastic Weaponry. @UUID[Compendium.immortal-ardor.classes.4uzuNijCDAYXuD3g]{Monastic Weaponry (Ardorean)}"
+            }
+          }
+        },
         "CrossClassFeats": {
           "Counterspell": {
             "Title": "Counterspell",
@@ -284,6 +320,10 @@
           "LightningSwap": {
             "Title": "Lightning Swap",
             "Text": "You have practiced quickly switching between combat styles and the equipment needed for them. You Interact to stow any number of items in your hands, and draw up to two items into your hands. If you have multiple sets of hands, you can @UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]{Switch Hands} in place of drawing an item."
+          },
+          "MonksFlurry": {
+            "Title": "Monk's Flurry",
+            "Text": "Monk's Flurry no longer imposes a 1d4 round frequency. However, it requires that both unarmed strikes used for it are the same."
           }
         },
         "GeneralSkillFeats": {
@@ -411,6 +451,9 @@
       "Feats": {
         "FosterTheGrove": {
           "Label": "In Your Grove"
+        },
+        "BlackPowderBurn": {
+          "Label": "Black Powder Burn Damage"
         }
       },
       "Domains": {

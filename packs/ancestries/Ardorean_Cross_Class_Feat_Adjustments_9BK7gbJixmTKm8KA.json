@@ -14,6 +14,26 @@
       {
         "key": "ItemAlteration",
         "itemType": "feat",
+        "property": "traits",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "ardorean",
+        "predicate": [
+          {
+            "or": [
+              "item:lightning-swap",
+              "item:quick-draw",
+              "item:counterspell",
+              "item:counterspell-spontaneous",
+              "item:counterspell-prepared",
+              "item:monks-flurry"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
         "property": "description",
         "mode": "add",
         "label": "IA.SpecificRule.RulesAdjustments.Title",
@@ -40,6 +60,13 @@
             "text": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.LightningSwap.Text",
             "predicate": [
               "item:lightning-swap"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.MonksFlurry.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.MonksFlurry.Text",
+            "predicate": [
+              "item:monks-flurry"
             ]
           }
         ]

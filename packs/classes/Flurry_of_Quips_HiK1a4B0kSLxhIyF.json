@@ -1,0 +1,77 @@
+{
+  "folder": "jt3vs7tVyJ5xQOEe",
+  "name": "Flurry of Quips",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your flurry includes insightful remarks, snappy quips and baffling statements. You can replace one or both of your attacks during a Flurry of Blows to @UUID[Compendium.pf2e.feats-srd.0GF2j54roPFIDmXf]{Bon Mot}, @UUID[Compendium.pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint}, or @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize}; you must be an Expert in the associated skill to take those actions. For each of these actions you take, your multi-attack penalty still increases, but only after you complete your Flurry. An Attack will still increase your penalty as normal.</p>"
+    },
+    "rules": [],
+    "slug": "flurry-of-quips",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "monk"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Expert in Diplomacy, Deception, or Intimidation"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "HiK1a4B0kSLxhIyF",
+  "sort": 500000,
+  "_key": "!items!HiK1a4B0kSLxhIyF"
+}

@@ -1,0 +1,168 @@
+{
+  "folder": "qlDoUUxZvaCqea1j",
+  "name": "Ardorean Monk",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Manually add this feature to your Monk to make adjustments to their class progression.</p><p>Monk gains the adjustments as listed in the @UUID[Compendium.immortal-ardor.journals.JournalEntry.rN7GRW2OrOZmmzr3.JournalEntryPage.MKMbz9jHktoba6iI]{Monk} section of the Class Adjustments.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.meOTY2usug4tuhLd"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "traits",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "ardorean",
+        "predicate": [
+          {
+            "or": [
+              "item:deflect-projectile"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "description",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": [
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Monk.Stances.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Monk.Stances.Text",
+            "predicate": [
+              "item:trait:stance",
+              "class:monk"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Monk.PowerfulFist.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Monk.PowerfulFist.Text",
+            "predicate": [
+              "item:powerful-fist",
+              "class:monk"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Monk.ReflexiveStance.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Monk.ReflexiveStance.Text",
+            "predicate": [
+              "item:reflexive-stance",
+              "class:monk"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Monk.FlurryOfManeuvers.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Monk.FlurryOfManeuvers.Text",
+            "predicate": [
+              "item:flurry-of-maneuvers",
+              "class:monk"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Monk.DeflectProjectile.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Monk.DeflectProjectile.Text",
+            "predicate": [
+              "item:deflect-projectile",
+              "class:monk"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Monk.ReturnFire.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Monk.ReturnFire.Text",
+            "predicate": [
+              "item:return-fire",
+              "class:monk"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Monk.MonasticWeaponry.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Monk.MonasticWeaponry.Text",
+            "predicate": [
+              "item:monastic-weaponry",
+              "class:monk"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Monk.AdvancedMonasticWeaponry.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Monk.AdvancedMonasticWeaponry.Text",
+            "predicate": [
+              "item:advanced-monastic-weaponry",
+              "class:monk"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "ardorean-monk",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "monk"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [
+        "Compendium.pf2e.classfeatures.Item.SB8UJ8rZmvbcBweJ"
+      ]
+    }
+  },
+  "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "bZGF8RutcVI1Ajso",
+  "sort": 0,
+  "_key": "!items!bZGF8RutcVI1Ajso"
+}

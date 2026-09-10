@@ -147,11 +147,11 @@
         "mode": "override",
         "value": [
           {
-            "text": "IA.SpecificRule.RulesAdjustments.Actions.Demoralize.ReplacementText",
-            "predicate": [
-              "item:slug:demoralize"
-            ]
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Demoralize.ReplacementText"
           }
+        ],
+        "predicate": [
+          "item:slug:demoralize"
         ]
       },
       {

@@ -1,0 +1,103 @@
+{
+  "folder": "jt3vs7tVyJ5xQOEe",
+  "name": "Black Powder Stance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> You are unarmored and wielding a simple firearm or combination weapon.</p><hr></div><p class=\"MsoNormal\">You enter a stance that is designed to revolve around the use of firearms in close quarters. While in this stance, you can use Flurry of Blows with bayonets, reinforced stocks, simple combination weapons in melee form and simple firearms (including making a second Strike with the ranged form of a simple combination weapon after a first melee Strike with it). You can use your other monk feats or abilities that normally require unarmed attacks with bayonets, reinforced stocks or simple combination weapons the same way as long as the ability doesn’t require a specific single Strike. You can also use them with simple firearms when attacking within half the first range increment.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> When you select this feat, you gain familiarity with bayonets, reinforced stocks, martial firearms and martial combination weapons; for the purposes of proficiency and abilities, you treat these weapons as simple weapons, and you gain access to uncommon combination weapons that have a firearm ranged form. If you gain a weapon proficiency increase, you increase your proficiency with these weapons as well.</p><p>@UUID[Compendium.immortal-ardor.classes.oziUU6qXBPirCMMg]{Stance: Black Powder Stance}</p>"
+    },
+    "rules": [
+      {
+        "definition": [
+          {
+            "or": [
+              "item:base:bayonet",
+              "item:base:reinforced-stock",
+              {
+                "and": [
+                  "item:category:martial",
+                  {
+                    "or": [
+                      "item:group:firearm",
+                      "item:trait:combination"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "sameAs": "simple",
+        "slug": "black-powder-stance"
+      }
+    ],
+    "slug": "black-powder-stance",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "monk",
+        "stance"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "selfEffect": {
+      "uuid": "Compendium.immortal-ardor.classes.Item.oziUU6qXBPirCMMg",
+      "name": "Stance: Black Powder Stance"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "lLSCropOXvzTDUF6",
+  "sort": 400000,
+  "_key": "!items!lLSCropOXvzTDUF6"
+}

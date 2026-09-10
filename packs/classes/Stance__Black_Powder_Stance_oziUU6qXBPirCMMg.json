@@ -1,0 +1,69 @@
+{
+  "folder": "6MV6ggl8kXhbqUSQ",
+  "name": "Stance: Black Powder Stance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.lLSCropOXvzTDUF6]{Black Powder Stance}</p><p>While in this stance, you can use Flurry of Blows with bayonets, reinforced stocks, simple combination weapons in melee form and simple firearms (including making a second Strike with the ranged form of a simple combination weapon after a first melee Strike with it). You can use your other monk feats or abilities that normally require unarmed attacks with bayonets, reinforced stocks or simple combination weapons the same way as long as the ability doesn’t require a specific single Strike. You can also use them with simple firearms when attacking within half the first range increment.</p>"
+    },
+    "rules": [],
+    "slug": "stance-black-powder-stance",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "systems/pf2e/icons/equipment/consumables/ammunition/awakened-cold-iron-shot.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "oziUU6qXBPirCMMg",
+  "sort": 0,
+  "_key": "!items!oziUU6qXBPirCMMg"
+}

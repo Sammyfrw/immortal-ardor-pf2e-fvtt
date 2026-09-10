@@ -240,11 +240,11 @@
         "mode": "override",
         "value": [
           {
-            "text": "IA.SpecificRule.RulesAdjustments.Actions.NaturalMedicine.ReplacementText",
-            "predicate": [
-              "item:natural-medicine"
-            ]
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.NaturalMedicine.ReplacementText"
           }
+        ],
+        "predicate": [
+          "item:natural-medicine"
         ]
       },
       {

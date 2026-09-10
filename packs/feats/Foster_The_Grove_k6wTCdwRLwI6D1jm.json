@@ -12,7 +12,7 @@
       {
         "key": "RollOption",
         "option": "foster-the-grove",
-        "toggleable": "true",
+        "toggleable": true,
         "label": "IA.SpecificRule.Feats.FosterTheGrove.Label"
       },
       {

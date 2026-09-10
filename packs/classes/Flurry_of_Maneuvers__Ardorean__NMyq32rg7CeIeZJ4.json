@@ -1,0 +1,74 @@
+{
+  "folder": "jt3vs7tVyJ5xQOEe",
+  "name": "Flurry of Maneuvers (Ardorean)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your flurry is a combination of actions. You can replace one or both of your attacks during a Flurry of Blows to enter a Stance, or to make Interact actions to Stow, Draw, or to @UUID[Compendium.sf2e-anachronism.actions.oW81CfM9ebxXnrw3]{Switch Hands}.</p><p class=\"MsoNormal\">If you are an expert in Athletics, you can add @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove}or @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip} to your list of actions. If you are an expert in Thievery, you can add @UUID[Compendium.pf2e.feats-srd.5eNKs6738aykAhK2]{Dirty Trick} to your list of actions. Using Dirty Trick in this way adds the Attack trait.</p>"
+    },
+    "rules": [],
+    "slug": "flurry-of-maneuvers-ardorean",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ardorean",
+        "monk"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "NMyq32rg7CeIeZJ4",
+  "sort": 300000,
+  "_key": "!items!NMyq32rg7CeIeZJ4"
+}
