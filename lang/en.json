@@ -256,7 +256,20 @@
           },
           "Demoralize": {
             "Title": "Demoralize",
-            "ReplacementText": "Using your words or your physique, you can shake an enemy’s resolve. Choose a creature within 30 feet of you who you’re aware of. Attempt an Intimidation check against that target’s Will DC. If you use your words or shout, this action gains an Auditory trait. If you menace with your actions or looks, this action gains the Visual trait. When you become a Master in Intimidation, this range increases to 60 feet. Critical Success The target becomes frightened 2. Success The target becomes frightened 1."
+            "Text": "Demoralize is changed to include the benefits of Intimidating Glare and remove its immunity.",
+            "ReplacementText": "<p>Using your words or your physique, you can shake an enemy’s resolve. Choose a creature within 30 feet of you who you’re aware of. Attempt an [[/act demoralize]]{Intimidation} check against that target’s Will DC. If you use your words or shout, this action gains an Auditory trait. If you menace with your actions or looks, this action gains the Visual trait. When you become a Master in Intimidation, this range increases to 60 feet.</p> <hr> <p><strong>Critical Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p><p><strong>Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+          },
+          "TreatWounds": {
+            "Title": "Treat Wounds",
+            "Text": "Treat Wounds is modified to include Ward Medic's benefits. An Expert is able to treat two patients at a time, while a Master can treat four, and a Legendary medic can treat eight."
+          },
+          "TreatDisease": {
+            "Title": "Treat Disease",
+            "Text": "Treat Disease is modified to include Ward Medic's benefits. An Expert is able to treat two patients at a time, while a Master can treat four, and a Legendary medic can treat eight."
+          },
+          "Perform": {
+            "Title": "Perform",
+            "Text": "Perform is adjusted to be able to Fascinate a target if you are Trained, to account for the changes to the Fascinate condition."
           }
         },
         "CrossClassFeats": {
@@ -294,7 +307,11 @@
             "Title": "Bon Mot",
             "Text": "Bon Mot is a trained skill action for Diplomacy."
           },
-          "Group Impression": {
+          "GracefulLeaper": {
+            "Title": "Graceful Leaper",
+            "Text": "Graceful Leaper has an Ardorean variant: @UUID[Compendium.immortal-ardor.feats.Item.V4fHpfKcfmYQRoH0]{Graceful Leaper (Ardorean)}"
+          },
+          "GroupImpression": {
             "Title": "Group Impression",
             "Text": "Group Impression is unused as the revamped Make an Impression already includes its functionality."
           },
@@ -303,8 +320,37 @@
             "Text": "Group Coercion is unused as the revamped Coerce already includes its functionality."
           },
           "IntimidatingGlare": {
-            "Title": "IntimidatingGlare",
+            "Title": "Intimidating Glare",
             "Text": "Intimidating Glare is unused as Demoralize already includes its functionality."
+          },
+          "IntimidatingProwess": {
+            "Title": "Intimidating Prowess",
+            "Text": "Intimidating Prowess has an Ardorean variant: @UUID[Compendium.immortal-ardor.feats.Item.XFJiGllNZp8Xebda]{Intimidating Prowess (Ardorean)}"
+          },
+          "BattleMedicine": {
+            "Title": "Battle Medicine",
+            "Text": "Battle Medicine is a trained skill action for Medicine. Any feats that list it as a prerequisite no longer do so but requires Trained in Medicine, the old prerequisite for Battle Medicine."
+          },
+          "WardMedic": {
+            "Title": "Ward Medic",
+            "Text": "Ward Medic is baked into Treat Wounds and Treat Disease."
+          },
+          "ContinualRecovery": {
+            "Title": "Continual Recovery",
+            "Text": "Continual Recovery's requirement is changed to be a master in Medicine."
+          },
+          "NaturalMedicine": {
+            "Title": "Natural Medicine",
+            "Text": "Natural Medicine is adjusted to account for the changes to Medicine and Treat Wounds.",
+            "ReplacementText": "<p>You can apply natural cures to heal your allies. You can use Nature instead of Medicine to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}, and use a higher Nature proficiency to attempt more difficult checks. It doesn’t replace Medicine for feat prerequisites, for the ability to treat multiple people when you Treat Wounds, or for other uses of the skill other than Treat Wounds.</p> <p>However, if you succeed on your Treat Wounds check with Nature, you can continue treating the target for a total of 20 minutes to forgo rolling the healing dice and heal them for the maximum amount of healing. If you are a Master in Nature, you double the amount of healing in 20 minutes rather than 1 hour.</p> <p>If you’re in the wilderness, you might have easier access to fresh ingredients, allowing you to gain a +2 circumstance bonus to your check to Treat Wounds using Nature, subject to the GM’s determination. This bonus increases to +4 if you are Legendary in Nature.</p>"
+          },
+          "FascinatingPerformance": {
+            "Title": "Fascinating Performance",
+            "Text": "Fascinating Performance is adjusted to account for the changes to Perform; as Perform allows someone to already fascinate a single target, this feat allows you to fascinate multiple creatures. With the changes to the Fascinated condition, the Incapacitation trait and the immunity period are no longer necessary."
+          },
+          "DirtyTrick": {
+            "Title": "Dirty Trick",
+            "Text": "Dirty Trick is now a trained skill action. It no longer has the Attack trait."
           }
         },
         "WeaponTraits": {
@@ -361,6 +407,11 @@
         "Ebony": "Ebony",
         "Violet": "Violet",
         "Ochre": "Ochre"
+      },
+      "Feats": {
+        "FosterTheGrove": {
+          "Label": "In Your Grove"
+        }
       },
       "Domains": {
         "Boons": {

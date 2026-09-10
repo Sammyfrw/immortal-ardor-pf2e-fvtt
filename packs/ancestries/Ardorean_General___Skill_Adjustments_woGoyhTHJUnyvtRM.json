@@ -65,12 +65,66 @@
         "predicate": [
           {
             "gte": [
-              "skill:crafting:rank",
+              "skill:diplomacy:rank",
               1
             ]
           }
         ],
         "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt",
+        "predicate": [
+          {
+            "gte": [
+              "skill:medicine:rank",
+              1
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.5eNKs6738aykAhK2",
+        "predicate": [
+          {
+            "gte": [
+              "skill:thievery:rank",
+              1
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "traits",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "ardorean",
+        "predicate": [
+          {
+            "or": [
+              "item:impeccable-crafting",
+              "item:improvise-tool",
+              "item:recognize-spell",
+              "item:fortify",
+              "item:bon-mot",
+              "item:group-impression",
+              "item:group-coercion",
+              "item:intimidating-glare",
+              "item:battle-medicine",
+              "item:ward-medic",
+              "item:continual-recovery",
+              "item:natural-medicine",
+              "item:fascinating-performance",
+              "item:dirty-trick"
+            ]
+          }
+        ]
       },
       {
         "key": "ItemAlteration",
@@ -99,11 +153,114 @@
             "predicate": [
               "item:fortify"
             ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GracefulLeaper.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GracefulLeaper.Text",
+            "predicate": [
+              "item:graceful-leaper"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GroupImpression.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GroupImpression.Text",
+            "predicate": [
+              "item:group-impression"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GroupCoercion.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GroupCoercion.Text",
+            "predicate": [
+              "item:group-coercion"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.IntimidatingGlare.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.IntimidatingGlare.Text",
+            "predicate": [
+              "item:intimidating-glare"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.IntimidatingProwess.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.IntimidatingProwess.Text",
+            "predicate": [
+              "item:intimidating-prowess"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.BattleMedicine.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.BattleMedicine.Text",
+            "predicate": [
+              "item:battle-medicine"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.WardMedic.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.WardMedic.Text",
+            "predicate": [
+              "item:ward-medic"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.ContinualRecovery.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.ContinualRecovery.Text",
+            "predicate": [
+              "item:continual-recovery"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.NaturalMedicine.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.NaturalMedicine.Text",
+            "predicate": [
+              "item:natural-medicine"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.FascinatingPerformance.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.FascinatingPerformance.Text",
+            "predicate": [
+              "item:fascinating-performance"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.DirtyTrick.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.DirtyTrick.Text",
+            "predicate": [
+              "item:dirty-trick"
+            ]
           }
         ]
       },
       {
-        "key": "GrantItem"
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "description",
+        "mode": "override",
+        "value": [
+          {
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.NaturalMedicine.ReplacementText",
+            "predicate": [
+              "item:natural-medicine"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "traits",
+        "mode": "remove",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "attack",
+        "predicate": [
+          {
+            "or": [
+              "item:dirty-trick"
+            ]
+          }
+        ]
       }
     ],
     "slug": "ardorean-general-skill-adjustments",

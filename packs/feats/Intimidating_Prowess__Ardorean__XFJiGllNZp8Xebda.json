@@ -1,0 +1,123 @@
+{
+  "_id": "XFJiGllNZp8Xebda",
+  "folder": "oHLJpSBUq8cQHNPt",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "name": "Intimidating Prowess (Ardorean)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "skill",
+    "description": {
+      "value": "<p class=\"MsoNormal\">Your infamy and physique can terrify creatures to your advantage. When you @UUID[Compendium.pf2e.actionspf2e.tHCqgwjtQtzNqVvd]{Coerce} or @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} a target that knows of you or can see you, you can use Strength in place of Charisma for your proficiency bonus.</p><p class=\"MsoNormal\">In addition, when you are able to physically menace a target, directly or indirectly, you gain a +1 circumstance bonus to your Intimidation check when your Strength or Charisma modifier is +3. This increases to a +2 circumstance bonus when the modifiers are +5 or higher and you are a master in intimidation.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "expert in Intimidation"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "target:physically-menaced",
+          {
+            "or": [
+              "action:coerce",
+              "action:demoralize"
+            ]
+          }
+        ],
+        "selector": "intimidation",
+        "slug": "intimidating-prowess",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              {
+                "gte": [
+                  "attribute:str:mod",
+                  5
+                ]
+              },
+              {
+                "gte": [
+                  "attribute:cha:mod",
+                  5
+                ]
+              }
+            ]
+          },
+          {
+            "gte": [
+              "skill:intimidation:rank",
+              3
+            ]
+          }
+        ],
+        "selector": "intimidation",
+        "slug": "intimidating-prowess",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "ardorean",
+        "general",
+        "skill"
+      ],
+      "otherTags": []
+    },
+    "slug": "intimidating-prowess-ardorean",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "sort": 300000,
+  "_key": "!items!XFJiGllNZp8Xebda"
+}

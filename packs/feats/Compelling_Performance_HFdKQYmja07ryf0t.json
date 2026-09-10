@@ -1,15 +1,15 @@
 {
   "folder": "oHLJpSBUq8cQHNPt",
-  "name": "Mercantile Instincts",
+  "name": "Compelling Performance",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Whether by instinct or through knowledge gained from your upbringing, you can gauge the value of items as you come across them, and this can help you sweeten the deal with someone you might barter with. Any time you @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} or Identify an item, you learn how much it approximately should be worth to an impartial merchant, accounting for the item’s age, material, or potential significance. Even on a failure, you can usually estimate its value within 25% of its worth. On a critical success, you can identify the kind of merchant that would buy it for a greater amount, including a specific person if you have met them.</span></p>"
+      "value": "<p class=\"MsoNormal\">Your performances are incredibly eye-catching or draws attention from those who hear it, to the point that it lingers after they have been pulled away.</p><p class=\"MsoNormal\">If a creature is @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} by you when you @UUID[Compendium.pf2e.actionspf2e.EEDElIyin4z60PXx]{Perform}, they cannot take concentrate actions to end the effect early, and they must attempt a Will saving throw against your Performance DC to do so if an ally tries to help them. If you become Legendary in Performance, a successful Perform check fascinates creatures for 1 round.</p>"
     },
     "rules": [],
-    "slug": "mercantile-instincts",
+    "slug": "compelling-performance",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -30,7 +30,7 @@
       "remaster": true
     },
     "level": {
-      "value": 2
+      "value": 7
     },
     "category": "skill",
     "onlyLevel1": false,
@@ -44,7 +44,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Expert in Crafting or Society"
+          "value": "Master in Performance"
         }
       ]
     },
@@ -69,7 +69,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "AJVFRFqeFAkULGeR",
-  "sort": 800000,
-  "_key": "!items!AJVFRFqeFAkULGeR"
+  "_id": "HFdKQYmja07ryf0t",
+  "sort": 0,
+  "_key": "!items!HFdKQYmja07ryf0t"
 }

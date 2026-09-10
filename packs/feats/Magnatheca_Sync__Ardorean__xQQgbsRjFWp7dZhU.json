@@ -1,0 +1,79 @@
+{
+  "_id": "xQQgbsRjFWp7dZhU",
+  "folder": "oHLJpSBUq8cQHNPt",
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "name": "Magnatheca Sync (Ardorean)",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "skill",
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr><p>You can briefly connect to the Magnatheca. You @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} using [[/act recall-knowledge skill=occultism]]{Occultism} instead of any other skill as though Occultism were applicable to perform Recall Knowledge for that topic.</p><hr><p><strong>Critical Success</strong> You recall accurately and gain three pieces of information or context.</p><p><strong>Success</strong> You recall accurately and gain two pieces of information or context and a piece of erroneous information, but you don't have any way to differentiate which is which.</p><p><strong>Failure</strong> You gain a piece of information or context and two pieces of erroneous information.</p><p><strong>Critical Failure</strong> You gain three pieces of erroneous information.</p>",
+      "gm": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "master in Occultism"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Starfinder Player Core",
+      "authors": ""
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "value": [
+        "ardorean",
+        "general",
+        "skill"
+      ],
+      "otherTags": []
+    },
+    "slug": "magnatheca-sync-ardorean",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "sort": 0,
+  "_key": "!items!xQQgbsRjFWp7dZhU"
+}

@@ -1,15 +1,15 @@
 {
   "folder": "oHLJpSBUq8cQHNPt",
-  "name": "Mercantile Instincts",
+  "name": "Natural Remedies",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Whether by instinct or through knowledge gained from your upbringing, you can gauge the value of items as you come across them, and this can help you sweeten the deal with someone you might barter with. Any time you @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} or Identify an item, you learn how much it approximately should be worth to an impartial merchant, accounting for the item’s age, material, or potential significance. Even on a failure, you can usually estimate its value within 25% of its worth. On a critical success, you can identify the kind of merchant that would buy it for a greater amount, including a specific person if you have met them.</span></p>"
+      "value": "<p>You know how to apply proper traditional remedies and poultices to tackle diseases and poisons, even though the principles and applications of modern medicine and alchemy might elude you. You can use Nature instead of Medicine to @UUID[Compendium.pf2e.actionspf2e.KjoCEEmPGTeFE4hh]{Treat Poison} and @UUID[Compendium.pf2e.actionspf2e.TC7OcDa7JlWbqMaN]{Treat Disease} at a -2 circumstance penalty.</p><p class=\"MsoNormal\">If you are a Master in Nature or Medicine, you do not suffer this circumstance penalty.</p>"
     },
     "rules": [],
-    "slug": "mercantile-instincts",
+    "slug": "natural-remedies",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -44,7 +44,10 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Expert in Crafting or Society"
+          "value": "Expert in Nature"
+        },
+        {
+          "value": "Natural Medicine"
         }
       ]
     },
@@ -69,7 +72,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "AJVFRFqeFAkULGeR",
-  "sort": 800000,
-  "_key": "!items!AJVFRFqeFAkULGeR"
+  "_id": "l556cLcckFcDJFHO",
+  "sort": 0,
+  "_key": "!items!l556cLcckFcDJFHO"
 }

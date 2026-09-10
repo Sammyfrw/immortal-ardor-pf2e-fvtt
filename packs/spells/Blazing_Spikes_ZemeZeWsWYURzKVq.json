@@ -1,0 +1,101 @@
+{
+  "name": "Blazing Spikes",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You wreathe yourself in fire that resembles living serpents or dragons, singing anyone who touches you. Any c<span>reature that physically touches you or damages you with an unarmed attack or non-reach melee weapon takes @Damage[1d6[fire]] damage. A creature maintaining contact with you throughout your turn (such as if they grab you) takes this damage only once per round. You can choose to quell or reactivate this effect as a concentrate action.</span></p><p>@UUID[Compendium.immortal-ardor.spells.Bapx4NvVjR0gGV4x]{Effect: Blazing Spikes}</p><hr><p><strong>Heightened (+2) </strong>Increase the damage by 1d6.</p><p></p>"
+    },
+    "rules": [],
+    "slug": "blazing-spikes",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal",
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "gLRsRrvYbATGgedN": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "gLRsRrvYbATGgedN": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "_id": "ZemeZeWsWYURzKVq",
+  "img": "systems/pf2e/icons/spells/fires-pathway.webp",
+  "folder": "fNyvBi1FuzhzXM05",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 500000,
+  "_key": "!items!ZemeZeWsWYURzKVq"
+}

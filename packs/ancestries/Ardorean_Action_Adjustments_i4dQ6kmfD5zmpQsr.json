@@ -24,6 +24,32 @@
       {
         "key": "ItemAlteration",
         "itemType": "action",
+        "property": "traits",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "ardorean",
+        "predicate": [
+          {
+            "or": [
+              "item:aid",
+              "item:avert-gaze",
+              "item:ready",
+              "item:stride",
+              "item:craft",
+              "item:create-a-diversion",
+              "item:make-an-impression",
+              "item:coerce",
+              "item:demoralize",
+              "item:treat-wounds",
+              "item:treat-disease",
+              "item:perform"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
         "property": "description",
         "mode": "add",
         "label": "IA.SpecificRule.RulesAdjustments.Title",
@@ -69,24 +95,85 @@
             "predicate": [
               "item:create-a-diversion"
             ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.MakeAnImpression.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.MakeAnImpression.Text",
+            "predicate": [
+              "item:make-an-impression"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Coerce.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Coerce.Text",
+            "predicate": [
+              "item:coerce"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Demoralize.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Demoralize.Text",
+            "predicate": [
+              "item:demoralize"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.TreatWounds.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.TreatWounds.Text",
+            "predicate": [
+              "item:treat-wounds"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.TreatDisease.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.TreatDisease.Text",
+            "predicate": [
+              "item:treat-disease"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Perform.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Perform.Text",
+            "predicate": [
+              "item:perform"
+            ]
           }
         ]
       },
       {
         "key": "ItemAlteration",
         "itemType": "action",
-        "property": "traits",
-        "mode": "add",
-        "label": "IA.SpecificRule.RulesAdjustments.Title",
-        "value": "ardorean",
-        "predicate": [
-          "item:aid",
-          "item:avert-gaze",
-          "item:ready",
-          "item:stride",
-          "item:craft",
-          "item:create-a-diversion"
+        "property": "description",
+        "mode": "override",
+        "value": [
+          {
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Demoralize.ReplacementText",
+            "predicate": [
+              "item:slug:demoralize"
+            ]
+          }
         ]
+      },
+      {
+        "key": "Note",
+        "text": "<p>If you are at least trained, you can compare the result of your check to the Will DC of one observer you choose to influence before you roll.</p>\n<hr>\n<p><b>Critical Success</b> The target is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} for 1 round. During their turn, they can also take a concentrate action to pull themselves away from you to end the effect early, or an ally can also take an action during their turn to draw their attention away to do the same, such as by yelling or shaking them.</p>\n\n<p><b>Success</b> As critical success, but the effect ends early if a hostile action is directed at the target. As normal, a hostile action they are aware of directed at them or their allies will allow them to make concentrate actions against other subjects.</p>\n<hr>",
+        "selector": [
+          "performance"
+        ],
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "action:perform",
+          {
+            "gte": [
+              "skill:performance:rank",
+              1
+            ]
+          }
+        ],
+        "title": "IA.SpecificRule.RulesAdjustments.Title"
       }
     ],
     "slug": "ardorean-action-adjustments",

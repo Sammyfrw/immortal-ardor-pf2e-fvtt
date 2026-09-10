@@ -4,7 +4,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You focus a massive globule of flame, and launch it into the air such that it arcs in the direction of an enemy in range. The outcome of the spell depends on if you cast this spell with 2 or 3 actions.</p><ul><li><p><span class=\"action-glyph\">2</span> : Make a spell attack roll against a target, ignoring the effects of cover. On a hit, you deal @Damage[8d8[fire]] damage to the target. On any outcome except critical failure, the globule explodes, dealing half the damage to creatures in a @Template[type:burst|distance:20]{20-foot burst} as splash damage. On a miss, the target is included in this splash damage. </p></li><li><p><span class=\"action-glyph\">3</span> : You take extra time to launch the globule skywards. Increase the range of the spell to 240 feet, and target an area within range. The globule explodes as it hits the target area. Creatures in range must make a basic Reflex saving throw or take @Damage[8d8[fire]] damage, ignoring any benefits of cover if they are outward from the central point of its explosion.</p></li></ul><hr /><p><strong>Heightened (+1): </strong>Increase the damage of both versions of the spell by 2d8 and increase the area of the 3-action version increases by 5 feet.</p>"
+      "value": "<p>You focus a massive globule of flame, and launch it into the air such that it arcs in the direction of an enemy in range. The outcome of the spell depends on if you cast this spell with 2 or 3 actions.</p><ul><li><p><span class=\"action-glyph\">2</span> : Make a spell attack roll against a target, ignoring the effects of cover. On a hit, you deal @Damage[8d8[fire]] damage to the target. On any outcome except critical failure, the globule explodes, dealing half the damage to creatures in a @Template[type:burst|distance:20]{20-foot burst} as splash damage. On a miss, the target is included in this splash damage.</p></li><li><p><span class=\"action-glyph\">3</span> : You take extra time to launch the globule skywards. Increase the range of the spell to 240 feet, and target an area within range. The globule explodes as it hits the target area. Creatures in range must make a basic Reflex saving throw or take @Damage[8d8[fire]] damage, ignoring any benefits of cover if they are outward from the central point of its explosion.</p></li></ul><hr><p><strong>Heightened (+1): </strong>Increase the damage of both versions of the spell by 2d8 and increase the area of the 3-action version increases by 5 feet.</p>"
     },
     "rules": [],
     "slug": "pyroblast",
@@ -124,9 +124,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.5.0",
     "exportSource": null
   },
   "ownership": {
@@ -135,6 +135,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "ZRdzuCHzj9ixIZug",
-  "sort": 0,
+  "sort": 200000,
   "_key": "!items!ZRdzuCHzj9ixIZug"
 }
