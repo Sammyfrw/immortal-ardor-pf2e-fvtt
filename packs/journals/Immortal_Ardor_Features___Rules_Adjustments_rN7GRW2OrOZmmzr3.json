@@ -504,6 +504,78 @@
         "exportSource": null
       },
       "_key": "!journal.pages!rN7GRW2OrOZmmzr3.MKMbz9jHktoba6iI"
+    },
+    {
+      "sort": 1175000,
+      "name": "Summoner",
+      "type": "text",
+      "_id": "oMxkdLv4qxoYtD6x",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The summoner has received substantial improvements with Impossible Magic, but a lot of its kit and base class remains strongly untouched with its reprinting. Some class fantasies are strongly hampered for a class that revolves strongly around being able to work in tandem with a companion that should be far more in tune with the caster than an animal companion, or Necromancer which has incredible teamwork capabilities with their thralls. Act Together is an incredibly flexible and powerful action compression but many of its feats do not capitalize on actually working together, or did not get brought to the same level as its newer feats or with other classes in the same book.</p><h2>Manifest Eidolon</h2><p class=\"MsoNormal\">Manifest Eidolon requiring three actions is a tremendous action cost that is in line with most other summoning spells that exist in the game. However, being caught without an Eidolon manifested in combat is an incredible risk that has a lot of thematic flavor, but can completely demolish a summoner player. Instant Manifestation allows this activity to be done with 1 action but it is a level 19 feature, but this comes too late to help relieve the burden.</p><p class=\"MsoNormal\">To alleviate this, summoners will get a new feature to assist in manifesting their Eidolon, and Manifest Eidolon will work as written, except that if you use Manifest Eidolon while your eidolon is manifested, you can unmanifest them as one action.</p><h2>Instant Manifestation</h2><p class=\"MsoNormal\">Instant Manifestation is made a little stronger to accommodate for the above and below changes. It now reduces the number of actions to cast a spell with the Summon trait by 1 action (minimum 1).</p><h2>Summoner’s Tactics</h2><p class=\"MsoNormal\">Boost Eidolon is a cantrip that a summoner gets automatically, and the other cantrip they can quickly earn is Reinforce Eidolon; both are minor boosts that a summoner can keep on their Eidolon at all times through recasting the cantrip or using the Extend Boost link spell, but Reinforce Eidolon is a feat one must spend a class feat for which hampers a person who wants to play a more defensive summoner. Similarly, Meld Into Eidolon is a class fantasy that requires some adjustments to really assist that playstyle. Meld Into Eidolon is reworked below into a link spell to accommodate the new power it will grant a summoner.</p><p class=\"MsoNormal\">New feats are made to help these playstyles, but Summoner’s Tactics is a new 1st level feature that will grant an initial choice in a summoner’s career. This choice will assist avoiding feat taxes, with the option to spend class feats to dip into the other side. These feats are listed in the New Feats section.</p><hr><p><strong>Summoner’s Tactics</strong></p><p>@Embed[Compendium.immortal-ardor.classes.uFAGtw5D0YGbhiRA]</p><p class=\"MsoNormal\"><strong>Riftcaller</strong></p><p>@Embed[Compendium.immortal-ardor.classes.Vk8iFqBSRndWATwX]</p><p class=\"MsoNormal\"><strong>Synthesist</strong></p><p>@Embed[Compendium.immortal-ardor.classes.0u82rcgcDJcxMUJO]</p><p class=\"MsoNormal\"><strong>Manifesting Touch</strong></p><p>@Embed[Compendium.immortal-ardor.classes.bCLBiXDx5A3UmVNE]</p><h2>Enhance Eidolon</h2><p class=\"MsoNormal\">@UUID[Compendium.immortal-ardor.classes.tU7iwHZTEGYkd3kB]{Enhance Eidolon} replaces the Reinforce Eidolon class feat, to select the link cantrip you do not have from your Summoner’s Tactics choice.</p><h2>Meld Into Eidolon</h2><p>@UUID[Compendium.pf2e.feats-srd.s97nKj9Uye1KXr7A]{Meld into Eidolon} has had a minor improvement with the release of Impossible Magic, but it still renders much of the Summoner playstyle significantly reduced with little benefit to compensate. Synthesist summoners in previous editions were powerhouses, but the limitations of the current edition iteration of the class and characters are more than enough to restrict it. Even so, making it more powerful does require a few adjustments, so it is now a link spell rather than an activity granted by a feat.</p><hr><p>@Embed[Compendium.immortal-ardor.classes.NbVUlANzg5iGLwA3]</p><h2>@UUID[Compendium.pf2e.feats-srd.oVSlTmdmho8ZQo2k]{Ranged Combatant}</h2><p class=\"MsoNormal\">@UUID[Compendium.immortal-ardor.classes.qM1emtBXMbBmx28W]{Ranged Combatant (Ardorean)} damage is changed to a 1d6 and its range increases to 60 feet.</p><h2>@UUID[Compendium.pf2e.feats-srd.3EtlXNK4vc44R3Gm]{Reactive Dismissal}</h2><p class=\"MsoNormal\">This feat works as normal, except that you can’t Manifest your Eidolon again until the start of your next turn.</p><h2>@UUID[Compendium.pf2e.feats-srd.qmx8QwVepqI9FqiD]{Tandem Movement}</h2><p class=\"MsoNormal\">@UUID[Compendium.pf2e.feats-srd.qmx8QwVepqI9FqiD]{Tandem Movement} works as normal but has a clause that if you are currently Melded into your Eidolon, you can use the normal movement speed of either partner as part of a single move action, even if they are not at the forefront.</p><h2>@UUID[Compendium.pf2e.feats-srd.axGS5bBJ9vl5AePc]{Phase Out}</h2><p class=\"MsoNormal\">@UUID[Compendium.pf2e.feats-srd.axGS5bBJ9vl5AePc]{Phase Out} is changed to improve its usability. This feat is in the same book as a necromancer that has the spirit grim fascination, which has a very similar feat that has nowhere near the same number of limitations.</p><hr><p class=\"MsoNormal\">@Embed[Compendium.immortal-ardor.classes.1xU7cAFKOtA7BiK9]</p><h2>Tandem Strike</h2><p class=\"MsoNormal\">Tandem Strike is changed to allow for ranged options. The requirement is removed, and you choose the order of what attacks come first.</p><h2>@UUID[Compendium.pf2e.feats-srd.pfos1p4SurbUgpjQ]{Magical Onslaught}</h2><p class=\"MsoNormal\">@UUID[Compendium.pf2e.feats-srd.pfos1p4SurbUgpjQ]{Magical Onslaught} is changed to allow for greater flexibility, in particular allowing it to make any type of Strike and to allow your Summoner to cast a 1- or 2-action spell with your spell slots.</p><hr><p>@Embed[Compendium.immortal-ardor.classes.77sLEpTEmBuRLq1w]</p><h2>@UUID[Compendium.pf2e.feats-srd.NPhH9XkHV0DG4WS9]{Transpose}</h2><p class=\"MsoNormal\">@UUID[Compendium.pf2e.feats-srd.NPhH9XkHV0DG4WS9]{Transpose}is adjusted so that if you have Meld Into Eidolon, you can cast Meld Into Eidolon with the same action while you or your eidolon teleports to the other’s space, melding immediately.</p><h2>@UUID[Compendium.pf2e.feats-srd.hYW6MsPk1UcFROFD]{Twin Eidolon}</h2><p class=\"MsoNormal\">Twin Eidolon as a 20th level capstone should be impressively powerful. As is, the limitations hamper it from being as impressive as Summoner’s other capstones.</p><hr><p>@Embed[Compendium.immortal-ardor.classes.FFCUdedvWQZv31Ks]</p><h2>New Feats</h2><div><p class=\"MsoNormal\">@UUID[Compendium.immortal-ardor.classes.tU7iwHZTEGYkd3kB]{Enhance Eidolon}</p><p class=\"MsoNormal\"> @UUID[Compendium.immortal-ardor.classes.7VxiDHgUoBNuYCaf]{Rift Manifestation}</p><p class=\"MsoNormal\">@UUID[Compendium.immortal-ardor.classes.gkrYv22GG2rrkjWP]{Valent Power}</p></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.oMxkdLv4qxoYtD6x"
+    },
+    {
+      "sort": 1187500,
+      "name": "Wizard",
+      "type": "text",
+      "_id": "3UZ5PKC7IcpAnSZu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Wizard has a very strong chassis of a class, so it does not need much in the way of adjustments. Some changes are made to account for some other adjustments made in Ardorean rules.</p><h2>Clever Counterspell</h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Clever Counterspell is adjusted, following the changes made to Counterspell.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\"> @Embed[Compendium.immortal-ardor.classes.84t144gsoPxuqMYH]</span></p><h2>Spell Substitution Thesis</h2><p>Due to the changes made to swapping spells for prepared spellcasters, the Spell Substitution Arcane Thesis lets you swap spells within one minute per spell rank.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.3UZ5PKC7IcpAnSZu"
     }
   ],
   "folder": null,

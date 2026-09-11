@@ -1,0 +1,103 @@
+{
+  "folder": "XSsYQlf1gNFTZvXi",
+  "name": "Instant Manifestation (Ardorean)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can manifest your eidolon with incredible speed. You can use @UUID[Compendium.pf2e.actionspf2e.Item.n5vwBnLSlIXL9ptp]{Manifest Eidolon} as a single action, instead of a three-action activity. You also reduce the number of actions to cast a spell with the Summon trait by 1 action (minimum 1).</p>"
+    },
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:manifest-eidolon"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:summon"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      }
+    ],
+    "slug": "instant-manifestation-ardorean",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ardorean",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 19
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "systems/pf2e/icons/features/classes/instant-manifestation.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "KyOgKFGRZiwC3YA9",
+  "sort": 0,
+  "_key": "!items!KyOgKFGRZiwC3YA9"
+}

@@ -1,31 +1,15 @@
 {
-  "folder": "Tq4PchBPHAioFBaI",
-  "name": "Anima Manifestation",
+  "folder": "Tm9CyxnYteWmg5hi",
+  "name": "Enhance Eidolon",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Each paired soul manifests their Anima Powers differently, depending on the relationship one's soul has with the monster's soul, and the type of monster soul used in the alchemical rites. Select an Anima Manifestation from the list below.</p>"
+      "value": "<p>You can empower your eidolon further. You gain either the @UUID[Compendium.pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon} or @UUID[Compendium.pf2e.spells-srd.TYbCj4dgXDOZou9k]{Reinforce Eidolon} link cantrip, whichever you do not have.</p>"
     },
-    "rules": [
-      {
-        "adjustName": false,
-        "choices": {
-          "filter": [
-            "item:tag:chimerian-anima-manifestation"
-          ]
-        },
-        "flag": "animaManifestation",
-        "key": "ChoiceSet",
-        "prompt": "Select an anima manifestation."
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "{item|flags.system.rulesSelections.animaManifestation}"
-      }
-    ],
-    "slug": "anima-manifestation",
+    "rules": [],
+    "slug": "enhance-eidolon",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -37,7 +21,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "chimerian"
+        "summoner"
       ],
       "rarity": "common"
     },
@@ -48,9 +32,9 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 2
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -69,7 +53,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -83,7 +67,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "CsZAzREjEt3xy3gp",
-  "sort": 200000,
-  "_key": "!items!CsZAzREjEt3xy3gp"
+  "_id": "tU7iwHZTEGYkd3kB",
+  "sort": 100000,
+  "_key": "!items!tU7iwHZTEGYkd3kB"
 }

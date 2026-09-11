@@ -1,0 +1,114 @@
+{
+  "folder": "DxPAAoI8pZhH4dow",
+  "name": "Ardorean Wizard",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Manually add this feature to your Wizard to make adjustments to their class progression.</p><p>Wizard gains the adjustments as listed in the @UUID[Compendium.immortal-ardor.journals.JournalEntry.rN7GRW2OrOZmmzr3.JournalEntryPage.3UZ5PKC7IcpAnSZu]{Wizard} section of the Class Adjustments.</p><p></p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "traits",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "ardorean",
+        "predicate": [
+          {
+            "or": [
+              "item:spell-substitution"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "description",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": [
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Wizard.CleverCounterspell.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.CleverCounterspell.Text",
+            "predicate": [
+              "item:clever-counterspell",
+              "class:wizard"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Wizard.SpellSubstitution.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.SpellSubstitution.Text",
+            "predicate": [
+              "item:spell-substitution",
+              "class:wizard"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "ardorean-wizard",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "wizard"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/scrolls/scroll-yellow-teal.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "NRNKLXDQBBW0CdOQ",
+  "sort": 0,
+  "_key": "!items!NRNKLXDQBBW0CdOQ"
+}

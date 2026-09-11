@@ -1,31 +1,20 @@
 {
-  "folder": "Tq4PchBPHAioFBaI",
-  "name": "Anima Manifestation",
+  "folder": "Lq9M0fVD8S0VcP5M",
+  "name": "Synthesist",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Each paired soul manifests their Anima Powers differently, depending on the relationship one's soul has with the monster's soul, and the type of monster soul used in the alchemical rites. Select an Anima Manifestation from the list below.</p>"
+      "value": "<p class=\"MsoNormal\">You fight in unison with your Eidolon, ensuring you are close together. You gain the @UUID[Compendium.immortal-ardor.classes.gxgPnUWMlpOjy0fs]{Meld Into Eidolon (Ardorean)} class feat.</p>"
     },
     "rules": [
       {
-        "adjustName": false,
-        "choices": {
-          "filter": [
-            "item:tag:chimerian-anima-manifestation"
-          ]
-        },
-        "flag": "animaManifestation",
-        "key": "ChoiceSet",
-        "prompt": "Select an anima manifestation."
-      },
-      {
         "key": "GrantItem",
-        "uuid": "{item|flags.system.rulesSelections.animaManifestation}"
+        "uuid": "Compendium.immortal-ardor.classes.Item.gxgPnUWMlpOjy0fs"
       }
     ],
-    "slug": "anima-manifestation",
+    "slug": "synthesist",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -35,9 +24,12 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": [
+        "summoner-summoners-tactics"
+      ],
       "value": [
-        "chimerian"
+        "ardorean",
+        "summoner"
       ],
       "rarity": "common"
     },
@@ -69,7 +61,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "img": "icons/magic/control/energy-stream-link-spiral-orange.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -83,7 +75,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "CsZAzREjEt3xy3gp",
-  "sort": 200000,
-  "_key": "!items!CsZAzREjEt3xy3gp"
+  "_id": "0u82rcgcDJcxMUJO",
+  "sort": 0,
+  "_key": "!items!0u82rcgcDJcxMUJO"
 }

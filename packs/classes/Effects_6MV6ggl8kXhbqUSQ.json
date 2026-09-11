@@ -1,12 +1,12 @@
 {
   "type": "Item",
-  "folder": null,
-  "name": "Ardorean Monk",
-  "color": "#8a0000",
+  "folder": "qlDoUUxZvaCqea1j",
+  "name": "Effects",
+  "color": null,
   "sorting": "a",
-  "_id": "qlDoUUxZvaCqea1j",
+  "_id": "6MV6ggl8kXhbqUSQ",
   "description": "",
-  "sort": 600000,
+  "sort": 0,
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
@@ -16,5 +16,5 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!qlDoUUxZvaCqea1j"
+  "_key": "!folders!6MV6ggl8kXhbqUSQ"
 }

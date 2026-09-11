@@ -31,19 +31,19 @@
         ],
         "category": "precision",
         "selector": "damage",
-        "dieSize": "d{actor|flags.pf2e.chimerian.feralRipDamage.faces}",
-        "diceNumber": "{actor|flags.pf2e.chimerian.feralRipDamage.number}"
+        "dieSize": "d{actor|flags.system.chimerian.feralRipDamage.faces}",
+        "diceNumber": "{actor|flags.system.chimerian.feralRipDamage.number}"
       },
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.pf2e.chimerian.feralRipDamage.faces",
+        "path": "flags.system.chimerian.feralRipDamage.faces",
         "value": "ternary(lt(@actor.level, 6), 4, 6)"
       },
       {
         "key": "ActiveEffectLike",
         "mode": "upgrade",
-        "path": "flags.pf2e.chimerian.feralRipDamage.number",
+        "path": "flags.system.chimerian.feralRipDamage.number",
         "value": 1
       }
     ],
@@ -100,7 +100,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

@@ -1,31 +1,35 @@
 {
-  "folder": "Tq4PchBPHAioFBaI",
-  "name": "Anima Manifestation",
+  "folder": "XSsYQlf1gNFTZvXi",
+  "name": "Summoner's Tactics",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Each paired soul manifests their Anima Powers differently, depending on the relationship one's soul has with the monster's soul, and the type of monster soul used in the alchemical rites. Select an Anima Manifestation from the list below.</p>"
+      "value": "<p class=\"MsoNormal\">You and your eidolon have a dedicated way to complement each other’s style of combat and your skill as a conjurer. You gain the @UUID[Compendium.immortal-ardor.classes.bCLBiXDx5A3UmVNE]{Manifesting Touch} free action, which allows you to more readily call for your Eidolon. You also gain your choice of either the @UUID[Compendium.pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon} or @UUID[Compendium.pf2e.spells-srd.TYbCj4dgXDOZou9k]{Reinforce Eidolon} link cantrips, and your choice of tactic grants you an additional class feat and link spell.</p><ul><li><p class=\"MsoNormal\">@UUID[Compendium.immortal-ardor.classes.Item.Vk8iFqBSRndWATwX]{Riftcaller}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.Item.0u82rcgcDJcxMUJO]{Synthesist}</p></li></ul>"
     },
     "rules": [
       {
         "adjustName": false,
         "choices": {
           "filter": [
-            "item:tag:chimerian-anima-manifestation"
+            "item:tag:summoner-summoners-tactics"
           ]
         },
-        "flag": "animaManifestation",
+        "flag": "summonersTactic",
         "key": "ChoiceSet",
-        "prompt": "Select an anima manifestation."
+        "prompt": "Select a Summoner's Tactic."
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.system.rulesSelections.animaManifestation}"
+        "uuid": "{item|flags.system.rulesSelections.summonersTactic}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.bCLBiXDx5A3UmVNE"
       }
     ],
-    "slug": "anima-manifestation",
+    "slug": "summoners-tactics",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -37,7 +41,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "chimerian"
+        "summoner"
       ],
       "rarity": "common"
     },
@@ -83,7 +87,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "CsZAzREjEt3xy3gp",
-  "sort": 200000,
-  "_key": "!items!CsZAzREjEt3xy3gp"
+  "_id": "uFAGtw5D0YGbhiRA",
+  "sort": 0,
+  "_key": "!items!uFAGtw5D0YGbhiRA"
 }

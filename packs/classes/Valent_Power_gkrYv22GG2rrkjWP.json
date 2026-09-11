@@ -1,31 +1,15 @@
 {
-  "folder": "Tq4PchBPHAioFBaI",
-  "name": "Anima Manifestation",
+  "folder": "Tm9CyxnYteWmg5hi",
+  "name": "Valent Power",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Each paired soul manifests their Anima Powers differently, depending on the relationship one's soul has with the monster's soul, and the type of monster soul used in the alchemical rites. Select an Anima Manifestation from the list below.</p>"
+      "value": "<p class=\"MsoNormal\">After melding with your eidolon, your powers remain with you even after you split apart. When you Dismiss Meld Into Eidolon, you can choose to not unmanifest your Eidolon; instead, you or your Eidolon can Stride out of your shared space. In addition, when you Dismiss Meld into Eidolon, you regain the focus point used to cast Meld Into Eidolon.</p>"
     },
-    "rules": [
-      {
-        "adjustName": false,
-        "choices": {
-          "filter": [
-            "item:tag:chimerian-anima-manifestation"
-          ]
-        },
-        "flag": "animaManifestation",
-        "key": "ChoiceSet",
-        "prompt": "Select an anima manifestation."
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "{item|flags.system.rulesSelections.animaManifestation}"
-      }
-    ],
-    "slug": "anima-manifestation",
+    "rules": [],
+    "slug": "valent-power",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -37,7 +21,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "chimerian"
+        "summoner",
+        "traversal"
       ],
       "rarity": "common"
     },
@@ -48,9 +33,9 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 2
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -60,7 +45,14 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Meld Into Eidolon"
+        },
+        {
+          "value": "Synthesist Summoner's Tactic"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {
@@ -69,7 +61,7 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -83,7 +75,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "CsZAzREjEt3xy3gp",
-  "sort": 200000,
-  "_key": "!items!CsZAzREjEt3xy3gp"
+  "_id": "gkrYv22GG2rrkjWP",
+  "sort": 300000,
+  "_key": "!items!gkrYv22GG2rrkjWP"
 }

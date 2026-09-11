@@ -1,0 +1,86 @@
+{
+  "folder": "Tm9CyxnYteWmg5hi",
+  "name": "Twin Eidolon (Ardorean)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You can transform to match your eidolon. When you @UUID[Compendium.pf2e.actionspf2e.n5vwBnLSlIXL9ptp]{Manifest your Eidolon}, you can manifest them while also transforming yourself into a duplicate until your eidolon unmanifests. You gain the benefits of @UUID[Compendium.immortal-ardor.classes.YUu1tMhmYWP570er]{Effect: Meld Into Eidolon}, but your Eidolon remains on the field. If you put your melded Eidolon form at the forefront of your Melded form, you use your Eidolon’s statistics other than your own Intelligence, Wisdom and Charisma attribute modifiers, but much like Meld Into Eidolon for all other purposes your melded Eidolon form would have all the same limitations your Eidolon would normally have with regards to spells, magic items or other actions they cannot perform. Any of their spells you cast with limited uses count against your eidolon’s uses. You can Manifest your Eidolon again to end this effect.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\">Special</span> This feat has the trait matching your eidolon’s tradition (arcane, divine, occult or primal).</p>"
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "{actor|flags.system.eidolon.tradition}"
+      }
+    ],
+    "slug": "twin-eidolon-ardorean",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ardorean",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Meld Into Eidolon"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "FFCUdedvWQZv31Ks",
+  "sort": 0,
+  "_key": "!items!FFCUdedvWQZv31Ks"
+}

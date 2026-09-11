@@ -1,12 +1,12 @@
 {
   "type": "Item",
   "folder": null,
-  "name": "Ardorean Monk",
+  "name": "Ardorean Summoner",
   "color": "#8a0000",
   "sorting": "a",
-  "_id": "qlDoUUxZvaCqea1j",
+  "_id": "wujrCtsk98sTaK5Z",
   "description": "",
-  "sort": 600000,
+  "sort": 800000,
   "flags": {},
   "_stats": {
     "coreVersion": "14.365",
@@ -16,5 +16,5 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!qlDoUUxZvaCqea1j"
+  "_key": "!folders!wujrCtsk98sTaK5Z"
 }

@@ -1,0 +1,240 @@
+{
+  "folder": "wujrCtsk98sTaK5Z",
+  "name": "Ardorean Summoner",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Manually add this feature to your Summoner to make adjustments to their class progression.</p><p>Summoner gains the adjustments as listed in the @UUID[Compendium.immortal-ardor.journals.JournalEntry.rN7GRW2OrOZmmzr3.JournalEntryPage.oMxkdLv4qxoYtD6x]{Summoner} section of the Class Adjustments.</p><p></p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "property": "traits",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "ardorean",
+        "predicate": [
+          {
+            "or": [
+              "item:manifest-eidolon"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "property": "description",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": [
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.ManifestEidolon.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.ManifestEidolon.Text",
+            "predicate": [
+              "item:manifest-eidolon",
+              "class:summoner"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "traits",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "ardorean",
+        "predicate": [
+          {
+            "or": [
+              "item:reactive-dismissal",
+              "item:tandem-movement",
+              "item:tandem-strike",
+              "item:transpose"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "description",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": [
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.ReinforceEidolon.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.ReinforceEidolon.Text",
+            "predicate": [
+              "item:reinforce-eidolon",
+              "class:summoner"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.ExtendBoost.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.ExtendBoost.Text",
+            "predicate": [
+              "item:extend-boost",
+              "class:summoner"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.ReactiveDismissal.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.ReactiveDismissal.Text",
+            "predicate": [
+              "item:reactive-dismissal",
+              "class:summoner"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.RangedCombatant.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.RangedCombatant.Text",
+            "predicate": [
+              "item:ranged-combatant",
+              "class:summoner"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.MeldIntoEidolon.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.MeldIntoEidolon.Text",
+            "predicate": [
+              "item:meld-into-eidolon",
+              "class:summoner"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.TandemMovement.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.TandemMovement.Text",
+            "predicate": [
+              "item:tandem-movement",
+              "class:summoner"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.PhaseOut.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.PhaseOut.Text",
+            "predicate": [
+              "item:phase-out",
+              "class:summoner"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.TandemStrike.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.TandemStrike.Text",
+            "predicate": [
+              "item:tandem-strike",
+              "class:summoner"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.MagicalOnslaught.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.MagicalOnslaught.Text",
+            "predicate": [
+              "item:magical-onslaught",
+              "class:summoner"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.Transpose.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.Transpose.Text",
+            "predicate": [
+              "item:transpose",
+              "class:summoner"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.TwinEidolon.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Classes.Summoner.TwinEidolon.Text",
+            "predicate": [
+              "item:twin-eidolon",
+              "class:summoner"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.KyOgKFGRZiwC3YA9",
+        "reevaluateOnUpdate": true,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.uFAGtw5D0YGbhiRA"
+      }
+    ],
+    "slug": "ardorean-summoner",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "summoner"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [
+        "Compendium.pf2e.classfeatures.Item.H0iWhiyP0QqgmAKs"
+      ]
+    }
+  },
+  "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "me9KWZNXcrMpe4oa",
+  "sort": 0,
+  "_key": "!items!me9KWZNXcrMpe4oa"
+}
