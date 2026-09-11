@@ -1,0 +1,84 @@
+{
+  "folder": "OfyUzTpmS43E1Qf4",
+  "name": "Meld Into Eidolon (Ardorean)",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">Your physical form can combine with that of your eidolon. You Manifest your Eidolon, but instead of summoning them into an adjacent open space, you meld with them, causing the two of you to share the same space. Your appearance might be combined or unique in some way, or you and your Eidolon might flutter between each other, but how this appears has no bearing on your abilities beyond what is listed in this spell. If your Eidolon was already manifested and is adjacent to you, you can cast this spell as one action. You can Dismiss this spell to unmeld, unmanifesting your Eidolon in the process.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">While melded, you are both under the effects of your choice of either @UUID[Compendium.pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon} or @UUID[Compendium.pf2e.spells-srd.TYbCj4dgXDOZou9k]{Reinforce Eidolon} if you have either cantrip, and at the start of each of your turns and when you cast this spell you decide who exists in the forefront of your space; you or your Eidolon. You use the senses, defenses, and speeds of whichever of you are in the forefront at a given time for the purpose of being targeted or in an area of an effect, only affecting the one in the forefront. The other creature retains their speeds but they are reduced to 0 and cannot be targeted.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">While you and your eidolon are melded, only the one in the forefront has actions, and you have the same restrictions applied to the creature in the forefront, such as for the purpose of being able to cast spells, which Strikes you have access to, or if you can use items. However, you can use Tandem actions in this space as normal, and if you Act Together, the one not in the forefront can only take a single action. For the purpose of any summoner feats, you are considered adjacent and within reach of your eidolon, and vice-versa as you share a space, and you and your eidolon qualify as each other or both for the purpose of requirements or triggers (such as those that require the eidolon to be the target of an attack, or that require both of you to take damage).</span></p><p>@UUID[Compendium.immortal-ardor.classes.YUu1tMhmYWP570er]{Effect: Meld Into Eidolon}</p>"
+    },
+    "rules": [],
+    "slug": "meld-into-eidolon-ardorean",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ardorean",
+        "concentrate",
+        "focus",
+        "summoner"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "Until your eidolon unmanifests",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "NbVUlANzg5iGLwA3",
+  "sort": 100000,
+  "_key": "!items!NbVUlANzg5iGLwA3"
+}

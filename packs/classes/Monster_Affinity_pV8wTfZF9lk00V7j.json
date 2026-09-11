@@ -32,14 +32,283 @@
         "predicate": [
           {
             "or": [
-              "item:slug:blazing-bolt",
-              "item:slug:fireball"
+              "item:slug:vengeful-bite",
+              "item:slug:frozen-wing",
+              "item:slug:raging-thrust",
+              "item:slug:quillstorm",
+              "item:slug:moonlit-frenzy"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-beast"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:lapine-kick",
+              "item:slug:frill-flash",
+              "item:slug:silken-trap",
+              "item:slug:hydroveil",
+              "item:slug:windfall"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-animal"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:wild-fruit",
+              "item:slug:aching-venom",
+              "item:slug:root-of-ages",
+              "item:slug:lignin-palisade",
+              "item:slug:golden-roots"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-plant"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:wave-of-truth",
+              "item:slug:starlight-tether",
+              "item:slug:gilded-blood",
+              "item:slug:arrow-of-antimony",
+              "item:slug:radiant-roar"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-celestial"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:rewind-streams",
+              "item:slug:magical-mockery",
+              "item:slug:spirit-shackle",
+              "item:slug:venators-mark",
+              "item:slug:wartorn-arsenal"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-monitor"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:forked-tongue",
+              "item:slug:sinful-soul",
+              "item:slug:jaws-of-death",
+              "item:slug:spurn-creation",
+              "item:slug:mark-of-strife"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-fiend"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:drachenclaw",
+              "item:slug:mighty-scutum",
+              "item:slug:razing-flame",
+              "item:slug:dragonheart-elegy",
+              "item:slug:divine-dragon-destruction"
             ]
           }
         ],
         "priority": 121,
         "property": "other-tags",
         "value": "anima-family-dragon"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:emphatic-chains",
+              "item:slug:mudroll",
+              "item:slug:shocking-flyby",
+              "item:slug:subzero-slash",
+              "item:slug:gates-of-hades"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-elemental"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:mental-link",
+              "item:slug:refueling",
+              "item:slug:inexorable-rush",
+              "item:slug:self-destruct",
+              "item:slug:thousand-flurry"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-construct"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:phantom-flourish",
+              "item:slug:ghostly-haze",
+              "item:slug:phase-shift",
+              "item:slug:remove-materium",
+              "item:slug:thread-the-ethereal-line"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-ethereal"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:pilfer-shadow",
+              "item:slug:frigid-damsel",
+              "item:slug:shadowstitch",
+              "item:slug:lethal-pain",
+              "item:slug:final-winter"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-shadow"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:wicked-wiles",
+              "item:slug:magic-pelt",
+              "item:slug:countless-refractions",
+              "item:slug:exude-beauty",
+              "item:slug:vorpal-scythe"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-fey"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:astral-lance",
+              "item:slug:synaptic-crush",
+              "item:slug:cosmic-tunnel",
+              "item:slug:future-perfect",
+              "item:slug:garden-of-creation"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-astral"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:regurgitation",
+              "item:slug:limber-limb",
+              "item:slug:mimic-veil",
+              "item:slug:light-of-collion",
+              "item:slug:word-of-madness"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-aberration"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:tear-flesh",
+              "item:slug:bone-phalanx",
+              "item:slug:grave-beam",
+              "item:slug:blood-saber",
+              "item:slug:dark-bargain"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "anima-family-undead"
       }
     ],
     "slug": "monster-affinity",
@@ -95,7 +364,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

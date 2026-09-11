@@ -18,7 +18,41 @@
       "license": "OGL",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "low-light-vision"
+      },
+      {
+        "key": "Sense",
+        "predicate": [
+          "self:low-light-vision:from-ancestry"
+        ],
+        "selector": "darkvision"
+      },
+      {
+        "adjustName": false,
+        "flag": "garyuSkill",
+        "choices": [
+          {
+            "label": "PF2E.Skill.Deception",
+            "value": "deception"
+          },
+          {
+            "label": "PF2E.Skill.Stealth",
+            "value": "stealth"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.system.ruleSelections.garyuSkill}.rank",
+        "value": 1
+      }
+    ],
     "slug": "brood-of-garyu-aelkhazak",
     "traits": {
       "otherTags": [],
@@ -40,7 +74,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

@@ -1,0 +1,81 @@
+{
+  "folder": "oHLJpSBUq8cQHNPt",
+  "name": "Font of Recovery",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Through prayer and blessings, you connect to the divine to grant reprieve and recovery. You spend 10 minutes scribing the floor with chalk, uttering prayers, or otherwise beseeching your deity for aid, whichever method is appropriate for them. You create a space of hallowed ground around 20-feet wide for you and up to 5 other nearby creatures you choose to recover from their ills.</p><p class=\"MsoNormal\">At the end of the 10 minutes, you roll a Religion check. The outcome of this roll is a counteract check against one effect per creature, including yourself, that is causing them to be @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}, @UUID[Compendium.pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed} or @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened}. The counteract rank is equal to half your level, rounded down. If you successfully counteract an effect, the condition is suppressed for 1 minute on a success, or 10 minutes on a critical success instead of being removed. If the cause of the ailment allows a saving throw (such as if it was an affliction or a spell), a creature can immediately make a saving throw with a +1 circumstance bonus. This increases to a +2 circumstance bonus if you are a Master in Religion.</p><p class=\"MsoNormal\">You can improve the blessings by spending sanctified water. If your deity is Holy or Unholy, you can add @UUID[Compendium.pf2e.equipment-srd.z9T4c1hXwOotsMCp]{Holy Water} or @UUID[Compendium.pf2e.equipment-srd.EGhUorZhB7nV73Ev]{Unholy Water} before you make your Religion check. If your deity offers either sanctification, you can add either. This adds @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded}, @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy} and @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied} to the list of effects you can counteract. In addition, each creature in your hallowed space including yourself recovers @Damage[6[healing]] hit points if the Religion check succeeds against a DC of 15, recovering @Damage[12[healing]] hit points on a critical success. This is vitality healing if you use Holy Water, or void healing if you use Unholy Water. The space remains hallowed for an hour, and a creature who resides within it for a full hour recovers twice the amount of health.</p><p class=\"MsoNormal\">Regardless of the outcome, creatures in your space become immune to Font of Recovery for 1 hour, but this interval overlaps with the time you spent preparing this font and remaining within it.</p>"
+    },
+    "rules": [],
+    "slug": "font-of-recovery",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "exploration",
+        "healing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in Religion"
+        },
+        {
+          "value": "You follow a deity with Holy or Unholy Sanctification"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "WzwOSRmb6Wwai4fz",
+  "sort": 25000,
+  "_key": "!items!WzwOSRmb6Wwai4fz"
+}

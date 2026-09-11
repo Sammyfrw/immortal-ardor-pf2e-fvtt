@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Amongst the rarest of the Ana’zhak’s followers, your ancestors might have been the ones who followed Walli-Walli to the continent of Garrunga. Your Tributary followed his principles of providing restful, deep sleep and boons to those who ask and prove themselves of you. When you sleep, you can sleep deeply and bear lucid dreams if you choose, allowing you to gain the benefits of a full rest after 2 hours of sleep or perform certain downtime activities that could feasibly be done in a dream during a full night’s sleep, such as retraining, identifying an item or learning a spell, though checks you make could take up to a -2 circumstance penalty depending on the specificity or familiarity of imagining any materials, items or instruction in your dreams accurately. You still need to provide the material costs and requirements, if any, which are utilized prior or after your sleep as you prepare to do these tasks. You also can cast Guidance as an innate occult cantrip.</span></p>",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Amongst the rarest of the Ana’zhak’s followers, your ancestors might have been the ones who followed Walli-Walli to the continent of Garrunga. Your Tributary followed his principles of providing restful, deep sleep and boons to those who ask and prove themselves of you. When you sleep, you can sleep deeply and bear lucid dreams if you choose, allowing you to gain the benefits of a full rest after 2 hours of sleep or perform certain downtime activities that could feasibly be done in a dream during a full night’s sleep, such as retraining, identifying an item or learning a spell, though checks you make could take up to a -2 circumstance penalty depending on the specificity or familiarity of imagining any materials, items or instruction in your dreams accurately. You still need to provide the material costs and requirements, if any, which are utilized prior or after your sleep as you prepare to do these tasks. You also can cast @UUID[Compendium.pf2e.spells-srd.izcxFQFwf3woCnFs]{Guidance} as an innate occult cantrip.</span></p>",
       "gm": ""
     },
     "publication": {
@@ -40,7 +40,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

@@ -1,0 +1,78 @@
+{
+  "folder": "xai0vk09bCVjqa2i",
+  "name": "Paragon Enemy",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A Paragon Enemy is a way to codify general guidelines and benefits to enemies that are particularly powerful or fighting against action economy, where they are outnumbered by the player characters. They gain the following modifications:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">They have double their original hit points.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">They have 2 turns in a round, one at their rolled initiative and another at their initiative -10. If they would still move consecutively despite this, they will go after the next player character in initiative order, or the previous player character if they are last in the initiative order. This applies retroactively, in case initiative order changes mid-combat.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">They have double the number of reactions.</p></li><li><p class=\"MsoListParagraphCxSpLast\">Durations that depend on turns only tick down once per round, unless it is an effect that only lasts until the end of their turn. For effects that require a saving throw or recovery check at the end of their turn, they roll at the end of each of their turns.</p></li></ul><p class=\"MsoNormal\">From an encounter building perspective, paragon enemies are worth 1 additional creature of their level-1.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "hp"
+        ],
+        "value": "(@actor.system.attributes.hp.max)",
+        "label": "Paragon Hit Points"
+      }
+    ],
+    "slug": "paragon-enemy",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "BBKIO2ckys3b5imn",
+  "sort": 0,
+  "_key": "!items!BBKIO2ckys3b5imn"
+}

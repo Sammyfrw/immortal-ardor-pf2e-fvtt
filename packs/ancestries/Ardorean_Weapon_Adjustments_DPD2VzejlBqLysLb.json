@@ -1,0 +1,260 @@
+{
+  "name": "Ardorean Weapon Adjustments",
+  "type": "feat",
+  "img": "icons/weapons/swords/greatsword-crossguard-blue.webp",
+  "effects": [],
+  "folder": "8576ZvH7RTr23nRp",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a feature added onto characters to enable various rules adjustments and changes, as described in @UUID[Compendium.immortal-ardor.journals.rN7GRW2OrOZmmzr3]{Immortal Ardor Features &amp; Rules Adjustments}.</p><p>This feature specifically causes changes in how weapons work. Removing this feature returns weapons to how they would work by default.</p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "property": "description",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": [
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Backswing.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Backswing.Text",
+            "predicate": [
+              "item:trait:backswing"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Backstabber.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Backstabber.Text",
+            "predicate": [
+              "item:trait:backstabber"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Bomb.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Bomb.Text",
+            "predicate": [
+              "item:trait:bomb"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Grenade.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Grenade.Text",
+            "predicate": [
+              "item:trait:grenade"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Forceful.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Forceful.Text",
+            "predicate": [
+              "item:trait:forceful"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Maneuver.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Maneuver.Text",
+            "predicate": [
+              {
+                "or": [
+                  "item:trait:disarm",
+                  "item:trait:grapple",
+                  "item:trait:shove",
+                  "item:trait:trip"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Monk.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Monk.Text",
+            "predicate": [
+              "item:trait:monk"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Sweep.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Sweep.Text",
+            "predicate": [
+              "item:trait:sweep"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Twin.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Twin.Text",
+            "predicate": [
+              "item:trait:twin"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "property": "range-increment",
+        "mode": "add",
+        "predicate": [
+          "item:base:alchemical-bomb"
+        ],
+        "value": "10"
+      },
+      {
+        "definition": [
+          "item:base:alchemical-bomb"
+        ],
+        "key": "AdjustStrike",
+        "mode": "upgrade",
+        "property": "range-increment",
+        "value": 60,
+        "predicate": [
+          "feat:far-lobber"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack-roll"
+        ],
+        "value": 2,
+        "label": "Backswing",
+        "type": "circumstance",
+        "predicate": [
+          "item:trait:backswing",
+          "penalty:slug:multiple-attack-penalty"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack-roll"
+        ],
+        "value": 2,
+        "label": "Sweep",
+        "type": "circumstance",
+        "predicate": [
+          "item:trait:sweep",
+          "penalty:slug:multiple-attack-penalty"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": "2*(@weapon.system.damage.dice)",
+        "label": "Forceful 2nd Attack",
+        "selector": [
+          "strike-damage"
+        ],
+        "predicate": [
+          "item:trait:forceful",
+          "penalty:slug:multiple-attack-penalty"
+        ],
+        "type": "circumstance",
+        "slug": "forceful-second"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "3*(@weapon.system.damage.dice)",
+        "label": "Forceful 3rd+ Attack",
+        "selector": [
+          "strike-damage"
+        ],
+        "predicate": [
+          "item:trait:forceful",
+          "penalty:slug:multiple-attack-penalty"
+        ],
+        "type": "circumstance",
+        "slug": "forceful-third"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "2*(@weapon.system.damage.dice)",
+        "label": "Twin 2nd+ Attack",
+        "selector": [
+          "strike-damage"
+        ],
+        "predicate": [
+          "item:trait:twin",
+          "penalty:slug:multiple-attack-penalty"
+        ],
+        "type": "circumstance",
+        "slug": "twin-second"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "@weapon.system.damage.dice",
+        "label": "Backstabber",
+        "selector": [
+          "strike-damage"
+        ],
+        "predicate": [
+          "item:trait:backstabber",
+          "target:condition:off-guard"
+        ],
+        "type": "circumstance",
+        "slug": "backstabber",
+        "damageCategory": "precision"
+      }
+    ],
+    "slug": "ardorean-weapon-adjustments",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "ardorean-rules-adjustments"
+      ],
+      "value": [
+        "ardorean"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "DPD2VzejlBqLysLb",
+  "sort": 400000,
+  "_key": "!items!DPD2VzejlBqLysLb"
+}

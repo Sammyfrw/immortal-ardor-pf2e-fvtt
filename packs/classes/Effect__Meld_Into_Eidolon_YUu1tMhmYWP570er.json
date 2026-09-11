@@ -1,0 +1,69 @@
+{
+  "folder": "tKYwJu7t8BLOxKvZ",
+  "name": "Effect: Meld Into Eidolon",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Granted by @UUID[Compendium.immortal-ardor.classes.NbVUlANzg5iGLwA3]{Meld Into Eidolon (Ardorean)}</p><p class=\"MsoNormal\"><span>You are melded with your Eidolon. While melded, you are both under the effects of your choice of either @UUID[Compendium.pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon} or @UUID[Compendium.pf2e.spells-srd.TYbCj4dgXDOZou9k]{Reinforce Eidolon} if you have either cantrip, and at the start of each of your turns and when you cast this spell you decide who exists in the forefront of your space; you or your Eidolon. You use the senses, defenses, and speeds of whichever of you are in the forefront at a given time for the purpose of being targeted or in an area of an effect, only affecting the one in the forefront. The other creature retains their speeds but they are reduced to 0 and cannot be targeted.</span></p><p class=\"MsoNormal\"><span>While you and your eidolon are melded, only the one in the forefront has actions, and you have the same restrictions applied to the creature in the forefront, such as for the purpose of being able to cast spells, which Strikes you have access to, or if you can use items. However, you can use Tandem actions in this space as normal, and if you Act Together, the one not in the forefront can only take a single action. For the purpose of any summoner feats, you are considered adjacent and within reach of your eidolon, and vice-versa as you share a space, and you and your eidolon qualify as each other or both for the purpose of requirements or triggers (such as those that require the eidolon to be the target of an attack, or that require both of you to take damage).</span></p>"
+    },
+    "rules": [],
+    "slug": "t-effect-class-effect-template",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "YUu1tMhmYWP570er",
+  "sort": 0,
+  "_key": "!items!YUu1tMhmYWP570er"
+}

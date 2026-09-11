@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "DxPAAoI8pZhH4dow",
+  "name": "Class Feats",
+  "color": null,
+  "sorting": "a",
+  "_id": "PZKjzZjae4zQjrh1",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!PZKjzZjae4zQjrh1"
+}

@@ -20,6 +20,7 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "ardorean",
         "magical"
       ],
       "rarity": "rare",
@@ -77,9 +78,9 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.spells-srd.Item.h5UqEdeqK8iTcU0J",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.5.0",
     "exportSource": null
   },
   "ownership": {
@@ -88,6 +89,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "tyTDaeyXPtse7r1A",
-  "sort": 100000,
+  "sort": 700000,
   "_key": "!items!tyTDaeyXPtse7r1A"
 }

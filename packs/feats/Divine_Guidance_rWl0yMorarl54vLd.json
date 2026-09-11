@@ -1,0 +1,75 @@
+{
+  "folder": "oHLJpSBUq8cQHNPt",
+  "name": "Divine Guidance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You’re so immersed in divine scripture that you find meaning and guidance for any situation in your texts. Spend 10 minutes @UUID[Compendium.pf2e.actionspf2e.d9gbpiQjChYDYA2L]{Deciphering Writing} on religious scriptures of your deity or philosophy while thinking about a particular problem or conundrum you face, and then attempt a Religion check (DC determined by the GM).</p><p class=\"MsoNormal\">If you succeed, you unearth a relevant passage, parable, or aphorism that can help you move forward or change your thinking to help solve your conundrum. You gain a +1 circumstance bonus to all skill checks relating to solving your conundrum until it is solved or your next daily preparations.</p><p class=\"MsoNormal\">Once during the next 24 hours, you can use your Religion proficiency bonus when confronted with a skill check using another skill, as long as you meet any proficiency requirements for the attempt. If you use the intended skill, you gain a +2 circumstance bonus instead, or +4 if you critically succeeded the Decipher Writing check. Once you use this benefit, you cannot gain this benefit until your next daily preparations.</p>"
+    },
+    "rules": [],
+    "slug": "divine-guidance",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Legendary in Religion"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "rWl0yMorarl54vLd",
+  "sort": 0,
+  "_key": "!items!rWl0yMorarl54vLd"
+}

@@ -1,0 +1,107 @@
+{
+  "folder": "jt3vs7tVyJ5xQOEe",
+  "name": "Monastic Weaponry (Ardorean)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You have trained with the weaponry of your monastery or school. You gain access to uncommon weapons with the monk trait and become trained in simple and martial monk weapons. When your proficiency for unarmed attacks increases to expert or master, your proficiency rank for these weapons increases to expert or master as well. You also gain familiarity with advanced monk weapons, and treat these weapons as martial weapons. If you have familiarity with an agile or finesse weapon (such as from the Catfolk Weapon Familiarity feat), that weapon also gains the monk trait for you.</p><p class=\"MsoNormal\">You can use melee monk weapons with any of your monk feats or monk abilities that normally require unarmed attacks, but only if the weapon matches the unarmed attacks in some way such as sharing a damage type, a trait, or a similar attacking style. If you gain the critical specialization benefit for unarmed attacks—with the expert strikes class feature, for example— you also gain it with monk weapons.</p>"
+    },
+    "rules": [
+      {
+        "definition": [
+          "item:trait:monk",
+          {
+            "or": [
+              "item:category:simple",
+              "item:category:martial"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "maxRank": "master",
+        "sameAs": "unarmed",
+        "slug": "simple-martial-monk-weapons"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "feature:expert-strikes",
+          "item:trait:monk"
+        ]
+      },
+      {
+        "definition": [
+          "item:trait:monk",
+          "item:category:advanced"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.MartialProficiency.AdvancedMonasticWeaponry",
+        "sameAs": "martial",
+        "slug": "advanced-monastic-weaponry"
+      }
+    ],
+    "slug": "monastic-weaponry-ardorean",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ardorean",
+        "monk"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "4uzuNijCDAYXuD3g",
+  "sort": 100000,
+  "_key": "!items!4uzuNijCDAYXuD3g"
+}

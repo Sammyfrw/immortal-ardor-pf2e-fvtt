@@ -1,0 +1,89 @@
+{
+  "folder": "jt3vs7tVyJ5xQOEe",
+  "name": "Steel Grasp",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Attacks break themselves upon your body. When you parry with your fists or any of your unarmed attacks with the parry trait, the circumstance bonus to AC increases to +2. Any weapons with the Monk trait that you wield gain the parry trait; if they already have the parry trait, the circumstance bonus also increases to +2.</p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "parry",
+        "fromEquipment": false,
+        "itemType": "weapon",
+        "predicate": [
+          "item:trait:monk"
+        ]
+      }
+    ],
+    "slug": "steel-grasp",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "monk"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Blade Grasp"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "cd9pL5UEDLAeG7O4",
+  "sort": 0,
+  "_key": "!items!cd9pL5UEDLAeG7O4"
+}

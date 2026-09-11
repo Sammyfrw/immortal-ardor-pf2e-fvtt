@@ -1,0 +1,60 @@
+{
+  "folder": null,
+  "name": "Swap Handedness",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are holding an item that could feasibly be held in one or two hands and it is your turn.</p><hr><p class=\"MsoNormal\">You swap between ho<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">lding the item in one or two hands. This has no bearing on whether you can effectively wield or use the item you are holding with only a single hand, but it allows you to hold the item in one hand to have one hand free and potentially go back to holding it in both hands after to properly wield it. In most scenarios, this will apply to all 2-handed weapons, equipment or items of reasonable bulk, but some large items must always be held in two hands until stowed or dropped.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "swap-handedness",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manipulate"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "5iltxGZY9ggDpmtZ",
+  "sort": 0,
+  "_key": "!items!5iltxGZY9ggDpmtZ"
+}

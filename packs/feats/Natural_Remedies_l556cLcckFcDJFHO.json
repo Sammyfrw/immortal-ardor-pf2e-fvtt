@@ -1,0 +1,78 @@
+{
+  "folder": "oHLJpSBUq8cQHNPt",
+  "name": "Natural Remedies",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You know how to apply proper traditional remedies and poultices to tackle diseases and poisons, even though the principles and applications of modern medicine and alchemy might elude you. You can use Nature instead of Medicine to @UUID[Compendium.pf2e.actionspf2e.KjoCEEmPGTeFE4hh]{Treat Poison} and @UUID[Compendium.pf2e.actionspf2e.TC7OcDa7JlWbqMaN]{Treat Disease} at a -2 circumstance penalty.</p><p class=\"MsoNormal\">If you are a Master in Nature or Medicine, you do not suffer this circumstance penalty.</p>"
+    },
+    "rules": [],
+    "slug": "natural-remedies",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Expert in Nature"
+        },
+        {
+          "value": "Natural Medicine"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "l556cLcckFcDJFHO",
+  "sort": 0,
+  "_key": "!items!l556cLcckFcDJFHO"
+}

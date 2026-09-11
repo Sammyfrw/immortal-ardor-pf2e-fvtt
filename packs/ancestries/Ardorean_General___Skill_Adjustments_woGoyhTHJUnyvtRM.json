@@ -1,0 +1,327 @@
+{
+  "name": "Ardorean General & Skill Adjustments",
+  "type": "feat",
+  "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+  "effects": [],
+  "folder": "8576ZvH7RTr23nRp",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a feature added onto characters to enable various rules adjustments and changes, as described in @UUID[Compendium.immortal-ardor.journals.rN7GRW2OrOZmmzr3]{Immortal Ardor Features &amp; Rules Adjustments}.</p><p>This feature specifically causes changes in how general feats, skill feats, skills and skill feats work. Removing this feature returns these features to how they would work by default.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.MjQyTcV8Jiv1Jtln",
+        "predicate": [
+          {
+            "or": [
+              {
+                "gte": [
+                  "skill:arcana:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:nature:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:religion:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:occultism:rank",
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.feats.Item.2OjQBrPcXSdobZTO",
+        "predicate": [
+          {
+            "gte": [
+              "skill:crafting:rank",
+              1
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.0GF2j54roPFIDmXf",
+        "predicate": [
+          {
+            "gte": [
+              "skill:diplomacy:rank",
+              1
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt",
+        "predicate": [
+          {
+            "gte": [
+              "skill:medicine:rank",
+              1
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.5eNKs6738aykAhK2",
+        "predicate": [
+          {
+            "gte": [
+              "skill:thievery:rank",
+              1
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "traits",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "ardorean",
+        "predicate": [
+          {
+            "or": [
+              "item:impeccable-crafting",
+              "item:improvise-tool",
+              "item:recognize-spell",
+              "item:fortify",
+              "item:bon-mot",
+              "item:group-impression",
+              "item:group-coercion",
+              "item:intimidating-glare",
+              "item:battle-medicine",
+              "item:ward-medic",
+              "item:continual-recovery",
+              "item:natural-medicine",
+              "item:fascinating-performance",
+              "item:dirty-trick"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "description",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": [
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.RecognizeSpell.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.RecognizeSpell.Text",
+            "predicate": [
+              "item:recognize-spell"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.BonMot.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.BonMot.Text",
+            "predicate": [
+              "item:bon-mot"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.Fortify.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.Fortify.Text",
+            "predicate": [
+              "item:fortify"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GracefulLeaper.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GracefulLeaper.Text",
+            "predicate": [
+              "item:graceful-leaper"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GroupImpression.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GroupImpression.Text",
+            "predicate": [
+              "item:group-impression"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GroupCoercion.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.GroupCoercion.Text",
+            "predicate": [
+              "item:group-coercion"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.IntimidatingGlare.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.IntimidatingGlare.Text",
+            "predicate": [
+              "item:intimidating-glare"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.IntimidatingProwess.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.IntimidatingProwess.Text",
+            "predicate": [
+              "item:intimidating-prowess"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.BattleMedicine.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.BattleMedicine.Text",
+            "predicate": [
+              "item:battle-medicine"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.WardMedic.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.WardMedic.Text",
+            "predicate": [
+              "item:ward-medic"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.ContinualRecovery.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.ContinualRecovery.Text",
+            "predicate": [
+              "item:continual-recovery"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.NaturalMedicine.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.NaturalMedicine.Text",
+            "predicate": [
+              "item:natural-medicine"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.FascinatingPerformance.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.FascinatingPerformance.Text",
+            "predicate": [
+              "item:fascinating-performance"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.DirtyTrick.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.GeneralSkillFeats.DirtyTrick.Text",
+            "predicate": [
+              "item:dirty-trick"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "description",
+        "mode": "override",
+        "value": [
+          {
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.NaturalMedicine.ReplacementText"
+          }
+        ],
+        "predicate": [
+          "item:natural-medicine"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "property": "traits",
+        "mode": "remove",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "attack",
+        "predicate": [
+          {
+            "or": [
+              "item:dirty-trick"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "ardorean-general-skill-adjustments",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "ardorean-rules-adjustments"
+      ],
+      "value": [
+        "ardorean"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "woGoyhTHJUnyvtRM",
+  "sort": 200000,
+  "_key": "!items!woGoyhTHJUnyvtRM"
+}

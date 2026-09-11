@@ -1,0 +1,140 @@
+{
+  "folder": "SCCgpAyRT7dlR8wR",
+  "name": "Effect: Fortified",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A fortified item gains a circumstance bonus to its hardness equal to the effect's value and cannot be destroyed outright; If damage would destroy the item it remains broken at 1 hit point instead and its fortified status ends, though massive damage or specific circumstances might still destroy the item (such as it being thrown into lava). Depending on the type of item, being fortified also has different effects:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">A fortified improvised weapon does not suffer a -2 item penalty to attack rolls.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">A fortified piece of armor grants a +1 circumstance bonus to AC.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">A fortified, non-improvised weapon grants a +1 circumstance bonus to attack rolls.</p></li><li><p class=\"MsoListParagraphCxSpLast\">A fortified shield remains fortified for at least 1 minute. This does not ignore other conditions that would end its Fortified status early.</p></li></ul><p class=\"MsoNormal\"></p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "ownedItems": true,
+          "types": [
+            "weapon",
+            "armor",
+            "shield"
+          ]
+        },
+        "flag": "fortifiedItem",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Item",
+        "rollOption": "fortified-item"
+      },
+      {
+        "itemId": "{item|flags.system.rulesSelections.fortifiedItem}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "hardness",
+        "value": "@item.badge.value"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "not": "item:tag:improvised"
+          }
+        ],
+        "selector": [
+          "{item|flags.system.rulesSelections.fortifiedItem}-attack"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "value": 1,
+        "predicate": [
+          "fortified-armor"
+        ],
+        "type": "circumstance"
+      },
+      {
+        "key": "AdjustModifier",
+        "selectors": [
+          "{item|flags.system.rulesSelections.fortifiedItem}-attack"
+        ],
+        "slug": "improvised",
+        "predicate": [
+          "item:tag:improvised"
+        ],
+        "suppress": true
+      },
+      {
+        "domain": "ac",
+        "key": "RollOption",
+        "option": "fortified-armor",
+        "toggleable": true
+      }
+    ],
+    "slug": "effect-fortified",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": {
+      "type": "counter",
+      "value": 1,
+      "labels": null,
+      "min": null,
+      "max": null,
+      "loop": false
+    },
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/skills/melee/shield-block-gray-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Iab5xxxgR9bT97v0",
+  "sort": 100000,
+  "_key": "!items!Iab5xxxgR9bT97v0"
+}

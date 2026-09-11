@@ -1,0 +1,79 @@
+{
+  "folder": "Tm9CyxnYteWmg5hi",
+  "name": "Magical Onslaught (Ardorean)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your eidolon’s attack provides you an opening for one of your spells. Your eidolon makes a Strike against a creature, and then you cast a 1- or 2-action spell from your spell slots or a cantrip targeting the same creature. If you use a spell with your spell slots, you cannot use Magical Onslaught with your spell slots again until you Refocus or Cast a Link Spell with your focus points, whichever comes first.</p><p class=\"MsoNormal\">If your eidolon’s Strike hits, the creature is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} against your spell (if it requires a spell attack roll) or takes a –2 circumstance penalty to its save against your spell (if it requires a saving throw). If your eidolon’s Strike and the spell deal the same type of damage, combine the damage of both for the purpose of resistances and weaknesses. Both your eidolon’s attack and any spell attack roll you make count toward your multiple attack penalty, but the penalty doesn’t increase until after both attacks have been made.</p>"
+    },
+    "rules": [],
+    "slug": "magical-onslaught-ardorean",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ardorean",
+        "summoner",
+        "tandem"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "77sLEpTEmBuRLq1w",
+  "sort": 0,
+  "_key": "!items!77sLEpTEmBuRLq1w"
+}

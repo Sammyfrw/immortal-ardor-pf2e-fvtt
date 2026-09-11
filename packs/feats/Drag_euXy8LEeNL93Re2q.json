@@ -1,0 +1,62 @@
+{
+  "folder": null,
+  "name": "Drag",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\">You attempt to drag a willing or unconscious creature or an object. Attempt an @Check[athletics] check. If half the creature or object’s total bulk (including equipment that is carried) is equal to or less than your bulk limit, you can never get a result below a success. The DC of the check is typically equal to the bulk of the creature or object.</p><p class=\"MsoNormal\"><strong>Critical Success</strong> You move yourself and the target a distance in a single direction equal to your speed.</p><p class=\"MsoNormal\"><strong>Success</strong> You move yourself and the target a distance in a single direction equal to half your speed.</p><p class=\"MsoNormal\"><strong>Failure</strong> You drag the creature or object and move yourself five feet.</p><p class=\"MsoNormal\"><strong>Critical</strong> Failure You fail to drag the creature or object.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "drag",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manipulate",
+        "move",
+        "traversal"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "euXy8LEeNL93Re2q",
+  "sort": 0,
+  "_key": "!items!euXy8LEeNL93Re2q"
+}

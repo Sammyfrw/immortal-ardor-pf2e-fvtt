@@ -1,0 +1,87 @@
+{
+  "name": "Magic Pulse",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You send out a pulse to detect the presence of magic. You receive no information beyond the presence or absence of magic, and you can choose to ignore magic you’re fully aware of, such as the magic items and ongoing spells of you and your allies. When you Sustain this spell, you can either send out a pulse again as if you had cast the spell with its magical manifestations, or focus your attention on a single object or source of a magical aura. If you focus on a magical object or source for 1 uninterrupted minute, you or anyone you advise about the aura gains a +2 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.eReSHVEPCsdkSL4G]{Identify Magic} on the item. Time you spend sustaining this spell to focus on a source of magic contributes to your own time spent to Identify Magic.</p><p class=\"MsoNormal\">You detect illusion magic only if that magic’s effect has a lower rank than your magic pulse spell. However, sources that have an illusion aura but aren’t deceptive in appearance (such as an invisibility potion) are detected normally.</p><hr><p class=\"MsoNormal\"><strong>Heightened (3rd)</strong> When you pulse, you learn the rank or level of the most powerful effect the spell detects, as determined by the GM. When you focus, you can target up to 10 sources of magic in the emanation and learn each an approximation of their function, such as their functional spell category. You can only contribute the time spent focusing to Identify one magical source.</p><p class=\"MsoNormal\"><strong>Heightened (4th) </strong>As 3rd, but when you pulse you pinpoint the source of the highest rank magic. Like for an imprecise sense, you don’t learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p><p class=\"MsoNormal\"><strong>Heightened (6th) </strong>As 4th, but when you Focus you can target any number of objects in the emanation.<br style=\"mso-special-character:line-break;page-break-before:always\"></p>"
+    },
+    "rules": [],
+    "slug": "magic-pulse",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "detection",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal",
+        "divine",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 30,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "10 minutes",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/symbols/circle-ouroboros.webp",
+  "folder": "fNyvBi1FuzhzXM05",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "CahQ631BUDH290iI",
+  "sort": 0,
+  "_key": "!items!CahQ631BUDH290iI"
+}

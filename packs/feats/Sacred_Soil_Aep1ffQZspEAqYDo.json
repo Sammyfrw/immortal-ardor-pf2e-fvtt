@@ -1,0 +1,81 @@
+{
+  "folder": "oHLJpSBUq8cQHNPt",
+  "name": "Sacred Soil",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your ability to create a healing space in the name of your deity improves. When you use Holy or Unholy Water in your Font of Recovery, the amount of healing increases to @Damage[12[healing]] hit points on a success if the check succeeds against a DC of 30, or @Damage[24[healing]] hit points if it was a critical success.</p><p class=\"MsoNormal\">You can spend an additional vial of Holy or Unholy Water before making your Religion check to grant an additional bonus of your choice, conferred to a creature benefiting from your font of recovery when they first leave your sacred space:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">You grant 5 temporary hit points for 1 hour. This increases to 10 points if you become Legendary in Religion.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">You grant a +1 status bonus to AC or saving throws. This bonus lasts for 1 hour or against the next attack or spell made by creatures who are enemies of your deity or has the opposite sanctification of the water used. This bonus increases to +2 if you become Legendary in Religion.</p></li><li><p class=\"MsoListParagraphCxSpLast\">You double the healing from resting in the space after 30 minutes, rather than an hour. You double the healing after 10 minutes instead if you become Legendary in Religion.</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "sacred-soil",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "exploration",
+        "healing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Font of Recovery"
+        },
+        {
+          "value": "Master in Religion"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Aep1ffQZspEAqYDo",
+  "sort": 0,
+  "_key": "!items!Aep1ffQZspEAqYDo"
+}

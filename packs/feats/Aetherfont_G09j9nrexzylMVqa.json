@@ -24,6 +24,13 @@
       {
         "key": "GrantItem",
         "uuid": "{item|flags.pf2e.rulesSelections.aetherfont}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.resources.focus.max",
+        "priority": 10,
+        "value": 3
       }
     ],
     "slug": "aetherfont",
@@ -63,7 +70,7 @@
   },
   "_id": "G09j9nrexzylMVqa",
   "img": "icons/commodities/treasure/token-gold-gem-red.webp",
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -74,7 +81,7 @@
     "duplicateSource": null,
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "exportSource": null
   },
   "_key": "!items!G09j9nrexzylMVqa"

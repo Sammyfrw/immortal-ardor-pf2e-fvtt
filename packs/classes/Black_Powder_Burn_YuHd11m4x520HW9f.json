@@ -1,0 +1,110 @@
+{
+  "folder": "jt3vs7tVyJ5xQOEe",
+  "name": "Black Powder Burn",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Requirements</strong> You are in Black Powder Stance.</p><div><hr></div><p class=\"MsoNormal\">You know how to take advantage of your firearms in close proximity, leaving your opponents burned with little chance to retaliate. When you successfully Strike an opponent with the melee half of a combination weapon, a bayonet or reinforced stock attached to a firearm, the next ranged Strike you make against that opponent doesn’t trigger reactions from making a ranged attack. When you make a successful ranged Strike against an opponent within melee reach with a firearm, the next melee Strike with the melee half of a combination weapon, a bayonet or reinforced stock attached to a firearm deals an additional 1 fire damage and 1 persistent fire damage per weapon damage die. If the ammunition used deals a different type of energy damage, the additional damage uses that type of damage instead, at the GM’s discretion.</p><p class=\"MsoNormal\">These benefits on your next Strike are lost if not used by the end of your next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "black-powder-burn",
+        "toggleable": true,
+        "label": "IA.SpecificRule.Feats.BlackPowderBurn.Label",
+        "domain": "all"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "@weapon.system.damage.dice",
+        "type": "circumstance",
+        "predicate": [
+          "black-powder-burn"
+        ],
+        "damageType": "fire",
+        "selector": [
+          "melee-strike-damage"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": "@weapon.system.damage.dice",
+        "type": "circumstance",
+        "predicate": [
+          "black-powder-burn"
+        ],
+        "damageType": "fire",
+        "damageCategory": "persistent",
+        "selector": [
+          "melee-strike-damage"
+        ]
+      }
+    ],
+    "slug": "black-powder-burn",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "monk"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Black Powder Stance"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "YuHd11m4x520HW9f",
+  "sort": 800000,
+  "_key": "!items!YuHd11m4x520HW9f"
+}

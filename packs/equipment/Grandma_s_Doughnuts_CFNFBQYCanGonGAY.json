@@ -1,0 +1,107 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Grandma's Doughnuts",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> 150 sp<br><strong>Ingredients</strong> 2 basic, 2 special<br><strong>Preparation</strong> </span>DC 23 Cooking Lore, DC 25 Survival<br><strong>Requirements</strong> Improved Kitchen, plus Magical or Alchemical Crafting OR Magic Kitchen<br><strong>Favorite Meal</strong> Your item bonus to saving throws increases to +2 against effects with the Mental trait.</p><hr><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">A Grimcity special, Grandma's Doughnuts is often a reference to a particular brand of doughnuts that just remind you of what your departed family members used to make. Even so, a properly made Grandma's Doughnut fills you with more fondness than ennui, as its specifically baked and enchanted to lift your spirits as if you were young again and remember the moments of joy and solace during your youth. Despite this, those learning to make it for the first time end up pouring the wrong emotions and create a batch that does the exact opposite and fills its consumer with time and people lost. This particular off-brand is surprisingly popular in its own right, finding its ways into pubs of Grimcity for those looking to indulge their sorrows.</span></p><p>Once consumed, a single Grandma's Doughnut grants a +1 item bonus to saving throws for 24 hours, or until your next daily preparations, whichever comes first. If they already benefit from an item bonus, increase this item bonus by that amount instead.</p><p>@UUID[Compendium.immortal-ardor.equipment.DLn9NDo67e4I7FiP]{Effect: Grandma's Doughnuts}</p>"
+    },
+    "rules": [],
+    "slug": "grandmas-doughnuts",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "consumable"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 30
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/meat/chicken-breast-raw-pink.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "spell": null
+  },
+  "img": "icons/consumables/food/dried-fruit-candy-brown.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "CFNFBQYCanGonGAY",
+  "sort": 0,
+  "_key": "!items!CFNFBQYCanGonGAY"
+}

@@ -1,0 +1,78 @@
+{
+  "folder": "oHLJpSBUq8cQHNPt",
+  "name": "Survivalist Training",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have the important skills necessary to hunt for game when you need it. You can use Survival in place of Crafting to Craft snares. You can use your Survival proficiency to meet the requirements of feats that require Crafting proficiency that also require @UUID[Compendium.pf2e.feats-srd.DMetdzt1VJL2Y62i]{Snare Crafting}.</p>"
+    },
+    "rules": [],
+    "slug": "survivalist-training",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in Survival"
+        },
+        {
+          "value": "Snare Crafting"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "TMCJG02bSJjrFEWJ",
+  "sort": 0,
+  "_key": "!items!TMCJG02bSJjrFEWJ"
+}

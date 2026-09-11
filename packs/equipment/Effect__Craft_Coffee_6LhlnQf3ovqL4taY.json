@@ -92,15 +92,15 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.6LhlnQf3ovqL4taY",
     "duplicateSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "6.9.0",
     "exportSource": null
   },
   "effects": [],
-  "folder": "I3N0LWkmyhk7xTuc",
+  "folder": "dNjLquRCjxxktPVQ",
   "flags": {},
-  "sort": 900000,
+  "sort": 400000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

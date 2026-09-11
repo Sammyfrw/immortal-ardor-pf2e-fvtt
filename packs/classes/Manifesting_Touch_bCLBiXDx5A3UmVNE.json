@@ -1,0 +1,70 @@
+{
+  "folder": "5anod6ADrJpDCxmQ",
+  "name": "Manifesting Touch",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><strong>Trigger</strong> You roll initiative, you used an action or ability to unmanifest your eidolon, or you cast a Link Spell.</p><div><p class=\"MsoNormal\"><strong>Requirements</strong> An action or ability you used to unmanifest your eidolon did not involve reducing them to 0 hit points or killing them.</p><hr></div><p class=\"MsoNormal\">The boundaries of planes are at your fingertips, and you are ever ready to summon entities through them. If you use @UUID[Compendium.pf2e.actionspf2e.n5vwBnLSlIXL9ptp]{Manifest Eidolon} by the end of your next turn, the activity or spell costs 1 fewer actions (minimum 1).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": [
+          "initiative"
+        ],
+        "text": "{item|description}",
+        "title": "{item|name} <span class=\"action-glyph\">F</span>"
+      }
+    ],
+    "slug": "manifesting-touch",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "summoner"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "bCLBiXDx5A3UmVNE",
+  "sort": 0,
+  "_key": "!items!bCLBiXDx5A3UmVNE"
+}

@@ -1,0 +1,92 @@
+{
+  "folder": "yhyZdU156PVdNMsp",
+  "name": "Void Shark Teeth",
+  "type": "treasure",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.1"
+      }
+    },
+    "description": {
+      "value": "<p>The teeth of a void shark is able to rend and tear through hulls of whole ships, and is made up of a material that can be used in a great deal of goods. Few would dare to hunt them for just their teeth alone, but scavengers prize wreckages of a void shark attack because a single bundle of teeth can fetch a great price.</p><p>Void Sharks are rare, terrifying creatures, but when one manages to slay a great beast such as them, they are rewarded with plenty. To devour and sink whole ships and cosmic creatures, the void shark's internal digestive system is made up of some of the most mana-dense and acidic organs. Even so, it could take weeks for cargo to be digested, so a hunter of void sharks is often rewarded with ample, albeit damaged, goods, and organs that can fetch massive amounts of credits on the black market.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "void-shark-teeth",
+    "traits": {
+      "value": [],
+      "rarity": "rare",
+      "otherTags": []
+    },
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "category": null,
+    "containerId": null,
+    "equipped": {
+      "carryType": "worn"
+    },
+    "hardness": 0,
+    "hp": {
+      "max": 0,
+      "value": 0
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "img": "systems/pf2e/icons/default-icons/treasure.svg",
+        "name": "Unusual Treasure",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "level": {
+      "value": 11
+    },
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "price": {
+      "value": {
+        "gp": 75
+      },
+      "per": 1
+    },
+    "quantity": 1,
+    "size": "med",
+    "temporary": false
+  },
+  "img": "systems/pf2e/icons/equipment/treasure/art-objects/greater-art-object/ancient-dragon-skull-etched-with-mystic-sigils.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "GubmjFmV0ye6jxxt",
+  "sort": 0,
+  "_key": "!items!GubmjFmV0ye6jxxt"
+}

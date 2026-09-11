@@ -1,0 +1,93 @@
+{
+  "folder": "SCCgpAyRT7dlR8wR",
+  "name": "Effect: Maneuver Weapon",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by weapons with the appropriate trait.</p><p>You have or are using a weapon or have an unarmed attack with the Disarm, Grapple, Shove or Trip trait. When you use this weapon to perform the maneuever, you can benefit from the target's off-guard status.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Maneuever.WeaponManeuverLabel",
+        "option": "maneuver-weapon",
+        "toggleable": true
+      },
+      {
+        "key": "EphemeralEffect",
+        "uuid": "Compendium.immortal-ardor.equipment.Item.gacAkWOIc23aR4sO",
+        "predicate": [
+          "target:condition:off-guard",
+          {
+            "or": [
+              "action:disarm",
+              "action:grapple",
+              "action:shove",
+              "action:trip"
+            ]
+          },
+          "maneuver-weapon"
+        ],
+        "selectors": "skill-check"
+      }
+    ],
+    "slug": "effect-maneuver-weapon",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "systems/pf2e/icons/conditions/grabbed.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "FgCLUHcWx97ZSbJU",
+  "sort": 0,
+  "_key": "!items!FgCLUHcWx97ZSbJU"
+}

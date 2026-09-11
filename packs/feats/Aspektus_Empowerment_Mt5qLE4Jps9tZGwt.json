@@ -1,0 +1,83 @@
+{
+  "folder": "oHLJpSBUq8cQHNPt",
+  "name": "Aspektus Empowerment",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You pull at the specific enchantments within a magical item, and enhance it with imbued strength. In the process, the enhancement is sequestered in a way that it can easily be made to keep up with your own power.</p><p class=\"MsoNormal\">You take a magical permanent item that does not have the aspektus trait and spend a number of workdays and materials to improve it, as if you were using @UUID[Compendium.pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Craft} to make a magical permanent item. You improve the item to a level of your choice, up to your level and what your proficiency in the magical tradition skill relevant to the item or Crafting skill would allow. The Crafting check would cost as much as crafting the original item. For the Crafting checks, you can use a relevant tradition skill in place of Crafting if your modifier is higher.</p><p class=\"MsoNormal\">If you succeed on this attempt, the item is empowered and gains the aspektus trait. The item’s level is increased to the level you chose, and any listed DCs or modifier bonuses on the item’s activations or effects is increased to values matching this new level. If an enhanced version of the item exists and the new item is of its level or greater (such as if you improve a @UUID[Compendium.pf2e.equipment-srd.TVpEf9gMFUuwfGoU]{Resonating Fork} and there exists the @UUID[Compendium.pf2e.equipment-srd.WvrPq0UGEX3wJg4a]{Resonating Fork (Greater)}), you can take an additional workday and spend the material cost difference (adjusted for your crafting outcome) to convert the item to the enhanced version.</p><p class=\"MsoNormal\">If you have an item with the aspektus trait, you can attempt a single check to improve the item’s level and its corresponding DCs and modifier bonuses over the course of a single workday at no monetary cost, though if you wish to change the item to an enhanced version of the item, you must spend the workdays and material cost as if it did not have the trait, as above.</p>"
+    },
+    "rules": [],
+    "slug": "aspektus-empowerment",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ether",
+        "exploration",
+        "magical",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Magical Crafting"
+        },
+        {
+          "value": "Expert in Arcana, Religion, Occultism or Nature"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Mt5qLE4Jps9tZGwt",
+  "sort": 600000,
+  "_key": "!items!Mt5qLE4Jps9tZGwt"
+}

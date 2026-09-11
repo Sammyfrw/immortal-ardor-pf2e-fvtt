@@ -1,0 +1,94 @@
+{
+  "folder": "oHLJpSBUq8cQHNPt",
+  "name": "Foster The Grove",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You can commune with nature and the elements to let you weave a place of your own, no matter where you are.</p><p class=\"MsoNormal\">Over the course of an hour, you beckon animals, plants, or elemental spirits to help create a secluded, safe space for you and for them. Roll a Nature check at a DC determined by the GM. Depending on the kinds of animals, plants, or elemental spirits in the area, the nature of where you are, and the types of feats you have taken, the DC should be adjusted to be easier (such as the ability to be able to speak or tame animals, or commune with spirits).</p><p class=\"MsoNormal\">On a success, you create or find a secluded grove of rest appropriate to the area for you, your companions and the creatures and spirits you beckon. The grove remains until you move it, or until you leave it for a week, after which the beckoned flora and fauna return to their normal lives. You can move the grove without repeating this check by spending an hour in a new location within several miles from it, as long as the biome or environmental conditions have not changed significantly.</p><p class=\"MsoNormal\">While in the grove, you are kept safe from weather and temperature, and anyone you do not want to find the grove must overcome your Nature DC if they only use mundane, non-magical means. While in the general vicinity of the grove (approximately 1 mile), any Nature feats you use that require a period of time can be completed in half its listed time, and you and your allies gain a +2 circumstance bonus to any exploration activity checks or initiative rolls if the beckoned creatures can feasibly assist in them (even if they might not be able to directly speak or communicate). On a critical success, the DC to find your grove increases by 2 and the circumstance bonuses increases to +3.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "foster-the-grove",
+        "toggleable": true,
+        "label": "IA.SpecificRule.Feats.FosterTheGrove.Label"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "type": "circumstance",
+        "selector": [
+          "skill-check",
+          "initiative"
+        ],
+        "predicate": [
+          "foster-the-grove"
+        ]
+      }
+    ],
+    "slug": "foster-the-grove",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Legendary in Nature"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "k6wTCdwRLwI6D1jm",
+  "sort": 0,
+  "_key": "!items!k6wTCdwRLwI6D1jm"
+}

@@ -1,0 +1,93 @@
+{
+  "folder": "XSsYQlf1gNFTZvXi",
+  "name": "Summoner's Tactics",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You and your eidolon have a dedicated way to complement each other’s style of combat and your skill as a conjurer. You gain the @UUID[Compendium.immortal-ardor.classes.bCLBiXDx5A3UmVNE]{Manifesting Touch} free action, which allows you to more readily call for your Eidolon. You also gain your choice of either the @UUID[Compendium.pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon} or @UUID[Compendium.pf2e.spells-srd.TYbCj4dgXDOZou9k]{Reinforce Eidolon} link cantrips, and your choice of tactic grants you an additional class feat and link spell.</p><ul><li><p class=\"MsoNormal\">@UUID[Compendium.immortal-ardor.classes.Item.Vk8iFqBSRndWATwX]{Riftcaller}</p></li><li><p>@UUID[Compendium.immortal-ardor.classes.Item.0u82rcgcDJcxMUJO]{Synthesist}</p></li></ul>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:summoner-summoners-tactics"
+          ]
+        },
+        "flag": "summonersTactic",
+        "key": "ChoiceSet",
+        "prompt": "Select a Summoner's Tactic."
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.summonersTactic}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.bCLBiXDx5A3UmVNE"
+      }
+    ],
+    "slug": "summoners-tactics",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "uFAGtw5D0YGbhiRA",
+  "sort": 0,
+  "_key": "!items!uFAGtw5D0YGbhiRA"
+}

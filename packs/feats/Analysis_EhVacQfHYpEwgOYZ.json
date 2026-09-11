@@ -1,0 +1,77 @@
+{
+  "folder": "oHLJpSBUq8cQHNPt",
+  "name": "Analysis",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You use your skills of your trade to inspect an object, hazard or creature for potential weak points, structural soundness, or material composition.</p><p class=\"MsoNormal\">You Recall Knowledge on a creature, hazard or object with a skill that applies to this check. You must be at least trained in the applicable skill to analyze it. If it is a creature, you take a -2 circumstance penalty to this check unless you are trained in the skill that you would normally use to Recall Knowledge on the creature, such as Arcana or Nature.</p><p class=\"MsoNormal\">On a critical success, you learn of the target’s immunities, resistances or weaknesses, as well as any potential qualities that are relevant (such as hardness on a construct). You do not learn any additional information. On a success, you choose one of these qualities.</p><p class=\"MsoNormal\">Examples of applicable skills for a given creature or object might include:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Computers</strong>: Creatures with the Tech trait, computer-based machinery</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Crafting</strong>: Creatures with the Construct trait, mechanical traps, building structures</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Medicine</strong>: Organic creatures, poisonous traps</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Thievery</strong>: Heavily armored or plated creatures, traps, chests</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "t-general-skill-feat-template",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Expert in Computers, Crafting, Medicine or Thievery"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "EhVacQfHYpEwgOYZ",
+  "sort": 500000,
+  "_key": "!items!EhVacQfHYpEwgOYZ"
+}

@@ -16,7 +16,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\"><strong>Cost: </strong>Precious gems worth 50 gp total and a magical item, which would be bound to the target</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\">You create a bond between an item with a creature. The creature can be a secondary caster, or a creature you know that you designate upon beginning this ritual. As part of the ritual, the item becomes an Invested item, and if the creature is a secondary caster they can immediately be invested and bound with the item. If the creature is not, they must invest the item within 12 hours to be able to bind to it. An item that is soulbound to a creature cannot confer any of its magical benefits or be invested to any other creature except the one it is bound to. The item becomes unbound and loses the effect of this ritual when a Dispel Soulbind ritual is successfully cast on the item beating the item's DC, or when the bound target dies.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\">Either way, when you perform this ritual on an item, the aetherial signature of the Primary Caster is left on it, as well as the aetherial signature of the person who it is soulbound to. When a soulbound item is identified, these aetherial signatures can be found as long as the attempt to identify beats the item's DC.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\"><strong style=\"box-sizing:border-box;user-select:text\">Critical Success</strong> The DC of the item is set to 2 plus the primary caster's highest spellcasting DC. If the item has a DC (such as for an activation effect) it is increased to 2 plus the primary caster's spellcasting DC.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\"><strong style=\"box-sizing:border-box;user-select:text\">Success</strong> The DC of the item is set to the primary caster's highest spellcasting DC. If the item has a DC (such as for an activation effect) it is increased to the primary caster's spellcasting DC.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\"><strong style=\"box-sizing:border-box;user-select:text\">Failure</strong> The ritual has no effect, and the item rejects your attempts to bind onto it for 1 day.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;font-family:Signika, sans-serif;color:#191813\"><strong style=\"box-sizing:border-box;user-select:text\">Critical Failure </strong>Your soulbinding effect backfires, which causes the item to actively reject your attempts from binding onto it for 1 week.</p>"
+      "value": "<p>You create a bond between an item with a creature. The creature can be the primary caster, the secondary caster, or a creature you know that you designate upon beginning this ritual. As part of the ritual, the item becomes soulbound to your designated creature, and if the creature is a caster of the ritual they can immediately be invested with the item. If the creature is not, they must invest the item within 12 hours to be able to soulbind to it, or else the binding will not take hold and the ritual ends.</p><p>An item that is soulbound to a creature cannot confer any of its magical benefits or be invested by any other creature except the one it is bound to. To remove the binding on the item, the target bound creature must die, or take part in another Soulbind Object ritual specifically to remove it.</p><p>Regardless, the aetherial signature of the primary caster and the person who is soulbound to the item is left onto it, and when a soulbound item is identified, these signatures can be felt upon it, as is its soulbound status.</p><p><strong>Critical Success</strong> The binding is exceptionally strong and meticulous. The signature of the primary caster and the creature bound to the item is well hidden and anyone identifying the object must also beat the spell DC or skill DC of the primary caster to see them.</p><p><strong>Success</strong> The item is successfully bound to the creature.</p><p><strong>Failure</strong> The ritual has no effect, and the item rejects your attempts to bind onto it for 1 day.</p><p><strong>Critical Failure</strong> Your soulbinding effect backfires, which causes the item to actively reject your attempts from binding onto it for 1 week.</p>"
     },
     "rules": [],
     "slug": "soulbind-object",
@@ -31,7 +31,10 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "ether",
+        "magical"
+      ],
       "rarity": "common",
       "traditions": []
     },
@@ -46,7 +49,7 @@
     },
     "requirements": "",
     "target": {
-      "value": ""
+      "value": "The magical item and a target creature, see below"
     },
     "range": {
       "value": ""
@@ -62,7 +65,7 @@
     "damage": {},
     "defense": null,
     "cost": {
-      "value": ""
+      "value": "A magical item to bind to the target and precious gems worth 50 gp times the level of the item."
     },
     "location": {
       "value": null
@@ -81,9 +84,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.5.0",
     "exportSource": null
   },
   "ownership": {
@@ -92,6 +95,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "REGkxrnXSqSl4fyc",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!items!REGkxrnXSqSl4fyc"
 }

@@ -208,6 +208,7 @@
           "ritual-blade": "IA.BaseWeapon.RitualBlade",
           "roaring-revolver": "IA.BaseWeapon.RoaringRevolver",
           "rootrazor": "IA.BaseWeapon.Rootrazoor",
+          "scepter": "IA.BaseWeapon.Scepter",
           "sickle-rifle": "IA.BaseWeapon.SickleRifle",
           "sidewinder": "IA.BaseWeapon.Sidewinder",
           "somnic-blade": "IA.BaseWeapon.SomnicBlade",
@@ -228,6 +229,7 @@
           "eirlanggan": "IA.Language.Eirlanggan",
           "gardic": "IA.Language.Gardic",
           "garrungan": "IA.Language.Garrungan",
+          "herkish": "IA.Language.Herkish",
           "high-icaro": "IA.Language.HighIcaro",
           "icaro": "IA.Language.Icaro",
           "irilynko": "IA.Language.Irilynko",
@@ -238,7 +240,9 @@
           "murcielan": "IA.Language.Murcielan",
           "navarren": "IA.Language.Navarren",
           "new-rogalian": "IA.Language.NewRogalian",
+          "oderivan": "IA.Language.Oderivan",
           "old-rogalian": "IA.Language.OldRogalian",
+          "perigian": "IA.Language.Perigian",
           "ravarren": "IA.Language.Ravarren",
           "remin": "IA.Language.Remin",
           "roddan": "IA.Language.Roddan",
@@ -247,6 +251,7 @@
           "schattenspeak": "IA.Language.Schattenspeak",
           "scrawl": "IA.Language.Scrawl",
           "uduuri": "IA.Language.Uduuri",
+          "varenzian": "IA.Language.Varenzian",
           "yethyenko": "IA.Language.Yethyenko",
           "zahnheimen": "IA.Language.Zahnheimen"
         },
@@ -386,6 +391,10 @@
           }
         },
         "equipmentTraits": {
+          "aspektus": {
+            "label": "IA.Trait.Aspektus",
+            "description": "IA.TraitDescription.Aspektus"
+          },
           "catalogue": {
             "label": "IA.Trait.Catalogue",
             "description": "IA.TraitDescription.Catalogue"
@@ -423,6 +432,14 @@
           "aelkhazak": {
             "label": "IA.Trait.Aelkhazak",
             "description": "IA.TraitDescription.Aelkhazak"
+          },
+          "aetherfont": {
+            "label": "IA.Trait.Aetherfont",
+            "description": "IA.TraitDescription.Aetherfont"
+          },
+          "ardorean": {
+            "label": "IA.Trait.Ardorean",
+            "description": "IA.TraitDescription.Ardorean"
           },
           "anima": {
             "label": "IA.Trait.Anima",
@@ -532,10 +549,6 @@
             "label": "IA.Trait.Mana",
             "description": "IA.TraitDescription.Mana"
           },
-          "aetherfont": {
-            "label": "IA.Trait.Aetherfont",
-            "description": "IA.TraitDescription.Aetherfont"
-          },
           "pinotr": {
             "label": "IA.Trait.Pinotr",
             "description": "IA.TraitDescription.Pinotr"
@@ -574,6 +587,14 @@
           }
         },
         "spellTraits": {
+          "aetherfont": {
+            "label": "IA.Trait.Aetherfont",
+            "description": "IA.TraitDescription.Aetherfont"
+          },
+          "ardorean": {
+            "label": "IA.Trait.Ardorean",
+            "description": "IA.TraitDescription.Ardorean"
+          },
           "anima": {
             "label": "IA.Trait.Anima",
             "description": "IA.TraitDescription.Anima"
@@ -638,10 +659,6 @@
             "label": "IA.Trait.Mana",
             "description": "IA.TraitDescription.Mana"
           },
-          "aetherfont": {
-            "label": "IA.Trait.Aetherfont",
-            "description": "IA.TraitDescription.Aetherfont"
-          },
           "meditation": {
             "label": "IA.Trait.Meditation",
             "description": "IA.TraitDescription.Meditation"
@@ -649,6 +666,10 @@
           "order": {
             "label": "IA.Trait.Order",
             "description": "IA.TraitDescription.Order"
+          },
+          "ritual": {
+            "label": "IA.Trait.Ritual",
+            "description": "IA.TraitDescription.Ritual"
           },
           "runic": {
             "label": "IA.Trait.Runic",
@@ -658,10 +679,6 @@
             "label": "IA.Trait.Telluric",
             "description": "IA.TraitDescription.Telluric"
           }
-        },
-        "weaponGroups": {
-          "scepter": "IA.WeaponGroups.Scepter",
-          "twinblade": "IA.WeaponGroups.Twinblade"
         },
         "weaponTraits": {
           "aelkhazak": {
@@ -675,6 +692,10 @@
           "anima": {
             "description": "IA.TraitDescription.Anima",
             "label": "IA.Trait.Anima"
+          },
+          "aspektus": {
+            "label": "IA.Trait.Aspektus",
+            "description": "IA.TraitDescription.Aspektus"
           },
           "avekiri": {
             "label": "IA.Trait.Avekiri",
@@ -763,6 +784,10 @@
           "nascent-primal": {
             "description": "IA.TraitDescription.Nascent",
             "label": "IA.Trait.NascentPrimal"
+          },
+          "scepter": {
+            "description": "IA.TraitDescription.Scepter",
+            "label": "IA.BaseWeapon.Scepter"
           },
           "soulforged": {
             "description": "IA.TraitDescription.Soulforged",

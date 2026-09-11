@@ -1,0 +1,81 @@
+{
+  "folder": "jt3vs7tVyJ5xQOEe",
+  "name": "Return Fire (Ardorean)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e.feats-srd.Item.YG2RxXE9SMfwo6wP]{Monastic Archer Stance}, are wielding a bow or crossbow, and have a free hand, or you are in @UUID[Compendium.immortal-ardor.classes.lLSCropOXvzTDUF6]{Black Powder Stance} and are wielding a firearm.</p><hr><p>You can ensure whoever fired a ranged weapon your way regrets it. When you @UUID[Compendium.pf2e.feats-srd.sgaqlDFTVC7Ryurt]{Deflect Projectile} that corresponds to your type of weapon and stance, you can retaliate with their own projectile, making a ranged Strike from your own weapon by firing the ammunition you deflected. You might snatch the arrow or bolt out of the air into your own weapon, or deflect the shot right back into their direction.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ardorean",
+        "monk"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Deflect Projectile"
+        },
+        {
+          "value": "Monastic Archer Stance or Black Powder Stance"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "DuVVakzjFBdQkF4u",
+  "sort": 200000,
+  "_key": "!items!DuVVakzjFBdQkF4u"
+}

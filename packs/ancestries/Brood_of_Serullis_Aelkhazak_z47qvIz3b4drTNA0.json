@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p class=\"MsoNormal\">Your Tributary was of Serullis’ brood, who was the first to set out to reclaim and rebuild what was lost by acquiring vestiges of forgotten knowledge. As a result, your upbringing involved substantial study or searches for knowledge that could be shared with your people. You gain the Additional Lore feat twice, or the Aelkhazak Lore ancestry feat.</p>",
+      "value": "<p class=\"MsoNormal\">Your Tributary was of Serullis’ brood, who was the first to set out to reclaim and rebuild what was lost by acquiring vestiges of forgotten knowledge. As a result, your upbringing involved substantial study or searches for knowledge that could be shared with your people. You gain the @UUID[Compendium.pf2e.feats-srd.BocFD2KV0qgUC76x]{Additional Lore} feat twice, or the @UUID[Compendium.immortal-ardor.ancestries.LbQUKKxicXUVTSBi]{Aelkhazak Lore} ancestry feat.</p>",
       "gm": ""
     },
     "publication": {
@@ -40,7 +40,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

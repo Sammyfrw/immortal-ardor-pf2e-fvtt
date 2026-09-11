@@ -16,7 +16,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You take a profaned or cursed item, or a section of a location that has been profaned and attempt to purify it in a ritual. The ritual requires a series of steps such as preparing a magic circle to encompass the target object or location, spreading the purified sand or diamond dust over certain locations based on the aetherial signatures of the target, and chanting a litany for the target in question, whether it is the purified form of a cursed blade's metal, a harmonious return to form for a sacred site, and so on. The DC and skill requirements of this ritual typically follows the level and nature of the curse or profanity.</p><p> </p><p><strong>Critical Success</strong> If you cast this ritual on a profaned item, you return it to a non-profaned state; if it has a sanctified form, you return it to that state instead. If it is a cursed item, you remove the curse from the item and may even convert the curse into a blessing instead. If it is a site, you purge its profanity and you either restore any sacred elements it had previously or convert it into a sacred or blessed site, instead.</p><p><strong>Success</strong> As critical success, except you only remove the profaned form or curse without any conversions into blessings or sacred states.</p><p><strong>Failure</strong> The ritual fails to purify the target.</p><p><strong>Critical Failure</strong> The ritual fails, and the primary and any secondary casters are afflicted with any curse or maliciious effects tied to the item or site in question. You become unable to use this ritual on the same target until you remove all lingering effects from the failure from yourselves.</p>"
+      "value": "<p>You take a profaned or cursed item, or a section of a location that has been profaned and attempt to purify it in a ritual. The ritual requires a series of steps such as preparing a magic circle to encompass the target object or location, spreading the purified sand or diamond dust over certain locations based on the aetherial signatures of the target, and chanting a litany for the target in question, whether it is the purified form of a cursed blade's metal, a harmonious return to form for a sacred site, and so on. The DC and skill requirements of this ritual typically follows the level and nature of the curse or profanity.</p><p><strong>Critical Success</strong> If you cast this ritual on a profaned item, you return it to a non-profaned state; if it has a sanctified form, you return it to that state instead. If it is a cursed item, you remove the curse from the item and may even convert the curse into a blessing instead. If it is a site, you purge its profanity and you either restore any sacred elements it had previously or convert it into a sacred or blessed site, instead.</p><p><strong>Success</strong> As critical success, except you only remove the profaned form or curse without any conversions into blessings or sacred states.</p><p><strong>Failure</strong> The ritual fails to purify the target.</p><p><strong>Critical Failure</strong> The ritual fails, and the primary and any secondary casters are afflicted with any curse or maliciious effects tied to the item or site in question. You become unable to use this ritual on the same target until you remove all lingering effects from the failure from yourselves.</p>"
     },
     "rules": [],
     "slug": "purification",
@@ -31,7 +31,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "holy"
+      ],
       "rarity": "rare",
       "traditions": []
     },
@@ -81,9 +83,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.5.0",
     "exportSource": null
   },
   "ownership": {
@@ -92,6 +94,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "qeWaF8aUGcbqGtTU",
-  "sort": 0,
+  "sort": 300000,
   "_key": "!items!qeWaF8aUGcbqGtTU"
 }

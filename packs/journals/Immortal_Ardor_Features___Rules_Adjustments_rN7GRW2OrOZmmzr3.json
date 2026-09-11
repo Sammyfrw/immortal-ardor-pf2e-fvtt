@@ -1,0 +1,598 @@
+{
+  "name": "Immortal Ardor Features & Rules Adjustments",
+  "_id": "rN7GRW2OrOZmmzr3",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Alignment & Sanctification",
+      "type": "text",
+      "_id": "FGJ7Ec5hEIdRjgCp",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">As Alignments are no longer applicable mechanically as of the Pathfinder 2</span><sup><span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">nd</span></sup><span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\"> edition remaster, alignments and their respective damage types are changing. With Sanctification rules, Holy and Unholy traits cover the planar concepts of Good and Evil, but in Ardor the concept of Order and Chaos is important, as is the planar boundaries of the natural world and imagined worlds. To that end, the following six traits cover these concepts, and thus can also be aligned via sanctification by respective deities, spells and powers:</span></p><ul><li><p class=\"MsoListParagraphCxSpFirst\">Holy; planar forces pertaining to altruism, virtue, kindness, and banishing evil.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Unholy; planar forces pertaining to selfishness, vice, harm, and combating good.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Order; planar forces pertaining to stability, tradition, law, and righting chaos.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Chaos; planar forces pertaining to change, freedom, anarchy, and bucking order.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Primal; planar forces rooted to Ardor’s material and spiritual plane and its denizens.</p></li><li><p class=\"MsoListParagraphCxSpLast\">Astral; planar forces rooted to extraplanar sources and their denizens.</p></li></ul><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">With deific sanctification, in many cases the process will allow followers of the deity to be sanctified with the trait in a similar fashion to what is ascribed by the Pathfinder 2</span><sup><span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">nd</span></sup><span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\"> edition rules; some deities enforce sanctification to one or more of these traits, while others may allow clerics to choose instead.</span></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.FGJ7Ec5hEIdRjgCp"
+    },
+    {
+      "sort": 200000,
+      "name": "Energy Damage",
+      "type": "text",
+      "_id": "kDtz70fiwV9l94r6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>In addition to the existing slew of Energy damage types (fire, cold, electric, acid, force, sonic) which are often associated with basic elemental types of magic in Ardor, other Energy Damage types also exist:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">Radiant, an energy adjacent to Vital energy that can harm even living creatures. It is often associated with concentrated physical light, holy or divine effects or creatures. This type of damage is still affected by resistance, immunity or weakness to Vitality damage and the Vitality trait.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Gloom, an energy adjacent to Void energy that can harm even undead creatures. Frequently, it is associated with creatures aligned with darkness, undeath, dread or curses. This type of damage is still affected by resistance, immunity or weakness to Void damage and the Void trait.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Water, magical energy pertaining to water itself. Often, water-based spells deal piercing or bludgeoning damage, but possess the Water trait; it is affected by resistance, immunity, or weaknesses to Water damage.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Wind, magical energy pertaining to air. Most air-based spells deal slashing or piercing damage, but possesses the Air trait, causing it to be affected by resistance, immunity or weakness to Air or Wind damage.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Earth, magical energy pertaining to rock and earth. Most earth-based spells deal bludgeoning or slashing damage, but possesses the Earth trait, causing it to be affected by resistance, immunity, or weakness to Earth damage.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Wood, magical energy pertaining to plants and wood. Most wood-based spells deal slashing or piercing damage, but possesses the Wood trait, causing it to be affected by resistance, immunity, or weakness to Wood damage.</p></li><li><p class=\"MsoListParagraphCxSpLast\">Metal, magical energy pertaining to metals. Most metal-based spells deal slashing, bludgeoning or piercing damage, but possesses the Metal trait, causing it to be affected by resistance, immunity, or weakness to Metal damage.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.kDtz70fiwV9l94r6"
+    },
+    {
+      "sort": 300000,
+      "name": "Implements of Magic",
+      "type": "text",
+      "_id": "FgPt7cN1D8bVEQGd",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Seekers of Ardor revamps the types of equipment available to spellcasters, by allowing magical implements to be strongly defined. It introduces new types of equipment in the form of Scepters and spell runes and adjusts the way Wands and Staves function. More information is available in the @UUID[Compendium.immortal-ardor.journals.JournalEntry.YYiJeM6n5WxXQ1be.JournalEntryPage.r3096A9lopwQNcve]{Implements of Magic} section in the Equipment chapter.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.FgPt7cN1D8bVEQGd"
+    },
+    {
+      "sort": 400000,
+      "name": "Multi-Round Spellcasting",
+      "type": "text",
+      "_id": "dNyGrTw4UgljYboN",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>If you attempt to cast a spell that has more actions than you have, you can contribute the remaining number of actions you have to cast the spell, end your turn, and continue casting the spell until your turn begins again. During this time, you cannot to use any action without Disrupting the spell, though the GM might rule certain unintrusive actions are allowed. When your turn begins, you must expend the actions needed to finish the spell before you can take any other action.</p><p class=\"MsoNormal\">When you choose to do this, you take the consequences of the act of casting the spell as soon as you begin casting, which includes any reactions. You must meet the requirements for the spell both by the end of your turn and at the start of your turn, which includes your target remaining within range and line of sight or line of effect requirements. If you apply a Spellshape to a multi-round spell, you must contribute at least one action to the spell and any actions required for the spellshape.</p><h2>Interrupting Multi-round Spells</h2><p class=\"MsoNormal\">If you would be interrupted from performing the necessary acts to cast your spell between the start and the end of your spellcasting (such as being Restrained while casting a manipulate spell, or prevented from concentrating when casting a concentrate spell), the spell is Disrupted. Becoming unable to act (such as gaining the Stunned condition) also causes your spell to fail.</p><p class=\"MsoNormal\">At a GMs discretion, significant movement, especially forced movement, could cause the spell to be disrupted, or could trigger a flat check at a DC of the GM’s choice that the spellcaster needs to succeed or cause their spell to be Disrupted. Feats such as Steady Spellcasting can adjust this DC or negate the need for the flat check entirely.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.dNyGrTw4UgljYboN"
+    },
+    {
+      "sort": 500000,
+      "name": "Ritualized Spellcasting",
+      "type": "text",
+      "_id": "EdBfQTJkFeYU9XEt",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Certain utility spells confer no substantial nor meaningful combat ability, but the situational need for such spells often cause difficulty in a spellcaster deciding if they may or may not need the spell prepared for the day or to take space within a spellcaster’s repertoire. The fantasy of being a spellcaster should come with the ability to make miracles happen, but the limitations of spell preparation for spells compete with the power to perform minor conveniences such as altering clothing or summoning a floating disk to carry goods.</p><p class=\"MsoNormal\">There are mechanical reasons for this, which includes factoring these elements when deciding what type of spellcaster one should be. Ultimately, however, spell slots are a daily resource, which leaves such utility spells very situational and could be left unused for long periods in a campaign.</p><p class=\"MsoNormal\">To alleviate some of the strain in the selection of spells, spells of this type of utility are given the Ritual trait.</p><h2>Casting Ritualized Spells</h2><p>A spell with the Ritual trait allows a spellcaster to Ritualize the spell, casting these spells as if they were Rituals. A creature who can Cast a Spell can use the @UUID[Compendium.immortal-ardor.spells.uDJqLFSksmiGqjKU]{Ritualize Spell} activity, below.</p><h3>Ritualize Spell</h3><hr><p>@Embed[Compendium.immortal-ardor.spells.Item.uDJqLFSksmiGqjKU inline hr=false]</p><h2>Selecting Ritualized Spells</h2><p class=\"MsoNormal\">Due to the breadth of spells the Ritual trait could apply to, the list of Ritualized spells could be very lengthy. That said, some common guidelines are presented below, as well as a non-exhaustive list of spells that are suggested to have the Ritual trait.</p><p class=\"MsoNormal\">A Ritualized spell is typically one that has the following characteristics:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">Has a duration that is 10 minutes or greater.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">A cast time of 1 to 3 actions or greater.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Does not directly deal damage or cause substantial change to creatures or terrain.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Is not a spell attack or does not require a saving throw.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Does not impose a direct combat or social oriented effect, typically in the form of conditions or status bonuses to attack rolls, skill checks, DCs, saving throws, Perception or AC.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Does not cause a powerful alteration, healing, revelation, polymorph, or illusory effect. These typically would be ones that have layers to counter or apply to many general scenarios.</p></li></ul><p class=\"MsoListParagraphCxSpLast\">In the broadest terms, the more specific or rarer the application of the spell might be, the more likely it could have the Ritual trait. The GM has the final say on whether a spell can or cannot be Ritualized.</p><p class=\"MsoNormal\">The following list of spells are some examples of spells that could have the Ritual trait:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">1st Rank: Alarm, Ant Haul, Carryall, Cleanse Cuisine, Create Water, Detect Poison, Imprint Message, Item Façade, Lock, Mending, Pet Cache</p></li><li><p class=\"MsoListParagraphCxSpLast\">2nd Rank: Animal Messenger, Augury, Create Food, Darkvision, Environmental Endurance, Everlight, Gecko Grip, Knock, Marvelous Mount, Peaceful Rest, Shape Wood, Speak with Animals, Status, Translate, Water Breathing, Water Walk</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.EdBfQTJkFeYU9XEt"
+    },
+    {
+      "sort": 600000,
+      "name": "Flexible Spellcasting Benefits",
+      "type": "text",
+      "_id": "EP0UBHOUU044m8bu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"MsoNormal\">Flexible Spellcasting Benefits follow similar rules to spellcasting benefits, in that if an archetype grants you its benefits, spells that you cast and spell slots you gain from the archetype are subject to restrictions within it, not interacting or benefiting any other sources of spellcasting you may have unless specified. A flexible spellcasting archetype allows you to use scrolls, staves, and wands in the same way that a member of a spellcasting class can, and the basic flexible spellcasting feat counts as having a spellcasting class feature.</p><p class=\"MsoNormal\">Gaining flexible spellcasting benefits grants you the ability to prepare spells into a collection. With it, you can cast any spell in your collection using any spell slot you have available to you, as long as you always have a 1st level spell in your collection. Typically, you can prepare a number of spells in your collection equal to one plus half the highest rank of spell slot you have available to you.</p><p class=\"MsoNormal\"><strong>Basic Flexible Spellcasting Feat: </strong>Usually available at 4th level, these feats grant a 1st-rank spell slot and 1 spell you can prepare in your spell collection. At 6th level, they grant you a 2nd-rank spell slot and another spell you can prepare in your spell collection. At 8th level, they grant you a 3rd-rank spell slot. Archetypes refer to these benefits as the “basic flexible spellcasting benefits.”</p><p class=\"MsoNormal\"><strong>Expert Flexible Spellcasting Feat: </strong>Typically taken at 12th level, these feats make you an expert in spell attack modifiers and spell DCs and grant you a 4th-rank spell slot and another spell you can prepare in your collection. At 14th level, they grant you a 5th-rank spell slot, and at 16th level, they grant you a 6th-rank spell slot and another spell you can prepare in your collection. Archetypes refer to these benefits as the “expert flexible spellcasting benefits.”</p><p class=\"MsoNormal\"><strong>Master Flexible Spellcasting Feat: </strong>Usually found at 18th level, these feats make you an master in spell attack modifiers and spell DCs and grant you a 7th-rank spell slot. At 20th level, they grant you an 8th-rank spell slot and another spell you can prepare in your collection Archetypes refer to these benefits as the “master flexible spellcasting benefits.”</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.EP0UBHOUU044m8bu"
+    },
+    {
+      "sort": 700000,
+      "name": "Ardorean Crafting",
+      "type": "text",
+      "_id": "9nt9G1C7mXGDCYVB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-weight:bold\">The crafting rules provided here are substantially different from the crafting rules provided by the Player Core.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">Under these rules, you will have to devote your time to crafting the item, and be unable to Earn Income or perform any concurrent activity at the same time you are spending days crafting. To begin crafting, you must supply raw materials that is worth approximately half of the target item’s cost and have a suitable workspace and tools that you can use. The Alchemical Crafting and Magical Crafting feats are required to craft their respective items.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">When you craft an item, you spend a number of workdays appropriate to the target item. A workday is equal to about eight hours of effort, and if you reduce the required number of workdays for any reason you cannot reduce it below a minimum of half of a workday equal to 4 hours of work. You need not spend these workdays sequentially in most crafts, though certain circumstances or items might prevent you from doing so, as normal for ending or interrupting long-term tasks. However, if you spend multiple workdays in one workday (such as spending 16 hours to complete two workdays), or spend a whole workday and a heavy adventuring day (such as spending 8 additional hours adventuring ontop of crafting for 8 hours) the GM may rule that you become fatigued, especially if you do so frequently.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">Once you determine you meet the proficiency rank requirements of crafting an item, and you have a reasonable amount of time and access to resources that would allow you to craft an item, you can begin the crafting process. Crafting an item goes through the following 4 steps:</span></p><h3>Step 1: Set the DC of the Item to be Crafted</h3><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">The DC of the item being crafted is set based on several factors:</span></p><ol><li><p class=\"MsoListParagraphCxSpFirst\">Begin by setting the DC based on the item’s level.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Adjust the DC based on the rarity of the item to be crafted; use the Hard adjustment for Uncommon items, Very Hard adjustment for Rare items, and the Incredibly Hard adjustment for Unique items. If you have a formula for the item, the adjustment becomes one step easier to craft.</p></li><li><p class=\"MsoListParagraphCxSpLast\">Adjust the DC based on the quality of your workspace. This ranges from 2 lower if conditions are very good, to 2 higher if they are very poor. Typically, facilities available in settlements don’t lower the DC unless the settlement has some degree of specialty in the type of Craft you are attempting. Facilities that are not maintained or have poor equipment will work against your attempt, raising the DC.</p></li></ol><p class=\"MsoNormal\">This establishes the target DC for any Craft rolls you need to make for the project of creating an item.</p><h3>Step 2: Preparation and Planning Phase</h3><p>You prepare your workstation and your materials, as well as contact any necessary people that are essential to the project. Roll a Craft check against the Crafting DC; the outcome determines how well your preparations come along for your project.</p><p class=\"MsoNormal\"><strong>Critical Success</strong>: You find that everything is coming together very well. Choose one of the following benefits:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Expedited Craftsmanship</strong>: You can craft the item two work days faster.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Careful Craftsmanship</strong>: You can guarantee that the Craft check for your Crafting Phase cannot be lower than a success after completing the crafting process in normal time.</p></li></ul><p class=\"MsoNormal\"><strong>Success</strong>: You can craft the item in normal time.</p><p class=\"MsoNormal\"><strong>Failure</strong>: Things come together a bit more slowly than you would like. You can craft the item with an additional work day. If you want to start over and try again, you must wait another day as you go back to the drawing board.</p><p class=\"MsoNormal\"><strong>Critical Failure</strong>: Nothing comes together at all due to complications. You’ll have to try again after sorting them out or finding an alternative. If you remove the complication, you’ll be able to try again. This typically has a monetary cost or requires at least a day of effort, if not more.</p><h3>Step 3: Determine the time to Craft</h3><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">Once you’ve gathered all the necessary materials, people and workspace, the next step is to determine how long it would take to craft the item. Crafting time is counted in workdays, each of which is equal to 8 hours of work. Certain factors will </span>reduce the number of workdays to craft, but it cannot reduce the number of workdays below half of a workday.</p><p class=\"MsoNormal\">Set the time to craft based on the following steps:</p><ol><li><p class=\"MsoListParagraphCxSpFirst\">Begin by setting the initial time to craft to a number of work days equal to half the item’s level rounded up.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">If the item is a consumable or a rune, remove one work day. If the item is a permanent magic item, add one work day.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">If you have the formula for the item, remove one work day.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">For every proficiency rank you have above an item’s given proficiency requirement, remove one work day. For example, if you are crafting a 5th level item and you are a Master in crafting, you remove 2 work days, because you are two ranks above the Trained bracket.</p><ul><li><p class=\"MsoListParagraphCxSpMiddle\">0th level – Untrained</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">5th level or lower – Trained</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">9th level or lower – Expert</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">16th level or lower – Master</p></li></ul></li><li><p class=\"MsoListParagraphCxSpLast\">Apply the adjustment from the Preparation and Planning phase.</p></li></ol><h3>Step 4: Crafting Phase</h3><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">You begin crafting, spending resources equal to approximately 50% of the cost of the item. Once the number of work days have passed, roll Craft against the Crafting DC to determine the results:</span></p><p class=\"MsoNormal\"><strong>Critical Success</strong>: You complete the item. If it is a consumable, double your yield. Otherwise, you recuperate half of your materials (worth approximately 25% of the cost of the item).</p><p class=\"MsoNormal\"><strong>Success</strong>: You complete the item, using up all your materials (worth approximately 50% of the cost of the item).</p><p class=\"MsoNormal\"><strong>Failure</strong>: You aren’t quite finished with the item yet. You have the following options:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Push Through</strong>: You can spend an additional amount of work days equal to half of the total number of days spent and use up all your materials.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Add Funds</strong>: You can spend additional funds or materials to complete the item right away (a total that approximates 75% of the cost of the item).</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Salvage</strong>:  You can salvage the item to recover all your materials, but you lose all progress in crafting the item.</p></li></ul><p class=\"MsoNormal\"><strong>Critical Failure</strong>: The item doesn’t really quite come together. You can choose one of the following options:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Sunken Cost</strong>: You can spend additional amount of funds or materials to salvage the item and complete it (a total that approximates 100% of the item’s total cost), adding an additional amount of work days equal to half of the total number of days spent.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Start Over</strong>: You can salvage half of your materials (worth approximately 25% of the item’s total cost), but you lose all your progress in crafting the item.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.9nt9G1C7mXGDCYVB"
+    },
+    {
+      "sort": 800000,
+      "name": "New Enemy Adjustments",
+      "type": "text",
+      "_id": "YkHBObIV2EuaxFj8",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The below adjustments are added in addition to the Weak and Elite adjustments to a creature. These are more substantial, and can create memorable encounters in terms of enemy strength and numbers. They are separate from Weak and Elite adjustments in that the Weak and Elite adjustments can still be applied to creatures in addition to either of the below choices. The Weak and Elite adjustment effectively changes a creature’s level and proficiencies, whereas the below adjustments are to change a creature’s action economy and hit points.</p><h2>Paragon Enemies</h2><p>A @UUID[Compendium.immortal-ardor.feats.BBKIO2ckys3b5imn]{Paragon Enemy} is a way to codify general guidelines and benefits to enemies that are particularly powerful or fighting against action economy, where they are outnumbered by the player characters. They gain the following modifications:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">They have double their original hit points.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">They have 2 turns in a round, one at their rolled initiative and another at their initiative -10. If they would still move consecutively despite this, they will go after the next player character in initiative order, or the previous player character if they are last in the initiative order. This applies retroactively, in case initiative order changes mid-combat.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">They have double the number of reactions.</p></li><li><p class=\"MsoListParagraphCxSpLast\">Durations that depend on turns only tick down once per round, unless it is an effect that only lasts until the end of their turn. For effects that require a saving throw or recovery check at the end of their turn, they roll at the end of each of their turns.</p></li></ul><p class=\"MsoNormal\">From an encounter building perspective, paragon enemies are worth 1 additional creature of their level-1.</p><h2>Novice Enemies</h2><p>A @UUID[Compendium.immortal-ardor.feats.UjKBC03nWYt3091i]{Novice Enemy} is a way to adjust a creature that is meant to represent a very weak variant of a creature, which are meant to outnumber player characters due to sheer numbers without overwhelming the encounter order. They are different than Troops, in that these creatures are designed as individual creatures that are far easier to topple, and are not numerous enough to congregate into a Troop that must fight as one. They gain the following modifications:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">They have half their original hit points.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">In general, a Novice Enemy only has 2 actions, one of which can only be made to Strike, Stride, or take a combat skill action. However, once per round, one Novice Enemy in the encounter gains access to all 3 with no limitations.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">All Novice Enemies share a single reaction per round. They only gain an additional reaction specific to that creature if they have an ability that grants them another reaction.</p></li><li><p class=\"MsoListParagraphCxSpLast\">A Novice Enemy targeted by an Incapacitation effect ignores any benefits they may gain by being of a higher level than the effect.</p></li></ul><p class=\"MsoNormal\">From an encounter building perspective, novice enemies are worth 1 lower than their listed level.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.YkHBObIV2EuaxFj8"
+    },
+    {
+      "sort": 0,
+      "name": "New Features & Rules",
+      "type": "text",
+      "_id": "cfA3c4A8lwHyELxZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.cfA3c4A8lwHyELxZ"
+    },
+    {
+      "sort": 900000,
+      "name": "Rules Adjustments & Errata",
+      "type": "text",
+      "_id": "P2vAi0ZtKFe2s3jY",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Swapping Handedness</h2><p style=\"text-align:justify\" class=\"MsoNormal\"><span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">As written, you need to spend an action to change your one-handed grip to a two-handed grip as an Interact action. This has been changed so that there is a specific action for Swapping Handedness. This brings some changes to the relevant Weapon Traits that confer the lack of needing a free hand to do certain actions as a benefit. See the Weapon Traits section for any specific changes.</span></p><p></p><p>@Embed[Compendium.immortal-ardor.feats.5iltxGZY9ggDpmtZ]</p><h2>Dragging an Object or Creature</h2><p style=\"text-align:justify\" class=\"MsoNormal\"><span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">As written, the typical speed to drag a creature or object is dependent on its bulk. The example given is that dragging typically moves the dragged creature or object 50 feet per minute. This is more codified to better assist calls, with the Drag untrained athletics action below. For unwilling creatures, you use Shove or Grapple and Reposition instead.</span></p><p>@Embed[Compendium.immortal-ardor.feats.euXy8LEeNL93Re2q]</p><h2>Forced Movement Changes</h2><p class=\"MsoNormal\">Forced Movement, RAW limits what can move creatures into hazardous terrain or situations. This is adjusted so that forced movement will allow creatures to be pushed into hazardous terrain. Unless specified to be an immediate effect of moving into the terrain, any harmful effects will take place if the creature starts its turn in the dangerous terrain.</p><h2>Actions in Encounter Mode</h2><p class=\"MsoListParagraphCxSpFirst\"><strong>Ready</strong>: Readying a non-Move free action or 1 action activity now only requires 1 action instead of 2 actions. You can also ready a 2 action activity with 2 actions, or a 1-action Move action with 2 actions. Depending on circumstances and the action you are readying, the trigger you designate can be freely changed.</p><p class=\"MsoListParagraphCxSpMiddle\"><strong>Avert Gaze</strong>: Avert Gaze is now a free action you can take at the start of your turn, which confers a +2 circumstance bonus to saves to persistent gaze effects as normal. In the case of instantaneous gaze effects, so long as you are averting your gaze at the time the effect triggers, you treat the degree of success of your saving throw as one step higher.</p><p class=\"MsoListParagraphCxSpLast\"><strong>Stride</strong>: Striding will allow a simple Interact action as part of the same action. Opening an easy to open door mid movement, fetching or passing an easy to take unattended item, etc. This Stride cannot be a subordinate action, such as a Stride as part of Sudden Charge, or a move action that is part of a movement with the Traversal trait. When Interacting like this, Stride gains the Manipulate trait.</p><h2>Consecutive Moves</h2><p class=\"MsoNormal\">When taking move actions that require a check (such as Sneak, Climb, or Swim), if your next action is the same move action you can use the same result until you choose to perform another action as long as circumstances do not change between move actions.</p><h2>Identical Checks to Aid</h2><p class=\"MsoNormal\">When two characters are using the same skill, one of which to Aid the other, to achieve the same goal, you can use the higher outcome of the two checks to accomplish the goal at its intended DC while the lower of the two is used for the Aid check outcome. Both characters must meet all prerequisites and requirements, such as feats or proficiencies, and the nature of the Aid must be such that both characters are performing identical or combined tasks for its duration.</p><h2>Recall Knowledge</h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">A single player is allowed to perform a free Recall Knowledge whenever players roll initiative for an Encounter, which can be used to inquire about a creature in the encounter, the environment it takes place in, or something else pertaining to it. After which, players can actively use Recall Knowledge as an action as normal.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Recall Knowledge’s functionality is clarified in the Skill Adjustments section.</span></p><h2>Weapon Traits</h2><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Shove, Trip, Disarm, Grapple</strong> As you can swap between 1-handedness or 2-handedness as a free action, these traits are adjusted so that attempts to use these actions with the weapon or unarmed attack with this trait allows the action to benefit from a target’s off-guard condition.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Monk</strong> A Monk or anyone who has similar form of monastic training can use weapons with this trait in place of unarmed attacks for feats with the Monk trait or similar, assuming the weapon meets the requirements listed for the attack (such as needing a particular trait on an unarmed attack).</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Forceful</strong> Subsequent attacks with a Forceful weapon adds a circumstance bonus to damage equal to 2 times the number of weapon damage die, rather than just equal to the number of weapon damage die. Each later attack adds 3 times the number of weapon damage die.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Sweep</strong> Attacking another target with this weapon after the first on a turn grants a +2 circumstance bonus to the attack rather than a +1.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Backswing</strong> Attacking again after missing with this weapon grants you a +2 circumstance bonus to the attack rather than a +1.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Backstabber</strong> Attacks against an off-guard creature deals precision damage equal to the number of weapon damage die, rather than 1 (or 2 if it is a +3 weapon).</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Twin</strong> Attacks with the second weapon in the pair adds a circumstance bonus to damage equal to 2 times the weapon damage die rather than just equal to the weapon damage die.</p></li></ul><h2>Alchemical Bombs &amp; Grenades</h2><p class=\"MsoNormal\">Alchemical Bombs function identically to how they are in Pathfinder, but their base range is 30 feet. Grenades fun8ction identically to how they work in Starfinder, but they are Martial weapons instead of Simple weapons.</p><p class=\"MsoNormal\">The Alchemist @UUID[Compendium.pf2e.feats-srd.BJHsCiBLdjgJo6zM]{Far Lobber} feat is adjusted to make the range increments of bombs to be 60 feet.</p><h2>Incapacitation Changes</h2><p class=\"MsoNormal\">Incapacitation is changed so that its effects no longer push a success on a creature’s saving throw to a critical success or a failure to a critical failure on a skill check against a creature. This ensures a creature can still mitigate the effects if it is of a higher level, but not to the point where the effect can be completely negated without a very good or very poor roll.</p><h2>Fascinated Changes</h2><p class=\"MsoNormal\">The @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} condition is a difficult condition to apply and maintain. It is typically a powerful condition, but certain clauses restrict its functionality for balancing purposes; a fascinated creature is incapable of using concentrate actions ontop of their penalty to their checks unless it is targeting the subject of fascination or on a GM determination. However, its effects end if a creature uses a hostile action against the creature or the creature’s allies. This particular clause limits its usefulness and restrains its functionality based on the order of initiative. <span style=\"mso-spacerun:yes\"> </span>Features or spells that clearly lean into the fascination are often hampered with Incapacitation or lengthy clauses to prevent the fascination from breaking easily as a result.</p><p class=\"MsoNormal\">To adjust this, the Fascinated condition is altered to the following:</p><p class=\"MsoNormal\"><em><strong>Fascinated</strong> </em>Your attention is caught on something, distracting you from whatever else is going on around you. You take a -2 status penalty to Perception and skill checks, and you cannot use concentrate actions unless they (or their consequences) pertains to the subject of your fascination. If a creature uses hostile actions against you or any of your allies, you can make concentrate actions as normal, and the condition ends at the end of your next turn.</p><h2>New Traits</h2><p class=\"MsoNormal\">The following traits are added to the game:</p><h3><strong>Defend</strong></h3><p class=\"MsoNormal\">The defend trait indicates abilities featuring a temporary act of defense. This typically comes in the form of a single action conferring a short-term circumstance bonus to AC or saving throw that lasts no more than until the start of the next turn of the character that used it. When an effect or another action calls for use of a Defend action or spell, you can take any Defend ability you have access unless it explicitly specifies that is the only action you can take.</p><p class=\"MsoNormal\">Retroactively, the Defend trait applies to the following: @UUID[Compendium.pf2e.actionspf2e.xjGwis0uaC2305pm]{Raise a Shield}, @UUID[Compendium.pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Take Cover}, the @UUID[Compendium.pf2e.spells-srd.TVKNbcgTee19PXZR]{Shield} cantrip, the @UUID[Compendium.pf2e.spells-srd.cgfl9Qr46bKaA59e]{Glass Shield} cantrip, positioning a parry weapon defensively, positioning a dueling cape defensively, and granted actions from an ancestry or spell that feature similar defensive actions that behave similarly. At a GMs discretion, other actions can also have the Defend trait.</p><h2>Aetherfont Refocus</h2><p style=\"text-align:justify\" class=\"MsoNormal\"><span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">If a creature has an Aetherfont, Refocus as an activity is dramatically altered, depending on the Aetherfont selected. For a more indepth explanation for the changes to Refocus and its general rules, as well as its specific rules for each aetherfont, look to the aetherfont section. Whenever they get the Refocus activity, they gain the Aetherfont Refocus activity instead.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Aetherfont Refocus</strong></span></p><div style=\"mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in\"><p style=\"border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Traits</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">: Concentrate, Exploration</span></p></div><p style=\"text-align:justify\" class=\"MsoNormal\">You spend 10 minutes performing deeds to restore your magical connection. The deeds you need to perform are specified in the class or feature that gives you your focus spells and your aetherfont. This activity will restore your focus points, the outcome of which is described by your <span style=\"mso-bidi-font-size:10.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">aetherfont</span>.</p><p>These deeds can usually overlap with other tasks that relate to the source of your focus spells. For instance, a cleric with focus spells from a deity of healing can usually Refocus while tending the wounds of their allies, and a wizard of a given school might be able to Refocus while attempting to Identify Magic of that school.</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.P2vAi0ZtKFe2s3jY"
+    },
+    {
+      "sort": 1000000,
+      "name": "Optional Rules",
+      "type": "text",
+      "_id": "jI4cInus906n69He",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Golarion Ancestries</h2><p class=\"MsoNormal\">As there are parallels between Ardorean ancestries to pre-existing ancestries in the Pathfinder 2nd edition ruleset, these parallel ancestries and versatile heritages may pull from their Golarion equivalents when selecting ancestry feats and heritages.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.jI4cInus906n69He"
+    },
+    {
+      "sort": 1100000,
+      "name": "Class Adjustments",
+      "type": "text",
+      "_id": "uMTJ9jmukqzmxWaT",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Spell Identification</h2><p class=\"MsoNormal\">Rules as written, identifying a spell being cast goes as follows:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">If you notice a spell being cast, if you have the spell prepared or if it is in your repertoire, you identify the spell as it is being cast, and if it is heightened.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">If you do not have the spell prepared or if it is not in your repertoire, and you notice a spell being cast, you can spend an action to Recall Knowledge to try and identify it. If you have the Recognize Spell skill feat, you can use a reaction to try and identify it.</p></li><li><p class=\"MsoListParagraphCxSpLast\">If it is an ongoing effect and you didn’t notice it being cast, you use the Identify Magic activity to identify it.</p></li></ul><p class=\"MsoNormal\">This creates a few scenarios where the spell needs to be identified prior to certain activities or actions such as Counterspell. In many of these, there is an implicit design that require the spell to already have been prepared or be in one’s repertoire. This heavily restricts certain applications in these activities, relegating them to very niche scenarios that cut into a spellcaster’s already limited pool of spell preparations.</p><p class=\"MsoNormal\">To better support reactive play and improve class fantasies, the following changes are made:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">@UUID[Compendium.pf2e.feats-srd.MjQyTcV8Jiv1Jtln]{Recognize Spell} becomes a trained skill action rather than a skill feat.</p></li><li><p class=\"MsoListParagraphCxSpLast\">Classes that prepare their spells through a collection, or source of power that they accumulate over time (such as Wizards from their spellbooks, or Witches from their familiars), they can identify spells automatically if the spell is available in their source of their prepared spells, even if they do not have those spells prepared.</p></li></ul><h2>Spell Replacement</h2><p class=\"MsoNormal\">Prepared spellcasters typically spend their daily preparations preparing spells into dedicated spell slots. Once ready for the day, they typically are unable to change their spells and require feats or features to acquire a degree of flexibility with their selections. Spontaneous spellcasters can swap out spells in their repertoire when they level up and learn new spells or through retraining. Learning a spell for a spontaneous spellcaster provides access to the spell if it wasn’t available – they would then need to retrain and spend downtime to swap out spells in their repertoire.</p><p class=\"MsoNormal\">These scenarios create situations where spellcasters are rewarded for ample preparation and understanding of what threats and an idea of what they might face. However, it is not always feasible, and creates a level of planning on both players and GMs that may be hard to properly set up and foreshadow.</p><p class=\"MsoNormal\">To alleviate some elements and allow for more flexible play as spellcasters, the following changes are made as listed in the new Spell Replacement exploration action. Due to this change, features such as the Wizard’s Spell Substitution thesis is adjusted accordingly.</p><p><strong>Spell Replacement</strong></p><p>@Embed[Compendium.immortal-ardor.spells.OXLH5zzHjtzffHTg]</p><h2>Weapon &amp; Armor Proficiency Progression Adjustments</h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">To better refine progression of weap</span>on, armor, and spellcasting to improve player choice<span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">, Ardor employs the following adjustments to the progression of proficiencies:</span></p><h3><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Weapon Proficiencies</strong></span></h3><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Whenever your weapon proficiency increases, your proficiency in all weapons you are at least trained in increases by the same degree, even if it is not one your class normally provides you. This applies retroactively to any proficiencies you acquire through feats, such as the general feat Weapon Proficiency.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">For example, if your class currently makes you an Expert in Martial weapons, and you take the Weapon Proficiency general feat to become Trained in certain Advanced Weapons, when your proficiency in Martial weapons increases to Master, your proficiency for those Advanced Weapons increases by one step as well, becoming an Expert. If you later take another Weapon Proficiency feat to become Trained in another Advanced Weapon, you immediately become an Expert in that Advanced Weapon.</span></p><h3><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Armor Proficiencies</strong></span></h3><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Whenever your armor proficiency increases, your proficiency in all armor that you are at least trained in increases, even if it is not one your class normally provides you.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">When creating your character, you can swap one armor proficiency of your choice (excluding Unarmored) to another armor proficiency your class does not normally provide. When you would gain a new armor proficiency from a feat or feature that requires you to have lighter armor proficiencies prior to attaining a heavier armor proficiency (such as the general feat Armor Proficiency), you can instead choose any armor proficiency when you acquire the feat or feature.</span></p><h3>Spellcasting Benefit Changes</h3><p class=\"MsoNormal\">Archetypes that provide spellcasting gain their spellcasting benefit feats at different levels. Basic Spellcasting Benefit feats remains at 4th level, the Expert Spellcasting Benefit feats are moved to 10th level, and Master Spellcasting Benefit feats are moved to 16th level. The levels where your benefits improve are also adjusted to match their new level in their same cadence.</p><h2>Cross-Class Feat Changes</h2><h3>Counterspell</h3><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">By default, counterspell is a feat that is taken at 1</span><sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">st</span></sup><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\"> level which allows casters to counteract a spell as it is being cast, as a reaction. It possesses the limitation that it requires the caster be able to cast the spell in some way (be it in their repertoire or prepared for the day) to be able to counteract the spell. This is augmented through various counterspell related feats, such as Wizards’ Clever Counterspell, a 12th level feat that allows you to counterspell as long as the spell is in your Wizards’ spellbook, and you have a spell prepared that shares a trait with it, or some other clever use of traits.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">As this is very restrictive and limits the functionality of Counterspell in general, instead Counterspell is now adjusted to behave as if you possess Clever Counterspell, with adjustments as shown below. Likewise, Clever Counterspell is adjusted as well, which can be found in the Wizard section.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Counterspell (R)</strong></span></p><div style=\"mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in\"><p style=\"border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Trigger</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A creature Casts a Spell you have identified that you can counterspell, see below</span></p></div><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-style:italic\">When a foe casts a spell and you can see its manifestations, you can use one of your own spells to disrupt it.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-style:italic\">To be able to counterspell, you must have identified the spell being cast, and you need to be able to cast a qualifying spell to counter it. A qualifying spell is a spell that is the same as the triggering spell or a spell that shares at least one of the triggering spell’s traits other than concentrate, manipulate or its tradition trait. If you are a prepared spellcaster, you must have the qualifying spell prepared. If you are a spontaneous spellcaster, you must </span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">have an unexpended spell slot that you could use to cast the qualifying spell.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-style:italic\">Regardless of the type of caster you are, you expend the prepared spell or use the spell slot as if you had cast the qualifying spell, and then you attempt to counteract the triggering spell.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-style:italic\">If you use the same spell as the triggering spell, you suffer no penalty to the counteract check. If you use a different spell, you take a -2 circumstance penalty to the counteract check. For each additional qualifying trait that matches after the first, you reduce this penalty by 1.</span></p><h3>Quick Draw &amp; Lightning Swap</h3><p class=\"MsoNormal\">Rules as written, the Quick Draw feat allows one to Interact to draw a weapon and Strike. It does not allow someone to Put Away or Swap an item. The Lightning Swap feat allows one to stow and draw up to two weapons or a shield and a weapon. These feats will be expanded.</p><p class=\"MsoNormal\"><strong>Quick Draw</strong></p><div style=\"mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in\"><p style=\"border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><strong>Classes</strong> Dervish, Gunslinger, Ranger, Rogue</p></div><p class=\"MsoNormal\">Your hands move quickly. You can either Interact twice to perform any combination of Drawing, Put Away, or Swap items in your hands, or Interact once to perform these actions and Strike with a weapon afterward. If you have multiple sets of hands, one of these Interact actions can be to Switch Hands.</p><p class=\"MsoNormal\"><strong>Lightning Swap</strong></p><div style=\"mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in\"><p style=\"border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><strong>Classes</strong> Fighter, Exemplar, Flourish</p></div><p class=\"MsoNormal\">You have practiced quickly switching between combat styles and the equipment needed for them.<strong> </strong>You Interact to stow any number of items in your hands, and draw up to two items into your hands. If you have multiple sets of hands, you can Switch Hands in place of drawing an item.</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.uMTJ9jmukqzmxWaT"
+    },
+    {
+      "sort": 1200000,
+      "name": "Skill Adjustments",
+      "type": "text",
+      "_id": "YmmfXiKY5E3jPcMr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.YmmfXiKY5E3jPcMr"
+    },
+    {
+      "sort": 1150000,
+      "name": "Monk",
+      "type": "text",
+      "_id": "MKMbz9jHktoba6iI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Monks have the following adjustments to smooth out their base kit and fantasy to compete with new character options that have been released since that shares similar fantasies as the monk, such as the Clawdancer and Spirit Warrior archetypes.</p><h2>Stance Changes</h2><p class=\"MsoNormal\">For Monk, stances are a crucial part of their kit. That said, they have some strong shortcomings in their design. Stances are obtained via class feats, and it is an action to enter a stance. There is an action required to end your stance or swap them. Reflexive Stance, allowing Monks to enter a stance when rolling initiative is a level 12 class feat, while Fighters get a similar feat, Opening Stance at level 14. The follow up feat, Master of Many Styles is available to both classes at level 16 to swap a stance as a free action. Fuse Stances is a level 14 feat that lets you combine two stances, but comes with the caveat that you must meet all requirements and restrictions, which includes limitations on using other unarmed attacks.</p><p class=\"MsoNormal\">The Monk by design has many options and feat chains tied to stances including the above, but these limitations and level requirements almost seem to discourage easily swapping between stances or investing in multiple stances at all. To address these pain points, the following adjustments are made to Stances:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">Stances that impart a restriction on the unarmed attacks you can use while on a Stance no longer do so.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Dropping a Stance is a free action.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Reflexive Stance is removed, as the new Monastic Combat feature bakes in its functionality.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">Master of Many Styles is moved to level 10.</p></li><li><p class=\"MsoListParagraphCxSpLast\">New Monk Feats are added or old ones are adjusted to aid with stance swaps.</p></li></ul><h2>Monastic Combat</h2><p class=\"MsoNormal\">Instead of Powerful Fist, Monks gain @UUID[Compendium.immortal-ardor.classes.meOTY2usug4tuhLd]{Monastic Combat}. Reflexive Stance is removed, while Fighter’s Opening Stance is moved to level 4.</p><p class=\"MsoNormal\">@Embed[Compendium.immortal-ardor.classes.meOTY2usug4tuhLd]</p><h2>Monastic Weaponry</h2><p class=\"MsoNormal\">Monastic Weaponry is now changed accordingly to account for some of the Stance changes above. Notably, you can use weapons for unarmed weapon specific monk feats if they could act as a substitute, and Advanced Monastic Weaponry is baked in.</p><p class=\"MsoNormal\"> @Embed[Compendium.immortal-ardor.classes.4uzuNijCDAYXuD3g]</p><h2> Flurry of Maneuvers</h2><p class=\"MsoNormal\">Flurry of Maneuvers is changed to allow for a greater deal of flexibility. Its prerequisite is removed, but you still need to be an expert in Athletics to use the maneuvers.</p><p>@Embed[Compendium.immortal-ardor.classes.NMyq32rg7CeIeZJ4]</p><h2>Black Powder Stance Feats</h2><p class=\"MsoNormal\">A new stance is added to Monks to accommodate use of firearms, strongly based on the Bullet Dancer archetype; this is to make a parallel with Monastic Archer stance.</p><p class=\"MsoNormal\"><strong>[1] Black Powder Stance</strong></p><p class=\"MsoNormal\">@Embed[Compendium.immortal-ardor.classes.lLSCropOXvzTDUF6]</p><p class=\"MsoNormal\"><strong>[4] Black Powder Burn</strong></p><p class=\"MsoNormal\">@Embed[Compendium.immortal-ardor.classes.YuHd11m4x520HW9f]</p><p class=\"MsoNormal\"><strong>[10] Flurry of Bullets</strong></p><p class=\"MsoNormal\">@Embed[Compendium.immortal-ardor.classes.0mw5QvX032uKSio2]</p><h2>Deflect Projectile</h2><p class=\"MsoNormal\">Deflect projectile is adjusted to account for having ranged weaponry on hand as an option. The requirements also include a clause for wielding a ranged weapon if both hands are not free. You can fire your ranged weapon with Deflect Projectile to take the reaction.</p><h2>Return Fire</h2><p class=\"MsoNormal\">Return Fire is adjusted to accommodate either Monastic Archer Stance and Black Powder Stance.</p><p><strong>[6] Return Fire</strong></p><p class=\"MsoNormal\"> @Embed[Compendium.immortal-ardor.classes.DuVVakzjFBdQkF4u]</p><h2>New Feats</h2><p class=\"MsoNormal\">Monk gets a few feats to improve certain combat style fantasies.</p><p class=\"MsoNormal\"><strong>[4] Blade Grasp</strong></p><div><p>@Embed[Compendium.immortal-ardor.classes.P7d8rOVdZc1ED20W]</p></div><p class=\"MsoNormal\">[6] Flurry of Quips</p><p class=\"MsoNormal\">@Embed[Compendium.immortal-ardor.classes.HiK1a4B0kSLxhIyF]</p><p class=\"MsoNormal\"><strong>[8] Fluid Stance (R)</strong></p><p>@Embed[Compendium.immortal-ardor.classes.N1ayLG1OkksRexpe]</p><p class=\"MsoNormal\"><strong>[10] Steel Grasp</strong></p><p>@Embed[Compendium.immortal-ardor.classes.cd9pL5UEDLAeG7O4]</p><h2>Monk’s Flurry</h2><p class=\"MsoNormal\">The Monk’s Flurry feat from the Monk multiclass dedication no longer imposes a 1d4 cooldown. However, it will instead require that both the unarmed strikes used for it are the same.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.MKMbz9jHktoba6iI"
+    },
+    {
+      "sort": 1175000,
+      "name": "Summoner",
+      "type": "text",
+      "_id": "oMxkdLv4qxoYtD6x",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The summoner has received substantial improvements with Impossible Magic, but a lot of its kit and base class remains strongly untouched with its reprinting. Some class fantasies are strongly hampered for a class that revolves strongly around being able to work in tandem with a companion that should be far more in tune with the caster than an animal companion, or Necromancer which has incredible teamwork capabilities with their thralls. Act Together is an incredibly flexible and powerful action compression but many of its feats do not capitalize on actually working together, or did not get brought to the same level as its newer feats or with other classes in the same book.</p><h2>Manifest Eidolon</h2><p class=\"MsoNormal\">Manifest Eidolon requiring three actions is a tremendous action cost that is in line with most other summoning spells that exist in the game. However, being caught without an Eidolon manifested in combat is an incredible risk that has a lot of thematic flavor, but can completely demolish a summoner player. Instant Manifestation allows this activity to be done with 1 action but it is a level 19 feature, but this comes too late to help relieve the burden.</p><p class=\"MsoNormal\">To alleviate this, summoners will get a new feature to assist in manifesting their Eidolon, and Manifest Eidolon will work as written, except that if you use Manifest Eidolon while your eidolon is manifested, you can unmanifest them as one action.</p><h2>Instant Manifestation</h2><p class=\"MsoNormal\">Instant Manifestation is made a little stronger to accommodate for the above and below changes. It now reduces the number of actions to cast a spell with the Summon trait by 1 action (minimum 1).</p><h2>Summoner’s Tactics</h2><p class=\"MsoNormal\">Boost Eidolon is a cantrip that a summoner gets automatically, and the other cantrip they can quickly earn is Reinforce Eidolon; both are minor boosts that a summoner can keep on their Eidolon at all times through recasting the cantrip or using the Extend Boost link spell, but Reinforce Eidolon is a feat one must spend a class feat for which hampers a person who wants to play a more defensive summoner. Similarly, Meld Into Eidolon is a class fantasy that requires some adjustments to really assist that playstyle. Meld Into Eidolon is reworked below into a link spell to accommodate the new power it will grant a summoner.</p><p class=\"MsoNormal\">New feats are made to help these playstyles, but Summoner’s Tactics is a new 1st level feature that will grant an initial choice in a summoner’s career. This choice will assist avoiding feat taxes, with the option to spend class feats to dip into the other side. These feats are listed in the New Feats section.</p><hr><p><strong>Summoner’s Tactics</strong></p><p>@Embed[Compendium.immortal-ardor.classes.uFAGtw5D0YGbhiRA]</p><p class=\"MsoNormal\"><strong>Riftcaller</strong></p><p>@Embed[Compendium.immortal-ardor.classes.Vk8iFqBSRndWATwX]</p><p class=\"MsoNormal\"><strong>Synthesist</strong></p><p>@Embed[Compendium.immortal-ardor.classes.0u82rcgcDJcxMUJO]</p><p class=\"MsoNormal\"><strong>Manifesting Touch</strong></p><p>@Embed[Compendium.immortal-ardor.classes.bCLBiXDx5A3UmVNE]</p><h2>Enhance Eidolon</h2><p class=\"MsoNormal\">@UUID[Compendium.immortal-ardor.classes.tU7iwHZTEGYkd3kB]{Enhance Eidolon} replaces the Reinforce Eidolon class feat, to select the link cantrip you do not have from your Summoner’s Tactics choice.</p><h2>Meld Into Eidolon</h2><p>@UUID[Compendium.pf2e.feats-srd.s97nKj9Uye1KXr7A]{Meld into Eidolon} has had a minor improvement with the release of Impossible Magic, but it still renders much of the Summoner playstyle significantly reduced with little benefit to compensate. Synthesist summoners in previous editions were powerhouses, but the limitations of the current edition iteration of the class and characters are more than enough to restrict it. Even so, making it more powerful does require a few adjustments, so it is now a link spell rather than an activity granted by a feat.</p><hr><p>@Embed[Compendium.immortal-ardor.classes.NbVUlANzg5iGLwA3]</p><h2>@UUID[Compendium.pf2e.feats-srd.oVSlTmdmho8ZQo2k]{Ranged Combatant}</h2><p class=\"MsoNormal\">@UUID[Compendium.immortal-ardor.classes.qM1emtBXMbBmx28W]{Ranged Combatant (Ardorean)} damage is changed to a 1d6 and its range increases to 60 feet.</p><h2>@UUID[Compendium.pf2e.feats-srd.3EtlXNK4vc44R3Gm]{Reactive Dismissal}</h2><p class=\"MsoNormal\">This feat works as normal, except that you can’t Manifest your Eidolon again until the start of your next turn.</p><h2>@UUID[Compendium.pf2e.feats-srd.qmx8QwVepqI9FqiD]{Tandem Movement}</h2><p class=\"MsoNormal\">@UUID[Compendium.pf2e.feats-srd.qmx8QwVepqI9FqiD]{Tandem Movement} works as normal but has a clause that if you are currently Melded into your Eidolon, you can use the normal movement speed of either partner as part of a single move action, even if they are not at the forefront.</p><h2>@UUID[Compendium.pf2e.feats-srd.axGS5bBJ9vl5AePc]{Phase Out}</h2><p class=\"MsoNormal\">@UUID[Compendium.pf2e.feats-srd.axGS5bBJ9vl5AePc]{Phase Out} is changed to improve its usability. This feat is in the same book as a necromancer that has the spirit grim fascination, which has a very similar feat that has nowhere near the same number of limitations.</p><hr><p class=\"MsoNormal\">@Embed[Compendium.immortal-ardor.classes.1xU7cAFKOtA7BiK9]</p><h2>Tandem Strike</h2><p class=\"MsoNormal\">Tandem Strike is changed to allow for ranged options. The requirement is removed, and you choose the order of what attacks come first.</p><h2>@UUID[Compendium.pf2e.feats-srd.pfos1p4SurbUgpjQ]{Magical Onslaught}</h2><p class=\"MsoNormal\">@UUID[Compendium.pf2e.feats-srd.pfos1p4SurbUgpjQ]{Magical Onslaught} is changed to allow for greater flexibility, in particular allowing it to make any type of Strike and to allow your Summoner to cast a 1- or 2-action spell with your spell slots.</p><hr><p>@Embed[Compendium.immortal-ardor.classes.77sLEpTEmBuRLq1w]</p><h2>@UUID[Compendium.pf2e.feats-srd.NPhH9XkHV0DG4WS9]{Transpose}</h2><p class=\"MsoNormal\">@UUID[Compendium.pf2e.feats-srd.NPhH9XkHV0DG4WS9]{Transpose}is adjusted so that if you have Meld Into Eidolon, you can cast Meld Into Eidolon with the same action while you or your eidolon teleports to the other’s space, melding immediately.</p><h2>@UUID[Compendium.pf2e.feats-srd.hYW6MsPk1UcFROFD]{Twin Eidolon}</h2><p class=\"MsoNormal\">Twin Eidolon as a 20th level capstone should be impressively powerful. As is, the limitations hamper it from being as impressive as Summoner’s other capstones.</p><hr><p>@Embed[Compendium.immortal-ardor.classes.FFCUdedvWQZv31Ks]</p><h2>New Feats</h2><div><p class=\"MsoNormal\">@UUID[Compendium.immortal-ardor.classes.tU7iwHZTEGYkd3kB]{Enhance Eidolon}</p><p class=\"MsoNormal\"> @UUID[Compendium.immortal-ardor.classes.7VxiDHgUoBNuYCaf]{Rift Manifestation}</p><p class=\"MsoNormal\">@UUID[Compendium.immortal-ardor.classes.gkrYv22GG2rrkjWP]{Valent Power}</p></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.oMxkdLv4qxoYtD6x"
+    },
+    {
+      "sort": 1187500,
+      "name": "Wizard",
+      "type": "text",
+      "_id": "3UZ5PKC7IcpAnSZu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Wizard has a very strong chassis of a class, so it does not need much in the way of adjustments. Some changes are made to account for some other adjustments made in Ardorean rules.</p><h2>Clever Counterspell</h2><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\">Clever Counterspell is adjusted, following the changes made to Counterspell.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold\"> @Embed[Compendium.immortal-ardor.classes.84t144gsoPxuqMYH]</span></p><h2>Spell Substitution Thesis</h2><p>Due to the changes made to swapping spells for prepared spellcasters, the Spell Substitution Arcane Thesis lets you swap spells within one minute per spell rank.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!rN7GRW2OrOZmmzr3.3UZ5PKC7IcpAnSZu"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!rN7GRW2OrOZmmzr3"
+}

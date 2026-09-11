@@ -1,0 +1,83 @@
+{
+  "folder": "RpBrqwtfJcGyKNSa",
+  "name": "Effect: Blazing Spikes",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.ZemeZeWsWYURzKVq]{Blazing Spikes}</p><p>Any c<span>reature that physically touches you or damages you with an unarmed attack or non-reach melee weapon takes @Damage[match(when(gte(@item.level, 9), 5), when(gte(@item.level, 7),4), when(gte(@item.level, 5),3),when(gte(@item.level, 5),3),when(gte(@item.level, 3),2),when(gte(@item.level, 1),1))d6[fire]] damage. A creature maintaining contact with you throughout your turn (such as if they grab you) takes this damage only once per round. You can choose to quell or reactivate this effect as a concentrate action.</span></p><p></p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": [
+          "damage-received"
+        ],
+        "text": "Any creature that physically touches you or damages you with an unarmed attack or non-reach melee weapon takes @Damage[match(when(gte(@item.level, 9), 5), when(gte(@item.level, 7),4), when(gte(@item.level, 5),3),when(gte(@item.level, 5),3),when(gte(@item.level, 3),2),when(gte(@item.level, 1),1))d6[fire]] damage. A creature takes this damage only once per round. You can choose to quell or reactivate this effect as a concentrate action.",
+        "title": "{item|name}",
+        "outcome": [
+          "failure",
+          "success",
+          "criticalSuccess"
+        ]
+      }
+    ],
+    "slug": "effect-blazing-spikes",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "systems/pf2e/icons/spells/fires-pathway.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Bapx4NvVjR0gGV4x",
+  "sort": 0,
+  "_key": "!items!Bapx4NvVjR0gGV4x"
+}

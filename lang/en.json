@@ -17,6 +17,7 @@
       "Eirlanggan": "Eirlanggan",
       "Gardic": "Gardic",
       "Garrungan": "Garrungan",
+      "Herkish": "Herkish",
       "HighIcaro": "High Icaro",
       "Icaro": "Icaro",
       "Irilynko": "Irilynko",
@@ -27,7 +28,9 @@
       "Murcielan": "Murcielan",
       "Navarren": "Navarren",
       "NewRogalian": "New Rogalian",
+      "Oderivan": "Oderivan",
       "OldRogalian": "Old Rogalian",
+      "Perigian": "Perigian",
       "Ravarren": "Ravarren",
       "Remin": "Remin",
       "Roddan": "Roddan",
@@ -36,6 +39,7 @@
       "Schattenspeak": "Schattenspeak",
       "Scrawl": "Scrawl",
       "Uduuri": "Uduuri",
+      "Varenzian": "Varenzian",
       "Yethyenko": "Yethyenko",
       "Zahnheimen": "Zahnheimen"
     },
@@ -43,8 +47,10 @@
       "Aelkhazak": "Aelkhazak",
       "Aetherfont": "Aetherfont",
       "Anima": "Anima",
+      "Ardorean": "Ardorean",
       "Artifex": "Artifex",
       "Ascended": "Ascended",
+      "Aspektus": "Aspektus",
       "Astral": "Astral",
       "Agamidan": "Agamidan",
       "Avekiri": "Avekiri",
@@ -95,6 +101,7 @@
       "Order": "Order",
       "Pinotr": "Pinotr",
       "Resolve": "Resolve",
+      "Ritual": "Ritual",
       "Runic": "Runic",
       "Sapien": "Sapien",
       "Sygican": "Sygican",
@@ -112,10 +119,12 @@
     },
     "TraitDescription": {
       "Aetherfont": "Options with the aetherfont trait pertain to a creature's aetherfont, or manatype. These options determine or unlock new ways for how a creature can use ether, which can include Aetherfont actions, archetypes, and their spells, all of which use ether.",
-      "Artifex": "This indicates abilities from the Artifex class.",
       "Aelkhazak": "A creature with this trait is a member of the aelkhazak ancestry. These snake-like creatures come from aquatic environments, but are capable of inhabiting land.",
       "Anima": "An option with the Anima trait relates to the natural power inherrent in the soul or a similar magical force that animates a nonliving creature such as a construct or undead. Anima spells or abilities come naturally to some creatures, while others either create facsimiles or borrow it from these creatures. They are almost always affiliated with the origin creature's family.",
+      "Artifex": "This indicates abilities from the Artifex class.",
+      "Ardorean": "An option with this trait indicates a high-powered variant of an existing Pathfinder option, or contains an adjustment that makes it more powerful than its original counterpart.",
       "Ascended": "Options with this trait grant or utilize ascendancy. A creature with the ascended trait has exceeded their natural limitations, either in mind, body or soul. They are more powerful than typical creatures of their level. Feats and spells with this trait can only be taken by characters who have gained ascendency.",
+      "Aspektus": "An item with the aspektus trait has benefited from aspektus enchanting. Its power has been heightened from its original form.",
       "Astral": "Effects with the Astral trait are tied to the mana forces of the astral planes. They often have stronger effects on telluric creatures. Creatures with this trait are tied to the workings of the astral planes and often have weakness to telluric.",
       "Agamidan": "A creature with this trait is a member of the agamidan ancestry. These repitillian humanoids have existed in Ardor for millenia, hailing from the desert lands of Eirlangga.",
       "Avekiri": "A creature with this trait is a member of the avekiri ancestry. The avian humanoids reside in mountainous or tree-top terrains typically, and their voices are said to be that of divinity.",
@@ -158,8 +167,10 @@
       "Order": "Effects with the Order trait are tied to the universal concepts of axiom, determining fate, fortune, and misfortune. They often have stronger effects on anarchic creatures. Creatures with this trait are emblematic of axiomatic forces and often have weakness to chaos.",
       "Pinotr": "A creature with this trait is a member of the pinotr ancestry. Humanoids who live on land but not too far from the water and capable of holding their breath for extended periods, they have a dependency on nature to provide, and rapidly expand wherever they settle.",
       "Resolve": "An option with this trait indicates that it uses Resolve Points, typically available to Empty as they push themselves to the limit to perform superhuman feats.",
+      "Ritual": "A spell with this trait can be cast as a Ritual, using the Ritualized Spellcasting rules.",
       "Runic": "An option with the runic trait pertains to runic magic or the runic language. Runes dictate commands that can create fantastical and great effects. Unlike a normal language, it isn’t one that can be easily spoken or used for communication, as one must use magic to speak or write it in a way that it becomes usable; it has very little linguistic properties otherwise. Due to its potential dangers, is typically outlawed in a majority of countries if a creature does not have the proper permissions.",
       "Sapien": "A creature with this trait is a member of the sapien ancestry. These are resilient humanoids who could historically thrive in just about any climate and are naturally resistant to disease, and have spread all over Ardor. As diverse as they are plentiful, they share spaces with almost every ancestry in Ardor.",
+      "Scepter": "A scepter is a type of magical implement that a spellcaster can charge with a spell to be cast later more readily.",
       "Soulforged": "Items with the soulforged trait are either weapons crafted in the primal plane imbued with astral essences, or weapons crafted in the astral plane imbued with primal essences, created through the process of soulforging. A soul is often a core component of this process, and is consumed in its creation. Soulforged weapons also frequently have the Unholy trait.",
       "Spellcrux": "A weapon with the spellcrux trait can take on the powers of a charged staff, and act like a staff to cast spells from it. The weapon either has a spell list of its own like a staff would, or if not, a spellcaster charging a staff can transfer its powers to a spellcrux weapon, transferring all spells and charges for the day into it.",
       "Sygican": "An item with the sygican trait denotes that it is an item with sygicatech circuitry, allowing it to perform magical effects while being used by those who do not have the ability to wield ether, such as Empty. As long as the piece of equipment has a fuel or energy source, such as a battery, a user of the item can activate its magical effects. In some sygicatech items, this takes the form of Engrams.",
@@ -207,11 +218,284 @@
       "VoltaicFist": "Voltaic Fist",
       "WaveAxe": "Wave Axe"
     },
-    "WeaponGroups": {
-      "Scepter": "Scepter",
-      "Twinblade": "Twinblade"
-    },
     "SpecificRule": {
+      "RulesAdjustments": {
+        "Title": "Ardorean Rules Adjustment",
+        "Actions": {
+          "Aid": {
+            "Title": "Aid",
+            "Text": "When two characters are using the same skill, one of which to Aid the other, to achieve the same goal, you can use the higher outcome of the two checks to accomplish the goal at its intended DC while the lower of the two is used for the Aid check outcome. Both characters must meet all prerequisites and requirements, such as feats or proficiencies, and the nature of the Aid must be such that both characters are performing identical or combined tasks for its duration."
+          },
+          "AvertGaze": {
+            "Title": "Avert Gaze",
+            "Text": "Avert Gaze: Avert Gaze is now a free action you can take at the start of your turn, which confers a +2 circumstance bonus to saves to persistent gaze effects as normal. In the case of instantaneous gaze effects, so long as you are averting your gaze at the time the effect triggers, you treat the degree of success of your saving throw as one step higher."
+          },
+          "Craft": {
+            "Title": "Craft",
+            "Text": "Crafting has seen substantial adjustments in the Seekers of Ardor ruleset, as seen here: @UUID[Compendium.immortal-ardor.journals.JournalEntry.rN7GRW2OrOZmmzr3.JournalEntryPage.9nt9G1C7mXGDCYVB]{Ardorean Crafting}. Crafting is made with 2 checks; the first to prepare and plan materials to set the time and difficulty of a project, and a second for creating the item in question."
+          },
+          "Ready": {
+            "Title": "Ready",
+            "Text": "Readying a non-Move free action or 1 action activity now only requires 1 action instead of 2 actions. You can also ready a 2 action activity with 2 actions, or a 1-action Move action with 2 actions. Depending on circumstances and the action you are readying, the trigger you designate can be freely changed."
+          },
+          "Stride": {
+            "Title": "Stride",
+            "Text": "Striding will allow a simple Interact action as part of the same action. Opening an easy to open door mid movement, fetching or passing an easy to take unattended item, etc. This Stride cannot be a subordinate action, such as a Stride as part of Sudden Charge, or a move action that is part of a movement with the Traversal trait. When Interacting like this, Stride gains the Manipulate trait."
+          },
+          "CreateADiversion": {
+            "Title": "Create a Diversion",
+            "Text": "You can declare to distract others away from you or towards you. If you declare to distract others towards you, an ally of your choice gains the benefits of a successful diversion instead. You don't need to be observing your ally or know where they are, but you need to know they're present to choose them, and the hidden condition lasts until the end of that ally's turn."
+          },
+          "MakeAnImpression": {
+            "Title": "Make an Impression",
+            "Text": "Make an Impression allows you to target up to 5 targets without penalty if you are Trained. This becomes 20 targets if you are an expert, 50 if you're a master, and 100 if you're legendary. Beyond these listed numbers, you take a -2 penalty, and the penalty increases by an additional 2 for each multiple of these numbers."
+          },
+          "Coerce": {
+            "Title": "Coerce",
+            "Text": "Coerce allows you to target up to 5 targets when you are trained. These numbers increase to 10 if you’re an Expert, 25 if you’re a Master, and 50 if you’re Legendary. Beyond these listed numbers, you take a -2 penalty to your attempts, and the penalty increases by an additional 2 for each multiple of these numbers."
+          },
+          "Demoralize": {
+            "Title": "Demoralize",
+            "Text": "Demoralize is changed to include the benefits of Intimidating Glare and remove its immunity.",
+            "ReplacementText": "<p>Using your words or your physique, you can shake an enemy’s resolve. Choose a creature within 30 feet of you who you’re aware of. Attempt an [[/act demoralize]]{Intimidation} check against that target’s Will DC. If you use your words or shout, this action gains an Auditory trait. If you menace with your actions or looks, this action gains the Visual trait. When you become a Master in Intimidation, this range increases to 60 feet.</p> <hr> <p><strong>Critical Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p><p><strong>Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+          },
+          "TreatWounds": {
+            "Title": "Treat Wounds",
+            "Text": "Treat Wounds is modified to include Ward Medic's benefits. An Expert is able to treat two patients at a time, while a Master can treat four, and a Legendary medic can treat eight."
+          },
+          "TreatDisease": {
+            "Title": "Treat Disease",
+            "Text": "Treat Disease is modified to include Ward Medic's benefits. An Expert is able to treat two patients at a time, while a Master can treat four, and a Legendary medic can treat eight."
+          },
+          "Perform": {
+            "Title": "Perform",
+            "Text": "Perform is adjusted to be able to Fascinate a target if you are Trained, to account for the changes to the Fascinate condition."
+          }
+        },
+        "Classes": {
+          "Monk": {
+            "Title": "Ardorean Monk",
+            "Stances": {
+              "Title": "Stance Changes",
+              "Text": "Stances that impart a restriction on the unarmed attacks you can use while on a Stance no longer do so. Dropping a Stance is a free action."
+            },
+            "PowerfulFist": {
+              "Title": "Powerful Fist",
+              "Text": "Powerful Fist is removed in favor of @UUID[Compendium.immortal-ardor.classes.meOTY2usug4tuhLd]{Monastic Combat}."
+            },
+            "ReflexiveStance": {
+              "Title": "Reflexive Stance",
+              "Text": "Reflexive Stance is removed as its functionality is baked into @UUID[Compendium.immortal-ardor.classes.meOTY2usug4tuhLd]{Monastic Combat}."
+            },
+            "FlurryOfManeuvers": {
+              "Title": "Flurry of Maneuvers",
+              "Text": "Flurry of Maneuvers is adjusted to allow for a greater deal of flexibility. @UUID[Compendium.immortal-ardor.classes.NMyq32rg7CeIeZJ4]{Flurry of Maneuvers (Ardorean)}"
+            },
+            "DeflectProjectile": {
+              "Title": "Deflect Projectile",
+              "Text": "Deflect Projectile allows for use of wielding a ranged weapon. You can fire your ranged weapon with Deflect Projectile to take the reaction."
+            },
+            "ReturnFire": {
+              "Title": "Return Fire",
+              "Text": "Return Fire is changed to accommodate either Monastic Archer Stance or Black Powder Stance. @UUID[Compendium.immortal-ardor.classes.DuVVakzjFBdQkF4u]{Return Fire (Ardorean)}"
+            },
+            "MonasticWeaponry": {
+              "Title": "Monastic Weaponry",
+              "Text": "Monastic Weaponry is adjusted to also include Advanced Monastic Weaponry. @UUID[Compendium.immortal-ardor.classes.4uzuNijCDAYXuD3g]{Monastic Weaponry (Ardorean)}"
+            },
+            "AdvancedMonasticWeaponry": {
+              "Title": "Advanced Monastic Weaponry",
+              "Text": "Monastic Weaponry is adjusted to also include Advanced Monastic Weaponry. @UUID[Compendium.immortal-ardor.classes.4uzuNijCDAYXuD3g]{Monastic Weaponry (Ardorean)}"
+            }
+          },
+          "Summoner": {
+            "Title": "Ardorean Summoner",
+            "ManifestEidolon": {
+              "Title": "Manifest Eidolon",
+              "Text": "You can unmanifest your eidolon with one action by using this action again."
+            },
+            "ReinforceEidolon": {
+              "Title": "Reinforce Eidolon",
+              "Text": "Reinfrorce Eidolon's feat is replaced with @UUID[Compendium.immortal-ardor.classes.Item.tU7iwHZTEGYkd3kB]{Enhance Eidolon}."
+            },
+            "ExtendBoost": {
+              "Title": "Extend Boost",
+              "Text": "Extend Boost now requires the Riftcaller Summoner's Tactic."
+            },
+            "ReactiveDismissal": {
+              "Title": "Reactive Dismissal",
+              "Text": "Reactive Dismissal allows you to Manifest your Eidolon at the start of your next turn, rather than at the end."
+            },
+            "RangedCombatant": {
+              "Title": "Ranged Combatant",
+              "Text": "Ranged Combatant has an Ardorean variant: @UUID[Compendium.immortal-ardor.classes.Item.qM1emtBXMbBmx28W]{Ranged Combatant (Ardorean)}"
+            },
+            "MeldIntoEidolon": {
+              "Title": "Meld Into Eidolon",
+              "Text": "Meld Into Eidolon is changed to grant a link spell instead of an action: @UUID[Compendium.immortal-ardor.classes.Item.gxgPnUWMlpOjy0fs]{Meld Into Eidolon (Ardorean)}"
+            },
+            "TandemMovement": {
+              "Title": "Tandem Movement",
+              "Text": "If you are currently Melded into your Eidolon, you can use the normal movement speed of either partner as part of a single move action, even if they are not at the forefront."
+            },
+            "PhaseOut": {
+              "Title": "Phase Out",
+              "Text": "Phase Out has an Ardorean variant: @UUID[Compendium.immortal-ardor.classes.Item.1xU7cAFKOtA7BiK9]{Phase Out (Ardorean)}"
+            },
+            "TandemStrike": {
+              "Title": "Tandem Strike",
+              "Text": "Tandem Strike's requirement is removed to allow for ranged options, and you can choose the order of which attacks come first."
+            },
+            "MagicalOnslaught": {
+              "Title": "Magical Onslaught",
+              "Text": "Magical Onslaught has an Ardorean variant: @UUID[Compendium.immortal-ardor.classes.Item.77sLEpTEmBuRLq1w]{Magical Onslaught (Ardorean}]"
+            },
+            "Transpose": {
+              "Title": "Transpose",
+              "Text": "You can take three actions for Transpose to cast Meld Into Eidolon as you or your Eidolon teleports to the other's space, melding immediately."
+            },
+            "TwinEidolon": {
+              "Title": "Twin Eidolon",
+              "Text": "Twin Eidolon has an Ardorean variant: @UUID[Compendium.immortal-ardor.classes.Item.FFCUdedvWQZv31Ks]{Twin Eidolon (Ardorean}]"
+            }
+          },
+          "Wizard": {
+            "Title": "Ardorean Wizard",
+            "SpellSubstitution": {
+              "Title": "Spell Substitution",
+              "Text": "You can take 1 minute per spell rank to replace your spells, rather than 10 minutes."
+            },
+            "CleverCounterspell": {
+              "Title": "Clever Counterspell",
+              "Text": "Clever Counterspell has an Ardorean variant: @UUID[Compendium.immortal-ardor.classes.Item.84t144gsoPxuqMYH]{Clever Counterspell (Ardorean}]"
+            }
+          }
+        },
+        "CrossClassFeats": {
+          "Counterspell": {
+            "Title": "Counterspell",
+            "Text": "In place of the usual requirements or triggers, you can use counterspell if you have identified the spell and have a qualifying spell and can cast it. A qualifying spell is a spell that is the same as the triggering spell or a spell that shares at least one of the triggering spell’s traits other than concentrate, manipulate or its tradition trait. If you use the same spell as the triggering spell, you suffer no penalty to the counteract check. If you use a different spell, you take a -2 circumstance penalty to the counteract check. For each additional qualifying trait that matches after the first, you reduce this penalty by 1."
+          },
+          "QuickDraw": {
+            "Title": "Quick Draw",
+            "Text": "Your hands move quickly. You can either Interact twice to perform any combination of Drawing, Put Away, or Swap items in your hands, or Interact once to perform these actions and Strike with a weapon afterward. If you have multiple sets of hands, one of these Interact actions can be to @UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]{Switch Hands}."
+          },
+          "LightningSwap": {
+            "Title": "Lightning Swap",
+            "Text": "You have practiced quickly switching between combat styles and the equipment needed for them. You Interact to stow any number of items in your hands, and draw up to two items into your hands. If you have multiple sets of hands, you can @UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]{Switch Hands} in place of drawing an item."
+          },
+          "MonksFlurry": {
+            "Title": "Monk's Flurry",
+            "Text": "Monk's Flurry no longer imposes a 1d4 round frequency. However, it requires that both unarmed strikes used for it are the same."
+          }
+        },
+        "GeneralSkillFeats": {
+          "ImpeccableCrafting": {
+            "Title": "Impeccable Crafting",
+            "Text": "This feat applies only to the Crafting phase of Ardorean Crafting, not the Preparation and Planning Phase."
+          },
+          "ImproviseTool": {
+            "Title": "Improvise Tool",
+            "Text": "You can temporarily craft a jury-rigged tool from the list offered by spending 10 minutes and succeeding a Crafting check against the DC to craft them if you have the materials. These tools fall apart by the start of your next daily preparations."
+          },
+          "RecognizeSpell": {
+            "Title": "Recognize Spell",
+            "Text": "Recognize Spell is a trained skill action for the magical skills. Classes that prepare their spells through a repository or collection can identify spells automatically if it is available in their list of prepared spells, even if they do not have those spells prepared."
+          },
+          "Fortify": {
+            "Title": "Fortify",
+            "Text": "Fortify is a trained skill action for Crafting."
+          },
+          "BonMot": {
+            "Title": "Bon Mot",
+            "Text": "Bon Mot is a trained skill action for Diplomacy."
+          },
+          "GracefulLeaper": {
+            "Title": "Graceful Leaper",
+            "Text": "Graceful Leaper has an Ardorean variant: @UUID[Compendium.immortal-ardor.feats.Item.V4fHpfKcfmYQRoH0]{Graceful Leaper (Ardorean)}"
+          },
+          "GroupImpression": {
+            "Title": "Group Impression",
+            "Text": "Group Impression is unused as the revamped Make an Impression already includes its functionality."
+          },
+          "GroupCoercion": {
+            "Title": "Group Coercion",
+            "Text": "Group Coercion is unused as the revamped Coerce already includes its functionality."
+          },
+          "IntimidatingGlare": {
+            "Title": "Intimidating Glare",
+            "Text": "Intimidating Glare is unused as Demoralize already includes its functionality."
+          },
+          "IntimidatingProwess": {
+            "Title": "Intimidating Prowess",
+            "Text": "Intimidating Prowess has an Ardorean variant: @UUID[Compendium.immortal-ardor.feats.Item.XFJiGllNZp8Xebda]{Intimidating Prowess (Ardorean)}"
+          },
+          "BattleMedicine": {
+            "Title": "Battle Medicine",
+            "Text": "Battle Medicine is a trained skill action for Medicine. Any feats that list it as a prerequisite no longer do so but requires Trained in Medicine, the old prerequisite for Battle Medicine."
+          },
+          "WardMedic": {
+            "Title": "Ward Medic",
+            "Text": "Ward Medic is baked into Treat Wounds and Treat Disease."
+          },
+          "ContinualRecovery": {
+            "Title": "Continual Recovery",
+            "Text": "Continual Recovery's requirement is changed to be a master in Medicine."
+          },
+          "NaturalMedicine": {
+            "Title": "Natural Medicine",
+            "Text": "Natural Medicine is adjusted to account for the changes to Medicine and Treat Wounds.",
+            "ReplacementText": "<p>You can apply natural cures to heal your allies. You can use Nature instead of Medicine to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}, and use a higher Nature proficiency to attempt more difficult checks. It doesn’t replace Medicine for feat prerequisites, for the ability to treat multiple people when you Treat Wounds, or for other uses of the skill other than Treat Wounds.</p> <p>However, if you succeed on your Treat Wounds check with Nature, you can continue treating the target for a total of 20 minutes to forgo rolling the healing dice and heal them for the maximum amount of healing. If you are a Master in Nature, you double the amount of healing in 20 minutes rather than 1 hour.</p> <p>If you’re in the wilderness, you might have easier access to fresh ingredients, allowing you to gain a +2 circumstance bonus to your check to Treat Wounds using Nature, subject to the GM’s determination. This bonus increases to +4 if you are Legendary in Nature.</p>"
+          },
+          "FascinatingPerformance": {
+            "Title": "Fascinating Performance",
+            "Text": "Fascinating Performance is adjusted to account for the changes to Perform; as Perform allows someone to already fascinate a single target, this feat allows you to fascinate multiple creatures. With the changes to the Fascinated condition, the Incapacitation trait and the immunity period are no longer necessary."
+          },
+          "DirtyTrick": {
+            "Title": "Dirty Trick",
+            "Text": "Dirty Trick is now a trained skill action. It no longer has the Attack trait."
+          }
+        },
+        "WeaponTraits": {
+          "Backswing": {
+            "Title": "Backswing",
+            "Text": "Attacking again after missing with this weapon grants you a +2 circumstance bonus to the attack rather than a +1."
+          },
+          "Backstabber": {
+            "Title": "Backstabber",
+            "Text": "Attacks against an off-guard creature deals precision damage equal to the number of weapon damage die, rather than 1 (or 2 if it is a +3 weapon)."
+          },
+          "Bomb": {
+            "Title": "Bomb",
+            "Text": "Alchemical Bombs function identically to how they are in Pathfinder, but their base range is 30 feet."
+          },
+          "Grenade": {
+            "Title": "Grenade",
+            "Text": "Grenades function identically to how they work in Starfinder, but they are Martial weapons instead of Simple weapons."
+          },
+          "Forceful": {
+            "Title": "Forceful",
+            "Text": "Subsequent attacks with a Forceful weapon adds a circumstance bonus to damage equal to 2 times the number of weapon damage die, rather than just equal to the number of weapon damage die."
+          },
+          "Maneuver": {
+            "WeaponManeuverLabel": "Using Maneuver With Weapon",
+            "Title": "Disarm, Grapple, Shove, Trip",
+            "Text": "As you can swap between 1-handedness or 2-handedness as a free action, these traits are adjusted so that attempts to use these actions with the weapon or unarmed attack with this trait allows the action to benefit from a target’s off-guard condition. @UUID[Compendium.immortal-ardor.equipment.Item.FgCLUHcWx97ZSbJU]{Effect: Maneuver Weapon}"
+          },
+          "Monk": {
+            "Title": "Forceful",
+            "Text": "A Monk or anyone who has similar form of monastic training can use weapons with this trait in place of unarmed attacks for feats with the Monk trait or similar, assuming the weapon meets the requirements listed for the attack (such as needing a particular trait on an unarmed attack)."
+          },
+          "Sweep": {
+            "Title": "Sweep",
+            "Text": "Attacking another target with this weapon after the first on a turn grants a +2 circumstance bonus to the attack rather than a +1."
+          },
+          "Twin": {
+            "Title": "Twin",
+            "Text": "Attacks with the second weapon in the pair adds a circumstance bonus to damage equal to 2 times the weapon damage die rather than just equal to the weapon damage die."
+          }
+        }
+      },
       "DrachiriBenefactor": {
         "BenefactorLabel": "Drachiri Benefactor",
         "BenefactorPrompt": "Select a Drachiri Benefactor.",
@@ -226,6 +510,14 @@
         "Ebony": "Ebony",
         "Violet": "Violet",
         "Ochre": "Ochre"
+      },
+      "Feats": {
+        "FosterTheGrove": {
+          "Label": "In Your Grove"
+        },
+        "BlackPowderBurn": {
+          "Label": "Black Powder Burn Damage"
+        }
       },
       "Domains": {
         "Boons": {

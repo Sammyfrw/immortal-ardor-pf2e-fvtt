@@ -1,0 +1,73 @@
+{
+  "folder": "oHLJpSBUq8cQHNPt",
+  "name": "Repelling Icon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirement</strong> You are holding a religious symbol in one hand, and holding a vial of @UUID[Compendium.pf2e.equipment-srd.z9T4c1hXwOotsMCp]{Holy Water} or @UUID[Compendium.pf2e.equipment-srd.EGhUorZhB7nV73Ev]{Unholy Water} or similar Holy or Unholy consumables in the other.</p><hr></div><p class=\"MsoNormal\">You utter prayers and bless your icon with a divine implement, and hold it up to repel mindless or weak-willed creatures in antithesis of your deity’s sanctification. You expend your held consumable in the process, but a target mindless creature or creature with an intelligence modifier of -3 or less within 30 feet of you needs to make a @Check[fortitude|against:religion] saving throw against your Religion DC. If you follow a Holy deity and use a Holy consumable, you target creatures with the Undead trait. If you follow an Unholy deity and use an Unholy consumable, you target living creatures.</p><p class=\"MsoNormal\"><strong>Success</strong> The creature is unaffected.</p><p class=\"MsoNormal\"><strong>Failure</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p class=\"MsoNormal\"><strong>Critical Failure</strong> The creature becomes Frightened 1 and @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p><p class=\"MsoNormal\">A creature who becomes Stunned is immune to being Stunned by Repelling Icon for 24 hours. If you become a Master in Religion, a creature becomes @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}. If you become Legendary in Religion, you can target even target creatures who are not mindless and have a higher intelligence modifier, and creatures with the Holy and Vitality traits or Unholy and Void traits, whichever is applicable.</p>"
+    },
+    "rules": [],
+    "slug": "repelling-icon",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "sanctified"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "6FsQ3uxTWMueNqr9",
+  "sort": 12500,
+  "_key": "!items!6FsQ3uxTWMueNqr9"
+}

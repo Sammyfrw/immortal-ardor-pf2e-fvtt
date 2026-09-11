@@ -1,0 +1,77 @@
+{
+  "folder": "Tm9CyxnYteWmg5hi",
+  "name": "Rift Manifestation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You can pull creatures readily across planes. When you use Manifesting Touch, you can cast a summon spell by the end of your next turn with 1 fewer action (minimum 1). Add the following to the trigger or requirements listed for @UUID[Compendium.immortal-ardor.classes.bCLBiXDx5A3UmVNE]{Manifesting Touch}.</p><p class=\"MsoNormal\"><strong>Trigger </strong>You used an action, spell, or ability to dismiss or end a summon spell.</p><p class=\"MsoNormal\"><strong>Requirements</strong> An action, spell, or ability used to end your summon spell did not involve reducing them to 0 hit points or killing them.</p>"
+    },
+    "rules": [],
+    "slug": "rift-manifestation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Manifesting Touch"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "7VxiDHgUoBNuYCaf",
+  "sort": 400000,
+  "_key": "!items!7VxiDHgUoBNuYCaf"
+}

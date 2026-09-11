@@ -1,0 +1,240 @@
+{
+  "name": "Ardorean Action Adjustments",
+  "type": "feat",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "effects": [],
+  "folder": "8576ZvH7RTr23nRp",
+  "flags": {},
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This is a feature added onto characters to enable various rules adjustments and changes, as described in @UUID[Compendium.immortal-ardor.journals.rN7GRW2OrOZmmzr3]{Immortal Ardor Features &amp; Rules Adjustments}.</p><p>This feature specifically causes changes in how non-feat actions work. Removing this feature returns non-feat actions to how they would work by default.</p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "property": "name",
+        "mode": "override",
+        "itemType": "action",
+        "predicate": [
+          "item:refocus"
+        ],
+        "value": "Aetherfont Refocus"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "property": "traits",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": "ardorean",
+        "predicate": [
+          {
+            "or": [
+              "item:aid",
+              "item:avert-gaze",
+              "item:ready",
+              "item:stride",
+              "item:craft",
+              "item:create-a-diversion",
+              "item:make-an-impression",
+              "item:coerce",
+              "item:demoralize",
+              "item:treat-wounds",
+              "item:treat-disease",
+              "item:perform"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "property": "description",
+        "mode": "add",
+        "label": "IA.SpecificRule.RulesAdjustments.Title",
+        "value": [
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Aid.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Aid.Text",
+            "predicate": [
+              "item:aid"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.AvertGaze.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.AvertGaze.Text",
+            "predicate": [
+              "item:avert-gaze"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Ready.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Ready.Text",
+            "predicate": [
+              "item:ready"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Stride.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Stride.Text",
+            "predicate": [
+              "item:stride"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Craft.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Craft.Text",
+            "predicate": [
+              "item:craft"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.CreateADiversion.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.CreateADiversion.Text",
+            "predicate": [
+              "item:create-a-diversion"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.MakeAnImpression.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.MakeAnImpression.Text",
+            "predicate": [
+              "item:make-an-impression"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Coerce.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Coerce.Text",
+            "predicate": [
+              "item:coerce"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Demoralize.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Demoralize.Text",
+            "predicate": [
+              "item:demoralize"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.TreatWounds.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.TreatWounds.Text",
+            "predicate": [
+              "item:treat-wounds"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.TreatDisease.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.TreatDisease.Text",
+            "predicate": [
+              "item:treat-disease"
+            ]
+          },
+          {
+            "title": "IA.SpecificRule.RulesAdjustments.Actions.Perform.Title",
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Perform.Text",
+            "predicate": [
+              "item:perform"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "property": "description",
+        "mode": "override",
+        "value": [
+          {
+            "text": "IA.SpecificRule.RulesAdjustments.Actions.Demoralize.ReplacementText"
+          }
+        ],
+        "predicate": [
+          "item:slug:demoralize"
+        ]
+      },
+      {
+        "key": "Note",
+        "text": "<p>If you are at least trained, you can compare the result of your check to the Will DC of one observer you choose to influence before you roll.</p>\n<hr>\n<p><b>Critical Success</b> The target is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} for 1 round. During their turn, they can also take a concentrate action to pull themselves away from you to end the effect early, or an ally can also take an action during their turn to draw their attention away to do the same, such as by yelling or shaking them.</p>\n\n<p><b>Success</b> As critical success, but the effect ends early if a hostile action is directed at the target. As normal, a hostile action they are aware of directed at them or their allies will allow them to make concentrate actions against other subjects.</p>\n<hr>",
+        "selector": [
+          "performance"
+        ],
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "action:perform",
+          {
+            "gte": [
+              "skill:performance:rank",
+              1
+            ]
+          }
+        ],
+        "title": "IA.SpecificRule.RulesAdjustments.Title"
+      }
+    ],
+    "slug": "ardorean-action-adjustments",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "ardorean-rules-adjustments"
+      ],
+      "value": [
+        "ardorean"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "i4dQ6kmfD5zmpQsr",
+  "sort": 100000,
+  "_key": "!items!i4dQ6kmfD5zmpQsr"
+}

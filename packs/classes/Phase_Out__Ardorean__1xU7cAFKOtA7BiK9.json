@@ -1,0 +1,80 @@
+{
+  "folder": "Tm9CyxnYteWmg5hi",
+  "name": "Phase Out (Ardorean)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your eidolon phases out of reality slightly, gaining resistance to all damage (except force, spirit and vitality) equal to half your level. They are not entirely incorporeal, but their movement can ignore difficult terrain and they gain a +2 circumstance bonus to checks to @UUID[Compendium.pf2e.actionspf2e.kMcV8e5EZUxa6evt]{Squeeze} or @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape}.</p><p class=\"MsoNormal\">Whenever you Manifest an Eidolon or use a feature that lists it as a subordinate action, you can use Phase Out. Your eidolon can Dismiss this effect to return to their normal form.</p>"
+    },
+    "rules": [],
+    "slug": "phase-out-ardorean",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ardorean",
+        "concentrate",
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Your eidolon is a phantom, psychopomp, or undead"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "1xU7cAFKOtA7BiK9",
+  "sort": 0,
+  "_key": "!items!1xU7cAFKOtA7BiK9"
+}

@@ -37,6 +37,42 @@
         "exportSource": null
       },
       "_key": "!journal.pages!YYiJeM6n5WxXQ1be.fsh7koND5jVYuu0C"
+    },
+    {
+      "sort": 200000,
+      "name": "Implements of Magic",
+      "type": "text",
+      "_id": "r3096A9lopwQNcve",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"MsoNormal\">Seekers of Ardor revamps the types of equipment available to spellcasters, by allowing magical implements to be strongly defined. It introduces new types of equipment in the form of Scepters and spell runes and adjusts the way Wands and Staves function. More information is available in the Implements of Magic section in the Equipment chapter.</p><p class=\"MsoNormal\">Magical implements are equipment that are meant to be used by spellcasters as they influence their spellcasting abilities or allow them to cast spells through them. Wands, Scepters and Staves are examples of these implements. Typically, these implements are activated by using the Cast a Spell activity.</p><p class=\"MsoNormal\">Magical implements can be engraved with runes in the same way weapons and armor can. While some implements can function like a weapon, allowing them to be inscribed with weapon runes, they also can be inscribed with spell runes, which are runes that are specific to magical implements. Spell runes and weapon runes are mutually exclusive unless stated otherwise. Rules for spell runes are provided in their specific section below.</p><p class=\"MsoNormal\">Some implements such as wands with fundamental spell runes, scepters and staves must be prepared and charged during daily preparations, which gives a spellcaster full access to the functionalities of the implement. A spellcaster can only charge one implement for use each day.</p><p class=\"MsoNormal\">Barring any adjustments specifically detailed here, Wands and Staves follow their respective rules.</p><h2>Spell Runes</h2><p class=\"MsoNormal\">Spell runes are runes that apply specifically to magical implements. These runes provide improvements and benefits to spellcasters who wield these items. Like weapon runes, they have fundamental spell runes as well as property spell runes. All rules for spell runes follow the guidelines for how weapon runes work, from inscribing, transferring, or crafting runes onto magical implements.</p><p class=\"MsoNormal\">When using a magical implement with spell runes, its benefits only apply to the spells within the implement. A wand of <em>Fireball</em> with a widening property rune would only confer its effect to the fireball cast with its charge, and a staff of fire with a spell potency rune would similarly only apply its spell attack bonus to a cast of <em>Ignition</em> from the staff.</p><p class=\"MsoNormal\">However, magical implements with runes can be invested into by a spellcaster that charges them. When invested, the spell runes on the magical implement can apply to all spells cast by the spellcaster that is wielding them on hand, though some runes apply only to specific spells or have requirements which must be met. As a spellcaster can only charge one magical implement each day, they can only invest into one of these implements.</p><p class=\"MsoNormal\"><strong>Fundamental Spell Runes </strong>include spell potency runes and spell versatility runes. When inscribed with them, a magical implement must be prepared and charged and then wielded by the spellcaster who charged it for them to benefit from the runes’ effects. A potency rune grants you an item bonus to your spell attack for spells you cast by the value on the potency rune (+1, +2, and +3) while wielding a charged implement. A versatility rune has different effects depending on what implement it is inscribed into, but generally improves upon the primary benefit of a particular implement.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\">For wands, it allows you to have an extra charge of the spell on the wand.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\">For scepters, it allows the scepter to hold another spell.</p></li><li><p class=\"MsoListParagraphCxSpLast\">For staves, it grants you additional charges when you charge the staff.</p></li></ul><p class=\"MsoNormal\"><strong>Property Spell Runes </strong>behave similar to property runes in weapons and armor; you can engrave a number of property runes to a magical implement equal to the value of the potency rune. These confer unique effects that range from improving spells cast from the implement, improving spellcasting in general, or turning the implement into a capable fighting weapon.</p><h2>Wands</h2><p class=\"MsoNormal\">With the addition of spell runes, most specialized wands are treated as if they possess a spell property rune, even though they do not possess any fundamental runes. At a GM’s discretion, specialized wands could come with fundamental runes to behave like any engraved wand, but this would increase their gold value for the purposes of treasure awards.</p><p class=\"MsoNormal\">When engraved with fundamental spell runes, a wand needs to be prepared and charged for its wielder to benefit from the runes’ inscribed effects. This doesn’t prevent a spellcaster from using other wands, but they cannot benefit from an unprepared wand’s fundamental runes. A spell versatility rune grants the wand an additional charge to cast its spell, depending on the rank of the spell and the rank of the rune.</p><h2>Staves</h2><p class=\"MsoNormal\">Staves normally only allow spells to be cast from it at the rank they’re presented in the staff’s stat block, disallowing it from being heightened. This rule has been altered so that you can cast spells from the staff at a heightened level, as long as you spend the charges to cast it at the appropriate spell rank, up to the maximum spell rank available to the staff. Any spells that are repeated at higher ranks on a given staff can be replaced with similar thematic spells.</p><p class=\"MsoNormal\">While a staff can be inscribed with weapon runes, it can also instead be inscribed with spell runes. A spell versatility rune grants a staff additional charges when it is charged during daily preparations equal to the rank of the rune.</p><h2>Scepters</h2><p class=\"MsoNormal\">Seekers of Ardor introduces a new type of equipment in the form of Scepters.</p><p class=\"MsoNormal\">A scepter is a type of magical implement. Each day during daily preparations, you can charge a scepter; when you do, you add a spell from your repertoire or a spell you can prepare for it to hold. Once during the day, you can cast a spell held by a scepter you charge at any rank you can cast at. Once this charge is expended, you can only cast a held spell again by spending a spell slot or a prepared spell at the rank of the spell expended.</p><p class=\"MsoNormal\">A scepter can be inscribed with weapon runes, which would increase its power as a regular weapon would. However, it can also be inscribed with spell runes instead. A spell versatility rune allows you to hold additional spells in the scepter equal to the rank of the rune (though it does not grant an additional charge).</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!YYiJeM6n5WxXQ1be.r3096A9lopwQNcve"
     }
   ],
   "folder": null,

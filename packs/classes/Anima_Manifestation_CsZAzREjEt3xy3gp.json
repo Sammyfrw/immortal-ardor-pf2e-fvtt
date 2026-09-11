@@ -22,7 +22,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.animaManifestation}"
+        "uuid": "{item|flags.system.rulesSelections.animaManifestation}"
       }
     ],
     "slug": "anima-manifestation",
@@ -78,7 +78,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

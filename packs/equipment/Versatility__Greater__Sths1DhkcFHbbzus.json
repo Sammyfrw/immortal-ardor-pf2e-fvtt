@@ -1,0 +1,93 @@
+{
+  "folder": "zxyk2vcgkwS2mE2S",
+  "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+  "name": "Versatility (Greater)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Etched onto an implement of magic, these runes expand the implement’s capability of holding more magic in its own unique way depending on its type.</p><p class=\"MsoNormal\">You can upgrade the versatility rune already etched on an implement to a stronger version, increasing the values of the existing rune to those of the new rune. You must have the formula of the stronger rune to do so, and the Price of the upgrade is the difference between the two runes' Prices.</p><p><strong>Wand</strong> you gain an additional charge of a spell of 1st to 6th level.</p><p class=\"MsoNormal\"><strong>Scepter</strong> you can select another 2 spells to charge onto the scepter.</p><p class=\"MsoNormal\"><strong>Staff</strong> your staff gains 2 additional charges when you prepare it.</p>"
+    },
+    "rules": [],
+    "slug": "versatility-greater",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 1065
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "etched-onto-a-weapon"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "Sths1DhkcFHbbzus",
+  "sort": 500000,
+  "_key": "!items!Sths1DhkcFHbbzus"
+}

@@ -1,5 +1,5 @@
 {
-  "folder": "I3N0LWkmyhk7xTuc",
+  "folder": "dNjLquRCjxxktPVQ",
   "name": "Effect: Sheep Skewer Surprise (Favorite)",
   "type": "effect",
   "effects": [],
@@ -66,13 +66,13 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.54kYtkSMPcVlHzY2",
     "duplicateSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "7.4.2",
     "exportSource": null
   },
   "_id": "54kYtkSMPcVlHzY2",
-  "sort": 600000,
+  "sort": 1300000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

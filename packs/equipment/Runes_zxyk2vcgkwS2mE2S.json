@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "S3EqY95AQR3Jex8W",
+  "name": "Runes",
+  "color": null,
+  "sorting": "a",
+  "_id": "zxyk2vcgkwS2mE2S",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!zxyk2vcgkwS2mE2S"
+}
