@@ -64,7 +64,7 @@
     "context": null
   },
   "img": "icons/consumables/grains/breadsticks-crackers-wrapped-ration-brown.webp",
-  "folder": "I3N0LWkmyhk7xTuc",
+  "folder": "dNjLquRCjxxktPVQ",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
@@ -74,11 +74,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "7.5.2"
   },
   "_id": "i1DDHmsERWMYFMz3",
-  "sort": 0,
+  "sort": 150000,
   "_key": "!items!i1DDHmsERWMYFMz3"
 }

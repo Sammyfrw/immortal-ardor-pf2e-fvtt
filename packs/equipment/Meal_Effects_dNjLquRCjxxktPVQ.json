@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "b1HP43bs9dqQEraE",
+  "name": "Meal Effects",
+  "color": null,
+  "sorting": "a",
+  "_id": "dNjLquRCjxxktPVQ",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!dNjLquRCjxxktPVQ"
+}

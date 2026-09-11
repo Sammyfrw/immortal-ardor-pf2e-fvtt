@@ -1,0 +1,75 @@
+{
+  "name": "Black Dragon Smoke",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are wielding a loaded firearm.</p><hr><p>You launch yourself through the air with the kickback of a wielded firearm. You discharge your firearm, causing you to Leap up to 20 feet in any direction. At any point during the Leap, you can make a Strike with a weapon or unarmed attack you have, including a ranged Strike with the firearm you used for this feat if it ihas ammunition. You treat your fall at the end of the Leap as 20 feet lower.</p><p>If you spend 2 actions instead, you can Leap twice and treat your fall as 30 feet lower. You can make your Strike after either Leap.</p><p>If you spend a focus point when you use this constellation action, you Leap 30 feet with a single action, or 50 feet with two actions. You do not need to wield a loaded firearm or to discharge a firearm to do so.</p>"
+    },
+    "rules": [],
+    "slug": "black-dragon-smoke",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "constellation"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": null,
+    "selfEffect": null
+  },
+  "_id": "B3ckH8S7IlBn73pq",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "folder": "aDH8C7M7CfHOHAon",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!items!B3ckH8S7IlBn73pq"
+}

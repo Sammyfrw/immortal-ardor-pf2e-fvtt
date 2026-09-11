@@ -1,5 +1,5 @@
 {
-  "folder": "I3N0LWkmyhk7xTuc",
+  "folder": "dNjLquRCjxxktPVQ",
   "name": "Effect: Hearty Meal",
   "type": "effect",
   "effects": [],
@@ -56,13 +56,13 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.OLdWsbIF7L9Jg1UK",
     "duplicateSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "6.9.0",
     "exportSource": null
   },
   "_id": "OLdWsbIF7L9Jg1UK",
-  "sort": 1400000,
+  "sort": 900000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

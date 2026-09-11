@@ -1,0 +1,98 @@
+{
+  "folder": "1tgwp9ZT6x5G4tFB",
+  "name": "Stardust of Pillar's Reach",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Pillar represents culture and sophistication, and the elevation thereof. It does not necessarily mean one type or idea of culture is greater than the other, but the best of those qualities and its refinement is meant to be raised and shined through. Even though, that usually comes with pride and prejudice. The Pillar's Reach defines the farthest distance one goes to find the path to exemplification; how one attains greatness, and how one is changed in the path towards it.</p><p><strong>Constellation </strong>@UUID[Compendium.immortal-ardor.deities.Item.P43Qt6g6aRdxi0gp]{The Pillar}</p><hr><p><strong>First Asterism</strong> (Level 7): You can cast @UUID[Compendium.pf2e.spells-srd.S1Msrwi990FE7uMO]{Call The Blood} as a constellation spell.</p><p><strong>Second Asterism</strong> (Level 11): You can cast @UUID[Compendium.pf2e.spells-srd.gBJtUhewnihlqxm7]{Rose's Thorns} as a constellation spell.</p><p><strong>Third Asterism </strong>(Level 15): You can cast @UUID[Compendium.pf2e.spells-srd.fBoiPXmcIO50OFFR]{Boil Blood} as a constellation spell.</p>"
+    },
+    "rules": [],
+    "slug": "stardust-facet",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unknown Stardust Facet",
+        "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Stardust_Fragment_HD.png",
+        "data": {
+          "description": {
+            "value": "<p>An unidentified stardust facet.</p>"
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "bonded"
+    },
+    "subitems": []
+  },
+  "img": "https://assets.forge-vtt.com/61911f46fa130239371563af/Seekers%20Art/Object%20Art/Stardust_Fragment_HD.png",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "D0YI6aEmovaysQne",
+  "sort": 0,
+  "_key": "!items!D0YI6aEmovaysQne"
+}

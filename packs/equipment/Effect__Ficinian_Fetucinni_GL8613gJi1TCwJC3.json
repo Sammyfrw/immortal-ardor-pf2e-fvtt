@@ -1,5 +1,5 @@
 {
-  "folder": "I3N0LWkmyhk7xTuc",
+  "folder": "dNjLquRCjxxktPVQ",
   "name": "Effect: Ficinian Fetucinni",
   "type": "effect",
   "effects": [],
@@ -58,7 +58,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "6.9.0",
     "exportSource": null
@@ -69,6 +69,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "GL8613gJi1TCwJC3",
-  "sort": 100000,
+  "sort": 600000,
   "_key": "!items!GL8613gJi1TCwJC3"
 }

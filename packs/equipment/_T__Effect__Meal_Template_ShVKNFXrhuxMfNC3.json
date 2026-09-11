@@ -1,5 +1,5 @@
 {
-  "folder": "I3N0LWkmyhk7xTuc",
+  "folder": "dNjLquRCjxxktPVQ",
   "name": "[T] Effect: Meal Template",
   "type": "effect",
   "effects": [],
@@ -50,12 +50,12 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.ShVKNFXrhuxMfNC3",
     "duplicateSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "6.9.0",
     "exportSource": null
   },
-  "sort": 1700000,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "I1veN4C8IQlA6HIt": 3,

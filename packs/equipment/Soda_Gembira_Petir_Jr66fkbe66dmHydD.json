@@ -1,0 +1,107 @@
+{
+  "folder": "I3N0LWkmyhk7xTuc",
+  "name": "Soda Gembira Petir",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Recipe Price</strong> 150 sp<br><strong>Ingredients</strong> 2 basic, 2 special<br><strong>Preparation</strong> DC 23 Cooking Lore, DC 25 Survival</span><br><strong>Requirements</strong> Improved Kitchen, plus Magical or Alchemical Crafting OR Magic Kitchen<br><strong>Favorite Meal</strong> You have an extra focus point that you can use once for the next 24 hours.</p><hr><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Soda Gembira, translating to \"Soda of Happiness\" is a fizzy drink made by combining a carbonated drink with syrup, typically pandan. While a very common drink that is easily accessible and is a common treat with children in humid hot days after school, this particular blend known as Soda Gembira Petir (the Batavian word for Lightning) features infusions with glintberries found in Fernview. The end result is the typical pandan syrup's flavor of vanilla and toasted coconut, and a spike of what is a fizzy blueberry taste for an extra kick.</span></p><p>Once consumed, a Soda Gembira Petir grants a +1 item bonus to spell attacks and spell DCs for 24 hours, or until their next daily preparations, whichever comes first. If they already benefit from an item bonus, increase this item bonus by that amount instead.</p><p>@UUID[Compendium.immortal-ardor.equipment.Jr66fkbe66dmHydD]{Soda Gembira Petir}</p>"
+    },
+    "rules": [],
+    "slug": "soda-gembira-petir",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "alchemical-food"
+      ],
+      "value": [
+        "consumable"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 30
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/meat/chicken-breast-raw-pink.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "spell": null
+  },
+  "img": "icons/consumables/drinks/tea-jug-gourd-brown.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Jr66fkbe66dmHydD",
+  "sort": 0,
+  "_key": "!items!Jr66fkbe66dmHydD"
+}
