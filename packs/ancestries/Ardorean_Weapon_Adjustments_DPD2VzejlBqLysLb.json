@@ -121,9 +121,9 @@
         "label": "Backswing",
         "type": "circumstance",
         "predicate": [
-          "item:trait:backswing",
-          "penalty:slug:multiple-attack-penalty"
-        ]
+          "item:trait:backswing"
+        ],
+        "hideIfDisabled": true
       },
       {
         "key": "FlatModifier",
@@ -134,9 +134,9 @@
         "label": "Sweep",
         "type": "circumstance",
         "predicate": [
-          "item:trait:sweep",
-          "penalty:slug:multiple-attack-penalty"
-        ]
+          "item:trait:sweep"
+        ],
+        "hideIfDisabled": true
       },
       {
         "key": "FlatModifier",
@@ -146,11 +146,11 @@
           "strike-damage"
         ],
         "predicate": [
-          "item:trait:forceful",
-          "penalty:slug:multiple-attack-penalty"
+          "item:trait:forceful"
         ],
         "type": "circumstance",
-        "slug": "forceful-second"
+        "slug": "forceful-second",
+        "hideIfDisabled": true
       },
       {
         "key": "FlatModifier",
@@ -160,11 +160,11 @@
           "strike-damage"
         ],
         "predicate": [
-          "item:trait:forceful",
-          "penalty:slug:multiple-attack-penalty"
+          "item:trait:forceful"
         ],
         "type": "circumstance",
-        "slug": "forceful-third"
+        "slug": "forceful-third",
+        "hideIfDisabled": true
       },
       {
         "key": "FlatModifier",
@@ -174,11 +174,11 @@
           "strike-damage"
         ],
         "predicate": [
-          "item:trait:twin",
-          "penalty:slug:multiple-attack-penalty"
+          "item:trait:twin"
         ],
         "type": "circumstance",
-        "slug": "twin-second"
+        "slug": "twin-second",
+        "hideIfDisabled": true
       },
       {
         "key": "FlatModifier",
@@ -193,7 +193,8 @@
         ],
         "type": "circumstance",
         "slug": "backstabber",
-        "damageCategory": "precision"
+        "damageCategory": "precision",
+        "hideIfDisabled": true
       }
     ],
     "slug": "ardorean-weapon-adjustments",

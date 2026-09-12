@@ -42,17 +42,25 @@
             "title": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.Counterspell.Title",
             "text": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.Counterspell.Text",
             "predicate": [
-              "item:counterspell",
-              "item:counterspell-spontaneous",
-              "item:counterspell-prepared"
+              {
+                "or": [
+                  "item:counterspell",
+                  "item:counterspell-spontaneous",
+                  "item:counterspell-prepared"
+                ]
+              }
             ]
           },
           {
             "title": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.QuickDraw.Title",
             "text": "IA.SpecificRule.RulesAdjustments.CrossClassFeats.QuickDraw.Text",
             "predicate": [
-              "item:quick-draw",
-              "item:quick-draw-dervish"
+              {
+                "or": [
+                  "item:quick-draw",
+                  "item:quick-draw-dervish"
+                ]
+              }
             ]
           },
           {

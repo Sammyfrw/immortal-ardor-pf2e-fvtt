@@ -43,7 +43,7 @@
         "selector": [
           "strike-damage"
         ],
-        "value": "ternary(gte(@actor.level,18),5,ternary(gte(@actor.level,10),4,3))",
+        "value": "@weapon.system.damage.dice + ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,10),2,1))",
         "damageCategory": "persistent",
         "damageType": "bleed",
         "predicate": [
@@ -52,17 +52,6 @@
           "predation"
         ],
         "slug": "predation-damage"
-      },
-      {
-        "key": "AdjustModifier",
-        "selector": "strike-damage",
-        "slug": "predation-damage",
-        "value": "@weapon.system.damage.dice",
-        "mode": "add",
-        "predicate": [
-          "improved-manifestation:predation",
-          "predation"
-        ]
       }
     ],
     "slug": "predation",
