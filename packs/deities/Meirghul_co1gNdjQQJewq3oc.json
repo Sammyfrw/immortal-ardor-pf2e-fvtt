@@ -1,0 +1,79 @@
+{
+  "folder": "K0GXxtxHemGwBXOl",
+  "name": "Meirghul",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Schattenriss, Aelkhazak Settlements</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Hells (Neferium, Obscurum)</em></span></p><p class=\"MsoNormal\">Meirghul once lived amongst the Serpents Lyre – home to the Lieges of the Aelkhazak Thalassocracy, where the serpentine folk bid their prayers and sacrifices. Once ruling the waterways and oceans surrounding Gere, the Lyre and their Aelkhazak worshippers were amongst the oldest of Ardor’s denizens. Upon the eruption of the great volcano of Zaho, their world was thrown into upheaval as their lands had changed – and those whom they had ruled over became possessed of powers beyond their imagining. As their rule began a long and crippling decline, Meirghul was pointed as one of the causes of their demise. She was then ousted to the deepest waters known to the Thalassocracy: The Darksea. An ocean lying under the Schattenriss, deep and beyond the Lyre’s reach, where no Aelkhazak dared venture. In her solitude, Meirghul brought those still loyal to her to the Darksea. As precarious as it was, she had discovered profane and forgotten knowledge, hidden in the depths within the darkest sea – and for their perseverance, they were forever changed. Ever since then, they have been an omnipotent presence with occult powers, wielding the very essence of the Schattenriss itself. It was due to their occult knowledge and outcast nature that bade Aghorym to find a mutual ally in Meirghul for his plans of revenge; one that Meirghul obliged in, allowing Aghorym to find the Undelkhen Empire once the Aelkhazak Thalassocracy was splintered into ruins – and Meirghul was offered the second seat of the Deep Council.</p><p class=\"MsoNormal\">Meirghul and her brood of Deep Serpents are as mysterious as they are cryptic. Bearing occult knowledge, some forbidden even to the creatures of the Schattenriss have given them an air of danger and fright, their domain of the Darksea aside. The Darksea itself is a place rife with risks and threatening creatures, so very few Undelkhen outside of the Deep Serpents would consider traveling to the Darksea to live amongst them – for there are very few comforts for those who walk on two feet and even fewer in the way of sustenance that can be safely eaten. And even less so for those who can brave the creatures that lurk in the deepest nests and waters of the Schattenriss. Nevertheless, Meirghul attracts those who seek the esoteric and the workings of the threads and bindings of the Schattenriss and even the world above. Some concessions and accommodations are made to worship and serve Meirghul in the landlocked territories of the Undelkhen Empire, but one must still contend with the alien-like mentality of the Deep Serpents and risk of being changed by the influences of Meirghul’s domain and blessing. The rewards however, are often great – and for those most successful, a new birth as a Deep Serpent.</p><p><strong>Title</strong> Outcast of the Darksea</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Seek obscure knowledge, brave dangerous corners of thought and lore</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Turn away forbidden knowledge</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Occult secrets, forbidden knowledge, fate, aberrations</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A hand clutching a black orb</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Eel</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> blue and purple</span></p>"
+    },
+    "rules": [],
+    "slug": "meirghul",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "abomination",
+        "knowledge",
+        "nightmares",
+        "void"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "cha",
+      "wis"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [
+      "shauth-lash"
+    ],
+    "spells": {}
+  },
+  "img": "icons/creatures/reptiles/snake-fangs-bite-green-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "co1gNdjQQJewq3oc",
+  "sort": 200000,
+  "_key": "!items!co1gNdjQQJewq3oc"
+}

@@ -1,0 +1,79 @@
+{
+  "folder": "HKnuBgAIAZdbcUtH",
+  "name": "Synark",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Category: Seen Gods</em></span></p><p class=\"MsoNormal\"><em>Primarily Practiced In: Small pockets worldwide</em></p><p class=\"MsoNormal\"><em>Espirian Domains: The Hells (Mortum)</em></p><p class=\"MsoNormal\">Synark’s form is long lost to time; in many older depictions he is a serpentlike being, but he is comprised of the bones of countless creatures who have perished and discarded their bodies to him. Many of his fiends and his worshippers align with the Hellish realm of Mortum, consigned with disgust at the desire for the sanctity of life, and the finality of death. As a result, many are brought back through vile methods and unholy powers as undead, allowing their souls to be whisked and transformed into unholy creations, while their bones are sacrificed to the ever-growing deity. Worship of Synark typically, truly begins upon reaching this threshold of death. Many of the siblings find Synark a useful but also unreliable ally, but Synark’s goal is sensible in that he only desires to take the bones of the dead in the battlefields of the Eternal Strife. But the siblings understand that they must be careful, that the souls of those who perish should not have agreed to terms or desire their death so that they can serve Synark in undeath; for that will be an enemy in the future for their own forces.</p><p class=\"MsoNormal\"><strong>Title</strong> Skeleton of Impermanent Death</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Pursue avenues to spit on mortality such as extending your lifespan or raise undead.</span><span style=\"mso-tab-count:1\">        </span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Anathema </strong>Putting the dead to rest, revive a creature to mortality</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Death, undeath, bones</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> An arrangement of bovid skeletons</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Worms</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong> black, green and teal</span></p>"
+    },
+    "rules": [],
+    "slug": "synark",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "death",
+        "decay",
+        "undeath",
+        "plague"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "cha",
+      "wis"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [
+      "flail"
+    ],
+    "spells": {}
+  },
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "6Ipzg9oCy8P2Mg69",
+  "sort": 101563,
+  "_key": "!items!6Ipzg9oCy8P2Mg69"
+}

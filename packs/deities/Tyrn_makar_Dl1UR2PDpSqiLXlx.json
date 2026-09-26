@@ -1,0 +1,79 @@
+{
+  "folder": "COqBnzik42Ko5tjm",
+  "name": "Tyrn'makar",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, North Rodda</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Valtal), The Hells (Arcanum)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">The Preserver is the seat of one who nurtures, rests, and welcomes one to bask in the warmth upon a journey’s end. Tyrn’makar, the current holder of the seat is said to have descended from the Sun Giants who were picked by Sada’ahmar long ago to be their champions. They have had a long journey to return to the forefront, having been hunted by the Knights of Cerberus across two continents before returning to the fold of the Celestial Seats, and more than any other deity he understands the plight of mortals who desire respite from the weary dangers of the world – thus, complimenting him for the title of Preserver. His domain is that of the hearth, and many families ask the Preserver to give them a comforting and restful end to a sojourn, where the woes and ails of the day wash away.</span><span style=\"mso-spacerun:yes\">  </span><span style=\"mso-bidi-font-weight:bold\">Tyrn’makar has been depicted in various ways, varying from a loupain draped in sunlit robes, to a sapien that wears ceremonial Oderivan garb.</span></p><p class=\"MsoNormal\"><strong>Title</strong> The Preserver</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Create places of peace and rest for weary travelers, build or decorate welcoming homes, take rest and sleep when tired</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Push on to the point of excess fatigue, dismantle firepits and campfires before the fire naturally wears</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Warmth, rest, homes and sleep</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A cupped hand with a flame hovering over it</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Robin</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> red, white and gold</span></p>"
+    },
+    "rules": [],
+    "slug": "tyrnmakar",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "healing",
+        "repose",
+        "dreams",
+        "sun"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "wis"
+    ],
+    "skill": [
+      "medicine"
+    ],
+    "weapons": [
+      "club"
+    ],
+    "spells": {}
+  },
+  "img": "icons/magic/light/explosion-star-large-orange.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "Dl1UR2PDpSqiLXlx",
+  "sort": 0,
+  "_key": "!items!Dl1UR2PDpSqiLXlx"
+}

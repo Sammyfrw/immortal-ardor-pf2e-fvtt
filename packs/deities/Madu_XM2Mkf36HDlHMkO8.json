@@ -1,0 +1,81 @@
+{
+  "folder": "COqBnzik42Ko5tjm",
+  "name": "Madu",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, North Rodda</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Valtal), The Hells (Perditum)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">The Havoc-bringer is the catalyst for change, be it through death, disease, or the passage of time. While the Preserver seeks to invite respite, rest and recovery, the Havoc-bringer is an entity of inevitability, with time tolling the future for all. People pray to the Havoc-bringer when they wish for change to happen, or when they wish for the inevitable future to be in their favor, or to for them to stay their hand from bringing disease. ‘Havoc’ is a crucially divisive term, but its oldest meanings convey the intent of the seat. But should Havoc come, it is an ill-omen to spit upon them, for it will only invite it further.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">Madu is a spirit that hails from the Isles of Mann, where its animist peoples see her as a catalyst for the change between the monsoon and dry seasons, which is typically affiliated between a proliferation of illness and fevers. As she rejoins the Celestial Seats, her presence is felt by multitudes of worshippers of the Celestial Twelve. While she brings Havoc as per her role, her existence is more of a lesson to her followers, to be prepared for what is coming. Madu takes the form of a short-haired lyncan, whose fur is in amber hues like the sweetest honey.</span></p><p class=\"MsoNormal\"><strong>Title</strong> The Havoc-bringer</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Be prepared for the future, protect yourself from harm, participate in burial rites</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Curse the lot you have been given, ignore the signs and knowledge that would allow you to avoid danger</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Preparedness, inevitability, death</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> A mound with a jasmine flower planted upon it.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Vulture</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong> purple and brown</span></p>"
+    },
+    "rules": [],
+    "slug": "madu",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "death",
+        "decay",
+        "time",
+        "dust"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "cha",
+      "int"
+    ],
+    "skill": [
+      "deception"
+    ],
+    "weapons": [
+      "rapier"
+    ],
+    "spells": {}
+  },
+  "img": "icons/weapons/swords/sword-jeweled-red.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "XM2Mkf36HDlHMkO8",
+  "sort": 400000,
+  "_key": "!items!XM2Mkf36HDlHMkO8"
+}

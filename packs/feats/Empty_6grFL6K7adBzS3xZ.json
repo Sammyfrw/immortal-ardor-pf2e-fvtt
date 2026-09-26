@@ -36,6 +36,12 @@
         ],
         "value": "-(((@actor.system.attributes.classhp/2)+@actor.system.abilities.con.mod)*@actor.level)",
         "label": "Empty Hit Points"
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "empty"
+        ]
       }
     ],
     "slug": "empty",
@@ -90,7 +96,7 @@
     "duplicateSource": null,
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "exportSource": null
   },
   "sort": 100000,

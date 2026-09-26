@@ -1,0 +1,81 @@
+{
+  "folder": "MD0FO6Yg76cX9qCa",
+  "name": "Beltelkhen",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Worldwide, particularly in seafaring nations</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Elysium, Asphalus, Taranthara)</em></span></p><p class=\"MsoNormal\">Beltelkhen is the Wind of Change; he is the patron of travelers, inventors, sailors and explorers. He represents change, progress and discovery as a means to expanding one’s means. As a deity of industry, he was heavily favored by many craftsmen and the men of the Meerhafen navy, for his ways were what allowed the kingdom to flourish and expand to greater heights. Militaristically the schnauzen were never going to outpace many of their neighbors, but it came down to their willingness to attempt things far beyond the scope of any other loupain kingdoms that saved them. The philosophy of expanding one’s horizons is still steeped in the old loupain way of survival; for it can bring about greater heights to discover and create new things. As such, many progressive members of loupain society have grown to favor Beltelkhen for his edicts. He is often depicted as a blue-furred schnauzen loupain, holding a divining implement such as an astrolabe in flowing robes, though butterflies have become a common motif for him in recent years.</p><p class=\"MsoNormal\">Beltelkhen’s influence had waned dramatically since the Four Swords Rebellion; but after Scourge’s End, the Wind of Change had grown in influence due to the champion he had been attached to holding onto his ideals and spreading his words.</p><p><strong>Title</strong> Wind of Change</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Seek new knowledge, invent new ideas or creations for future generations</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Restrict or destroy means of travel, destroy places of learning</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Change, Invention, Travel</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A butterfly upon an ocean wave</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Butterfly</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> blue and gold</span></p>"
+    },
+    "rules": [],
+    "slug": "beltelkhen",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "air",
+        "change",
+        "travel",
+        "freedom"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "dex",
+      "int"
+    ],
+    "skill": [
+      "survival"
+    ],
+    "weapons": [
+      "crossbow"
+    ],
+    "spells": {}
+  },
+  "img": "icons/magic/air/wind-tornado-funnel-gray.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "dxVxL4PBNOMfrBU8",
+  "sort": 200000,
+  "_key": "!items!dxVxL4PBNOMfrBU8"
+}

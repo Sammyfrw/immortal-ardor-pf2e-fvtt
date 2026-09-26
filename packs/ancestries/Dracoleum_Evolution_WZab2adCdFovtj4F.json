@@ -16,9 +16,7 @@
         "uuid": "Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte",
         "predicate": [
           {
-            "not": [
-              "self:ancestry:draichsar"
-            ]
+            "not": "self:ancestry:draichsar"
           }
         ]
       },
@@ -90,7 +88,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

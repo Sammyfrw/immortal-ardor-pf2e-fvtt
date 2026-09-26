@@ -1,0 +1,599 @@
+{
+  "name": "Immortal Ardor Deities",
+  "_id": "diT67NDPokMW3mI2",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Pantheons, Faiths & Deities",
+      "type": "text",
+      "_id": "R1sNBnYrocJZuGxQ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"MsoNormal\">Ardorean religion throughout history has seen tremendous change. Many faiths spring from greater spirits colloquially called deific spirits. These deities are spirits that oversee great, powerful domains in the spiritual realm of Espiria, and exude great influence upon the lands they are worshipped, and give their most devout their blessings and boons.</p><p class=\"MsoNormal\">In ages past, it is widely believed that as faiths and civilizations changed, deities that once roamed the world faded into obscurity, taking their domains with them, while others rose to prominence to take their place. As these spirits’ domains and powers rise and fall as the climates of people change, these same people, and the lands they lived in changed physically, emotionally, and spiritually as the domains shift, governed by their deity. However, by the same token, the worshippers also influence the deities as well, which feeds back to the changes in their own lives. This positive feedback loop is a known phenomenon in the interplay between the lives in the Material Plane and the Spiritual Plane.</p><p class=\"MsoNormal\">Most of what Ardoreans consider deities are greater spirits that have amassed enough power and worshippers to become a prominent force of strength, and effortless generate domains as prominent as they are worshipped. Despite this, they are still spirits, but they have the capabilities of flowing and bestowing power through their domains and into those they deem worthy and capable of withstanding the divine energy they can provide. However, not all deities fall under this, as there are deities that exist that seem to provide divine providence and power, and yet have never once been seen manifesting upon Ardor’s material plane, or found by any other spirit in the spiritual plane of Espiria. These are known as the Unseen gods, and very few have ever claimed to be able to speak to them or see them – typically oracles, prophets, and the lucky few religious followers, or the closest among their aligned spirits and servants.</p><p class=\"MsoNormal\">As most deities in local regions are spirits with a modicum of divine capabilities that are among the Seen gods, this opens them to difficult questions such as whether they are as prominent, powerful, or truly deific the same way as the Unseen, and as they bear an actual presence they can be interacted with directly. Some of these deities had been killed, while others had been forced to manifest with enough powerful summoning magic such as when these local spirits were shackled into servitude by armies for battle during the War of Effigies. Ever since, the Circle of Nurani has been established as a means to unify and protect all spirits from forced servitude, with some of its leaders being these greater spirit deities.</p><p class=\"MsoNormal\">The deities listed below are among some of Ardor’s known seen and unseen deities.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.R1sNBnYrocJZuGxQ"
+    },
+    {
+      "sort": 200000,
+      "name": "Luzun, the Five of the Whorl",
+      "type": "text",
+      "_id": "5tOP6qTEZJ76hlFB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"MsoNormal\">The pantheon of Luzunism is depicted as five petals of the flower of life, known as the Luzun. Each petal depicts a respective deity: Krahi, Kirahi, Yol, Sima and Torre, each a deity that governs a part of the cycle of life. Originating in Liefenel in their worship of the Lifetree, the luzunites have since spread to remote islands or quieter nations as a result of Rogalia’s expansion of the Phanosian church. Now, Luzunism is practiced worldwide, with some of the five petals being more revered than others, depending on territory. As part of a heavily ritualistic and codified faith, Luzunites aspire to fulfill the wishes of their deity through practice. In most cases, these are integrated to their daily lives, to where it becomes implicit to their culture. None of the Luzun petals have been known to manifest to this day. Spirits of nature, life and death are known to follow and worship the Luzun.</p><h2>@UUID[Compendium.immortal-ardor.deities.0tupPCbWvJi1Njfm]{Krahi}, The First Petal</h2><p>@Embed[Compendium.immortal-ardor.deities.0tupPCbWvJi1Njfm]</p><h2>@UUID[Compendium.immortal-ardor.deities.5E0fIUpOWW5lmKOB]{Kirahi}, The Second Petal</h2><p>@Embed[Compendium.immortal-ardor.deities.5E0fIUpOWW5lmKOB]</p><h2>@UUID[Compendium.immortal-ardor.deities.7iJ0wg4fChsFOzMD]{Yol}, The Third Petal</h2><p>@Embed[Compendium.immortal-ardor.deities.7iJ0wg4fChsFOzMD]</p><h2>@UUID[Compendium.immortal-ardor.deities.pxYXmlnPHA6qsKlo]{Sima}, The Fourth Petal</h2><p>@Embed[Compendium.immortal-ardor.deities.pxYXmlnPHA6qsKlo]</p><h2>@UUID[Compendium.immortal-ardor.deities.O5Nno1oVVQzxU2vc]{Torre}, The Fifth Petal</h2><p>@Embed[Compendium.immortal-ardor.deities.O5Nno1oVVQzxU2vc]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.5tOP6qTEZJ76hlFB"
+    },
+    {
+      "sort": 300000,
+      "name": "Hyoktoshi-gin, The Three Legends",
+      "type": "text",
+      "_id": "L9HPxqzoZkn8tFHJ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The Three Legends of Hyoktoshi consists of the three gods Nagi, Yami and Xi – who each represent Land, Sky and Sea respectively. The three gods, represented by a bear, phoenix, and whale, created the world in three separate layers physical and metaphysical. They possessed a peaceful coexistence that lead to the creation of life of all living beings on the world, for which each god had a different responsibility for. The degree of reverence for each god varies across regions, and frequently statues would decorate homes or cities based on the primary alignment of the family or town. Spirits have also been known to align themselves with the Hyoktoshi and worship them, particularly those in Akai, and find it to be their duty to protect families or cities as their guardians, who are in turn revered as well.</span></p><h2>@UUID[Compendium.immortal-ardor.deities.tpdj6PCtvntKeuqn]{Nagi}, the Land Walking</h2><p>@Embed[Compendium.immortal-ardor.deities.tpdj6PCtvntKeuqn]</p><h2>@UUID[Compendium.immortal-ardor.deities.WJUmzWgrHwKpH1TS]{Yami}, the Celestial Above</h2><p>@Embed[Compendium.immortal-ardor.deities.WJUmzWgrHwKpH1TS]</p><h2>@UUID[Compendium.immortal-ardor.deities.XX2O7X3z4wg5niFN]{Xi}, the Depth Inside</h2><p>@Embed[Compendium.immortal-ardor.deities.XX2O7X3z4wg5niFN]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.L9HPxqzoZkn8tFHJ"
+    },
+    {
+      "sort": 400000,
+      "name": "House of Phanos",
+      "type": "text",
+      "_id": "VOI8kJmqIHWgRezo",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-size:12.0pt\">The House of Phanos is one of the most prominent faiths in Ardor, despite its relatively young age. However, in the era of the awakening, Phanos was a God that promised order and safety, which many Rogalians took to heart. The first Voice of Phanos was a merchant named Arthur Regnum who demonstrated miraculous powers during a time where there was panic among the populace, who were afraid and did not know how to wield magic. He became well known in the land by using his powers to heal the sick and calm the frenzied, acting under the command of Phanos; he provided an explanation to the eruption of Mt. Zaho that heralded the awakening. The king of Rogalia at the time, Lucius Galtea came to believe this man as a savior following predicted prophecy after predicted prophecy, and thus the House of Phanos was created to worship this new God.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\"> Phanos is a deity that has never been verified to have manifested; instead, he speaks through the Voice of Phanos, the head of the House. In the Andaleic Saga, Phanos was the creator of Ardor, shaping the world, the universe and the mountains. He became overseer of living things and their civilizations, up until conflict with his brother Deinoss ended with the eruption of Mt. Zaho. Afterward, Phanos no longer directly influences Ardor and their civilizations, instead relying on their Voice instead to guide them to his light.</span></p><h2><span style=\"mso-bidi-font-size:12.0pt\"> @UUID[Compendium.immortal-ardor.deities.JpJwCQWrAU0d5CXG]{Phanos}, The Twin of Order</span></h2><p>@Embed[<span>Compendium.immortal-ardor.deities.JpJwCQWrAU0d5CXG]</span></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.VOI8kJmqIHWgRezo"
+    },
+    {
+      "sort": 500000,
+      "name": "House of Deinoss",
+      "type": "text",
+      "_id": "EsN3GDxw7FnWx18J",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-size:12.0pt\">The House of Deinoss is newer than the House of Phanos. While his official title is that to be a God of Chaos to mirror Phanos’ Order, it is more fitting that he represents change, passion, and influence. Seven decades following the creation of the House of Phanos in 78 MK, the Voice, Arthur Regnum delivered a prophecy that predicts the King of Rogalia’s downfall. Furious, King Galtea sends Arthur to exile in disbelief, for the Kingdom was at peace and victorious in repelling the Loupain of Saint-Lorraine. However, two years later, a man named Rufus Siegnum proclaims to be the Voice of Deinoss. Civil unrest spreads, as more and more Rogalians begin to champion social upheaval and artistry. It was then that the House of Phanos began their first Inquisition to root out the Deinossians. After a protracted war between Phanosians and Deinossians, Rufus Siegnum was executed, leaving the Deinossians with no Voice, but he bid his followers to flee south – to spread Deinoss’ teachings. This was the beginning of sapien integration into loupain society, as well as the start of the House of Deinoss.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">The House of Deinoss has settled itself as a mainstay in Zahnheim ever since. A large majority of Deinoss’ teachings espouse concepts of cause and effect as well as passion; this resonates greatly with loupain culture and mannerisms at the time. As loupain understand the gravity and importance that comes with changes in their community and leadership, as well as their nature to be passionate and forthcoming with their emotions. In the Andaleic Saga, Deinoss was the creator of all life, and his love and passion brought the natural changes to Ardor. Upon the eruption of Zaho, Deinoss distances himself from his creations in anguish, not willing to inflict himself upon the world, up until he conveys his message to his only Voice.</span></p><h2>@UUID[Compendium.immortal-ardor.deities.m15BwmJ8WBwoEdiv]{Deinoss}, the Twin of Chaos</h2><p>@Embed[Compendium.immortal-ardor.deities.m15BwmJ8WBwoEdiv]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.EsN3GDxw7FnWx18J"
+    },
+    {
+      "sort": 600000,
+      "name": "Dhusamat, the Golden Light",
+      "type": "text",
+      "_id": "EBvUvKe9hb8i5RAr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Dhusamat is among the unseen deities of Ardor as one who has not been known to manifest, and faith to him is ubiquitous in that many in Ardor worship him, much akin to Phanos and Deinoss. Though finding more purchase in Freke and the eastern half of the Ardorean mainland, belief in the Golden Light has begun to bud in the western half due to the arrival and ease of trade from Freke and the litany of conflicts between the Houses of the two Andaleic brothers. That isn’t to say that conflict under Dhusamat’s name has not happened – far from it. Wars have been fought under his name, but none wield his power and name acting as a sole authority the way as the Voices of Phanos and Deinos have with the sole exception of Dhusamat’s prophets, chosen at the arrival of the Skybringer when he came from the heavens to deliver his message. Since their passing, differences in interpretation of the message delivered by the prophets have lead to diverging sects (at times violently) of worship to the Skybringer, but none have claimed to be an all-knower and be granted the power to speak to them; to claim as such would be blasphemy of the highest order. Insights, gifts, or guidance come in esoteric ways, but never a direct command.</p><p class=\"MsoNormal\">Dhusamat is a deity of dozens of titles and names, each revealing a quality of the multifaceted deity in question. The Skybringer refers to their arrival upon Ardor, where it was said to have split the sky to bring reprieve amongst the catastrophes of Mount Zaho’s eruption. The Golden Light is a commonly used metaphor, where it encapsulates multitudes of other names, such as the Truthful Shine, the Peacewalker, the Beam of Justice, or the Light of Mercy. What these titles mean is as diverse as the sects of Dhusamat’s worshippers, most of which adhere to a council known as the Majelis Al-Dhusamat, who lay the governance on what elements of what is or isn’t an acceptable interpretation of Dhusamat’s laws, and to what degree. Some may counter and criticize that the Majelis is partially an important ruling body of Eirlangga, and not necessarily the believers who reside in another nation, but the end result is some degree of consistency, and this does act as a baseline for what constitutes in the belief of the Golden Light. Some might eschew the Majelis altogether, and this creates a rift that spurs discord between these sects; famously is the Az-daha school that depicts Dhusamat as a golden dragon.</p><h2>@UUID[Compendium.immortal-ardor.deities.St5YAON3wACfQvKS]{Dhusamat}, the Golden Light</h2><p>@Embed[Compendium.immortal-ardor.deities.St5YAON3wACfQvKS]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.EBvUvKe9hb8i5RAr"
+    },
+    {
+      "sort": 700000,
+      "name": "Sekh, the First Cat",
+      "type": "text",
+      "_id": "l964LG2Ak7xCg2as",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Almost extensively a following of lyncan, The First Cat known as Sekh is the first cat to be enlightened by the forces of the world to give rise to the first lyncan. He bore many magical traits that made him the ultimate pinnacle of a magical creature; among which was that he is immortal and carried with him miraculous and near-perfect features. Among the first notable lyncan in history, there were several that had attained a legendary status among men. None of these figures, however, were agreed upon to be The First Cat. His origins were unknown and mysterious, and to every sect of Sekh his powers, his influence and his attributes were different.</p><h2>@UUID[Compendium.immortal-ardor.deities.TZm4CHRSO6nGVxTc]{Sekh}, Seeker of the Perfect Self, Hero of Lyncan</h2><p>@Embed[Compendium.immortal-ardor.deities.TZm4CHRSO6nGVxTc]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.l964LG2Ak7xCg2as"
+    },
+    {
+      "sort": 800000,
+      "name": "Sada'ahmar, The Red Sun",
+      "type": "text",
+      "_id": "CWQbnbQzadN6jVnQ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The unseen god known as Sada’ahmar is the Eirlanggan word for the sun; as legends speak of them in the past, they ruled the skies with Alkamar, the moon. Together, they gave rise to life and death upon the Nobi Desert. The Sun Giants who worshipped them wished to be closer to them, and thus began to climb and break mountains to try and reach the sky – but Sada’ahmar punished them for their hubris. By striking them, their blood became the oases of the desert so that other denizens of the desert, often trampled by the giants, could be nourished and find refuge in the wastes. This was a lesson of humility.</p><p class=\"MsoNormal\">When the giants disappeared, Sada’ahmar’s roiled with rage for days and days, pouring heat and its rays upon the desert until its rage was spent, whereupon it vanished for a time as the earth healed, Ardor facing a long, cold night as Alkamar nurtured it. Sada’ahmar and Alkamar’s progeny, their djinn champions known as the Sabi’thun, saw the plights of the desert folk and its beasts and oases, and took to task in keeping them safe and protected from the dangerous shifts in Ardor’s skies. The people of the desert inherited the Giant city that would eventually become the nation of Maranesh, and they picked up upon the sun’s lessons of humility and called it back so that the world would not freeze without Sada’ahmar’s rays. Sada’ahmar would return, fury quelled, and bathed the world in its warmth again. From then on, Sada’ahmar and Alkamar continued their duty in warming and cooling the sun, in shifting the tides and bestowing nourishment to the trees, while the Sabi’thun fixated themselves upon the desert peoples.</p><p class=\"MsoNormal\">Despite this, Sada’ahmar’s reach would not extend as far as it once did. In some ways, worship of the sun god or its progenitors still continued in many nations south of Eirlangga, where the Dhusamati faith ballooned over the course of centuries in the founding of the Eirlanggan Empire, but Maranesh is the primary bastion of Sada’ahmar worship. As an insular nation, often met with resistance and conflicts on all sides, Sada’ahmar took to rewarding the loyalty and devotion of their followers, and was said to repel any and all attempts to conquer or convert the Maraneshi. Sada’ahmar’s primary qualities circled around a firm unity and cohesion, along with humility and an adherence to laws, in a nation where loyal might makes right, and zealotry within conflict evokes hard-earned truths.</p><h2>@UUID[Compendium.immortal-ardor.deities.2lifRCB74imA7tJv]{Sada'ahmar}, the Red Sun</h2><p>@Embed[Compendium.immortal-ardor.deities.2lifRCB74imA7tJv]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.CWQbnbQzadN6jVnQ"
+    },
+    {
+      "sort": 900000,
+      "name": "Alkamar, the Blue Moon",
+      "type": "text",
+      "_id": "ydDSRN6mNBAGwUZc",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Alkamar is the name of Ardor’s moon, named after the Eirlanggan word. As an unseen god, she is credited as the deity that counters the radiant heat of Sada’ahmar, and confers blessings to those who speak in silence and in wisdom. Like a patient watcher, she regards the world with a cool temperament, but she is by no means passive; to her worshippers, the phases of the moon shift so subtly but brings tremendous change in the world with the change of tides and the shifts in the behaviors of the natural world.</p><p class=\"MsoNormal\">While much of the Nobi and Eirlangga shifted to the belief in the Sabi’thun or Dhusamat, Maranesh pursued Sada’ahmar, and North Rodda swirled between the Twelve Celestial Seats of Oropedus and their colonists’ faiths in Deinoss, others went to Alkamar. Notably, the Pasiran people who reside in the mountains, away from the troubles of the desert and the Perigian people based much of their culture and politics around the moon. For Perigia in particular, Alkamar was instrumental in keeping their lands safe from the Maranesh, who sought to claim their people under the burning gaze of Sada’ahmar. They crafted covenants with the moon, and worshipped Alkamar, all to develop magics, blessings and rites that would aid them and their survival.</p><p class=\"MsoNormal\">In the telling of Perigia’s founding, Alkamar had been burnt by Sada’ahmar’s light, for when the giant’s disappeared, the Sun’s fury scorched all – even the moon. And in her grief, all her secrets laid bare upon the sky, she wailed and cried mournfully, to where the garou of Perigia’s wetlands echoed her howling to the point of lunacy. But the descendant of the moon giants soothed Alkamar’s sorrow, and the goddess’ waning grief sated the loupain’s madness. From there, the loupain and the sapien who found Perigia formed their kinship and their country, and the magics that kept themselves safe.</p><h2>@UUID[Compendium.immortal-ardor.deities.sbmVXQrRoLSFjVDe]{Alkamar}, the Blue Moon</h2><p>@Embed[Compendium.immortal-ardor.deities.sbmVXQrRoLSFjVDe]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.ydDSRN6mNBAGwUZc"
+    },
+    {
+      "sort": 1000000,
+      "name": "Sabi'thun, The Desert Watchers",
+      "type": "text",
+      "_id": "zNC7skLP2R5oNJdU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Sabi’thun refers to the gods that have risen from the cultures that span the stretch of north-central to south-central Freke, having been worshipped since before the days of the old Eirlanggan Empire. There are many in the pantheon but five of the oldest and most prominent form the Sabi’nathul, overlooking all others due to their place and involvement in Eirlanggan culture, history and geography. All Sabi’thun have been known to have manifested once upon a time, and this has led to the Knights of Cerberus attacking and slaying one of the Sabi’nathul, Ikhmis. None of the Sabi’thun have risen up to fill in his position. By and large, the pantheon has distanced themselves from the political matters of their worshippers, only stepping forward when the land is under immediate threat.</span></p><h2>@UUID[Compendium.immortal-ardor.deities.tyzKUjpN7lWAKH9V]{Rakhis} of the Simoom</h2><p>@Embed[Compendium.immortal-ardor.deities.tyzKUjpN7lWAKH9V]</p><h2>@UUID[Compendium.immortal-ardor.deities.3NI2lvvMVBfgZewR]{Loth} of the Crags</h2><p>@Embed[Compendium.immortal-ardor.deities.3NI2lvvMVBfgZewR]</p><h2>@UUID[Compendium.immortal-ardor.deities.THhfbinSg8Ct7M67]{Seb} of the Tides</h2><p>@Embed[Compendium.immortal-ardor.deities.THhfbinSg8Ct7M67]</p><h2>@UUID[Compendium.immortal-ardor.deities.Nwedep4SgVPM3d9z]{Kea} of the Night</h2><p>@Embed[Compendium.immortal-ardor.deities.Nwedep4SgVPM3d9z]</p><h2>@UUID[Compendium.immortal-ardor.deities.3GsoToUvJLI63DeN]{The Verdure}</h2><p>@Embed[Compendium.immortal-ardor.deities.3GsoToUvJLI63DeN]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.zNC7skLP2R5oNJdU"
+    },
+    {
+      "sort": 1100000,
+      "name": "The Flock of Rahm",
+      "type": "text",
+      "_id": "p4dxPxfPHQSY9tv4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The great beast Rahm has guided and saved the avekiri of Enara, freeing them from their drachiri masters. During the fabled Flights, Rahm becomes manifest and with a single swoop of his wing he – supported by the very souls of his six songmaidens – conjured a devastating fiery whirlwind that spanned half a continent. He has only been summoned for two flights in written history and has made very few other public appearances.</span></p><h2>@UUID[Compendium.immortal-ardor.deities.AVELYk6dY8FcQWT2]{Rahm}, the Great Phoenix of Wind and Fire</h2><p>@Embed[Compendium.immortal-ardor.deities.AVELYk6dY8FcQWT2]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.p4dxPxfPHQSY9tv4"
+    },
+    {
+      "sort": 1200000,
+      "name": "The Sophic Siblings of Strife",
+      "type": "text",
+      "_id": "a7C2kqBzA8LwXVzZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The Sophic Siblings is a pantheon that refers to the 33 children of Bapho-met, who ruled the lands of Zaho and the Hells and engaged in a never-ending war known as the Eternal Strife. They are worshipped largely by the Zahoans, who consist mostly of Azoph-fer that were said to be created from the ash of Mount Zaho and the rib of Azoph-met. Worship of these siblings on Zaho typically include following their commandments, which would naturally flow into the Eternal Strife.</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Much of Zahoan culture and its current state owes itself to Azoph-met’s prolific presence, being the Sophic Sibling that inherited the seat of Bapho-met upon their father’s death. His reign of blood is to bring forth the cosmic balance through the Eternal Strife, the goal that his father had driven. What that entails, and how the never-ending war on Zaho would attain that, is a mystery except all but the highest rank sages and priests of the Azophism clergy.</span></p><p class=\"MsoNormal\">Until recently, Azoph-met was the one said to be the only one who still lived, residing in the Great Beyond as the siblings were consumed by the depths of Oblivion; and yet, many of these siblings have made a return. Some did not return, instead being replaced by new deities spun from great eruptions of power and ascended from those who attained unholy apotheosis.</p><p class=\"MsoNormal\">Each sibling has a station and a role, forming from the remains of Bapho-met doused in the depths of the layers of the Hells.</p><h2>@UUID[Compendium.immortal-ardor.deities.wEjweI8RmlpBrcJ1]{Azoph-met}, Goat Child of Balance and Blood</h2><p>@Embed[Compendium.immortal-ardor.deities.wEjweI8RmlpBrcJ1]</p><h2>@UUID[Compendium.immortal-ardor.deities.mlkGsJMdHL9EpFKk]{Ezmodun}, Bull of Cosmic Chaos</h2><p>@Embed[Compendium.immortal-ardor.deities.mlkGsJMdHL9EpFKk]</p><h2>@UUID[Compendium.immortal-ardor.deities.o06S8sfwuRLbh6Kx]{Kalobos}, Deer of Cosmic Order</h2><p>@Embed[Compendium.immortal-ardor.deities.o06S8sfwuRLbh6Kx]</p><h2>@UUID[Compendium.immortal-ardor.deities.9y9cDMuCWTMkcnwn]{Darouga}, Buffalo of Callous Redemption</h2><p>@Embed[Compendium.immortal-ardor.deities.9y9cDMuCWTMkcnwn]</p><h2>@UUID[Compendium.immortal-ardor.deities.AYyevQDRG13fYqQC]{Zenisia}, Ram of Lost Piety</h2><p>@Embed[Compendium.immortal-ardor.deities.AYyevQDRG13fYqQC]</p><h2>@UUID[Compendium.immortal-ardor.deities.PLc1YsBsDrElxVr5]{Heghevura}, Ibex of Twicefold Vengeance</h2><p>@Embed[Compendium.immortal-ardor.deities.PLc1YsBsDrElxVr5]</p><h2>@UUID[Compendium.immortal-ardor.deities.jyzKUybV4vx9vpWH]{Telphas}, Chimera of Wartorn Hate</h2><p>@Embed[Compendium.immortal-ardor.deities.jyzKUybV4vx9vpWH]</p><h2>@UUID[Compendium.immortal-ardor.deities.S1MqK99H8AFe654t]{Neferashtu}, Newborn Sibling of Forgotten Suffering</h2><p>@Embed[Compendium.immortal-ardor.deities.S1MqK99H8AFe654t]</p><h2>@UUID[Compendium.immortal-ardor.deities.6Ipzg9oCy8P2Mg69]{Synark}, Skeleton of Impermanent Death</h2><p>@Embed[Compendium.immortal-ardor.deities.6Ipzg9oCy8P2Mg69]</p><h2>@UUID[Compendium.immortal-ardor.deities.56DsUiFuxUCk4ixl]{Syphuun}, Antelope of Spinning Fates</h2><p>@Embed[Compendium.immortal-ardor.deities.56DsUiFuxUCk4ixl]</p><h2>@UUID[Compendium.immortal-ardor.deities.wfXAduWyaYF7jCvs]{Machian}, Sheep of Joyous Sacrifice</h2><p>@Embed[Compendium.immortal-ardor.deities.wfXAduWyaYF7jCvs]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.a7C2kqBzA8LwXVzZ"
+    },
+    {
+      "sort": 1300000,
+      "name": "Knights of Cerberus",
+      "type": "text",
+      "_id": "UgqdX9ZlnxlJ8PqA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Cerberus is a greater spirit who is their own anathema. Their primary goal is to slay all pretender-gods – greater spirits who have been deified and worshipped across Ardor – to pave the way for true Gods to be granted their due for their creation of the universe. Each of their three heads bear their own specific variant on the goal: to uncover the truth of Ardor’s creation, to strike down pretenders who would take credit for shaping the world, and to end blasphemy among their believers. Upon becoming revered and worshipped by his Knights, Cerberus made the oath that once the deed was done and all pretenders were no more, they would slay themselves.</span></p><h2>@UUID[Compendium.immortal-ardor.deities.fgXGxmbs1XpDAVuP]{Cerberus}, Three-Headed Godslayer</h2><p>@Embed[Compendium.immortal-ardor.deities.fgXGxmbs1XpDAVuP]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.UgqdX9ZlnxlJ8PqA"
+    },
+    {
+      "sort": 1400000,
+      "name": "Returned Gods of Zahnheim",
+      "type": "text",
+      "_id": "FK82gCnoL7QVv7dY",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-weight:bold\">The Old Gods of Zahnheim were once forgotten by the common folk, with only, very dedicated circles and older generations that continue to worship them. However, the acts and events of the Scourge’s End brought with it a renewed vigor as the once forgotten Gods were rescued, succeeded, or made themselves known once more. Though changed, and though most of their number have expanded to be parts of other pantheons, some still remember or worship this pantheon as they once were.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-weight:bold\">Zahnheimen theology was once almost entirely overwritten by the worship of Deinoss, and as such many a chapel or shrine to these various gods have been left, either as historical pieces or as ruins. The five of them were said to have been greater spirits who have manifested in the past, with their last appearance being during the Zahnheimen Kingdoms war, until their return.</span></p><h2>@UUID[Compendium.immortal-ardor.deities.eROMvLU75M5qcSnX]{Denau}, God of the Harvest</h2><p>@Embed[Compendium.immortal-ardor.deities.eROMvLU75M5qcSnX]</p><h2>@UUID[Compendium.immortal-ardor.deities.j4PqIy9jgsZSWdWo]{Senna}, Goddess of Light and Dark</h2><p>@Embed[Compendium.immortal-ardor.deities.j4PqIy9jgsZSWdWo]</p><h2>@UUID[Compendium.immortal-ardor.deities.MSXaJXcf3UO0hJuK]{Werlund}, God of the Struggle</h2><p>@Embed[Compendium.immortal-ardor.deities.MSXaJXcf3UO0hJuK]</p><h2>@UUID[Compendium.immortal-ardor.deities.dxVxL4PBNOMfrBU8]{Beltelkhen}, Wind of Change</h2><p>@Embed[Compendium.immortal-ardor.deities.dxVxL4PBNOMfrBU8]</p><h2>@UUID[Compendium.immortal-ardor.deities.PXFZb7IhXWrxyXzr]{Fellion}, The Moon and the Protector</h2><p>@Embed[Compendium.immortal-ardor.deities.PXFZb7IhXWrxyXzr]</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.FK82gCnoL7QVv7dY"
+    },
+    {
+      "sort": 1500000,
+      "name": "Deity Lords of the Undelkhen Deep Council",
+      "type": "text",
+      "_id": "kPUinVjNMyu8E9TM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The Undelkhen Empire spans a great majority of the lands beneath the continent of Gere, within the region known as the Schattenriss; a series of underground biomes, caverns and expanses beyond the imagining and ken of many who dwell above ground. The Empire is a primary force of stability in what is otherwise a divisive landscape full of rivalling kingdoms, civilizations and other collectives comprising of creatures of the deep. The dark depths harbor strong wells of power where ether freely runs, which many denizens of the Schattenriss covet as sources of strength and life in an unforgiving landscape. The Empire holds many of these leylines in their bastions and cities, allowing them to thrive and continue their expansion of the world beneath. </p><p>At the head of the empire is the Undelkhen Deep Council, which represents the five Majorum clans, which govern and lead their own respective peoples as well as the Minorum clans. At the head of each Majorum is a Deity Lord, wielding absolute power in all of the Empire’s affairs. The five Deity Lords serve as not only military and diplomatic heads of the Empire, but also are deities of worship amongst all people under them. While most people within a Majorum choose to worship their respective deity lord, it is not unheard of for a citizen in one Majorum to pray to another Majorum’s deity. Indeed, for the Deity Lords are beholden to share and provide their blessings and power to all citizens of the Empire who entreat them.</p><h2>@UUID[Compendium.immortal-ardor.deities.ZkBX0ZFqNPTAdvQA]{Cal-Nacht} of the Cradle</h2><p>@Embed[Compendium.immortal-ardor.deities.ZkBX0ZFqNPTAdvQA]</p><h2>@UUID[Compendium.immortal-ardor.deities.wMRWfFnUgmroGyqN]{Ombusa}, Mother of the Eclipse</h2><p>@Embed[Compendium.immortal-ardor.deities.wMRWfFnUgmroGyqN]</p><h2>@UUID[Compendium.immortal-ardor.deities.6CRe4p54r1qGHhlu]{Werlund}, Godking of Beasts</h2><p>@Embed[Compendium.immortal-ardor.deities.6CRe4p54r1qGHhlu]</p><h2>@UUID[Compendium.immortal-ardor.deities.rmr8g7GSOG9Lt6y2]{Aghorym}, the Forgotten</h2><p>@Embed[Compendium.immortal-ardor.deities.rmr8g7GSOG9Lt6y2]</p><h2>@UUID[Compendium.immortal-ardor.deities.co1gNdjQQJewq3oc]{Meirghul}, Outcast of the Darksea</h2><p>@Embed[Compendium.immortal-ardor.deities.co1gNdjQQJewq3oc]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.kPUinVjNMyu8E9TM"
+    },
+    {
+      "sort": 1600000,
+      "name": "The Twelve Celestial Ceats of Oropedus",
+      "type": "text",
+      "_id": "0m1tzszFXsNbaACw",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Amongst the lands of southern Freke are the Dynesian Mountains, a series of peaks and valleys in a long ridge that rises and falls across the Alraen Riverlands down towards Mount Oropedus by the Griotte Sea, within the nation of Oderiva. Even this far south, the tales and worship of the God and Goddess of the Sun and Moon, Sada’ahmar and Alkamar, extends.</p><p class=\"MsoNormal\">In the many tales and legends of the Sun and Moon across cultures on the continent of Freke, the existence of the Sun and Moons’ progenitors and chosen champions diverge or allude to one another. Amongst these champions were those who gave respite during the Sun’s rage and the Moon’s grief, forming the Dynesian Mountains, nurtured and nourished its lands, and gave it rain, clouds and lightning. These descendants held vigil from godlike realms among the skies above within the Dynesian range and beneath the depths of the Griotte Sea, but they would meet and could be found within Mount Oropedus. It is said that amongst the skies between the Sun and the Moon’s passage, they would appear as stars and planets that look upon the world they had built together.</p><p class=\"MsoNormal\">These were the twelve celestials, who bore seats within Oropedus; for they each had roles to play. Four were aligned with the Sun, and Eight were aligned with the Moon. This pantheon was revered for many centuries amongst the land of ancient Atrominas, which at the time spanned from present day Oderiva, reaching west, through Barda-Cos, Barda-Tor, Krymmenos, and some way into Varenzia and Basilisca. Their seats, or their titles as some would call them, represent their role and personality. Few however, remember the names of the deities who held these seats proper. They were lost to time, pushed on by the changes in the land over the years, or through the belief that the names were less important to the gods inasmuch as the role they played.</p><p class=\"MsoNormal\">As Atrominas shrank over the years and split into their respective countries, the influence of the Celestial seats waned as they each found their own footing and cultures and faiths. Belief in religions faded from Varenzia as drachiri and draichsar came from the fall of the Drachiri Empire. The arrival of the Eirlanggan Empire brought Dhusamat and their engagements pushed those who believed in the Sabi’thun southward. The invasion of Zahnheim brought Deinoss, and the eventual trade with Rogalia invited Phanos. As Akai pushed from South Rodda, the Hyoktoshi-gin began to find purchase.<span style=\"mso-spacerun:yes\">  </span>In the end, the Twelve Seats were relegated to a fringe faith, and their seats eventually became empty.</p><p class=\"MsoNormal\">Some say that it was not entirely so depressing of a decline; tales spoke of the Twelve rising to fight for the people who believed in them, or pushed against the incoming forces of other spirits that threatened the land. Others speak of how the progeny of the Sun and Moon included figures or deities whose successors would become deities in other lands, such as Tyrn-Makar coming from the Sun Giants, or Fellion and Werlund coming from the seat of the Protector, finding their footing and their gifts suited to protect and nourish those in other lands.</p><p class=\"MsoNormal\">Whichever the truth may be, the Twelve Celestial Seats were never truly forgotten. While remaining a smaller faith for a time, many, particularly in the Griotte States, continued to worship them. Some would pay homage to the deity of a particular seat if it suited their purpose, such as the Frostfire for warmth in the cold months, or the Disciplined for finding penance in the law.</p><p class=\"MsoNormal\">But it was only centuries later when these seats would truly be filled again. When Oderiva’s Grandministers spoke of organizing a great house of worship known as The Pantheon, did the conversation steer to reigniting the Twelve Seats, to give their oldest faith a new resurgence in the wake of bringing all religious denominations who called Oderiva home a seat upon the proverbial table. The search began for spirits that were powerful enough and had a connection to the Sun and the Moon in some capacity, and the answer was quickly found. A continent away was the return of Fellion, who was tied to the Moon, and her successors were her Arsenal; a collection of eight spirits that were dutysworn to follow their Moon. They had been released from their service to find their own way in the world, but by coincidence, by fate, or by their spiritual heritage, these spirits each carried near identical titles and domains to the Moon-aligned seats that were left vacant. Four spirits were also found to fill a similar niche for the Sun-aligned seats, scattered across Ardor.</p><p class=\"MsoNormal\">Through diplomacy, contest and conflict, an Oderivan contingent sought each of these spirits and bade them to steer their attentions towards Mount Oropedus, that they might present themselves to those who pray to these seats to this day. Heralded by a great contest within Lakheronis Arena known as the Great Oropedus Games, and a festival that would be matched only by the one held during their independence, Oderiva welcomed the twelve deities to their newfound worshippers and domains.</p><p class=\"MsoNormal\">Though these spirits find themselves worshipped in other contexts elsewhere in the world, this reconnection to an old, long-lost heritage brought a returned interest in the Celestial Twelve throughout all of Rodda.</p><h2>@UUID[Compendium.immortal-ardor.deities.nzzJMySyqI3huwRN]{Allonse}, the Feral</h2><p>@Embed[Compendium.immortal-ardor.deities.nzzJMySyqI3huwRN]</p><h2>@UUID[Compendium.immortal-ardor.deities.wL7mAF9mJCiZUkCz]{Detinia}the Frostfire</h2><p>@Embed[Compendium.immortal-ardor.deities.wL7mAF9mJCiZUkCz]</p><h2>@UUID[Compendium.immortal-ardor.deities.NuhNMMDD8XVwj4SK]{Etronia}the Disciplined</h2><p>@Embed[Compendium.immortal-ardor.deities.NuhNMMDD8XVwj4SK]</p><h2>@UUID[Compendium.immortal-ardor.deities.S6JDGDV3rPTmNsjz]{Galahad}the Protector</h2><p>@Embed[Compendium.immortal-ardor.deities.S6JDGDV3rPTmNsjz]</p><h2>@UUID[Compendium.immortal-ardor.deities.G1cofn3SJTWsTF6J]{Monivol}the Armsman</h2><p>@Embed[Compendium.immortal-ardor.deities.G1cofn3SJTWsTF6J]</p><h2>@UUID[Compendium.immortal-ardor.deities.nk7NKBI2pbo26Kth]{Romian}the Tempest</h2><p>@Embed[Compendium.immortal-ardor.deities.nk7NKBI2pbo26Kth]</p><h2>@UUID[Compendium.immortal-ardor.deities.x9lqJm3UFlifGk0b]{Rukarn}the Subtle</h2><p>@Embed[Compendium.immortal-ardor.deities.x9lqJm3UFlifGk0b]</p><h2>@UUID[Compendium.immortal-ardor.deities.mLT0WJrf4M7b9jqg]{Tordira}the Marksman</h2><p>@Embed[Compendium.immortal-ardor.deities.mLT0WJrf4M7b9jqg]</p><h2>@UUID[Compendium.immortal-ardor.deities.Dl1UR2PDpSqiLXlx]{Tyrn'makar} the Preserver</h2><p>@Embed[Compendium.immortal-ardor.deities.Dl1UR2PDpSqiLXlx]</p><h2>@UUID[Compendium.immortal-ardor.deities.XM2Mkf36HDlHMkO8]{Madu}the Havoc-bringer</h2><p>@Embed[Compendium.immortal-ardor.deities.XM2Mkf36HDlHMkO8]</p><h2>@UUID[Compendium.immortal-ardor.deities.mZJYeFk8RQ49CaSx]{Heros}the Mistbrewer</h2><p>@Embed[Compendium.immortal-ardor.deities.mZJYeFk8RQ49CaSx]</p><h2>@UUID[Compendium.immortal-ardor.deities.8YWzRE5MacKrXwG6]{Kagezuchi}the Deathkeeper</h2><p>@Embed[Compendium.immortal-ardor.deities.8YWzRE5MacKrXwG6]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!diT67NDPokMW3mI2.0m1tzszFXsNbaACw"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!diT67NDPokMW3mI2"
+}

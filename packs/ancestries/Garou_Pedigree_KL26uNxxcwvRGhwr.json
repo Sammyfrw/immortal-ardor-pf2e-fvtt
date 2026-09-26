@@ -14,6 +14,12 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.immortal-ardor.ancestries.Item.trw8uMfXnUy2Wtil"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.intimidation.rank",
+        "value": 1
       }
     ],
     "slug": "garou-pedigree",
@@ -64,7 +70,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

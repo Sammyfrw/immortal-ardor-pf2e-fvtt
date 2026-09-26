@@ -1,0 +1,20 @@
+{
+  "type": "Item",
+  "folder": "Xao7VjjaXMQrjJCY",
+  "name": "Twelve Celestial Seats of Oropedus",
+  "color": null,
+  "sorting": "a",
+  "_id": "COqBnzik42Ko5tjm",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!COqBnzik42Ko5tjm"
+}

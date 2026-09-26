@@ -1,0 +1,81 @@
+{
+  "folder": "COqBnzik42Ko5tjm",
+  "name": "Kagezuchi",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, North Rodda</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Valtal), The Hells (Mortum)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">The Deathkeeper is said to be the deity at the depths of Mount Oropedus, where the Griotte Sea pours into the rivers where the dead sit. Their seat is one of death, and the passage of souls to the lands beyond. For those who wish to pass on, the Deathkeeper decides if they are worthy, or if they must remain in penance or await their return to the living. People would pray that the Deathkeeper be kind in granting the dead entry to the Griotte Passage, where they will flow to the hereafter; but others pray that their souls be held in gentle calm in their graves or at their deathbed for resurrection. While the Havoc-bringer is a herald of time that could include death, decay and entropy, the Deathkeeper’s realm is more for what comes after death, and the rites that accompany it.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">Kagezuchi was amongst the first to take their seat of the Celestial Twelve when the emissaries had invited him. They were once a deity of death in communities of Southern Rodda prior to the Lostfall, when his followers would bring the souls of their loved ones or his psychopomps would usher free souls of those lost in the desert before him to judge. Such acts are difficult in the expanse of the Nobi, and thus Kagezuchi was in danger of fading away from a lack of worshippers, instead finding himself among the spirits who looked to Dhusamat for solace. But when the word came of the emissaries seeking a deity favored by the Sun to take the seat of Deathkeeper, Kagezuchi went willingly.</span></p><p class=\"MsoNormal\"><strong>Title</strong> The Deathkeeper</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Live life to be judged well upon your death, pray for the dead when passing graves, forgive those who have perished</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Desecrate graves without just cause, bear grudges to the dead, force the dead to your bidding</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Death, Funerals, Souls</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> A triad of skeletons wreathed in a laurel</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Horse</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong> black and gold</span></p>"
+    },
+    "rules": [],
+    "slug": "kagezuchi",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "death",
+        "soul",
+        "glyph",
+        "cold"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "wis",
+      "cha"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [
+      "dagger"
+    ],
+    "spells": {}
+  },
+  "img": "icons/magic/unholy/projectiles-binary-pink.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "8YWzRE5MacKrXwG6",
+  "sort": 300000,
+  "_key": "!items!8YWzRE5MacKrXwG6"
+}

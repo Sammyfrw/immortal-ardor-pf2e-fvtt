@@ -1,0 +1,80 @@
+{
+  "folder": "MD0FO6Yg76cX9qCa",
+  "name": "Fellion",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, New Rogalia</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Baythal, Valtal)</em></span></p><p class=\"MsoNormal\">Fellion is the Moon and the Protector; she is the guardian of those who cannot yet fend for themselves. In a war-torn Zahnheim, many lives are often cut short, and those who would otherwise be capable had their situations been different are frequently denied this opportunity. Fellion and her followers are known to keep these people safe, and people look to her for succor in times of struggle. While by no means depicted as gentle – she is known for the ferocity by which she and her followers vehemently guard the weak – she clashes regularly with established identities and beliefs that guide in the strong as being shepherds and those incapable of rising to the occasion as sheep, such as followers of Werlund. Even so, nurturing those who have the capacity to become powerful is the aim of Fellion and her charges, for they may be more capable than those who currently have the means. This can also be achieved through clearly defined senses of honor and establishing laws that can protect them, setting borders and settlements that cannot be the places of conflict, which drew guards and lawmakers to follow her. She is often shown as a heavily armored bernardii loupain wielding a hammer and a book.</p><p class=\"MsoNormal\">In the wake of the Scourge’s End, Fellion has resented her role in causing hardship and difficulty for her followers during the Four Swords Rebellion. She has chosen to let go of her Arsenal to let them to become independent deities of their own. While diminished from her prime, Fellion continues to be worshipped by many in Zahnheim, who still believe in her desire to valiantly shield others.</p><p class=\"MsoNormal\"><strong>Title</strong> The Moon and the Protector</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Protect those who aren’t able to fend for themselves, nurture others to be more capable</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Strike those who cannot fight, destroy places of shelter</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Protection, altruism, the moon</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A shield upon a moon</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Bernard dog</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> blue and white</span></p>"
+    },
+    "rules": [],
+    "slug": "fellion",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "moon",
+        "protection",
+        "sorrow",
+        "confidence"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "str"
+    ],
+    "skill": [
+      "crafting"
+    ],
+    "weapons": [
+      "meteor-hammer"
+    ],
+    "spells": {}
+  },
+  "img": "icons/equipment/shield/heater-crystal-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "PXFZb7IhXWrxyXzr",
+  "sort": 500000,
+  "_key": "!items!PXFZb7IhXWrxyXzr"
+}

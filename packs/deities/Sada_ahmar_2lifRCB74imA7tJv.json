@@ -1,0 +1,81 @@
+{
+  "folder": "Xao7VjjaXMQrjJCY",
+  "name": "Sada'ahmar",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><em>Category: Unseen Gods</em></p><p class=\"MsoNormal\"><em>Primarily Worshipped In: Maranesh, Pockets in Freke</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Paradia, Khuldin, Taranthara), The Hells (Solum, Arcanum, Obscurum)</em></span></p><p>It is hard to separate Sada’ahmar from Maranesh in the modern day, for almost every act of hostility, conquest, or conflict the Maranesh make, they claim it in Sada’ahmar’s name. For them, all will pay for the hubris of turning away from the Sun, to worship others or to reach beyond its station without his aid; and if they will not prostrate before the Sun, the rays will burn them away. The Red Sun’s Glare is a dangerous weapon, and instrument of madness and demand that burns away the sense of calm and thought to be turned into a weapon of zealotry and fervor, and it has been used upon their people to imbue them with madness and strength, and has thrown their rival nation of Perigia into destructive ruin.</p><p><strong>Title</strong> The Red Sun</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Bring others into the sun’s fold, show humility before those more powerful</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Shun duties and responsibilities where others depend on you</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Unity, Power, Surrender</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> A red sun upon a pyramid or dais</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Lion</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong> red and sandstone</span></p>"
+    },
+    "rules": [],
+    "slug": "sadaahmar",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "sun",
+        "fire",
+        "zeal",
+        "might"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "str"
+    ],
+    "skill": [
+      "athletics"
+    ],
+    "weapons": [
+      "morningstar"
+    ],
+    "spells": {}
+  },
+  "img": "icons/magic/light/beam-explosion-orange.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "2lifRCB74imA7tJv",
+  "sort": 1200000,
+  "_key": "!items!2lifRCB74imA7tJv"
+}

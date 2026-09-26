@@ -1,0 +1,80 @@
+{
+  "folder": "COqBnzik42Ko5tjm",
+  "name": "Galahad",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, North Rodda</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Valtal, Baythal)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">The Protector is the seat of one who is committed to saving those who cannot save themselves. Through duty, determination, and altruism, the Protector is the patron of those who are willing to be the shield and the voice of the downtrodden. Compared to the seat of the Disciplined, the Protector holds firm a commitment to other people and the community rather than a cause.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">Galahad was amongst Fellion’s Arsenal, chosen to keep the other members safe even as faith and belief in Fellion waned to the point where she and her arsenal began to fade. Resurging as the eidolon of T’chaiba, Galahad grew in strength over the course of his journey with her until he finally regained his old form and could summon the arsenal and give strength to his former patron deity – which ultimately lead to Fellion’s decision to let her arsenal be free. Galahad appears as a large white-furred loupain that wields a greatsword and shield, donning heavy gold and white armor, though he occasionally appears to bear wings and a more birdlike appearance, due to the connection he shared with his summoner.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\"><strong>Title</strong> The Protector</span></p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Champion the defenseless, strike against oppressors, uplift and improve the lives of your community</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Leave an innocent to suffer or trick them into disempowerment</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Protection, Community, Liberation</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> A hawk with wings folded around a shield</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Hawk</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong> white and gold</span></p>"
+    },
+    "rules": [],
+    "slug": "galahad",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "protection",
+        "duty",
+        "vigil",
+        "air"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "str"
+    ],
+    "skill": [
+      "athletics"
+    ],
+    "weapons": [
+      "bastard-sword"
+    ],
+    "spells": {}
+  },
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "S6JDGDV3rPTmNsjz",
+  "sort": 700000,
+  "_key": "!items!S6JDGDV3rPTmNsjz"
+}
