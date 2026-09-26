@@ -1,0 +1,75 @@
+{
+  "folder": "Xao7VjjaXMQrjJCY",
+  "name": "Syphuun, Antelope of Spinning Fates",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Category: Seen Gods</em></span></p><p class=\"MsoNormal\"><em>Primarily Practiced in: Rodda, Pasiran</em></p><p class=\"MsoNormal\"><em>Espirian Domains: The Hells (Somnum)</em></p><p class=\"MsoNormal\">Syphuun is a deity whose influenced once spanned from Zaho to Freke; as a truthteller, whisperer of fates, and influencer of the destinies of people. As those with beliefs in superstition and destiny began to look to divine influence, tales came of the antelope who could peer into their futures, and could weave a new future for them. Syphuun wound the threads of fate to these people and dictated events of their life that must happen, regardless of circumstance and created their destinies. Their threads then cascaded to their children, and then into their descendants and so on – whether they knew of it or not. For better or ill, this formed the tapestry by which Syphuun can commit his acts, of which there were few and often seemingly disconnected from one another. In truth, he is a passive deity and often remains secretive, but some say he even holds the thread of fate for gods as well. His powers have diminished greatly since returning from Oblivion with his other siblings, but his goals are often esoteric and odd, kept in shadow. Even so, many pray to him for a future of their choosing, and Syphuun continues to weave and spin in ways that can ripple their futures.</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Seek one’s destiny and take the shortest route to it, commit to long-term plans</span><span style=\"mso-tab-count:1\">    </span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Anathema </strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Find means to change a pre-written future beyond Syphuun’s, take only short term goals</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Destiny, futures, long-drawn plans</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> a half-completed tapestry</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Antelope</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> gold, white and red</span></p>"
+    },
+    "rules": [],
+    "slug": "syphuun-antelope-of-spinning-fates",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "int",
+      "wis"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [
+      "shears"
+    ],
+    "spells": {}
+  },
+  "img": "icons/creatures/mammals/deer-antlers-green.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "56DsUiFuxUCk4ixl",
+  "sort": 0,
+  "_key": "!items!56DsUiFuxUCk4ixl"
+}

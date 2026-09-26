@@ -1,0 +1,79 @@
+{
+  "folder": "Xao7VjjaXMQrjJCY",
+  "name": "Phanos, The Twin of Order",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\"><em>Category: Unseen Gods</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\"><em>Primarily Practiced in: Worldwide, heavily in Rogalia</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Paradia, Khuldin, Valtal, Baythal, Taranthara)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\">Followers of Phanos obey his commandments under the promise of spending a blessed afterlife directly under their God’s care once more, where conflict is no more. Those who forget him become slaves to their own rage, sorrow or envy in the afterlife, wandering until they finally return to Phanos. He is popular among those who seek peace and order such as lawmakers, soldiers, and knights.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\"><strong>Edicts </strong>Follow Phanos’ commandments, protect innocent lives, resolve conflicts</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt\"><strong>Anathema </strong>disobey the law with selfish cause, take lives needlessly, cause harm by acting purely by passion</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Order, Control, Altruism</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A pair of gauntlets crossed over a shield</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Eagle</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> gold and silver</span></p>"
+    },
+    "rules": [],
+    "slug": "t-deity-template",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "duty",
+        "vigil",
+        "protection",
+        "zeal"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "str"
+    ],
+    "skill": [
+      "diplomacy"
+    ],
+    "weapons": [
+      "warhammer"
+    ],
+    "spells": {}
+  },
+  "img": "icons/commodities/treasure/token-gold-cross.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "JpJwCQWrAU0d5CXG",
+  "sort": 1100000,
+  "_key": "!items!JpJwCQWrAU0d5CXG"
+}

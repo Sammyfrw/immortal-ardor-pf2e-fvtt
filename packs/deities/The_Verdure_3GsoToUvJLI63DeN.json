@@ -1,0 +1,80 @@
+{
+  "folder": "Xao7VjjaXMQrjJCY",
+  "name": "The Verdure",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Freke</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Taranthara, Elysium)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">The Verdure is the position previously housed by Ikhmis, which became vacant upon her death by the hands of the Knights of Cerberus. During the Lostfall, Ikhmis and her followers were actively combating the rise of malignant and dangerous spirits in her domain, which gave the Knights an opportunity to strike. Her domain is that of the lush green life of plants that dot parts of the desert, but also the large majority of southern Freke. Her seat is currently vacant, though some of her followers and lesser deities of South Rodda – those who have not been replaced by Deinoss or Hyoktoshi worshippers or spirits – still carry on the torch.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> </span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Edicts </strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Pay tribute upon harvest of plants, sow seeds to grow plants, cast nature spells</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Anathema</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Destroy or harm plantlife needlessly, attack nature spirits</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Combat, Change, Travel</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A burning branch with three leaves</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Butterfly</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> green and red</span></p>"
+    },
+    "rules": [],
+    "slug": "the-verdure",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "nature",
+        "moon",
+        "toil",
+        "repose"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "wis"
+    ],
+    "skill": [
+      "nature"
+    ],
+    "weapons": [
+      "sickle"
+    ],
+    "spells": {}
+  },
+  "img": "icons/magic/nature/leaf-oak-wreath-glow-green.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "3GsoToUvJLI63DeN",
+  "sort": 200000,
+  "_key": "!items!3GsoToUvJLI63DeN"
+}

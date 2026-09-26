@@ -1,0 +1,80 @@
+{
+  "folder": "Xao7VjjaXMQrjJCY",
+  "name": "Neferashtu, Forgotten of Suffering",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Category: Seen Gods</em></span></p><p class=\"MsoNormal\"><em>Primarily Practiced In: Small pockets worldwide</em></p><p class=\"MsoNormal\"><em>Espirian Domains: </em><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">The Hells (Solum, Arcanum, Neferium, Perditum, Obscurum, Mortum and Somnum)</em></span></p><p class=\"MsoNormal\">Neferashtu is amongst the new siblings welcomed into the fold. When the siblings returned to Ardor from Oblivion, some of the siblings had faded into the deep embrace of its nothingness, but in the process, left room for new siblings to be born and take its seat. Neferashtu’s origins are a mystery, but he was the first to emerge and take the seat of the fallen Hashfalan, the twenty-seventh sibling. While he takes up the mantle of the deity of Forgotten Suffering, his edicts are clear; he is the champion of the forgotten and those who suffer in silence. He gives them a voice and a power, rising and biting against those that oppress or silences them. Many fiends, whose societies are built upon various real or imaginary rungs of order, chaos, strength or some other form of power, have taken to Neferashtu’s ways, while plenty of those oppressed in Ardor seek fiendish power to spite their oppressors.</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Break the chains of oppressors, give a voice to the oppressed</span><span style=\"mso-tab-count:1\">          </span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Anathema </strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Restrict another’s freedom to choose, deny those weaker from becoming stronger</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Freedom, Anarchy, Community</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A beast with a third eye upon its forehead</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Jackal</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> purple, black, brown</span></p>"
+    },
+    "rules": [],
+    "slug": "neferashtu-forgotten-of-suffering",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "cities",
+        "family",
+        "protection",
+        "freedom"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "str"
+    ],
+    "skill": [
+      "intimidation"
+    ],
+    "weapons": [
+      "fangs"
+    ],
+    "spells": {}
+  },
+  "img": "icons/creatures/eyes/lizard-single-slit-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "S1MqK99H8AFe654t",
+  "sort": 0,
+  "_key": "!items!S1MqK99H8AFe654t"
+}

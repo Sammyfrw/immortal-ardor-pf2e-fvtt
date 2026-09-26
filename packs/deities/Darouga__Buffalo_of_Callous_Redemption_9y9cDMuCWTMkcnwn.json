@@ -1,0 +1,80 @@
+{
+  "folder": "Xao7VjjaXMQrjJCY",
+  "name": "Darouga, Buffalo of Callous Redemption",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Category: Seen Gods</em></span></p><p class=\"MsoNormal\"><em>Primarily Practiced In: Pockets within Rodda, Bahljet</em></p><p class=\"MsoNormal\"><em>Espirian Domains: The Hells (Obscurum)</em></p><p class=\"MsoNormal\">Darouga espouses the ideas of redeeming oneself through any means necessary. In almost every scenario, these routes are encouraged to be as thorough as possible, despite what may be necessary for it. Many societies drive people to atone through perverse methods of mutilation, blood tithes, through the act of dangerous trials; and in many of these, Darouga and her followers often await. For the one seeking redemption, they offer the route and aid to success. For the ones enforcing the laws of atonement, they offer harsh methods for the one on trial. The end result is often more death and bloodshed in the route of seeing one’s soul redeemed, and many others condemned. Darouga often is worshipped or at least tangentially related with Zenisia, as their throughlines where one might worship one or the other, or their respective domains frequently intersect.</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> When seeking redemption, make those who have wronged you pay, even if it is yourself</span><span style=\"mso-tab-count:1\">  </span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Anathema </strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Forgive or atone others or oneself without a price, pay no heed to violated laws</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Law, Tradition, Trials</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A wreath made of dying leaves</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Buffalo</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> white and black</span></p>"
+    },
+    "rules": [],
+    "slug": "darouga-buffalo-of-callous-redemption",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "pain",
+        "passion",
+        "toil",
+        "duty"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "int",
+      "cha"
+    ],
+    "skill": [
+      "society"
+    ],
+    "weapons": [
+      "gauntlet"
+    ],
+    "spells": {}
+  },
+  "img": "icons/creatures/mammals/deer-antlers-glowing-blue.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "9y9cDMuCWTMkcnwn",
+  "sort": 500000,
+  "_key": "!items!9y9cDMuCWTMkcnwn"
+}

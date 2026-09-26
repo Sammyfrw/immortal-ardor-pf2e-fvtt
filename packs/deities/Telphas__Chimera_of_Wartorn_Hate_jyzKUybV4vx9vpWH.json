@@ -1,0 +1,79 @@
+{
+  "folder": "Xao7VjjaXMQrjJCY",
+  "name": "Telphas, Chimera of Wartorn Hate",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Primarily Practiced in: Zaho</em></p><p class=\"MsoNormal\"><em>Espirian Domains: The Hells (Solum)</em></p><p class=\"MsoNormal\">Telphas has a simple commandment; to bring war to the world. This is fueled by their hatred, and amongst their daemon army and their followers, this hatred runs deep. The source of their ire is long forgotten and muddied, but that isn’t the point. The world had failed them, its people had failed them, and in its haste of changing and evolving long past the ancient wars on Ardor and the war of the Eternal Strife, it continues to fail them further. Their legions seek domination and conflict, regardless if such a thing feeds into Azoph-met’s bizarre and obfuscated schemes. The only thing that gives reprieve from their deep-seeded grievances is the swing of their blade. Many amongst Telphas’ followers’ mimics this ire, hoping to decapitate the sources of things that leave a lump of blackened hate within them, sometimes in the most grisly or convoluted ways imaginable. Typically, in doing so, they leave that hatred amongst those they choose to spare or failed to kill, continuing the cycle of violence.</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Enact war, stoke ill-will amongst yourself and others, kill the source of your hatred, make a display of your actions</span><span style=\"mso-tab-count:1\">   </span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Anathema </strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Let the rage subside into tranquility, leave no witnesses to your destruction</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Death, War, Hatred</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A pair of batlike and angellike wings</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Lion</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> white and brown</span></p>"
+    },
+    "rules": [],
+    "slug": "telphas-chimera-of-wartorn-hate",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "destruction",
+        "glyph",
+        "change",
+        "void"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "cha",
+      "str"
+    ],
+    "skill": [
+      "athletics"
+    ],
+    "weapons": [
+      "scourge"
+    ],
+    "spells": {}
+  },
+  "img": "icons/creatures/mammals/ox-bull-horned-glowing-orange.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "jyzKUybV4vx9vpWH",
+  "sort": 0,
+  "_key": "!items!jyzKUybV4vx9vpWH"
+}
