@@ -1,0 +1,81 @@
+{
+  "folder": "COqBnzik42Ko5tjm",
+  "name": "Detinia",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, North Rodda</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Valtal, Asphalus)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">The Frostfire represents dualities and the weather. People seek warmth in the winter, and chill in the summer. They represent the passage of time and the seasons, and the way how ether shifts effortlessly with these changes. Many honor the Frostfire by attaching their holy symbol upon their winter scarves or in their sunning hats, and magical practitioners would often arrange their spells in such a way that they use spells appropriate to the season – whether it is in alignment or in opposition to it. Detinia appears as an elder robed piebald loupain, and her robes changes with each season.</span></p><p class=\"MsoNormal\"><strong>Title</strong> The Frostfire</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Change an aspect of yourself with each season, use opposition or complimentary colors or aspects</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Oppose change unless it poses long-term detriments, force the seasons to your whim</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Weather, seasons, duality</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A frozen flame</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Bear</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> red and blue</span></p>"
+    },
+    "rules": [],
+    "slug": "detinia",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "cold",
+        "fire",
+        "time",
+        "magic"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "int"
+    ],
+    "skill": [
+      "arcana"
+    ],
+    "weapons": [
+      "twinblade"
+    ],
+    "spells": {}
+  },
+  "img": "icons/magic/water/projectiles-ice-explosion.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "wL7mAF9mJCiZUkCz",
+  "sort": 600000,
+  "_key": "!items!wL7mAF9mJCiZUkCz"
+}

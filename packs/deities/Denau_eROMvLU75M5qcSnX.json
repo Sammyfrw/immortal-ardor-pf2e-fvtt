@@ -1,0 +1,80 @@
+{
+  "folder": "MD0FO6Yg76cX9qCa",
+  "name": "Denau",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, Weissel</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Elysium, Baythal)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-weight:bold\">Denau is the successor to Passhow, former God of the Harvest who perished during the Zahnheimen Kingdoms War’s end; the one who brings the autumn fall, and the birth of all life and nature in its purest, primal form. Life energy is the prime element associated with him, for in Denau the cycle of life is perpetuated; All things grow, mature, age and wither; all living beings must obtain their sustenance from one source to the next. Denau is also tied to the change of the seasons and is most often celebrated during the times of spring and autumn. Many pastoral folks worship him, as well as druids and harvest bringers, responsible for bringing his graces to create the idealized conditions for nature to grow its bounty. In his depictions, Denau looks much like Passhow did; a loupain of golden fur; bent, long ears with a hearty and hale gait.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-weight:bold\">In the wake of the Scourge’s End, Denau’s earliest followers came from a region of Zahnheim where Kleoscourge and fiends have used illusion and trickery to fool the populace; to which case, Denau’s domains are affiliated with discerning truth and excising illusions and fiends where they lay.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-weight:bold\"><strong>Title</strong> God of the Harvest</span></p><p class=\"MsoNormal\"><strong>Edicts</strong> Respect nature, provide for those in need, hold feasts</p><p class=\"MsoNormal\"><strong>Anathema</strong> Use illusions to trick and deceive the commonfolk, borrow fiendish power</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Truth, Harvests, Animal Husbandry</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Arrows that bear arrowheads of wheat</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Retriever dog</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> gold and brown</span></p>"
+    },
+    "rules": [],
+    "slug": "denau",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "cities",
+        "truth",
+        "family",
+        "toil"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "dex",
+      "wis"
+    ],
+    "skill": [
+      "survival"
+    ],
+    "weapons": [
+      "composite-longbow"
+    ],
+    "spells": {}
+  },
+  "img": "icons/consumables/grains/wheat-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "eROMvLU75M5qcSnX",
+  "sort": 300000,
+  "_key": "!items!eROMvLU75M5qcSnX"
+}

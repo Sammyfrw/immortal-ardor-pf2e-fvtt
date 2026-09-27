@@ -1,0 +1,81 @@
+{
+  "folder": "COqBnzik42Ko5tjm",
+  "name": "Tordira",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, North Rodda</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Valtal, Paradia)</em></span></p><p class=\"MsoNormal\">The Marksman shares much of their seat with the Feral or Armsman, but only in aesthetics. Some might be forgiven for assuming the Marksman is the deity for hunters or archers who wish to excel in their art, but the Marksman’s role is more metaphorical. The expression of being straight as an arrow refers in their case to the journey that one takes as an arrow flies as an indicator of one’s life. People pray to the Marksman for accuracy, certainty, and pleasant travels. Life is not so direct in many cases, but the flight of an arrow pushes through the disturbances in the air such as wind and rain, to land in their target. For this reason, many who worship Tordira are merchants and travelers.</p><p class=\"MsoNormal\">Tordira himself is a very flighty deity, depicted as a Zerdian hound that is said to quickly to travel from one place to the next. In many cases, they know of news in one domain before its deity has heard of such news. Even so, he himself encourages his followers to never be dismayed should the road not be as clear as it should be. A well-shot arrow cares not for the wind, to ‘fly straight as an arrow’ can mean that any and all interferences along the way are just part of flying forward, and to never be deterred by it. A weathered arrow by the end has seen much and more than when it left the bow.</p><p class=\"MsoNormal\"><strong>Title</strong> The Marksman</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Commit to the journey to get to the destination, open yourself to the world at large</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Intentionally leave yourself ignorant, blindly travel with no destination in mind</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Adventure, travel, uncovering knowledge</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> A well-worn arrow with frayed notches</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Fairy wren</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong> green and white</span></p>"
+    },
+    "rules": [],
+    "slug": "tordira",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "freedom",
+        "wood",
+        "travel",
+        "knowledge"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "int"
+    ],
+    "skill": [
+      "survival"
+    ],
+    "weapons": [
+      "composite-shortbow"
+    ],
+    "spells": {}
+  },
+  "img": "icons/weapons/bows/longbow-gold-pink.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "mLT0WJrf4M7b9jqg",
+  "sort": 0,
+  "_key": "!items!mLT0WJrf4M7b9jqg"
+}

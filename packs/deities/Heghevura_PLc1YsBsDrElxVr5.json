@@ -1,0 +1,79 @@
+{
+  "folder": "HKnuBgAIAZdbcUtH",
+  "name": "Heghevura",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Category: Seen Gods</em></span></p><p class=\"MsoNormal\"><em>Primarily Practiced in: Zaho</em></p><p class=\"MsoNormal\"><em>Espirian Domains: The Hells (Solum)</em></p><p class=\"MsoNormal\">Heghevura promises his followers the sweet taste of vengeance, and a second bite to ensure no wrong will ever be brought upon them again. Heghevura and his army of worshippers and daemons revel in death and conflict, seeking to enact vile retribution on those that would harm them and their collective, far exceeding what was dealt in recompense. For each eye, one will take two eyes and more – often in grisly displays of mutilation and harm.</p><p class=\"MsoNormal\"><strong>Title</strong> Ibex of Twicefold Vengeance</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Strike fear into those who wrong you, take more than what has been taken from you</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Anathema </strong>Forgive those who harm you, adhere to laws that espouse a false equivalency for repayment or retribution</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Vengeance, conflict, self-preservation</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> A chipped, bloody greatsword</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Ibex</span></p><p><span style=\"font-size:12.0pt;font-family:'Calibri',sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"><strong>Sacred Colors</strong> red and brown</span></p>"
+    },
+    "rules": [],
+    "slug": "heghevura",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "might",
+        "metal",
+        "destruction",
+        "dust"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "con",
+      "str"
+    ],
+    "skill": [
+      "intimidation"
+    ],
+    "weapons": [
+      "greatsword"
+    ],
+    "spells": {}
+  },
+  "img": "icons/creatures/mammals/beast-horned-scaled-glowing-orange.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "PLc1YsBsDrElxVr5",
+  "sort": 125000,
+  "_key": "!items!PLc1YsBsDrElxVr5"
+}

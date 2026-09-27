@@ -1,0 +1,81 @@
+{
+  "folder": "MD0FO6Yg76cX9qCa",
+  "name": "Werlund of the Struggle",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, North Rodda, Schattenriss</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Valtal), The Hells (Solum)</em></span></p><p class=\"MsoNormal\">Werlund is the God of the Struggle; a never-ending perpetual fight for supremacy and survival. Unlike Senna, who teaches to find comfort in the inevitable trials of life, Werlund embraces it. To worship him is to revel the challenge, to become powerful and take joy in victory and success -- especially against others who would deny one their success. Competition, war, conflict -- all fall under Werlund's purview, for loupain are a race that seek dominance and survival. Worship of Werlund was commonplace during the Zahnheimen war era, but it drastically fell out of favor during the period that lead to the formation of the Zahnheim oligarchy. In the end, they say that Werlund was so incensed by the turn of events that he was pushed into the mountains, where he was forced to remain forever with only his most loyal followers. Werlund is depicted as a large, burly garou loupain of black fur with piercing red eyes. He is often depicted with frightful imagery, often savage in the depiction of being on all fours and ready to fight.</p><p class=\"MsoNormal\"> </p><p class=\"MsoNormal\">While some remember Werlund in this incarnation, in truth, Werlund’s nature has changed as he is now part of the pantheon of the Deity Lords of the Undelkhen Deep Council. Even so, the events of Scourge’s End has reunited him with those who still follow him on the surface, where he bestows his blessings. The priests of Werlund, the Godking of Beasts often beseech those who follow the God of the Struggle to join him in the depths should the challenge be tempting.</p><p class=\"MsoNormal\"><strong>Title</strong> God of the Struggle</p><p class=\"MsoNormal\"><strong>Edicts</strong> Overcome adversity; conquer your opponents</p><p class=\"MsoNormal\"><strong>Anathema</strong> Be complacent and deny challenge</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Warfare, Overcoming adversity, Conflict</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A wolf upon a moon</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Wolf</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> blue and black</span></p>"
+    },
+    "rules": [],
+    "slug": "werlund-of-the-struggle",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "might",
+        "metal",
+        "moon",
+        "nightmares"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "str"
+    ],
+    "skill": [
+      "intimidation"
+    ],
+    "weapons": [
+      "greatsword"
+    ],
+    "spells": {}
+  },
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "MSXaJXcf3UO0hJuK",
+  "sort": 100000,
+  "_key": "!items!MSXaJXcf3UO0hJuK"
+}

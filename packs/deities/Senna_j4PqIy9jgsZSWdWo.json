@@ -1,0 +1,81 @@
+{
+  "folder": "MD0FO6Yg76cX9qCa",
+  "name": "Senna",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, Weissel, Schattenriss</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Asphalus, Taranthara), The Hells (Perditum)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-weight:bold\">Senna is the Goddess of Light and Dark; a duality born of the philosophy that many things are two sides of the same coin. Where there is light, there is darkness, and darkness itself cannot exist without light. She is a sign of conflicting goals, of comfort in struggles, and of joy in overcoming adversity. In many ways, her teachings resonated with many loupain during war times, for change and upheaval was a common constant; to take solace in that fact would provide comfort as lives were changed in the face of war. There is a degree of gentleness in her depictions and ways, like a patient teacher. With Senna, suffering and overcoming it was the goal. In her depictions, Senna is a tall loupain figure, selkes-like with a lithe form; her fur is often shown as pure white as she wears a black silk robe; but other times she is depicted as half-white and half-black with a completely even split pattern across her middle.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-weight:bold\">For a time, she was kept prisoner by her mother, Ombusa, before she was rescued from the umbral domains within Somnum by her most ardent followers.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-weight:bold\"><strong>Title</strong> Goddess of Light and Dark</span></p><p class=\"MsoNormal\"><strong>Edicts</strong> Embrace inevitable change, spread calm during times of adversity</p><p class=\"MsoNormal\"><strong>Anathema</strong> Continually avoid risk, pass off challenges to others</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Inevitability, Revelations, Duality</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Dual-crescent moons, one white and one black</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Selkie dog</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> black and white</span></p>"
+    },
+    "rules": [],
+    "slug": "senna",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "darkness",
+        "truth",
+        "passion",
+        "pain"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "wis",
+      "con"
+    ],
+    "skill": [
+      "deception"
+    ],
+    "weapons": [
+      "twinblade"
+    ],
+    "spells": {}
+  },
+  "img": "icons/sundries/lights/candle-pillar-lit-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "j4PqIy9jgsZSWdWo",
+  "sort": 400000,
+  "_key": "!items!j4PqIy9jgsZSWdWo"
+}

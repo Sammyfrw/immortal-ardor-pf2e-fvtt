@@ -1,0 +1,79 @@
+{
+  "folder": "HKnuBgAIAZdbcUtH",
+  "name": "Ezmodun",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Category: Seen Gods</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced In: Small pockets worldwide</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Hells (Perditum)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Ezmodun is brother to Azoph-met, and child to Bapho-met. Once, his worship is only seen in pockets around the world as his name had sunk into history with the supposed deaths of all the Sophic Siblings save Azoph-met. However, his return through the acts of his cults has spurred many similar minded followers who seek the unraveling of archaic or chafing rulership.</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\">Centered primarily in Perditum, Ezmodun’s followers seek to join him in the Great Beyond, while his legion of demons look eagerly to add more to their ranks in their discordant hordes. They seek to corrupt the virtuous and bring forth anarchy, and tempt those that find the laws and norms that bind them with demonic power, preferably bringing themselves and others with them. Their reward, in the end, is a tainted soul that will be reformed as a demon.</span></p><p class=\"MsoNormal\"><strong>Title </strong>Bull of Cosmic Chaos</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Spur warfare, convince others to join your own causes, destroy established norms and order</span><span style=\"mso-tab-count:1\">       </span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong style=\"mso-bidi-font-weight:normal\">Anathema </strong>Bring a premature end to conflict through peace, mend broken things instead of building something anew</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Destruction, Chaos, Entropy</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> A corroded hand of a cazic-fer</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Bull</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong> purple and black</span></p>"
+    },
+    "rules": [],
+    "slug": "ezmodun",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "destruction",
+        "glyph",
+        "change",
+        "void"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "con",
+      "str"
+    ],
+    "skill": [
+      "intimidation"
+    ],
+    "weapons": [
+      "ritual-blade"
+    ],
+    "spells": {}
+  },
+  "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "mlkGsJMdHL9EpFKk",
+  "sort": 150000,
+  "_key": "!items!mlkGsJMdHL9EpFKk"
+}

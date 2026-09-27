@@ -1,7 +1,7 @@
 {
   "id": "immortal-ardor",
   "title": "Immortal Ardor",
-  "version": "0.710",
+  "version": "0.720",
   "compatibility": {
     "minimum": "14.365",
     "verified": "14.365"
@@ -207,7 +207,7 @@
           "red-scorpion": "IA.BaseWeapon.RedScorpion",
           "ritual-blade": "IA.BaseWeapon.RitualBlade",
           "roaring-revolver": "IA.BaseWeapon.RoaringRevolver",
-          "rootrazor": "IA.BaseWeapon.Rootrazoor",
+          "rootrazor": "IA.BaseWeapon.Rootrazor",
           "scepter": "IA.BaseWeapon.Scepter",
           "sickle-rifle": "IA.BaseWeapon.SickleRifle",
           "sidewinder": "IA.BaseWeapon.Sidewinder",
@@ -234,6 +234,7 @@
           "icaro": "IA.Language.Icaro",
           "irilynko": "IA.Language.Irilynko",
           "jyllan": "IA.Language.Jyllan",
+          "kaiyu": "IA.Language.Kaiyu",
           "kazhakin": "IA.Language.Kazhakin",
           "liefellan": "IA.Language.Liefellan",
           "mannish": "IA.Language.Mannish",

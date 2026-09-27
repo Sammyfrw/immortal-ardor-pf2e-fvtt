@@ -1,0 +1,79 @@
+{
+  "folder": "COqBnzik42Ko5tjm",
+  "name": "Heros",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, North Rodda</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Valtal), The Hells (Solum)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">The Mistbrewer is the deity of harvest, hard work and revelry. While typically associated with alcohol, all forms of agriculture and manufacturing and the joys of successful harvests are encapsulated in their seat. They are often paid tribute by craftsmen, artisans and farmers; and it is said that in the morning hues of a new day, a blessed harvest or invention is covered in an illuminating morning mist, as the forges of the Mistbrewer’s domain breathes its divine embers and wind upon the fields and factories. Heros has taken the seat as a lesser-known deity of the forges in the lands of Eirlangga; few worship him directly, as majority of Eirlanggans follow Dhusamat, but Heros, in his humility refuses their prayers, often directing them to the Golden Light, as he himself worships the Skybringer. Even so, the emissaries of Oropedus had somehow managed to convince Heros to take the role, for he bore the lineage of Sada’ahmar. What convinced him to embrace the seat has yet to come to light. Heros appears as a portly, red and black scaled agamidan.</span></p><p><strong>Title</strong> The Mistbrewer</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Have a good work ethic, never leave your work unfinished without cause, celebrate your victories</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> destroy the works of others, downplay the successes of your peers or yourself.</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Agriculture, Construction, Celebration</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A hand clutching a black orb</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Rhino</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> green and yellow</span></p>"
+    },
+    "rules": [],
+    "slug": "heros",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "indulgence",
+        "creation",
+        "toil",
+        "fire"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "int",
+      "wis"
+    ],
+    "skill": [
+      "crafting"
+    ],
+    "weapons": [
+      "bo-staff"
+    ],
+    "spells": {}
+  },
+  "img": "icons/consumables/potions/flask-corked-yellow-glow.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "mZJYeFk8RQ49CaSx",
+  "sort": 100000,
+  "_key": "!items!mZJYeFk8RQ49CaSx"
+}

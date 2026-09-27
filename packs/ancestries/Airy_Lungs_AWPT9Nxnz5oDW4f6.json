@@ -36,7 +36,7 @@
     "level": {
       "value": 1
     },
-    "category": "ancestry",
+    "category": "ancestryfeature",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -58,7 +58,7 @@
   "_stats": {
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

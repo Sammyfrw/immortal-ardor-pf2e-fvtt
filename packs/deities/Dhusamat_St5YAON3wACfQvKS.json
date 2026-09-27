@@ -1,0 +1,79 @@
+{
+  "folder": "Xao7VjjaXMQrjJCY",
+  "name": "Dhusamat",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><em>Category: Unseen Gods</em></p><p class=\"MsoNormal\"><em>Primarily Worshipped In: Freke, Isles of Mann, Noraki, Bahljet, Pockets worldwide</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Paradia, Khuldin, Elysium, Baythal, Valtal, Asphalus, Taranthara)</em></span></p><p>Dhusamat’s primary tenets are for community, thought, human rights, love, unity, and faith. Social development, cooperation and culture is a large pillar of the faith, where mankind is encouraged to see each other as simply that: people. As such, ensuring that people are treated equally and that they are not oppressed, and that communities are built through kindness and cooperation form the basis of many Dhusamat-worshipping societies.</p><p><strong>Title</strong> The Golden Light</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Build your communities, champion the rights of people, show kindness and respect to others</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Disrespect your loved ones, distort faith to commit harm</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Community, Love, Respecting culture and tradition</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> A streak of light upon a night sky, with the sun, moon and a star in the background</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Goat</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong> gold and white</span></p>"
+    },
+    "rules": [],
+    "slug": "dhusamat",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "family",
+        "duty",
+        "vigil",
+        "introspection"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "wis",
+      "cha"
+    ],
+    "skill": [
+      "religion"
+    ],
+    "weapons": [
+      "khopesh"
+    ],
+    "spells": {}
+  },
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "St5YAON3wACfQvKS",
+  "sort": 1500000,
+  "_key": "!items!St5YAON3wACfQvKS"
+}

@@ -1,0 +1,79 @@
+{
+  "folder": "COqBnzik42Ko5tjm",
+  "name": "Rukarn",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Zahnheim, North Rodda</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Valtal), The Hells (Somnum)</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-weight:bold\">The Subtle is a seat for those who wish for silence, caution, and steady progress. People pay tribute to the subtle, typically in a form of wealth, in hopes that their business can be done quickly and quietly. Typically, people pray to the subtle if they are about to commit deeds they are not proud of, or wish for as few people to know as possible. Politicians, merchants, and even scoundrels and thieves are typically those who wish to pray to the Subtle, but they are not always those who skirt the law. Rukarn understands this position well, but knows that nothing moves in perfect silence; eventually, the truth will escape should one push their luck to their limits. In the end, subtlety is a commodity as much as anything else people are willing to pay for. Rukarn is depicted as a garbed loupain in leathers and shawls, with multiple hidden blades upon their person.</span></p><p class=\"MsoNormal\"><strong>Title</strong> The Subtle</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Perform deeds in silence, misdirect prying eyes, take risks with wealth on the line</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Draw attention to your actions for mere fame or glory</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Secrecy, misdirection, wealth</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> a hand upon a coinpurse</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Lizard</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> black and steel</span></p>"
+    },
+    "rules": [],
+    "slug": "rukarn",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "delirium",
+        "secrecy",
+        "wealth",
+        "luck"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "dex",
+      "cha"
+    ],
+    "skill": [
+      "thievery"
+    ],
+    "weapons": [
+      "main-gauche"
+    ],
+    "spells": {}
+  },
+  "img": "icons/weapons/daggers/dagger-straight-thin-black.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "x9lqJm3UFlifGk0b",
+  "sort": 0,
+  "_key": "!items!x9lqJm3UFlifGk0b"
+}

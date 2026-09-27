@@ -1,0 +1,81 @@
+{
+  "folder": "K0GXxtxHemGwBXOl",
+  "name": "Werlund of Beasts",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Schattenriss</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Valtal), The Hells (Neferium)</em></span></p><p class=\"MsoNormal\">Werlund is a former deity of the Gods of Zahnheim pantheon; while much of his edicts and philosophy remain the same, the beast king and his followers have traveled far and fought hard to earn a place amongst the Deep Council. All was done in the name of the struggle – to fight, excel and exceed in the face of hardship and to cast aside those who are weaker. And in his hard-earned fight to give his followers a home, Werlund overthrew Ankhel-han, the former Deity King and took his seat. While still new in the grand scheme of the Schattenriss, Werlund has found himself many new followers who flocked to his philosophies and the blessings he could offer. Indeed, the Schattenriss is often a very unforgiving place where strength often dictates one’s place, not unlike the Zahnheim of the old ages – and so Werlund’s arrival could be seen as fortuitous for both the Undelkhen Empire and his own people.</p><p class=\"MsoNormal\">To this day, Werlund’s Majorum draws those who seek strength and an understanding of the forces of nature. Werlund commands the breadth of powerful individuals, cunning beasts and primal spirits, bestowing blessings of strength and bestial power. This did not include only physical capabilities, but also potent powers that comes from within. To that end, amongst their earlier conquests, Werlundites delved into the magics of the soul and blood, to innervate their true strength inside. Many who directly serve him under the Coven of Arghal are therians emblematic of his mantras: to struggle, to survive, to confront and to overcome – that is what it means to live.</p><p class=\"MsoNormal\"><strong>Title</strong> Godking of Beasts</p><p class=\"MsoNormal\"><strong>Edicts</strong> Overcome adversity; befriend and respect powerful beasts and primal spirits</p><p class=\"MsoNormal\"><strong>Anathema</strong> Be complacent and deny challenge, eschew one’s own inner strength</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Beasts, Strength, Warfare</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> Two wolves facing opposite directions, teeth bared</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Dire Wolf</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong> black and purple</span></p>"
+    },
+    "rules": [],
+    "slug": "werlund-of-beasts",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "might",
+        "nature",
+        "zeal",
+        "duty"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "str",
+      "wis"
+    ],
+    "skill": [
+      "nature"
+    ],
+    "weapons": [
+      "claw-blade"
+    ],
+    "spells": {}
+  },
+  "img": "icons/creatures/claws/claw-straight-orange.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "6CRe4p54r1qGHhlu",
+  "sort": 0,
+  "_key": "!items!6CRe4p54r1qGHhlu"
+}

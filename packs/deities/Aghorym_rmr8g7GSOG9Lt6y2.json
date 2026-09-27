@@ -1,0 +1,79 @@
+{
+  "folder": "K0GXxtxHemGwBXOl",
+  "name": "Aghorym",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Schattenriss</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Hells (Neferium)</em></span></p><p class=\"MsoNormal\">Aghorym is the founder of the Undelkhen Empire. In the days prior to its founding, Aghorym, a Vashlad, belonged to an ancient kingdom that once thrived in the lands above and underground. Beset by all sides in a bitter war with the Aelkhazak Thalassocracy, it ultimately fell – and Aghorym bid a war of vengeance. In the decades that followed, he united the lost peoples of his fallen empire with their sacred treasures and became heralded as their savior, fighting back against those that caused the destruction of his kingdom. With the assistance of Meirghul, the darksea Aelkhazak, Aghorym’s entire being changed to that of a deific figure –empowered by the prayers of his people. With his power and his Darksea allies, all who opposed his forgotten kingdom would be brought to heel. In its ashes, the Undelkhen Empire was formed.</p><p class=\"MsoNormal\">Aghorym rules with a strong, iron fist, vehemently protective of his people underneath his empire. His long journey to become one of the five in the Deep Council has left him deeply mistrusting of all denizens of the <em>Schattenriss</em> who do not come into the fold of the Empire, as well as those aboveground who have scorned his people in the past. The people of the Empire – even those outside his Majorum – are well cared for and protected, even if the rule is chafing. But to those who reject his rule, he will not tolerate, and his laws will not protect them. To entreat aid from the Undelkhen empire is to fall under their jurisdictions and rules. And to those who oppose the Empire and its growth, he will mete out his wrath. In the earliest years to establish the Undelkhen Empire, many opposing forces were either taken and assimilated, or destroyed and raided for their resources. While such conflicts have slowed, centuries later – many in the Schattenriss still whisper of the terror that Aghorym instilled; both those who oppose him, and those who worship him.</p><p class=\"MsoNormal\"><strong>Title</strong> The Forgotten</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Defend ones comrades in arms; instill fear and destroy those who threaten them.</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Show compassion or compromise to one’s enemies.</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Conquest, Vengeance, Assimilation</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> A vashlad with bloody fangs</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Vampire bat</span></p><p><span style=\"font-size:12.0pt;font-family:'Calibri',sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"><strong>Sacred Colors</strong> red, gold and white</span></p>"
+    },
+    "rules": [],
+    "slug": "aghorym",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "tyranny",
+        "cities",
+        "might",
+        "pain"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "con",
+      "int"
+    ],
+    "skill": [
+      "intimidation"
+    ],
+    "weapons": [
+      "rhoka-sword"
+    ],
+    "spells": {}
+  },
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "rmr8g7GSOG9Lt6y2",
+  "sort": 100000,
+  "_key": "!items!rmr8g7GSOG9Lt6y2"
+}

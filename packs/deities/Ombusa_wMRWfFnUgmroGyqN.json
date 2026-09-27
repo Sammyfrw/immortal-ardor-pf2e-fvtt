@@ -1,0 +1,80 @@
+{
+  "folder": "K0GXxtxHemGwBXOl",
+  "name": "Ombusa",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Schattenriss, South Rodda</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Hells (Neferium, Somnum, Solum)</em></span></p><p class=\"MsoNormal\">Ombusa is a Deity Queen who embodies the sacred dark of the Schattenriss. Light is a gift and a curse, but by that token so too is darkness. All creatures in the Schattenriss live between comforts of both or in dire need of one while avoiding the other, and Ombusa has turned such concepts into power. Many of the caverns and halls of the lands deep beneath Gere feature Ombrits, floating globules that cloak lands in artificial light and darkness, and a potent combination of these features creates a veil that would make one forget they live underground. These were said to be Ombusa’s creation, and served in her ascension to hold a seat in the Deep Council. Her followers, the Ombusites are soulmorphed to accentuate one essence of light or dark – for they believe in achieving oneness with the chasms of the Schattenriss. To do this, one must commit themselves wholly to it until death take them, and only then will they return to it as beings of pure light or darkness. Those who fight in her name and perish in violent deaths will find their return swift in a spectacular, explosive or implosive fashion.</p><p class=\"MsoNormal\">Many Ombusites practice the gift of shadow or light magic, with each bearing distinct functions in Ombusa’s Majorum – whether to illuminate or create structures of light, or to fade, hide and deceive with one’s own shadow. Ombusa herself seethes with a hatred for those of the lands above, and it is one of her desires to expose the denizens above ground to the perils beneath them, and so her followers do just that.</p><p class=\"MsoNormal\"><strong>Title</strong> Mother of the Eclipse</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Confound aboveground denizens with light or darkness, create light or darkness to the benefit of those who live in caverns or deep underground</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Cast light in natural darkness or stop sources of natural light to the detriment of natural denizens</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong> Underground, light and shadow, secrets</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong> An orbweaver spider upon a stalagmite</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong> Orbweaver Spider</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong> black and red</span></p>"
+    },
+    "rules": [],
+    "slug": "ombusa",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "darkness",
+        "delirium",
+        "secrecy",
+        "trickery"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "dex",
+      "wis"
+    ],
+    "skill": [
+      "deception"
+    ],
+    "weapons": [
+      "pick"
+    ],
+    "spells": {}
+  },
+  "img": "icons/creatures/invertebrates/spider-striped-web-red.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "wMRWfFnUgmroGyqN",
+  "sort": 0,
+  "_key": "!items!wMRWfFnUgmroGyqN"
+}

@@ -1,0 +1,81 @@
+{
+  "folder": "K0GXxtxHemGwBXOl",
+  "name": "Cal-Nacht",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Category: Seen Gods</em></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Primarily Practiced in: Schattenriss, Liefenel</em></span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><em style=\"mso-bidi-font-style:normal\">Espirian Domains: The Heavens (Elysium), The Hells (Neferium, Perditum)</em></span></p><p class=\"MsoNormal\">Cal-Nacht is a Deity King that has held his seat for centuries. The sidhe that makes up his people are furred spiritual beings versed in the arts of trickery, the soul, and artifice. Having one foot in the grave, they possess a strong magnetism for the souls of the dead. They were thought to be psychopomps at one point in their people’s history, but very few in the Cradle know the intricacies of what may be a troubled and storied history. Cal-Nacht himself embodies the ideologies of the Cradle, seeking to court powerful souls and acquiring relics of power into their possession. These would then be kept for future use, if not to decorate their lavish halls of ivory and leaves. Many within the Cradle offer some of their finds to sidhe of higher power, who then in turn provide boons to them – and no greater glory is there but to offer the finest souls or artifacts to Cal-Nacht, who then bestows his finest blessing: another life. However, there is an air of caution and trepidation in these acts, for all sidhe know that a poor gift would lead to a dreadful curse.</p><p><strong>Title</strong> Of the Cradle</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Edicts</strong> Ferry souls of the powerful away from those who would take it, gather rare objects of power</p><p class=\"MsoNormal\"><strong style=\"mso-bidi-font-weight:normal\">Anathema</strong> Relinquish one’s own collection, do not acknowledge souls that wander</p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Areas of Concern</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Treasure hunting, souls, thievery</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Religious Symbol</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> A soul sitting upon an ivory leaf</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Animal</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> Black Cat</span></p><p class=\"MsoNormal\"><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"><strong>Sacred Colors</strong></span><span style=\"mso-bidi-font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin\"> black and brown</span></p>"
+    },
+    "rules": [],
+    "slug": "cal-nacht",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "wealth",
+        "soul",
+        "trickery",
+        "luck"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "wis",
+      "cha"
+    ],
+    "skill": [
+      "thievery"
+    ],
+    "weapons": [
+      "claw"
+    ],
+    "spells": {}
+  },
+  "img": "icons/magic/death/undead-ghost-scream-teal.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "ZkBX0ZFqNPTAdvQA",
+  "sort": 300000,
+  "_key": "!items!ZkBX0ZFqNPTAdvQA"
+}
