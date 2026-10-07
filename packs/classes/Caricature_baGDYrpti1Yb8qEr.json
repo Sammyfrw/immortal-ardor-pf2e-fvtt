@@ -1,0 +1,90 @@
+{
+  "folder": "gNebx2qWMvc5iAUU",
+  "name": "Caricature",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Through magical scrawling or a verbal undressing you expose and exaggerate your target’s characteristics, creating a curse where those physical or personal qualities come to the front so thoroughly it cannot be ignored. The target must make a Fortitude saving throw or have their body parts comically grow or personality shift to exemplify their traits, imparting a status penalty to their skill checks and skill DCs until they take 3 actions to shake themselves off and end the spell’s effects. These actions do not need to be consecutive. This spell can be Dismissed. If your visionary skill is Diplomacy or Society, they take a -2 circumstance penalty to their save.</p><p class=\"MsoNormal\"><strong>Critical Success</strong> The target is unaffected.</p><p class=\"MsoNormal\"><strong>Success</strong> The creature takes a -2 status penalty for the duration but only needs 1 action to shake themselves off.</p><p class=\"MsoNormal\"><strong>Failure</strong> The creature takes a -2 status penalty and must take 3 actions to shake themselves off.</p><p class=\"MsoNormal\"><strong>Critical Failure</strong> As failure, but the spell lasts the entire duration.</p><p>@UUID[Compendium.immortal-ardor.classes.Item.uzvN13WeVW2DE0WH]{Spell Effect: Caricature}</p><p class=\"MsoNormal\">You can add an ephemeral catalyst to enhance this spell. If you do, the curse becomes contagious to your enemies; if your initial target ends their turn adjacent to an enemy, uses a skill action on an enemy, or another enemy uses a skill action on them, they must make a similar saving throw or suffer from the effects of the spell as if you cast this spell on them.</p>"
+    },
+    "rules": [],
+    "slug": "caricature",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifex",
+        "concentrate",
+        "curse",
+        "focus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/control/encase-creature-monster-hold.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "baGDYrpti1Yb8qEr",
+  "sort": 800000,
+  "_key": "!items!baGDYrpti1Yb8qEr"
+}

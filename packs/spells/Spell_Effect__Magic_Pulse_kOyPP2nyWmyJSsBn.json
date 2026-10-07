@@ -1,0 +1,76 @@
+{
+  "name": "Spell Effect: Magic Pulse",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.spells.OlTZjKmh01ZOjFRC]{Magic Pulse}</p><p>You gain a +2 circumstance bonus to Identify Magic.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-end",
+      "sustained": true,
+      "unit": "minutes",
+      "value": 10
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": true,
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "action:identify-magic"
+        ],
+        "removeAfterRoll": "if-enabled",
+        "selector": "skill-check",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-magic-pulse",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "kOyPP2nyWmyJSsBn",
+  "img": "icons/magic/light/explosion-star-glow-purple.webp",
+  "folder": "RpBrqwtfJcGyKNSa",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!items!kOyPP2nyWmyJSsBn"
+}

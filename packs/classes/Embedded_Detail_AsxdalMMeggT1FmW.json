@@ -1,0 +1,74 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Embedded Detail",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> You are about to cast a spell that inflicts damage.</p><hr></div><p class=\"MsoNormal\">Your catalysts can introduce a wrinkle in your crafted magic, one that leaves an enemy reeling. When you cast your catalyzed spell and it deals damage, your target gains weakness 5 to the type of damage your spell inflicts for 1 minute. If it deals multiple damage types, choose one. If the spell targets multiple enemies or inflicts damage in an area, choose one target.</p><p class=\"MsoNormal\"><strong>Visionary Catalyst</strong> Your catalyst allows you to truly elevate your magic. You can either increase the weakness you inflict against a single target to 10, or you can inflict weakness 5 on any creature you damage with your spell, picking the same damage type for all creatures if it deals multiple.<strong><br style=\"mso-special-character:line-break;page-break-before:always\"></strong></p>"
+    },
+    "rules": [],
+    "slug": "embedded-detail",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifex",
+        "catalyze1"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "AsxdalMMeggT1FmW",
+  "sort": 900000,
+  "_key": "!items!AsxdalMMeggT1FmW"
+}

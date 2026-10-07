@@ -1,0 +1,77 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Blank Slate",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p><hr><p class=\"MsoNormal\">At times you need to tear down your work and start over again and apply this philosophy to yourself. You Dismiss any spells you are maintaining and cease Sustaining any spells, ending them at the end of your turn. However, you attempt a counteract check of up to 3 effects you are suffering from. On a successful check, you end that effect.</p>"
+    },
+    "rules": [],
+    "slug": "blank-slate",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifex"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "fiCSQOO5eePbXL9g",
+  "sort": 1400000,
+  "_key": "!items!fiCSQOO5eePbXL9g"
+}

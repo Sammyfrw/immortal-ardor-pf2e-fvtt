@@ -1,0 +1,78 @@
+{
+  "folder": "Sh7StbFx4ouAPaDy",
+  "name": "Spell Effect: Caricature",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Caused by @UUID[Compendium.immortal-ardor.classes.baGDYrpti1Yb8qEr]{Caricature}</p><p>Your features have comically grown, causing you to suffer a status penalty to your skill checks and skill DCs.</p><p>You can end the effect early by taking actions to shake yourself off.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": -2,
+        "type": "status",
+        "selector": [
+          "skill-check"
+        ]
+      }
+    ],
+    "slug": "spell-effect-caricature",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 10,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/control/encase-creature-monster-hold.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "uzvN13WeVW2DE0WH",
+  "sort": 0,
+  "_key": "!items!uzvN13WeVW2DE0WH"
+}

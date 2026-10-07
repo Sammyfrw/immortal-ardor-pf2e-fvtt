@@ -1,0 +1,77 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Artistic Integrity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p style=\"border:none;mso-border-bottom-alt:solid black .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p><p class=\"MsoNormal\"><strong>Trigger</strong> A creature you observe counteracts or critically succeeds and becomes unaffected by one of your spells.</p><hr></div><p class=\"MsoNormal\">When an opponent dares to insult your work by not succumbing to its effects, you take it as a slight to correct. You force the creature to reroll their counteract check or saving throw and take the lower result.</p>"
+    },
+    "rules": [],
+    "slug": "artistic-integrity",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifex"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "8ULOowisCPuWSxXo",
+  "sort": 1500000,
+  "_key": "!items!8ULOowisCPuWSxXo"
+}

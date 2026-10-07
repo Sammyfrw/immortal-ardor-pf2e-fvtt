@@ -1,0 +1,83 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Rainbow Arch",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Frequency</strong> Once per ten minutes</p><hr></div><p>You create an arch of multicolored light that can carry you and your allies towards safety. The arch appears at your feet, and travels to a location of your choice as if you could Fly up to 35 feet. While the arch persists, you or an ally can take an Interact action while adjacent to either end of the arch or move towards them as part of a Move action. Upon doing so, a creature will be forcefully moved along the arch towards the opposite end, landing on the target space or an adjacent one if it is occupied. If the end they move towards is in the air, they fall at the end of their turn. A creature can only use the same arch once.</p><p class=\"MsoNormal\">The arch remains until the end of your next turn, after which it collapses unless you take a second action to strengthen the arch while adjacent to it by attempting a @Check[crafting] check against a Normal DC for your level. On a success, you extend the duration of the bridge to two rounds, or three rounds on a critical success.</p>"
+    },
+    "rules": [],
+    "slug": "rainbow-arch",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifex",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Rain of Colours Medium"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "i8waiuXSCMX2EwGw",
+  "sort": 2600000,
+  "_key": "!items!i8waiuXSCMX2EwGw"
+}

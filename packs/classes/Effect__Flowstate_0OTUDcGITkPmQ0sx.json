@@ -1,0 +1,89 @@
+{
+  "folder": "Sh7StbFx4ouAPaDy",
+  "name": "Effect: Flowstate",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.gf8ngy988lnGtYJ9]{Flowstate}</p><p>You turn into a form that matches your medium, granting you either a fly speed or burrow speed of 30 feet, and have a +2 circumstance bonus to your AC and saving throws against reactions you trigger with a Move or Manipulate action.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "flowstateSpeed",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Burrow",
+            "value": "burrow"
+          },
+          {
+            "label": "IA.SpecificRule.Chimerian.ShiftingMobility.Fly",
+            "value": "fly"
+          }
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "{item|flags.system.rulesSelections.flowstateSpeed}",
+        "value": 30
+      }
+    ],
+    "slug": "effect-flowstate",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/light/beam-impact-deflect-teal.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "0OTUDcGITkPmQ0sx",
+  "sort": 0,
+  "_key": "!items!0OTUDcGITkPmQ0sx"
+}

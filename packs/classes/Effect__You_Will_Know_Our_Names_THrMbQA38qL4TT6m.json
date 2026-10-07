@@ -1,0 +1,163 @@
+{
+  "folder": "Sh7StbFx4ouAPaDy",
+  "name": "Effect: You Will Know Our Names",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.rtEATpOBNll9yYi9]{You Will Know Our Names}</p><p>You are under the effects of an embellishment while within a burst of an inscription from an Artifex. This will take one of three forms:</p><ul><li><p class=\"MsoNormal\"><strong>Embellishment of Justice</strong>: When an affected ally deals damage to an enemy, they add 5 persistent fire, spirit, force or mental damage to the damage roll, chosen when selecting this embellishment.</p></li><li><p class=\"MsoNormal\"><strong>Embellishment of Resolve</strong>: When an affected ally receives healing or heals another creature, they gain a +5 status bonus to the amount of hit points healed.</p></li><li><p class=\"MsoNormal\"><strong>Embellishment of Courage</strong>: When an affected ally would take damage, they gain resistance 5 to the damage. If multiple types of damage apply, select one.</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Artifex.Feat.YouWillKnowOurNames.EmbellishmentPrompt",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Artifex.Feat.YouWillKnowOurNames.EmbellishmentOfJustice",
+            "value": "justice"
+          },
+          {
+            "label": "IA.SpecificRule.Artifex.Feat.YouWillKnowOurNames.EmbellishmentOfResolve",
+            "value": "resolve"
+          },
+          {
+            "label": "IA.SpecificRule.Artifex.Feat.YouWillKnowOurNames.EmbellishmentOfCourage",
+            "value": "courage"
+          }
+        ],
+        "rollOption": "embellishment-choice"
+      },
+      {
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Artifex.Feat.YouWillKnowOurNames.JusticeDamageTypePrompt",
+        "choices": [
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit"
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "value": "force"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "value": "mental"
+          }
+        ],
+        "flag": "embellishmentJusticeDamageType",
+        "predicate": [
+          "embellishment-choice:justice"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": 5,
+        "selector": [
+          "healing-received",
+          "healing"
+        ],
+        "predicate": [
+          "embellishment-choice:resolve"
+        ],
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 5,
+        "predicate": [
+          "embellishment-choice:justice"
+        ],
+        "selector": [
+          "damage"
+        ],
+        "type": "status",
+        "damageCategory": "persistent",
+        "damageType": "fire",
+        "slug": "embellishment-justice-damage",
+        "label": "Embellishment of Justice"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "selectors": [
+          "damage"
+        ],
+        "slug": "embellishment-justice-damage",
+        "value": "{item|flags.system.rulesSelections.embellishmentJusticeDamageType}",
+        "predicate": [
+          "embellishment-choice:justice"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "value": 5,
+        "type": "physical",
+        "predicate": [
+          "embellishment-choice:courage"
+        ]
+      }
+    ],
+    "slug": "effect-you-will-know-our-names",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "THrMbQA38qL4TT6m",
+  "sort": 0,
+  "_key": "!items!THrMbQA38qL4TT6m"
+}

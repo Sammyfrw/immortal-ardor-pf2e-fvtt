@@ -43,7 +43,7 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 2
     },
     "category": "class",
     "onlyLevel1": false,
@@ -74,7 +74,7 @@
     "duplicateSource": null,
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "exportSource": null
   },
   "sort": 0,

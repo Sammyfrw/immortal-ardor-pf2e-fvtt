@@ -55,10 +55,10 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 2
     },
     "category": "class",
-    "onlyLevel1": true,
+    "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
       "value": "passive"
@@ -86,9 +86,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.d1ev7JJp7RMAS1Lr",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.5.0",
     "exportSource": null
   },
   "sort": 0,
