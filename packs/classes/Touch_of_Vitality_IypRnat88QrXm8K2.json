@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr><p>You perform the following as you Sustain your Meditation.</p><p><span style=\"font-family:'Roboto, sans-serif'\">You gather vigorous waters into your fingertips, and press it against yourself or an adjacent ally. The target heals for </span>[[/r (ternary(gte(@actor.level, 15), 3, ternary(gte(@actor.level, 9), 2, 1)))d8[healing]]]<span style=\"font-family:'Roboto, sans-serif'\"> hit points.</span></p>",
+      "value": "<p><strong>Requirement</strong> You are under the effect of a meditation spell.</p><hr><p>You perform the following as you Sustain your Meditation.</p><p>You gather vigorous waters into your fingertips, and press it against yourself or an adjacent ally. The target heals for [[/r (ternary(gte(@actor.level, 15), 3, ternary(gte(@actor.level, 9), 2, 1)))d8[healing]]] hit points.</p>",
       "gm": ""
     },
     "publication": {
@@ -50,7 +50,7 @@
     "duplicateSource": null,
     "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.4.0",
+    "systemVersion": "8.5.0",
     "exportSource": null
   },
   "_id": "IypRnat88QrXm8K2",

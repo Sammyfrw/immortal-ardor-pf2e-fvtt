@@ -1,0 +1,120 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "High Bar",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Expectations are high for you, but you are able to meet them for people who want a taste of your unique brand of magic. You gain the @UUID[Compendium.pf2e.feats-srd.QLeMH5mQgh28sa5o]{Specialty Crafting} feat. If you have the Specialty Crafting feat, you can either select another specialty or you can gain the @UUID[Compendium.pf2e.feats-srd.PiUe3tpv7UVtnfvS]{Impeccable Crafting} feat.</p><p class=\"MsoNormal\">When you use your visionary skill to @UUID[Compendium.pf2e.actionspf2e.QyzlsLrqM0EEwd7j]{Earn Income} or to @UUID[Compendium.pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Craft} magical scrolls, you gain a +2 circumstance bonus to the check. In addition, whenever you roll a critical failure on an Earn Income check that uses your visionary skill, you can roll a second time and take the new result.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you have the @UUID[Compendium.immortal-ardor.classes.Pl5YLdiMtUCW1XLB]{Catalyst Artist} or @UUID[Compendium.immortal-ardor.classes.UGARByXDuXQ8Dy0Y]{Body is a Canvas} feat, the circumstance bonus when using your visionary skills to craft these items also apply.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "highBarFeat",
+        "choices": [
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.PiUe3tpv7UVtnfvS"
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "not": "feat:specialty-crafting"
+          }
+        ],
+        "uuid": "{item|flags.system.rulesSelections.highBarFeat}"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 2,
+        "selector": [
+          "skill-check"
+        ],
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "action:craft",
+              "action:earn-income"
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "high-bar",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifex",
+        "downtime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Legendary in your visionary skill"
+        },
+        {
+          "value": "Commissioned Work"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "KtFDSvQYcbo5YFOb",
+  "sort": 1300000,
+  "_key": "!items!KtFDSvQYcbo5YFOb"
+}

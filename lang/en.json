@@ -852,6 +852,10 @@
           "SoItIsWritten": {
             "Label": "So It Is Written",
             "Description": "Your catalyzed spell has a stronger counteract effect: @UUID[Compendium.immortal-ardor.classes.iZXGuIaQ5VewRa5i]{So It Is Written}"
+          },
+          "QuickenCatalyst": {
+            "Label": "Quicken Catalyst",
+            "Description": "Your catalyzed spell is cast more quickly: @UUID[Compendium.immortal-ardor.classes.Item.RTRtPCOgcd6fGr22]{Quicken Catalyst}"
           }
         },
         "SpellEffects": {
@@ -859,6 +863,15 @@
             "Label": "Stippling Shades",
             "Description": "Your spells are veiled and gain the illusion trait. If your spells require a spell attack, compare the attack roll to a creature's Perception DC. If they require a saving throw, targeted creatures need to make a Seek check before rolling their saving throw. @UUID[Compendium.immortal-ardor.classes.Item.cyjCynzHF2FshKa6]{Spell Effect: Stippling Shades (Target)}",
             "Description8thRank": "Your spells are veiled and gain the illusion trait. If your spells require a spell attack, compare the attack roll to a creature's Perception DC. If they require a saving throw, targeted creatures need to make a Seek check before rolling their saving throw. @UUID[Compendium.immortal-ardor.classes.Item.cyjCynzHF2FshKa6]{Spell Effect: Stippling Shades (Target)}"
+          }
+        },
+        "Feats": {
+          "YouWillKnowOurNames": {
+            "EmbellishmentPrompt": "Select an Embellishment.",
+            "EmbellishmentOfJustice": "Embellishment of Justice",
+            "EmbellishmentOfResolve": "Embellishment of Resolve",
+            "EmbellishmentOfCourage": "Embellishment of Courage",
+            "JusticeDamageTypePrompt": "Select a damage type for the Embellishment of Justice."
           }
         }
       },

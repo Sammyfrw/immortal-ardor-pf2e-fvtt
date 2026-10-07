@@ -1,0 +1,83 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Parting Shot",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Frequency</strong> Once per ten minutes</p><p class=\"MsoNormal\"><strong>Requirements</strong> You have an ally and an enemy within 30 feet of you.</p><hr></div><p class=\"MsoNormal\">You weave words that leave an opponent with unease as you hurriedly depart from any response they might make. You @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} an enemy within range, using [[/act demoralize statistic=diplomacy]] Diplomacy for the check if it is higher than your [[/act demoralize]] Intimidation modifier. Then, you teleport to an ally’s location, putting yourself to a space adjacent to them that is farthest from the target of your Demoralize. Your ally can either Step as a free action towards your enemy, or teleport to your original location as a reaction.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you have the @UUID[Compendium.pf2e.feats-srd.0GF2j54roPFIDmXf]{Bon Mot} feat, you can use Bon Mot instead of Demoralize with this action.</p>"
+    },
+    "rules": [],
+    "slug": "parting-shot",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifex",
+        "concentrate",
+        "teleportation"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Standing Oration Medium"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "HNU0IeSUq2p9Y1RJ",
+  "sort": 2000000,
+  "_key": "!items!HNU0IeSUq2p9Y1RJ"
+}

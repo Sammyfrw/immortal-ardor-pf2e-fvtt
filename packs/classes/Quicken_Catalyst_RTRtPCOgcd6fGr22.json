@@ -1,0 +1,110 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Quicken Catalyst",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p style=\"border:none;mso-border-bottom-alt:solid black .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><strong>Trigger </strong>You are about to cast a spell that has a cast time of 2 or 3 actions that is at least 2 ranks lower than your highest-rank spell slot.</p><p style=\"border:none;mso-border-bottom-alt:solid black .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><strong>Frequency</strong> Once per day</p><p class=\"MsoNormal\"><strong>Requirements </strong>You have not used the Quickened Casting spellshape or similar feat this day.You can make sure that your work is delivered on time with the help of a catalyst. Your catalyzed spell is cast with 1 fewer actions (minimum 1).</p><hr></div><p class=\"MsoNormal\"><strong>Visionary Catalyst</strong> Your catalyst can apply to even the strongest of your spells. You can use Quicken Catalyst on any rank spell you know.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "catalyze",
+        "placement": "spellcasting",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
+        "alwaysActive": false,
+        "mergeable": true,
+        "toggleable": true,
+        "suboptions": [
+          {
+            "label": "IA.SpecificRule.Artifex.Catalyze.QuickenCatalyst.Label",
+            "value": "quicken-catalyst"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "label": "IA.SpecificRule.Artifex.Catalyze.Label",
+        "mode": "add",
+        "priority": 121,
+        "property": "description",
+        "predicate": [
+          "catalyze:quicken-catalyst"
+        ],
+        "value": [
+          {
+            "divider": true,
+            "text": "IA.SpecificRule.Artifex.Catalyze.QuickenCatalyst.Description",
+            "title": "IA.SpecificRule.Artifex.Catalyze.QuickenCatalyst.Label"
+          }
+        ]
+      }
+    ],
+    "slug": "quicken-catalyst",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifex",
+        "catalyze",
+        "concentrate",
+        "spellshape"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "RTRtPCOgcd6fGr22",
+  "sort": 2300000,
+  "_key": "!items!RTRtPCOgcd6fGr22"
+}

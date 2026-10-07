@@ -1,0 +1,85 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Hall of Mirrors",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Frequency</strong> Once per ten minutes</p><hr></div><p class=\"MsoNormal\">Through elaborate magical mirrors, clouding vapors, addling fumes or well positioned tricks of light and sound, you quickly create an inscrutable box for a foe, regardless of how they might perceive the world. Target a creature within 60 feet of you, and attempt a <span lang=\"EN\">@Check[visionary-skill|against:will] </span>check against their Will DC.</p><p class=\"MsoNormal\">On a success, a creature becomes incapable of using any of their senses for 1 round, and is considered @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded}, @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened}and @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard}. During their turn, they can take an action to attempt a Will saving throw or a @UUID[Compendium.pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} check on their turn against your Deception DC, ending the effect on a success. If you critically succeeded, the creature cannot attempt this check. If you failed the check, the creature still remains off-guard for the round, though they are still able to see through your tricks. They can attempt the saving throw or Seek check to end the effect early.</p>"
+    },
+    "rules": [],
+    "slug": "hall-of-mirrors",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifex",
+        "concentrate",
+        "illusion",
+        "incapacitation",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Smoke and Mirrors Medium"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "S0iZyZ81ljGkH31k",
+  "sort": 2400000,
+  "_key": "!items!S0iZyZ81ljGkH31k"
+}

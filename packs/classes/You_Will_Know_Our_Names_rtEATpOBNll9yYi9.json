@@ -1,0 +1,73 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "You Will Know Our Names",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Frequency</strong> Once per ten minutes</p><hr></div><p class=\"MsoNormal\">You inscribe names, titles or symbols that represent your party or individual members into the air for all onlookers to see in a space up to 60 feet away, though you may also use fake or misleading ones if you need to instead conceal your true identities.<span style=\"mso-spacerun:yes\">  </span>When you inscribe these symbols, you create a @Template[type:burst|distance:20] as the inscription appears overhead that persists for 1 minute. As you do, you roll a @Check[society|against:will] check against the Will DC of creatures you are aware of that can see the inscription that you want the proclamation to make an impression on.</p><p class=\"MsoNormal\">As part of inscribing, choose one of the following embellishments, which grants you or allies affiliated with the inscription a benefit as long as they remain in the burst:</p><ul><li><p class=\"MsoNormal\"><span style=\"color:black\"><strong>Embellishment of Justice</strong>: When an affected ally deals damage to an enemy, they add 5 persistent fire, spirit, force or mental damage to the damage roll, chosen when selecting this embellishment.</span></p></li><li><p class=\"MsoNormal\"><span style=\"color:black\"><strong>Embellishment of Resolve: </strong>When an affected ally receives healing or heals another creature, they gain a +5 status bonus to the amount of hit points healed.</span></p></li><li><p class=\"MsoNormal\"><span style=\"color:black\"><strong>Embellishment of Courage: </strong>When an affected ally would take damage, they gain resistance 5 to the damage. If multiple types of damage apply, select one.</span></p></li></ul><p class=\"MsoNormal\">If your Society check succeeds against a creature you intend to impress, they will affiliate an ally who benefits from the inscription with it, potentially providing circumstance bonuses at a GM’s discretion, such as with Diplomacy checks (if the inscription exemplifies an ally’s qualities truthfully) or Deception checks (if the inscription was meant to mislead or hide their true identities).</p><p>@UUID[Compendium.immortal-ardor.classes.THrMbQA38qL4TT6m]{Effect: You Will Know Our Names}</p>"
+    },
+    "rules": [],
+    "slug": "you-will-know-our-names",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifex"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "rtEATpOBNll9yYi9",
+  "sort": 2800000,
+  "_key": "!items!rtEATpOBNll9yYi9"
+}

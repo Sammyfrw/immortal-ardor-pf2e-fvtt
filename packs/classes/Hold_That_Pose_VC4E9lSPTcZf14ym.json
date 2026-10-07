@@ -1,0 +1,78 @@
+{
+  "folder": "N6A1Evhl0O3vyf9U",
+  "name": "Hold That Pose",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p style=\"border:none;mso-border-bottom-alt:solid black .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><strong>Trigger </strong>An ally within 30 feet of you would meet the trigger of a spell that requires a reaction to cast that you have prepared.</p><p class=\"MsoNormal\"><strong>Frequency</strong> Once per hour</p><hr></div><p class=\"MsoNormal\">When a scenario comes to pass that gives you inspiration, you have to create in the moment. You catalyze the spell and cast it, but your ally gains the benefits of the spell as if they had cast it themselves.</p><p class=\"MsoNormal\"><strong>Visionary Catalyst</strong> The catalyst becomes easier to make. The frequency of this action becomes once per ten minutes.</p>"
+    },
+    "rules": [],
+    "slug": "hold-that-pose",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifex",
+        "catalyze"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "VC4E9lSPTcZf14ym",
+  "sort": 1000000,
+  "_key": "!items!VC4E9lSPTcZf14ym"
+}
