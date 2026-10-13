@@ -1,0 +1,89 @@
+{
+  "folder": "oSYDMf6zbRKPmVGl",
+  "name": "Diviner's Gambit",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">As a diviner, you interface with possibility for different purposes. The powers you are gifted with are turned into your vocation, which in turn informs the unique nature of how you weave fate. This is called your gambit.</p><p class=\"MsoNormal\">The gambit you select determines the following features:</p><ul><li><p class=\"MsoNormal\">Your Gambit’s style, which are unique techniques that lend itself to a style of combat.</p></li><li><p class=\"MsoNormal\">Your Gambit’s aces, which are bonus spells you can cast in addition to the ones you know, first acquired at 7th level.</p></li><li><p class=\"MsoNormal\">An initial Foreteller spell.</p></li><li><p class=\"MsoNormal\">An initial 1st level diviner feat.</p></li></ul>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:diviners-gambit"
+          ]
+        },
+        "flag": "divinersGambit",
+        "key": "ChoiceSet",
+        "prompt": "Select a diviner's gambit."
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.divinersGambit}"
+      }
+    ],
+    "slug": "diviners-gambit",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ibGOA1P8KBh6ygup",
+  "sort": 0,
+  "_key": "!items!ibGOA1P8KBh6ygup"
+}

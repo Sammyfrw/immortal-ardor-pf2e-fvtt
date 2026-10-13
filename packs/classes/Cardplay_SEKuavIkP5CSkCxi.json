@@ -1,0 +1,73 @@
+{
+  "folder": "oSYDMf6zbRKPmVGl",
+  "name": "Cardplay",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">A Diviner uses a deck of fortune-telling cards as a focus to invite fate and chaos to intertwine. The cards portray a story or fate or even act as a window to futures unwritten. Through this focus, they foretell the future and deftly pluck at its strands.</p><p class=\"MsoNormal\">Each day during daily preparations, a Diviner attunes to their collection of these specialized cards that forms a Diviner’s Deck. It contains a number of cards in multiples of 6, which align to 6 suits. Each suit is associated with an attribute, which is also indicated by numbers 1-6. Typically, when a feature affiliated with drawing a card calls for rolling a [[/r 1d6]], it refers to drawing a card of a particular suit associated with these attributes, as shown below:</p><ul><li><p class=\"MsoNormal\">1 – Suit of Strength</p></li><li><p class=\"MsoNormal\">2 – Suit of Dexterity</p></li><li><p class=\"MsoNormal\">3 – Suit of Constitution</p></li><li><p class=\"MsoNormal\">4 – Suit of Intelligence</p></li><li><p class=\"MsoNormal\">5 – Suit of Wisdom</p></li><li><p class=\"MsoNormal\">6 – Suit of Charisma</p></li></ul><p class=\"MsoNormal\">As a Diviner draws their cards during encounters, the suit on the card will influence the effect when used as part of casting their Foreteller spells or their class features.</p><h5>Diviner’s Hand</h5><p class=\"MsoNormal\">You gain the Draw Card, Hold Card, and Standard Play actions, and the Play Card activity. These actions have the Cardplay trait, which is also a trait seen on many Diviner features and foreteller spells. Actions with the Cardplay trait represents a Diviner drawing the potentials of fate through the cards in your hand. If it requires you to Play a Card, you must have a Card in your hand either when you use the action or because of a Card Draw made during the action.</p><p class=\"MsoNormal\">Anytime you Draw a Card, you take a card from your Diviner’s Deck into your hand of cards. You need a free hand to hold your cards, and you can take cardplay actions with the same hand you hold your hand of cards.</p><p class=\"MsoNormal\">Holding onto the drawn potential in a card requires carrying the weight of possibility. As a result, you can typically hold only 1 card in your hand by the end of your turn. You must discard any of the cards you hold in excess of this number when you end your turn. Some actions such as Hold Card might increase this number, but it cannot ever exceed 3 cards. An unused card in your hand disappears after 1 minute has passed, automatically being discarded. Any cards you discard or Play rematerialize and are shuffled back in your Diviner’s Deck magically.</p><h5>Key Diviner Terms</h5><p class=\"MsoNormal\">Some Diviner options have the Sleight trait. Sleights are conditional tricks that a Diviner uses to strongly nudge the odds in their favor, triggered by a listed condition in the action. Once met, you can use the Sleight effect as a free action, though if you meet the conditions of more than one Sleight at a time, you can only use one. These tricks are powerful, but difficult and risky to use frequently. Once a Sleight is used, you cannot use another Sleight for 10 minutes, though some Sleights also have an additional frequency listed.</p><p class=\"MsoNormal\">Some actions might cause you to Bust. When you Bust, your fortune bodes ill as the universe seems to rebound from your meddling directly against you. You roll your next check or saving throw twice and take the lower result, or the next creature who rolls against you rolls twice and takes the higher result, granting the checks the Misfortune trait or Fortune trait respectively. After the roll, you no longer suffer from Bust.</p>"
+    },
+    "rules": [],
+    "slug": "cardplay",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/gaming/card-astronomy-pink.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "SEKuavIkP5CSkCxi",
+  "sort": 100000,
+  "_key": "!items!SEKuavIkP5CSkCxi"
+}

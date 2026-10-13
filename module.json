@@ -470,6 +470,10 @@
             "label": "IA.Trait.CazicFer",
             "description": "IA.TraitDescription.CazicFer"
           },
+          "cardplay": {
+            "label": "IA.Trait.Cardplay",
+            "description": "IA.TraitDescription.Cardplay"
+          },
           "catalyze": {
             "label": "IA.Trait.Catalyze",
             "description": "IA.TraitDescription.Catalyze"
@@ -566,6 +570,10 @@
             "label": "IA.Trait.Sapien",
             "description": "IA.TraitDescription.Sapien"
           },
+          "sleight": {
+            "label": "IA.Trait.Sleight",
+            "description": "IA.TraitDescription.Sleight"
+          },
           "symbiosis": {
             "label": "IA.Trait.Symbiosis",
             "description": "IA.TraitDescription.Symbiosis"
@@ -615,6 +623,10 @@
           "blood": {
             "label": "IA.Trait.Blood",
             "description": "IA.TraitDescription.Blood"
+          },
+          "cardplay": {
+            "label": "IA.Trait.Cardplay",
+            "description": "IA.TraitDescription.Cardplay"
           },
           "chaos": {
             "label": "IA.Trait.Chaos",

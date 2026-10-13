@@ -11,7 +11,7 @@
     "rules": [
       {
         "key": "RollOption",
-        "label": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Maneuever.WeaponManeuverLabel",
+        "label": "IA.SpecificRule.RulesAdjustments.WeaponTraits.Maneuver.WeaponManeuverLabel",
         "option": "maneuver-weapon",
         "toggleable": true
       },

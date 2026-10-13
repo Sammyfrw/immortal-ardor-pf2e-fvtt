@@ -1,0 +1,73 @@
+{
+  "folder": "oSYDMf6zbRKPmVGl",
+  "name": "Diviner Spellcasting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As a Diviner, your magic relies on your internal connection to the forces of order and chaos that flow around you. You can cast spells using the Cast a Spell activity. </p><p>Each day, you can cast one 1st-rank spell and five cantrips. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots. </p><p class=\"MsoNormal\">As you increase in rank as a diviner, connecting with the cosmos grants you additional, more powerful spell slots. Your total number of spell slots and the highest rank of spells you can cast are shown in the Diviner Spells per Day table. Any time you gain a spell slot, you add a spell to your spell repertoire of the same rank. <span style=\"mso-spacerun:yes\"> </span>At 2nd level, you select another 1st-rank spell. At 3rd level, you add the first 2nd-rank spell to your repertoire. At 4th level, you gain your second 2nd-rank spell, and so on. When you add spells, you might select a higher-rank version of a spell you already have so that you can cast a heightened version of that spell.</p><p class=\"MsoNormal\">Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is Charisma, your spell attack rolls and spell DCs use your Charisma modifier.</p><h5>Heightening Spells</h5><p class=\"MsoNormal\">When you gain spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain ranks.</p><h5>Cantrips</h5><p class=\"MsoNormal\">A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of spell you can cast as a diviner. For example, as a 1st-level diviner, your cantrips are 1st-rank spells, and as a 5th-level diviner, your cantrips are 3rd-rank spells.</p>"
+    },
+    "rules": [],
+    "slug": "diviner-spellcasting",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/light/orbs-firefly-hand-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "i81JlPODqF8fc8UA",
+  "sort": 0,
+  "_key": "!items!i81JlPODqF8fc8UA"
+}
