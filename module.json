@@ -139,7 +139,7 @@
     },
     {
       "name": "feats",
-      "label": "Feats",
+      "label": "Feats & Actions",
       "path": "packs/feats",
       "type": "Item",
       "system": "pf2e",
@@ -175,6 +175,17 @@
       "label": "Macros",
       "path": "packs/macros",
       "type": "Macro",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Decks & Tables",
+      "path": "packs/decks",
+      "type": "RollTable",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
