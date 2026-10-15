@@ -1,0 +1,86 @@
+{
+  "folder": "oSYDMf6zbRKPmVGl",
+  "name": "Unburdened Mind",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your mental resolve lets you see and carry the threads of fate. Your proficiency ranks for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead.</p>"
+    },
+    "rules": [
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "will"
+      }
+    ],
+    "slug": "unburdened-mind",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "will": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/perception/mask-stone-eyes-orange.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "kpl67xMxv8nOmLjj",
+  "sort": 0,
+  "_key": "!items!kpl67xMxv8nOmLjj"
+}

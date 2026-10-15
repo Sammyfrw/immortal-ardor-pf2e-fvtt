@@ -1,0 +1,78 @@
+{
+  "folder": "oSYDMf6zbRKPmVGl",
+  "name": "Diviner Master Spellcaster",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your reach for the stars lets you pluck at the strings of fate readily. Your proficiency ranks for spell attack modifiers and spell DCs increase to master.</p>"
+    },
+    "rules": [],
+    "slug": "diviner-master-spellcaster",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/skills/trades/academics-book-study-purple.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "hRThKYtbITj222DD",
+  "sort": 0,
+  "_key": "!items!hRThKYtbITj222DD"
+}

@@ -1,27 +1,27 @@
 {
-  "folder": "YN98XSz3i0bXGAwA",
-  "name": "Master Spellcaster",
+  "folder": "oSYDMf6zbRKPmVGl",
+  "name": "Wild Card",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">Your vision for magic and what it could be continues to defy expectations. Your proficiency ranks for spell attack modifiers and spell DCs increase to master.</span></p>"
+      "value": "<p class=\"MsoNormal\">Through recursion of time, the gathering of possibilities, the theft of fortune and a great deal of luck, you developed a technique to ensure you always start with a strong edge. The first card you draw after rolling initiative is a Wild Card. When you Play it, it can be treated as any suit you choose.</p>"
     },
     "rules": [],
-    "slug": "master-spellcaster",
+    "slug": "wild-card",
     "_migration": {
-      "version": 0.955,
+      "version": 0.959,
       "previous": {
-        "schema": 0.953,
-        "foundry": "13.351",
-        "system": "7.10.1"
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "artifex"
+        "diviner"
       ],
       "rarity": "common"
     },
@@ -32,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 15
+      "value": 17
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -48,31 +48,26 @@
     },
     "location": null,
     "subfeatures": {
-      "proficiencies": {
-        "spellcasting": {
-          "rank": 3,
-          "attribute": null
-        }
-      },
+      "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
     }
   },
-  "img": "icons/skills/trades/academics-book-study-purple.webp",
+  "img": "icons/sundries/misc/admission-ticket-blue.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "exportSource": null
   },
-  "_id": "OWfhFR3Zj3ineQ0P",
-  "sort": 700000,
-  "_key": "!items!OWfhFR3Zj3ineQ0P"
+  "_id": "zHkzX5L4huTn3YJb",
+  "sort": 0,
+  "_key": "!items!zHkzX5L4huTn3YJb"
 }

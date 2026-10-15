@@ -1,0 +1,126 @@
+{
+  "_id": "rQWaJhI5Bko5x14Z",
+  "img": "icons/sundries/gaming/card-astronomy-pink.webp",
+  "name": "Killer Card",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>These cards are enchanted deadly weapons from a Diviner's deck, created by the Killer Cards activity.</p><p>Killer Cards are simple weapons in the knife group that deal 1d4 slashing damage and has the agile, finesse, fatal 1d10 and thrown 20 feet traits. Only you can use the cards you make as weapons. You can use any cards you are holding from your Cardplay features as wielded Killer Cards, and if you make a ranged strike, you can draw and throw a Killer Card from your Diviner’s Deck as part of the Strike without triggering a reaction from the ranged attack. Regardless of how you make the ranged strike, you discard any card you use for it, causing it to rematerialize in your deck. You can engrave runes onto your Diviner’s Deck, and it will affect all its cards that you use as weapons.</p>"
+    },
+    "rules": [],
+    "slug": "killer-card",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agile",
+        "fatal-d10",
+        "finesse",
+        "thrown-20"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "dagger",
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Card",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": "<p>The nature of this card is unclear.</p>"
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand",
+      "canBeAmmo": false
+    },
+    "category": "simple",
+    "group": "knife",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d4",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "ammo": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "zJe5kG7dRNm6lt4M",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "sort": 0,
+  "_key": "!items!rQWaJhI5Bko5x14Z"
+}

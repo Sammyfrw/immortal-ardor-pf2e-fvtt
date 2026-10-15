@@ -1,0 +1,73 @@
+{
+  "folder": "oSYDMf6zbRKPmVGl",
+  "name": "Gambit's Aces",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You have special tricks up your sleeve that are well suited to your gambit to more readily pluck the cosmos with. You learn two pairs of new spells known as your Gambit’s Aces, two at 1st rank and two at 2nd rank. If you had already learned these spells, you automatically learn common spells or a spell you have access to. For each rank, you learn an Ace spell from this feature and another spell from your chosen Gambit. At certain level intervals, you learn another pair of Ace spells from this feature and your Gambit.</p><p class=\"MsoNormal\">Each day during your daily preparations, for each rank of Aces you have access to, you can temporarily add a spell from this feature to your repertoire. You can add this spell at a higher rank of Aces you have access to be able to cast it at a higher rank. If this spell already exists in your repertoire (such as if you acquire it through your spellcasting feature), that spell becomes a signature spell.</p><p class=\"MsoNormal\">When you cast a Gambit’s Ace spell with your spell slots that has a cast time of one to three actions, you can hold an additional card until the start of your next turn. If the spell has a cast time of greater than three actions, you gain this benefit until the end of your first turn after rolling initiative when you normally would have access to cardplay actions or your next daily preparations, whichever comes first.</p><p class=\"MsoNormal\">You learn @UUID[Compendium.pf2e.spells-srd.EUMjrJJwSgsqNidi]{Anticipate Peril} at 1st rank, and @UUID[Compendium.pf2e.spells-srd.41TZEjhO6D1nWw2X]{Augury} at 2nd rank. At 9th level you learn @UUID[Compendium.pf2e.spells-srd.XQSPJHOf3TyfqvgS]{Web of Eyes} at 3rd rank, at 11th level you learn @UUID[Compendium.pf2e.spells-srd.zvKWclOZ7A53DObE]{Clairvoyance} at 4th rank, at 13th level you learn @UUID[Compendium.pf2e.spells-srd.Ek5XI0aEdZhBgm21]{Scouting Eye} at 5th rank, and at 15th level you learn @UUID[Compendium.pf2e.spells-srd.r784cIz17eWujtQj]{Scrying} at 6th rank.</p>"
+    },
+    "rules": [],
+    "slug": "gambits-aces",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/gaming/gaming-set-cards.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "DhEBdcIjyZT9fCTa",
+  "sort": 500000,
+  "_key": "!items!DhEBdcIjyZT9fCTa"
+}

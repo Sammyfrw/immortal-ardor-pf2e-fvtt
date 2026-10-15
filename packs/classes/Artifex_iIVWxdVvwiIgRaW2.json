@@ -37,12 +37,6 @@
         "name": "Enhanced Catalysts",
         "level": 9
       },
-      "JON95": {
-        "uuid": "Compendium.immortal-ardor.classes.Item.ULqCiiStPnog4Xms",
-        "img": "icons/sundries/books/book-backed-silver-gold.webp",
-        "name": "Expert Spellcaster",
-        "level": 7
-      },
       "1iNsG": {
         "uuid": "Compendium.immortal-ardor.classes.Item.p0auikqZc13Vts8U",
         "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
@@ -60,12 +54,6 @@
         "img": "icons/magic/life/cross-explosion-burst-green.webp",
         "name": "Fortitude Expertise",
         "level": 9
-      },
-      "7xvTy": {
-        "uuid": "Compendium.immortal-ardor.classes.Item.k3ilvTgwXxCaJA5E",
-        "img": "icons/sundries/books/book-open-purple.webp",
-        "name": "Legendary Spellcaster",
-        "level": 19
       },
       "XQgL3": {
         "uuid": "Compendium.immortal-ardor.classes.Item.QBJruOLVXZH4jVVv",
@@ -90,12 +78,6 @@
         "img": "icons/magic/symbols/question-stone-yellow.webp",
         "name": "Artifex's Motif",
         "level": 1
-      },
-      "oDSCC": {
-        "uuid": "Compendium.immortal-ardor.classes.Item.OWfhFR3Zj3ineQ0P",
-        "img": "icons/skills/trades/academics-book-study-purple.webp",
-        "name": "Master Spellcaster",
-        "level": 15
       },
       "jiumr": {
         "uuid": "Compendium.immortal-ardor.classes.Item.guYjUUNUD7YFlN4I",
@@ -138,6 +120,24 @@
         "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
         "name": "Weapon Specialization",
         "level": 13
+      },
+      "2nVqU": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.k3ilvTgwXxCaJA5E",
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "name": "Artifex Legendary Spellcaster",
+        "level": 19
+      },
+      "gw74E": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.ULqCiiStPnog4Xms",
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "name": "Artifex Expert Spellcaster",
+        "level": 7
+      },
+      "Il77U": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.OWfhFR3Zj3ineQ0P",
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "name": "Artifex Master Spellcaster",
+        "level": 15
       }
     },
     "keyAbility": {
@@ -247,9 +247,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "systemVersion": "8.5.0"
   },
   "_key": "!items!iIVWxdVvwiIgRaW2"
 }

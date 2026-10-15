@@ -1,0 +1,121 @@
+{
+  "folder": "oSYDMf6zbRKPmVGl",
+  "name": "Diviner Weapon Specialization",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master and 4 if you’re legendary.</p>"
+    },
+    "rules": [
+      {
+        "hideIfDisabled": true,
+        "key": "FlatModifier",
+        "label": "PF2E.WeaponSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "item:proficiency:rank",
+              2
+            ]
+          }
+        ],
+        "selector": [
+          "unarmed-damage",
+          "weapon-damage"
+        ],
+        "slug": "weapon-specialization",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:proficiency:rank:3"
+        ],
+        "priority": 0,
+        "slug": "weapon-specialization",
+        "value": 3,
+        "selectors": [
+          "unarmed-damage",
+          "weapon-damage"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:proficiency:rank:4"
+        ],
+        "priority": 0,
+        "slug": "weapon-specialization",
+        "value": 4,
+        "selectors": [
+          "unarmed-damage",
+          "weapon-damage"
+        ]
+      }
+    ],
+    "slug": "diviner-weapon-specialization",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "LNsiuiKQf3PFOLIu",
+  "sort": 800000,
+  "_key": "!items!LNsiuiKQf3PFOLIu"
+}

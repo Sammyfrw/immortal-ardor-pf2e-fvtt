@@ -1,0 +1,112 @@
+{
+  "folder": "oSYDMf6zbRKPmVGl",
+  "name": "Diviner Weapon Expertise",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You’ve dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons and unarmed attacks increase to expert. When you critically succeed at an attack roll using one of these weapons or an unarmed attack on a turn you had used a Cardplay action, you apply the critical specialization effect for that weapon or unarmed attack.</p>"
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "class:diviner",
+          "cardplay-turn"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "strike-damage"
+        ],
+        "text": "When you critically succeed at an attack roll using one of these weapons or an unarmed attack on a turn you had used a Cardplay action, you apply the critical specialization effect for that weapon or unarmed attack.",
+        "title": "Diviner Weapon Expertise",
+        "outcome": [
+          "criticalSuccess"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "IA.SpecificRule.Diviner.ClassFeatures.WeaponExpertise.RollOptionLabel",
+        "domain": "damage",
+        "option": "cardplay-turn",
+        "toggleable": true
+      }
+    ],
+    "slug": "diviner-weapon-expertise",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "simple": {
+          "rank": 2,
+          "attribute": null
+        },
+        "martial": {
+          "rank": 2,
+          "attribute": null
+        },
+        "unarmed": {
+          "rank": 2,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "px6yOepaHIfPkKyT",
+  "sort": 600000,
+  "_key": "!items!px6yOepaHIfPkKyT"
+}

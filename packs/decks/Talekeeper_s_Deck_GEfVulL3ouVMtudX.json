@@ -1,0 +1,602 @@
+{
+  "name": "Talekeeper's Deck",
+  "_id": "GEfVulL3ouVMtudX",
+  "img": "systems/pf2e/icons/equipment/artifacts/deck-of-many-things.webp",
+  "description": "<p>This is a standard deck of Talekeeper, which is made up of 2 separate 12-card decks of Astral cards (which represent the Ardorean zodiac) and Tale cards (which represent metaphorical stories). Odd numbers are for head facing down, even numbers are for head facing up.</p>",
+  "results": [
+    {
+      "_id": "TSJA4yhVvBxpIvaJ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Aigostar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.TSJA4yhVvBxpIvaJ"
+    },
+    {
+      "_id": "KU5o08qdXoGexwAA",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Tidestar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.KU5o08qdXoGexwAA"
+    },
+    {
+      "_id": "0RDsRQ5ryjKFYVCZ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Sailstar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.0RDsRQ5ryjKFYVCZ"
+    },
+    {
+      "_id": "Yw8j91Q1uKSlIjj3",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Kriostar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.Yw8j91Q1uKSlIjj3"
+    },
+    {
+      "_id": "g0fQYXbgY44KBKKv",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Taurostar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.g0fQYXbgY44KBKKv"
+    },
+    {
+      "_id": "0UJufrGgC27EcIsy",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Twinstar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.0UJufrGgC27EcIsy"
+    },
+    {
+      "_id": "5gZxfkGGDXy0w8WX",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        13,
+        14
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Karkinstar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.5gZxfkGGDXy0w8WX"
+    },
+    {
+      "_id": "5qWcybFogYY1TUKl",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        15,
+        16
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Leostar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.5qWcybFogYY1TUKl"
+    },
+    {
+      "_id": "NvfDUromL5BXyiaa",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Maidenstar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.NvfDUromL5BXyiaa"
+    },
+    {
+      "_id": "2SNGoSk0i0dcr1nw",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Scalestar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.2SNGoSk0i0dcr1nw"
+    },
+    {
+      "_id": "1KhRLudUkhCHLA3X",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        21,
+        22
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Tailstar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.1KhRLudUkhCHLA3X"
+    },
+    {
+      "_id": "3oA1T9RijdbHvy3J",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        23,
+        24
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Arrowstar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.3oA1T9RijdbHvy3J"
+    },
+    {
+      "_id": "C7T46yQr5a1TOPiA",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        25,
+        26
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Village at Dawn",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.C7T46yQr5a1TOPiA"
+    },
+    {
+      "_id": "ILRQEwdT3fgdGKtl",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        27,
+        28
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The Adventurer's Departure",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.ILRQEwdT3fgdGKtl"
+    },
+    {
+      "_id": "KiEqFlWtZy7S6YRj",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        29,
+        30
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The Trial",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.KiEqFlWtZy7S6YRj"
+    },
+    {
+      "_id": "BOI2eM9JUsLAbTkq",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        31,
+        32
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Coin and Drink",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.BOI2eM9JUsLAbTkq"
+    },
+    {
+      "_id": "CzjVvyklwRKCEOZq",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        33,
+        34
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Night's Embrace",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.CzjVvyklwRKCEOZq"
+    },
+    {
+      "_id": "XSbSmvXiMeGNQSRJ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        35,
+        36
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Blossoming Love",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.XSbSmvXiMeGNQSRJ"
+    },
+    {
+      "_id": "Zxqk9QDyUqrXT74E",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        37,
+        38
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Tragedy",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.Zxqk9QDyUqrXT74E"
+    },
+    {
+      "_id": "rSGxITFoAb6EFwB1",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        39,
+        40
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The Veteran",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.rSGxITFoAb6EFwB1"
+    },
+    {
+      "_id": "vVFHXCQbSdtA3Bc8",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        41,
+        42
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Hopeful Wastrel",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.vVFHXCQbSdtA3Bc8"
+    },
+    {
+      "_id": "dNj1l9EfKJunphor",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        43,
+        44
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Windward Maiden",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.dNj1l9EfKJunphor"
+    },
+    {
+      "_id": "IOAVbD9Qe76nxp0z",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        45,
+        46
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Wreathe of Birds",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.IOAVbD9Qe76nxp0z"
+    },
+    {
+      "_id": "ZlYfm9vzDXEbZjUd",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        47,
+        48
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Love's Vagrant",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.ZlYfm9vzDXEbZjUd"
+    },
+    {
+      "_id": "v0kmjVsdGvAeAj7T",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "range": [
+        49,
+        50
+      ],
+      "drawn": false,
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Serpentstar",
+      "name": "",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.v0kmjVsdGvAeAj7T"
+    }
+  ],
+  "replacement": false,
+  "displayRoll": true,
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "formula": "1d50",
+  "sort": 0,
+  "_key": "!tables!GEfVulL3ouVMtudX"
+}

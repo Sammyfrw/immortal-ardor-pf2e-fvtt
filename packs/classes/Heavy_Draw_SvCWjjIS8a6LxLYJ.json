@@ -1,0 +1,61 @@
+{
+  "folder": "sN99KRW0Q9f4rDVG",
+  "name": "Heavy Draw",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p>You tug against the cosmos more heavily than you would normally, letting you gain another possible fortune to tell. You @UUID[Compendium.immortal-ardor.classes.9Tbqe5G8pdrrOUfT]{Draw Card}. If your last action was a Cardplay action or spell that left you without any cards in your hand, you Draw 2 cards instead. If you use this action while you have more than the number of cards you can hold in your hand at the end of your turn, you Bust.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "heavy-draw",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "SvCWjjIS8a6LxLYJ",
+  "sort": 200000,
+  "_key": "!items!SvCWjjIS8a6LxLYJ"
+}

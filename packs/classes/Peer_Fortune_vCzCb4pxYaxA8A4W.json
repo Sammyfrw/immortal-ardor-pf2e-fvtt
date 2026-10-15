@@ -1,0 +1,61 @@
+{
+  "folder": "sN99KRW0Q9f4rDVG",
+  "name": "Peer Fortune",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p style=\"border:none;mso-border-bottom-alt:solid black .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><strong>Trigger </strong>You cast a spell with a cast time of 3 actions or fewer from the Diviner class using a spell slot, or your focus points.</p><hr><p class=\"MsoNormal\">In the moment that you touch upon fate’s tapestry, you gather the potential of the different futures and pool them into another card. You @UUID[Compendium.immortal-ardor.classes.9Tbqe5G8pdrrOUfT]{Draw Card} and you can hold an additional card until the end of your next turn.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you are at least trained in Occultism or Fortune Telling Lore or a similar lore skill, you can use Peer Fortune by successfully taking an action and making a @Check[fortune-telling-lore|dc:@self.level] skill check against a Normal DC (if using Lore) or a Hard DC @Check[occultism|dc:@self.level|adjustment:2] (if using Occultism) for your level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "peer-fortune",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "vCzCb4pxYaxA8A4W",
+  "sort": 0,
+  "_key": "!items!vCzCb4pxYaxA8A4W"
+}

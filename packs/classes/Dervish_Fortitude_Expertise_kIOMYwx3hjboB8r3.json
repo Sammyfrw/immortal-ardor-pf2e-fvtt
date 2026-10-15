@@ -1,0 +1,71 @@
+{
+  "folder": "HHpORz2ULEYVOYEV",
+  "name": "Dervish Fortitude Expertise",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your physique has grown hardy in your adventures. Your proficiency rank for Fortitude saves increases to expert.</p>"
+    },
+    "rules": [],
+    "slug": "dervish-fortitude-expertise",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dervish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "fortitude": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "img": "icons/magic/life/cross-explosion-burst-green.webp",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.immortal-ardor.classes.Item.buI0mnOiaIoUEcep",
+    "duplicateSource": "Item.buI0mnOiaIoUEcep",
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "exportSource": null
+  },
+  "_id": "kIOMYwx3hjboB8r3",
+  "_key": "!items!kIOMYwx3hjboB8r3"
+}

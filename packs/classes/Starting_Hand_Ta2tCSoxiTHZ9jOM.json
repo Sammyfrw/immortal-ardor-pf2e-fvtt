@@ -1,27 +1,27 @@
 {
-  "folder": "YN98XSz3i0bXGAwA",
-  "name": "Expert Spellcaster",
+  "folder": "oSYDMf6zbRKPmVGl",
+  "name": "Starting Hand",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">Your creations and interpretations of magic have become that much more real. Your proficiency ranks for spell attack modifiers and spell DCs increase to expert.</span></p>"
+      "value": "<p class=\"MsoNormal\">You have a quick grasp on fate any time the future becomes uncertain. You gain the Starting Hand action.</p>"
     },
     "rules": [],
-    "slug": "expert-spellcaster",
+    "slug": "starting-hand",
     "_migration": {
-      "version": 0.955,
+      "version": 0.959,
       "previous": {
-        "schema": 0.953,
-        "foundry": "13.351",
-        "system": "7.10.1"
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "artifex"
+        "diviner"
       ],
       "rarity": "common"
     },
@@ -32,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 7
+      "value": 3
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -48,31 +48,26 @@
     },
     "location": null,
     "subfeatures": {
-      "proficiencies": {
-        "spellcasting": {
-          "rank": 2,
-          "attribute": null
-        }
-      },
+      "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
     }
   },
-  "img": "icons/sundries/books/book-backed-silver-gold.webp",
+  "img": "icons/sundries/gaming/playing-cards-black.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "exportSource": null
   },
-  "_id": "ULqCiiStPnog4Xms",
+  "_id": "Ta2tCSoxiTHZ9jOM",
   "sort": 100000,
-  "_key": "!items!ULqCiiStPnog4Xms"
+  "_key": "!items!Ta2tCSoxiTHZ9jOM"
 }

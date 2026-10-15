@@ -1,0 +1,61 @@
+{
+  "folder": "sN99KRW0Q9f4rDVG",
+  "name": "Starting Hand",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<div><p class=\"MsoNormal\"><strong>Trigger </strong>You roll initiative and you have fewer than two cards in your hand.</p><hr></div><p class=\"MsoNormal\">You sense an immediate future that is prone to your touch. You @UUID[Compendium.immortal-ardor.classes.9Tbqe5G8pdrrOUfT]{Draw Card} up to two cards.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "starting-hand",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "eXr5xImcXp29O2rL",
+  "sort": 500000,
+  "_key": "!items!eXr5xImcXp29O2rL"
+}

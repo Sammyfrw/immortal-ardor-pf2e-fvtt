@@ -1,0 +1,86 @@
+{
+  "folder": "eFrFk1BxfnZjM4ye",
+  "name": "The Weaver",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">The tapestry of fate is as equally enchanting to you as it is daunting. You can see its various threads, and you can tug and pull apart the curtain to see what lies beyond. At times, you’re surrounded by all this possibility, and look to use some of that potential for power; whether you are a fortune-teller, adventurer, or a prophesized hero, fate is your ally and your resource.</p><hr><p class=\"MsoNormal\"><strong>Gambit’s Style</strong> You become trained in Occultism and gain the @UUID[Compendium.pf2e.feats-srd.BocFD2KV0qgUC76x]{Additional Lore} feat for Fortune-Telling Lore. You also gain the Peer Fortune action.<span style=\"mso-spacerun:yes\"> </span></p><p class=\"MsoNormal\"><strong>Gambit’s Aces 1st </strong>@UUID[Compendium.pf2e.spells-srd.4WAib3GichxLjp5p]{Alarm}, <strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.jwK43yKsHTkJQvQ9]{See the Unseen}, <strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.rfFZKfeCSweFv7P3]{Impending Doom}, <strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.pkcOby5prOausy1k]{Read Omens}, <strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.8THDHP0UC7SgOYYF]{Inevitable Disaster}, <strong>6th </strong>@UUID[Compendium.pf2e.spells-srd.uqlxMQQeSGWEVjki]{Truesight}</p><p class=\"MsoNormal\"><strong>Foreteller’s Spell Initial</strong><em> Impose Fate</em><strong>; Advanced</strong><em> Hand of Fate</em></p><p class=\"MsoNormal\"><strong>Bonus Feat </strong>You gain the Pluck Destiny feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.occultism.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
+      }
+    ],
+    "slug": "the-weaver",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "diviners-gambit"
+      ],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/commodities/cloth/cloth-worn-blue.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "6B9quDOyBq9tKwfR",
+  "sort": 0,
+  "_key": "!items!6B9quDOyBq9tKwfR"
+}

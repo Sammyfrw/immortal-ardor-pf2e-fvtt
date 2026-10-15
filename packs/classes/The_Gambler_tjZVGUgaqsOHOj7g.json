@@ -1,0 +1,110 @@
+{
+  "folder": "eFrFk1BxfnZjM4ye",
+  "name": "The Gambler",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Nothing is greater than seeing chance unfold before you. You might like nudging the odds, but you’re also not against letting it run. While there’s fun to be had, winning could be the difference between life and death. Knowing when to tip the scales is a sign of a good gambler, especially if they can’t be caught doing it.</p><hr><p class=\"MsoNormal\"><strong>Gambit’s Style: </strong>You become trained in Stealth and gain the Killer Card exploration activity. At 17th level, you gain Master proficiency with simple and martial weapons.</p><p class=\"MsoNormal\"><strong>Gambit’s Aces 1st </strong>@UUID[Compendium.pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{Sure Strike},<strong> 2nd </strong>@UUID[Compendium.pf2e.spells-srd.rDDYGY2ekZ1yVv7q]{Lucky Number}, <strong>3rd </strong>@UUID[Compendium.pf2e.spells-srd.EoKBlgf6Smt8opaU]{Veil of Privacy}, <strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.zR67Rt3UMHKC5evy]{Flicker}, <strong>5th </strong>@UUID[Compendium.pf2e.spells-srd.GP3wewkQXEPrLxYj]{Subconscious Suggestion}, <strong>6th </strong>@UUID[Compendium.pf2e.spells-srd.WPXzPl7YbMEIGWfi]{Mislead}</p><p class=\"MsoNormal\"><strong>Foreteller’s Spell Initial</strong><em> Fortune’s Sword</em><strong> Advanced</strong><em> Cards of Apocrypha</em></p><p class=\"MsoNormal\"><strong>Bonus Feat</strong> You gain the Keen Dealer feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.stealth.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.martial.rank",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              17
+            ]
+          }
+        ],
+        "value": 3
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.simple.rank",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              17
+            ]
+          }
+        ],
+        "value": 3
+      }
+    ],
+    "slug": "the-gambler",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "diviners-gambit"
+      ],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/gaming/gaming-set-dice.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "tjZVGUgaqsOHOj7g",
+  "sort": 0,
+  "_key": "!items!tjZVGUgaqsOHOj7g"
+}

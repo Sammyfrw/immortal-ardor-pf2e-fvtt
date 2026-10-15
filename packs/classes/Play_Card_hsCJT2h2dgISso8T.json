@@ -1,0 +1,62 @@
+{
+  "folder": "sN99KRW0Q9f4rDVG",
+  "name": "Play Card",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements </strong>You have a Diviner card in your hand.</p><hr></div><p class=\"MsoNormal\">You invoke the power imbued in the story told within a card in your hand, burning it in cosmic fire. Cardplay actions will list the effects of playing a card as described in that action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "play-card",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "concentrate",
+        "diviner"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "hsCJT2h2dgISso8T",
+  "sort": 900000,
+  "_key": "!items!hsCJT2h2dgISso8T"
+}
