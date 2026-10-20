@@ -1,0 +1,88 @@
+{
+  "folder": "zJe5kG7dRNm6lt4M",
+  "name": "Astral Card - Arrowstar",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Constellation (Awake):</strong> The Archer<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.bQJ4eQKF50ofQdGr]{The Arrow}<br><strong>Suit: </strong>2 - Dexterity</p><hr><p>Description</p>"
+    },
+    "rules": [],
+    "slug": "astral-card-arrowstar",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Card",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "img": "icons/sundries/gaming/rune-card.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ulyiXHSNCZxlHkFH",
+  "sort": 0,
+  "_key": "!items!ulyiXHSNCZxlHkFH"
+}

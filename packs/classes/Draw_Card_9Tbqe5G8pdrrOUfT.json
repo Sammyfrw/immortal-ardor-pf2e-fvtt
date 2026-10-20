@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<div><p class=\"MsoNormal\"><strong>Trigger </strong>Your turn begins.</p><hr></div><p class=\"MsoNormal\">You daub a piece of the cosmos onto your cards and draw a card from your Diviner Deck. Roll a 1d6, determining the suit of the card you draw.</p>",
+      "value": "<div><p class=\"MsoNormal\"><strong>Trigger </strong>Your turn begins.</p><hr></div><p class=\"MsoNormal\">You daub a piece of the cosmos onto your cards and draw a card from your Diviner Deck. Roll a [[/r 1d6]], determining the suit of the card you draw.</p><p></p><p>@Embed[Compendium.immortal-ardor.tables.RollTable.GEfVulL3ouVMtudX rollable caption=false ]</p>",
       "gm": ""
     },
     "publication": {

@@ -2,7 +2,7 @@
   "name": "Talekeeper's Deck",
   "_id": "GEfVulL3ouVMtudX",
   "img": "systems/pf2e/icons/equipment/artifacts/deck-of-many-things.webp",
-  "description": "<p>This is a standard deck of Talekeeper, which is made up of 2 separate 12-card decks of Astral cards (which represent the Ardorean zodiac) and Tale cards (which represent metaphorical stories). Odd numbers are for head facing down, even numbers are for head facing up.</p>",
+  "description": "<div><p class=\"MsoNormal\">The Talekeeper Deck is often used by Diviners, consisting of pair of 12-card sets – a set of Astral Cards that represent the Constellations of the skies, and a set of Tale Cards that represent The Hero’s Journey. Each card is affiliated with a particular suit, and there is an equal distribution of cards to suits. A card can be drawn ‘awake’, with their head up or ‘asleep’ with their head down. With all this in mind, there are 48 possible outcomes for any given draw, each aligned with one of the six suits.</p><p class=\"MsoNormal\">Odd numbers are for head facing down, even numbers are for head facing up.</p></div>",
   "results": [
     {
       "_id": "TSJA4yhVvBxpIvaJ",
@@ -23,8 +23,9 @@
         "duplicateSource": null,
         "exportSource": null
       },
-      "description": "Aigostar",
+      "description": "<p>Aigostar</p>",
       "name": "",
+      "documentUuid": null,
       "_key": "!tables.results!GEfVulL3ouVMtudX.TSJA4yhVvBxpIvaJ"
     },
     {
@@ -92,8 +93,9 @@
         "duplicateSource": null,
         "exportSource": null
       },
-      "description": "Kriostar",
-      "name": "",
+      "description": "<p>Kriostar vavaca</p>",
+      "name": "The Ram",
+      "documentUuid": null,
       "_key": "!tables.results!GEfVulL3ouVMtudX.Yw8j91Q1uKSlIjj3"
     },
     {

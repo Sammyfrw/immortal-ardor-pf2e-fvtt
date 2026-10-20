@@ -1,0 +1,90 @@
+{
+  "folder": "zJe5kG7dRNm6lt4M",
+  "name": "Talekeeper's Deck",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">A Talekeeper's Deck is a common form of cards used in fortunetelling by seers and diviners, while it is also used in various card games by gamblers. There are varieties in the size and shape of the decks depending on their purpose and the denomination of their users.</p><hr><p class=\"MsoNormal\">The Talekeeper Deck is often used by Diviners, consisting of pair of 12-card sets – a set of Astral Cards that represent the Constellations of the skies, and a set of Tale Cards that represent The Hero’s Journey. Each card is affiliated with a particular suit, and there is an equal distribution of cards to suits. A card can be drawn ‘awake’, with their head up or ‘asleep’ with their head down. With all this in mind, there are 48 possible outcomes for any given draw, each aligned with one of the six suits.</p><p class=\"MsoNormal\">Odd numbers are for head facing down, even numbers are for head facing up.</p><p>@Embed[Compendium.immortal-ardor.tables.RollTable.GEfVulL3ouVMtudX inline rollable caption=false]</p>"
+    },
+    "rules": [],
+    "slug": "talekeepers-deck",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Card",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "subitems": []
+  },
+  "img": "icons/sundries/gaming/game-playing-cards-deck.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "2gZrqwomLJV9It9x",
+  "sort": 1200000,
+  "_key": "!items!2gZrqwomLJV9It9x"
+}
