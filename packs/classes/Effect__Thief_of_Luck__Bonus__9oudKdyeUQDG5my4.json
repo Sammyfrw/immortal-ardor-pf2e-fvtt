@@ -8,7 +8,32 @@
       "gm": "",
       "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.YYDgznDJffDLdVr1]{Thief of Luck}</p><p>You gain a status bonus to your next attack roll until the end of your next turn.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack-roll"
+        ],
+        "value": "ternary(gte(@item.level,13),3,ternary(gte(@item.level,5),2,1))",
+        "type": "status",
+        "predicate": [
+          "class:diviner"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack-roll"
+        ],
+        "value": 1,
+        "type": "status",
+        "predicate": [
+          {
+            "not": "class:diviner"
+          }
+        ]
+      }
+    ],
     "slug": "effect-thief-of-luck-bonus",
     "_migration": {
       "version": 0.959,
@@ -64,6 +89,6 @@
     "exportSource": null
   },
   "_id": "9oudKdyeUQDG5my4",
-  "sort": 400000,
+  "sort": 1200000,
   "_key": "!items!9oudKdyeUQDG5my4"
 }

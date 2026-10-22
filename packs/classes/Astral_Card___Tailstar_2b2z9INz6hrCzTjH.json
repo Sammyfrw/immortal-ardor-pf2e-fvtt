@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Constellation (Awake):</strong> The Scorpion<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.aOV8rRRNTdHwyP9N]{The Chain}<br><strong>Suit: </strong>2 - Dexterity</p><hr><p>Description</p>"
+      "value": "<p><strong>Constellation (Awake):</strong> The Scorpion<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.aOV8rRRNTdHwyP9N]{The Chain}<br><strong>Suit: </strong>2 - @UUID[Compendium.immortal-ardor.classes.nUMFKL0oP6iBsiyC]{Cardplay: Suit of Dexterity}</p><hr><p>Description</p>"
     },
     "rules": [],
     "slug": "astral-card-tailstar",
@@ -83,6 +83,6 @@
     "exportSource": null
   },
   "_id": "2b2z9INz6hrCzTjH",
-  "sort": 800000,
+  "sort": 2200000,
   "_key": "!items!2b2z9INz6hrCzTjH"
 }

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Constellation (Awake):</strong> The Goat<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.jabiEXrdPYCLAz1Z]{The Ivory}<br><strong>Suit: </strong>4 - Intelligence</p><hr><p>Description</p>"
+      "value": "<p><strong>Constellation (Awake):</strong> The Goat<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.jabiEXrdPYCLAz1Z]{The Ivory}<br><strong>Suit: </strong>4 - @UUID[Compendium.immortal-ardor.classes.1e7tWMMNBhsyoksz]{Cardplay: Suit of Intelligence}</p><hr><p>Description</p>"
     },
     "rules": [],
     "slug": "astral-card-aigostar",
@@ -83,6 +83,6 @@
     "exportSource": null
   },
   "_id": "PbMMrXsT9blVBram",
-  "sort": 0,
+  "sort": 1100000,
   "_key": "!items!PbMMrXsT9blVBram"
 }

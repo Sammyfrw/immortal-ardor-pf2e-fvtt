@@ -6,9 +6,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You have a quick grasp on fate any time the future becomes uncertain. You gain the Starting Hand action.</p>"
+      "value": "<p class=\"MsoNormal\">You have a quick grasp on fate any time the future becomes uncertain. You gain the @UUID[Compendium.immortal-ardor.classes.eXr5xImcXp29O2rL]{Starting Hand} action.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.eXr5xImcXp29O2rL"
+      }
+    ],
     "slug": "starting-hand",
     "_migration": {
       "version": 0.959,

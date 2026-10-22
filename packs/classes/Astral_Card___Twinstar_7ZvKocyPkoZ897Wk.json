@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Constellation (Awake):</strong> The Twins<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.59KPAoFVEU0Vbo1f]{The Jesters}<br><strong>Suit: </strong>5 - Wisdom</p><hr><p>Description</p>"
+      "value": "<p><strong>Constellation (Awake):</strong> The Twins<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.59KPAoFVEU0Vbo1f]{The Jesters}<br><strong>Suit: </strong>5 - @UUID[Compendium.immortal-ardor.classes.7nMr1Krx1ylHZKtY]{Cardplay: Suit of Wisdom}</p><hr><p>Description</p>"
     },
     "rules": [],
     "slug": "astral-card-twinstar",
@@ -83,6 +83,6 @@
     "exportSource": null
   },
   "_id": "7ZvKocyPkoZ897Wk",
-  "sort": 1100000,
+  "sort": 2500000,
   "_key": "!items!7ZvKocyPkoZ897Wk"
 }

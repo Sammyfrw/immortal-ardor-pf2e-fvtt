@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Constellation (Awake):</strong> The Fish<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.r1Qixlm9Wh5s9tWz]{The River}<br><strong>Suit: </strong>3 - Constitution</p><hr><p>Description</p>"
+      "value": "<p><strong>Constellation (Awake):</strong> The Fish<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.r1Qixlm9Wh5s9tWz]{The River}<br><strong>Suit: </strong>3 - @UUID[Compendium.immortal-ardor.classes.Un7JSEDXHCFfvquE]{Cardplay: Suit of Constitution}</p><hr><p>Description</p>"
     },
     "rules": [],
     "slug": "astral-card-sailstar",
@@ -83,6 +83,6 @@
     "exportSource": null
   },
   "_id": "AIlVOKyNrPwGtggM",
-  "sort": 500000,
+  "sort": 1900000,
   "_key": "!items!AIlVOKyNrPwGtggM"
 }

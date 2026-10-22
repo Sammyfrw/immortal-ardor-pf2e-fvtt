@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">Ambition and riches drive you, and you’re not above ensuring your competition needs to be knocked down a peg to get yourself ahead. The most famous diviner who used their powers of divination to bring bad luck to others was said to be a corsair, and their tales have spurred you to use these powers the same way.</p><hr><p class=\"MsoNormal\"><strong>Gambit’s Style </strong>You become trained in Thievery and gain the Thief of Luck<em> </em>action. At 17th level, you gain Master proficiency with simple and martial weapons.</p><p class=\"MsoNormal\"><strong>Gambit’s Aces 1st </strong>@UUID[Compendium.pf2e.spells-srd.6ZIKB0151LUR19Rw]{Ill Omen}, <strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.93SjFTGJUTTmAt6j]{Albatross Curse}, <strong>3rd </strong>@UUID[Compendium.pf2e.spells-srd.ThE5zPYKF4weiljj]{Show the Way}, <strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.MLdMUOdwSKegOGlo]{Dull Ambition}, <strong>5th </strong>@UUID[Compendium.pf2e.spells-srd.3ygqSJYWZM1UV76Z]{Blinding Bottle}, <strong>6th </strong>@UUID[Compendium.pf2e.spells-srd.k0qJfSZH5xUEggwU]{Suspended Retribution}</p><p class=\"MsoNormal\"><strong>Foreteller’s Spell Initial</strong><em> Elemental Rondo</em> <strong>Advanced</strong><em> The Crew’s Tale</em></p><p class=\"MsoNormal\"><strong>Bonus Feat </strong>You gain the Lucky Reload feat.</p>"
+      "value": "<p class=\"MsoNormal\">Ambition and riches drive you, and you’re not above ensuring your competition needs to be knocked down a peg to get yourself ahead. The most famous diviner who used their powers of divination to bring bad luck to others was said to be a corsair, and their tales have spurred you to use these powers the same way.</p><hr><p class=\"MsoNormal\"><strong>Gambit’s Style </strong>You become trained in Thievery and gain the @UUID[Compendium.immortal-ardor.classes.YYDgznDJffDLdVr1]{Thief of Luck}<em> </em>action. At 17th level, you gain Master proficiency with simple and martial weapons.</p><p class=\"MsoNormal\"><strong>Gambit’s Aces 1st </strong>@UUID[Compendium.pf2e.spells-srd.6ZIKB0151LUR19Rw]{Ill Omen}, <strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.93SjFTGJUTTmAt6j]{Albatross Curse}, <strong>3rd </strong>@UUID[Compendium.pf2e.spells-srd.ThE5zPYKF4weiljj]{Show the Way}, <strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.MLdMUOdwSKegOGlo]{Dull Ambition}, <strong>5th </strong>@UUID[Compendium.pf2e.spells-srd.3ygqSJYWZM1UV76Z]{Blinding Bottle}, <strong>6th </strong>@UUID[Compendium.pf2e.spells-srd.k0qJfSZH5xUEggwU]{Suspended Retribution}</p><p class=\"MsoNormal\"><strong>Foreteller’s Spell Initial</strong><em> Elemental Rondo</em> <strong>Advanced</strong><em> The Crew’s Tale</em></p><p class=\"MsoNormal\"><strong>Bonus Feat </strong>You gain the Lucky Reload feat.</p>"
     },
     "rules": [
       {
@@ -42,6 +42,10 @@
           }
         ],
         "value": 3
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.YYDgznDJffDLdVr1"
       }
     ],
     "slug": "the-corsair",

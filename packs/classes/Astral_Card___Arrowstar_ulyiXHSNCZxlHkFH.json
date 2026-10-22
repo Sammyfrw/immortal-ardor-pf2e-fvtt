@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Constellation (Awake):</strong> The Archer<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.bQJ4eQKF50ofQdGr]{The Arrow}<br><strong>Suit: </strong>2 - Dexterity</p><hr><p>Description</p>"
+      "value": "<p><strong>Constellation (Awake):</strong> The Archer<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.bQJ4eQKF50ofQdGr]{The Arrow}<br><strong>Suit: </strong>2 - @UUID[Compendium.immortal-ardor.classes.nUMFKL0oP6iBsiyC]{Cardplay: Suit of Dexterity}</p><hr><p>Description</p>"
     },
     "rules": [],
     "slug": "astral-card-arrowstar",
@@ -83,6 +83,6 @@
     "exportSource": null
   },
   "_id": "ulyiXHSNCZxlHkFH",
-  "sort": 0,
+  "sort": 1400000,
   "_key": "!items!ulyiXHSNCZxlHkFH"
 }

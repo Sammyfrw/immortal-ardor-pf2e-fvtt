@@ -26,8 +26,13 @@ const meditationEffectSourceIDs = new Set([
 
 const DERVISH_MAX_ZEAL = 5;
 
+// Diviner Talekeeper Deck IDs
+const TALEKEEPER_DECK_UUID = "Compendium.immortal-ardor.tables.RollTable.GEfVulL3ouVMtudX";
+const DIVINER_DECK_UUID = "Compendium.immortal-ardor.tables.RollTable.37Ln5fINRWeJIWON";
+
 export {
 	meditationEffectSourceIDs,
 	DERVISH_MAX_ZEAL,
-	ZEALOUS_STRIKES_UUID
+	ZEALOUS_STRIKES_UUID,
+	TALEKEEPER_DECK_UUID
 };

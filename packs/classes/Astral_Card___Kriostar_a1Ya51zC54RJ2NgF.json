@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Constellation (Awake):</strong> The Ram<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.JAfalkvxAlT135L5]{The Torchbearer}<br><strong>Suit:</strong> 1 - Strength</p><hr><p>Description</p>"
+      "value": "<p><strong>Constellation (Awake):</strong> The Ram<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.JAfalkvxAlT135L5]{The Torchbearer}<br><strong>Suit:</strong> 1 - @UUID[Compendium.immortal-ardor.classes.1f6zAFo1dOpR9iME]{Cardplay: Suit of Strength}</p><hr><p>Description</p>"
     },
     "rules": [],
     "slug": "astral-card-kriostar",
@@ -83,6 +83,6 @@
     "exportSource": null
   },
   "_id": "a1Ya51zC54RJ2NgF",
-  "sort": 200000,
+  "sort": 1600000,
   "_key": "!items!a1Ya51zC54RJ2NgF"
 }

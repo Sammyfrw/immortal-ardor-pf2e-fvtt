@@ -1,0 +1,25 @@
+{
+  "name": "Draw Diviner Deck",
+  "type": "script",
+  "_id": "fxmQ0IZYjBxJkmKT",
+  "author": "xrtJn5KNHicBTyJb",
+  "img": "icons/sundries/gaming/gaming-set-cards.webp",
+  "scope": "global",
+  "command": "game.modules.get(\"immortal-ardor\").macros.drawTalekeeperDeck()",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!macros!fxmQ0IZYjBxJkmKT"
+}

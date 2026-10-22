@@ -8,7 +8,19 @@
       "gm": "",
       "value": "<p>Caused by @UUID[Compendium.immortal-ardor.classes.YYDgznDJffDLdVr1]{Thief of Luck}</p><p>You suffer a status penalty to your next attack roll until the end of your next turn, and then you become immune to the penalty from Thief of Luck for 24 hours.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack-roll"
+        ],
+        "value": "-(ternary(gte(@item.level,13),3,ternary(gte(@item.level,5),2,1)))",
+        "type": "status",
+        "predicate": [
+          "item:origin:item:granter:type:feature"
+        ]
+      }
+    ],
     "slug": "effect-thief-of-luck-penalty",
     "_migration": {
       "version": 0.959,
@@ -64,6 +76,6 @@
     "exportSource": null
   },
   "_id": "7qc3wWH8lQMi6cvZ",
-  "sort": 300000,
+  "sort": 1100000,
   "_key": "!items!7qc3wWH8lQMi6cvZ"
 }

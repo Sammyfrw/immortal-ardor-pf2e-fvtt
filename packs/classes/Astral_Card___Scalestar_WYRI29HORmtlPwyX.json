@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Constellation (Awake):</strong> The Scales<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.P43Qt6g6aRdxi0gp]{The Pillar}<br><strong>Suit: </strong>6 - Charisma</p><hr><p>Description</p>"
+      "value": "<p><strong>Constellation (Awake):</strong> The Scales<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.P43Qt6g6aRdxi0gp]{The Pillar}<br><strong>Suit: </strong>6 - @UUID[Compendium.immortal-ardor.classes.wgwoSPnxj3QS4WSL]{Cardplay: Suit of Charisma}</p><hr><p>Description</p>"
     },
     "rules": [],
     "slug": "astral-card-scalestar",
@@ -83,6 +83,6 @@
     "exportSource": null
   },
   "_id": "WYRI29HORmtlPwyX",
-  "sort": 600000,
+  "sort": 2000000,
   "_key": "!items!WYRI29HORmtlPwyX"
 }

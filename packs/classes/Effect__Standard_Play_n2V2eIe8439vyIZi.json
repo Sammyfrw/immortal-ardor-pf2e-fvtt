@@ -8,7 +8,108 @@
       "gm": "",
       "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.k9UB3L2ddh2b03Wb]{Standard Play}</p><p>You gain a status bonus effect for 1 round, depending on the suit played.</p><ul><li><p class=\"MsoNormal\"><strong>Strength</strong>: You adds a bonus to damage rolls equal to half your level rounded down. For damage to multiple targets or in an area, select only one target for this extra damage.</p></li><li><p class=\"MsoNormal\"><strong>Dexterity</strong>: You add a bonus to attack rolls.</p></li><li><p class=\"MsoNormal\"><strong>Constitution</strong>: You add a bonus to AC.</p></li><li><p class=\"MsoNormal\"><strong>Intelligence</strong>: You add a bonus to spell DCs and class DCs.</p></li><li><p class=\"MsoNormal\"><strong>Wisdom</strong>: You add a bonus to Perception checks and saving throws.</p></li><li><p class=\"MsoNormal\"><span style=\"color:black\"><strong>Charisma: </strong></span>You add a bonus<span style=\"color:black\"> to all skill checks and DCs.</span></p></li></ul>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Diviner.Cardplay.PromptText",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Strength",
+            "value": "strength"
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Dexterity",
+            "value": "dexterity"
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Constitution",
+            "value": "constitution"
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Intelligence",
+            "value": "intelligence"
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Wisdom",
+            "value": "wisdom"
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Charisma",
+            "value": "charisma"
+          }
+        ],
+        "flag": "standardPlayCard",
+        "rollOption": "standard-play-card"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "damage"
+        ],
+        "value": "ternary(gte(@item.level,11),2,0)+(min(floor(@item.level/2)),1)",
+        "predicate": [
+          "standard-play-card:strength"
+        ],
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "ternary(gte(@item.level,11),2,1)",
+        "selector": [
+          "attack-roll"
+        ],
+        "type": "status",
+        "predicate": [
+          "standard-play-card:dexterity"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": "ternary(gte(@item.level,11),2,1)",
+        "type": "status",
+        "predicate": [
+          "standard-play-card:constitution"
+        ],
+        "selector": [
+          "ac"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": "ternary(gte(@item.level,11),2,1)",
+        "type": "status",
+        "predicate": [
+          "standard-play-card:intelligence"
+        ],
+        "selector": [
+          "spell-dc",
+          "class"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": "ternary(gte(@item.level,11),2,1)",
+        "type": "status",
+        "predicate": [
+          "standard-play-card:wisdom"
+        ],
+        "selector": [
+          "perception",
+          "saving-throw"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": "ternary(gte(@item.level,11),2,1)",
+        "type": "status",
+        "predicate": [
+          "standard-play-card:charisma"
+        ],
+        "selector": [
+          "skill-check"
+        ]
+      }
+    ],
     "slug": "effect-standard-play",
     "_migration": {
       "version": 0.959,
@@ -64,6 +165,6 @@
     "exportSource": null
   },
   "_id": "n2V2eIe8439vyIZi",
-  "sort": 200000,
+  "sort": 1000000,
   "_key": "!items!n2V2eIe8439vyIZi"
 }

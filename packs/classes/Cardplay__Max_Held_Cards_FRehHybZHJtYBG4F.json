@@ -9,7 +9,7 @@
       "value": "<p>Granted by various Cardplay features.</p><p>You typically only hold 1 card by the end of your turn, and must discard cards of your choice in excess of this number when you end your turn. This effect displays how many you can hold if other features or actions increase this amount, such as if you use @UUID[Compendium.immortal-ardor.classes.FPKTF3qxNMbpoTGx]{Hold Card}.</p>"
     },
     "rules": [],
-    "slug": "t-effect-class-effect-template",
+    "slug": "cardplay-max-held-cards",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -47,9 +47,13 @@
     "badge": {
       "type": "counter",
       "value": 1,
-      "labels": null,
+      "labels": [
+        "1 card",
+        "2 cards",
+        "3 cards"
+      ],
       "min": null,
-      "max": 3,
+      "max": null,
       "loop": false
     },
     "context": null,
@@ -71,6 +75,6 @@
     "exportSource": null
   },
   "_id": "FRehHybZHJtYBG4F",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!items!FRehHybZHJtYBG4F"
 }

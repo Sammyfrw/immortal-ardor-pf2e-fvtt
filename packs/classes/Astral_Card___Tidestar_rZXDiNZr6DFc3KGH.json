@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Constellation (Awake):</strong> The Waterbearer<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.nErOKPlLvcxcp31v]{The Engine}<br><strong>Suit: </strong>4 - Intelligence</p><hr><p>Description</p>"
+      "value": "<p><strong>Constellation (Awake):</strong> The Waterbearer<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.nErOKPlLvcxcp31v]{The Engine}<br><strong>Suit: </strong>4 - @UUID[Compendium.immortal-ardor.classes.1e7tWMMNBhsyoksz]{Cardplay: Suit of Intelligence}</p><hr><p>Description</p>"
     },
     "rules": [],
     "slug": "astral-card-tidestar",
@@ -83,6 +83,6 @@
     "exportSource": null
   },
   "_id": "rZXDiNZr6DFc3KGH",
-  "sort": 700000,
+  "sort": 2100000,
   "_key": "!items!rZXDiNZr6DFc3KGH"
 }

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Constellation (Awake):</strong> The Serpent (Start)<br><strong>Constellation (Asleep):</strong> The Serpent (End)<br><strong>Suit: </strong>Wildcard</p><hr><p>Description</p>"
+      "value": "<p><strong>Constellation (Awake):</strong> @UUID[Compendium.immortal-ardor.deities.xjjhXxR0BFrUKmwt]{The Serpent} (Start)<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.xjjhXxR0BFrUKmwt]{The Serpent} (End)<br><strong>Suit: </strong>@UUID[Compendium.immortal-ardor.classes.hrym9yIlzu0ZQOfx]{Cardplay: Wildcard}</p><hr><p>Description</p>"
     },
     "rules": [],
     "slug": "astral-card-serpentstar",
@@ -83,6 +83,6 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "sort": 400000,
+  "sort": 1800000,
   "_key": "!items!zwLfzfqr7OuyIoh1"
 }

@@ -1,0 +1,171 @@
+{
+  "name": "Diviner's Deck",
+  "_id": "37Ln5fINRWeJIWON",
+  "img": "systems/pf2e/icons/equipment/artifacts/deck-of-many-things.webp",
+  "description": "<p>This is a Diviner's Deck table that is used with the @UUID[Compendium.immortal-ardor.classes.SEKuavIkP5CSkCxi]{Cardplay} feature.</p>",
+  "results": [
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "cDOeKIUctt3YH8yJ",
+      "name": "Cardplay: Suit of Strength",
+      "img": "icons/sundries/gaming/chess-knite-gray.webp",
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.1f6zAFo1dOpR9iME inline]</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.1f6zAFo1dOpR9iME",
+      "_key": "!tables.results!37Ln5fINRWeJIWON.cDOeKIUctt3YH8yJ"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "Q8ikS1RNRMWsut79",
+      "name": "Cardplay: Suit of Dexterity",
+      "img": "icons/sundries/gaming/chess-bishop-gray.webp",
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.nUMFKL0oP6iBsiyC inline]</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.nUMFKL0oP6iBsiyC",
+      "_key": "!tables.results!37Ln5fINRWeJIWON.Q8ikS1RNRMWsut79"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "snzQDujEXxAfX6FX",
+      "name": "Cardplay: Suit of Constitution",
+      "img": "icons/sundries/gaming/chess-rook-gray.webp",
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.Un7JSEDXHCFfvquE inline]</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.Un7JSEDXHCFfvquE",
+      "_key": "!tables.results!37Ln5fINRWeJIWON.snzQDujEXxAfX6FX"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "eDvVYKLi6THfmuNY",
+      "name": "Cardplay: Suit of Intelligence",
+      "img": "icons/sundries/gaming/chess-queen-gray.webp",
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.1e7tWMMNBhsyoksz inline]</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.1e7tWMMNBhsyoksz",
+      "_key": "!tables.results!37Ln5fINRWeJIWON.eDvVYKLi6THfmuNY"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "0eBxHkdyagwBGbo4",
+      "name": "Cardplay: Suit of Wisdom",
+      "img": "icons/sundries/gaming/chess-pawn-gray.webp",
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.7nMr1Krx1ylHZKtY inline]</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.7nMr1Krx1ylHZKtY",
+      "_key": "!tables.results!37Ln5fINRWeJIWON.0eBxHkdyagwBGbo4"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "oEiENAC6ly2ViSuF",
+      "name": "Cardplay: Suit of Charisma",
+      "img": "icons/sundries/gaming/chess-king-gray.webp",
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.wgwoSPnxj3QS4WSL inline]</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.wgwoSPnxj3QS4WSL",
+      "_key": "!tables.results!37Ln5fINRWeJIWON.oEiENAC6ly2ViSuF"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "_key": "!tables!37Ln5fINRWeJIWON"
+}

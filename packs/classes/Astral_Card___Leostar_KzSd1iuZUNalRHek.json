@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Constellation (Awake):</strong> The Lion<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.9qLt0e2dhmEgBloJ]{The Howler}<br><strong>Suit: </strong>1 - Strength</p><hr><p>Description</p>"
+      "value": "<p><strong>Constellation (Awake):</strong> The Lion<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.9qLt0e2dhmEgBloJ]{The Howler}<br><strong>Suit: </strong>1 - @UUID[Compendium.immortal-ardor.classes.1f6zAFo1dOpR9iME]{Cardplay: Suit of Strength}</p><hr><p>Description</p>"
     },
     "rules": [],
     "slug": "astral-card-leostar",
@@ -83,6 +83,6 @@
     "exportSource": null
   },
   "_id": "KzSd1iuZUNalRHek",
-  "sort": 300000,
+  "sort": 1700000,
   "_key": "!items!KzSd1iuZUNalRHek"
 }

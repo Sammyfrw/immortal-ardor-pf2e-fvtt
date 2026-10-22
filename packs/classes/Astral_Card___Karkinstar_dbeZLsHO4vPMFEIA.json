@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Constellation (Awake):</strong> The Crab<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.783jltL5Pfhj17uJ]{The Honeytree}<br><strong>Suit: </strong>6 -<strong> </strong>Charisma</p><hr><p>Description</p>"
+      "value": "<p><strong>Constellation (Awake):</strong> The Crab<br><strong>Constellation (Asleep):</strong> @UUID[Compendium.immortal-ardor.deities.783jltL5Pfhj17uJ]{The Honeytree}<br><strong>Suit: </strong>6 -<strong> </strong>@UUID[Compendium.immortal-ardor.classes.wgwoSPnxj3QS4WSL]{Cardplay: Suit of Charisma}</p><hr><p>Description</p>"
     },
     "rules": [],
     "slug": "astral-card-karkinstar",
@@ -83,6 +83,6 @@
     "exportSource": null
   },
   "_id": "dbeZLsHO4vPMFEIA",
-  "sort": 0,
+  "sort": 1200000,
   "_key": "!items!dbeZLsHO4vPMFEIA"
 }

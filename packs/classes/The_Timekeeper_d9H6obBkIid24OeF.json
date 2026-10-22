@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">Time is a proclamation of fate, an understanding of the cosmos that things flow from one end to the other. You have the power to wade through and weave this line, creating ripples and eddies in ways that you can see and predict. But you are also cognizant of its dangers and risks, knowing the ways how recklessly splashing waves causes problems for you and the universe – a grave crime.</p><hr><p class=\"MsoNormal\"><strong>Gambit’s Style: </strong>You become trained in Arcana and gain the @UUID[Compendium.pf2e.feats-srd.BocFD2KV0qgUC76x]{Additional Lore} feat with History Lore. You also gain the Time Step action.</p><p class=\"MsoNormal\"><strong>Gambit’s Aces: 1st </strong>@UUID[Compendium.pf2e.spells-srd.rerNA6YZsdxuJYt3]{Déjà Vu},<strong> 2nd</strong> @UUID[Compendium.pf2e.spells-srd.mLAYvbafVKfBgEhz]{Loose Time's Arrow}, <strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.WsUwpfmhKrKwoIe3]{Slow}, <strong>4th </strong>@UUID[Compendium.pf2e.spells-srd.VlNcjmYyu95vOUe8]{Translocate}, <strong>5th </strong>@UUID[Compendium.pf2e.spells-srd.5tpk4Q2QI3FVhm99]{Rewinding Step}, <strong>6th </strong>@UUID[Compendium.pf2e.spells-srd.ZMvplR106Jxl7B15]{Awaken Entropy}</p><p class=\"MsoNormal\"><strong>Foreteller’s Spell: Initial</strong><em> Rewind Time</em>; <strong>Advanced</strong><em> Connect the Streams</em></p><p class=\"MsoNormal\"><strong>Bonus Feat: </strong>You gain the Tick Tock feat.</p>"
+      "value": "<p class=\"MsoNormal\">Time is a proclamation of fate, an understanding of the cosmos that things flow from one end to the other. You have the power to wade through and weave this line, creating ripples and eddies in ways that you can see and predict. But you are also cognizant of its dangers and risks, knowing the ways how recklessly splashing waves causes problems for you and the universe – a grave crime.</p><hr><p class=\"MsoNormal\"><strong>Gambit’s Style: </strong>You become trained in Arcana and gain the @UUID[Compendium.pf2e.feats-srd.BocFD2KV0qgUC76x]{Additional Lore} feat with History Lore. You also gain the @UUID[Compendium.immortal-ardor.classes.BU3l8JfoPEij2idh]{Time Step} action.</p><p class=\"MsoNormal\"><strong>Gambit’s Aces: 1st </strong>@UUID[Compendium.pf2e.spells-srd.rerNA6YZsdxuJYt3]{Déjà Vu},<strong> 2nd</strong> @UUID[Compendium.pf2e.spells-srd.mLAYvbafVKfBgEhz]{Loose Time's Arrow}, <strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.WsUwpfmhKrKwoIe3]{Slow}, <strong>4th </strong>@UUID[Compendium.pf2e.spells-srd.VlNcjmYyu95vOUe8]{Translocate}, <strong>5th </strong>@UUID[Compendium.pf2e.spells-srd.5tpk4Q2QI3FVhm99]{Rewinding Step}, <strong>6th </strong>@UUID[Compendium.pf2e.spells-srd.ZMvplR106Jxl7B15]{Awaken Entropy}</p><p class=\"MsoNormal\"><strong>Foreteller’s Spell: Initial</strong><em> Rewind Time</em>; <strong>Advanced</strong><em> Connect the Streams</em></p><p class=\"MsoNormal\"><strong>Bonus Feat: </strong>You gain the Tick Tock feat.</p>"
     },
     "rules": [
       {
@@ -18,6 +18,10 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.BU3l8JfoPEij2idh"
       }
     ],
     "slug": "the-timekeeper",

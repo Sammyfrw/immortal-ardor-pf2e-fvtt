@@ -6,9 +6,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You learn how to hide yourself from the gaze of karma. You learn the Fold action.</p>"
+      "value": "<p>You learn how to hide yourself from the gaze of karma. You learn the @UUID[Compendium.immortal-ardor.classes.IJ7LRDAWIqLm795S]{Fold} action.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.IJ7LRDAWIqLm795S"
+      }
+    ],
     "slug": "fold",
     "_migration": {
       "version": 0.959,

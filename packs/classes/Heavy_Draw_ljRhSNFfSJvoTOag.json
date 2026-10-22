@@ -6,9 +6,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You can risk the rifts of chaos to pull a beneficial fortune. You gain the Heavy Draw action.</p>"
+      "value": "<p>You can risk the rifts of chaos to pull a beneficial fortune. You gain the @UUID[Compendium.immortal-ardor.classes.SvCWjjIS8a6LxLYJ]{Heavy Draw} action.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.SvCWjjIS8a6LxLYJ"
+      }
+    ],
     "slug": "heavy-draw",
     "_migration": {
       "version": 0.959,

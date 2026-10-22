@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">Through recursion of time, the gathering of possibilities, the theft of fortune and a great deal of luck, you developed a technique to ensure you always start with a strong edge. The first card you draw after rolling initiative is a Wild Card. When you Play it, it can be treated as any suit you choose.</p>"
+      "value": "<p class=\"MsoNormal\">Through recursion of time, the gathering of possibilities, the theft of fortune and a great deal of luck, you developed a technique to ensure you always start with a strong edge. The first card you draw after rolling initiative is a Wild Card. When you Play it, it can be treated as any suit you choose. @UUID[Compendium.immortal-ardor.classes.hrym9yIlzu0ZQOfx]{Cardplay: Wildcard}</p>"
     },
     "rules": [],
     "slug": "wild-card",
