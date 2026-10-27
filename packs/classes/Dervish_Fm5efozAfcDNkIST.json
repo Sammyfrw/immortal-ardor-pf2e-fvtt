@@ -175,7 +175,7 @@
       "simple": 1,
       "martial": 1,
       "advanced": 0,
-      "unarmed": 0,
+      "unarmed": 1,
       "other": {
         "name": "",
         "rank": 0
@@ -258,9 +258,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.12.4",
+    "systemVersion": "8.5.0",
     "exportSource": null
   },
   "_id": "Fm5efozAfcDNkIST",

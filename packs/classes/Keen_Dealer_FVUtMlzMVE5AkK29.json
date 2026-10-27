@@ -1,0 +1,125 @@
+{
+  "folder": "sN99KRW0Q9f4rDVG",
+  "name": "Keen Dealer",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You are wielding a simple melee or thrown weapon with the finesse or agile traits. </p><hr><p>Unassuming weaponry becomes deadly in your hands with the right application. You Strike with the required weapon. If you have no multi-attack penalty the weapon gains the Fatal d8 trait, or Fatal d10 trait if it already has the Fatal d8 trait. If you already have multi-attack penalty, your multiple attack penalty is -3 (-2 with an agile attack) on your second attack of the turn instead of -5, and -6 (-4 with an agile attack) on your third or subsequent attack of the turn, instead of -10. Special You can substitute Strikes made as part of the Fortune’s Sword spell with Keen Dealer strikes.<br class=\"Apple-interchange-newline\"></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "keen-dealer-first-strike",
+        "toggleable": true,
+        "label": "IA.SpecificRule.Diviner.Features.KeenDealerLabel"
+      },
+      {
+        "key": "MultipleAttackPenalty",
+        "selector": "attack",
+        "value": -2,
+        "predicate": [
+          "item:category:simple",
+          {
+            "or": [
+              "item:trait:agile",
+              "item:trait:finesse"
+            ]
+          }
+        ]
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:category:simple",
+          "keen-dealer-first-strike",
+          {
+            "or": [
+              "item:trait:agile",
+              "item:trait:finesse"
+            ]
+          },
+          {
+            "nor": [
+              "item:trait:fatal-d8",
+              "item:trait:fatal-d10",
+              "item:trait:fatal-d12"
+            ]
+          }
+        ],
+        "property": "traits",
+        "value": "fatal-d8"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:category:simple",
+          "keen-dealer-first-strike",
+          "item:trait:fatal-d8",
+          {
+            "or": [
+              "item:trait:agile",
+              "item:trait:finesse"
+            ]
+          }
+        ],
+        "property": "traits",
+        "value": "fatal-d10",
+        "priority": 100
+      }
+    ],
+    "slug": "keen-dealer",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "FVUtMlzMVE5AkK29",
+  "sort": 300000,
+  "_key": "!items!FVUtMlzMVE5AkK29"
+}

@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>These cards are enchanted deadly weapons from a Diviner's deck, created by the Killer Cards activity.</p><p>Killer Cards are simple weapons in the knife group that deal 1d4 slashing damage and has the agile, finesse, fatal 1d10 and thrown 20 feet traits. Only you can use the cards you make as weapons. You can use any cards you are holding from your Cardplay features as wielded Killer Cards, and if you make a ranged strike, you can draw and throw a Killer Card from your Diviner’s Deck as part of the Strike without triggering a reaction from the ranged attack. Regardless of how you make the ranged strike, you discard any card you use for it, causing it to rematerialize in your deck. You can engrave runes onto your Diviner’s Deck, and it will affect all its cards that you use as weapons.</p>"
+      "value": "<p>These cards are enchanted deadly weapons from a Diviner's deck, created by the @UUID[Compendium.immortal-ardor.classes.C6OusiJ7hlPqzgYy]{Killer Cards} feat.</p><p>Killer Cards are simple weapons in the knife group that deal 1d4 slashing damage and has the agile, finesse, fatal d8 and thrown 20 feet traits. Only you can use the cards you make as weapons. You can use any cards you are holding from your Cardplay features as wielded Killer Cards, and if you make a ranged strike, you can draw and throw a Killer Card from your Diviner’s Deck as part of the Strike without triggering a reaction from the ranged attack. Regardless of how you make the ranged strike, you discard any card you use for it, causing it to rematerialize in your deck. You can engrave runes onto your Diviner’s Deck, and it will affect all its cards that you use as weapons.</p>"
     },
     "rules": [],
     "slug": "killer-card",
@@ -18,7 +18,7 @@
       "otherTags": [],
       "value": [
         "agile",
-        "fatal-d10",
+        "fatal-d8",
         "finesse",
         "thrown-20"
       ],
