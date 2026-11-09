@@ -1,0 +1,78 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Powerplay",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You release the potential in a card as pure force, intent on throwing an enemy to the ground. You Play a card against a creature within 30 feet of you and attempt a @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip} check against them from this range. Your multi-attack penalty applies and increases for this check as normal. If you Play a card of the Strength or Intelligence suits, you ignore your multi attack penalty for your attempt. If you Play a card of the Wisdom suit, you treat this attempt as if you had the maximum multi-attack penalty. You can use your Arcana or Occultism modifier for this attempt if it is higher than your Athletics. If you critically fail, instead of being knocked @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone} you @UUID[Compendium.immortal-ardor.classes.arhOfryj6gDtqwZO]{Effect: Bust!} instead.</p>"
+    },
+    "rules": [],
+    "slug": "powerplay",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in Athletics, Arcana, Occultism"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "XJ5Ejxi4DnWR9s31",
+  "sort": 0,
+  "_key": "!items!XJ5Ejxi4DnWR9s31"
+}

@@ -1,0 +1,78 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Portent of Fate",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Frequency </strong>Once per day</p><hr></div><p class=\"MsoNormal\">You predict a possible outcome in the future and take that potentiality to an event of your choosing. When you make your daily preparations, roll a 1d20 and note the result. Once per day, when you are about to roll a 1d20 on a non-secret roll, or a creature is about to roll a saving throw against an effect from you, you can take the Sleight effect of this feat.</p><p class=\"MsoNormal\"><strong>Sleight </strong>You use the noted number as the outcome of the roll in place of rolling it. The effect gains the Fortune trait if it is 11 or higher, and Misfortune if it is 10 or lower.</p>"
+    },
+    "rules": [],
+    "slug": "portent-of-fate",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner",
+        "sleight"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "SaJ61holAdTe1W9P",
+  "sort": 0,
+  "_key": "!items!SaJ61holAdTe1W9P"
+}

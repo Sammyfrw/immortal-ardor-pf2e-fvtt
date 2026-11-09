@@ -18,3 +18,5 @@ async function drawDivinerDeck() {
   const table = await fromUuid(DIVINER_DECK_UUID);
   await table.draw();
 }
+
+export {drawTalekeeperDeck, drawDivinerDeck};

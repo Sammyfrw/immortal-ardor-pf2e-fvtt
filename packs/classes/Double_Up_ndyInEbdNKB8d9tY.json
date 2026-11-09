@@ -1,0 +1,74 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Double-Up",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements</strong> A Cardplay effect you created that lasts 1 round expired at the start of your turn, or you are maintaining a Cardplay effect that has a sustained duration that you have not Sustained this turn.</p><hr></div><p class=\"MsoNormal\">You rewind and recount the power of one of your divinations to sustain its benefits. Select one of the Cardplay effects that meet the requirements of this action and roll a 1d6. On a 2-5 on the dice roll, you recreate the expired effect for 1 round or Sustain the sustained effect. On a 6, you regain the action you used for Double-Up. On a 1, you @UUID[Compendium.immortal-ardor.classes.arhOfryj6gDtqwZO]{Effect: Bust!}, and you can no longer attempt to Double-Up or Sustain that effect.</p><p class=\"MsoNormal\">You can choose to Play a card when you Double-Up. If you do, Double-Up becomes a free action and gains the Cardplay trait. On a 6, you reclaim the card you Played.</p>"
+    },
+    "rules": [],
+    "slug": "double-up",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ndyInEbdNKB8d9tY",
+  "sort": 0,
+  "_key": "!items!ndyInEbdNKB8d9tY"
+}

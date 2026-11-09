@@ -1,0 +1,78 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Flashy Shuffle",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You perform a trick with your cards and make the Diviner’s Deck fly and shuffle cards around you. You Play a card against a creature within 30 feet of you and attempt a Feint against them from this range. On a success or critical success, your Feint leaves the enemy off-guard to Ranged and Melee attacks for yourself and any other allies. If you critically fail, instead of becoming @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} you @UUID[Compendium.immortal-ardor.classes.arhOfryj6gDtqwZO]{Effect: Bust!}. </p><p class=\"MsoNormal\">If you Play a card of the Dexterity or Charisma suits, you reclaim the card you Played. If you Play a card of the Strength suit, you treat the outcome of your check as one step worse. You can use your Thievery or Stealth modifier for this attempt if it is higher than your Deception.</p>"
+    },
+    "rules": [],
+    "slug": "flashy-shuffle",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Trained in Deception, Thievery or Stealth"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "tO8DcIZy3ZRd3NFN",
+  "sort": 0,
+  "_key": "!items!tO8DcIZy3ZRd3NFN"
+}

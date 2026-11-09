@@ -1,0 +1,75 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Trap Card",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Prerequisites </strong>Trained in Stealth, Foreteller spell</p><hr></div><p class=\"MsoNormal\">You are careful about revealing your hand; you’d much rather prepare your next move in advance and plan around it. You can prepare a Trap Card, where you take 1 minute to channel the full effects of a Foreteller spell into a single card (including the effects of any Cardplay actions it has). You must meet any requirements of the spell when you cast the spell and when this trap activates, otherwise the Trap Card fizzles out. You designate who can activate the card: you, an ally, or an enemy, and when it activates: when a creature moves adjacent to it, moves onto its space or Interacts with the card. You can always activate it manually through a single Concentrate action while you are within 60 feet of it.</p><p class=\"MsoNormal\">Your Trap Card contains the spell for the next 10 minutes and gains all the traits of the spell. While it does, you cannot regain the focus point or the spell slot used for the spell in any way, until you Dismiss its spell, the Trap Card’s spell is activated, or the duration elapses. You can only have one Trap Card at a time, and until you plant the card you can carry it in your Hand.</p><p class=\"MsoNormal\">You can secretly plant the card, tossing it to a space within 30 feet of you as a manipulate action. Roll a @Check[stealth] check to Conceal an Object, comparing it to the DC of any observers watching. You can use your spellcasting modifier if it is higher. On a success, observers will not notice that you had thrown a card. The card is a magical trap, using the DC of the modifier you use for Perception checks to notice it, Identify Magic checks to know that it bears magic, or Thievery checks to disable it. Particularly savvy creatures may know immediately not to trust these cards if they see it, typically once they have seen Trap Cards firsthand.</p><p class=\"MsoNormal\">When activated, the spell’s effects are released, as if you had Cast the Spell from the card’s space. This allows you to target creatures from farther distances from where you actually are, even creating a magical image of you to take what actions are necessary, including Strikes.</p>"
+    },
+    "rules": [],
+    "slug": "trap-card",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner",
+        "exploration"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "CYjZzJJBvOZW3pwa",
+  "sort": 0,
+  "_key": "!items!CYjZzJJBvOZW3pwa"
+}
