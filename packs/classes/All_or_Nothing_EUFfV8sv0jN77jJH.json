@@ -1,0 +1,74 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "All or Nothing",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements </strong>You are not currently suffering from Bust.</p><hr></div><p class=\"MsoNormal\">You make the most of all of your spells, regardless of the risk. When a spell cast from a spell slot or your gambit’s aces would do nothing due to a critical success on a saving throw or a critical failure on an attack roll, you can use the Sleight effect of this feat.</p><p class=\"MsoNormal\"><strong>Sleight </strong>You force a single target of the triggering spell to reroll their saving throw (granting the spell the Misfortune trait) or reroll the spell attack against a single target (granting the spell the Fortune trait). Turning your fortune around in such a way invites a karmic retribution however; you @UUID[Compendium.immortal-ardor.classes.arhOfryj6gDtqwZO]{Effect: Bust!} unless the saving throw becomes a critical failure or your attack becomes a critical hit.</p><p>@UUID[Compendium.immortal-ardor.classes.dO8kHE5IdPa3Zoqe]{Cardplay: Sleight Used}</p>"
+    },
+    "rules": [],
+    "slug": "all-or-nothing",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner",
+        "sleight"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "EUFfV8sv0jN77jJH",
+  "sort": 300000,
+  "_key": "!items!EUFfV8sv0jN77jJH"
+}

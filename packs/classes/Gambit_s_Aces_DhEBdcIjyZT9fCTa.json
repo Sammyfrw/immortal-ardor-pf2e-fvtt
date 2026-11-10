@@ -6,9 +6,44 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You have special tricks up your sleeve that are well suited to your gambit to more readily pluck the cosmos with. You learn two pairs of new spells known as your Gambit’s Aces, two at 1st rank and two at 2nd rank. If you had already learned these spells, you automatically learn common spells or a spell you have access to. For each rank, you learn an Ace spell from this feature and another spell from your chosen Gambit. At certain level intervals, you learn another pair of Ace spells from this feature and your Gambit.</p><p class=\"MsoNormal\">Each day during your daily preparations, for each rank of Aces you have access to, you can temporarily add a spell from this feature to your repertoire. You can add this spell at a higher rank of Aces you have access to be able to cast it at a higher rank. If this spell already exists in your repertoire (such as if you acquire it through your spellcasting feature), that spell becomes a signature spell.</p><p class=\"MsoNormal\">When you cast a Gambit’s Ace spell with your spell slots that has a cast time of one to three actions, you can hold an additional card until the start of your next turn. If the spell has a cast time of greater than three actions, you gain this benefit until the end of your first turn after rolling initiative when you normally would have access to cardplay actions or your next daily preparations, whichever comes first.</p><p class=\"MsoNormal\">You learn @UUID[Compendium.pf2e.spells-srd.EUMjrJJwSgsqNidi]{Anticipate Peril} at 1st rank, and @UUID[Compendium.pf2e.spells-srd.41TZEjhO6D1nWw2X]{Augury} at 2nd rank. At 9th level you learn @UUID[Compendium.pf2e.spells-srd.XQSPJHOf3TyfqvgS]{Web of Eyes} at 3rd rank, at 11th level you learn @UUID[Compendium.pf2e.spells-srd.zvKWclOZ7A53DObE]{Clairvoyance} at 4th rank, at 13th level you learn @UUID[Compendium.pf2e.spells-srd.Ek5XI0aEdZhBgm21]{Scouting Eye} at 5th rank, and at 15th level you learn @UUID[Compendium.pf2e.spells-srd.r784cIz17eWujtQj]{Scrying} at 6th rank.</p>"
+      "value": "<p class=\"MsoNormal\">You have special tricks up your sleeve that are well suited to your gambit to more readily pluck the cosmos with. You learn two pairs of new spells known as your Gambit’s Aces, two at 1st rank and two at 2nd rank. If you had already learned these spells, you automatically learn common spells or a spell you have access to. For each rank, you learn an Ace spell from this feature and another spell from your chosen Gambit. At certain level intervals, you learn another pair of Ace spells from this feature and your Gambit.</p><p class=\"MsoNormal\">Each day during your daily preparations, for each rank of Aces you have access to, you can temporarily add a spell from this feature to your repertoire. You can add this spell at a higher rank of Aces you have access to be able to cast it at a higher rank. If this spell already exists in your repertoire (such as if you acquire it through your spellcasting feature), that spell becomes a signature spell.</p><p class=\"MsoNormal\">When you cast a Gambit’s Ace spell with your spell slots that has a cast time of one to three actions, you can @UUID[Compendium.immortal-ardor.classes.9Tbqe5G8pdrrOUfT]{Draw Card} and hold an additional card until the start of your next turn. If the spell has a cast time of greater than three actions, you can Draw a card and hold an additional card until the start of your second turn after rolling initiative when you normally would have access to cardplay actions before your next daily preparations. @UUID[Compendium.immortal-ardor.classes.FRehHybZHJtYBG4F]{Cardplay: Max Held Cards}</p><p class=\"MsoNormal\">You learn @UUID[Compendium.pf2e.spells-srd.EUMjrJJwSgsqNidi]{Anticipate Peril} at 1st rank, and @UUID[Compendium.pf2e.spells-srd.41TZEjhO6D1nWw2X]{Augury} at 2nd rank. At 9th level you learn @UUID[Compendium.pf2e.spells-srd.XQSPJHOf3TyfqvgS]{Web of Eyes} at 3rd rank, at 11th level you learn @UUID[Compendium.pf2e.spells-srd.zvKWclOZ7A53DObE]{Clairvoyance} at 4th rank, at 13th level you learn @UUID[Compendium.pf2e.spells-srd.Ek5XI0aEdZhBgm21]{Scouting Eye} at 5th rank, and at 15th level you learn @UUID[Compendium.pf2e.spells-srd.r784cIz17eWujtQj]{Scrying} at 6th rank.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:anticipate-peril",
+              "item:slug:augury",
+              "item:slug:web-of-eyes",
+              "item:slug:clairvoyance",
+              "item:slug:scouting-eye",
+              "item:slug:scrying"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "gambits-aces"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:tag:gambits-aces"
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": {
+          "title": "IA.SpecificRule.Diviner.Features.GambitAcesTitle",
+          "text": "IA.SpecificRule.Diviner.Features.GambitsAcesDescription"
+        }
+      }
+    ],
     "slug": "gambits-aces",
     "_migration": {
       "version": 0.959,

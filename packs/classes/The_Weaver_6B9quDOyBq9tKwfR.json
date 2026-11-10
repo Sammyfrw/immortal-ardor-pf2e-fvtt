@@ -22,6 +22,26 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.immortal-ardor.classes.Item.vCzCb4pxYaxA8A4W"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:alarm",
+              "item:slug:see-the-unseen",
+              "item:slug:impending-doom",
+              "item:slug:read-omens",
+              "item:slug:inevitable-disaster",
+              "item:slug:truesight"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "gambits-aces"
       }
     ],
     "slug": "the-weaver",

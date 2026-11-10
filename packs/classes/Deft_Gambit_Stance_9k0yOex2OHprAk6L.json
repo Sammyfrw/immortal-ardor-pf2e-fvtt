@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p class=\"MsoNormal\"><strong>Requirements </strong>You are wielding a weapon with the two-hand trait or a weapon that requires 1+ hands to use.</p><hr></div><p class=\"MsoNormal\">You position your weapon in such a way that you can interact with your Diviner’s Deck with ease while wielding it. While you are in this stance, you can make two-handed Strikes with the required weapon while holding your cards in one hand. You bypass the need to adjust your grip as part of your Strikes.</p>"
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements </strong>You are wielding a weapon with the two-hand trait or a weapon that requires 1+ hands to use.</p><hr></div><p class=\"MsoNormal\">You position your weapon in such a way that you can interact with your Diviner’s Deck with ease while wielding it. While you are in this stance, you can make two-handed Strikes with the required weapon while holding your cards in one hand. You bypass the need to adjust your grip as part of your Strikes.</p><p>@UUID[Compendium.immortal-ardor.classes.N1m3buxpKKJgHvRP]{Stance: Deft Gambit Stance}</p>"
     },
     "rules": [],
     "slug": "deft-gambit-stance",
@@ -69,6 +69,6 @@
     "exportSource": null
   },
   "_id": "9k0yOex2OHprAk6L",
-  "sort": 0,
+  "sort": 1600000,
   "_key": "!items!9k0yOex2OHprAk6L"
 }

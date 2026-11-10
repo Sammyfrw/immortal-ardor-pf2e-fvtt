@@ -1,0 +1,73 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "The Burden of Potential",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your entire passage through the universe is guided by paths you never took; and those unturned stones are lost to the flows of time – until you learned how to take that potential into action.</p><p class=\"MsoNormal\">When you take this feat, you create a special card that you keep on your person. This card keeps track of minor and major decisions you take in lieu of another, which results in it being a record of choices you avoided. The GM ultimately is the final determinant of what is a minor or major decision for you, but typically a minor decision is picking a skill to overcome an obstacle in your journey, while a major decision is deciding on a course of action, which could include fighting an enemy or choosing to seek peace, or to take one adventure over another.</p><p class=\"MsoNormal\">The card becomes empowered with the potential of the things you did not do once the card has recorded at least a week’s worth of minor and major decisions, though the GM might rule enough adventuring or a very significant decision would be enough to meet this sooner. Once empowered, you or a creature you pass this card to can Invest it like a magic item and gain the Cascade Potential action. If the holder uses this action, dies while they have the card invested, if you die, or if you spend a ten minute ritual to Dismiss the card, the card vanishes, and the holder cannot invest another card from this feat for 1 month. You can only make one of these cards at a time until the card vanishes.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "z5vJvWgdZBM0WUbb",
+  "sort": 0,
+  "_key": "!items!z5vJvWgdZBM0WUbb"
+}

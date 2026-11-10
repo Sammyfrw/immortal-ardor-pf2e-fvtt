@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You prepare your day by knowing what activity will bring you or those close to you good fortune. During your daily preparations, you can Draw a Card from your Diviner’s Deck. Unlike a regular draw, this reading takes time and loses the Cardplay trait. The card drawn predicts the fortune of you or an ally present for a reading for the day. Depending on the suit of the card drawn, you or an ally gains a +1 status bonus to one Exploration or Downtime Activity for the day if they use a proficiency modifier that uses an attribute matching the suit. Once this bonus is used, they are immune to bonuses from Daily Divination until their next daily preparations. If they do not choose to use the bonus by then, the reading becomes inert.</p><p class=\"MsoNormal\">Once you become a Master in spellcasting, this bonus increases to +2.</p>"
+      "value": "<p class=\"MsoNormal\">You prepare your day by knowing what activity will bring you or those close to you good fortune. During your daily preparations, you can Draw a Card from your Diviner’s Deck. Unlike a regular draw, this reading takes time and loses the Cardplay trait. The card drawn predicts the fortune of you or an ally present for a reading for the day. Depending on the suit of the card drawn, you or an ally gains a +1 status bonus to one Exploration or Downtime Activity for the day if they use a proficiency modifier that uses an attribute matching the suit. Once this bonus is used, they are immune to bonuses from Daily Divination until their next daily preparations. If they do not choose to use the bonus by then, the reading becomes inert.</p><p class=\"MsoNormal\">Once you become a Master in spellcasting, this bonus increases to +2.</p><p>@UUID[Compendium.immortal-ardor.classes.U44c37vlHsQWQsON]{Effect: Daily Divination}</p>"
     },
     "rules": [],
     "slug": "daily-divination",
@@ -69,6 +69,6 @@
     "exportSource": null
   },
   "_id": "YaIyoJQt2OtMAVOW",
-  "sort": 0,
+  "sort": 2700000,
   "_key": "!items!YaIyoJQt2OtMAVOW"
 }

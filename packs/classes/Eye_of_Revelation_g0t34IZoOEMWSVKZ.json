@@ -1,0 +1,78 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Eye of Revelation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your eyes discern the movements of all beings that walk upon the tapestry of time and space. You gain the @UUID[Compendium.pf2e.feats-srd.TXXrkkFfNSWgHrn5]{Chronocognizance} skill feat. When you @UUID[Compendium.pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek}, you gain a special imprecise sense to detect creatures within 30 feet of you that adhere to the flows of time and space, which includes invisible creatures, incorporeal creatures, spirits, haunts and creatures who exist in a separate, but layered plane over the one you are currently in, such as the Ethereal Plane.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.TXXrkkFfNSWgHrn5"
+      }
+    ],
+    "slug": "eye-of-revelation",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "g0t34IZoOEMWSVKZ",
+  "sort": 1000000,
+  "_key": "!items!g0t34IZoOEMWSVKZ"
+}

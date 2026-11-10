@@ -46,6 +46,26 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.immortal-ardor.classes.Item.FVUtMlzMVE5AkK29"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:sure-strike",
+              "item:slug:lucky-number",
+              "item:slug:veil-of-privacy",
+              "item:slug:flicker",
+              "item:slug:subconscious-suggestion",
+              "item:slug:mislead"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "gambits-aces"
       }
     ],
     "slug": "the-gambler",

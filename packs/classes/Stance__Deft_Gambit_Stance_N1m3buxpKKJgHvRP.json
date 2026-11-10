@@ -1,0 +1,69 @@
+{
+  "folder": "k9qeflOZFfp4CALE",
+  "name": "Stance: Deft Gambit Stance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Granted by @UUID[Compendium.immortal-ardor.classes.9k0yOex2OHprAk6L]{Deft Gambit Stance}</p><p class=\"MsoNormal\">While you are in this stance, you can make two-handed Strikes with the required weapon while holding your cards in one hand. You bypass the need to adjust your grip as part of your Strikes.</p>"
+    },
+    "rules": [],
+    "slug": "stance-deft-gambit-stance",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/weapons/staves/staff-animal-bird.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "N1m3buxpKKJgHvRP",
+  "sort": 0,
+  "_key": "!items!N1m3buxpKKJgHvRP"
+}

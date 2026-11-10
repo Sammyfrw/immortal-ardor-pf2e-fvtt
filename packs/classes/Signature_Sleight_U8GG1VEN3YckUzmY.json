@@ -8,7 +8,30 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\">You have a particular technique that you favor when you impose upon fate. When you gain this feature, you gain a Diviner feat of 8th rank or lower that has the Sleight trait. Then, you choose a Sleight feat that you know to be your Signature Sleight. This Sleight gains a frequency of once per ten minutes if it has a lower or no frequency, and when you use this Sleight, you are not prevented from using any other Sleight in a ten minute timeframe. Any time you gain a new Sleight, you can retrain your selection automatically.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustName": false,
+        "flag": "signatureSleightFeat",
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                8
+              ]
+            },
+            "item:trait:sleight"
+          ],
+          "itemType": "feat"
+        },
+        "key": "ChoiceSet",
+        "prompt": "Select a Sleight feat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.signatureSleightFeat}"
+      }
+    ],
     "slug": "signature-sleight",
     "_migration": {
       "version": 0.959,

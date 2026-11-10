@@ -1,0 +1,77 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "All of the Luck",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">When you take someone’s luck, you grab as much as you can carry. When you use @UUID[Compendium.immortal-ardor.classes.YYDgznDJffDLdVr1]{Thief of Luck}, a creature you critically succeed against also must roll their next attack roll twice and take the lower result; this causes the Strike to gain the Misfortune trait. At the same time, you can roll your next attack roll twice and take the higher result, giving the check the Fortune trait. These effects expire when your status bonus from Thief of Luck does.</p><p>@UUID[Compendium.immortal-ardor.classes.9Ku97F1EFzJf2GJb]{Effect: All of the Luck}</p>"
+    },
+    "rules": [],
+    "slug": "all-of-the-luck",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Corsair gambit"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "uTWmpasAs93TJLj9",
+  "sort": 0,
+  "_key": "!items!uTWmpasAs93TJLj9"
+}

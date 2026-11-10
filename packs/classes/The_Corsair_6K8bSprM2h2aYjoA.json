@@ -46,6 +46,26 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.immortal-ardor.classes.Item.YYDgznDJffDLdVr1"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:ill-omen",
+              "item:slug:albatross-curse",
+              "item:slug:show-the-way",
+              "item:slug:dull-ambition",
+              "item:slug:blinding-bottle",
+              "item:slug:suspended-retribution"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "gambits-aces"
       }
     ],
     "slug": "the-corsair",

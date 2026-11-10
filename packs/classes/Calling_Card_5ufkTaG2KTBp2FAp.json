@@ -1,0 +1,74 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Calling Card",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Frequency </strong>Once per ten minutes</p><hr></div><p class=\"MsoNormal\">You’ve affiliated yourself with a particular set of stories told in a suit of cards more than others, allowing you to more readily draw upon it at the cost of another. When you take this feat, select a suit from your Diviner’s Deck. Any time you are about to Draw a Card, you can use the Sleight effect of this feat.</p><p class=\"MsoNormal\"><strong>Sleight </strong>Instead of rolling to @UUID[Compendium.immortal-ardor.classes.9Tbqe5G8pdrrOUfT]{Draw Card}, you draw a card of your preferred suit. Once within the ten minutes after using this Sleight, if you Draw a Card that is opposite this suit (three lower or higher than the suit’s number), you @UUID[Compendium.immortal-ardor.classes.arhOfryj6gDtqwZO]{Effect: Bust!}.</p><p>@UUID[Compendium.immortal-ardor.classes.dO8kHE5IdPa3Zoqe]{Cardplay: Sleight Used}</p>"
+    },
+    "rules": [],
+    "slug": "calling-card",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner",
+        "sleight"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "5ufkTaG2KTBp2FAp",
+  "sort": 0,
+  "_key": "!items!5ufkTaG2KTBp2FAp"
+}

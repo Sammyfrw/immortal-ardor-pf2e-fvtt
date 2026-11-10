@@ -932,7 +932,9 @@
             "Charisma": "Charisma"
           },
           "Features": {
-            "KeenDealerLabel": "Keen Dealer 1st Strike"
+            "KeenDealerLabel": "Keen Dealer 1st Strike",
+            "GambitsAcesTitle": "Gambit's Aces",
+            "GambitsAcesDescription": "When you cast a Gambit’s Ace spell with your spell slots that has a cast time of one to three actions, you can @UUID[Compendium.immortal-ardor.classes.9Tbqe5G8pdrrOUfT]{Draw Card} and hold an additional card until the start of your next turn. If the spell has a cast time of greater than three actions, you can Draw a card and hold an additional card until the start of your second turn after rolling initiative when you normally would have access to cardplay actions before your next daily preparations. @UUID[Compendium.immortal-ardor.classes.FRehHybZHJtYBG4F]{Cardplay: Max Held Cards}"
           }
         }
       }

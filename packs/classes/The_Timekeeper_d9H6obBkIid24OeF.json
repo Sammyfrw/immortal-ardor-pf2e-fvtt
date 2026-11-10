@@ -22,6 +22,26 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.immortal-ardor.classes.Item.BU3l8JfoPEij2idh"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:deja-vu",
+              "item:slug:loose-times-arrow",
+              "item:slug:slow",
+              "item:slug:translocate",
+              "item:slug:rewinding-step",
+              "item:slug:entropy"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "gambits-aces"
       }
     ],
     "slug": "the-timekeeper",

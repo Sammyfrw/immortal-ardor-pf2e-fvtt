@@ -1,0 +1,90 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Starry Road",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You can trace celestial bodies’ location to places on the plane and planet you exist in, and have the power to travel through these lines. You learn the @UUID[Compendium.pf2e.spells-srd.69L70wKfGDY66Mk9]{Teleport} spell at 6th rank and add it to your Gambit’s Ace spells. You also learn the @UUID[Compendium.pf2e.spells-srd.5ZW1w9f4gWlSIuWA]{Teleportation Circle} ritual. If you already have the Teleport spell in your repertoire, you can learn another common spell or spell you have access to and add it to your repertoire.</p><p class=\"MsoNormal\">When you cast these spells or the ritual when the stars are clearly visible, you reduce the imprecision of where you appear by 100 miles and reduce the DC of the Ritual, typically to a Hard DC.</p>"
+    },
+    "rules": [
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:teleport"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "gambits-aces"
+      }
+    ],
+    "slug": "starry-road",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "3N5bIrx1QeFPKfLy",
+  "sort": 1300000,
+  "_key": "!items!3N5bIrx1QeFPKfLy"
+}

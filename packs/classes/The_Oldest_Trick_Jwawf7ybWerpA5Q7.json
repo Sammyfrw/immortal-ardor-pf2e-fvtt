@@ -1,0 +1,73 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "The Oldest Trick",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p style=\"border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><strong>Trigger</strong> A creature within 30 feet of you takes a hostile action against you or your allies.</p><div><p class=\"MsoNormal\"><strong>Frequency </strong>Once per day</p><hr></div><p class=\"MsoNormal\">When you have no other options, you trust your chances to the simplest determinant you have. You flip a coin. Alternatively, you can do a special Card Draw and Play for this reaction which does not interact with or trigger any other feature. You treat a suit number of 1-3 for Tails and a suit’s number of 4-6 as Heads. You cannot use Sleights, Fortune, or Misfortune effects on this coin toss.</p><p class=\"MsoNormal\">If the coin lands on Heads, you disrupt the action if the creature is of your level or lower as fate erases the act from happening. Otherwise, you make a counteract check with your spellcasting modifier. If the action is a spell or has a defined rank you use the spell rank or effect rank as the rank to counteract against, otherwise you use half the creature’s level rounded up. On a success, you disrupt the action.</p><p class=\"MsoNormal\">If the coin lands on Tails, if the hostile action is targeting you it is automatically a critical success against you or you automatically critically fail the saving throw. Regardless, you also @UUID[Compendium.immortal-ardor.classes.arhOfryj6gDtqwZO]{Effect: Bust!} after resolving the action’s outcomes.</p>"
+    },
+    "rules": [],
+    "slug": "the-oldest-trick",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Jwawf7ybWerpA5Q7",
+  "sort": 0,
+  "_key": "!items!Jwawf7ybWerpA5Q7"
+}
