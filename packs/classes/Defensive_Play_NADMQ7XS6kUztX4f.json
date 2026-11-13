@@ -1,0 +1,75 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Defensive Play",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You channel the power in your cards into a protective barrier. You Play a card and grant yourself a +1 circumstance bonus to AC for 1 round. If you Play a card of the Constitution or Wisdom suites, this bonus increases to +2 instead. If you Play a card of the Charisma suit, you gain no bonus.</p><p>@UUID[Compendium.immortal-ardor.classes.W40ssK5Hb3usfAlS]{Effect: Defensive Play}</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you are wielding a shield, you can @UUID[Compendium.pf2e.actionspf2e.xjGwis0uaC2305pm]{Raise a Shield} when you Defensive Play. You benefit from this action’s circumstance bonus if it is higher than your shield’s AC bonus, and you gain the Shield Block feat for the duration.</p>"
+    },
+    "rules": [],
+    "slug": "defensive-play",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "defend",
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "NADMQ7XS6kUztX4f",
+  "sort": 2000000,
+  "_key": "!items!NADMQ7XS6kUztX4f"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "NZ3f9fXmhh8qJINx",
+  "name": "Diviner Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You cast spells like a diviner. You gain access to the Cast a Spell activity. You gain a spell repertoire with two common cantrips from the occult tradition, or any other cantrips of that tradition you learn or discover. You’re trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for diviner archetype spells is Charisma.</p><p class=\"MsoNormal\">Select a @UUID[Compendium.immortal-ardor.classes.ibGOA1P8KBh6ygup]{Diviner's Gambit}. You become trained in the gambit’s skill, and gain the action or activity associated with the gambit’s style, but no other benefits or feats. The action associated with the gambit’s style does not improve with your level if it does so.</p><p class=\"MsoNormal\">You gain the @UUID[Compendium.immortal-ardor.classes.SEKuavIkP5CSkCxi]{Cardplay} feature, and gain the Draw Card, Hold Card, Play Card and Standard Play actions. However, for you Draw Card costs 1 action that you can take during your turn, and you can only use one action with the Cardplay trait during your turn, not including subordinate actions that have this trait.</p><p class=\"MsoNormal\"><strong>Special </strong>You cannot gain another dedication feat until you have gained two other feats from the Diviner archetype.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.ibGOA1P8KBh6ygup"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.SEKuavIkP5CSkCxi"
+      }
+    ],
+    "slug": "diviner-dedication",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Ej9smCnf9qyrHWrR",
+  "sort": 50000,
+  "_key": "!items!Ej9smCnf9qyrHWrR"
+}

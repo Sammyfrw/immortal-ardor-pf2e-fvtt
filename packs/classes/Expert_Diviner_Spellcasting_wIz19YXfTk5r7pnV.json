@@ -1,27 +1,27 @@
 {
-  "folder": "YN98XSz3i0bXGAwA",
-  "name": "Fortitude Expertise",
+  "folder": "NZ3f9fXmhh8qJINx",
+  "name": "Expert Diviner Spellcasting",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">Your physique has grown hardy in your adventures. Your proficiency rank for Fortitude saves increases to expert.</span></p>"
+      "value": "<p>You gain the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DOc3Pf8wmVxanTIv#expert-spellcasting-feat]{Expert Spellcasting Benefits}.</p>"
     },
     "rules": [],
-    "slug": "fortitude-expertise",
+    "slug": "expert-diviner-spellcasting",
     "_migration": {
-      "version": 0.955,
+      "version": 0.959,
       "previous": {
-        "schema": 0.953,
-        "foundry": "13.351",
-        "system": "7.10.1"
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "artifex"
+        "archetype"
       ],
       "rarity": "common"
     },
@@ -32,9 +32,9 @@
       "remaster": true
     },
     "level": {
-      "value": 9
+      "value": 12
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -44,34 +44,34 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Basic Diviner Spellcasting"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {
-      "proficiencies": {
-        "fortitude": {
-          "rank": 2
-        }
-      },
+      "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
     }
   },
-  "img": "icons/magic/life/cross-explosion-burst-green.webp",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "exportSource": null
   },
-  "_id": "jCZebs5RrQyxOEjX",
-  "sort": 1100000,
-  "_key": "!items!jCZebs5RrQyxOEjX"
+  "_id": "wIz19YXfTk5r7pnV",
+  "sort": 25000,
+  "_key": "!items!wIz19YXfTk5r7pnV"
 }

@@ -1,0 +1,79 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Blind Draw",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p style=\"border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in\" class=\"MsoNormal\"><strong>Trigger </strong>Your next action has the Cardplay trait or is to Cast a Spell with the Cardplay trait, and it requires you to Play a Card.</p><p class=\"MsoNormal\"><strong>Frequency </strong>Once per round</p><hr></div><p class=\"MsoNormal\">You throw caution to the wind and rely entirely on the whims of luck as you leap headfirst. The GM secretly Draws a Card before the triggering action or spell, and you must use it, even if it lets you Draw a card as part of it and normally affords you the opportunity to choose a card from your hand to Play. You determine any targets for the triggering action and Play the card as necessary, only knowing the card drawn as you play. If the action or spell requires or can use multiple cards, Blind Draw only contributes a single extra card.</p>"
+    },
+    "rules": [],
+    "slug": "blind-draw",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner",
+        "secret"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "QWuob3e8TJCErUoP",
+  "sort": 2100000,
+  "_key": "!items!QWuob3e8TJCErUoP"
+}

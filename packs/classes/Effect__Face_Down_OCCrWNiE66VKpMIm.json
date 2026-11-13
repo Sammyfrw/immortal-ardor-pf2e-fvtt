@@ -1,0 +1,140 @@
+{
+  "folder": "k9qeflOZFfp4CALE",
+  "name": "Effect: Face Down",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.ptmCIMlF9zlrWDVT]{Face Down}</p><p>You gain resistance to physical damage equal to the rank of the triggering spell, and a +1 status bonus to a saving throw depending on the suit of the card played for this effect.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Diviner.Cardplay.PromptText",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Strength",
+            "value": 1
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Dexterity",
+            "value": 1
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Constitution",
+            "value": 2
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Intelligence",
+            "value": 1
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Wisdom",
+            "value": 2
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Charisma",
+            "value": 0
+          }
+        ],
+        "flag": "faceDownCard",
+        "rollOption": "face-down-card"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "circumstance",
+        "selector": [
+          "fortitude"
+        ],
+        "predicate": [
+          "face-down-card:fortitude"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "face-down-card:reflex"
+        ],
+        "selector": [
+          "reflex"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "face-down-card:will"
+        ],
+        "selector": [
+          "will"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "physical",
+        "value": "max(1,floor(@item.level))"
+      }
+    ],
+    "slug": "effect-face-down",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/defensive/shield-hex-purple.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "OCCrWNiE66VKpMIm",
+  "sort": 300000,
+  "_key": "!items!OCCrWNiE66VKpMIm"
+}

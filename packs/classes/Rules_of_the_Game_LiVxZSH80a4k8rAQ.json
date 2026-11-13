@@ -1,0 +1,79 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Rules of the Game",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You can manipulate the outcome of chance to get the result you want. When you make an attack roll with a simple agile or finesse weapon, you can use the Sleight effect of this feat.</p><p class=\"MsoNormal\"><strong>Sleight </strong>You can Play a card to increase the dice roll value of the attack roll, while forgoing any circumstance or status bonuses the attack roll might have. The suit of the card determines the increase from 1-6. As this directly adjusts the dice roll, if this would make the outcome of the roll a critical hit, it does so. However, if this would adjust the dice roll to exceed a 20, it becomes a critical miss as if you rolled a 1.</p>"
+    },
+    "rules": [],
+    "slug": "rules-of-the-game",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner",
+        "sleight"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Gambler gambit"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "LiVxZSH80a4k8rAQ",
+  "sort": 0,
+  "_key": "!items!LiVxZSH80a4k8rAQ"
+}

@@ -1,0 +1,73 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Two Pal Act",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You have a tiny friend who is your compatriot in your activities. You gain a familiar. Unlike a normal familiar, your familiar can hold onto one card from your hand. As a single Concentrate action while within 30 feet of it, you can magically materialize a card from your hand into its form. While it has this card, it counts as being part of your hand and is subject to the limitation of you only being able to hold a number of cards at a time. If it can no longer communicate with you or if it dies, the card it carries disappears as if it was discarded.</p><p class=\"MsoNormal\">While within 30 feet of you, you can use the card it carries for an action or spell with the Cardplay trait, though you can always communicate with it to discard a card you do not need or cannot carry. If the spell or action targets a single creature within range or creatures within an area, you can use the action from the Familiar’s space or cast the spell as if you were in the familiar’s place. The familiar must meet the spell’s other requirements.</p>"
+    },
+    "rules": [],
+    "slug": "two-pal-act",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "VUA5Fs4sxpcZrqsS",
+  "sort": 2400000,
+  "_key": "!items!VUA5Fs4sxpcZrqsS"
+}

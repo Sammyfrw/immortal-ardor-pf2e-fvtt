@@ -1,0 +1,74 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Playing Pairs",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You have learned how to play two possible fortunes simultaneously, either unifying them to a single new future, or affecting two individual futures at once. You make a Standard Play with two cards in your hand. You can either Play both cards at the same target, or two separate ones. If you Play two cards of the same suit at the same target, you increase the status bonus the Standard Play effect by 1 (or 2 if the suit of Strength was Played).</p><p>@UUID[Compendium.immortal-ardor.classes.0dbIsLZKVbUpj1RI]{Effect: Playing Pairs}</p>"
+    },
+    "rules": [],
+    "slug": "playing-pairs",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "EMefnLop4zNEkkwn",
+  "sort": 500000,
+  "_key": "!items!EMefnLop4zNEkkwn"
+}

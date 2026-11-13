@@ -1,0 +1,74 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Deft Gambit Stance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements </strong>You are wielding a weapon with the two-hand trait or a weapon that requires 1+ hands to use.</p><hr></div><p class=\"MsoNormal\">You position your weapon in such a way that you can interact with your Diviner’s Deck with ease while wielding it. While you are in this stance, you can make two-handed Strikes with the required weapon while holding your cards in one hand. You bypass the need to adjust your grip as part of your Strikes.</p><p>@UUID[Compendium.immortal-ardor.classes.N1m3buxpKKJgHvRP]{Stance: Deft Gambit Stance}</p>"
+    },
+    "rules": [],
+    "slug": "deft-gambit-stance",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner",
+        "stance"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "9k0yOex2OHprAk6L",
+  "sort": 1600000,
+  "_key": "!items!9k0yOex2OHprAk6L"
+}

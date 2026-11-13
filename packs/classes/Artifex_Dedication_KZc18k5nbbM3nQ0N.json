@@ -1,0 +1,91 @@
+{
+  "folder": "MhCin9aHnSFccQ1L",
+  "name": "Artifex Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Choose an @UUID[Compendium.immortal-ardor.classes.pfw3WuysLnDZgvmr]{Artifex's Medium} and an @UUID[Compendium.immortal-ardor.classes.U0WZMVl0PfqtjqPU]{Artifex's Motif}. You gain the visionary skill of the Medium and the favored tradition of the Motif, but no other benefits. You gain a @UUID[Compendium.immortal-ardor.classes.U1FYaVliZ1sxtJRn]{Catalyst Cache}, and create up to 4 ephemeral catalysts each day during your daily preparations, but you do not regain ephemeral catalysts the way an Artifex would and you do not gain the Catalyze Spell action.</p><p class=\"MsoNormal\">You cast spells like an Artifex, gaining a portfolio with four common cantrips of your choice from any tradition. You gain the Cast a Spell activity. You can prepare two cantrips each day from your portfolio. You’re trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute is the key attribute score of your chosen Medium, and they are of your Motif’s favored tradition.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.pfw3WuysLnDZgvmr"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.immortal-ardor.classes.Item.U0WZMVl0PfqtjqPU"
+      }
+    ],
+    "slug": "artifex-dedication",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Intelligence +2"
+        },
+        {
+          "value": "Charisma +2"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "KZc18k5nbbM3nQ0N",
+  "sort": 0,
+  "_key": "!items!KZc18k5nbbM3nQ0N"
+}

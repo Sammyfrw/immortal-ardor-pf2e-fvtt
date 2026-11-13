@@ -1,27 +1,27 @@
 {
-  "folder": "YN98XSz3i0bXGAwA",
-  "name": "Legendary Spellcaster",
+  "folder": "MhCin9aHnSFccQ1L",
+  "name": "Master Artifex Spellcasting",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><span lang=\"EN\">Your skill in identifying and experimenting with the distant limits of magic through spellcraft is unparalleled. You become Legendary in spell attacks and spell DCs.</span></p>"
+      "value": "<p class=\"MsoNormal\">You gain Master Flexible Spellcasting Benefits.</p>"
     },
     "rules": [],
-    "slug": "legendary-spellcaster",
+    "slug": "master-artifex-spellcasting",
     "_migration": {
-      "version": 0.955,
+      "version": 0.959,
       "previous": {
-        "schema": 0.953,
-        "foundry": "13.351",
-        "system": "7.10.1"
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "artifex"
+        "archetype"
       ],
       "rarity": "common"
     },
@@ -32,9 +32,9 @@
       "remaster": true
     },
     "level": {
-      "value": 19
+      "value": 18
     },
-    "category": "classfeature",
+    "category": "class",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -44,35 +44,37 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Expert Artifex Spellcasting"
+        },
+        {
+          "value": "Legendary in your visionary skill or skill associated with your favored tradition"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {
-      "proficiencies": {
-        "spellcasting": {
-          "rank": 4,
-          "attribute": null
-        }
-      },
+      "proficiencies": {},
       "senses": {},
       "suppressedFeatures": []
     }
   },
-  "img": "icons/sundries/books/book-open-purple.webp",
+  "img": "icons/sundries/books/book-purple-cross.webp",
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "exportSource": null
   },
-  "_id": "k3ilvTgwXxCaJA5E",
+  "_id": "pH5A7bGGf0qRzhMO",
   "sort": 0,
-  "_key": "!items!k3ilvTgwXxCaJA5E"
+  "_key": "!items!pH5A7bGGf0qRzhMO"
 }

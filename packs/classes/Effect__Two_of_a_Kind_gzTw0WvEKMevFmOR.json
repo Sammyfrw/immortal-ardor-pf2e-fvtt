@@ -1,0 +1,69 @@
+{
+  "folder": "k9qeflOZFfp4CALE",
+  "name": "Effect: Two of a Kind",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Granted by @UUID[Compendium.immortal-ardor.classes.B7MHFue2kMT7Tsln]{Two of a Kind}</p><p class=\"MsoNormal\">You Play two cards of the same suit; its effects are dependent on the suit of the cards Played:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Strength/Dexterity</strong>: You make a Strike at a creature you can reach or within range. You roll the attack roll twice and take the better result; this is a Fortune effect.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Intelligence/Charisma</strong>: You can Cast a Spell which has a cast time of up to 3 actions, adding the number of actions necessary to complete the spell. This action contributes 1 action to the spell. If it requires a saving throw, one target must roll their saving throw twice and take the worse result; this is a Misfortune effect. If it requires an attack roll, you roll your attack roll twice and take the higher result; this is a Fortune effect.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Constitution/Wisdom</strong>: Your next Foreteller spell within 1 minute does not cost a focus point.</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "effect-two-of-a-kind",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/sundries/gaming/playing-cards-grey.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "gzTw0WvEKMevFmOR",
+  "sort": 0,
+  "_key": "!items!gzTw0WvEKMevFmOR"
+}

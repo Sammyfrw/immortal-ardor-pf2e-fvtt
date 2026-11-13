@@ -1,0 +1,74 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Recall Story",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Even after you’ve expended its power, you can reclaim a story’s power to be told a second time. Whenever you use a Cardplay action that Plays a Card, you can use the Sleight effect of this feat.</p><p class=\"MsoNormal\"><strong>Sleight </strong>You recall the card used in the action back into your hand. If it was a Wild Card, it returns as the suit you designate it as.</p>"
+    },
+    "rules": [],
+    "slug": "recall-story",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner",
+        "sleight"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "s3BEIBvuPpJxNIy2",
+  "sort": 0,
+  "_key": "!items!s3BEIBvuPpJxNIy2"
+}

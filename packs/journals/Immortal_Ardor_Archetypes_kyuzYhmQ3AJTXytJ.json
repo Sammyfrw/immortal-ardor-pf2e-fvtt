@@ -182,7 +182,7 @@
       "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.n4hqsmYDoXWNNCoM"
     },
     {
-      "sort": 75000,
+      "sort": 25000,
       "name": "Chimerian",
       "type": "text",
       "_id": "orDz837AfGuNQRfx",
@@ -396,6 +396,78 @@
         "exportSource": null
       },
       "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.whDFbR0gNQEbO7FB"
+    },
+    {
+      "sort": 62500,
+      "name": "Diviner",
+      "type": "text",
+      "_id": "PHmIqRDRA4p1ZhBS",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>You have dabbled in the magic of weaving fates, acquiring your own set of enchanted divining cards to help nudge the future in your favor.</p><h2>@UUID[Compendium.immortal-ardor.classes.Ej9smCnf9qyrHWrR]{Diviner Dedication} <span style=\"float:right\">Feat 2</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li class=\"tag traits\"><p>dedication</p></li><li class=\"tag traits\"><p>multiclass</p></li><li><p><span lang=\"EN\">@Embed[</span>Compendium.immortal-ardor.classes.Ej9smCnf9qyrHWrR<span lang=\"EN\"> inline]</span></p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.ti0ib1lNM2hvkI8v]{Basic Divination}<span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.ti0ib1lNM2hvkI8v inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.2qu9nhw7pIUlVBdm]{Foreteller's Reading}<span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.2qu9nhw7pIUlVBdm inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.OXMADQOWURLn3mMS]{Basic Diviner Spellcasting} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.OXMADQOWURLn3mMS inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.hGk29HX9b2DSz5F4]{Advanced Divination} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.hGk29HX9b2DSz5F4 inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.pRqle4LcPc7ZmPaZ]{Practiced Hand} <span style=\"float:right\">Feat 8</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.pRqle4LcPc7ZmPaZ inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.wIz19YXfTk5r7pnV]{Expert Diviner Spellcasting} <span style=\"float:right\">Feat 12</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.wIz19YXfTk5r7pnV inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.uZzVKusEeZxbp58a]{Master Diviner Spellcasting}<br><span style=\"float:right\">Feat 18</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.uZzVKusEeZxbp58a inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.PHmIqRDRA4p1ZhBS"
+    },
+    {
+      "sort": 12500,
+      "name": "Artifex",
+      "type": "text",
+      "_id": "sc7hP4ZuN0tCGgOD",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>You have dabbled in the magic of weaving fates, acquiring your own set of enchanted divining cards to help nudge the future in your favor.</p><h2>@UUID[Compendium.immortal-ardor.classes.KZc18k5nbbM3nQ0N]{Artifex Dedication} <span style=\"float:right\">Feat 2</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li class=\"tag traits\"><p>dedication</p></li><li class=\"tag traits\"><p>multiclass</p></li><li><p><span lang=\"EN\">@Embed[</span>Compendium.immortal-ardor.classes.KZc18k5nbbM3nQ0N<span lang=\"EN\"> inline]</span></p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.GSQQKlOT8LmL1Qqp]{Basic Artifex Spellcasting}<span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.GSQQKlOT8LmL1Qqp inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.PjgYimTKWLdOulKz]{Visionary Foundation} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.PjgYimTKWLdOulKz inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.9PbH2qvIKfsIlVVF]{Basic Artifice} <span style=\"float:right\">Feat 4</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.9PbH2qvIKfsIlVVF inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.OXMADQOWURLn3mMS]{Basic Diviner Spellcasting} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.OXMADQOWURLn3mMS inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.DvWWPxonIa37rVUF]{Advanced Artifice} <span style=\"float:right\">Feat 6</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p></p></li><li><p>@Embed[Compendium.immortal-ardor.classes.DvWWPxonIa37rVUF inline]</p></li></ul><h2>@UUID[Compendium.immortal-ardor.classes.cdEwnyx1QTv93ZyW]{Expert Artifex Spellcasting}<span style=\"float:right\">Feat 12</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.cdEwnyx1QTv93ZyW inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.TyZO34xoh7pwGoSU]{Empowering Catalysts} <span style=\"float:right\">Feat 14</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.TyZO34xoh7pwGoSU inline]</p><h2>@UUID[Compendium.immortal-ardor.classes.pH5A7bGGf0qRzhMO]{Master Artifex Spellcasting}<br><span style=\"float:right\">Feat 18</span></h2><ul class=\"tags paizo-style\"><li class=\"tag traits\"><p>archetype</p></li></ul><p>@Embed[Compendium.immortal-ardor.classes.pH5A7bGGf0qRzhMO inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "xrtJn5KNHicBTyJb": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!kyuzYhmQ3AJTXytJ.sc7hP4ZuN0tCGgOD"
     }
   ],
   "folder": null,

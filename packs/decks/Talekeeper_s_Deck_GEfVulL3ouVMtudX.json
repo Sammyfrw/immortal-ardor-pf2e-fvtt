@@ -1,0 +1,651 @@
+{
+  "name": "Talekeeper's Deck",
+  "_id": "GEfVulL3ouVMtudX",
+  "img": "systems/pf2e/icons/equipment/artifacts/deck-of-many-things.webp",
+  "description": "<div><p class=\"MsoNormal\">The Talekeeper Deck is often used by Diviners, consisting of pair of 12-card sets – a set of Astral Cards that represent the Constellations of the skies, and a set of Tale Cards that represent The Hero’s Journey. Each card is affiliated with a particular suit, and there is an equal distribution of cards to suits. A card can be drawn ‘awake’, with their head up or ‘asleep’ with their head down. With all this in mind, there are 48 possible outcomes for any given draw, each aligned with one of the six suits.</p><p class=\"MsoNormal\">Odd numbers are for head facing down, even numbers are for head facing up.</p></div>",
+  "results": [
+    {
+      "_id": "TSJA4yhVvBxpIvaJ",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.PbMMrXsT9blVBram inline]</p>",
+      "name": "Astral Card - Aigostar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.PbMMrXsT9blVBram",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.TSJA4yhVvBxpIvaJ"
+    },
+    {
+      "_id": "KU5o08qdXoGexwAA",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.rZXDiNZr6DFc3KGH inline]</p>",
+      "name": "Astral Card - Tidestar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.rZXDiNZr6DFc3KGH",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.KU5o08qdXoGexwAA"
+    },
+    {
+      "_id": "0RDsRQ5ryjKFYVCZ",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.AIlVOKyNrPwGtggM inline]</p>",
+      "name": "Astral Card - Sailstar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.AIlVOKyNrPwGtggM",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.0RDsRQ5ryjKFYVCZ"
+    },
+    {
+      "_id": "Yw8j91Q1uKSlIjj3",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.a1Ya51zC54RJ2NgF inline]</p>",
+      "name": "Astral Card - Kriostar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.a1Ya51zC54RJ2NgF",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.Yw8j91Q1uKSlIjj3"
+    },
+    {
+      "_id": "g0fQYXbgY44KBKKv",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.TIWyjBEFcnEvLN8z inline]</p>",
+      "name": "Astral Card - Taurostar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.TIWyjBEFcnEvLN8z",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.g0fQYXbgY44KBKKv"
+    },
+    {
+      "_id": "0UJufrGgC27EcIsy",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.7ZvKocyPkoZ897Wk inline]</p>",
+      "name": "Astral Card - Twinstar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.7ZvKocyPkoZ897Wk",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.0UJufrGgC27EcIsy"
+    },
+    {
+      "_id": "5gZxfkGGDXy0w8WX",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        13,
+        14
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.dbeZLsHO4vPMFEIA inline]</p>",
+      "name": "Astral Card - Karkinstar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.dbeZLsHO4vPMFEIA",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.5gZxfkGGDXy0w8WX"
+    },
+    {
+      "_id": "5qWcybFogYY1TUKl",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        15,
+        16
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.KzSd1iuZUNalRHek inline]</p>",
+      "name": "Astral Card - Leostar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.KzSd1iuZUNalRHek",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.5qWcybFogYY1TUKl"
+    },
+    {
+      "_id": "NvfDUromL5BXyiaa",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.iEbkIThduhmVBplS inline]</p>",
+      "name": "Astral Card - Maidenstar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.iEbkIThduhmVBplS",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.NvfDUromL5BXyiaa"
+    },
+    {
+      "_id": "2SNGoSk0i0dcr1nw",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.WYRI29HORmtlPwyX inline]</p>",
+      "name": "Astral Card - Scalestar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.WYRI29HORmtlPwyX",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.2SNGoSk0i0dcr1nw"
+    },
+    {
+      "_id": "1KhRLudUkhCHLA3X",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        21,
+        22
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.2b2z9INz6hrCzTjH inline]</p>",
+      "name": "Astral Card - Tailstar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.2b2z9INz6hrCzTjH",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.1KhRLudUkhCHLA3X"
+    },
+    {
+      "_id": "3oA1T9RijdbHvy3J",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "weight": 1,
+      "range": [
+        23,
+        24
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.ulyiXHSNCZxlHkFH inline]</p>",
+      "name": "Astral Card - Arrowstar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.ulyiXHSNCZxlHkFH",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.3oA1T9RijdbHvy3J"
+    },
+    {
+      "_id": "C7T46yQr5a1TOPiA",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        25,
+        26
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.GYCbhr3exn9psQ1m inline]</p>",
+      "name": "Tale Card - Village At Dawn",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.GYCbhr3exn9psQ1m",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.C7T46yQr5a1TOPiA"
+    },
+    {
+      "_id": "ILRQEwdT3fgdGKtl",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        27,
+        28
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.OSYSGJf2fU8HA8Ks inline]</p>",
+      "name": "Tale Card - Adventurer's Departure",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.OSYSGJf2fU8HA8Ks",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.ILRQEwdT3fgdGKtl"
+    },
+    {
+      "_id": "KiEqFlWtZy7S6YRj",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        29,
+        30
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.e5PuwzYIR7vl6E71 inline]</p>",
+      "name": "Tale Card - Trial By Fire",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.e5PuwzYIR7vl6E71",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.KiEqFlWtZy7S6YRj"
+    },
+    {
+      "_id": "BOI2eM9JUsLAbTkq",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        31,
+        32
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.U0U8vsehdZ2AxYiX inline]</p>",
+      "name": "Tale Card - Coin and Drink",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.U0U8vsehdZ2AxYiX",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.BOI2eM9JUsLAbTkq"
+    },
+    {
+      "_id": "CzjVvyklwRKCEOZq",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        33,
+        34
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.uRT3b9UexGCrrTW3 inline]</p>",
+      "name": "Tale Card - Night's Embrace",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.uRT3b9UexGCrrTW3",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.CzjVvyklwRKCEOZq"
+    },
+    {
+      "_id": "XSbSmvXiMeGNQSRJ",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        35,
+        36
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.xkgHDF3fhA0YzFhI inline]</p>",
+      "name": "Tale Card - Blossoming Love",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.xkgHDF3fhA0YzFhI",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.XSbSmvXiMeGNQSRJ"
+    },
+    {
+      "_id": "Zxqk9QDyUqrXT74E",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        37,
+        38
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.RH9QkAUaeaNdD6be inline]</p>",
+      "name": "Tale Card - Heart's Tragedy",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.RH9QkAUaeaNdD6be",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.Zxqk9QDyUqrXT74E"
+    },
+    {
+      "_id": "rSGxITFoAb6EFwB1",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        39,
+        40
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.IzS4R4ecb6vzqAaP inline]</p>",
+      "name": "Tale Card - Veteran of War",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.IzS4R4ecb6vzqAaP",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.rSGxITFoAb6EFwB1"
+    },
+    {
+      "_id": "vVFHXCQbSdtA3Bc8",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        41,
+        42
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.8br89a2Xbb7m4dVr inline]</p>",
+      "name": "Tale Card - Road of Pursuit",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.8br89a2Xbb7m4dVr",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.vVFHXCQbSdtA3Bc8"
+    },
+    {
+      "_id": "dNj1l9EfKJunphor",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        43,
+        44
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.PyrJQfnL7tKokVkm inline]</p>",
+      "name": "Tale Card - Final Confrontation",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.PyrJQfnL7tKokVkm",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.dNj1l9EfKJunphor"
+    },
+    {
+      "_id": "IOAVbD9Qe76nxp0z",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        45,
+        46
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.U4n3oexSKIF05kZg inline]</p>",
+      "name": "Tale Card - Journey's End",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.U4n3oexSKIF05kZg",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.IOAVbD9Qe76nxp0z"
+    },
+    {
+      "_id": "ZlYfm9vzDXEbZjUd",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "weight": 1,
+      "range": [
+        47,
+        48
+      ],
+      "drawn": false,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.NcerGTmpq9U9TG3z inline]</p>",
+      "name": "Tale Card - New Beginnings",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.NcerGTmpq9U9TG3z",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.ZlYfm9vzDXEbZjUd"
+    },
+    {
+      "_id": "v0kmjVsdGvAeAj7T",
+      "flags": {},
+      "type": "document",
+      "img": "icons/sundries/gaming/rune-card.webp",
+      "range": [
+        49,
+        50
+      ],
+      "drawn": false,
+      "weight": 1,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.zwLfzfqr7OuyIoh1 inline]</p>",
+      "name": "Astral Card - Serpentstar",
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.zwLfzfqr7OuyIoh1",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.v0kmjVsdGvAeAj7T"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        51,
+        52
+      ],
+      "_id": "o4g2AziHvn4GR4yX",
+      "name": "Tale Card - Twist of Fate",
+      "img": "icons/sundries/gaming/playing-cards-grey.webp",
+      "description": "<p>@Embed[Compendium.immortal-ardor.classes.Item.rbpfmbma6qTj9T7N inline]</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "pf2e",
+        "systemVersion": "8.5.0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "documentUuid": "Compendium.immortal-ardor.classes.Item.rbpfmbma6qTj9T7N",
+      "_key": "!tables.results!GEfVulL3ouVMtudX.o4g2AziHvn4GR4yX"
+    }
+  ],
+  "replacement": false,
+  "displayRoll": true,
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "formula": "1d52",
+  "sort": 0,
+  "_key": "!tables!GEfVulL3ouVMtudX"
+}

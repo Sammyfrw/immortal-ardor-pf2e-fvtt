@@ -1,0 +1,74 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Pluck Destiny",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Trigger</strong> A creature within 60 feet of you attempts a roll that has the Fortune or Misfortune trait.</p><hr></div><p class=\"MsoNormal\">When you see fate turn upon another creature, you can interfere to give yourself an advantage. You attempt to counteract the Fortune or Misfortune effect by Playing a held card with your spellcasting modifier. On a success, you apply the opposing trait to the roll, canceling out the Fortune or Misfortune effect and causing the roll to be made normally. If you use this reaction on yourself, you automatically succeed.</p>"
+    },
+    "rules": [],
+    "slug": "pluck-destiny",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "toOlhIQtGqoIAzlq",
+  "sort": 3600000,
+  "_key": "!items!toOlhIQtGqoIAzlq"
+}

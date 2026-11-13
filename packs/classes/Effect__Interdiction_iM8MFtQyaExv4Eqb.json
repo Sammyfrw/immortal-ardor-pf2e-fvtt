@@ -1,0 +1,93 @@
+{
+  "folder": "k9qeflOZFfp4CALE",
+  "name": "Effect: Interdiction",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.uePF9dQJ4t2rQ124]{Interdiction}</p><p>You suffer a -1 status penalty to your next check or hostile action that would negatively affect the user's allies. If the suit of the card played matches the attribute modifier used for that check, this penalty increases to a -2.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Diviner.Cardplay.PromptText",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Matching",
+            "value": 2
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.NonMatching",
+            "value": 1
+          }
+        ],
+        "flag": "interdictionCard"
+      },
+      {
+        "key": "FlatModifier",
+        "value": "{item|flags.pf2e.rulesSelections.interdictionCard}",
+        "type": "status",
+        "selector": [
+          "check"
+        ]
+      }
+    ],
+    "slug": "effect-interdiction",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/movement/trail-streak-pink.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "iM8MFtQyaExv4Eqb",
+  "sort": 800000,
+  "_key": "!items!iM8MFtQyaExv4Eqb"
+}

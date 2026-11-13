@@ -1,0 +1,74 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Reactive Play",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You can play your cards in such a way that they will be used when they are needed the most. You can @UUID[Compendium.pf2e.actionspf2e.dLgAMt3TbkmLkUqE]{Ready} with one action to do a @UUID[Compendium.immortal-ardor.classes.k9UB3L2ddh2b03Wb]{Standard Play} as a reaction with a trigger you designate. When you Ready to do a Standard Play, your Card leaves your hand as if it was Played. If the Reaction is not used by the time your turn begins, the Card is lost.</p>"
+    },
+    "rules": [],
+    "slug": "reactive-play",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "RG9PTaxJGppXTYLk",
+  "sort": 2200000,
+  "_key": "!items!RG9PTaxJGppXTYLk"
+}

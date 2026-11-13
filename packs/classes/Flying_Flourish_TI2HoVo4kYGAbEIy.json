@@ -1,0 +1,75 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Flying Flourish",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">Your cards are extensions of your reach into the wide world, and you can shift to wherever they may land. You @UUID[Compendium.immortal-ardor.classes.hsCJT2h2dgISso8T]{Play Card} and toss it to a space within 30 feet of you, and a force shifts you towards it. If you are unable to move towards it (such as if the movement would make you collide with a creature), you move as close as possible to it. The suit of the card determines how you maneuver to where your card is tossed.</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Strength/Constitution</strong>: The force slides you up to 30 feet towards the card as if you made a Stride, ignoring difficult terrain and treating greater difficult terrain as difficult terrain.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Dexterity/Intelligence</strong>: You are launched in an arc as if you did a Leap, up to 30 feet vertically and horizontally towards the card.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Wisdom/Charisma</strong>: You teleport to the space.</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "flying-flourish",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "TI2HoVo4kYGAbEIy",
+  "sort": 0,
+  "_key": "!items!TI2HoVo4kYGAbEIy"
+}

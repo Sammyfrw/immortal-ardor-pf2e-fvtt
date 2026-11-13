@@ -1,0 +1,61 @@
+{
+  "folder": "sN99KRW0Q9f4rDVG",
+  "name": "Cascade Potential",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<div><p class=\"MsoNormal\"><strong>Trigger </strong>You make a check and you haven’t rolled yet, or you die.</p><hr></div><p class=\"MsoNormal\">The power of all the untapped potential spins out of the card, enabling you to commit to impossible feats and miracles. If you were about to make a check, you treat the roll outcome as if you had rolled a 20 in place of rolling the dice.</p><p class=\"MsoNormal\">If you were about to die, the potential works to rearrange where you are meant to be at the moment of your supposed death. You vanish, and appear elsewhere, negating the cause of your death. Typically, you appear in a safe place you would have been should the creator of the card had made a different course of action. The GM ultimately determines where this would be.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "cascade-potential",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner",
+        "fortune"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": true,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "KzJvMxp23cF7ZCPb",
+  "sort": 0,
+  "_key": "!items!KzJvMxp23cF7ZCPb"
+}

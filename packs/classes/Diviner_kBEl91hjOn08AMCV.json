@@ -1,0 +1,261 @@
+{
+  "folder": "vvcwKY0LTGU0ReJD",
+  "name": "Diviner",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><em>The Diviner is one who manipulates fate. They make use of games of chance or divining tools, and tap into the desire for victory and certainty to shape their and others’ futures. They might lay themselves on the bed of chance, and see what they may gain by not fighting its currents. They draw upon the powers of the stars or read them to create their own fates, and slice through the weave of time to tug and push it to their whim.</em></p><p>@UUID[Compendium.immortal-ardor.journals.JournalEntry.Uyqkrx0RlxN9mMgS.JournalEntryPage.YCIcV7GFgEnMErTi]{Diviner}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "diviner",
+    "traits": {
+      "otherTags": [],
+      "rarity": "uncommon"
+    },
+    "items": {
+      "vZxSR": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.SEKuavIkP5CSkCxi",
+        "img": "icons/sundries/gaming/card-astronomy-pink.webp",
+        "name": "Cardplay",
+        "level": 1
+      },
+      "Sj5Uj": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.dpEy72OzHYhuiyOI",
+        "img": "icons/skills/ranged/arrow-strike-glowing-teal.webp",
+        "name": "Deft Hands",
+        "level": 15
+      },
+      "V0tjc": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.DNTxDH3putQJIhPj",
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "name": "Diviner Expert Spellcaster",
+        "level": 7
+      },
+      "Z2RHh": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.Eit54bHTcOcSeYkL",
+        "img": "icons/magic/life/cross-explosion-burst-green.webp",
+        "name": "Diviner Fortitude Expertise",
+        "level": 5
+      },
+      "2s6P7": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.gqALFLGNIgFAVoaL",
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "name": "Diviner Legendary Spellcaster",
+        "level": 19
+      },
+      "iwdGG": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.EclD8fsYLYhuuX6m",
+        "img": "icons/equipment/back/mantle-collared-green.webp",
+        "name": "Diviner Light Armor Expertise",
+        "level": 13
+      },
+      "4t3Oj": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.hRThKYtbITj222DD",
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "name": "Diviner Master Spellcaster",
+        "level": 15
+      },
+      "Wwofe": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.i81JlPODqF8fc8UA",
+        "img": "icons/magic/light/orbs-firefly-hand-yellow.webp",
+        "name": "Diviner Spellcasting",
+        "level": 1
+      },
+      "9YrQA": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.px6yOepaHIfPkKyT",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Diviner Weapon Expertise",
+        "level": 11
+      },
+      "gdSA2": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.LNsiuiKQf3PFOLIu",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Diviner Weapon Specialization",
+        "level": 13
+      },
+      "b2l2f": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.ibGOA1P8KBh6ygup",
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "name": "Diviner's Gambit",
+        "level": 1
+      },
+      "3cfr8": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.SorxAbGfAGWKAQfC",
+        "img": "icons/sundries/gaming/game-playing-cards-deck.webp",
+        "name": "Fold",
+        "level": 13
+      },
+      "tGIky": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.DhEBdcIjyZT9fCTa",
+        "img": "icons/sundries/gaming/gaming-set-cards.webp",
+        "name": "Gambit's Aces",
+        "level": 7
+      },
+      "oh2gr": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.ljRhSNFfSJvoTOag",
+        "img": "icons/sundries/gaming/rune-card.webp",
+        "name": "Heavy Draw",
+        "level": 5
+      },
+      "hxEId": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.0v0n1Vop3eZKcTB1",
+        "img": "icons/magic/perception/hand-eye-fire-blue.webp",
+        "name": "Prescient Sight",
+        "level": 9
+      },
+      "wizKK": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.U8GG1VEN3YckUzmY",
+        "img": "icons/sundries/gaming/playing-cards.webp",
+        "name": "Signature Sleight",
+        "level": 9
+      },
+      "F2vsi": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.VKRjmXxBFLrJK01c",
+        "img": "systems/pf2e/icons/features/classes/signature-spells-bard.webp",
+        "name": "Signature Spells (Diviner)",
+        "level": 3
+      },
+      "37oXw": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.Ta2tCSoxiTHZ9jOM",
+        "img": "icons/sundries/gaming/playing-cards-black.webp",
+        "name": "Starting Hand",
+        "level": 3
+      },
+      "ZOmWX": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.kpl67xMxv8nOmLjj",
+        "img": "icons/magic/perception/mask-stone-eyes-orange.webp",
+        "name": "Unburdened Mind",
+        "level": 11
+      },
+      "FVlRH": {
+        "uuid": "Compendium.immortal-ardor.classes.Item.zHkzX5L4huTn3YJb",
+        "img": "icons/sundries/misc/admission-ticket-blue.webp",
+        "name": "Wild Card",
+        "level": 17
+      }
+    },
+    "keyAbility": {
+      "value": [
+        "cha"
+      ],
+      "selected": null
+    },
+    "hp": 8,
+    "perception": 2,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 2,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "rank": 0,
+        "name": ""
+      }
+    },
+    "defenses": {
+      "unarmored": 0,
+      "light": 1,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 1,
+    "trainedSkills": {
+      "value": [],
+      "additional": 3
+    },
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "_id": "kBEl91hjOn08AMCV",
+  "img": "icons/environment/cosmos/astronomy-planetary-orbits.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kBEl91hjOn08AMCV"
+}

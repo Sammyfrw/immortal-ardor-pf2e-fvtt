@@ -1,0 +1,100 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "House of Cards",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can create a pocket of space that serves all your interests; whether it’s an astronomy tower, a gaming house or a palace for your ill-gotten gains, you can retreat into this space and invite others as you see fit. You learn the @UUID[Compendium.pf2e.spells-srd.vPWMEyVTreMOoFnm]{Planar Palace} spell at 7th rank and add it to your Gambit’s Aces.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you also have the @UUID[Compendium.immortal-ardor.classes.3N5bIrx1QeFPKfLy]{Starry Road} feat, you also learn the @UUID[Compendium.pf2e.spells-srd.5bTt2CvYHPvaR7QQ]{Interplanar Teleport}<em> </em>spell and add it to your Gambit’s Aces.</p>"
+    },
+    "rules": [
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:planar-palace"
+            ]
+          }
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "gambits-aces"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "feat:starry-road"
+        ],
+        "priority": 121,
+        "property": "other-tags",
+        "value": "gambits-aces"
+      }
+    ],
+    "slug": "house-of-cards",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "xZDw4gY34gABxiYQ",
+  "sort": 0,
+  "_key": "!items!xZDw4gY34gABxiYQ"
+}

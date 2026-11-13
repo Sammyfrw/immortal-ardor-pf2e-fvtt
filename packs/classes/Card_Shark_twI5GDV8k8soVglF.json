@@ -1,0 +1,75 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Card Shark",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You know how to bypass your limits in subtle ways with your cards. You @UUID[Compendium.immortal-ardor.classes.9Tbqe5G8pdrrOUfT]{Draw Card} and then choose one card in your hand. The card chosen is tucked away in a tiny extraplanar seam of your making, trapping the future it portrays in a space removed from the universe. You can only store 1 card at a time. While in this space, you cannot use the card for Cardplay actions, but you can sift the card back into your hand as a single concentrate action. If the card remains in the space for more than 1 minute, the card is discarded as the seam you made fixes itself.</p>"
+    },
+    "rules": [],
+    "slug": "card-shark",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner",
+        "extradimensional"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "twI5GDV8k8soVglF",
+  "sort": 2600000,
+  "_key": "!items!twI5GDV8k8soVglF"
+}

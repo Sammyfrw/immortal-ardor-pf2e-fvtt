@@ -1,0 +1,62 @@
+{
+  "folder": "sN99KRW0Q9f4rDVG",
+  "name": "Time Step",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<div><p class=\"MsoNormal\"><strong>Trigger </strong>You Draw a Card.</p><hr></div><p class=\"MsoNormal\">As you tap upon the designated future, you shift your presence ever so slightly to a more advantageous position. You @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Step} to an adjacent square of your choice. If you choose to Step into difficult terrain, you can do so if you successfully make a @Check[history-lore|dc:@self.level] (or similar Lore) check against a Normal DC or an @Check[arcana|dc:@self.level|adjustment:2] check against a Hard DC for your level. On a Failure, but not a Critical Failure, you can pick a different, non-difficult terrain square to move to, otherwise you remain in your space.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "time-step",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner",
+        "sleight"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "BU3l8JfoPEij2idh",
+  "sort": 0,
+  "_key": "!items!BU3l8JfoPEij2idh"
+}

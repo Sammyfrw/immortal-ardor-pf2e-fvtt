@@ -1,0 +1,74 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Face Down",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<div><p class=\"MsoNormal\"><strong>Trigger</strong> You Cast a Spell.</p><hr><p class=\"MsoNormal\">After channeling your magic, you take some of its residual energies to create a barrier through a card in your hand. You Play a Card as you cast the triggering spell. For 1 round, you gain resistance to physical damage equal to the rank of the spell, and a +1 status bonus to a saving throw depending on the suit of the card Played:</p></div><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Strength/Constitution</strong>: Fortitude</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Dexterity/Intelligence</strong>: Reflex</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Wisdom/Charisma</strong>: Will</p></li></ul><p>@UUID[Compendium.immortal-ardor.classes.OCCrWNiE66VKpMIm]{Effect: Face Down}</p>"
+    },
+    "rules": [],
+    "slug": "face-down",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ptmCIMlF9zlrWDVT",
+  "sort": 3100000,
+  "_key": "!items!ptmCIMlF9zlrWDVT"
+}

@@ -1,0 +1,74 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Lucky Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You influence your luck as you go into the offensive. You @UUID[Compendium.immortal-ardor.classes.hsCJT2h2dgISso8T]{Play Card}, and then Strike. The suit of the card affects the properties of your strike:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Strength/Dexterity</strong>: Your Strike ignores your multi-attack penalty.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Constitution/Wisdom</strong>: Your Strike ignores the target’s resistances and hardness.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Intelligence/Charisma</strong>: Your Strike triggers a critical hit on a 19 on your attack roll if it would be a success. If your weapon has the effects of a Keen rune or a similar effect, you trigger a critical hit on an 18 instead.</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "lucky-strike",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "TLNlCkf3l75mlHy5",
+  "sort": 1100000,
+  "_key": "!items!TLNlCkf3l75mlHy5"
+}

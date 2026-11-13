@@ -1,0 +1,69 @@
+{
+  "folder": "k9qeflOZFfp4CALE",
+  "name": "Effect: All of the Luck",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Caused by @UUID[Compendium.immortal-ardor.classes.uTWmpasAs93TJLj9]{All of the Luck}</p><p>On a critical success on Thief of Luck, if you are the user of the action you can roll your next attack roll twice and take the higher result, giving the check the Fortune trait. If you are the target, you roll your next attack roll twice and take the lower result.</p>"
+    },
+    "rules": [],
+    "slug": "effect-thief-of-luck-penalty",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/commodities/flowers/clover.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "_id": "9Ku97F1EFzJf2GJb",
+  "sort": 100000,
+  "_key": "!items!9Ku97F1EFzJf2GJb"
+}

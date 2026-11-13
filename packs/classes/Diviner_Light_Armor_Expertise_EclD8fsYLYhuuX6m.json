@@ -1,27 +1,27 @@
 {
-  "folder": "YN98XSz3i0bXGAwA",
-  "name": "Master Spellcaster",
+  "folder": "oSYDMf6zbRKPmVGl",
+  "name": "Diviner Light Armor Expertise",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\"><span lang=\"EN\">Your vision for magic and what it could be continues to defy expectations. Your proficiency ranks for spell attack modifiers and spell DCs increase to master.</span></p>"
+      "value": "<p>You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.</p>"
     },
     "rules": [],
-    "slug": "master-spellcaster",
+    "slug": "diviner-light-armor-expertise",
     "_migration": {
-      "version": 0.955,
+      "version": 0.959,
       "previous": {
-        "schema": 0.953,
-        "foundry": "13.351",
-        "system": "7.10.1"
+        "schema": 0.935,
+        "foundry": "14.365",
+        "system": "8.5.0"
       }
     },
     "traits": {
       "otherTags": [],
       "value": [
-        "artifex"
+        "dervish"
       ],
       "rarity": "common"
     },
@@ -32,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 15
+      "value": 13
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -49,8 +49,12 @@
     "location": null,
     "subfeatures": {
       "proficiencies": {
-        "spellcasting": {
-          "rank": 3,
+        "light": {
+          "rank": 2,
+          "attribute": null
+        },
+        "unarmored": {
+          "rank": 2,
           "attribute": null
         }
       },
@@ -58,21 +62,21 @@
       "suppressedFeatures": []
     }
   },
-  "img": "icons/skills/trades/academics-book-study-purple.webp",
+  "img": "icons/equipment/back/mantle-collared-green.webp",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
   "ownership": {
     "default": 0,
     "xrtJn5KNHicBTyJb": 3
   },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "pf2e",
-    "systemVersion": "7.10.1"
-  },
-  "_id": "OWfhFR3Zj3ineQ0P",
+  "_id": "EclD8fsYLYhuuX6m",
   "sort": 700000,
-  "_key": "!items!OWfhFR3Zj3ineQ0P"
+  "_key": "!items!EclD8fsYLYhuuX6m"
 }

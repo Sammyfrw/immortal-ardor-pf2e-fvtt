@@ -1,0 +1,110 @@
+{
+  "folder": "k9qeflOZFfp4CALE",
+  "name": "Effect: Defensive Play",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.NADMQ7XS6kUztX4f]{Defensive Play}</p><p>You gain a +1 circumstance bonus to AC for 1 round. If the card used to grant you effect is of the Constitution or Wisdom Suits, this bonus increases to +2 instead. If Charisma is used, this grants no bonus.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "value": "{item|flags.pf2e.rulesSelections.defensivePlay}",
+        "type": "circumstance"
+      },
+      {
+        "key": "ChoiceSet",
+        "prompt": "IA.SpecificRule.Diviner.Cardplay.PromptText",
+        "choices": [
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Strength",
+            "value": 1
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Dexterity",
+            "value": 1
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Constitution",
+            "value": 2
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Intelligence",
+            "value": 1
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Wisdom",
+            "value": 2
+          },
+          {
+            "label": "IA.SpecificRule.Diviner.Cardplay.Charisma",
+            "value": 0
+          }
+        ],
+        "flag": "defensivePlayCard",
+        "rollOption": "defensive-play-card"
+      }
+    ],
+    "slug": "effect-defensive-play",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/defensive/armor-green-hex.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "W40ssK5Hb3usfAlS",
+  "sort": 600000,
+  "_key": "!items!W40ssK5Hb3usfAlS"
+}

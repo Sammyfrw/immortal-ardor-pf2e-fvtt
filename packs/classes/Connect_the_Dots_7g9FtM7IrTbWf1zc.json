@@ -1,0 +1,100 @@
+{
+  "folder": "SJgvJAFPRfCEnz00",
+  "name": "Connect the Dots",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p class=\"MsoNormal\">You have many ways for weaving fate to your whims. You gain a second Signature Sleight and can learn a new Diviner feat with the Sleight trait of 16th level or lower. Add ‘you use a Sleight’ to the list of triggers for Peer Fortune.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "flag": "signatureSleightFeat",
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                16
+              ]
+            },
+            "item:trait:sleight"
+          ],
+          "itemType": "feat"
+        },
+        "key": "ChoiceSet",
+        "prompt": "Select a Sleight feat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.signatureSleightFeat}"
+      }
+    ],
+    "slug": "connect-the-dots",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Weaver gambit"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-purple-cross.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "7g9FtM7IrTbWf1zc",
+  "sort": 0,
+  "_key": "!items!7g9FtM7IrTbWf1zc"
+}

@@ -16,14 +16,13 @@
             "item:tag:artifex-motif"
           ]
         },
-        "flag": "motif",
+        "flag": "artifexMotif",
         "key": "ChoiceSet",
         "prompt": "Select an artifex's motif."
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.motif}",
-        "flag": "sharpShading"
+        "uuid": "{item|flags.system.rulesSelections.artifexMotif}"
       }
     ],
     "slug": "artifexs-motif",
@@ -80,9 +79,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "systemVersion": "8.5.0"
   },
   "_id": "U0WZMVl0PfqtjqPU",
   "sort": 0,

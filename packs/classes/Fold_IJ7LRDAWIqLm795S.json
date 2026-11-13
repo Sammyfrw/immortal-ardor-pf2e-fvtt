@@ -1,0 +1,63 @@
+{
+  "folder": "sN99KRW0Q9f4rDVG",
+  "name": "Fold",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\"><strong>Trigger </strong>You bust.</p><div><p class=\"MsoNormal\"><strong>Frequency </strong>once per hour</p><hr></div><p class=\"MsoNormal\">When you feel fate conspire against you, you proclaim some humility or acknowledge its eminence to gain reprieve. You no longer suffer from Bust.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "fold",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "diviner"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "IJ7LRDAWIqLm795S",
+  "sort": 100000,
+  "_key": "!items!IJ7LRDAWIqLm795S"
+}

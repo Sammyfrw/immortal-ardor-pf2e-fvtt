@@ -1,0 +1,61 @@
+{
+  "folder": "sN99KRW0Q9f4rDVG",
+  "name": "Thief of Luck",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "description": {
+      "value": "<p class=\"MsoNormal\">You can take a person’s fortune away with your powers over fate. Attempt a [[/act steal dc=will]] check from up to 30 feet against the Will DC of a target you can see.</p><p class=\"MsoNormal\"><strong>Success</strong> You gain a +1 status bonus to your next attack roll until the end of your next turn. @UUID[Compendium.immortal-ardor.classes.9oudKdyeUQDG5my4]{Effect: Thief of Luck (Bonus)}</p><p class=\"MsoNormal\"><strong>Critical Success</strong> As Success, but the target suffers a -1 status penalty to their next attack roll until the end of their next turn, and then they become immune to the status penalty from Thief of Luck for 24 hours. @UUID[Compendium.immortal-ardor.classes.7qc3wWH8lQMi6cvZ]{Effect: Thief of Luck (Penalty)}</p><p class=\"MsoNormal\">The bonus and penalty increase to 2 when you reach 5th level and 3 when you reach 13th level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "thief-of-luck",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cardplay",
+        "diviner"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "YYDgznDJffDLdVr1",
+  "sort": 400000,
+  "_key": "!items!YYDgznDJffDLdVr1"
+}
