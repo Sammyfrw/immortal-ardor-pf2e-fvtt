@@ -1,15 +1,15 @@
 {
-  "folder": "SJgvJAFPRfCEnz00",
-  "name": "Lucky Number",
+  "folder": "NZ3f9fXmhh8qJINx",
+  "name": "Expert Diviner Spellcasting",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You dictate a particular number as your lucky number. When you make your daily preparations, choose a number from 1 to 6. Any time you roll a 1d6 and the outcome is that of your lucky number, including when you Draw a Card and get a suit that lines with this number, you can take the Sleight effect of this feat.</p><p class=\"MsoNormal\"><strong>Sleight </strong>You reroll the 1d6 and take the number you prefer. The respective action gains the Fortune trait.</p><p>@UUID[Compendium.immortal-ardor.classes.dO8kHE5IdPa3Zoqe]{Cardplay: Sleight Used}</p>"
+      "value": "<p>You gain the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DOc3Pf8wmVxanTIv#expert-spellcasting-feat]{Expert Spellcasting Benefits}.</p>"
     },
     "rules": [],
-    "slug": "lucky-number",
+    "slug": "expert-diviner-spellcasting",
     "_migration": {
       "version": 0.959,
       "previous": {
@@ -21,8 +21,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "diviner",
-        "sleight"
+        "archetype"
       ],
       "rarity": "common"
     },
@@ -33,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 4
+      "value": 12
     },
     "category": "class",
     "onlyLevel1": false,
@@ -45,7 +44,11 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Basic Diviner Spellcasting"
+        }
+      ]
     },
     "location": null,
     "subfeatures": {
@@ -68,7 +71,7 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "_id": "yzBvdMsUAjavrybL",
-  "sort": 50000,
-  "_key": "!items!yzBvdMsUAjavrybL"
+  "_id": "wIz19YXfTk5r7pnV",
+  "sort": 25000,
+  "_key": "!items!wIz19YXfTk5r7pnV"
 }

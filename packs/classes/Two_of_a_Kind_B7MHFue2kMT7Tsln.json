@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p class=\"MsoNormal\"><strong>Requirements </strong>You have two cards in your hand of the same suit.</p><hr></div><p class=\"MsoNormal\">Your tracing along fate’s lines have brought two similar stories together. You Play two cards of the same suit; its effects are dependent on the suit of the cards Played:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Strength/Dexterity</strong>: You make a Strike at a creature you can reach or within range. You roll the attack roll twice and take the better result; this is a Fortune effect.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Intelligence/Charisma</strong>: You can Cast a Spell which has a cast time of up to 3 actions, adding the number of actions necessary to complete the spell. This action contributes 1 action to the spell. If it requires a saving throw, one target must roll their saving throw twice and take the worse result; this is a Misfortune effect. If it requires an attack roll, you roll your attack roll twice and take the higher result; this is a Fortune effect.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Constitution/Wisdom</strong>: Your next Foreteller spell within 1 minute does not cost a focus point.</p></li></ul>"
+      "value": "<div><p class=\"MsoNormal\"><strong>Requirements </strong>You have two cards in your hand of the same suit.</p><hr></div><p class=\"MsoNormal\">Your tracing along fate’s lines have brought two similar stories together. You Play two cards of the same suit; its effects are dependent on the suit of the cards Played:</p><ul><li><p class=\"MsoListParagraphCxSpFirst\"><strong>Strength/Dexterity</strong>: You make a Strike at a creature you can reach or within range. You roll the attack roll twice and take the better result; this is a Fortune effect.</p></li><li><p class=\"MsoListParagraphCxSpMiddle\"><strong>Intelligence/Charisma</strong>: You can Cast a Spell which has a cast time of up to 3 actions, adding the number of actions necessary to complete the spell. This action contributes 1 action to the spell. If it requires a saving throw, one target must roll their saving throw twice and take the worse result; this is a Misfortune effect. If it requires an attack roll, you roll your attack roll twice and take the higher result; this is a Fortune effect.</p></li><li><p class=\"MsoListParagraphCxSpLast\"><strong>Constitution/Wisdom</strong>: Your next Foreteller spell within 1 minute does not cost a focus point.</p></li></ul><p>@UUID[Compendium.immortal-ardor.classes.B7MHFue2kMT7Tsln]{Two of a Kind}</p>"
     },
     "rules": [],
     "slug": "two-of-a-kind",
@@ -39,10 +39,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     },
     "prerequisites": {
       "value": []

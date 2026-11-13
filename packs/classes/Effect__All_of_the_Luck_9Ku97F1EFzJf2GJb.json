@@ -8,19 +8,7 @@
       "gm": "",
       "value": "<p>Caused by @UUID[Compendium.immortal-ardor.classes.uTWmpasAs93TJLj9]{All of the Luck}</p><p>On a critical success on Thief of Luck, if you are the user of the action you can roll your next attack roll twice and take the higher result, giving the check the Fortune trait. If you are the target, you roll your next attack roll twice and take the lower result.</p>"
     },
-    "rules": [
-      {
-        "key": "FlatModifier",
-        "selector": [
-          "attack-roll"
-        ],
-        "value": "-(ternary(gte(@item.level,13),3,ternary(gte(@item.level,5),2,1)))",
-        "type": "status",
-        "predicate": [
-          "item:origin:item:granter:type:feature"
-        ]
-      }
-    ],
+    "rules": [],
     "slug": "effect-thief-of-luck-penalty",
     "_migration": {
       "version": 0.959,
@@ -76,6 +64,6 @@
     "xrtJn5KNHicBTyJb": 3
   },
   "_id": "9Ku97F1EFzJf2GJb",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!items!9Ku97F1EFzJf2GJb"
 }

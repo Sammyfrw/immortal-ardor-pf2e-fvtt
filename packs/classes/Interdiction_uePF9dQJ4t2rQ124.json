@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<div><p class=\"MsoNormal\"><strong>Trigger </strong>An enemy within 30 feet of you makes a check as part of a hostile action that would negatively affect you or your allies directly or indirectly.</p><hr></div><p class=\"MsoNormal\">You stave off the intent of an opponent by tampering with their fate. You Play a Card at the triggering creature. The creature takes a -1 status penalty to the check. If the suit of the card played matches the attribute modifier used in that check (such as Strength for a melee Strike or Dexterity for a Tumble Through attempt), this penalty increases to a -2.</p>"
+      "value": "<div><p class=\"MsoNormal\"><strong>Trigger </strong>An enemy within 30 feet of you makes a check as part of a hostile action that would negatively affect you or your allies directly or indirectly.</p><hr></div><p class=\"MsoNormal\">You stave off the intent of an opponent by tampering with their fate. You Play a Card at the triggering creature. The creature takes a -1 status penalty to the check. If the suit of the card played matches the attribute modifier used in that check (such as Strength for a melee Strike or Dexterity for a Tumble Through attempt), this penalty increases to a -2.</p><p>@UUID[Compendium.immortal-ardor.classes.iM8MFtQyaExv4Eqb]{Effect: Interdiction}</p>"
     },
     "rules": [],
     "slug": "interdiction",

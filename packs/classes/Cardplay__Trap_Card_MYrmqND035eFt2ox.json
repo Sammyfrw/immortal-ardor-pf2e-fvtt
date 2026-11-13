@@ -1,0 +1,69 @@
+{
+  "folder": "k9qeflOZFfp4CALE",
+  "name": "Cardplay: Trap Card",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.immortal-ardor.classes.CYjZzJJBvOZW3pwa]{Trap Card}</p><p>You channel a spell into a Trap Card and determine how to activate it. Your Trap Card contains a spell for the next 10 minutes and gains all the traits of the spell. While it does, you cannot regain the focus point or the spell slot used for the spell in any way, until you Dismiss its spell, the Trap Card’s spell is activated, or the duration elapses. You can only have one Trap Card at a time, and until you plant the card you can carry it in your Hand.</p><p>You can secretly plant a card to conceal it. When activated, the card's spell effects are released, as if you Cast the Spell from the card's space. This allows you to target creatures from farther distances from where you actually are, even creating a magical image of you to take what actions are necessary, including Strikes.</p>"
+    },
+    "rules": [],
+    "slug": "cardplay-trap-card",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.365",
+        "system": "8.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Immortal Ardor",
+      "authors": "Sammy Rachman",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 10,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/sundries/gaming/magic-eight-ball.webp",
+  "ownership": {
+    "default": 0,
+    "xrtJn5KNHicBTyJb": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "MYrmqND035eFt2ox",
+  "sort": 0,
+  "_key": "!items!MYrmqND035eFt2ox"
+}

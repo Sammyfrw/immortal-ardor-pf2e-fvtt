@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You touch the powers of the divine to expand your horizons. Select one of the following Domains: Fate, Luck, Secrecy, Star, Time and Truth. You gain the initial Domain spell for the chosen Domain, which you cast as a Foreteller spell.</p><p class=\"MsoNormal\">When you cast a Foreteller spell from one of these Domains, you can Draw and Play a card from your hand; this grants the spell the Cardplay trait. If the suit of the card Played is the of the Charisma suit, you gain a hint of cosmic insight from touching upon a divine domain and regain the Focus point used to cast the spell. If the suit of the card Played is of the Constitution suit, you feel ire from a divine source for your attempt and Bust.</p>"
+      "value": "<p class=\"MsoNormal\">You touch the powers of the divine to expand your horizons. Select one of the following Domains: Fate, Luck, Secrecy, Star, Time and Truth. You gain the initial Domain spell for the chosen Domain, which you cast as a Foreteller spell.</p><p class=\"MsoNormal\">When you cast a Foreteller spell from one of these Domains, you can Draw and Play a card from your hand; this grants the spell the Cardplay trait. If the suit of the card Played is the of the Charisma suit, you gain a hint of cosmic insight from touching upon a divine domain and regain the Focus point used to cast the spell. If the suit of the card Played is of the Constitution suit, you feel ire from a divine source for your attempt and @UUID[Compendium.immortal-ardor.classes.arhOfryj6gDtqwZO]{Effect: Bust!}.</p>"
     },
     "rules": [],
     "slug": "sanctioned-divination",
@@ -32,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 2
     },
     "category": "class",
     "onlyLevel1": false,

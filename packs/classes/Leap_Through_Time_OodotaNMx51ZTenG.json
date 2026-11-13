@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">When you tap upon the flow of futures, you skip across time and space. When you use Time Step, you can Teleport up to 10 feet away. In addition, if you Stride or Leap 10 feet, Drop Prone or Stand, you Teleport instead, avoiding reactions triggered by movement.</p>"
+      "value": "<p class=\"MsoNormal\">When you tap upon the flow of futures, you skip across time and space. When you use @UUID[Compendium.immortal-ardor.classes.BU3l8JfoPEij2idh]{Time Step}, you can Teleport up to 10 feet away. In addition, if you @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} or @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} 10 feet, @UUID[Compendium.pf2e.actionspf2e.HYNhdaPtF1QmQbR3]{Drop Prone} or @UUID[Compendium.pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{Stand}, you Teleport instead, avoiding reactions triggered by movement.</p>"
     },
     "rules": [],
     "slug": "leap-through-time",

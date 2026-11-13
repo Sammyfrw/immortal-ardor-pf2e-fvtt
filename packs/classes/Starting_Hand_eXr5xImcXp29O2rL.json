@@ -22,7 +22,14 @@
       "license": "OGL",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "initiative",
+        "title": "{item|name}",
+        "text": "<span class=\"action-glyph\">f</span> {item|description}"
+      }
+    ],
     "slug": "starting-hand",
     "traits": {
       "otherTags": [],

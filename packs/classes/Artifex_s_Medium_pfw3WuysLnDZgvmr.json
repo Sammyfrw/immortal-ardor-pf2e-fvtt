@@ -16,14 +16,13 @@
             "item:tag:artifex-medium"
           ]
         },
-        "flag": "medium",
+        "flag": "artifexMedium",
         "key": "ChoiceSet",
         "prompt": "Select an artifex's medium."
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.pf2e.rulesSelections.medium}",
-        "flag": "rainOfColours"
+        "uuid": "{item|flags.system.rulesSelections.artifexMedium}"
       },
       {
         "key": "SpecialStatistic",
@@ -86,9 +85,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "systemVersion": "8.5.0"
   },
   "_id": "pfw3WuysLnDZgvmr",
   "sort": 0,

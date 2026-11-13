@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You sometimes know all it takes to win is a tiny little nudge. Whenever you roll a 1d6 for Drawing a Card, you can use the Sleight effect of this feat.</p><p class=\"MsoNormal\"><strong>Sleight </strong>You adjust the outcome of the roll by 1 in either direction. This replaces the outcome of the original roll. If your Roll was a 1 and you adjust it downward, it becomes a 6; if your Roll was a 6 and you adjust it upward, it becomes a 1.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you have the Double Up feat, you can also use Snake Eyes for Double Up’s d6 roll.</p>"
+      "value": "<p class=\"MsoNormal\">You sometimes know all it takes to win is a tiny little nudge. Whenever you roll a 1d6 for Drawing a Card, you can use the Sleight effect of this feat.</p><p class=\"MsoNormal\"><strong>Sleight </strong>You adjust the outcome of the roll by 1 in either direction. This replaces the outcome of the original roll. If your Roll was a 1 and you adjust it downward, it becomes a 6; if your Roll was a 6 and you adjust it upward, it becomes a 1.</p><p class=\"MsoNormal\"><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Special</span></span> If you have the @UUID[Compendium.immortal-ardor.classes.ndyInEbdNKB8d9tY]{Double-Up} feat, you can also use Snake Eyes for Double Up’s d6 roll.</p>"
     },
     "rules": [],
     "slug": null,

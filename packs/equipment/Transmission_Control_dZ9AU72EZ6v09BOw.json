@@ -42,7 +42,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "gp": 3000
+        "gp": 300
       }
     },
     "equipped": {
@@ -78,9 +78,9 @@
   "_stats": {
     "compendiumSource": "Compendium.forge-vtt-shared-compendiums-seekers-data.item-1-seekers-items.Item.dZ9AU72EZ6v09BOw",
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "6.9.0",
+    "systemVersion": "8.5.0",
     "exportSource": null
   },
   "_id": "dZ9AU72EZ6v09BOw",

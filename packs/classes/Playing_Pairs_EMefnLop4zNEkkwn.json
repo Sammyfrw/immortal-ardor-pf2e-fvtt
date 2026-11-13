@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p class=\"MsoNormal\">You have learned how to play two possible fortunes simultaneously, either unifying them to a single new future, or affecting two individual futures at once. You make a Standard Play with two cards in your hand. You can either Play both cards at the same target, or two separate ones. If you Play two cards of the same suit at the same target, you increase the status bonus the Standard Play effect by 1 (or 2 if the suit of Strength was Played).</p>"
+      "value": "<p class=\"MsoNormal\">You have learned how to play two possible fortunes simultaneously, either unifying them to a single new future, or affecting two individual futures at once. You make a Standard Play with two cards in your hand. You can either Play both cards at the same target, or two separate ones. If you Play two cards of the same suit at the same target, you increase the status bonus the Standard Play effect by 1 (or 2 if the suit of Strength was Played).</p><p>@UUID[Compendium.immortal-ardor.classes.0dbIsLZKVbUpj1RI]{Effect: Playing Pairs}</p>"
     },
     "rules": [],
     "slug": "playing-pairs",

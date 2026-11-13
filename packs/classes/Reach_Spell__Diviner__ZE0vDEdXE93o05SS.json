@@ -8,7 +8,36 @@
       "gm": "",
       "value": "<p class=\"MsoNormal\">You can extend your spells’ range. If your next action is to Cast a Spell that lists a range, increase that spell’s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "reach-spell"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:reach-spell"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.959,
@@ -21,6 +50,7 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "concentrate",
         "diviner",
         "spellshape"
       ],
