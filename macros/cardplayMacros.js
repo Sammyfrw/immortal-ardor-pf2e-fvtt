@@ -6,17 +6,15 @@ import {
 /***
  * Function to roll on the talekeeper deck table
  ***/
-async function drawTalekeeperDeck() {
+export const drawTalekeeperDeck = async() => {
   const table = await fromUuid(TALEKEEPER_DECK_UUID);
   await table.draw();
-}
+};
 
 /***
  * Function to roll on the diviner deck table
  ***/
-async function drawDivinerDeck() {
+export const drawDivinerDeck = async() => {
   const table = await fromUuid(DIVINER_DECK_UUID);
   await table.draw();
-}
-
-export {drawTalekeeperDeck, drawDivinerDeck};
+};

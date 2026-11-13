@@ -12,7 +12,7 @@ const EFFECT_AXIOM_MEDITATION_UUID = "Compendium.immortal-ardor.classes.Item.OMd
 const EFFECT_ENTROPY_MEDITATION_UUID = "Compendium.immortal-ardor.classes.Item.Kt3l4l8GX8ZddpvQ";
 const EFFECT_LIFECYCLE_MEDITATION_UUID = "Compendium.immortal-ardor.classes.Item.XTOLhIfDPSascIml";
 
-const meditationEffectSourceIDs = new Set([
+export const meditationEffectSourceIDs = new Set([
 	EFFECT_ZEPHYR_MEDITATION_UUID,
 	EFFECT_MOONBLINK_MEDITATION_UUID,
 	EFFECT_FLAMEDANCE_MEDITATION_UUID,
@@ -24,15 +24,8 @@ const meditationEffectSourceIDs = new Set([
 	EFFECT_LIFECYCLE_MEDITATION_UUID
 ]);
 
-const DERVISH_MAX_ZEAL = 5;
+export const DERVISH_MAX_ZEAL = 5;
 
 // Diviner Talekeeper Deck IDs
-const TALEKEEPER_DECK_UUID = "Compendium.immortal-ardor.tables.RollTable.GEfVulL3ouVMtudX";
-const DIVINER_DECK_UUID = "Compendium.immortal-ardor.tables.RollTable.37Ln5fINRWeJIWON";
-
-export {
-	meditationEffectSourceIDs,
-	DERVISH_MAX_ZEAL,
-	ZEALOUS_STRIKES_UUID,
-	TALEKEEPER_DECK_UUID
-};
+export const TALEKEEPER_DECK_UUID = "Compendium.immortal-ardor.tables.RollTable.GEfVulL3ouVMtudX";
+export const DIVINER_DECK_UUID = "Compendium.immortal-ardor.tables.RollTable.37Ln5fINRWeJIWON";

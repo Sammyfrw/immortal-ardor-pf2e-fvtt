@@ -6,7 +6,7 @@ import {
 /***
  * Function to increment an actor's zeal value
  ***/
-async function incrementZeal() {
+export const incrementZeal = async () => {
   // get the selected actor and make sure there's only one selected
   const actors = canvas.tokens.controlled;
   if (actors.length != 1) {
@@ -43,7 +43,7 @@ async function incrementZeal() {
         content: `<b>${name}</b> gains ${addedZeal} Zeal. Zeal set to ${totalZeal}.`,
     });
   }
-} 
+}; 
 
 async function showZealPopup(actorCurrentZeal) {
   let zeal = await Dialog.wait({
@@ -80,7 +80,7 @@ function askZealPopupOption(zeal) {
 /***
  * Function to use a Zenith, which depletes a creature's Zeal.
  ***/
-async function useZenith() {
+export const useZenith = async() => {
   // get the selected actor and make sure there's only one selected
   const actors = canvas.tokens.controlled;
   if (actors.length != 1) {
@@ -133,6 +133,4 @@ async function useZenith() {
       speaker,
       content: messageContent,
   });
-}
-
-export {incrementZeal, useZenith};
+};
